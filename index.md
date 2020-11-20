@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+<p style="float:right;"> Welcome to the Official Terraria Origins Wiki</p>
 
 You can use the [editor on GitHub](https://github.com/Tyfyter/OriginsWiki/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
