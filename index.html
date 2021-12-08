@@ -2,10 +2,29 @@
 <html lang="en">
 	<head>
 		<script src="automarkdown.js"></script>
+		<style>
+			details > div {
+				margin-left: 1em;
+			}
+		</style>
 	</head>
 	<body>
-		<div id="content">
-			 <a href="page2.html"><b>te</b>st <i>hyper</i>link</a> 
-		</div>
+		<article id="content">
+			<a href="page2.html"><b>te</b>st <i>hyper</i>link</a>
+			<div id="table-of-contents" style="border: 1px solid grey; display: table; margin: 24px auto 24px 0;"></div>
+			<details class="section" id="section1">
+				<summary>section number 1</summary>
+				<div>section 1
+					<details class="section" id="section1.1">
+						<summary>section number 1.1</summary>
+						<div>this is section 1.1</div>
+					</details>
+				</div>
+			</details>
+			<details class="section" id="section2">
+				<summary>section number 2</summary>
+				<div>section 2</div>
+			</details>
+		</article>
 	</body>
 </html>

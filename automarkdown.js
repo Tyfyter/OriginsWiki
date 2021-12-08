@@ -48,20 +48,57 @@ function getSearchLinks(query, filter){
 	var regexQuery = new RegExp("("+query+")","gi");
 	var results = [];
 	requestAndProcessPageList(function(re){
-		for(var i = 0; i < re.length; i++){
-			if(re[i].match(regexQuery)){
-				results.push(re[i]);
-			}
-		}
+		results = re.filter(function(v){
+			return v.match(regexQuery);
+		});
 	}, filter, true);
+	//window.alert(results);
+	results = results.sort(function(a, b) {
+		regexQuery.exec(a);
+		var aIndex = regexQuery.lastIndex;
+		regexQuery.exec(b);
+		var bIndex = regexQuery.lastIndex;
+		return aIndex-bIndex;
+	});
+	//window.alert(results);
 	return "<div>"+results.map(function(v){
 		return "<a href="+v+">"+v.replace(/\.[^.]+/g, "").replace(regexQuery, "<b>\$1</b>")+"</a>";
 	}).join("<br>")+"</div>"
 }
 
 //requestAndProcessPageList(appendAllToContent);
+function forDescendants(element, action, actionFilter, indexer, index){
+	var iFiltered = 0;
+	for(var i = 0; i < element.children.length; i++){
+		var currentIndex = index;
+		if(actionFilter(element.children[i])){
+			currentIndex = indexer(index, iFiltered++);
+			action(element.children[i], currentIndex);
+		}
+		forDescendants(element.children[i], action, actionFilter, indexer, currentIndex);
+	}
+}
+
+function getSummaryOrId(element){
+	var summary = element.getElementsByTagName("summary")[0];
+	
+	if(summary){
+		return summary.innerHTML;
+	}
+	return element.id;
+}
 
 // do things after the DOM loads fully
 window.addEventListener("load", function () {
-	document.getElementById("content").innerHTML += getSearchLinks("pa");
+	var content = document.getElementById("content");
+	content.innerHTML += getSearchLinks("pa");//example code
+	var toc = document.getElementById("table-of-contents");
+	if(toc){
+		toc.innerHTML = "<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
+		var contents = "<div style = \"border: 1px solid grey; margin: 0px; padding: 0.2em;\">"
+		forDescendants(content, (v, i) => {
+			contents += "<div style=\"margin-left: "+0.2*i.length+"em\"><a href=#"+v.id+">"+i+" "+getSummaryOrId(v)+"</a></div>"
+		}, (v) => v.className == "section", (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
+		toc.innerHTML += contents+"</div>"
+	}
 });
