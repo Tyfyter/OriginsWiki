@@ -1,0 +1,16 @@
+/* this makes every layer of subsections have more indentation */
+details > div {
+	margin-left: 1em;
+}
+
+/* this makes section titles larger  */
+details > summary {
+	font-size: 111%;
+}
+
+/* this can be used as a simple divider */
+.divider {
+	height: 0px;
+	width: 100%;
+	border-top: 1px solid black;
+}
