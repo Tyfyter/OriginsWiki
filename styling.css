@@ -1,3 +1,9 @@
+:root {
+  --header-bg-color: rgba(0, 0, 0, 0.15);
+  --biomecontents-bg-color: rgb(235, 235, 235);
+}
+
+
 /* this makes every layer of subsections have more indentation */
 details > div {
 	margin-left: 1em;
@@ -8,9 +14,55 @@ details > summary {
 	font-size: 111%;
 }
 
+.fill {
+	display: flex;
+	flex-grow: 1;
+}
+
 /* this can be used as a simple divider */
 .divider {
 	height: 0px;
-	width: 100%;
+	display: flex;
+	flex-grow: 1;
 	border-top: 1px solid black;
+}
+
+.biomecontents {
+	width: 95%;
+	background-color: var(--biomecontents-bg-color);
+	border: 1px solid black;
+	border-radius: 5px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+.biomecontents > .subcontents {
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+}
+
+.subcontents {
+	background-color: rgb(0, 0, 0, 0.1);
+	border: 1px solid darkslategrey;
+	border-radius: 5px;
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+}
+
+.header {
+	font-size: 105.5%;
+	display: flex;
+}
+
+.header > .text {
+	margin-left: 2.5px;
+	margin-right: 2.5px;
+	/*background-color: var(--header-bg-color);
+	padding-left: 7.5px;*/
+}
+
+.header > .padding {
+	/*width: calc(100% - 7.5px);*/
+	display: table-cell;
+	background-color: var(--header-bg-color);
+	/*padding-left: 7.5px;*/
 }

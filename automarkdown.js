@@ -88,10 +88,79 @@ function getSummaryOrId(element){
 	return element.id;
 }
 
+function processLink(targetName, image, targetPage){
+	if(image){
+		targetName = '<img src='+image+' style="max-height: 2em; vertical-align: middle;">' + targetName;
+	}
+	if(targetPage !== undefined){
+		targetPage = (targetName.replace(' ', '_')+".html");
+	}else if(!targetPage){
+		console.log("no link target, returning "+targetName);
+		return targetName;
+	}
+	console.log('link target, returning <a href='+targetPage+'>'+targetName+'</a>');
+	return '<a href='+targetPage+'>'+targetName+'</a>';
+}
+
+function tryParseEgg(egg){
+	try{
+		let eggVal = '{'+egg.replace(/[{}]/g, '')
+		.replace(/(?<="header":)['"]?(\w*)['"]?,/g, '"$1",items:[')
+		.replace(/,([^{])/g, ',"$1')
+		.replace(/([^}"]),/g, '$1",')+']}';
+		console.log("try object:"+eggVal);
+
+		return [0, JSON.parse(eggVal)];
+	}catch{}
+	try{
+		let eggVal = '["'+egg.replace(/[{}]/g, '')
+		.replace(/([^"])([\|}])/g, '$1"$2')
+		.replace(/([\|{])([^"])/g, '$1"$2');
+		console.log("try array:"+eggVal)+'"]';
+
+		return [1, JSON.parse(eggVal)];
+	}catch{}
+	return [-1, null];
+}
+
+function makeHeader(text){
+	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
+}
+
+function processBiomeContents(data, depth){
+	if(!depth){
+		depth = 0;
+	}
+	var result = '';
+	if(data.header){
+		result += makeHeader(data.header);
+	}
+	if(data.items){
+		var style = "";
+		if(data.style){
+			style = data.style;
+		}
+		result += '<div class="subcontents '+style+'">';
+
+		for(var i = 0; i < data.items.length; i++){
+			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
+				result += processLink(data.items[i]);
+			}else if(data.items[i] instanceof Array){
+				result += processLink(...data.items[i]);
+			}else{
+				result += processBiomeContents(data.items[i], depth + 1);
+			}
+		}
+
+		result += '</div>';
+	}
+	return result;
+}
+
 // do things after the DOM loads fully
 window.addEventListener("load", function () {
 	var content = document.getElementById("content");
-	content.innerHTML += getSearchLinks("pa");//example code
+	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
 		toc.innerHTML = "<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
@@ -101,4 +170,95 @@ window.addEventListener("load", function () {
 		}, (v) => v.className == "section", (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
 		toc.innerHTML += contents+"</div>"
 	}
+	let subsIndex = 0;
+	let substitutions = [];
+
+	const linkRegex = /\[link[^]]*]/gi;
+	const biomeContentRegex = /\{biomecontent([^\}]*)}/gi;
+	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
+	const commaInserterRegex = /(?<=[^[{\s])\s*\n\s*(?=[^\]}\s])/g;
+	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
+	const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
+	const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
+	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
+
+	for (let item of content.innerHTML.matchAll(linkRegex)) {
+		let current = group[0].split('|');
+		let result = processLink(current[0], current[1], current[2]);
+		content.innerHTML = content.innerHTML.replace(item[0], result);
+	}
+
+	console.log("items:");
+	let currentMatch = biomeContentRegex.exec(content.innerHTML);
+	while(currentMatch !== null){
+		console.log("an item");
+		let result = "<div class=\"biomecontents\">";
+		let item = currentMatch[1];
+		
+		let currentTag = htmlTagRegex.exec(item);
+		while(currentTag !== null){
+			item = item.replace(currentTag[0], "§"+subsIndex+"§");
+			substitutions[subsIndex++] = currentTag[0];
+			currentTag = htmlTagRegex.exec(item);
+		}
+
+		item = item.replaceAll(commaInserterRegex, ',');
+		item = item.replace(/\s/g, '');
+		item = item.replaceAll(/['"]?header['"]?/g, '"header"');
+		item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
+		item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
+		item = item.replaceAll(/\]\[/g, "],[");
+		item = item.replaceAll(/(?<=((?<!https):)|[{[,])(?!['"[{])/g, '"');
+		item = item.replaceAll(/(?<!['"\]}])(?=((?<!https):)|[,\]}])/g, '"');
+		item = [...item];//spread string into chars
+		//var repr = [];
+		var depth = 0;
+		for(var i = 0; i < item.length; i++){
+			if(item[i] === ']'){
+				//repr[i] = '<span style="color:blue">'+depth+'</span>';
+				if(depth === 1){
+					item[i] = '}';
+				}
+				depth--;
+			}else if(item[i] === '['){
+				//repr[i] = '<span style="color:red">'+depth+'</span>';
+				if(depth === 0){
+					item[i] = '{';
+				}
+				depth++;
+			} else {
+				//repr[i] = depth;
+			}
+		}
+		item = item.join('');//reassemble string//+'<br>'+repr.join('');
+		result += JSON.stringify(JSON.parse(item));
+		result += processBiomeContents(JSON.parse(item));
+		result += "</div>";
+		content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
+		currentMatch = biomeContentRegex.exec(content.innerHTML);
+	}
+	console.log(subsIndex+" substitutions:");
+	for(var i = 0; i < substitutions.length; i++){
+		console.log(substitutions[i]);
+		content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i])
+	}
+	//let item of content.innerHTML.matchAll(biomeContentRegex)
+	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
+	let index = 0;
+	let substitutions = [];
+	let currentEgg = uneggedCurlyBracketRegex.exec(currentItem);
+	while(currentEgg !== null){
+		currentItem = currentItem.replace(currentEgg[0], "§"+index);
+		substitutions[index++] = currentEgg[0];
+		currentEgg = uneggedCurlyBracketRegex.exec(currentItem);
+	}
+	for(let i = 0; i < substitutions.length; i++){
+		console.log(tryParseEgg(substitutions[i]));
+	}
+	for(let group of item[0].replace(/\s/g, '').matchAll()){
+		result = "<div class=\"subcontents\">";
+			let current = group[0].replace(/(\s*{)*(}\s*)* /g,'').split('|');
+			result += processLink(current[0], current[1], current[2]);
+		result += "</div>";
+	}*/
 });
