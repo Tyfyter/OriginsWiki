@@ -35,9 +35,15 @@ details > summary {
 	padding-top: 7.5px;
 	padding-bottom: 7.5px;
 }
-.biomecontents > .subcontents {
-	margin-left: 2.5px;
-	margin-right: 2.5px;
+
+.biomecontents > .subcontents, .subcontents > .subcontents {
+	margin-left: 3.5px;
+	margin-right: 3.5px;
+}
+
+.biomecontents > span, .subcontents > span {
+	margin-left: 7.5px;
+	margin-right: 15px;
 }
 
 .subcontents {
@@ -65,4 +71,9 @@ details > summary {
 	display: table-cell;
 	background-color: var(--header-bg-color);
 	/*padding-left: 7.5px;*/
+}
+
+.linkimage {
+	max-height: 3em;
+	vertical-align: middle;
 }

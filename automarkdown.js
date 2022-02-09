@@ -90,15 +90,13 @@ function getSummaryOrId(element){
 
 function processLink(targetName, image, targetPage){
 	if(image){
-		targetName = '<img src='+image+' style="max-height: 2em; vertical-align: middle;">' + targetName;
+		targetName = '<img src='+image+' class="linkimage">' + targetName;
 	}
 	if(targetPage !== undefined){
 		targetPage = (targetName.replace(' ', '_')+".html");
 	}else if(!targetPage){
-		console.log("no link target, returning "+targetName);
 		return targetName;
 	}
-	console.log('link target, returning <a href='+targetPage+'>'+targetName+'</a>');
 	return '<a href='+targetPage+'>'+targetName+'</a>';
 }
 
@@ -140,19 +138,18 @@ function processBiomeContents(data, depth){
 		if(data.style){
 			style = data.style;
 		}
-		result += '<div class="subcontents '+style+'">';
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += processLink(data.items[i]);
+				result += '<span>'+processLink(data.items[i])+'</span>';
 			}else if(data.items[i] instanceof Array){
-				result += processLink(...data.items[i]);
+				result += '<span>'+processLink(...data.items[i])+'</span>';
 			}else{
+				result += '<div class="subcontents '+style+'">';
 				result += processBiomeContents(data.items[i], depth + 1);
+				result += '</div>';
 			}
 		}
-
-		result += '</div>';
 	}
 	return result;
 }
@@ -231,7 +228,6 @@ window.addEventListener("load", function () {
 			}
 		}
 		item = item.join('');//reassemble string//+'<br>'+repr.join('');
-		result += JSON.stringify(JSON.parse(item));
 		result += processBiomeContents(JSON.parse(item));
 		result += "</div>";
 		content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
