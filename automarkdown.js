@@ -1,4 +1,5 @@
 //window.alert("test");
+const linkSuffix = (document.location.protocol === 'https:') ? '' : '.html';
 
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
@@ -119,7 +120,7 @@ function processLink(targetName, image, targetPage, note){
 	}
 	var result = '<div class="linkdiv">';
 	if(targetPage === undefined){
-		targetPage = (targetName.replace(' ', '_')+".html");
+		targetPage = (targetName.replace(' ', '_')+linkSuffix);
 	}
 	if(image){
 		result += '<div class="linkimage"><img src='+image+'></div>';
