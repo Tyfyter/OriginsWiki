@@ -94,7 +94,9 @@ function setDarkMode(value){
 }
 
 function getDarkMode(){
-	return /darkmode:(.*?)(;|$)/.exec(document.cookie.toString())[1] === 'true';
+	const getDarkModeRegex = /darkmode:(.*?)(;|$)/;
+	var match = getDarkModeRegex.exec(document.cookie.toString());
+	return match && (match[1] === 'true');
 }
 
 function refreshDarkMode(){
@@ -292,7 +294,6 @@ window.addEventListener("load", function () {
 		//console.log('after aNPANR'+item);
 		
 		//result += item;
-			console.error(history);
 		try{
 			var sections = JSON.parse('['+item+']');
 			for(var i = 0; i < sections.length; i++){
