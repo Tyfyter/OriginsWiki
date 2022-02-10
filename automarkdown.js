@@ -1,4 +1,4 @@
-//window.alert("test");
+window.alert("test");
 var linkSuffix = '.html';
 
 function createFilteredResponseHandler(filter, action, includeExtension){
