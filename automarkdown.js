@@ -1,4 +1,4 @@
-window.alert("test");
+//window.alert("test");
 var linkSuffix = '.html';
 
 function createFilteredResponseHandler(filter, action, includeExtension){
@@ -185,13 +185,11 @@ function processBiomeContents(data, depth){
 
 // do things after the DOM loads fully
 window.addEventListener("load", function () {
-	document.getElementById("content").innerHTML+="start";
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
 	}
 	refreshDarkMode(getDarkMode());
 	var content = document.getElementById("content");
-	content.innerHTML+="content defined";
 	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
@@ -217,7 +215,6 @@ window.addEventListener("load", function () {
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
 
 	try{
-		content.innerHTML+="reached links";
 		for (let item of content.innerHTML.matchAll(linkRegex)) {
 			let current = pruneLinkArgs(item[1].split('|'));
 			let result = processLink(...current);
@@ -229,7 +226,6 @@ window.addEventListener("load", function () {
 		window.alert(e);
 	}
 
-	content.innerHTML+="reached biomecontent";
 	console.log("items:");
 	let currentMatch = biomeContentRegex.exec(content.innerHTML);
 	while(currentMatch !== null){
@@ -319,7 +315,6 @@ window.addEventListener("load", function () {
 		content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
 		currentMatch = biomeContentRegex.exec(content.innerHTML);
 	}
-	content.innerHTML+="reached substitutions";
 	console.log(subsIndex+" substitutions:");
 	for(var i = 0; i < substitutions.length; i++){
 		console.log(substitutions[i]);

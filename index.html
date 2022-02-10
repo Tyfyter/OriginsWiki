@@ -7,15 +7,22 @@
 	<body>
 		<article id="content">
 			{biomecontent
-				[
+				{
 					header:Characters
 					items:[
-						[header:<span>from <a href="https://terraria.fandom.com/wiki/The_Corruption">The Corruption</a></span>,test 1, test 2, test 3]
-						[Cubix]
-						[test,https://www.w3schools.com/tags/img_girl.jpg]
+						{
+							header:[link The Corruption|$default|https://terraria.fandom.com/wiki/The_Corruption],
+							items:[
+								test 1,
+								test 2,
+								test 3
+							]
+						}
+						Cubix
+						test
 					]
-				]
-			}
+				}
+			biomecontent}
 			<a href="biomes.html"><b>Biomes</b></a>
 			<div id="table-of-contents" style="border: 1px solid grey; display: table; margin: 24px auto 24px 0;"></div>
 			<details class="section" id="section1">
