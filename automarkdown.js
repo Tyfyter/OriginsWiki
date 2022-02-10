@@ -87,6 +87,27 @@ function getSummaryOrId(element){
 	}
 	return element.id;
 }
+
+function setDarkMode(value){
+	document.cookie = 'darkmode:'+value+'; path=/; Secure';
+	refreshDarkMode();
+}
+
+function getDarkMode(){
+	return /darkmode:(.*?)(;|$)/.exec(document.cookie.toString())[1] === 'true';
+}
+
+function refreshDarkMode(){
+	var value = getDarkMode();
+	var content = document.getElementById("content");
+	console.log('setting dark mode to '+value);
+	if(value){
+		content.className = content.className + " darkmode";
+	} else {
+		content.className = content.className.replaceAll('darkmode', '');
+	}
+}
+
 function processLink(targetName, image, targetPage, note){
 	if(image === '$default'){
 		image = undefined;
@@ -161,6 +182,7 @@ function processBiomeContents(data, depth){
 
 // do things after the DOM loads fully
 window.addEventListener("load", function () {
+	refreshDarkMode(getDarkMode());
 	var content = document.getElementById("content");
 	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");

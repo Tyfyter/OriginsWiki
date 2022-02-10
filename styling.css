@@ -1,9 +1,18 @@
 :root {
-  --header-bg-color: rgba(20, 0, 0, 0.15);
-  --subcontents-bg-color: rgb(20, 0, 0, 0.15);
+  --article-bg-color: rgb(255, 255, 255);
+  --article-text-color: rgb(0, 0, 0);
+  --header-bg-color: rgba(0, 0, 0, 0.15);
+  --subcontents-bg-color: rgb(0, 0, 0, 0.15);
   --biomecontents-bg-color: rgb(235, 235, 235);
 }
 
+article#content.darkmode {
+  --article-bg-color: rgb(20, 0, 0);
+  --article-text-color: rgb(235, 235, 255);
+  --header-bg-color: rgba(20, 0, 0, 0.15);
+  --subcontents-bg-color: rgb(20, 0, 0, 0.15);
+  --biomecontents-bg-color: rgb(235, 235, 235, 0.5);
+}
 
 /* this makes every layer of subsections have more indentation */
 details > div {
@@ -13,6 +22,11 @@ details > div {
 /* this makes section titles larger  */
 details > summary {
 	font-size: 111%;
+}
+
+article#content {
+	background-color: var(--article-bg-color);
+	color: var(--article-text-color);
 }
 
 .fill {
