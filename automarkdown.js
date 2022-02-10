@@ -213,13 +213,16 @@ window.addEventListener("load", function () {
 	//const allNonPropertiesAreNameless = /,("[^[\]"]+?"(,"[^[\]"]+?")*)(?![:\]])/g;
 	//const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
-
-	for (let item of content.innerHTML.matchAll(linkRegex)) {
-		let current = pruneLinkArgs(item[1].split('|'));
-		let result = processLink(...current);
-		substitutions[subsIndex] = result;
-		content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
-		subsIndex++;
+	try{
+		for (let item of content.innerHTML.matchAll(linkRegex)) {
+			let current = pruneLinkArgs(item[1].split('|'));
+			let result = processLink(...current);
+			substitutions[subsIndex] = result;
+			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
+			subsIndex++;
+		}
+	}catch(e){
+		window.alert(e);
 	}
 
 	console.log("items:");
