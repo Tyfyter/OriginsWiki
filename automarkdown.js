@@ -1,5 +1,5 @@
 //window.alert("test");
-const linkSuffix = (document.location.protocol === 'https:') ? '' : '.html';
+var linkSuffix = '.html';
 
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
@@ -185,6 +185,9 @@ function processBiomeContents(data, depth){
 
 // do things after the DOM loads fully
 window.addEventListener("load", function () {
+	if (document.location.protocol === 'https:'){
+		linkSuffix = '';
+	}
 	refreshDarkMode(getDarkMode());
 	var content = document.getElementById("content");
 	//content.innerHTML += getSearchLinks("pa");//example code
