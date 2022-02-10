@@ -87,42 +87,39 @@ function getSummaryOrId(element){
 	}
 	return element.id;
 }
-
-function processLink(targetName, image, targetPage){
-	if(image){
-		targetName = '<img src='+image+' class="linkimage">' + targetName;
+function processLink(targetName, image, targetPage, note){
+	if(image === '$default'){
+		image = undefined;
 	}
-	if(targetPage !== undefined){
+	if(targetPage === '$default'){
+		targetPage = undefined;
+	}
+	var result = '<div class="linkdiv">';
+	if(targetPage === undefined){
 		targetPage = (targetName.replace(' ', '_')+".html");
-	}else if(!targetPage){
-		return targetName;
 	}
-	return '<a href='+targetPage+'>'+targetName+'</a>';
-}
-
-function tryParseEgg(egg){
-	try{
-		let eggVal = '{'+egg.replace(/[{}]/g, '')
-		.replace(/(?<="header":)['"]?(\w*)['"]?,/g, '"$1",items:[')
-		.replace(/,([^{])/g, ',"$1')
-		.replace(/([^}"]),/g, '$1",')+']}';
-		console.log("try object:"+eggVal);
-
-		return [0, JSON.parse(eggVal)];
-	}catch{}
-	try{
-		let eggVal = '["'+egg.replace(/[{}]/g, '')
-		.replace(/([^"])([\|}])/g, '$1"$2')
-		.replace(/([\|{])([^"])/g, '$1"$2');
-		console.log("try array:"+eggVal)+'"]';
-
-		return [1, JSON.parse(eggVal)];
-	}catch{}
-	return [-1, null];
+	if(image){
+		result += '<div class="linkimage"><img src='+image+'></div>';
+	}
+	if(!targetPage){
+		return targetName + '</div>';
+	}
+	result += '<div class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href='+targetPage+'>'+targetName+'</a>';
+	if(note){
+		result += '<br><span class="linknote">'+note+'</span>';
+	}
+	return result + '</div></div>';
 }
 
 function makeHeader(text){
 	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
+}
+
+function pruneLinkArgs(array){
+	for(var i = 0; i < array.length; i++){
+		array[i] = array[i].trim();
+	}
+	return array;
 }
 
 function processBiomeContents(data, depth){
@@ -134,10 +131,8 @@ function processBiomeContents(data, depth){
 		result += makeHeader(data.header);
 	}
 	if(data.items){
+		var classes = "";
 		var style = "";
-		if(data.style){
-			style = data.style;
-		}
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
@@ -145,7 +140,17 @@ function processBiomeContents(data, depth){
 			}else if(data.items[i] instanceof Array){
 				result += '<span>'+processLink(...data.items[i])+'</span>';
 			}else{
-				result += '<div class="subcontents '+style+'">';
+				classes = "";
+				style = "";
+				if(data.items && data.items[i]){
+					if(data.items[i].class){
+						classes = ' '+data.items[i].class;
+					}
+					if(data.items[i].style){
+						style = 'style="'+data.items[i].style+'"';
+					}
+				}
+				result += '<div class="subcontents'+classes+'"'+style+'>';
 				result += processBiomeContents(data.items[i], depth + 1);
 				result += '</div>';
 			}
@@ -170,19 +175,23 @@ window.addEventListener("load", function () {
 	let subsIndex = 0;
 	let substitutions = [];
 
-	const linkRegex = /\[link[^]]*]/gi;
-	const biomeContentRegex = /\{biomecontent([^\}]*)}/gi;
+	const linkRegex = /\[link(.*?)]/gi;
+	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
-	const commaInserterRegex = /(?<=[^[{\s])\s*\n\s*(?=[^\]}\s])/g;
+	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
+	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
 	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
-	const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
-	const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
+	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
+	//const allNonPropertiesAreNameless = /,("[^[\]"]+?"(,"[^[\]"]+?")*)(?![:\]])/g;
+	//const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
 
 	for (let item of content.innerHTML.matchAll(linkRegex)) {
-		let current = group[0].split('|');
-		let result = processLink(current[0], current[1], current[2]);
-		content.innerHTML = content.innerHTML.replace(item[0], result);
+		let current = pruneLinkArgs(item[1].split('|'));
+		let result = processLink(...current);
+		substitutions[subsIndex] = result;
+		content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
+		subsIndex++;
 	}
 
 	console.log("items:");
@@ -190,7 +199,7 @@ window.addEventListener("load", function () {
 	while(currentMatch !== null){
 		console.log("an item");
 		let result = "<div class=\"biomecontents\">";
-		let item = currentMatch[1];
+		let item = currentMatch[2];
 		
 		let currentTag = htmlTagRegex.exec(item);
 		while(currentTag !== null){
@@ -198,37 +207,79 @@ window.addEventListener("load", function () {
 			substitutions[subsIndex++] = currentTag[0];
 			currentTag = htmlTagRegex.exec(item);
 		}
+		var time = 1;
+		var history = [item];
 
 		item = item.replaceAll(commaInserterRegex, ',');
-		item = item.replace(/\s/g, '');
-		item = item.replaceAll(/['"]?header['"]?/g, '"header"');
+		history[time++] = item;
+
+		item = item.replace(spaceDeleterRegex, '');
+		history[time++] = item;
+		
+		item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
+		history[time++] = item;
+		
 		item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
-		item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
-		item = item.replaceAll(/\]\[/g, "],[");
-		item = item.replaceAll(/(?<=((?<!https):)|[{[,])(?!['"[{])/g, '"');
-		item = item.replaceAll(/(?<!['"\]}])(?=((?<!https):)|[,\]}])/g, '"');
-		item = [...item];//spread string into chars
-		//var repr = [];
+		history[time++] = item;
+		
+		/*(item = [...item];//spread string into chars
+		var repr = [];
 		var depth = 0;
 		for(var i = 0; i < item.length; i++){
 			if(item[i] === ']'){
-				//repr[i] = '<span style="color:blue">'+depth+'</span>';
+				repr[i] = '<b style="color:blue">'+depth+'</b>';
 				if(depth === 1){
 					item[i] = '}';
 				}
 				depth--;
 			}else if(item[i] === '['){
-				//repr[i] = '<span style="color:red">'+depth+'</span>';
+				repr[i] = '<b style="color:red">'+depth+'</b>';
 				if(depth === 0){
 					item[i] = '{';
 				}
 				depth++;
 			} else {
-				//repr[i] = depth;
+				repr[i] = depth;
 			}
 		}
-		item = item.join('');//reassemble string//+'<br>'+repr.join('');
-		result += processBiomeContents(JSON.parse(item));
+		item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
+		
+		//console.log('before aPHAOR'+item);
+		//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
+		//console.log('after aPHAOR'+item);
+		
+		item = item.replaceAll(/\]\[/g, "],[");
+		item = item.replaceAll(/\}\{/g, "},{");
+		history[time++] = item;
+		
+		item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
+		history[time++] = item;
+		
+		item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
+		history[time++] = item;
+		
+		item = item.replaceAll(/\\,/g, ',');
+		item = item.replaceAll(/\\:/g, ':');
+		history[time++] = item;
+		
+		
+		//console.log('before aNPANR'+item);
+		//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
+		//history[time++] = item;
+		
+		//console.log('after aNPANR'+item);
+		
+		//result += item;
+			console.error(history);
+		try{
+			var sections = JSON.parse('['+item+']');
+			for(var i = 0; i < sections.length; i++){
+				result += processBiomeContents(sections[i]);
+			}
+		}catch(e){
+			console.error(history);
+			console.error("error\n"+e+"\nwhile parsing\n"+item);
+		}
 		result += "</div>";
 		content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
 		currentMatch = biomeContentRegex.exec(content.innerHTML);

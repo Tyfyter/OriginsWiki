@@ -1,5 +1,6 @@
 :root {
-  --header-bg-color: rgba(0, 0, 0, 0.15);
+  --header-bg-color: rgba(20, 0, 0, 0.15);
+  --subcontents-bg-color: rgb(20, 0, 0, 0.15);
   --biomecontents-bg-color: rgb(235, 235, 235);
 }
 
@@ -32,7 +33,7 @@ details > summary {
 	background-color: var(--biomecontents-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
-	padding-top: 7.5px;
+	padding-top: 2.5px;
 	padding-bottom: 7.5px;
 }
 
@@ -43,20 +44,24 @@ details > summary {
 
 .biomecontents > span, .subcontents > span {
 	margin-left: 7.5px;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .subcontents {
-	background-color: rgb(0, 0, 0, 0.1);
+	background-color: var(--subcontents-bg-color);
 	border: 1px solid darkslategrey;
 	border-radius: 5px;
-	padding-top: 7.5px;
+	padding-top: 2.5px;
 	padding-bottom: 7.5px;
+	margin-top: 7.5px;
 }
 
 .header {
 	font-size: 105.5%;
 	display: flex;
+	margin-top: 7.5px;
+	margin-bottom: 3.5px;
+	--padding-color: var(--header-bg-color);
 }
 
 .header > .text {
@@ -69,11 +74,43 @@ details > summary {
 .header > .padding {
 	/*width: calc(100% - 7.5px);*/
 	display: table-cell;
-	background-color: var(--header-bg-color);
+	background-color: var(--padding-color);
 	/*padding-left: 7.5px;*/
 }
 
+.miniheader > .header {
+	--padding-color: transparent;
+}
+
+.linkdiv {
+	display:inline-block;
+}
+
 .linkimage {
+	display:inline-block;
 	max-height: 3em;
 	vertical-align: middle;
+}
+
+.linktext {
+	display:inline-block;
+	/*vertical-align: middle;*/
+}
+
+.linknote {
+	font-size:0.9rem;
+}
+
+.inlineblock {
+	display: inline-block;
+}
+
+.inlinefill {
+	display: inline-flex;
+	flex-grow: 1;
+}
+
+.inlinefb {
+	display: inline-flexbox;
+	flex-grow: 1;
 }
