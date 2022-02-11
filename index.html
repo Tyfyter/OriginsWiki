@@ -3,10 +3,13 @@
 	<head>
 		<script src="automarkdown.js"></script>
 		<script>
-			if(jsLoaded){
-				window.alert('javascript not loaded');
-			}else{
-				window.alert('javascript loaded');
+			try{
+				if(jsLoaded){
+					console.log('javascript loaded normally');
+				}
+				console.log('cosmic ray bit flip occurred or hardware is failing');
+			}catch(e){
+				eval("console.log('javascript loaded barbarically');");
 			}
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
