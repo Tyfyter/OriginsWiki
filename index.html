@@ -3,7 +3,11 @@
 	<head>
 		<script src="automarkdown.js"></script>
 		<script>
-			window.alert('!');
+			if(jsLoaded){
+				window.alert('javascript not loaded');
+			}else{
+				window.alert('javascript loaded');
+			}
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
 	</head>
