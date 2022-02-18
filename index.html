@@ -15,15 +15,16 @@
 				}catch(e){
 					let log = document.getElementById("log");
 					try{
-						log.textContent+= '\n'+e+', loading javascript by force';
+						log.innerText+= e+', loading javascript by force';
 						let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
-						log.textContent+= '\npassed response';
+						log.innerText+= '\npassed response';
 						let text = await response.text();
-						log.textContent+= '\npassed text';
+						log.innerText+= '\npassed text';
 						eval(text);
-						log.textContent+= '\npassed eval';
+						log.innerText+= '\npassed eval';
 						onLoad();
-						log.textContent+= '\njavascript loaded by force';
+						log.innerText+= '\njavascript loaded by force';
+						log.hidden = true;
 					}catch(err){
 						log.innerHTML+= '<div style="color:red;">fatal: '+err+'</div>';
 					}
