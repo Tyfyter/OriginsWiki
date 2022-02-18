@@ -2,6 +2,35 @@
 <html lang="en">
 	<head>
 		<script src="automarkdown.js" defer></script>
+		<script>
+			window.addEventListener("load", async function () {
+				try{
+					window.alert(jsLoaded);
+					if(jsLoaded){
+						onLoad();
+						window.alert('javascript loaded normally');
+					}else{
+						window.alert('cosmic ray bit flip occurred or hardware is failing');
+					}
+				}catch(e){
+					let log = document.getElementById("log");
+					try{
+						log.innerText+= e+', loading javascript by force';
+						let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
+						log.innerText+= '\npassed response';
+						let text = await response.text();
+						log.innerText+= '\npassed text';
+						eval(text);
+						log.innerText+= '\npassed eval';
+						onLoad();
+						log.innerText+= '\njavascript loaded by force';
+						log.hidden = true;
+					}catch(err){
+						log.innerHTML+= '<div style="color:red;">fatal: '+err+'</div>';
+					}
+				}
+			});
+		</script>
 	</head>
 	<body>
 		<article id="content">
