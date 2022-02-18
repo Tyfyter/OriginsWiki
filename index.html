@@ -1,16 +1,30 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<script src="automarkdown.js" defer></script>
-		<script>
-			try{
-				if(jsLoaded){
-					console.log('javascript loaded normally');
+		<--script src="automarkdown.js" defer></script>
+		<script type="">
+			window.addEventListener("load", async function () {
+				try{
+					console.log("trying");
+					if(jsLoaded){
+						onLoad();
+						console.log('javascript loaded normally');
+					}else{
+						console.log('cosmic ray bit flip occurred or hardware is failing');
+					}
+				}catch(e){
+					console.log(e);
+					try{
+						let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});//
+						let text = await response.text();
+						console.log(text);
+						//eval();
+						//onLoad();
+					}catch(err){
+						window.alert(err);
+					}
 				}
-				console.log('cosmic ray bit flip occurred or hardware is failing');
-			}catch(e){
-				eval("console.log('javascript loaded barbarically');");
-			}
+			});
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
 	</head>
