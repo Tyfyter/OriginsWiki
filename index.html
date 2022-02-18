@@ -13,12 +13,20 @@
 						window.alert('cosmic ray bit flip occurred or hardware is failing');
 					}
 				}catch(e){
-					window.alert(e+', loading javascript by force');
-					let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
-					let text = await response.text();
-					eval(text);
-					onLoad();
-					window.alert('javascript loaded by force');
+					let log = document.getElementById("log");
+					try{
+						log.textContent+= '\n'+e+', loading javascript by force';
+						let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
+						log.textContent+= '\npassed response';
+						let text = await response.text();
+						log.textContent+= '\npassed text';
+						eval(text);
+						log.textContent+= '\npassed eval';
+						onLoad();
+						log.textContent+= '\njavascript loaded by force';
+					}catch(err){
+						log.innerHTML+= '<div style="color:red;">fatal: '+err+'</div>';
+					}
 				}
 			});
 		</script>
@@ -60,5 +68,6 @@
 				<div>section 2</div>
 			</details>
 		</article>
+		<div id="log"></div>
 	</body>
 </html>
