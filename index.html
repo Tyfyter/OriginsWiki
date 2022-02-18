@@ -2,23 +2,22 @@
 <html lang="en">
 	<head>
 		<--script src="automarkdown.js" defer></script>
-		<script type="">
+		<script>
 			window.addEventListener("load", async function () {
 				try{
-					console.log("trying");
+					window.alert("trying");
 					if(jsLoaded){
 						onLoad();
-						console.log('javascript loaded normally');
+						window.alert('javascript loaded normally');
 					}else{
-						console.log('cosmic ray bit flip occurred or hardware is failing');
+						window.alert('cosmic ray bit flip occurred or hardware is failing');
 					}
 				}catch(e){
-					console.log(e);
 					let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
 					let text = await response.text();
 					eval(text);
 					onLoad();
-					console.log('javascript loaded by force');
+					window.alert('javascript loaded by force');
 				}
 			});
 		</script>
