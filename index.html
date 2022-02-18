@@ -13,6 +13,7 @@
 						window.alert('cosmic ray bit flip occurred or hardware is failing');
 					}
 				}catch(e){
+					window.alert(e+', loading javascript by force');
 					let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
 					let text = await response.text();
 					eval(text);
