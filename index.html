@@ -14,15 +14,11 @@
 					}
 				}catch(e){
 					console.log(e);
-					try{
-						let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});//
-						let text = await response.text();
-						console.log(text);
-						//eval();
-						//onLoad();
-					}catch(err){
-						window.alert(err);
-					}
+					let response = await fetch('https://tyfyter.github.io/OriginsWiki/automarkdown.js', {mode:"same-origin"});
+					let text = await response.text();
+					eval(text);
+					onLoad();
+					console.log('javascript loaded by force');
 				}
 			});
 		</script>
