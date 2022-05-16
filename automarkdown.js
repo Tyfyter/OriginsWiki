@@ -185,7 +185,7 @@ function processBiomeContents(data, depth){
 }
 
 // do things after the DOM loads fully
-function onLoad(){
+//function onLoad(){
 //window.addEventListener("load", function () {
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
@@ -342,4 +342,4 @@ function onLoad(){
 		result += "</div>";
 	}*/
 //});
-}
+//}
