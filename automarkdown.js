@@ -223,12 +223,12 @@ function processStatBlock(data, depth){
 	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
-		toc.innerHTML = "<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
-		var contents = "<div style = \"border: 1px solid grey; margin: 0px; padding: 0.2em;\">"
+		toc.innerHTML = '';//"<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
+		var contents = '<details style = "border: 1px solid grey; margin: 0px; padding: 0.2em;" open><summary>Contents</summary>'
 		forDescendants(content, (v, i) => {
-			contents += "<div style=\"margin-left: "+0.2*i.length+"em\"><a href=#"+v.id+">"+i+" "+getSummaryOrId(v)+"</a></div>"
-		}, (v) => v.className == "section", (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
-		toc.innerHTML += contents+"</div>"
+			contents += '<div style="margin-left: '+0.2*i.length+'em"><a class="toc-link"  href=#'+v.id+'>'+i+'. '+getSummaryOrId(v)+'</a></div>'
+		}, (v) => v.className == 'section', (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
+		toc.innerHTML += contents+'</details>';
 	}
 	let subsIndex = 0;
 	let substitutions = [];

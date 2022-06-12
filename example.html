@@ -6,8 +6,7 @@
 	</head>
 	<body>
 		<article id="content">
-			<!-- the fillminus22rem handles not having text overlap stat blocks because I couldn't find a better way -->
-			<div id="table-of-contents" style="border: 1px solid grey; display: table; margin: 24px auto 24px 0;"></div>
+			<div id="table-of-contents"></div>
 			
 			{statblock
 				{
@@ -49,79 +48,80 @@
 			
 			Illo fugiat cumque consequatur incidunt neque nam blanditiis facilis. Ex ipsum quis eos. Rem numquam alias ratione eum aut.
 
-			<details open>
-			{biomecontent
-				{
-					header:NPCs
-					items:[
-						{
-							items:[
-								Items
-								With
-								No
-								Images
-							]
-						}
-					]
-				},
-				{
-					header:Unique Drops,
-					items:[
-						{
-							header:From [link Cubix]\:,
-							class:miniheader inlineblock,
-							items:[
-								Gigastar
-							]
-						}
-						{
-							header:From [link Tetrix]\:,
-							class:miniheader inlineblock,
-							items:[
-								Quantum Hook
-								Sonic Radar
-							]
-						}
-						{
-							header:From [link Tetrix] and [link Quantux]\:,
-							class:miniheader inlineblock,
-							items:[
-								Nano_Amplifier
-							]
-						}
-						{
-							header:From [link Cubix]\, [link Blox]\, [link Tetrix]\, and [link Quantux]\:,
-							class:miniheader inlineblock,
-							items:[
-								FormiumScrap
-							]
-						}
-						{
-							header:From [link Quantux]\:,
-							class:miniheader,
-							items:[
-								Quantux Head
-								Undying_Energy
-								[These ones, Images/Warp_Drive.png, $default, in [link Have images|$default|https://terraria.fandom.com/wiki/Expert_Mode]]
-								[and they also have, Images/Parallax.png, $default, notes [link with links in them|$default|https://terraria.fandom.com/wiki/Master_Mode]]
-							]
-						}
-						{
-							header:From terrain\:,
-							class:miniheader,
-							items:[
-								Batholith
-							]
-						}
-					]
-				},
-				{
-					header:Music,
-					items:[
-						[notes should work with, Images/Music_Box_CT.png, Music_Boxes#Cubekon_Temple, anything that's parsed as [Link a link, technically even other notes|$default|https://www.youtube.com/watch?v=dQw4w9WgXcQ|but that's pretty buggy as you can see here]]
-					]
-				}
-			biomecontent}
+			<details class="section" id="biomecontents" open>
+				<summary>biome contents</summary>
+				{biomecontent
+					{
+						header:NPCs
+						items:[
+							{
+								items:[
+									Items
+									With
+									No
+									Images
+								]
+							}
+						]
+					},
+					{
+						header:Unique Drops,
+						items:[
+							{
+								header:From [link Cubix]\:,
+								class:miniheader inlineblock,
+								items:[
+									Gigastar
+								]
+							}
+							{
+								header:From [link Tetrix]\:,
+								class:miniheader inlineblock,
+								items:[
+									Quantum Hook
+									Sonic Radar
+								]
+							}
+							{
+								header:From [link Tetrix] and [link Quantux]\:,
+								class:miniheader inlineblock,
+								items:[
+									Nano_Amplifier
+								]
+							}
+							{
+								header:From [link Cubix]\, [link Blox]\, [link Tetrix]\, and [link Quantux]\:,
+								class:miniheader inlineblock,
+								items:[
+									FormiumScrap
+								]
+							}
+							{
+								header:From [link Quantux]\:,
+								class:miniheader,
+								items:[
+									Quantux Head
+									Undying_Energy
+									[These ones, Images/Warp_Drive.png, $default, in [link Have images|$default|https://terraria.fandom.com/wiki/Expert_Mode]]
+									[and they also have, Images/Parallax.png, $default, notes [link with links in them|$default|https://terraria.fandom.com/wiki/Master_Mode]]
+								]
+							}
+							{
+								header:From terrain\:,
+								class:miniheader,
+								items:[
+									Batholith
+								]
+							}
+						]
+					},
+					{
+						header:Music,
+						items:[
+							[notes should work with, Images/Music_Box_CT.png, Music_Boxes#Cubekon_Temple, anything that's parsed as [Link a link, technically even other notes|$default|https://www.youtube.com/watch?v=dQw4w9WgXcQ|but that's pretty buggy as you can see here]]
+						]
+					}
+				biomecontent}
 			</details>
 		</article>
 	</body>

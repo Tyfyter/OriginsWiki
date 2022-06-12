@@ -3,7 +3,7 @@
   --article-text-color: rgb(0, 0, 0);
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
-  --biomecontents-bg-color: rgb(235, 235, 235);
+  --box-bg-color: rgb(235, 235, 235);
 }
 
 article#content.darkmode {
@@ -11,10 +11,10 @@ article#content.darkmode {
   --article-text-color: rgb(235, 235, 255);
   --header-bg-color: rgba(20, 0, 0, 0.15);
   --subcontents-bg-color: rgb(20, 0, 0, 0.15);
-  --biomecontents-bg-color: rgb(235, 235, 235, 0.5);
+  --box-bg-color: rgb(235, 235, 235, 0.5);
 }
 
-details {
+article > details {
 	float: left;
 	width: 100%;
 }
@@ -32,6 +32,7 @@ details > summary {
 article#content {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
+	height: 100%;
 }
 
 .fill {
@@ -48,12 +49,20 @@ article#content {
 }
 
 #table-of-contents {
+	border: 1px solid grey;
+	display: table;
+	margin: 24px auto 24px 0;
+	border-radius: 5px;
 	float: left;
+}
+
+.toc-link {
+	color: var(--article-text-color);
 }
 
 .biomecontents {
 	width: 95%;
-	background-color: var(--biomecontents-bg-color);
+	background-color: var(--box-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
 	padding-top: 2.5px;
@@ -85,7 +94,7 @@ article#content {
 	position: relative;
 	margin: .5em 0 .5em 1em;
 	float: right;
-	background-color: var(--biomecontents-bg-color);
+	background-color: var(--box-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
 }
@@ -98,11 +107,6 @@ article#content {
 
 .statblock > .stat {
   margin-left: 0.5em;
-}
-
-.fillminus22rem {
-	width: calc(100% - 22rem);
-	float: left;
 }
 
 .header {
