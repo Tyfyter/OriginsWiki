@@ -183,6 +183,34 @@ function processBiomeContents(data, depth){
 	}
 	return result;
 }
+function processStatBlock(data, depth){
+	if(!depth){
+		depth = 0;
+	}
+	var result = '';
+	if(data.header){
+		result += makeHeader(data.header);
+	}
+	if(data.items){
+		var classes = "";
+		var style = "";
+
+		for(var i = 0; i < data.items.length; i++){
+			if(data.items[i].image){
+				result += '<img src='+data.items[i].image +'>';
+			}else{
+				if(data.items[i].label && data.items[i].value){
+					result += '<div class="stat">' +
+					data.items[i].label +
+					': ' +
+					data.items[i].value +
+					'</div>';
+				}
+			}
+		}
+	}
+	return result;
+}
 
 // do things after the DOM loads fully
 //function onLoad(){
@@ -207,6 +235,7 @@ function processBiomeContents(data, depth){
 
 	const linkRegex = /\[link(.*?)]/gi;
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
+	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
 	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
@@ -229,93 +258,99 @@ function processBiomeContents(data, depth){
 	}
 
 	console.log("items:");
-	let currentMatch = biomeContentRegex.exec(content.innerHTML);
-	while(currentMatch !== null){
-		console.log("an item");
-		let result = "<div class=\"biomecontents\">";
-		let item = currentMatch[2];
-		
-		let currentTag = htmlTagRegex.exec(item);
-		while(currentTag !== null){
-			item = item.replace(currentTag[0], "§"+subsIndex+"§");
-			substitutions[subsIndex++] = currentTag[0];
-			currentTag = htmlTagRegex.exec(item);
-		}
-		var time = 1;
-		var history = [item];
-
-		item = item.replaceAll(commaInserterRegex, ',');
-		history[time++] = item;
-
-		item = item.replace(spaceDeleterRegex, '');
-		history[time++] = item;
-		
-		item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
-		history[time++] = item;
-		
-		item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
-		history[time++] = item;
-		
-		/*(item = [...item];//spread string into chars
-		var repr = [];
-		var depth = 0;
-		for(var i = 0; i < item.length; i++){
-			if(item[i] === ']'){
-				repr[i] = '<b style="color:blue">'+depth+'</b>';
-				if(depth === 1){
-					item[i] = '}';
-				}
-				depth--;
-			}else if(item[i] === '['){
-				repr[i] = '<b style="color:red">'+depth+'</b>';
-				if(depth === 0){
-					item[i] = '{';
-				}
-				depth++;
-			} else {
-				repr[i] = depth;
+	let blockRegexes = [
+		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
+		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock}
+	];
+	for(var cycle = 0; cycle < blockRegexes.length; cycle++){
+		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
+		while(currentMatch !== null){
+			console.log("an item");
+			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
+			let item = currentMatch[2];
+			
+			let currentTag = htmlTagRegex.exec(item);
+			while(currentTag !== null){
+				item = item.replace(currentTag[0], "§"+subsIndex+"§");
+				substitutions[subsIndex++] = currentTag[0];
+				currentTag = htmlTagRegex.exec(item);
 			}
-		}
-		item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
-		
-		//console.log('before aPHAOR'+item);
-		//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
-		//console.log('after aPHAOR'+item);
-		
-		item = item.replaceAll(/\]\[/g, "],[");
-		item = item.replaceAll(/\}\{/g, "},{");
-		history[time++] = item;
-		
-		item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
-		history[time++] = item;
-		
-		item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
-		history[time++] = item;
-		
-		item = item.replaceAll(/\\,/g, ',');
-		item = item.replaceAll(/\\:/g, ':');
-		history[time++] = item;
-		
-		
-		//console.log('before aNPANR'+item);
-		//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
-		//history[time++] = item;
-		
-		//console.log('after aNPANR'+item);
-		
-		//result += item;
-		try{
-			var sections = JSON.parse('['+item+']');
-			for(var i = 0; i < sections.length; i++){
-				result += processBiomeContents(sections[i]);
+			var time = 1;
+			var history = [item];
+
+			item = item.replaceAll(commaInserterRegex, ',');
+			history[time++] = item;
+
+			item = item.replace(spaceDeleterRegex, '');
+			history[time++] = item;
+			
+			item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
+			history[time++] = item;
+			
+			item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
+			history[time++] = item;
+			
+			/*(item = [...item];//spread string into chars
+			var repr = [];
+			var depth = 0;
+			for(var i = 0; i < item.length; i++){
+				if(item[i] === ']'){
+					repr[i] = '<b style="color:blue">'+depth+'</b>';
+					if(depth === 1){
+						item[i] = '}';
+					}
+					depth--;
+				}else if(item[i] === '['){
+					repr[i] = '<b style="color:red">'+depth+'</b>';
+					if(depth === 0){
+						item[i] = '{';
+					}
+					depth++;
+				} else {
+					repr[i] = depth;
+				}
 			}
-		}catch(e){
-			console.error(history);
-			console.error("error\n"+e+"\nwhile parsing\n"+item);
+			item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
+			
+			//console.log('before aPHAOR'+item);
+			//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
+			//console.log('after aPHAOR'+item);
+			
+			item = item.replaceAll(/\]\[/g, "],[");
+			item = item.replaceAll(/\}\{/g, "},{");
+			history[time++] = item;
+			
+			item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
+			history[time++] = item;
+			
+			item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
+			history[time++] = item;
+			
+			item = item.replaceAll(/\\,/g, ',');
+			item = item.replaceAll(/\\:/g, ':');
+			history[time++] = item;
+			
+			
+			//console.log('before aNPANR'+item);
+			//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
+			//history[time++] = item;
+			
+			//console.log('after aNPANR'+item);
+			
+			//result += item;
+			try{
+				var sections = JSON.parse('['+item+']');
+				for(var i = 0; i < sections.length; i++){
+					result += blockRegexes[cycle].func(sections[i]);
+				}
+			}catch(e){
+				console.error(history);
+				console.error("error\n"+e+"\nwhile parsing\n"+item+"\non cycle "+cycle);
+			}
+			result += "</"+blockRegexes[cycle].tag+">";
+			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
+			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
 		}
-		result += "</div>";
-		content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
-		currentMatch = biomeContentRegex.exec(content.innerHTML);
 	}
 	console.log(subsIndex+" substitutions:");
 	for(var i = 0; i < substitutions.length; i++){
