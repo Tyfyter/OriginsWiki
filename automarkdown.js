@@ -288,7 +288,7 @@ function processRecipeBlock(data, depth){
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock},
-		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<tr><th>Result</th><th>Ingredients</th><th>Crafting Station</th></tr><tr>', tag: "table", func: processRecipeBlock}
+		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<tr><th>Result</th><th>Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr><tr>', tag: "table", func: processRecipeBlock}
 	];
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		console.log(blockRegexes[cycle].class);

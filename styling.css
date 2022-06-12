@@ -117,7 +117,7 @@ article#content {
 	border-radius: 5px;
 }
 .recipetable > tbody > tr > th {
-  background-color: rgb(150,150,150)
+  background-color: var(--subcontents-bg-color);
 }
 
 .recipetable > tbody > tr > td {
