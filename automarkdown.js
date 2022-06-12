@@ -184,9 +184,6 @@ function processBiomeContents(data, depth){
 	return result;
 }
 function processStatBlock(data, depth){
-	if(!depth){
-		depth = 0;
-	}
 	var result = '';
 	if(data.header){
 		result += makeHeader(data.header);
@@ -209,6 +206,35 @@ function processStatBlock(data, depth){
 			}
 		}
 	}
+	return result;
+}
+function processRecipeBlock(data, depth){
+	var result = '';
+	let stations = '<a href="https://terraria.wiki.gg/wiki/By_Hand">By Hand</a>';
+	if(data.stations){
+		if(Array.isArray(data.stations)){
+			stations = '';
+			for(var j = 0; j < data.stations.length; j++){
+				if(j>0){
+					stations += '<br><div class="or">or</div><br>';
+				}
+				stations += data.stations[j];
+			}
+		}else{
+			stations = data.stations;
+		}
+	}
+	result += '<td>' +
+	data.result +
+	'</td><td>';
+	for(var j = 0; j < data.ingredients.length; j++){
+		if(j>0){
+			result += '<br>';
+		}
+		result += data.ingredients[j];
+	}
+	result += '</td><td>'+stations+'</td></tr>';
+	console.log(result);
 	return result;
 }
 
@@ -236,6 +262,7 @@ function processStatBlock(data, depth){
 	const linkRegex = /\[link(.*?)]/gi;
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
+	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
 	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
@@ -254,19 +281,26 @@ function processStatBlock(data, depth){
 			subsIndex++;
 		}
 	}catch(e){
-		window.alert(e);
+		console.error(e);
 	}
 
 	console.log("items:");
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
-		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock}
+		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock},
+		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<tr><th>Result</th><th>Ingredients</th><th>Crafting Station</th></tr><tr>', tag: "table", func: processRecipeBlock}
 	];
-	for(var cycle = 0; cycle < blockRegexes.length; cycle++){
+	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
+		console.log(blockRegexes[cycle].class);
 		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
+		let first = true;
 		while(currentMatch !== null){
 			console.log("an item");
 			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
+			if(first && blockRegexes[cycle].first){
+				result+=blockRegexes[cycle].first;
+			}
+			first = false;
 			let item = currentMatch[2];
 			
 			let currentTag = htmlTagRegex.exec(item);
@@ -351,6 +385,8 @@ function processStatBlock(data, depth){
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
 			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
 		}
+	}catch(error){
+		console.error(error);
 	}
 	console.log(subsIndex+" substitutions:");
 	for(var i = 0; i < substitutions.length; i++){
