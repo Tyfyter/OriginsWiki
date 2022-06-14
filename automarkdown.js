@@ -385,7 +385,6 @@ function processRecipeBlock(data, depth){
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
 			blockRegexes[cycle].regex.lastIndex = 0;
 			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
-			console.log(content.innerHTML);
 		}
 	}catch(error){
 		console.error(error);
@@ -394,7 +393,11 @@ function processRecipeBlock(data, depth){
 	var subsObj = {};
 	for(var i = 0; i < substitutions.length; i++){
 		//console.log(substitutions[i]);
-		eval("subsObj.v"+i+"='"+substitutions[i]+"'");
+		try {
+			eval("subsObj.v"+i+"='"+substitutions[i].replace("'","\\'")+"'");
+		} catch (error) {
+			console.log("could not add "+substitutions[i]+" at substitution index "+i);
+		}
 		content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i])
 	}
 	console.log(subsObj);
