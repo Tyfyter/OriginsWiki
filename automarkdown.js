@@ -189,9 +189,6 @@ function processStatBlock(data, depth){
 		result += makeHeader(data.header);
 	}
 	if(data.items){
-		var classes = "";
-		var style = "";
-
 		for(var i = 0; i < data.items.length; i++){
 			if(data.items[i].image){
 				result += '<img src='+data.items[i].image +'>';
@@ -262,10 +259,12 @@ function processRecipeBlock(data, depth){
 	const linkRegex = /\[link(.*?)]/gi;
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
+	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
 	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
-	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
+	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
+	//original space deleter regex:/(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
 	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
 	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
 	//const allNonPropertiesAreNameless = /,("[^[\]"]+?"(,"[^[\]"]+?")*)(?![:\]])/g;
@@ -288,6 +287,7 @@ function processRecipeBlock(data, depth){
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock},
+		{regex: inlineStatBlockRegex, class: "inlinestatblock", tag: "div", func: processStatBlock},
 		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<tr><th>Result</th><th>Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr><tr>', tag: "table", func: processRecipeBlock}
 	];
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
@@ -298,7 +298,7 @@ function processRecipeBlock(data, depth){
 			console.log("an item");
 			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
 			if(first && blockRegexes[cycle].first){
-				result+=blockRegexes[cycle].first;
+				result += blockRegexes[cycle].first;
 			}
 			first = false;
 			let item = currentMatch[2];
@@ -383,16 +383,22 @@ function processRecipeBlock(data, depth){
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
+			blockRegexes[cycle].regex.lastIndex = 0;
 			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
+			console.log(content.innerHTML);
 		}
 	}catch(error){
 		console.error(error);
 	}
-	console.log(subsIndex+" substitutions:");
+	console.log(subsIndex+" substitutions: ");
+	var subsObj = {};
 	for(var i = 0; i < substitutions.length; i++){
-		console.log(substitutions[i]);
+		//console.log(substitutions[i]);
+		eval("subsObj.v"+i+"='"+substitutions[i]+"'");
 		content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i])
 	}
+	console.log(subsObj);
+	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
 	let index = 0;
