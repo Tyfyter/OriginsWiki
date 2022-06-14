@@ -391,10 +391,13 @@ function processRecipeBlock(data, depth){
 	}
 	console.log(subsIndex+" substitutions: ");
 	var subsObj = {};
+	var subStringLength = (substitutions.length-1).toString().length;
 	for(var i = 0; i < substitutions.length; i++){
 		//console.log(substitutions[i]);
 		try {
-			eval("subsObj.v"+i+"='"+substitutions[i].replace("'","\\'")+"'");
+			var iString = i.toString();
+			while(iString.length < subStringLength)iString = "0"+iString;
+			eval("subsObj.sub"+iString+"='"+substitutions[i].replace("'","\\'")+"'");
 		} catch (error) {
 			console.log("could not add "+substitutions[i]+" at substitution index "+i);
 		}
