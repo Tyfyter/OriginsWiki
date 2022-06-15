@@ -119,7 +119,7 @@ function processLink(targetName, image, targetPage, note){
 	if(targetPage === '$default'){
 		targetPage = undefined;
 	}
-	var result = '<div class="linkdiv">';
+	var result = '<span class="linkdiv">';
 	if(targetPage === undefined){
 		targetPage = (targetName.replace(' ', '_')+linkSuffix);
 	}
@@ -133,7 +133,7 @@ function processLink(targetName, image, targetPage, note){
 	if(note){
 		result += '<br><span class="linknote">'+note+'</span>';
 	}
-	return result + '</div></div>';
+	return result + '</div></span>';
 }
 
 function makeHeader(text){
