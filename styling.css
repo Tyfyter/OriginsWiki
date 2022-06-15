@@ -157,13 +157,13 @@ article#content {
 	border: 1px solid black;
 	border-radius: 5px;
 }
-.recipetable > tbody > tr > th {
+.recipetable > thead > tr > th {
   background-color: var(--subcontents-bg-color);
+	border-bottom: 1px solid black;
 }
 
 .recipetable > tbody > tr > td {
   padding: 10px;
-  border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
 
@@ -171,6 +171,11 @@ article#content {
   text-align: center;
   display: inline-block;
   width: 100%;
+}
+
+.recipetable > tbody > tr > td.middle {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .header {
