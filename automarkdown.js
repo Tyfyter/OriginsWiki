@@ -300,7 +300,7 @@ function processRecipeBlock(data, depth){
 		}*/
 		let item = content.innerHTML.match(linkRegex);
 		while(item != null){
-			console.log(item);
+			//console.log(item);
 			let current = pruneLinkArgs(item[1].split('|'));
 			let result = processLink(...current);
 			substitutions[subsIndex] = result;
@@ -327,7 +327,7 @@ function processRecipeBlock(data, depth){
 			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
 			let item = currentMatch[2];
 
-			console.log("match: "+item);
+			//console.log("match: "+item);
 
 			let currentTag = htmlTagRegex.exec(item);
 			while(currentTag !== null){
@@ -406,7 +406,9 @@ function processRecipeBlock(data, depth){
 				}
 			}catch(e){
 				console.error(history);
-				console.error("error\n"+e+"\nwhile parsing\n"+item+"\non cycle "+cycle);
+				console.error(e+"\nwhile parsing");
+				console.error(item);
+				console.error("on cycle "+cycle);
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
