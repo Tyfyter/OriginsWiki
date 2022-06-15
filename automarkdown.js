@@ -129,7 +129,7 @@ function processLink(targetName, image, targetPage, note){
 	if(!targetPage){
 		return targetName + '</div>';
 	}
-	result += '<div class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href='+targetPage+'>'+targetName+'</a>';
+	result += '<div class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href="'+targetPage+'">'+targetName+'</a>';
 	if(note){
 		result += '<br><span class="linknote">'+note+'</span>';
 	}
@@ -193,12 +193,24 @@ function processStatBlock(data, depth){
 			if(data.items[i].image){
 				result += '<img src='+data.items[i].image +'>';
 			}else{
-				if(data.items[i].label && data.items[i].value){
-					result += '<div class="stat">' +
-					data.items[i].label +
-					': ' +
-					data.items[i].value +
-					'</div>';
+				if(data.items[i].label){
+					if(data.items[i].value){
+						result += '<div class="stat">' +
+						data.items[i].label +
+						': ' +
+						data.items[i].value +
+						'</div>';
+					}else if(data.items[i].values){
+						result += '<div class="stat">' +
+						data.items[i].label + ': <div class="statvalues">';
+						for(var j = 0; j < data.items[i].values.length; j++){
+							if(j>0){
+								result += '<br>';
+							}
+							result += data.items[i].values[j];
+						}
+						result += '</div></div>';
+					}
 				}
 			}
 		}
@@ -256,7 +268,7 @@ function processRecipeBlock(data, depth){
 	let subsIndex = 0;
 	let substitutions = [];
 
-	const linkRegex = /\[link(.*?)]/gi;
+	const linkRegex = /\[link([^\[]*?)]/i;
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
@@ -272,12 +284,22 @@ function processRecipeBlock(data, depth){
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
 
 	try{
-		for (let item of content.innerHTML.matchAll(linkRegex)) {
+		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
 			let current = pruneLinkArgs(item[1].split('|'));
 			let result = processLink(...current);
 			substitutions[subsIndex] = result;
 			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
 			subsIndex++;
+		}*/
+		let item = content.innerHTML.match(linkRegex);
+		while(item != null){
+			console.log(item);
+			let current = pruneLinkArgs(item[1].split('|'));
+			let result = processLink(...current);
+			substitutions[subsIndex] = result;
+			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
+			subsIndex++;
+			item = content.innerHTML.match(linkRegex);
 		}
 	}catch(e){
 		console.error(e);
@@ -392,17 +414,26 @@ function processRecipeBlock(data, depth){
 	console.log(subsIndex+" substitutions: ");
 	var subsObj = {};
 	var subStringLength = (substitutions.length-1).toString().length;
-	for(var i = 0; i < substitutions.length; i++){
-		//console.log(substitutions[i]);
-		try {
-			var iString = i.toString();
-			while(iString.length < subStringLength)iString = "0"+iString;
-			eval("subsObj.sub"+iString+"='"+substitutions[i].replace("'","\\'")+"'");
-		} catch (error) {
-			console.log("could not add "+substitutions[i]+" at substitution index "+i);
+	var firstSub = true;
+	var subbedCount = 0
+	do{
+		subbedCount = 0;
+		for(var i = 0; i < substitutions.length; i++){
+			//console.log(substitutions[i]);
+			try {
+				var iString = i.toString();
+				while(iString.length < subStringLength)iString = "0"+iString;
+				eval("subsObj.sub"+iString+"='"+substitutions[i].replace("'","\\'")+"'");
+			} catch (error) {
+				console.log("could not add "+substitutions[i]+" at substitution index "+i);
+			}
+			if(content.innerHTML.includes("§"+i+"§")){
+				subbedCount++;
+				content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i]);
+			}
 		}
-		content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i])
-	}
+		firstSub = false;
+	}while(subbedCount > 0);
 	console.log(subsObj);
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)

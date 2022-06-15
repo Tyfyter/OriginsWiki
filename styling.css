@@ -1,17 +1,35 @@
 :root {
   --article-bg-color: rgb(255, 255, 255);
   --article-text-color: rgb(0, 0, 0);
+	--article-link-color: #0066cc;
+	--visited-link-color: #551a8b;
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
   --box-bg-color: rgb(235, 235, 235);
 }
 
 article#content.darkmode {
-  --article-bg-color: rgb(20, 0, 0);
-  --article-text-color: rgb(235, 235, 255);
-  --header-bg-color: rgba(20, 0, 0, 0.15);
-  --subcontents-bg-color: rgb(20, 0, 0, 0.15);
-  --box-bg-color: rgb(235, 235, 235, 0.5);
+  --article-bg-color: rgb(10, 10, 10);
+  --article-text-color: rgb(200, 200, 200);
+	--article-link-color: #2bb9ff;
+	--visited-link-color: #8c7dff;
+  --header-bg-color: rgba(10, 10, 10, 0.15);
+  --subcontents-bg-color: rgb(10, 10, 10, 0.15);
+  --box-bg-color: rgb(200, 200, 200, 0.5);
+}
+
+a:link {
+	color: var(--article-link-color);
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--visited-link-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 article > details {
@@ -51,13 +69,14 @@ article#content {
 #table-of-contents {
 	border: 1px solid grey;
 	display: table;
-	margin: 0 auto 0 0;
+	margin: 0 0.5em 0;
 	border-radius: 5px;
 	float: left;
 }
 
 .toc-link {
-	color: var(--article-text-color);
+	--article-link-color: --article-text-color;
+	--visited-link-color: --article-text-color;
 }
 
 .biomecontents {
@@ -114,6 +133,21 @@ article#content {
 
 .statblock > .stat, .inlinestatblock > .stat {
   margin-left: 0.5em;
+}
+
+.stat > .statvalues {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.statvalues > .linkdiv {
+	vertical-align: middle;
+}
+
+.quoteheader {
+	display: block;
+	margin: 1em;
+	opacity: 75%;
 }
 
 .recipetable {
