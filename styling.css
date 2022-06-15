@@ -158,8 +158,14 @@ article#content {
 	border-radius: 5px;
 }
 .recipetable > thead > tr > th {
+  padding: 2px;
   background-color: var(--subcontents-bg-color);
 	border-bottom: 1px solid black;
+}
+
+.recipetable > thead > tr > th.middle {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
 }
 
 .recipetable > tbody > tr > td {
