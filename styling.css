@@ -45,6 +45,7 @@ details > div {
 /* this makes section titles larger  */
 details > summary {
 	font-size: 111%;
+	clear: left;
 }
 
 article#content {
