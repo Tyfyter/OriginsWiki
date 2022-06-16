@@ -253,35 +253,3 @@ article#content {
 	display: inline-flexbox;
 	flex-grow: 1;
 }
-
-.coins ::after {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 16px;
-  margin: -3px 2px auto;
-  vertical-align: middle;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAQCAMAAACBWcfHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURQAAAJN9IW+Nn1xnakwsDMu1R1xCEjI3SiE1P1QdCo+cnWBtj4iksOF1S/Hy6npbGUVMUKGsrbZXG/z4tpmsuFJXbe3Zeey3oOzw89XF45VDFq+h03o3Ea7CxDpXvFYAAAABdFJOUwBA5thmAAAAwUlEQVQoz43SSxKDIBREUXyCQVBRUBQ1+99m4MVQJf5yq3p4Zk2I74WRX4WPPHenuO/c9L1zTbO5omDMmOh2qvT9oTjvummKLqpgAKoKAB2ljGVZdDtVlnU9jujuFOdC5Hl0O1X5miYsKmOsTVUw86w1uifVtsEdFYCU7zeAc6iyTClrGaM0VVqv6zzX9aPK89YnxFFJOQxhyxKVUkdF0KEht4qg28xOfR0AmlBwm0lU8o1rdf2ow3spjeb6vffqtA8gqhYRvoCL8AAAAABJRU5ErkJggg==);
-  background-repeat: no-repeat;
-  background-size: auto 16px;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
-}
-
-.coins .platinum::after {
-	width: 14px;
-	background-position: 0 50%;
-}
-
-.coins .gold::after {
-  background-position: -15px 50%;
-}
-
-
-.coins .silver::after {
-	background-position: -28px 50%;
-}
-
-.coins .copper::after {
-  background-position: -41px 50%;
-}
