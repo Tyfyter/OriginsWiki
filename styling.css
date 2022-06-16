@@ -36,9 +36,12 @@ article > details {
 	float: left;
 	width: 100%;
 }
+details {
+	margin-left: 0.5em;
+}
 
 /* this makes every layer of subsections have more indentation */
-details > div {
+details > div, details > span, details > p, details > h1, details > h2, details > h3, details > h4 {
 	margin-left: 1em;
 }
 
