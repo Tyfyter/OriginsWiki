@@ -124,16 +124,16 @@ function processLink(targetName, image, targetPage, note){
 		targetPage = (targetName.replace(' ', '_')+linkSuffix);
 	}
 	if(image){
-		result += '<div class="linkimage"><img src='+image+'></div>';
+		result += '<span class="linkimage"><img src='+image+'></span>';
 	}
 	if(!targetPage){
-		return targetName + '</div>';
+		return targetName + '</span>';
 	}
-	result += '<div class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href="'+targetPage+'">'+targetName+'</a>';
+	result += '<span class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href="'+targetPage+'">'+targetName+'</a>';
 	if(note){
 		result += '<br><span class="linknote">'+note+'</span>';
 	}
-	return result + '</div></span>';
+	return result + '</span></span>';
 }
 
 function makeHeader(text){
