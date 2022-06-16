@@ -283,6 +283,7 @@ function processRecipeBlock(data, depth){
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
 	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
+	const commaDeleterRegex = /(?<=[\]}])(?<!\\),(?=[\]}])/g;
 	//original space deleter regex:/(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
 	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
 	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
@@ -342,6 +343,10 @@ function processRecipeBlock(data, depth){
 			history[time++] = item;
 
 			item = item.replace(spaceDeleterRegex, '');
+			history[time++] = item;
+			
+
+			item = item.replace(commaDeleterRegex, '');
 			history[time++] = item;
 			
 			item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
