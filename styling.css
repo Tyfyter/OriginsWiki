@@ -23,10 +23,6 @@ a:link {
 	text-decoration: none;
 }
 
-h1 {
-	margin-bottom: 0.2em;
-}
-
 a:visited {
 	color: var(--visited-link-color);
 	text-decoration: none;
@@ -40,13 +36,12 @@ article > details {
 	float: left;
 	width: 100%;
 }
-
 details {
 	margin-left: 0.5em;
 }
 
 /* this makes every layer of subsections have more indentation */
-details > div, details > span, details > p, details > h1, details > h2, details > h3, details > h4, details > details {
+details > div, details > span, details > p, details > h1, details > h2, details > h3, details > h4 {
 	margin-left: 1em;
 }
 
@@ -72,9 +67,7 @@ article#content {
 	height: 0px;
 	display: flex;
 	flex-grow: 1;
-	border-bottom: 1px solid black;
-	margin-bottom: 0em;
-	padding-top: 0em;
+	border-top: 1px solid black;
 }
 
 #table-of-contents {

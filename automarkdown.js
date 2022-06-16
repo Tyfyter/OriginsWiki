@@ -85,7 +85,7 @@ function getSummaryOrId(element){
 	var summary = element.getElementsByTagName("summary")[0];
 	
 	if(summary){
-		return summary.innerHTML.replace('<span class="divider"></span>', '');
+		return summary.innerHTML;
 	}
 	return element.id;
 }
