@@ -412,7 +412,7 @@ function processRecipeBlock(data, depth){
 			}catch(e){
 				console.error(history);
 				console.error(e+"\nwhile parsing");
-				console.error(item);
+				console.error('['+item+']');
 				console.error("on cycle "+cycle);
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
