@@ -135,6 +135,22 @@ function processLink(targetName, image, targetPage, note){
 	}
 	return result + '</span></span>';
 }
+function processCoins(copper = 0, silver = 0, gold = 0, platinum = 0){
+	var result = '<span class="coins">';
+	if(platinum != 0){
+		result += '<span class="platinum">'+platinum+'</span>';
+	}
+	if(gold != 0){
+		result += '<span class="gold">'+gold+'</span>';
+	}
+	if(silver != 0){
+		result += '<span class="silver">'+silver+'</span>';
+	}
+	if(copper != 0){
+		result += '<span class="copper">'+copper+'</span>';
+	}
+	return result + '</span>';
+}
 
 function makeHeader(text){
 	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
@@ -276,6 +292,7 @@ function processRecipeBlock(data, depth){
 	let substitutions = [];
 
 	const linkRegex = /\[link([^\[]*?)]/i;
+	const coinRegex = /\[(coins|coin|price|value)([^\[]*?)]/i;
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
@@ -308,6 +325,21 @@ function processRecipeBlock(data, depth){
 			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
 			subsIndex++;
 			item = content.innerHTML.match(linkRegex);
+		}
+	}catch(e){
+		console.error(e);
+	}
+
+	try{
+		let item = content.innerHTML.match(coinRegex);
+		while(item){
+			console.log(item);
+			let current = pruneLinkArgs(item[2].split('|').reverse());
+			let result = processCoins(...current);
+			substitutions[subsIndex] = result;
+			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
+			subsIndex++;
+			item = content.innerHTML.match(coinRegex);
 		}
 	}catch(e){
 		console.error(e);
