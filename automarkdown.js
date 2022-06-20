@@ -293,10 +293,12 @@ function processRecipeBlock(data, depth){
 
 	const linkRegex = /\[link([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value)([^\[]*?)]/i;
+	
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
 	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
+
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
 	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
