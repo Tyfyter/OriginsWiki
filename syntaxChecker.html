@@ -27,7 +27,7 @@
                 document.getElementById('content').innerHTML = document.getElementById('terminal').textContent;
                 parseAFML(true);
             }catch(e){
-                document.getElementById('content').innerHTML = e;
+                document.getElementById('content').innerHTML = JSON.stringify(e);
             }
 		};
 		</script>
