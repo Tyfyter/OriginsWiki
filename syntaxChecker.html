@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+		<script>
+		var escapeEl = document.createElement('textarea');
+		window.escapeHTML = function(html) {
+			escapeEl.textContent = html;
+			return escapeEl.innerHTML;
+		};
+
+		window.unescapeHTML = function(html) {
+			escapeEl.innerHTML = html;
+			return escapeEl.textContent;
+		};
+		window.addEventListener("load", function () {
+			document.getElementById('terminal').addEventListener("paste", function(e) {
+				e.preventDefault();
+				var text = window.escapeHTML(e.clipboardData.getData("text/plain"));
+				document.execCommand("insertHTML", false, text.replaceAll('\n','<br>'));
+			});
+		});
+        
+		function execute() {
+            try{
+                document.getElementById('content').innerHTML = document.getElementById('terminal').textContent;
+                parseAFML(true);
+            }catch(e){
+                document.getElementById('content').innerHTML = e;
+            }
+		};
+		</script>
+        <style>
+            #terminal {
+                font-size: large;
+                display: inline-block;
+                width: 100%;
+                min-height: 1em;
+                border: 0.1em solid grey;
+            }
+            #submit {
+                font-size: large;
+                border: 0.1em solid grey;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="terminal" contenteditable></span>
+        <button id="submit" type="submit" onclick="execute();">evaluate</button>
+        <article id="content"></article>
+    </body>
+</html>

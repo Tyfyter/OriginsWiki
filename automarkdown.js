@@ -271,7 +271,7 @@ function processRecipeBlock(data, depth){
 }
 
 // do things after the DOM loads fully
-//function onLoad(){
+function parseAFML(throwErrors = false){
 //window.addEventListener("load", function () {
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
@@ -309,6 +309,8 @@ function processRecipeBlock(data, depth){
 	//const allNonPropertiesAreNameless = /,("[^[\]"]+?"(,"[^[\]"]+?")*)(?![:\]])/g;
 	//const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
+	
+	var item;
 
 	try{
 		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
@@ -318,7 +320,7 @@ function processRecipeBlock(data, depth){
 			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
 			subsIndex++;
 		}*/
-		let item = content.innerHTML.match(linkRegex);
+		item = content.innerHTML.match(linkRegex);
 		while(item != null){
 			//console.log(item);
 			let current = pruneLinkArgs(item[1].split('|'));
@@ -330,10 +332,11 @@ function processRecipeBlock(data, depth){
 		}
 	}catch(e){
 		console.error(e);
+		if(throwErrors) throw e+'\nwhile parsing\n'+item;
 	}
 
 	try{
-		let item = content.innerHTML.match(coinRegex);
+		item = content.innerHTML.match(coinRegex);
 		while(item){
 			console.log(item);
 			let current = pruneLinkArgs(item[2].split('|').reverse());
@@ -345,6 +348,7 @@ function processRecipeBlock(data, depth){
 		}
 	}catch(e){
 		console.error(e);
+		if(throwErrors) throw e+'\nwhile parsing\n'+item;
 	}
 
 	console.log("items:");
@@ -448,6 +452,7 @@ function processRecipeBlock(data, depth){
 				console.error(e+"\nwhile parsing");
 				console.error('['+item+']');
 				console.error("on cycle "+cycle);
+				if(throwErrors) throw e+'\nwhile parsing\n['+item+']\non cycle '+cycle;
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
@@ -456,6 +461,7 @@ function processRecipeBlock(data, depth){
 		}
 	}catch(error){
 		console.error(error);
+		if(throwErrors) throw error;
 	}
 	console.log(subsIndex+" substitutions: ");
 	var subsObj = {};
@@ -502,4 +508,5 @@ function processRecipeBlock(data, depth){
 		result += "</div>";
 	}*/
 //});
-//}
+}
+parseAFML();
