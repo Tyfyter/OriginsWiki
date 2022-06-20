@@ -332,7 +332,7 @@ function parseAFML(throwErrors = false){
 		}
 	}catch(e){
 		console.error(e);
-		if(throwErrors) throw e+'\nwhile parsing\n'+item;
+		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
 	try{
@@ -348,7 +348,7 @@ function parseAFML(throwErrors = false){
 		}
 	}catch(e){
 		console.error(e);
-		if(throwErrors) throw e+'\nwhile parsing\n'+item;
+		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
 	console.log("items:");
@@ -452,7 +452,7 @@ function parseAFML(throwErrors = false){
 				console.error(e+"\nwhile parsing");
 				console.error('['+item+']');
 				console.error("on cycle "+cycle);
-				if(throwErrors) throw e+'\nwhile parsing\n['+item+']\non cycle '+cycle;
+				if(throwErrors) throw {sourceError:e, data:'['+item+']', cycle:cycle};
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
 			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);

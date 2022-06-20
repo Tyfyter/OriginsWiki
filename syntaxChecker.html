@@ -38,15 +38,17 @@
                 width: 100%;
                 min-height: 1em;
                 border: 0.1em solid grey;
+                font-family: monospace;
             }
             #submit {
                 font-size: large;
                 border: 0.1em solid grey;
+                font-family: monospace;
             }
         </style>
     </head>
     <body>
-        <span id="terminal" contenteditable></span>
+        <span id="terminal" contenteditable spellcheck="false"></span>
         <button id="submit" type="submit" onclick="execute();">evaluate</button>
         <article id="content"></article>
     </body>
