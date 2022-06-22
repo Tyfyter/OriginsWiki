@@ -42,10 +42,7 @@ function requestAndProcessPageList(action, filter, sync){
 	request.send();
 }
 
-function getSearchLinks(query, filter){
-	if(!filter){
-		filter = ".html";
-	}
+function getSearchLinks(query, filter = ".html"){
     query = query.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 	var regexQuery = new RegExp("("+query+")","gi");
 	var results = [];
@@ -63,9 +60,9 @@ function getSearchLinks(query, filter){
 		return aIndex-bIndex;
 	});
 	//window.alert(results);
-	return "<div>"+results.map(function(v){
+	return results.map(function(v){
 		return "<a href="+v+">"+v.replace(/\.[^.]+/g, "").replace(regexQuery, "<b>\$1</b>")+"</a>";
-	}).join("<br>")+"</div>"
+	}).join("<br>");
 }
 
 //requestAndProcessPageList(appendAllToContent);
@@ -270,9 +267,7 @@ function processRecipeBlock(data, depth){
 	return result;
 }
 
-// do things after the DOM loads fully
 function parseAFML(throwErrors = false){
-//window.addEventListener("load", function () {
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
 	}
@@ -509,4 +504,21 @@ function parseAFML(throwErrors = false){
 	}*/
 //});
 }
-parseAFML();
+
+{
+	parseAFML();
+
+	var content = document.getElementById("content");
+	content.innerHTML = '<div id="toolbar">'+
+	'<input id="searchbar" placeholder="Search Origins wiki">'+
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
+    '<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
+    '</svg>'+
+	'<div id="searchlinks"></div>'+
+	'</div>'+content.innerHTML;
+	var searchbar = document.getElementById("searchbar");
+	var searchlinks = document.getElementById("searchlinks");
+	searchbar.oninput = (e)=>{
+		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
+	};
+}
