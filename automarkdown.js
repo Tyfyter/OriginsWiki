@@ -66,7 +66,7 @@ function getSearchLinks(query, filter = ".html"){
 	});
 	//window.alert(results);
 	return results.map(function(v){
-		return "<a href="+v+">"+v.replace(/\.[^.]+/g, "").replace('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
+		return "<a href="+v+">"+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
 	}).join("<br>");
 }
 
@@ -572,5 +572,9 @@ function parseAFML(throwErrors = false){
 	searchbar.oninput = (e)=>{
 		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
 	};
+	var firstHeader = document.getElementsByTagName("h1");
+	if(firstHeader){
+		document.title = firstHeader[0].textContent;
+	}
 	refreshSiteSettings();
 }
