@@ -18,6 +18,11 @@
   --box-bg-color: rgb(200, 200, 200, 0.5);
 }
 
+html {
+	background-color: var(--article-bg-color);
+	color: var(--article-text-color);
+}
+
 a:link {
 	color: var(--article-link-color);
 	text-decoration: none;
@@ -55,12 +60,6 @@ details > div, details > span, details > p, details > h1, details > h2, details 
 details > summary {
 	font-size: 111%;
 	clear: left;
-}
-
-article#content {
-	background-color: var(--article-bg-color);
-	color: var(--article-text-color);
-	height: 100%;
 }
 
 .fill {

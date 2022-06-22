@@ -101,7 +101,7 @@ function getDarkMode(){
 
 function refreshDarkMode(){
 	var value = getDarkMode();
-	var content = document.getElementById("content");
+	var content = document.getElementsByTagName('html')[0]; //document.getElementById("content");
 	console.log('setting dark mode to '+value);
 	if(value){
 		content.className = content.className + " darkmode";
