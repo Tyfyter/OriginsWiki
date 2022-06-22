@@ -18,9 +18,18 @@
   --box-bg-color: rgb(200, 200, 200, 0.5);
 }
 
-html {
+html.background {
+	display: table;
+	margin: auto;
+}
+html.nobackground {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
+}
+body.background {
+	background-color: var(--article-bg-color);
+	color: var(--article-text-color);
+	width: 90vw;
 }
 
 a:link {
@@ -60,6 +69,7 @@ details > div, details > span, details > p, details > h1, details > h2, details 
 details > summary {
 	font-size: 111%;
 	clear: left;
+	margin-bottom: 0.75em;
 }
 
 .fill {

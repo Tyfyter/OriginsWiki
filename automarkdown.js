@@ -3,6 +3,10 @@ var jsLoaded = true;
 var linkSuffix = '.html';
 const lightSettingSuffix = '_Mode.png';
 
+if(!document.cookie){
+	document.cookie = 'path=/; Secure';
+}
+
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
 		// `this` will refer to the `XMLHTTPRequest` object that executes this function
@@ -88,30 +92,72 @@ function getSummaryOrId(element){
 	return element.id;
 }
 
-function setDarkMode(value){
-	document.cookie = 'darkmode:'+value+'; path=/; Secure';
-	refreshDarkMode();
+const siteSettingsRegex = /sitesettings:(.*?)(;|$)/;
+function setSiteSettings(setting, value){
+	var match = siteSettingsRegex.exec(document.cookie.toString());
+	if(match){
+		var siteSettings = JSON.parse(match[1]);
+		siteSettings[setting] = value;
+		document.cookie = 'sitesettings:'+JSON.stringify(siteSettings)+'; path=/; Secure';
+	}else{
+		document.cookie = 'sitesettings:{"'+setting+'":'+value+'}; path=/; Secure';
+	}
+	refreshSiteSettings();
 }
 
-function getDarkMode(){
-	const getDarkModeRegex = /darkmode:(.*?)(;|$)/;
-	var match = getDarkModeRegex.exec(document.cookie.toString());
-	return match && (match[1] === 'true');
+function getSiteSettings(){
+	var match = siteSettingsRegex.exec(document.cookie.toString());
+	var siteSettings = {};
+	if(match){
+		siteSettings = JSON.parse(match[1]);
+	}
+	return siteSettings;
 }
 
-function refreshDarkMode(){
-	var value = getDarkMode();
-	var content = document.getElementsByTagName('html')[0]; //document.getElementById("content");
-	console.log('setting dark mode to '+value);
-	if(value){
-		content.className = content.className + " darkmode";
+function refreshSiteSettings(){
+	var siteSettings = getSiteSettings();
+
+	var darkMode = siteSettings.darkmode;
+	var background = !siteSettings.nobackground;
+	var html = document.getElementsByTagName('html')[0];
+	var body = document.getElementsByTagName('body')[0];
+
+	//console.log('setting dark mode to '+darkMode);
+	if(darkMode){
+		html.className = html.className + " darkmode";
 	} else {
-		content.className = content.className.replaceAll('darkmode', '');
+		html.className = html.className.replaceAll('darkmode', '');
 	}
 	var lightToggle = document.getElementById("lighttoggle");
 	if(lightToggle){
-		lightToggle.src = (value ? 'Dark' : 'Light' ) + lightSettingSuffix;
+		lightToggle.src = (darkMode ? 'Dark' : 'Light' ) + lightSettingSuffix;
 	}
+
+	const backgroundSettingRegex = /background|nobackground/g;
+	html.className = html.className.replaceAll(backgroundSettingRegex, '');
+	body.className = body.className.replaceAll(backgroundSettingRegex, '');
+	if(background){
+		html.className = html.className + " background";
+		body.className = body.className + " background";
+	} else {
+		html.className = html.className + " nobackground";
+		body.className = body.className + " nobackground";
+	}
+}
+function setDarkMode(value){
+	setSiteSettings('darkmode', value);
+}
+
+function getDarkMode(){
+	return getSiteSettings().darkmode;
+}
+
+function setBackground(value){
+	setSiteSettings('nobackground', !value);
+}
+
+function getBackground(){
+	return !getSiteSettings().nobackground;
 }
 
 function processLink(targetName, image, targetPage, note){
@@ -276,7 +322,6 @@ function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
 	}
-	refreshDarkMode(getDarkMode());
 	var content = document.getElementById("content");
 	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
@@ -515,7 +560,7 @@ function parseAFML(throwErrors = false){
 
 	var content = document.getElementById("content");
 	content.innerHTML = '<div id="toolbar">'+
-	'<img id="lighttoggle" src="'+(getDarkMode() ? 'Dark' : 'Light' )+lightSettingSuffix+'" onclick="setDarkMode(!getDarkMode())">'+
+	'<img id="lighttoggle" onclick="setDarkMode(!getDarkMode())">'+
 	'<input id="searchbar" placeholder="Search Origins wiki">'+
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
     '<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
@@ -527,4 +572,5 @@ function parseAFML(throwErrors = false){
 	searchbar.oninput = (e)=>{
 		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
 	};
+	refreshSiteSettings();
 }
