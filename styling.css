@@ -276,6 +276,11 @@ article#content {
 	float: right;
 	fill:var(--article-text-color);
 }
+#lighttoggle {
+	height: 1.25em;
+	float: left;
+	cursor: pointer;
+}
 
 .coins ::after {
   content: '';
