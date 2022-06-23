@@ -285,6 +285,9 @@ details > summary {
 	float: right;
 	fill:var(--article-text-color);
 }
+#searchlinks {
+	clear:both;
+}
 #lighttoggle {
 	height: 1.25em;
 	float: left;
