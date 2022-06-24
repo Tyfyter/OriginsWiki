@@ -128,7 +128,7 @@ function refreshSiteSettings(){
 	} else {
 		html.className = html.className.replaceAll('darkmode', '');
 	}
-	var lightToggle = document.getElementById("lighttoggle");
+	var lightToggle = document.getElementById('lighttoggle');
 	if(lightToggle){
 		lightToggle.src = (darkMode ? 'Dark' : 'Light' ) + lightSettingSuffix;
 	}
@@ -136,12 +136,15 @@ function refreshSiteSettings(){
 	const backgroundSettingRegex = /background|nobackground/g;
 	html.className = html.className.replaceAll(backgroundSettingRegex, '');
 	body.className = body.className.replaceAll(backgroundSettingRegex, '');
+	var bgTogglePath = document.getElementById('bgtoggle').firstChild;
 	if(background){
 		html.className = html.className + " background";
 		body.className = body.className + " background";
+		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12');
 	} else {
 		html.className = html.className + " nobackground";
 		body.className = body.className + " nobackground";
+		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12 m 1 -11 l -20 10');
 	}
 }
 function setDarkMode(value){
@@ -560,6 +563,7 @@ function parseAFML(throwErrors = false){
 
 	var content = document.getElementById("content");
 	content.innerHTML = '<div id="toolbar">'+
+	'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
 	'<img id="lighttoggle" onclick="setDarkMode(!getDarkMode())">'+
 	'<input id="searchbar" placeholder="Search Origins wiki">'+
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+

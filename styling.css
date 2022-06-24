@@ -293,6 +293,14 @@ details > summary {
 	float: left;
 	cursor: pointer;
 }
+#bgtoggle {
+	height: 1.25em;
+	float: left;
+	cursor: pointer;
+	fill: transparent;
+	stroke: var(--article-text-color);
+	stroke-width: 0.1em;
+}
 
 .coins ::after {
   content: '';
