@@ -577,7 +577,7 @@ function parseAFML(throwErrors = false){
 		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
 	};
 	var firstHeader = document.getElementsByTagName("h1");
-	if(firstHeader){
+	if(firstHeader && firstHeader[0]){
 		document.title = firstHeader[0].textContent;
 	}
 	refreshSiteSettings();
