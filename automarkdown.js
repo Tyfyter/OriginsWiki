@@ -579,6 +579,11 @@ function parseAFML(throwErrors = false){
 	var firstHeader = document.getElementsByTagName("h1");
 	if(firstHeader && firstHeader[0]){
 		document.title = firstHeader[0].textContent;
+	}else{
+		var urlExtractedTitle = /([^\/]+?)\.html/.exec(document.URL);
+		if(urlExtractedTitle && urlExtractedTitle.length > 1 && urlExtractedTitle[1]){
+			document.title = urlExtractedTitle[1];
+		}
 	}
 	refreshSiteSettings();
 }
