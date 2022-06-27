@@ -2,10 +2,13 @@
 var jsLoaded = true;
 var linkSuffix = '.html';
 const lightSettingSuffix = '_Mode.png';
+var cookieSuffix = 'path=/;';
 
-if(!document.cookie){
-	document.cookie = 'path=/; Secure';
+if(document.location.protocol == 'https:'){
+	cookieSuffix = cookieSuffix + 'Secure';
 }
+
+console.log('cookieSuffix: ' + cookieSuffix);
 
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
@@ -98,9 +101,9 @@ function setSiteSettings(setting, value){
 	if(match){
 		var siteSettings = JSON.parse(match[1]);
 		siteSettings[setting] = value;
-		document.cookie = 'sitesettings:'+JSON.stringify(siteSettings)+'; path=/; Secure';
+		document.cookie = 'sitesettings:'+JSON.stringify(siteSettings)+'; ' + cookieSuffix;
 	}else{
-		document.cookie = 'sitesettings:{"'+setting+'":'+value+'}; path=/; Secure';
+		document.cookie = 'sitesettings:{"'+setting+'":'+value+'}; ' + cookieSuffix;
 	}
 	refreshSiteSettings();
 }
