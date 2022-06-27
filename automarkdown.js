@@ -18,7 +18,7 @@ function createFilteredResponseHandler(filter, action, includeExtension){
 		for(var i = 0; i < responseObj.tree.length; i++){
 			var match = responseObj.tree[i].path.match(/\.[^.]+/g);
 			var addition = responseObj.tree[i].path.replace(match, "");
-			if(addition && (!filter || match==filter)){
+			if(addition && (!filter || match==filter) && addition.includes('§') == filter.includes('§')){
 				if(includeExtension){
 					values.push(addition+match);
 				}else{
