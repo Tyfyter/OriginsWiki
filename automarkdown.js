@@ -3,6 +3,7 @@ var jsLoaded = true;
 var linkSuffix = '.html';
 const lightSettingSuffix = '_Mode.png';
 var cookieSuffix = 'path=/;';
+const section = '§'.substring('§'.length-1);
 
 if(document.location.protocol == 'https:'){
 	cookieSuffix = cookieSuffix + 'Secure';
@@ -18,7 +19,7 @@ function createFilteredResponseHandler(filter, action, includeExtension){
 		for(var i = 0; i < responseObj.tree.length; i++){
 			var match = responseObj.tree[i].path.match(/\.[^.]+/g);
 			var addition = responseObj.tree[i].path.replace(match, "");
-			if(addition && (!filter || match==filter) && addition.includes('§') == filter.includes('§')){
+			if(addition && (!filter || match==filter)){
 				if(includeExtension){
 					values.push(addition+match);
 				}else{
@@ -56,7 +57,7 @@ function getSearchLinks(query, filter = ".html"){
 	var results = [];
 	requestAndProcessPageList(function(re){
 		results = re.filter(function(v){
-			return v.match(regexQuery);
+			return v.match(regexQuery) && (v.includes(section) == query.includes(section));
 		});
 	}, filter, true);
 	//window.alert(results);
