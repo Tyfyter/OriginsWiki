@@ -19,7 +19,7 @@ function createFilteredResponseHandler(filter, action, includeExtension){
 		for(var i = 0; i < responseObj.tree.length; i++){
 			var match = responseObj.tree[i].path.match(/\.[^.]+/g);
 			var addition = responseObj.tree[i].path.replace(match, "");
-			if(addition && (!filter || match==filter)){
+			if(addition && (!filter || match==filter) && addition != 'index'){
 				if(includeExtension){
 					values.push(addition+match);
 				}else{
@@ -53,19 +53,21 @@ function requestAndProcessPageList(action, filter, sync){
 
 function getSearchLinks(query, filter = ".html"){
     query = query.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
-	var regexQuery = new RegExp("("+query+")","gi");
+	var regexQuery = new RegExp("("+query+")","i");
 	var results = [];
 	requestAndProcessPageList(function(re){
 		results = re.filter(function(v){
 			return v.match(regexQuery) && (v.includes(section) == query.includes(section));
 		});
 	}, filter, true);
-	//window.alert(results);
+	//console.log(results);
 	results = results.sort(function(a, b) {
-		regexQuery.exec(a);
-		var aIndex = regexQuery.lastIndex;
-		regexQuery.exec(b);
-		var bIndex = regexQuery.lastIndex;
+		try{
+			var aIndex = a.indexOf(regexQuery.exec(a)[0]);
+			var bIndex = b.indexOf(regexQuery.exec(b)[0]);
+		}catch(e){
+			console.error({error:e, a: a, b: b, regexQuery: regexQuery});
+		}
 		return aIndex-bIndex;
 	});
 	//window.alert(results);
