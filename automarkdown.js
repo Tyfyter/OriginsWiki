@@ -72,7 +72,7 @@ function getSearchLinks(query, filter = ".html"){
 	});
 	//window.alert(results);
 	return results.map(function(v){
-		return "<a href="+v+">"+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
+		return '<a href='+v+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
 	}).join("<br>");
 }
 
@@ -581,6 +581,44 @@ function parseAFML(throwErrors = false){
 	var searchlinks = document.getElementById("searchlinks");
 	searchbar.oninput = (e)=>{
 		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
+	};
+	searchbar.onkeydown = (e)=>{
+		var dir = 0;
+		switch(e.key){
+			case 'ArrowUp':
+			dir = -1;
+			break;
+
+			case 'ArrowDown':
+			dir = 1;
+			break;
+
+			case 'Enter':
+			var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
+			if(selectedLinks.length > 0){
+				window.open(selectedLinks[0].href, "_self")
+			}
+			break;
+		}
+		if(dir != 0){
+			var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
+			if(selectedLinks.length > 0){
+				var selectedLink = selectedLinks[0];
+				selectedLink.classList.remove('selectedSearch');
+				do{
+					if(dir > 0){
+						selectedLink = selectedLink.nextSibling;
+					}else{
+						selectedLink = selectedLink.previousSibling;
+					}
+				}while(selectedLink && !selectedLink.classList.contains('searchLink'));
+				if(selectedLink){
+					selectedLink.classList.add('selectedSearch');
+				}
+			}else{
+				searchlinks.children[(searchlinks.childNodes.length + Math.min(dir, 0)) % searchlinks.childNodes.length].classList.add('selectedSearch');
+			}
+		}
 	};
 	var firstHeader = document.getElementsByTagName("h1");
 	if(firstHeader && firstHeader[0]){

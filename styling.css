@@ -288,6 +288,9 @@ details > summary {
 #searchlinks {
 	clear:both;
 }
+.selectedSearch {
+	background-color: var(--box-bg-color);
+}
 #lighttoggle {
 	height: 1.25em;
 	float: left;
