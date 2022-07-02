@@ -11,82 +11,234 @@
 			<span class="quoteheader"><i>"The skies echo a threatening call..."</i> - When smashing the third [link Defiled Fissure]</span>
 
 			<div id="table-of-contents"></div>
-
-			{statblock
-			{
-			header:Defiled Amalgamation,
-			items:[
-			{image: Images/DefiledAmalg.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Biomes">Environment</a>,
-			value:[link Defiled Wastelands]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/AI">AI Type</a>,
-			value:Custom
-			},
-			{
-			label:Damage,
-			values:[
-			36 (contact),
-			39 (projectile)
-			]
-			},
-			{
-			label:Max Life,
-			value:2400
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Defense">Defense</a>,
-			value:16
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Knockback">KB</a> Resist,
-			value:60%
-			},
-			{
-			label:Immune to,
-			values:[
-			[link Confused|$default|https://terraria.wiki.gg/wiki/Confused]
-			[link Rasterize]
-			[link Toxic Shock]
-			]
-			}
-			]
-			},
-			{
-			header:Drops,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
-			value:[coins 5|0|0]
-			},
-			{
-			label:Items,
-			values:[
-			[link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%,
-			[link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%,
-			[link Fiend Staff | Images/Fiend_Staff.png] - 33%,
-			[link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%,
-			[link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%,
-			[link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%,
-			[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation | in Expert and Master Mode] - 100%,
-			^ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%,
-			^ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default | in [link Expert Mode|$default|https://terraria.wiki.gg/wiki/Expert_Mode]] - 100%,
-			^ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default | in [link Expert Mode|$default|https://terraria.wiki.gg/wiki/Expert_Mode]] - 14.29%,
-			^ [link Darker Instinct | Images/Darker_Instinct.png | $default | in [link Master Mode|$default|https://terraria.wiki.gg/wiki/Master_Mode]] - 100%,
-			^ [link Defiled Amalgamation Relic | Images/DA_Relic.png | Relics#Defiled_Amalgamation | in [link Master Mode|$default|https://terraria.wiki.gg/wiki/Master_Mode]] - 100%,
-			^ [link Gold Coin | Images/Gold_Coin.png | https://terraria.wiki.gg/wiki/Gold_Coin] (1) - 100%
-			]
-			}
-			]
-			}
-			statblock}
+			{tabs
+				{
+					Name:Normal
+					Value:{statblock
+					{
+					header:Defiled Amalgamation,
+					items:[
+					{image: Images/DefiledAmalg.png}
+					]
+					},
+					{
+					header:Statistics,
+					items:[
+					{
+					label:<a href="https://terraria.wiki.gg/wiki/Biomes">Environment</a>,
+					value:[link Defiled Wastelands]
+					},
+					{
+					label:<a href="https://terraria.wiki.gg/wiki/AI">AI Type</a>,
+					value:Custom
+					},
+					{
+					label:Damage,
+					values:[
+					36 (contact),
+					38 (projectile)
+					]
+					},
+					{
+					label:Max Life,
+					value:2400
+					},
+					{
+					label:<a href="https://terraria.wiki.gg/wiki/Defense">Defense</a>,
+					value:16
+					},
+					{
+					label:<a href="https://terraria.wiki.gg/wiki/Knockback">KB</a> Resist,
+					value:100%
+					},
+					{
+					label:Immune to,
+					values:[
+					[link Confused|$default|https://terraria.wiki.gg/wiki/Confused]
+					[link Rasterize]
+					[link Toxic Shock]
+					]
+					}
+					]
+					},
+					{
+					header:Drops,
+					items:[
+					{
+					label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
+					value:[coins 5|0|0]
+					},
+					{
+					label:Items,
+					values:[
+					[link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%,
+					[link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%,
+					[link Fiend Staff | Images/Fiend_Staff.png] - 33%,
+					[link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%,
+					[link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%,
+					[link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%,
+					[link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%
+					]
+					}
+					]
+					}
+					statblock}
+				}
+				{
+					Name:Expert
+					Value:{statblock
+						{
+						header:Defiled Amalgamation,
+						items:[
+						{image: Images/DefiledAmalg.png}
+						]
+						},
+						{
+						header:Statistics,
+						items:[
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Biomes">Environment</a>,
+						value:[link Defiled Wastelands]
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/AI">AI Type</a>,
+						value:Custom
+						},
+						{
+						label:Damage,
+						values:[
+						72 (contact),
+						64 (projectile)
+						]
+						},
+						{
+						label:Max Life,
+						value:3840
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Defense">Defense</a>,
+						value:17
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Knockback">KB</a> Resist,
+						value:100%
+						},
+						{
+						label:Immune to,
+						values:[
+						[link Confused|$default|https://terraria.wiki.gg/wiki/Confused]
+						[link Rasterize]
+						[link Toxic Shock]
+						]
+						}
+						]
+						},
+						{
+						header:Drops,
+						items:[
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
+						value:[coins 5|0|0]
+						},
+						{
+						label:Items,
+						values:[
+						[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%,
+						§smallL§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%,
+						§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%,
+						§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%,
+						§L§ [link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%,
+						§L§ [link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%,
+						§L§ [link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%,
+						§L§ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%,
+						§L§ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default] - 100%,
+						§L§ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%,
+						§L§ [link Gold Coin | Images/Gold_Coin.png | https://terraria.wiki.gg/wiki/Gold_Coin] (1) - 100%
+						]
+						}
+						]
+						}
+					statblock}
+				}
+				{
+					Name:Master
+					Value:{statblock
+						{
+						header:Defiled Amalgamation,
+						items:[
+						{image: Images/DefiledAmalg.png}
+						]
+						},
+						{
+						header:Statistics,
+						items:[
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Biomes">Environment</a>,
+						value:[link Defiled Wastelands]
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/AI">AI Type</a>,
+						value:Custom
+						},
+						{
+						label:Damage,
+						values:[
+						108 (contact),
+						78 (projectile)
+						]
+						},
+						{
+						label:Max Life,
+						value:6144
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Defense">Defense</a>,
+						value:18
+						},
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/Knockback">KB</a> Resist,
+						value:100%
+						},
+						{
+						label:Immune to,
+						values:[
+						[link Confused|$default|https://terraria.wiki.gg/wiki/Confused]
+						[link Rasterize]
+						[link Toxic Shock]
+						]
+						}
+						]
+						},
+						{
+						header:Drops,
+						items:[
+						{
+						label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
+						value:[coins 5|0|0]
+						},
+						{
+						label:Items,
+						values:[
+						[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%,
+						§smallL§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%,
+						§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%,
+						§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%,
+						§L§ [link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%,
+						§L§ [link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%,
+						§L§ [link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%,
+						§L§ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%,
+						§L§ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default] - 100%,
+						§L§ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%,
+						§L§ [link Darker Instinct | Images/Darker_Instinct.png | $default | in [link Master Mode|$default|https://terraria.wiki.gg/wiki/Master_Mode]] - 100%,
+						§L§ [link Defiled Amalgamation Relic | Images/DA_Relic.png | Relics#Defiled_Amalgamation | in [link Master Mode|$default|https://terraria.wiki.gg/wiki/Master_Mode]] - 100%,
+						§L§ [link Gold Coin | Images/Gold_Coin.png | https://terraria.wiki.gg/wiki/Gold_Coin] (1) - 100%
+						]
+						}
+						]
+						}
+					statblock}
+				}
+			tabs}
 
 			<p>
 				The <b>Defiled Amalgamation</b> is a <a href="https://terraria.wiki.gg/wiki/Pre-Hardmode">pre-Hardmode</a> boss that resides in the [link Defiled Wastelands]. It can be summoned when the player is on the <a href="https://terraria.wiki.gg/wiki/Layers#Surface">surface</a> of the world after destroying 3 [link Defiled Fissures] or when the player uses a [link Nerve Impulse Manipulator] anywhere in the Wastelands.<br>
@@ -184,7 +336,7 @@
 					<summary>Trivia<span class="divider"></span></summary>
 					<p>
 						- Unlike the rest of the world-evils, the Defiled Amalgamation does not have a Hardmode, mechanical equivalent similar to the <a href="https://terraria.fandom.com/wiki/Brain_of_Cthulhu">Brain of Cthulhu</a>.<br>
-						- Due to its long name, the Defiled Amalgamation is often abbreviated as "DA".
+						- Due to its long name, the Defiled Amalgamation is often abbreviated as "DA", and is then occasionally re-lengthened as "District Attorney".
 					</p>
 				</details>
 

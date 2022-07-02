@@ -327,6 +327,32 @@ function processRecipeBlock(data, depth){
 	return result;
 }
 
+var tabNames = [];
+function processAltTabs(data, depth){
+	tabNames[tabNames.length] = data.Name;
+	return '<div id="tab-'+data.Name+'" class="alttab'+(tabNames.length == 1 ? '' : ' hiddenTab')+'">'+data.Value+'</div>';
+}
+var altTabsIndex = 0;
+function finishAltTabs(text){
+	var tabHeader = '<div class="tabnames" id="tabnames-'+altTabsIndex+'">';
+	for(var i = 0; i < tabNames.length; i++){
+		tabHeader += '<span class="tabname" onClick=selectTab('+altTabsIndex+',"'+tabNames[i]+'")>'+tabNames[i]+'</span>';
+	}
+	text = text.replace('tabHeader',tabHeader+'</div>');
+	altTabsIndex++;
+	return text;
+}
+function selectTab(tabsIndex, tabName){
+	var tabContainer = document.getElementById("tabnames-"+tabsIndex).parentElement;
+	for(var i = 0; i < tabContainer.children.length; i++)if(tabContainer.children[i].id){
+		if(tabContainer.children[i].id === 'tab-'+tabName){
+			tabContainer.children[i].classList.remove('hiddenTab');
+		}else{
+			tabContainer.children[i].classList.add('hiddenTab');
+		}
+	}
+}
+
 function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
@@ -352,6 +378,7 @@ function parseAFML(throwErrors = false){
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
 	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
+	const altTabRegex = /\{(?<tag>tabs)((.|\n)*?)\k<tag>}/gi;
 
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
@@ -410,7 +437,9 @@ function parseAFML(throwErrors = false){
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock},
 		{regex: inlineStatBlockRegex, class: "inlinestatblock", tag: "div", func: processStatBlock},
-		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock}
+		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock},
+		
+		{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
 	];
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		console.log(blockRegexes[cycle].class);
@@ -501,6 +530,7 @@ function parseAFML(throwErrors = false){
 				for(var i = 0; i < sections.length; i++){
 					result += blockRegexes[cycle].func(sections[i]);
 				}
+				if(blockRegexes[cycle].finish)result = blockRegexes[cycle].finish(result);
 			}catch(e){
 				console.error(history);
 				console.error(e+"\nwhile parsing");
@@ -509,7 +539,10 @@ function parseAFML(throwErrors = false){
 				if(throwErrors) throw {sourceError:e, data:'['+item+']', cycle:cycle};
 			}
 			result += "</"+blockRegexes[cycle].tag+">";
-			content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
+			substitutions[subsIndex] = result;
+			content.innerHTML = content.innerHTML.replace(currentMatch[0], '§'+subsIndex+'§');
+			subsIndex++;
+			//content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
 			blockRegexes[cycle].regex.lastIndex = 0;
 			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
 		}
@@ -541,6 +574,8 @@ function parseAFML(throwErrors = false){
 		firstSub = false;
 	}while(subbedCount > 0);
 	console.log(subsObj);
+	content.innerHTML = content.innerHTML.replaceAll("§smallL§", '<p style="display: inline-block;margin-top: -1em;">└</p>');
+	content.innerHTML = content.innerHTML.replaceAll("§L§", '<p style="transform: scale(1, 4);display: inline-block;margin-top: -1em;">└</p>');
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');

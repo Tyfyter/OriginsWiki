@@ -304,6 +304,18 @@ details > summary {
 	stroke: var(--article-text-color);
 	stroke-width: 0.1em;
 }
+.alttabs {
+	float:right
+}
+.hiddenTab {
+	display:none;
+}
+.tabnames {
+	display:flex;
+}
+.tabname {
+	margin:auto;
+}
 
 .coins ::after {
   content: '';
