@@ -139,8 +139,38 @@ details > summary {
 	border-radius: 5px;
 }
 
+.rexpert {
+	color:goldenrod;
+	font-weight: bold;
+}
+.rmaster {
+	color:brown;
+	font-weight: bold;
+}
+
 .statblock {
 	float: right;
+	--tabvis-0:none;
+	--tabvis-1:none;
+	--tabvis-2:none;
+}
+.ontab0 {
+	--tabvis-0:block;
+}
+.ontab1 {
+	--tabvis-1:block;
+}
+.ontab2 {
+	--tabvis-2:block;
+}
+.onlytab0 {
+	display: var(--tabvis-0);
+}
+.onlytab1 {
+	display: var(--tabvis-1);
+}
+.onlytab2 {
+	display: var(--tabvis-2);
 }
 
 .inlinestatblock {
@@ -316,7 +346,16 @@ details > summary {
 .tabname {
 	margin:auto;
 }
-
+.l-connector{
+	display: inline-block;
+	width: 0.5em;
+	height: 1em;
+	border-left: solid var(--article-text-color) 3px;
+	border-bottom: solid var(--article-text-color) 1.5px;
+	transform: translate(40%,-50%) scale(1,2);
+	z-index: -1;
+	position: relative;
+}
 .coins ::after {
   content: '';
   display: inline-block;

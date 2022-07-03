@@ -213,6 +213,14 @@ function makeHeader(text){
 	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
 }
 
+function makeTabs(tabs){
+	var text = '<div class="tabnames">';
+	for(var i = 0; i < tabs.length; i++){
+		text+='<span class="tabname" onClick=selectTab(event.explicitOriginalTarget,'+i+')>'+tabs[i]+'</span>';
+	}
+	return text+'</div>';
+}
+
 function pruneLinkArgs(array){
 	for(var i = 0; i < array.length; i++){
 		array[i] = array[i].trim();
@@ -261,20 +269,27 @@ function processStatBlock(data, depth){
 	if(data.header){
 		result += makeHeader(data.header);
 	}
+	if(data.tabs){
+		result += makeTabs(data.tabs);
+	}
 	if(data.items){
 		for(var i = 0; i < data.items.length; i++){
 			if(data.items[i].image){
 				result += '<img src='+data.items[i].image +'>';
 			}else{
 				if(data.items[i].label){
+					var klasse = '';
+					if(data.items[i].class){
+						klasse = ' '+data.items[i].class;
+					}
 					if(data.items[i].value){
-						result += '<div class="stat">' +
+						result += '<div class="stat'+klasse+'">' +
 						data.items[i].label +
 						': ' +
 						data.items[i].value +
 						'</div>';
 					}else if(data.items[i].values){
-						result += '<div class="stat">' +
+						result += '<div class="stat'+klasse+'">' +
 						data.items[i].label + ': <div class="statvalues">';
 						for(var j = 0; j < data.items[i].values.length; j++){
 							if(j>0){
@@ -327,30 +342,14 @@ function processRecipeBlock(data, depth){
 	return result;
 }
 
-var tabNames = [];
-function processAltTabs(data, depth){
-	tabNames[tabNames.length] = data.Name;
-	return '<div id="tab-'+data.Name+'" class="alttab'+(tabNames.length == 1 ? '' : ' hiddenTab')+'">'+data.Value+'</div>';
-}
-var altTabsIndex = 0;
-function finishAltTabs(text){
-	var tabHeader = '<div class="tabnames" id="tabnames-'+altTabsIndex+'">';
-	for(var i = 0; i < tabNames.length; i++){
-		tabHeader += '<span class="tabname" onClick=selectTab('+altTabsIndex+',"'+tabNames[i]+'")>'+tabNames[i]+'</span>';
-	}
-	text = text.replace('tabHeader',tabHeader+'</div>');
-	altTabsIndex++;
-	return text;
-}
-function selectTab(tabsIndex, tabName){
-	var tabContainer = document.getElementById("tabnames-"+tabsIndex).parentElement;
-	for(var i = 0; i < tabContainer.children.length; i++)if(tabContainer.children[i].id){
-		if(tabContainer.children[i].id === 'tab-'+tabName){
-			tabContainer.children[i].classList.remove('hiddenTab');
-		}else{
-			tabContainer.children[i].classList.add('hiddenTab');
+function selectTab(container, tabNumber){
+	var statBlock = container.parentElement.parentElement;
+	for(var i = statBlock.classList.length; i --> 0;){
+		if(statBlock.classList[i].startsWith('ontab')){
+			statBlock.classList.remove(statBlock.classList[i]);
 		}
 	}
+	statBlock.classList.add('ontab'+tabNumber);
 }
 
 function parseAFML(throwErrors = false){
@@ -435,11 +434,11 @@ function parseAFML(throwErrors = false){
 	console.log("items:");
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
-		{regex: statBlockRegex, class: "statblock", tag: "div", func: processStatBlock},
+		{regex: statBlockRegex, class: "statblock ontab0", tag: "div", func: processStatBlock},
 		{regex: inlineStatBlockRegex, class: "inlinestatblock", tag: "div", func: processStatBlock},
-		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock},
+		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock}
 		
-		{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
+		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
 	];
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		console.log(blockRegexes[cycle].class);
@@ -575,7 +574,11 @@ function parseAFML(throwErrors = false){
 	}while(subbedCount > 0);
 	console.log(subsObj);
 	content.innerHTML = content.innerHTML.replaceAll("§smallL§", '<p style="display: inline-block;margin-top: -1em;">└</p>');
-	content.innerHTML = content.innerHTML.replaceAll("§L§", '<p style="transform: scale(1, 4);display: inline-block;margin-top: -1em;">└</p>');
+	content.innerHTML = content.innerHTML.replaceAll("§L§", '<div class="l-connector"></div>');
+	content.innerHTML = content.innerHTML.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode>Master</a>');
+	content.innerHTML = content.innerHTML.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
+	content.innerHTML = content.innerHTML.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
+	content.innerHTML = content.innerHTML.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');//
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
