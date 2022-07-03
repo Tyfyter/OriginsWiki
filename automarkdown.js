@@ -216,7 +216,7 @@ function makeHeader(text){
 function makeTabs(tabs){
 	var text = '<div class="tabnames">';
 	for(var i = 0; i < tabs.length; i++){
-		text+='<span class="tabname" onClick=selectTab(event.target,'+i+')>'+tabs[i]+'</span>';
+		text+='<span class="tabname" onClick=selectTab(event.srcElement,'+i+')>'+tabs[i]+'</span>';
 	}
 	return text+'</div>';
 }
