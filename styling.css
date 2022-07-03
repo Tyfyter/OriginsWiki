@@ -345,14 +345,25 @@ details > summary {
 }
 .tabname {
 	margin:auto;
+	cursor: pointer;
 }
-.l-connector{
+.L-connector{
 	display: inline-block;
 	width: 0.5em;
 	height: 1em;
 	border-left: solid var(--article-text-color) 3px;
 	border-bottom: solid var(--article-text-color) 1.5px;
 	transform: translate(40%,-50%) scale(1,2);
+	z-index: -1;
+	position: relative;
+}
+.l-connector{
+	display: inline-block;
+	width: 0.5em;
+	height: 1em;
+	border-left: solid var(--article-text-color) 3px;
+	border-bottom: solid var(--article-text-color) 3px;
+	transform: translate(40%);
 	z-index: -1;
 	position: relative;
 }

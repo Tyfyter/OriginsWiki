@@ -573,8 +573,8 @@ function parseAFML(throwErrors = false){
 		firstSub = false;
 	}while(subbedCount > 0);
 	console.log(subsObj);
-	content.innerHTML = content.innerHTML.replaceAll("§smallL§", '<p style="display: inline-block;margin-top: -1em;">└</p>');
-	content.innerHTML = content.innerHTML.replaceAll("§L§", '<div class="l-connector"></div>');
+	content.innerHTML = content.innerHTML.replaceAll("§l§", '<div class="l-connector"></div>');
+	content.innerHTML = content.innerHTML.replaceAll("§L§", '<div class="L-connector"></div>');
 	content.innerHTML = content.innerHTML.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode>Master</a>');
 	content.innerHTML = content.innerHTML.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
 	content.innerHTML = content.innerHTML.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
