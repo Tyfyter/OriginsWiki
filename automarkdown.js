@@ -5,6 +5,8 @@ const lightSettingSuffix = '_Mode.png';
 var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
 
+var lastErrObject;
+
 if(document.location.protocol == 'https:'){
 	cookieSuffix = cookieSuffix + 'Secure';
 }
@@ -322,6 +324,7 @@ function processRecipeBlock(data, depth){
 		}
 	}
 	for(var i = 0; i < data.items.length; i++){
+	  lastErrObject = data.items[i];
 		if(i > 0) result += '</tr>';
 		result += '<tr><td>' +
 		data.items[i].result +
@@ -383,6 +386,7 @@ function parseAFML(throwErrors = false){
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
 	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
 	const commaDeleterRegex = /(?<=[\]}])(?<!\\),(?=[\]}])/g;
+	const jsonKeySpaceRemoverRegex = /(?<!\\)"\s*(\w+)\s*":/g;
 	//original space deleter regex:/(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
 	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
 	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
@@ -515,6 +519,8 @@ function parseAFML(throwErrors = false){
 			item = item.replaceAll(/\\:/g, ':');
 			history[time++] = item;
 			
+			item = item.replaceAll(jsonKeySpaceRemoverRegex, '"$1":');
+			history[time++] = item;
 			
 			//console.log('before aNPANR'+item);
 			//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
@@ -523,8 +529,10 @@ function parseAFML(throwErrors = false){
 			//console.log('after aNPANR'+item);
 			
 			//result += item;
+			var sections;
 			try{
-				var sections = JSON.parse('['+item+']');
+				sections = JSON.parse('['+item+']');
+			  lastErrObject = sections;
 				if(blockRegexes[cycle].first) result += blockRegexes[cycle].first;
 				for(var i = 0; i < sections.length; i++){
 					result += blockRegexes[cycle].func(sections[i]);
@@ -532,7 +540,8 @@ function parseAFML(throwErrors = false){
 				if(blockRegexes[cycle].finish)result = blockRegexes[cycle].finish(result);
 			}catch(e){
 				console.error(history);
-				console.error(e+"\nwhile parsing");
+				console.error(e);
+				console.error("while parsing");
 				console.error('['+item+']');
 				console.error("on cycle "+cycle);
 				if(throwErrors) throw {sourceError:e, data:'['+item+']', cycle:cycle};
