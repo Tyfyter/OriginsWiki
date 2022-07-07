@@ -667,5 +667,9 @@ function parseAFML(throwErrors = false){
 			document.title = urlExtractedTitle[1];
 		}
 	}
+	var head = document.getElementsByTagName("head");
+	If(head && head[0]){
+		head.InnerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
+	}
 	refreshSiteSettings();
 }
