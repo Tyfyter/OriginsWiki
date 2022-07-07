@@ -667,9 +667,9 @@ function parseAFML(throwErrors = false){
 			document.title = urlExtractedTitle[1];
 		}
 	}
+	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){
 		head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
-	refreshSiteSettings();
 }
