@@ -355,6 +355,24 @@ function selectTab(container, tabNumber){
 	statBlock.classList.add('ontab'+tabNumber);
 }
 
+async function createCategorySegment(){
+	try {
+		var pageName = window.location.pathname.split('/');
+		pageName = pageName[pageName.length - 1];
+		var categories = await fetch('categories.json');
+		categories = await categories.text();
+		categories = JSON.parse(categories.replaceAll('\n',' '));
+		var catsIn = '';
+		for (let i = 0; i < categories.length; i++) {
+			if(categories[i].items.includes(pageName) ^ categories[i].blacklist) catsIn+='';
+		}
+		return '<div class="categories">categories: '+catsIn+'</div>';
+	} catch (error) {
+		console.log(error);
+		return '';
+	}
+}
+
 function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
@@ -681,4 +699,5 @@ function parseAFML(throwErrors = false){
 	if(head && head[0]){
 		head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
+	createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
 }
