@@ -26,7 +26,7 @@
 				var siteMap = requestPageText('sitemap.xml');
 				categories = JSON.parse((await categories).replaceAll('\n', ' ')).filter((v)=>v.name === catName)[0];
 				siteMap = (await siteMap) && parseXMLSitemap(await siteMap);
-				console.log(siteMap);
+				console.log(categories + ', ' + siteMap);
 			};
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
