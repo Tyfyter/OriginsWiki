@@ -358,13 +358,21 @@ function selectTab(container, tabNumber){
 async function createCategorySegment(){
 	try {
 		var pageName = window.location.pathname.split('/');
-		pageName = pageName[pageName.length - 1];
+		pageName = pageName[pageName.length - 1].replaceAll('.html', '');
+		if(pageName == 'Category'){
+			return "";
+		}
 		var categories = await fetch('categories.json');
 		categories = await categories.text();
-		categories = JSON.parse(categories.replaceAll('\n',' '));
+		categories = JSON.parse(categories.replaceAll('\n', ' '));
 		var catsIn = '';
 		for (let i = 0; i < categories.length; i++) {
-			if(categories[i].items.includes(pageName) ^ categories[i].blacklist) catsIn+='';
+			if(categories[i].items.includes(pageName) ^ categories[i].blacklist){
+				if(catsIn){
+					catsIn+=', ';
+				}
+				catsIn+=`<a class="category" href="Category${linkSuffix}?${categories[i].name}">${categories[i].name}</a>`;
+			}
 		}
 		return '<div class="categories">categories: '+catsIn+'</div>';
 	} catch (error) {

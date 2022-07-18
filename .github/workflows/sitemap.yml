@@ -1,0 +1,29 @@
+name: Generate xml sitemap
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Generate a sitemap
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 
+
+    - name: Generate the sitemap
+      id: sitemap
+      uses: cicirello/generate-sitemap@v1.8.3
+      with:
+        base-url-path: https://tyfyter.github.io
+
+    - name: Commit sitemap
+      # You may pin to the exact commit or the version.
+      # uses: zwaldowski/git-commit-action@66730766679672410dc04830ae6389f4376c8c94
+      uses: zwaldowski/git-commit-action@v1
+      with:
+        commit_message: sitemap update

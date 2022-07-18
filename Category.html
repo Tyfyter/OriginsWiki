@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script>
+			var catName = window.location.search.substring(1);
+			onload = function(ev){
+				var firstHeader = document.getElementsByTagName("h1");
+				firstHeader[0].innerText = 'Category: '+catName;
+			};
+		</script>
+		<script src="automarkdown.js" defer></script>
+		<script>
+			async function requestPageText(page) {
+				var pageText = await fetch(page);
+				pageText = await pageText.text();
+				return pageText;
+			}
+			function parseXMLSitemap(sitemapContent) {
+				var parser = new DOMParser();
+				var xmlDoc = parser.parseFromString(sitemapContent, 'text/xml');
+				return xmlDoc;
+			}
+			onload = async function(ev){
+				var content = document.getElementById('content');
+				var categories = requestPageText('categories.json');
+				var siteMap = requestPageText('sitemap.xml');
+				categories = JSON.parse((await categories).replaceAll('\n', ' ')).filter((v)=>v.name === catName)[0];
+				siteMap = (await siteMap) && parseXMLSitemap(await siteMap);
+				console.log(siteMap);
+			};
+		</script>
+		<link rel="stylesheet" href="styling.css"></link>
+	</head>
+	<body>
+		<article id="content">
+			<h1>Category: </h1>
+			<div class="divider"></div>
+
+		</article>
+	</body>
+</html>

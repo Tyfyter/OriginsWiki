@@ -15,7 +15,7 @@
 	--visited-link-color: rgb(140, 125, 255);
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
-  --box-bg-color: rgb(200, 200, 200, 0.5);
+  --box-bg-color: rgb(200, 200, 200, 0.35);
 }
 
 html.background {
@@ -366,6 +366,13 @@ details > summary {
 	transform: translate(40%);
 	z-index: -1;
 	position: relative;
+}
+.categories{
+	display: block;
+  clear: both;
+	border-radius: 5px;
+	border-style: groove;
+	background: var(--box-bg-color);
 }
 .coins ::after {
   content: '';
