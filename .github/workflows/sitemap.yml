@@ -1,0 +1,31 @@
+name: Generate xml sitemap
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sitemap_job:
+    runs-on: ubuntu-latest
+    name: Generate a sitemap
+    if: github.event.pusher.name != 'github-actions'
+
+    steps:
+    - name: Checkout the repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0 
+
+    - name: Generate the sitemap
+      id: sitemap
+      uses: cicirello/generate-sitemap@v1.8.3
+      with:
+        base-url-path: https://tyfyter.github.io
+      
+    - name: Push sitemap
+      if: github.event.pusher.name != 'github-actions'
+      uses: reloc8/action-push-local-changes@1.0.0
+      with:
+        commit-username: 'github-actions'
+        commit-message: sitemap
+        
