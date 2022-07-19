@@ -6,6 +6,8 @@ var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
 
 const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
+const catLeftQuoteRegex = /(^|(?<!\\):)(\s*)([^{}\[\]\s])/gm;
+const catRightQuoteRegex = /([^{}\[\]\s])(\s*)($|(?<!\\):)/gm;
 
 var lastErrObject;
 
@@ -31,14 +33,41 @@ var _siteMap = requestPageText('sitemap.xml');
 async function getCategories(){
 	if(typeof await _categories === 'string'){
 		var catText = await _categories;
-		_categories = JSON.parse(catText.replace(catCommaRegex, ',$1'));
+		catText = catText.replace(/(")/gm, '\\$1').
+		replace(catLeftQuoteRegex, '$1$2"$3').
+		replace(catRightQuoteRegex, '$1"$2$3').
+		replace(catCommaRegex, ',$1').
+		replace(/\r|\n/g, ' ').
+		replace(/"(true|false)"/gm, '$1');
+		_categories = JSON.parse(catText);
+		for (let key in _categories) {
+			if (_categories.hasOwnProperty(key)) {
+				for(var i = 0; i < _categories[key].items.length; i++){
+					_categories[key].items[i] = _categories[key].items[i].replace('\\:', ':');
+				}
+			}
+		}
+
 	}
 	return await _categories;
 }
 
 async function getSiteMap(){
 	if(typeof await _siteMap === 'string'){
-		_siteMap = parseXMLSitemap(await _siteMap);
+		var siteMap = parseXMLSitemap(await _siteMap);
+		var allPages = [];
+		for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
+			var child = siteMap.children[0].children[i0];
+			for(var i1 = 0; i1 < child.children.length; i1++){
+				if(child.children[i1].tagName === 'loc'){
+					var pageName = child.children[i1].firstChild.nodeValue.split('/');
+					pageName = pageName[pageName.length - 1].replaceAll('.html', '') || 'index';
+					allPages.push(pageName.replaceAll('.html', ''));
+					break;
+				}
+			}
+		}
+		_siteMap = allPages;
 	}
 	return await _siteMap;
 }
@@ -392,7 +421,13 @@ async function createCategorySegment(){
 		if(pageName == 'Category'){
 			return "";
 		}
-		var cats = getCategories();
+		var cats0 = await getCategories();
+		var cats = [];
+		for (let key in cats0) {
+			if (cats0.hasOwnProperty(key)) {
+				cats.push(cats0[key]);
+			}
+		}
 		var catsIn = '';
 		for (let i = 0; i < cats.length; i++) {
 			if(cats[i].items.includes(pageName) ^ cats[i].blacklist){

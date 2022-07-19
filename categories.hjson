@@ -1,29 +1,71 @@
-[
-  {
-    "name":"special"
-    "items":[
-      "§example"
-      "§page2"
-      "§pageList"
-      "§syntaxChecker"
-      "§template"
-      "index"
-      "Accessories"
-      "Ammunition"
-      "Armor"
-      "Bars"
-      "Biomes"
-      "Blocks"
-      "Category"
-      "Changes"
+{
+  special:{
+    name:special
+    items:[
+      §example
+      §page2
+      §pageList
+      §syntaxChecker
+      §template
+      index
+      Accessories
+      Ammunition
+      Armor
+      Bars
+      Biomes
+      Blocks
+      Category
+      Changes
+      Crafting_Materials
+      Crafting_Stations
+      Miscellaneous
+      Mounts
+      Recipe_Changes
+      Summoner
+      Stun
     ]
   }
-  {
-    "name":"unimplimented"
-    "blacklist":true
-    "items":[
-      "Dim_Starlight"
-      "Defiled_Amalgamation"
+  implimented:{
+    name:implimented
+    items:[
+      Advanced_Imaging
+      Air_Pack
+      Air_Tank
+      Blast_Resistant_Plate
+      Bomb_Charm
+      Bomb_Handling_Device
+      Brine_Pool
+      Cryosten_Armor
+      Cybernetic_Brain
+      Decaying_Scale
+      Defiled_Amalgamation
+      Defiled_Armor
+      Defiled_Bar
+      Defiled_Heart
+      Defiled_Resurgence
+      Defiled_Seed
+      Defiled_Stone
+      Defiled_Tree
+      Defiled_Wastelands
+      Demolitionist_Weapons
+      Dim_Starlight
+      Freeze_Frame
+      Krunch_Mix
+      Lost_Ore
+      Mana_Shielding
+      Mutualism
+      Peatball
+      Pneumatic_Bomb_Thrower
+      Strange_String
+      Undead_Chunk
     ]
   }
-]
+  unimplimented:{
+    name:unimplimented
+    blacklist:true
+    items:[
+      cat\\:special
+      cat\\:implimented
+    ]
+  }
+}

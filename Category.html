@@ -9,25 +9,27 @@
 			}
 			async function postParseCallback(ev){
 				var content = document.getElementById('content');
-				var category = (await getCategories()).filter((v)=>v.name === catName)[0];
-				var siteMap = await getSiteMap();
-				var allPages = [];
-				for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
-					var child = siteMap.children[0].children[i0];
-					for(var i1 = 0; i1 < child.children.length; i1++){
-						if(child.children[i1].tagName === 'loc'){
-							var pageName = child.children[i1].firstChild.nodeValue.split('/');
-							pageName = pageName[pageName.length - 1].replaceAll('.html', '') || 'index';
-							allPages.push(pageName.replaceAll('.html', ''));
-							break;
+				var siteMap = getSiteMap();
+				var categories = await getCategories();
+				var category = categories[catName];
+				var siteMap = await siteMap;
+				for (var i = 0; i < category.items.length; i++) {
+					if(category.items[i].slice(0, 4) === 'cat:'){
+						try{
+							category.items.push(...categories[category.items[i].slice(4)].items);
+						}catch(error){
+							console.error(error);
 						}
+						//category.items.splice(i,1);
 					}
 				}
 				
 				var catContents = '';
-				for (var i = 0; i < allPages.length; i++) {
-					if(category.items.includes(allPages[i]) ^ category.blacklist){
-						catContents += `<div class="catitem"><a href="${allPages[i]+linkSuffix}">${allPages[i]}</a></div>`;
+				console.log(category.items);
+				for (var i = 0; i < siteMap.length; i++) {
+					console.log(`${siteMap[i]} ${category.items.includes(siteMap[i])} ^ ${category.blacklist}`);
+					if(category.items.includes(siteMap[i]) ^ category.blacklist){
+						catContents += `<div class="catitem"><a href="${siteMap[i]+linkSuffix}">${siteMap[i].replaceAll('_', ' ')}</a></div>`;
 					}
 				}
 
