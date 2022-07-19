@@ -1,0 +1,29 @@
+[
+  {
+    "name":"special"
+    "items":[
+      "§example"
+      "§page2"
+      "§pageList"
+      "§syntaxChecker"
+      "§template"
+      "index"
+      "Accessories"
+      "Ammunition"
+      "Armor"
+      "Bars"
+      "Biomes"
+      "Blocks"
+      "Category"
+      "Changes"
+    ]
+  }
+  {
+    "name":"unimplimented"
+    "blacklist":true
+    "items":[
+      "Dim_Starlight"
+      "Defiled_Amalgamation"
+    ]
+  }
+]

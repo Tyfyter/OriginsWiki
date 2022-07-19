@@ -3,29 +3,14 @@
 	<head>
 		<script>
 			var catName = window.location.search.substring(1);
-			onload = function(ev){
+			function preParseCallback(){
 				var firstHeader = document.getElementsByTagName("h1");
 				firstHeader[0].innerText = 'Category: '+catName;
-			};
-		</script>
-		<script src="automarkdown.js" defer></script>
-		<script>
-			async function requestPageText(page) {
-				var pageText = await fetch(page);
-				pageText = await pageText.text();
-				return pageText;
 			}
-			function parseXMLSitemap(sitemapContent) {
-				var parser = new DOMParser();
-				var xmlDoc = parser.parseFromString(sitemapContent, 'text/xml');
-				return xmlDoc;
-			}
-			onload = async function(ev){
+			async function postParseCallback(ev){
 				var content = document.getElementById('content');
-				var categories = requestPageText('categories.json');
-				var siteMap = requestPageText('sitemap.xml');
-				var category = JSON.parse((await categories).replaceAll('\n', ' ')).filter((v)=>v.name === catName)[0];
-				siteMap = (await siteMap) && parseXMLSitemap(await siteMap);
+				var category = (await getCategories()).filter((v)=>v.name === catName)[0];
+				var siteMap = await getSiteMap();
 				var allPages = [];
 				for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
 					var child = siteMap.children[0].children[i0];
@@ -48,6 +33,9 @@
 
 				content.innerHTML += catContents;
 			};
+		</script>
+		<script src="automarkdown.js" defer></script>
+		<script>
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
 	</head>

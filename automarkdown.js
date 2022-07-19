@@ -5,6 +5,8 @@ const lightSettingSuffix = '_Mode.png';
 var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
 
+const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
+
 var lastErrObject;
 
 if(document.location.protocol == 'https:'){
@@ -12,6 +14,34 @@ if(document.location.protocol == 'https:'){
 }
 
 console.log('cookieSuffix: ' + cookieSuffix);
+
+async function requestPageText(page) {
+	var pageText = await fetch(page);
+	pageText = await pageText.text();
+	return pageText;
+}
+function parseXMLSitemap(sitemapContent) {
+	var parser = new DOMParser();
+	var xmlDoc = parser.parseFromString(sitemapContent, 'text/xml');
+	return xmlDoc;
+}
+var _categories = requestPageText('categories.hjson');
+var _siteMap = requestPageText('sitemap.xml');
+
+async function getCategories(){
+	if(typeof await _categories === 'string'){
+		var catText = await _categories;
+		_categories = JSON.parse(catText.replace(catCommaRegex, ',$1'));
+	}
+	return await _categories;
+}
+
+async function getSiteMap(){
+	if(typeof await _siteMap === 'string'){
+		_siteMap = parseXMLSitemap(await _siteMap);
+	}
+	return await _siteMap;
+}
 
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
@@ -362,16 +392,14 @@ async function createCategorySegment(){
 		if(pageName == 'Category'){
 			return "";
 		}
-		var categories = await fetch('categories.json');
-		categories = await categories.text();
-		categories = JSON.parse(categories.replaceAll('\n', ' '));
+		var cats = getCategories();
 		var catsIn = '';
-		for (let i = 0; i < categories.length; i++) {
-			if(categories[i].items.includes(pageName) ^ categories[i].blacklist){
+		for (let i = 0; i < cats.length; i++) {
+			if(cats[i].items.includes(pageName) ^ cats[i].blacklist){
 				if(catsIn){
 					catsIn+=', ';
 				}
-				catsIn+=`<a class="category" href="Category${linkSuffix}?${categories[i].name}">${categories[i].name}</a>`;
+				catsIn+=`<a class="category" href="Category${linkSuffix}?${cats[i].name}">${cats[i].name}</a>`;
 			}
 		}
 		return '<div class="categories">categories: '+catsIn+'</div>';
@@ -638,6 +666,7 @@ function parseAFML(throwErrors = false){
 }
 
 {
+	typeof preParseCallback !== 'undefined' && preParseCallback();
 	parseAFML();
 
 	var content = document.getElementById("content");
@@ -708,4 +737,5 @@ function parseAFML(throwErrors = false){
 		head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
 	createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
+	typeof postParseCallback !== 'undefined' && postParseCallback();
 }
