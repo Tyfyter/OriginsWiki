@@ -24,9 +24,29 @@
 				var content = document.getElementById('content');
 				var categories = requestPageText('categories.json');
 				var siteMap = requestPageText('sitemap.xml');
-				categories = JSON.parse((await categories).replaceAll('\n', ' ')).filter((v)=>v.name === catName)[0];
+				var category = JSON.parse((await categories).replaceAll('\n', ' ')).filter((v)=>v.name === catName)[0];
 				siteMap = (await siteMap) && parseXMLSitemap(await siteMap);
-				console.log(categories + ', ' + siteMap);
+				var allPages = [];
+				for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
+					var child = siteMap.children[0].children[i0];
+					for(var i1 = 0; i1 < child.children.length; i1++){
+						if(child.children[i1].tagName === 'loc'){
+							var pageName = child.children[i1].firstChild.nodeValue.split('/');
+							pageName = pageName[pageName.length - 1].replaceAll('.html', '') || 'index';
+							allPages.push(pageName.replaceAll('.html', ''));
+							break;
+						}
+					}
+				}
+				
+				var catContents = '';
+				for (var i = 0; i < allPages.length; i++) {
+					if(category.items.includes(allPages[i]) ^ category.blacklist){
+						catContents += `<div class="catitem"><a href="${allPages[i]+linkSuffix}">${allPages[i]}</a></div>`;
+					}
+				}
+
+				content.innerHTML += catContents;
 			};
 		</script>
 		<link rel="stylesheet" href="styling.css"></link>
