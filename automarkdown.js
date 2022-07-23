@@ -44,7 +44,7 @@ var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '
 _stats[pageName] = new Promise((resolve, reject) => {
 		requestPageText('stats/'+pageName + '.json').then((v) => {
 			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null: v;
-			_stats[pageName] ? resolve(_stats[pageName]) : reject();
+			_stats[pageName] ? resolve(_stats[pageName]) : reject(404);
 		});
 	}
 );
@@ -131,15 +131,18 @@ function requestAndProcessPageList(action, filter, sync){
 	request.send();
 }
 
-function getSearchLinks(query, filter = ".html"){
+async function getSearchLinks(query, filter = ".html"){
     query = query.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 	var regexQuery = new RegExp("("+query+")","i");
 	var results = [];
-	requestAndProcessPageList(function(re){
+	results = (await getSiteMap()).filter(function(v){
+		return v.match(regexQuery) && (v.includes(section) == query.includes(section));
+	})
+	/*requestAndProcessPageList(function(re){
 		results = re.filter(function(v){
 			return v.match(regexQuery) && (v.includes(section) == query.includes(section));
 		});
-	}, filter, true);
+	}, filter, true);*/
 	//console.log(results);
 	results = results.sort(function(a, b) {
 		try{
@@ -152,7 +155,7 @@ function getSearchLinks(query, filter = ".html"){
 	});
 	//window.alert(results);
 	return results.map(function(v){
-		return '<a href='+v+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
+		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
 	}).join("<br>");
 }
 
@@ -288,12 +291,16 @@ function processCoins(copper = 0, silver = 0, gold = 0, platinum = 0){
 	}
 	return result + '</span>';
 }
-async function processAutoStats(name = pageName){
+async function requestStats(name){
 	var value = await _stats[name];
 	if(value === undefined){
 		var v = await (_stats[name] = requestPageText('stats/'+name + '.json'));
 		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null: v);
 	}
+	return value;
+}
+async function processAutoStats(name = pageName){
+	var value = await requestStats(name);
 	if(value === null){
 		return null;
 	}
@@ -325,13 +332,61 @@ async function processAutoStats(name = pageName){
 			result += `{label:[link Rarity | | https://terraria.wiki.gg/wiki/Rarity],value:[link | Images/Rare${value.Rarity}.png | https://terraria.wiki.gg/wiki/Rarity]}`;
 		}
 		if(value.Sell){
-			result += `{label:[link Sell | | https://terraria.wiki.gg/wiki/Value],value:${value.Sell}}`;
+			result += `{label:[link Sell | | https://terraria.wiki.gg/wiki/Value],value:[coins ${Math.floor(value.Sell / 1000000) % 100} | ${Math.floor(value.Sell / 10000) % 100} | ${Math.floor(value.Sell / 100) % 100} | ${(value.Sell) % 100}]}`;
 		}
 		result += `{label:[link Research | | https://terraria.wiki.gg/wiki/Journey_Mode#Research],value:<abbr class="journey" title="Journey Mode">${value.Research||1} required</abbr>}`;
 		result += ']}';
 		result += ' statblock}';
 	}
+	if(value.Types.includes("NPC")){
+		result = '{statblock ';
+		var _class = (value.Expert || value.Master) ? 'class:onlytab0,' : '';
+		var addComma = false;
+		if(value.Image){
+			result += `{header: ${document.title}, ${_class} items:[{image:Images/${value.Image}.png}]}`;
+		}
+		result += (addComma ? ',{' : '{') + `header:Statistics, ${_class} items:[`;
+		if(value.Biome){
+			result += `{label:[link Environment | | https://terraria.wiki.gg/wiki/Biome],${_class} value${Array.isArray(value.Biome)?'s':''}:${JSON.stringify(value.Biome)}}`;
+		}
+		if(value.AIStyle){
+			result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/AI],${_class} value${Array.isArray(value.AIStyle)?'s':''}:${JSON.stringify(value.AIStyle)}}`;
+		}
+		if(value.Damage){
+			result += `{label:Damage,${_class} value${Array.isArray(value.Damage)?'s':''}:${JSON.stringify(value.Damage)}}`;
+		}
+		if(value.MaxLife){
+			result += `{label:Max Life,${_class} value:${value.MaxLife}}`;
+		}
+		if(value.Defense){
+			result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],${_class} value${Array.isArray(value.Defense)?'s':''}:${JSON.stringify(value.Defense)}}`;
+		}
+		if(value.Immunity){
+			result += `{label:Immune to,${_class} values:[${Immunity.join(', ')}]}`;
+		}
+		result += ']}';
+		if(value.Drops){
+			result += `,{header:Drops,${_class} items:[
+				{
+				label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
+				value:[coins ${Math.floor(value.Coins / 1000000) % 100} | ${Math.floor(value.Coins / 10000) % 100} | ${Math.floor(value.Coins / 100) % 100} | ${(value.Coins) % 100}]
+				},]}`;
+		}
+		result += ' statblock}';
+	}
 	return result;
+}
+async function processStat(...stat){
+	stat = stat[0];
+	var value = await requestStats((stat[0] + '').trim());
+	if(value === null){
+		return null;
+	}
+	value = JSON.parse(value);
+	for(var i = 1; i < stat.length; i++){
+		value = value[(stat[i]+'').trim()];
+	}
+	return value;
 }
 
 function makeHeader(text){
@@ -477,6 +532,25 @@ function selectTab(container, tabNumber){
 	}
 	statBlock.classList.add('ontab'+tabNumber);
 }
+async function processSortableList(data){
+	var result = '<thead><tr>';
+	for(var j = 0; j < data.headers.length; j++){
+		result += `<th>${data.headers[j]}</th>`;
+	}
+	result += '</tr></thead><tbody>';
+	for(var i = 0; i < data.items.length; i++){
+		result += '<tr>';
+		var item = JSON.parse(await requestStats(data.items[i]));
+		console.log(item);
+		for(var j = 0; j < data.headers.length; j++){
+			result += `<td>${item[data.headers[j]]}</td>`;
+		}
+		result += '</tr>';
+	}
+	result += '</tbody>';
+	console.log(result);
+	return result;
+}
 
 async function createCategorySegment(){
 	try {
@@ -487,7 +561,9 @@ async function createCategorySegment(){
 		}
 		var cats0 = await getCategories();
 		var cats = [];
+		console.log("cats:");
 		for (let key in cats0) {
+			console.log(key);
 			if (cats0.hasOwnProperty(key)) {
 				cats.push(cats0[key]);
 			}
@@ -498,14 +574,14 @@ async function createCategorySegment(){
 			while (!noCats) {
 				noCats = true;
 				for (var i1 = 0; i1 < cats[i].items.length; i1++) {
-					if(cats[i].items[i].slice(0, 4) === 'cat:'){
+					if(cats[i].items[i1].slice(0, 4) === 'cat:'){
 						noCats = false;
 						try{
-							cats[i].items.push(...cats0[cats[i].items[i].slice(4)].items);
+							cats[i].items.push(...cats0[cats[i].items[i1].slice(4)].items);
 						}catch(error){
 							console.error(error);
 						}
-						//category.items.splice(i,1);
+						cats[i].items.splice(i1,1);
 					}
 				}
 			}
@@ -513,7 +589,7 @@ async function createCategorySegment(){
 				if(catsIn){
 					catsIn+=', ';
 				}
-				catsIn+=`<a class="category" href="Category${linkSuffix}?${cats[i].name}">${cats[i].name}</a>`;
+				catsIn+=`<a class="category" href="${cats[i].page ? (cats[i].page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i].name)}">${cats[i].name}</a>`;
 			}
 		}
 		return '<div class="categories">categories: '+catsIn+'</div>';
@@ -524,7 +600,7 @@ async function createCategorySegment(){
 }
 
 async function parseAFML(throwErrors = false){
-	if (document.location.protocol === 'https:'){
+	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
 	}
 	var content = document.getElementById("content");
@@ -541,15 +617,16 @@ async function parseAFML(throwErrors = false){
 	let subsIndex = 0;
 	let substitutions = [];
 
-	const autoStatRegex = /\[(statblock)([^\[]*?)]/i;
-	const linkRegex = /\[link([^\[]*?)]/i;
-	const coinRegex = /\[(coins|coin|price|value)([^\[]*?)]/i;
+	const statRegex = /\[(stat) ([^\[]*?)]/i;
+	const autoStatRegex = /\[(statblock) ([^\[]*?)]/i;
+	const linkRegex = /\[link ([^\[]*?)]/i;
+	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
 	
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
 	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
 	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
-	const altTabRegex = /\{(?<tag>tabs)((.|\n)*?)\k<tag>}/gi;
+	const sortableListRegex = /\{(?<tag>sortablelist)((.|\n)*?)\k<tag>}/gi;
 
 	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
 	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
@@ -566,8 +643,19 @@ async function parseAFML(throwErrors = false){
 	var item;
 
 	try{
+		item = content.innerHTML.match(statRegex);
+		while(item){
+			console.log(item);
+			content.innerHTML = content.innerHTML.replace(item[0], await processStat(item[2].split('|')));
+			item = content.innerHTML.match(statRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
+
+	try{
 		item = content.innerHTML.match(autoStatRegex);
-		var autoStatCount = 0;
 		while(item){
 			console.log(item);
 			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim()));
@@ -622,6 +710,7 @@ async function parseAFML(throwErrors = false){
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock ontab0", tag: "div", func: processStatBlock},
 		{regex: inlineStatBlockRegex, class: "inlinestatblock", tag: "div", func: processStatBlock},
+		{regex: sortableListRegex, class: "sortablelist", tag: "table", func: processSortableList},
 		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock}
 		
 		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
@@ -717,7 +806,7 @@ async function parseAFML(throwErrors = false){
 			  lastErrObject = sections;
 				if(blockRegexes[cycle].first) result += blockRegexes[cycle].first;
 				for(var i = 0; i < sections.length; i++){
-					result += blockRegexes[cycle].func(sections[i]);
+					result += await blockRegexes[cycle].func(sections[i]);
 				}
 				if(blockRegexes[cycle].finish)result = blockRegexes[cycle].finish(result);
 			}catch(e){
@@ -792,7 +881,49 @@ async function parseAFML(throwErrors = false){
 	}*/
 //});
 }
+var onSearchbarInput = async (e)=>{
+	var searchbar = document.getElementById("searchbar");
+	document.getElementById("searchlinks").innerHTML = searchbar.value ? await getSearchLinks(searchbar.value) : '';
+};
+var onSearchbarKeyDown = (e)=>{
+	var searchlinks = document.getElementById("searchlinks");
+	var dir = 0;
+	switch(e.key){
+		case 'ArrowUp':
+		dir = -1;
+		break;
 
+		case 'ArrowDown':
+		dir = 1;
+		break;
+
+		case 'Enter':
+		var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
+		if(selectedLinks.length > 0){
+			window.open(selectedLinks[0].href, "_self")
+		}
+		break;
+	}
+	if(dir != 0){
+		var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
+		if(selectedLinks.length > 0){
+			var selectedLink = selectedLinks[0];
+			selectedLink.classList.remove('selectedSearch');
+			do{
+				if(dir > 0){
+					selectedLink = selectedLink.nextSibling;
+				}else{
+					selectedLink = selectedLink.previousSibling;
+				}
+			}while(selectedLink && !selectedLink.classList.contains('searchLink'));
+			if(selectedLink){
+				selectedLink.classList.add('selectedSearch');
+			}
+		}else{
+			searchlinks.children[(searchlinks.childNodes.length + Math.min(dir, 0)) % searchlinks.childNodes.length].classList.add('selectedSearch');
+		}
+	}
+};
 {
 	typeof preParseCallback !== 'undefined' && preParseCallback();
 	parseAFML();
@@ -801,55 +932,12 @@ async function parseAFML(throwErrors = false){
 	content.innerHTML = '<div id="toolbar">'+
 	'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
 	'<img id="lighttoggle" onclick="setDarkMode(!getDarkMode())">'+
-	'<input id="searchbar" placeholder="Search Origins wiki">'+
+	'<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">'+
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
     '<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
     '</svg>'+
 	'<div id="searchlinks"></div>'+
 	'</div>'+content.innerHTML;
-	var searchbar = document.getElementById("searchbar");
-	var searchlinks = document.getElementById("searchlinks");
-	searchbar.oninput = (e)=>{
-		searchlinks.innerHTML = searchbar.value ? getSearchLinks(searchbar.value) : '';
-	};
-	searchbar.onkeydown = (e)=>{
-		var dir = 0;
-		switch(e.key){
-			case 'ArrowUp':
-			dir = -1;
-			break;
-
-			case 'ArrowDown':
-			dir = 1;
-			break;
-
-			case 'Enter':
-			var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
-			if(selectedLinks.length > 0){
-				window.open(selectedLinks[0].href, "_self")
-			}
-			break;
-		}
-		if(dir != 0){
-			var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
-			if(selectedLinks.length > 0){
-				var selectedLink = selectedLinks[0];
-				selectedLink.classList.remove('selectedSearch');
-				do{
-					if(dir > 0){
-						selectedLink = selectedLink.nextSibling;
-					}else{
-						selectedLink = selectedLink.previousSibling;
-					}
-				}while(selectedLink && !selectedLink.classList.contains('searchLink'));
-				if(selectedLink){
-					selectedLink.classList.add('selectedSearch');
-				}
-			}else{
-				searchlinks.children[(searchlinks.childNodes.length + Math.min(dir, 0)) % searchlinks.childNodes.length].classList.add('selectedSearch');
-			}
-		}
-	};
 	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){

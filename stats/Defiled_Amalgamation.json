@@ -1,0 +1,9 @@
+{
+    "Image":"Krakram",
+    "Types":[
+        "NPC"
+    ],
+    "Biome":"Defiled Wastelands",
+    "Damage":8,
+    "Coins":50000
+}

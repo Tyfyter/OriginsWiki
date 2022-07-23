@@ -1,4 +1,11 @@
 {
+  bosses:{
+    name:bosses
+    page:Bosses
+    items:[
+      Defiled_Amalgamation
+    ]
+  }
   special:{
     name:special
     items:[
