@@ -1,0 +1,13 @@
+{
+    "Image":"Krakram",
+    "Types":[
+        "Weapon"
+    ],
+    "Damage":25,
+    "Knockback":8,
+    "Crit":4,
+    "UseTime":18,
+    "Velocity":9.75,
+    "Rarity":"Blue",
+    "Sell":5000
+}

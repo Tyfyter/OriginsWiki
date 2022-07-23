@@ -17,6 +17,16 @@ if(document.location.protocol == 'https:'){
 
 console.log('cookieSuffix: ' + cookieSuffix);
 
+var firstHeader = document.getElementsByTagName("h1");
+if(firstHeader && firstHeader[0]){
+	document.title = firstHeader[0].textContent;
+}else{
+	var urlExtractedTitle = /([^\/]+?)\.html/.exec(document.URL);
+	if(urlExtractedTitle && urlExtractedTitle.length > 1 && urlExtractedTitle[1]){
+		document.title = urlExtractedTitle[1];
+	}
+}
+
 async function requestPageText(page) {
 	var pageText = await fetch(page);
 	pageText = await pageText.text();
@@ -29,6 +39,15 @@ function parseXMLSitemap(sitemapContent) {
 }
 var _categories = requestPageText('categories.hjson');
 var _siteMap = requestPageText('sitemap.xml');
+var _stats = {};
+var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '');
+_stats[pageName] = new Promise((resolve, reject) => {
+		requestPageText('stats/'+pageName + '.json').then((v) => {
+			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null: v;
+			_stats[pageName] ? resolve(_stats[pageName]) : reject();
+		});
+	}
+);
 
 async function getCategories(){
 	if(typeof await _categories === 'string'){
@@ -269,6 +288,51 @@ function processCoins(copper = 0, silver = 0, gold = 0, platinum = 0){
 	}
 	return result + '</span>';
 }
+async function processAutoStats(name = pageName){
+	var value = await _stats[name];
+	if(value === undefined){
+		var v = await (_stats[name] = requestPageText('stats/'+name + '.json'));
+		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null: v);
+	}
+	if(value === null){
+		return null;
+	}
+	value = JSON.parse(value);
+	var result = '';
+	if(value.Types.includes("Weapon")){
+		result = '{statblock ';
+		var addComma = false;
+		if(value.Image){
+			result += `{header: ${document.title}, items:[{image:Images/${value.Image}.png}]}`;
+		}
+		result += (addComma ? ',{' : '{') + 'header:Statistics, items:[';
+		if(value.Damage){
+			result += `{label:Damage,value:${value.Damage}}`;
+		}
+		if(value.Knockback){
+			result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/Knockback],value:${value.Knockback}}`;
+		}
+		if(value.Crit){
+			result += `{label:[link Critical chance | | https://terraria.wiki.gg/wiki/Critical_hit],value:${value.Crit}}`;
+		}
+		if(value.UseTime){
+			result += `{label:[link UseTime | | https://terraria.wiki.gg/wiki/Use_Time],value:${value.UseTime}}`;
+		}
+		if(value.Velocity){
+			result += `{label:[link Velocity | | https://terraria.wiki.gg/wiki/Velocity],value:${value.Velocity}}`;
+		}
+		if(value.Rarity){
+			result += `{label:[link Rarity | | https://terraria.wiki.gg/wiki/Rarity],value:[link | Images/Rare${value.Rarity}.png | https://terraria.wiki.gg/wiki/Rarity]}`;
+		}
+		if(value.Sell){
+			result += `{label:[link Sell | | https://terraria.wiki.gg/wiki/Value],value:${value.Sell}}`;
+		}
+		result += `{label:[link Research | | https://terraria.wiki.gg/wiki/Journey_Mode#Research],value:<abbr class="journey" title="Journey Mode">${value.Research||1} required</abbr>}`;
+		result += ']}';
+		result += ' statblock}';
+	}
+	return result;
+}
 
 function makeHeader(text){
 	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
@@ -430,6 +494,21 @@ async function createCategorySegment(){
 		}
 		var catsIn = '';
 		for (let i = 0; i < cats.length; i++) {
+			var noCats = false;
+			while (!noCats) {
+				noCats = true;
+				for (var i1 = 0; i1 < cats[i].items.length; i1++) {
+					if(cats[i].items[i].slice(0, 4) === 'cat:'){
+						noCats = false;
+						try{
+							cats[i].items.push(...cats0[cats[i].items[i].slice(4)].items);
+						}catch(error){
+							console.error(error);
+						}
+						//category.items.splice(i,1);
+					}
+				}
+			}
 			if(cats[i].items.includes(pageName) ^ cats[i].blacklist){
 				if(catsIn){
 					catsIn+=', ';
@@ -444,7 +523,7 @@ async function createCategorySegment(){
 	}
 }
 
-function parseAFML(throwErrors = false){
+async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:'){
 		linkSuffix = '';
 	}
@@ -462,6 +541,7 @@ function parseAFML(throwErrors = false){
 	let subsIndex = 0;
 	let substitutions = [];
 
+	const autoStatRegex = /\[(statblock)([^\[]*?)]/i;
 	const linkRegex = /\[link([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value)([^\[]*?)]/i;
 	
@@ -484,6 +564,19 @@ function parseAFML(throwErrors = false){
 	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
 	
 	var item;
+
+	try{
+		item = content.innerHTML.match(autoStatRegex);
+		var autoStatCount = 0;
+		while(item){
+			console.log(item);
+			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim()));
+			item = content.innerHTML.match(autoStatRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
 
 	try{
 		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
@@ -757,15 +850,6 @@ function parseAFML(throwErrors = false){
 			}
 		}
 	};
-	var firstHeader = document.getElementsByTagName("h1");
-	if(firstHeader && firstHeader[0]){
-		document.title = firstHeader[0].textContent;
-	}else{
-		var urlExtractedTitle = /([^\/]+?)\.html/.exec(document.URL);
-		if(urlExtractedTitle && urlExtractedTitle.length > 1 && urlExtractedTitle[1]){
-			document.title = urlExtractedTitle[1];
-		}
-	}
 	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){
