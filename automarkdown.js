@@ -310,7 +310,7 @@ async function processAutoStats(name = pageName){
 		result = '{statblock ';
 		var addComma = false;
 		if(value.Image){
-			result += `{header: ${document.title}, items:[{image:Images/${value.Image}.png}]}`;
+			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png}]}`;
 		}
 		result += (addComma ? ',{' : '{') + 'header:Statistics, items:[';
 		if(value.Damage){
@@ -341,43 +341,125 @@ async function processAutoStats(name = pageName){
 	if(value.Types.includes("NPC")){
 		result = '{statblock ';
 		var _class = (value.Expert || value.Master) ? 'class:onlytab0,' : '';
+		var _expertClass = 'class:onlytab1,';
+		var _masterClass = value.Expert ? 'class:onlytab2,' : 'class:onlytab1,';
 		var addComma = false;
+		const getClass = (val) => {
+			return (value.Expert && value.Expert[val]) || (value.Master && value.Master[val])? _class : '';
+		};
 		if(value.Image){
-			result += `{header: ${document.title}, ${_class} items:[{image:Images/${value.Image}.png}]}`;
+			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png}]}`;
 		}
-		result += (addComma ? ',{' : '{') + `header:Statistics, ${_class} items:[`;
+		result += (addComma ? ',{' : '{') + `header:Statistics, ${_class?`tabs:[Normal,${value.Expert?`Expert${value.Master?',Master':''}`:'Master'}],`:''} items:[`;
 		if(value.Biome){
-			result += `{label:[link Environment | | https://terraria.wiki.gg/wiki/Biome],${_class} value${Array.isArray(value.Biome)?'s':''}:${JSON.stringify(value.Biome)}}`;
+			result += `{label:[link Environment | | https://terraria.wiki.gg/wiki/Biome],${getClass('Biome')} value${Array.isArray(value.Biome)?'s':''}:${JSON.stringify(value.Biome)}}`;
+			if(value.Expert && value.Expert.Biome){
+				result += `{label:[link Environment | | https://terraria.wiki.gg/wiki/Biome],${_expertClass} value${Array.isArray(value.Expert.Biome)?'s':''}:${JSON.stringify(value.Biome)}}`;
+			}
+			if(value.Master && value.Master.Biome){
+				result += `{label:[link Environment | | https://terraria.wiki.gg/wiki/Biome],${_masterClass} value${Array.isArray(value.Master.Biome)?'s':''}:${JSON.stringify(value.Master.Biome)}}`;
+			}
 		}
 		if(value.AIStyle){
-			result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/AI],${_class} value${Array.isArray(value.AIStyle)?'s':''}:${JSON.stringify(value.AIStyle)}}`;
+			result += `{label:[link AI Style | | https://terraria.wiki.gg/wiki/AI],${getClass('AIStyle')} value${Array.isArray(value.AIStyle)?'s':''}:${JSON.stringify(value.AIStyle)}}`;
+			if(value.Expert && value.Expert.AIStyle){
+				result += `{label:[link AI Style | | https://terraria.wiki.gg/wiki/AI],${_expertClass} value${Array.isArray(value.Expert.AIStyle)?'s':''}:${JSON.stringify(value.Expert.AIStyle)}}`;
+			}
+			if(value.Master && value.Master.AIStyle){
+				result += `{label:[link AI Style | | https://terraria.wiki.gg/wiki/AI],${_masterClass} value${Array.isArray(value.Master.AIStyle)?'s':''}:${JSON.stringify(value.Master.AIStyle)}}`;
+			}
 		}
 		if(value.Damage){
-			result += `{label:Damage,${_class} value${Array.isArray(value.Damage)?'s':''}:${JSON.stringify(value.Damage)}}`;
+			result += `{label:Damage,${getClass('Damage')} value${Array.isArray(value.Damage)?'s':''}:${JSON.stringify(value.Damage)}}`;
+			if(value.Expert && value.Expert.Damage){
+				result += `{label:Damage,${_expertClass} value${Array.isArray(value.Expert.Damage)?'s':''}:${JSON.stringify(value.Expert.Damage)}}`;
+			}
+			if(value.Master && value.Master.Damage){
+				result += `{label:Damage,${_masterClass} value${Array.isArray(value.Master.Damage)?'s':''}:${JSON.stringify(value.Master.Damage)}}`;
+			}
 		}
 		if(value.MaxLife){
-			result += `{label:Max Life,${_class} value:${value.MaxLife}}`;
+			result += `{label:Max Life,${getClass('MaxLife')} value:${value.MaxLife}}`;
+			if(value.Expert && value.Expert.MaxLife){
+				result += `{label:Max Life,${_expertClass} value:${value.Expert.MaxLife}}`;
+			}
+			if(value.Master && value.Master.MaxLife){
+				result += `{label:Max Life,${_masterClass} value:${value.Master.MaxLife}}`;
+			}
 		}
 		if(value.Defense){
-			result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],${_class} value${Array.isArray(value.Defense)?'s':''}:${JSON.stringify(value.Defense)}}`;
+			result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],${getClass('Defense')} value${Array.isArray(value.Defense)?'s':''}:${JSON.stringify(value.Defense)}}`;
+			if(value.Expert && value.Expert.Defense){
+				result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],${_expertClass} value${Array.isArray(value.Expert.Defense)?'s':''}:${JSON.stringify(value.Expert.Defense)}}`;
+			}
+			if(value.Master && value.Master.Defense){
+				result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],${_masterClass} value${Array.isArray(value.Master.Defense)?'s':''}:${JSON.stringify(value.Master.Defense)}}`;
+			}
 		}
-		if(value.Immunity){
-			result += `{label:Immune to,${_class} values:[${Immunity.join(', ')}]}`;
+		if(value.KBResist){
+			result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/Knockback] Resistance,${getClass('KBResist')} value${Array.isArray(value.KBResist)?'s':''}:${JSON.stringify(value.KBResist)}}`;
+			if(value.Expert && value.Expert.KBResist){
+				result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/Knockback] Resistance,${_expertClass} value${Array.isArray(value.Expert.KBResist)?'s':''}:${JSON.stringify(value.Expert.KBResist)}}`;
+			}
+			if(value.Master && value.Master.KBResist){
+				result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/Knockback] Resistance,${_masterClass} value${Array.isArray(value.Master.KBResist)?'s':''}:${JSON.stringify(value.Master.KBResist)}}`;
+			}
+		}
+		if(value.Immunities){
+			result += `{label:Immune to,${getClass('Immunities')} values:[${value.Immunities.join(', ')}]}`;
+			if(value.Expert && value.Expert.Immunities){
+				result += `{label:Immune to,${_expertClass} values:[${value.Expert.Immunities.join(', ')}]}`;
+			}
+			if(value.Master && value.Master.Immunities){
+				result += `{label:Immune to,${_masterClass} values:[${value.Master.Immunities.join(', ')}]}`;
+			}
 		}
 		result += ']}';
-		if(value.Drops){
-			result += `,{header:Drops,${_class} items:[
-				{
-				label:<a href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>,
-				value:[coins ${Math.floor(value.Coins / 1000000) % 100} | ${Math.floor(value.Coins / 10000) % 100} | ${Math.floor(value.Coins / 100) % 100} | ${(value.Coins) % 100}]
-				},]}`;
+		if(value.Drops || value.Coins){
+			result += ',{header:Drops, items:['
+			if(value.Coins) {
+				result += `{
+					label:[link Coins | | https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops],${getClass('Coins')}
+					value:[coins ${Math.floor(value.Coins / 1000000) % 100} | ${Math.floor(value.Coins / 10000) % 100} | ${Math.floor(value.Coins / 100) % 100} | ${(value.Coins) % 100}]
+				},`;
+				if(value.Expert && value.Expert.Coins) {
+					result += `,{
+						label:[link Coins | | https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops],${_expertClass}
+						value:[coins ${Math.floor(value.Master.Coins / 1000000) % 100} | ${Math.floor(value.Master.Coins / 10000) % 100} | ${Math.floor(value.Master.Coins / 100) % 100} | ${(value.Master.Coins) % 100}]
+					},`;
+				}
+				if(value.Master && value.Master.Coins) {
+					result += `,{
+						label:[link Coins | | https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops],${_masterClass}
+						value:[coins ${Math.floor(value.Master.Coins / 1000000) % 100} | ${Math.floor(value.Master.Coins / 10000) % 100} | ${Math.floor(value.Master.Coins / 100) % 100} | ${(value.Master.Coins) % 100}]
+					},`;
+				}
+			}
+			if(value.Drops) {
+				result += `{
+					label:Items,${getClass('Drops')}
+					values:${JSON.stringify(value.Drops)}
+				},`;
+			}
+			if(value.Expert && value.Expert.Drops) {
+				result += `{
+					label:Items,${_expertClass}
+					values:${JSON.stringify(value.Expert.Drops)}
+				},`;
+			}
+			if(value.Master && value.Master.Drops) {
+				result += `{
+					label:Items,${_masterClass}
+					values:${JSON.stringify(value.Master.Drops)}
+				},`;
+			}
+			result += ']}';
 		}
 		result += ' statblock}';
 	}
 	return result;
 }
 async function processStat(...stat){
-	stat = stat[0];
 	var value = await requestStats((stat[0] + '').trim());
 	if(value === null){
 		return null;
@@ -646,7 +728,7 @@ async function parseAFML(throwErrors = false){
 		item = content.innerHTML.match(statRegex);
 		while(item){
 			console.log(item);
-			content.innerHTML = content.innerHTML.replace(item[0], await processStat(item[2].split('|')));
+			content.innerHTML = content.innerHTML.replace(item[0], await processStat(...item[2].split('|')));
 			item = content.innerHTML.match(statRegex);
 		}
 	}catch(e){
@@ -658,7 +740,9 @@ async function parseAFML(throwErrors = false){
 		item = content.innerHTML.match(autoStatRegex);
 		while(item){
 			console.log(item);
+			console.log(['before',content.innerHTML]);
 			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim()));
+			console.log(['after',content.innerHTML]);
 			item = content.innerHTML.match(autoStatRegex);
 		}
 	}catch(e){
@@ -924,9 +1008,10 @@ var onSearchbarKeyDown = (e)=>{
 		}
 	}
 };
-{
+var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
-	parseAFML();
+	await parseAFML();
+	console.log('1');
 
 	var content = document.getElementById("content");
 	content.innerHTML = '<div id="toolbar">'+
@@ -945,4 +1030,5 @@ var onSearchbarKeyDown = (e)=>{
 	}
 	createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
 	typeof postParseCallback !== 'undefined' && postParseCallback();
-}
+};
+parse();

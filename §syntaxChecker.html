@@ -24,10 +24,10 @@
         
 		function execute() {
             try{
-                document.getElementById('content').innerHTML = document.getElementById('terminal').textContent;
+                document.getElementById('output').innerHTML = document.getElementById('terminal').textContent;
                 parseAFML(true);
             }catch(e){
-                document.getElementById('content').innerHTML = JSON.stringify(e);
+                document.getElementById('output').innerHTML = JSON.stringify(e);
             }
 		};
 		</script>
@@ -48,8 +48,8 @@
         </style>
     </head>
     <body>
-        <span id="terminal" contenteditable spellcheck="false"></span>
+        <span id="terminal" contenteditable spellcheck="false">[statblock Defiled_Amalgamation]</span>
         <button id="submit" type="submit" onclick="execute();">evaluate</button>
-        <article id="content"></article>
+        <article id="content"><div id="output"></div></article>
     </body>
 </html>

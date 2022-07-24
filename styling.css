@@ -272,6 +272,12 @@ details > summary {
 	vertical-align: middle;
 }
 
+.linkimage > img {
+	display:inline-block;
+	max-height: 3em;
+	vertical-align: middle;
+}
+
 .linktext {
 	display:inline-block;
 	/*vertical-align: middle;*/
@@ -350,7 +356,7 @@ details > summary {
 .L-connector{
 	display: inline-block;
 	width: 0.5em;
-	height: 1em;
+	height: 1.2em;
 	border-left: solid var(--article-text-color) 3px;
 	border-bottom: solid var(--article-text-color) 1.5px;
 	transform: translate(40%,-50%) scale(1,2);

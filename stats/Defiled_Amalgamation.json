@@ -1,9 +1,75 @@
 {
-    "Image":"Krakram",
+    "Image":"DefiledAmalg",
     "Types":[
         "NPC"
     ],
-    "Biome":"Defiled Wastelands",
-    "Damage":8,
-    "Coins":50000
+    "Biome":"[link Defiled Wastelands]",
+    "AIStyle":"Defiled Amalgamation",
+    "Damage":[
+        "36 (contact)",
+        "38 (projectile)"
+    ],
+    "MaxLife":2400,
+    "Defense":14,
+    "KBResist":"100%",
+    "Immunities":[
+        "[link Confused|$default|https://terraria.wiki.gg/wiki/Confused]",
+        "[link Rasterize]",
+        "[link Toxic Shock]"
+    ],
+    "Coins":50000,
+    "Drops":[
+        "[link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%",
+        "[link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%",
+        "[link Fiend Staff | Images/Fiend_Staff.png] - 33%",
+        "[link Low Signal | Images/Low_Signal.png] - 33%",
+        "[link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%",
+        "[link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%",
+        "[link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%",
+        "[link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%"
+    ],
+    "Expert":{
+        "Damage":[
+            "72 (contact)",
+            "64 (projectile)"
+        ],
+        "MaxLife":3840,
+        "Defense":15,
+        "Drops":[
+            "[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%",
+			"§l§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%",
+			"§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%",
+			"§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%",
+			"§L§ [link Low Signal | Images/Low_Signal.png] - 33%",
+			"§L§ [link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%",
+			"§L§ [link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%",
+			"§L§ [link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%",
+			"§L§ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%",
+			"§L§ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default] - 100%",
+			"§L§ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%"
+        ]
+    },
+    "Master":{
+        "Damage":[
+            "108 (contact)",
+            "78 (projectile)"
+        ],
+        "MaxLife":6144,
+        "Defense":16,
+        "Drops":[
+            "[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%",
+			"§l§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%",
+			"§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%",
+			"§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%",
+			"§L§ [link Low Signal | Images/Low_Signal.png] - 33%",
+			"§L§ [link Return To Sender | Images/Return_To_Sender.png | Return_To_Sender.html] - 33%",
+			"§L§ [link Ever-Watchful Eye | Images/Ever_Watchful_Eye.png | Ever_Watchful_Eye.html] - 5%",
+			"§L§ [link Defiled Amalgamation Trophy | Images/DA_Trophy.png | Defiled_Amalgamation_Trophy.html] - 10%",
+			"§L§ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%",
+			"§L§ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default] - 100%",
+			"§L§ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%",
+			"[link Darker Instinct | Images/Darker_Instinct.png | $default] - 100%",
+			"[link Defiled Amalgamation Relic | Images/DA_Relic.png | Relics#Defiled_Amalgamation] - 100%"
+        ]
+    }
 }
