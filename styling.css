@@ -262,6 +262,10 @@ details > summary {
 	border-left: 1px solid black;
 }
 
+.sortindex {
+	display:none;
+}
+
 .header {
 	font-size: 105.5%;
 	display: flex;

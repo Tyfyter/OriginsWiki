@@ -264,7 +264,7 @@ function processLink(targetName, image, targetPage, note){
 		targetPage = (targetName.replace(' ', '_')+linkSuffix);
 	}
 	if(image){
-		result += '<span class="linkimage"><img src='+image+'></span>';
+		result += `<a class="linkimage" href="${targetPage}"><img src=${image}></a>`;
 	}
 	if(!targetPage){
 		return targetName + '</span>';
@@ -617,8 +617,11 @@ function selectTab(container, tabNumber){
 var evalItem;
 async function processSortableList(data){
 	var result = '<thead><tr>';
+	if(data.headers[0] === 'Name'){
+		data.headers[0] = {name:'Name',expr:'processLink(item.Name, `Images/${item.Name}.png`)',sortIndex:'item.Name',noAbbr:true};
+	}
 	for(var j = 0; j < data.headers.length; j++){
-		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr?'abbr':'span'}></th>`;
+		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
 	}
 	result += '</tr></thead><tbody>';
 	var keys = new Set();
@@ -633,8 +636,11 @@ async function processSortableList(data){
 			keys.add(key);
 		}
 		keys.forEach((key)=>{evalItem[key] = item[key];});
+		var context = `let item = ${JSON.stringify(evalItem)};`;
 		for(var j = 0; j < data.headers.length; j++){
-			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>${data.headers[j].expr?eval(`let item = ${JSON.stringify(evalItem)};${data.headers[j].expr};`):item[data.headers[j]]}</td>`;
+			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>
+			${data.headers[j].expr?eval(`${context}${data.headers[j].expr};`):item[data.headers[j]]}
+			${data.headers[j].sortIndex?`<span class="sortindex">${eval(`${context}${data.headers[j].sortIndex};`)}</span>`:''}</td>`;
 		}
 		result += '</tr>';
 	}
@@ -672,8 +678,10 @@ function sortSortableList(target, index){
 	var table = tableHead.parentElement.parentElement;
 	var tableBody = table.getElementsByTagName('tbody')[0];
 	tableBody.replaceChildren(...Array.from(tableBody.children).sort((a,b)=>{
-		var av = a.children[index].textContent;
-		var bv = b.children[index].textContent;
+		var av = a.children[index];
+		var bv = b.children[index];
+		av = ([...av.getElementsByClassName('sortindex'),av])[0].textContent;
+		bv = ([...bv.getElementsByClassName('sortindex'),bv])[0].textContent;
 		var af = parseFloat(av);
 		var bf = parseFloat(bv);
 		if(af && bf){
