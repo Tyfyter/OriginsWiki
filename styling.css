@@ -411,10 +411,10 @@ details > summary {
 	background: var(--box-bg-color);
 }
 .sortedby ::after{
-  content: '▼';
+  content: '▾';
 }
 .revsortedby ::after{
-  content: '▲';
+  content: '▴';
 }
 .coins ::after {
   content: '';
