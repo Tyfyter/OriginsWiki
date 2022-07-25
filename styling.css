@@ -236,6 +236,32 @@ details > summary {
 	border-right: 1px solid black;
 }
 
+.sortablelist {
+	position: relative;
+	margin: .5em 0 .5em 1em;
+	background-color: var(--box-bg-color);
+	border: 1px solid black;
+	border-radius: 5px;
+}
+.sortablelist > thead > tr > th {
+  padding: 2px;
+  background-color: var(--subcontents-bg-color);
+	border-bottom: 1px solid black;
+}
+
+.sortablelist > thead > tr > th.notleft {
+	border-left: 1px solid black;
+}
+
+.sortablelist > tbody > tr > td {
+  padding: 10px;
+	border-bottom: 1px solid black;
+}
+
+.sortablelist > tbody > tr > td.notleft {
+	border-left: 1px solid black;
+}
+
 .header {
 	font-size: 105.5%;
 	display: flex;
@@ -379,6 +405,12 @@ details > summary {
 	border-radius: 5px;
 	border-style: groove;
 	background: var(--box-bg-color);
+}
+.sortedby ::after{
+  content: '▼';
+}
+.revsortedby ::after{
+  content: '▲';
 }
 .coins ::after {
   content: '';

@@ -614,24 +614,74 @@ function selectTab(container, tabNumber){
 	}
 	statBlock.classList.add('ontab'+tabNumber);
 }
+var evalItem;
 async function processSortableList(data){
 	var result = '<thead><tr>';
 	for(var j = 0; j < data.headers.length; j++){
-		result += `<th>${data.headers[j]}</th>`;
+		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr?'abbr':'span'}></th>`;
 	}
 	result += '</tr></thead><tbody>';
+	var keys = new Set();
 	for(var i = 0; i < data.items.length; i++){
 		result += '<tr>';
 		var item = JSON.parse(await requestStats(data.items[i]));
-		console.log(item);
+		if(!item.Name){
+			item.Name = data.items[i];
+		}
+		evalItem = {};
+		for(let key in item){
+			keys.add(key);
+		}
+		keys.forEach((key)=>{evalItem[key] = item[key];});
 		for(var j = 0; j < data.headers.length; j++){
-			result += `<td>${item[data.headers[j]]}</td>`;
+			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>${data.headers[j].expr?eval(`let item = ${JSON.stringify(evalItem)};${data.headers[j].expr};`):item[data.headers[j]]}</td>`;
 		}
 		result += '</tr>';
 	}
 	result += '</tbody>';
 	console.log(result);
 	return result;
+}
+function clickSortableList(event, index){
+	var target = event.target.parentElement;
+	while(target.tagName !== 'TH'){
+		target = target.parentElement;
+	}
+	var sorted = target.classList.contains('sortedby');
+	if(sorted || target.classList.contains('revsortedby')){
+		var tableBody = target.parentElement.parentElement.parentElement.getElementsByTagName('tbody')[0];
+		tableBody.replaceChildren(...Array.from(tableBody.children).reverse());
+		if(sorted){
+			target.classList.remove('sortedby');
+			target.classList.add('revsortedby');
+		}else{
+			target.classList.remove('revsortedby');
+			target.classList.add('sortedby');
+		}
+	}else{
+		sortSortableList(target, index);
+	}
+}
+function sortSortableList(target, index){
+	var tableHead = target.parentElement;
+	for (var i = 0; i < tableHead.children.length; i++) {
+		tableHead.children[i].classList.remove('sortedby');
+		tableHead.children[i].classList.remove('revsortedby');
+	}
+	target.classList.add('sortedby');
+	var table = tableHead.parentElement.parentElement;
+	var tableBody = table.getElementsByTagName('tbody')[0];
+	tableBody.replaceChildren(...Array.from(tableBody.children).sort((a,b)=>{
+		var av = a.children[index].textContent;
+		var bv = b.children[index].textContent;
+		var af = parseFloat(av);
+		var bf = parseFloat(bv);
+		if(af && bf){
+			return af > bf;
+		}else{
+			return a > b;
+		}
+	}));
 }
 
 async function createCategorySegment(){

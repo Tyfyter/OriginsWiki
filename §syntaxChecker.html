@@ -48,7 +48,7 @@
         </style>
     </head>
     <body>
-        <span id="terminal" contenteditable spellcheck="false">[statblock Defiled_Amalgamation]</span>
+        <span id="terminal" contenteditable spellcheck="false">{sortablelist {headers:[Name,Crit,Damage,UseTime,{name:DPS,expr:"item.Damage*(1+item.Crit/100)*(60/item.UseTime)"}],items:[Krakram,Riverang]} sortablelist}</span>
         <button id="submit" type="submit" onclick="execute();">evaluate</button>
         <article id="content"><div id="output"></div></article>
     </body>
