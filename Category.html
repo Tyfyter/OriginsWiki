@@ -4,10 +4,35 @@
 		<script>
 			var catName = window.location.search.substring(1);
 			function preParseCallback(){
+				if(!catName){
+					var firstHeader = document.getElementsByTagName("h1");
+					firstHeader[0].innerText = 'Categories';
+					postParseCallback = async ()=>{
+						var content = document.getElementById('content');
+						var categories = await getCategories();
+						
+						var catContents = '';
+						for(var key in categories){
+							console.log('cat: '+key);
+							var cat = categories[key];
+							console.log(cat);
+							var count = cat.items.length;
+							var catCount = 0;
+							for(var i = 0; i < count; i++){
+								if(cat.items[i].startsWith('cat:')){
+									catCount++;
+								}
+							}
+							catContents += `<div class="catitem"><a href="?${key}">${(cat.name||key).replaceAll('_', ' ')}</a> (${catCount < count ? `${count - catCount} pages ${catCount > 0?', ':''}` : ''} ${catCount ? `${catCount} categories` : ''} )</div>`;
+						}
+						content.innerHTML += catContents;
+					};
+					return;
+				}
 				var firstHeader = document.getElementsByTagName("h1");
 				firstHeader[0].innerText = 'Category: '+catName;
 			}
-			async function postParseCallback(ev){
+			async function postParseCallback(){
 				var content = document.getElementById('content');
 				var siteMap = getSiteMap();
 				var categories = await getCategories();

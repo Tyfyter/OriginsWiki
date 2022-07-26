@@ -40,7 +40,7 @@ function parseXMLSitemap(sitemapContent) {
 var _categories = requestPageText('categories.hjson');
 var _siteMap = requestPageText('sitemap.xml');
 var _stats = {};
-var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '');
+var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 _stats[pageName] = new Promise((resolve, reject) => {
 		requestPageText('stats/'+pageName + '.json').then((v) => {
 			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null: v;
@@ -694,8 +694,6 @@ function sortSortableList(target, index){
 
 async function createCategorySegment(){
 	try {
-		var pageName = window.location.pathname.split('/');
-		pageName = pageName[pageName.length - 1].replaceAll('.html', '');
 		if(pageName == 'Category'){
 			return "";
 		}
@@ -725,7 +723,7 @@ async function createCategorySegment(){
 					}
 				}
 			}
-			if(cats[i].items.includes(pageName) ^ cats[i].blacklist){
+			if((cats[i].items.includes(pageName) ^ cats[i].blacklist) && !cats[i].hidden){
 				if(catsIn){
 					catsIn+=', ';
 				}
