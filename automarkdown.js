@@ -1,6 +1,7 @@
 //window.alert("test");
 var jsLoaded = true;
 var linkSuffix = '.html';
+var linkPrefix = '';
 const lightSettingSuffix = '_Mode.png';
 var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
@@ -740,6 +741,7 @@ async function createCategorySegment(){
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
+		linkPrefix = '/OriginsWiki';
 	}
 	var content = document.getElementById("content");
 	//content.innerHTML += getSearchLinks("pa");//example code
@@ -1040,7 +1042,9 @@ var onSearchbarKeyDown = (e)=>{
 		case 'Enter':
 		var selectedLinks = searchlinks.getElementsByClassName('selectedSearch');
 		if(selectedLinks.length > 0){
-			window.open(selectedLinks[0].href, "_self")
+			window.open(selectedLinks[0].href, "_self");
+		}else{
+			window.open(`${linkPrefix}/searchPage${linkSuffix}?${document.getElementById("searchbar").value}`, '_self')
 		}
 		break;
 	}
