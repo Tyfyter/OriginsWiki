@@ -14,7 +14,7 @@
 				searchPage = `/${searchPage}?${pageName}`;
 				var target = await fetch(searchPage);
 				if(target.status != 404){
-					window.open(searchPage, 'self');
+					window.open(searchPage, '_self');
 				}
 			}
 			do404();
