@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script>
+			async function postParseCallback(){
+				if(!location.search || location.search == '?searchPage'){
+					return;
+				}
+				var siteMap = await getSiteMap();
+				
+				for (var i = 0; i < siteMap.length; i++) {
+					if(('?'+siteMap[i]) == location.search){
+						window.open(siteMap[i] + linkSuffix, '_self');
+						return;
+					}
+				}
+				var content = document.getElementById("content");
+				content.innerHTML += await getSearchLinks(location.search.substring(1));
+			}
+		</script>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+	</head>
+	<body>
+		<article id="content">
+		</article>
+	</body>
+</html>

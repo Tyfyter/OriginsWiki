@@ -1,12 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<script src="automarkdown.js" defer></script>
-		<link rel="stylesheet" href="styling.css"></link>
+		<script>
+			async function do404(){
+				var path = document.location.pathname.split('/');
+				var pageName = path[path.length - 1];
+				var searchPage = 'searchPage';
+				if(location.protocol != 'https:'){
+					searchPage = `${searchPage}.html`;
+				}else{
+					searchPage = `OriginsWiki/${searchPage}`;
+				}
+				searchPage = `/${searchPage}?${pageName}`;
+				var target = await fetch(searchPage);
+				if(target.status != 404){
+					window.open(searchPage, 'self');
+				}
+			}
+			do404();
+		</script>
 	</head>
 	<body>
-		<article id="content">
-            yo, this is a 404 page, and hopefully nobody'll see this
-		</article>
 	</body>
 </html>
