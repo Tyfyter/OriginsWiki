@@ -20,7 +20,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1.8.3
       with:
-        base-url-path: https://tyfyter.github.io
+        base-url-path: https://tyfyter.github.io/OriginsWiki
       
     - name: Push sitemap
       if: github.event.pusher.name != 'github-actions'
