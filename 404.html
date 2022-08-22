@@ -5,6 +5,7 @@
 			async function do404(){
 				var path = document.location.pathname.split('/');
 				var pageName = path[path.length - 1];
+				document.body.innerHTML += `${pageName} ain\'t a valid page`;
 				var searchPage = 'searchPage';
 				if(location.protocol != 'https:'){
 					searchPage = `${searchPage}.html`;
@@ -14,12 +15,13 @@
 				searchPage = `/${searchPage}?${pageName}`;
 				var target = await fetch(searchPage);
 				if(target.status != 404){
-					window.open(searchPage, '_self');
+					document.body.innerHTML += '<a href="searchPage" style="display: inline;"> maybe y\'wanna search it instead?</a>';
 				}
 			}
-			do404();
+			window.addEventListener("load", do404);
 		</script>
 	</head>
 	<body>
+	Not sure how you got here, 
 	</body>
 </html>
