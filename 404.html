@@ -15,7 +15,7 @@
 				searchPage = `/${searchPage}?${pageName}`;
 				var target = await fetch(searchPage);
 				if(target.status != 404){
-					document.body.innerHTML += '<a href="searchPage" style="display: inline;"> maybe y\'wanna search it instead?</a>';
+					document.body.innerHTML += `<a href="${searchPage}" style="display: inline;"> maybe y\'wanna search it instead?</a>`;
 				}
 			}
 			window.addEventListener("load", do404);
