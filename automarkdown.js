@@ -156,7 +156,7 @@ async function getSearchLinks(query, filter = ".html"){
 	});
 	//window.alert(results);
 	return results.map(function(v){
-		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replaceAll('_', ' ').replace(regexQuery, "<b>\$1</b>")+"</a>";
+		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replace(regexQuery, "<b>\$1</b>").replaceAll('_', ' ')+"</a>";
 	}).join("<br>");
 }
 
@@ -1025,7 +1025,7 @@ async function parseAFML(throwErrors = false){
 }
 var onSearchbarInput = async (e)=>{
 	var searchbar = document.getElementById("searchbar");
-	document.getElementById("searchlinks").innerHTML = searchbar.value ? await getSearchLinks(searchbar.value) : '';
+	document.getElementById("searchlinks").innerHTML = searchbar.value ? await getSearchLinks(searchbar.value.replaceAll(' ', '_')) : '';
 };
 var onSearchbarKeyDown = (e)=>{
 	var searchlinks = document.getElementById("searchlinks");

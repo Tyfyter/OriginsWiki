@@ -18,6 +18,17 @@
   --box-bg-color: rgb(200, 200, 200, 0.35);
 }
 
+/*mobile version*/
+@media only screen and (hover: none){
+	.linkdiv {
+		font-size: 2em;
+	}
+	
+	.linknote > .linkdiv{
+		font-size:0.9rem;
+	}
+}
+
 html.background {
 	display: table;
 	margin: auto;
