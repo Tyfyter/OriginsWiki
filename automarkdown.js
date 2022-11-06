@@ -92,6 +92,10 @@ async function getSiteMap(){
 	return await _siteMap;
 }
 
+async function pageExists(page){
+	return (await getSiteMap()).includes(page)
+}
+
 function createFilteredResponseHandler(filter, action, includeExtension){
 	function getResponse() {
 		// `this` will refer to the `XMLHTTPRequest` object that executes this function
@@ -1000,7 +1004,7 @@ async function parseAFML(throwErrors = false){
 	content.innerHTML = content.innerHTML.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert</a>');
 	content.innerHTML = content.innerHTML.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
 	content.innerHTML = content.innerHTML.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
-	content.innerHTML = content.innerHTML.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');//
+	content.innerHTML = content.innerHTML.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
@@ -1071,9 +1075,18 @@ var onSearchbarKeyDown = (e)=>{
 var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
 	await parseAFML();
+	var content = document.getElementById("content");
+	let redableLinks = content.getElementsByTagName("A");
+	console.log(redableLinks.length + 'links');
+	for (let i = 0; i < redableLinks.length; i++) {
+		const element = redableLinks[i];
+		if(element.classList.contains('linkimage') || element.href.startsWith('https://terraria.wiki.gg'))continue;
+		if(!(await pageExists(/[^\/]+(?!.*[^\/]+)/.exec(element.href.replaceAll('.html',''))[0]))){
+			element.classList.add("redlink");
+		}
+	}
 	console.log('1');
 
-	var content = document.getElementById("content");
 	content.innerHTML = '<div id="toolbar">'+
 	'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
 	'<img id="lighttoggle" onclick="setDarkMode(!getDarkMode())">'+

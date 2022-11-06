@@ -3,6 +3,7 @@
   --article-text-color: rgb(0, 0, 0);
 	--article-link-color: rgb(0, 102, 204);
 	--visited-link-color: rgb(85, 26, 139);
+	--redlink-color: rgb(140, 0, 0);
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
   --box-bg-color: rgb(235, 235, 235);
@@ -13,6 +14,7 @@
   --article-text-color: rgb(200, 200, 200);
 	--article-link-color: #2bb9ff;
 	--visited-link-color: rgb(140, 125, 255);
+	--redlink-color: rgb(255, 62, 62);
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
   --box-bg-color: rgb(200, 200, 200, 0.35);
@@ -41,6 +43,11 @@ body.background {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
 	width: 90vw;
+}
+
+.redlink {
+	--article-link-color: var(--redlink-color);
+	--visited-link-color: var(--redlink-color);
 }
 
 a:link {
