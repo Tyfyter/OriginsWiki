@@ -2,9 +2,9 @@
 <html lang="en">
 	<head>
 		<script>
-			var catName = window.location.search.substring(1);
+			var catNames = window.location.search.substring(1).split('&');
 			function preParseCallback(){
-				if(!catName){
+				if(catNames.length <= 0 || !catNames[0]){
 					var firstHeader = document.getElementsByTagName("h1");
 					firstHeader[0].innerText = 'Categories';
 					postParseCallback = async ()=>{
@@ -30,34 +30,35 @@
 					return;
 				}
 				var firstHeader = document.getElementsByTagName("h1");
-				firstHeader[0].innerText = 'Category: '+catName;
+				firstHeader[0].innerText = 'Category: '+window.location.search.substring(1);
 			}
 			async function postParseCallback(){
 				var content = document.getElementById('content');
 				var siteMap = getSiteMap();
 				var categories = await getCategories();
-				var category = categories[catName];
-				var siteMap = await siteMap;
-				for (var i = 0; i < category.items.length; i++) {
-					if(category.items[i].slice(0, 4) === 'cat:'){
-						try{
-							category.items.push(...categories[category.items[i].slice(4)].items);
-						}catch(error){
-							console.error(error);
+				var allCats = [];
+				for (let catNum = 0; catNum < catNames.length; catNum++) {
+					var category = categories[catNames[catNum]];
+					var siteMap = await siteMap;
+					for (var i = 0; i < category.items.length; i++) {
+						if(category.items[i].slice(0, 4) === 'cat:'){
+							try{
+								category.items.push(...categories[category.items[i].slice(4)].items);
+							}catch(error){
+								console.error(error);
+							}
+							//category.items.splice(i,1);
 						}
-						//category.items.splice(i,1);
 					}
+					allCats.push(category);
 				}
-				
 				var catContents = '';
 				console.log(category.items);
 				for (var i = 0; i < siteMap.length; i++) {
-					console.log(`${siteMap[i]} ${category.items.includes(siteMap[i])} ^ ${category.blacklist}`);
-					if(category.items.includes(siteMap[i]) ^ category.blacklist){
+					if(allCats.every(category => category.items.includes(siteMap[i]) ^ category.blacklist)){
 						catContents += `<div class="catitem"><a href="${siteMap[i]+linkSuffix}">${siteMap[i].replaceAll('_', ' ')}</a></div>`;
 					}
 				}
-
 				content.innerHTML += catContents;
 			};
 		</script>
