@@ -1078,13 +1078,15 @@ var parse = async ()=>{
 	var content = document.getElementById("content");
 	let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
-	for (let i = 0; i < redableLinks.length; i++) {
-		const element = redableLinks[i];
-		if(element.classList.contains('linkimage') || element.href.startsWith('https://terraria.wiki.gg'))continue;
-		if(!(await pageExists(/[^\/]+(?!.*[^\/]+)/.exec(element.href.replaceAll('.html',''))[0]))){
+	(async () => {
+		for (let i = 0; i < redableLinks.length; i++) {
+			const element = redableLinks[i];
+			if(element.classList.contains('linkimage') || element.href.startsWith('https://terraria.wiki.gg'))continue;
+			if(!(await pageExists(/[^\/]+(?!.*[^\/]+)/.exec(element.href.replaceAll('.html',''))[0]))){
 			element.classList.add("redlink");
+			}
 		}
-	}
+	})();
 	console.log('1');
 
 	content.innerHTML = '<div id="toolbar">'+
