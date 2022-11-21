@@ -266,7 +266,7 @@ function processLink(targetName, image, targetPage, note){
 	}
 	var result = '<span class="linkdiv">';
 	if(targetPage === undefined){
-		targetPage = (targetName.replace(' ', '_')+linkSuffix);
+		targetPage = (targetName.replaceAll(' ', '_')+linkSuffix);
 	}
 	if(image){
 		result += `<a class="linkimage" href="${targetPage}"><img src=${image}></a>`;
