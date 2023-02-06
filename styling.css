@@ -24,13 +24,16 @@
 }
 
 /*mobile version*/
-@media only screen and (hover: none){
+@media (max-aspect-ratio: 1/1){
 	.linkdiv {
 		font-size: 2rem;
 	}
 	
 	.linknote > .linkdiv{
 		font-size:0.9rem;
+	}
+	.statblock {
+		width: 100%;
 	}
 }
 
