@@ -477,4 +477,10 @@ details > summary {
 		width: 100%;
 		display: table;
 	}
+	:root {
+		font-size: 2vw;
+	}
+	.statblock > img {
+		width: 40%;
+	}
 }
