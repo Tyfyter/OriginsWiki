@@ -7,6 +7,7 @@
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
   --box-bg-color: rgb(235, 235, 235);
+	--link-image-max-height: 2rem;
 }
 
 .darkmode {
@@ -23,7 +24,7 @@
 /*mobile version*/
 @media only screen and (hover: none){
 	.linkdiv {
-		font-size: 2em;
+		font-size: 2rem;
 	}
 	
 	.linknote > .linkdiv{
@@ -126,6 +127,7 @@ details > summary {
 	border-radius: 5px;
 	padding-top: 2.5px;
 	padding-bottom: 7.5px;
+	--link-image-max-height: 3rem;
 }
 
 .biomecontents > .subcontents, .subcontents > .subcontents {
@@ -155,6 +157,7 @@ details > summary {
 	background-color: var(--box-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
+	--link-image-max-height: 3rem;
 }
 
 .rexpert {
@@ -226,6 +229,7 @@ details > summary {
 	background-color: var(--box-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
+	--link-image-max-height: 3rem;
 }
 .recipetable > thead > tr > th {
   padding: 2px;
@@ -260,6 +264,7 @@ details > summary {
 	background-color: var(--box-bg-color);
 	border: 1px solid black;
 	border-radius: 5px;
+	--link-image-max-height: 3rem;
 }
 .sortablelist > thead > tr > th {
   padding: 2px;
@@ -322,7 +327,7 @@ details > summary {
 
 .linkimage > img {
 	display:inline-block;
-	max-height: 3em;
+	max-height: var(--link-image-max-height);
 	vertical-align: middle;
 }
 
@@ -365,7 +370,7 @@ details > summary {
 	color:var(--article-text-color);
 }
 .searchSymbol {
-	height: 1.25em;
+	height: 1.25rem;
 	float: right;
 	fill:var(--article-text-color);
 }
@@ -376,17 +381,17 @@ details > summary {
 	background-color: var(--box-bg-color);
 }
 #lighttoggle {
-	height: 1.25em;
+	height: 1.25rem;
 	float: left;
 	cursor: pointer;
 }
 #bgtoggle {
-	height: 1.25em;
+	height: 1.25rem;
 	float: left;
 	cursor: pointer;
 	fill: transparent;
 	stroke: var(--article-text-color);
-	stroke-width: 0.1em;
+	stroke-width: 0.1rem;
 }
 .alttabs {
 	float:right
@@ -403,8 +408,8 @@ details > summary {
 }
 .L-connector{
 	display: inline-block;
-	width: 0.5em;
-	height: 1.2em;
+	width: 0.5rem;
+	height: 1.2rem;
 	border-left: solid var(--article-text-color) 3px;
 	border-bottom: solid var(--article-text-color) 1.5px;
 	transform: translate(40%,-50%) scale(1,2);
@@ -413,8 +418,8 @@ details > summary {
 }
 .l-connector{
 	display: inline-block;
-	width: 0.5em;
-	height: 1em;
+	width: 0.5rem;
+	height: 1rem;
 	border-left: solid var(--article-text-color) 3px;
 	border-bottom: solid var(--article-text-color) 3px;
 	transform: translate(40%);
