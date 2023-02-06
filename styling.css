@@ -10,6 +10,8 @@
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
 }
 
 .darkmode {
@@ -215,7 +217,7 @@ details > summary {
 	vertical-align: middle;
 }
 
-.statvalues > .linkdiv, .statvalues > .link {
+.statvalues > .link {
 	vertical-align: middle;
 }
 
@@ -316,31 +318,13 @@ details > summary {
 .miniheader > .header {
 	--padding-color: transparent;
 }
-
-.linkdiv {
-	display:inline-block;
-}
-
-.linkimage {
-	display:inline-block;
-	max-height: 3em;
-	vertical-align: middle;
-}
-
-.linkimage > img {
-	display:inline-block;
-	max-height: var(--link-image-max-height);
-	vertical-align: middle;
-}
-
-.linktext {
-	display:inline-block;
-	/*vertical-align: middle;*/
-}
-
 .linknote {
 	color: var(--article-text-color);
 	font-size:0.9rem;
+}
+
+.link > img {
+	vertical-align: middle;
 }
 
 .linkandnote {
