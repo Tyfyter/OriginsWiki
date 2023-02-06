@@ -1117,10 +1117,10 @@ var parse = async ()=>{
 	if(head && head[0]){
 		head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
-	createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
+	let catSegPromise = createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
 	let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
-	(async () => {
+	let redLinkPromise = (async () => {
 		for (let i = 0; i < redableLinks.length; i++) {
 			const element = redableLinks[i];
 			if(element.classList.contains('linkimage') || element.href.startsWith('https://terraria.wiki.gg'))continue;
@@ -1131,6 +1131,8 @@ var parse = async ()=>{
 			}
 		}
 	})();
+	await catSegPromise;
+	await redLinkPromise;
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 };
 parse();
