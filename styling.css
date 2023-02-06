@@ -10,6 +10,7 @@
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
+	--statblock-width: 21rem;
 }
 
 .darkmode {
@@ -25,15 +26,8 @@
 
 /*mobile version*/
 @media (max-aspect-ratio: 1/1){
-	.linkdiv {
-		font-size: 2rem;
-	}
-	
-	.linknote > .linkdiv{
-		font-size:0.9rem;
-	}
 	.statblock {
-		width: 100%;
+		--statblock-width: 100%;
 	}
 }
 
@@ -155,7 +149,7 @@ details > summary {
 }
 
 .statblock, .inlinestatblock {
-	width: 21rem;
+	width: var(--statblock-width);
 	right: 0px;
 	position: relative;
 	margin: .5em 0 .5em 1em;
