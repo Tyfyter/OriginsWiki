@@ -257,7 +257,32 @@ function getBackground(){
 	return !getSiteSettings().nobackground;
 }
 
+function processLinkNew(targetName, image, targetPage, note){
+	if(image === '$default'){
+		image = undefined;
+	}
+	if(targetPage === undefined || targetPage === '$default'){
+		targetPage = (targetName.replaceAll(' ', '_')+linkSuffix);
+	}
+	var result = `<a class="link" href="${targetPage}">`;
+	if(image){
+		result += `<img src=${image}>`;
+	}
+	if(!targetPage){
+		return targetName + '</a>';
+	}
+	if(note){
+		result += '<span class="linkandnote">';
+		result += targetName;
+		result += '<br><span class="linknote">'+note+'</span>';
+		result += '</span>';
+	}else{
+		result += targetName;
+	}
+	return result + '</a>';
+}
 function processLink(targetName, image, targetPage, note){
+	return processLinkNew(targetName, image, targetPage, note);
 	if(image === '$default'){
 		image = undefined;
 	}
