@@ -10,8 +10,6 @@
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
-	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
 }
 
 .darkmode {
@@ -476,11 +474,18 @@ details > summary {
 	#toc-and-stats {
 		width: 100%;
 		display: table;
-	}
-	:root {
-		font-size: 3vw;
+		font-size: 115%;
 	}
 	.statblock > img {
 		width: 60%;
+	}
+	#toolbar {
+		width: calc(100% - 1.15em);
+	}
+	#searchbar {
+		width: calc(100% - 1.25rem - 1.25rem - 1.25rem - 1.25rem);
+	}
+	h1 {
+		margin-top: 2.25rem;
 	}
 }
