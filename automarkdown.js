@@ -364,7 +364,7 @@ async function processAutoStats(name = pageName){
 			result += `{label:[link Critical chance | | https://terraria.wiki.gg/wiki/Critical_hit],value:${value.Crit}}`;
 		}
 		if(value.UseTime){
-			result += `{label:[link UseTime | | https://terraria.wiki.gg/wiki/Use_Time],value:${value.UseTime} (${GetSpeedName(value.UseTime)})}`;
+			result += `{label:[link Use time | | https://terraria.wiki.gg/wiki/Use_Time],value:${value.UseTime} (${GetSpeedName(value.UseTime)})}`;
 		}
 		if(value.Velocity){
 			result += `{label:[link Velocity | | https://terraria.wiki.gg/wiki/Velocity],value:${value.Velocity}}`;
@@ -389,7 +389,8 @@ async function processAutoStats(name = pageName){
 			return (value.Expert && value.Expert[val]) || (value.Master && value.Master[val])? _class : '';
 		};
 		if(value.Image){
-			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png}]}`;
+			var widthStr = value.SpriteWidth ? `, spriteWidth:${value.SpriteWidth}`: '';
+			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png${widthStr}}]}`;
 		}
 		result += (addComma ? ',{' : '{') + `header:Statistics, ${_class?`tabs:[Normal,${value.Expert?`Expert${value.Master?',Master':''}`:'Master'}],`:''} items:[`;
 		if(value.Biome){
