@@ -9,5 +9,6 @@
     "UseTime":18,
     "Velocity":9.75,
     "Rarity":"Blue",
-    "Sell":5000
+    "Sell":5000,
+    "SpriteWidth":34
 }

@@ -329,6 +329,16 @@ async function requestStats(name){
 	}
 	return value;
 }
+function GetSpeedName(useTime) {
+	if (useTime <= 8) return "Insanely fast";
+	if (useTime <= 20) return "Very fast";
+	if (useTime <= 25) return "Fast";
+	if (useTime <= 30) return "Average";
+	if (useTime <= 35) return "Slow";
+	if (useTime <= 45) return "Very slow";
+	if (useTime <= 55) return "Extremely slow";
+	return "Snail";
+}
 async function processAutoStats(name = pageName){
 	var value = await requestStats(name);
 	if(value === null){
@@ -340,7 +350,8 @@ async function processAutoStats(name = pageName){
 		result = '{statblock ';
 		var addComma = false;
 		if(value.Image){
-			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png}]}`;
+			var widthStr = value.SpriteWidth ? `, spriteWidth:${value.SpriteWidth}`: '';
+			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png${widthStr}}]}`;
 		}
 		result += (addComma ? ',{' : '{') + 'header:Statistics, items:[';
 		if(value.Damage){
@@ -353,7 +364,7 @@ async function processAutoStats(name = pageName){
 			result += `{label:[link Critical chance | | https://terraria.wiki.gg/wiki/Critical_hit],value:${value.Crit}}`;
 		}
 		if(value.UseTime){
-			result += `{label:[link UseTime | | https://terraria.wiki.gg/wiki/Use_Time],value:${value.UseTime}}`;
+			result += `{label:[link UseTime | | https://terraria.wiki.gg/wiki/Use_Time],value:${value.UseTime} (${GetSpeedName(value.UseTime)})}`;
 		}
 		if(value.Velocity){
 			result += `{label:[link Velocity | | https://terraria.wiki.gg/wiki/Velocity],value:${value.Velocity}}`;
@@ -567,7 +578,8 @@ function processStatBlock(data, depth){
 	if(data.items){
 		for(var i = 0; i < data.items.length; i++){
 			if(data.items[i].image){
-				result += '<img src='+data.items[i].image +'>';
+				var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
+				result += `<img src=${data.items[i].image} ${widthStr}>`;
 			}else{
 				if(data.items[i].label){
 					var klasse = '';
