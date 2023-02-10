@@ -346,7 +346,7 @@ async function processAutoStats(name = pageName){
 	}
 	value = JSON.parse(value);
 	var result = '';
-	if(value.Types.includes("Weapon")){
+	if(value.Types.includes("Item")){
 		result = '{statblock ';
 		var addComma = false;
 		if(value.Image){
@@ -354,11 +354,57 @@ async function processAutoStats(name = pageName){
 			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png${widthStr}}]}`;
 		}
 		result += (addComma ? ',{' : '{') + 'header:Statistics, items:[';
+		if(value.PickPower){
+			result += `{label:[link Pickaxe power | | https://terraria.wiki.gg/wiki/Pickaxe_power],value:${value.PickPower}%}`;
+		}
+		if(value.HammerPower){
+			result += `{label:Hammer power,value:${value.HammerPower}%}`;
+		}
+		if(value.AxePower){
+			result += `{label:Axe power,value:${value.AxePower}%}`;
+		}
+		if(value.FishPower){
+			result += `{label:[link Fishing power | | https://terraria.wiki.gg/wiki/Fishing],value:${value.FishPower}%}`;
+		}
+		if(value.BaitPower){
+			result += `{label:[link Bait power | | https://terraria.wiki.gg/wiki/Bait],value:${value.BaitPower}%}`;
+		}
+		if(value.PickReq){
+			result += `{label:Reqired [link Pickaxe power | | https://terraria.wiki.gg/wiki/Pickaxe_power] to destroy,value:${value.PickReq}%}`;
+		}
+		if(value.HammerReq){
+			result += `{label:Reqired Hammer power to destroy,value:${value.HammerReq}%}`;
+		}
+		if(value.PlacementSize){
+			result += `{label:[link Placeable | | https://terraria.wiki.gg/wiki/Placement],value:yes (${value.PlacementSize[0]}x${value.PlacementSize[1]})}`;
+		}
+		if(value.Defense){
+			result += `{label:[link Defense | | https://terraria.wiki.gg/wiki/Defense],value:${value.Defense}}`;
+			if(value.Tooltip){
+				result += `{label:[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips],value:${value.Tooltip}}`;
+			}
+		}
+		if(value.SetBonus){
+			result += `{label:[link Set Bonus | | https://terraria.wiki.gg/wiki/Armor],value:${value.SetBonus}}`;
+		}
+		if(value.ArmorSlot){
+			result += `{label:Armor slot,value:${value.ArmorSlot}}`;
+		}
 		if(value.Damage){
-			result += `{label:Damage,value:${value.Damage}}`;
+			var classStr = value.DamageClass ? ` (${value.DamageClass})`: '';
+			result += `{label:Damage,value:${value.Damage}${classStr}}`;
 		}
 		if(value.Knockback){
 			result += `{label:[link Knockback | | https://terraria.wiki.gg/wiki/Knockback],value:${value.Knockback}}`;
+		}
+		if(value.ManaCost){
+			result += `{label:[link Mana cost | | https://terraria.wiki.gg/wiki/Mana],value:${value.ManaCost}}`;
+		}
+		if(value.HealLife){
+			result += `{label:[link Heals Health | | https://terraria.wiki.gg/wiki/Health],value:${value.HealLife}}`;
+		}
+		if(value.HealMana){
+			result += `{label:[link Heals mana | | https://terraria.wiki.gg/wiki/Mana],value:${value.HealMana}}`;
 		}
 		if(value.Crit){
 			result += `{label:[link Critical chance | | https://terraria.wiki.gg/wiki/Critical_hit],value:${value.Crit}}`;
@@ -369,14 +415,54 @@ async function processAutoStats(name = pageName){
 		if(value.Velocity){
 			result += `{label:[link Velocity | | https://terraria.wiki.gg/wiki/Velocity],value:${value.Velocity}}`;
 		}
+		if(!value.Defense && value.Tooltip){
+			result += `{label:[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips],value:${value.Tooltip}}`;
+		}
 		if(value.Rarity){
 			result += `{label:[link Rarity | | https://terraria.wiki.gg/wiki/Rarity],value:[link | Images/Rare${value.Rarity}.png | https://terraria.wiki.gg/wiki/Rarity]}`;
+		}
+		if(value.Buy){
+			result += `{label:[link Buy | | https://terraria.wiki.gg/wiki/Value],value:[coins ${Math.floor(value.Buy / 1000000) % 100} | ${Math.floor(value.Buy / 10000) % 100} | ${Math.floor(value.Buy / 100) % 100} | ${(value.Buy) % 100}]}`;
 		}
 		if(value.Sell){
 			result += `{label:[link Sell | | https://terraria.wiki.gg/wiki/Value],value:[coins ${Math.floor(value.Sell / 1000000) % 100} | ${Math.floor(value.Sell / 10000) % 100} | ${Math.floor(value.Sell / 100) % 100} | ${(value.Sell) % 100}]}`;
 		}
 		result += `{label:[link Research | | https://terraria.wiki.gg/wiki/Journey_Mode#Research],value:<abbr class="journey" title="Journey Mode">${value.Research||1} required</abbr>}`;
 		result += ']}';
+		if(value.Buffs){
+			result += `,{header:Grants buff${value.Buffs.length > 1 ? 's' : ''}, items:[`;
+			for (let buffIndex = 0; buffIndex < value.Buffs.length; buffIndex++) {
+				const buff = value.Buffs[buffIndex];
+				result += `{label:Buff,value:[link ${buff.Name} | ${buff.Image ? `Images/${buff.Image}.png` : '$default'}]}`;
+				if(buff.Tooltip){
+					result += `{label:Buff tooltip,value:${buff.Tooltip}}`;
+				}
+				if(buff.Chance){
+					result += `{label:Chance,value:${buff.Chance}}`;
+				}
+				if(buff.Duration){
+					result += `{label:Duration,value:${buff.Duration}}`;
+				}
+			}
+			result += ']}';
+		}
+		if(value.Debuffs){
+			result += `,{header:Inflicts debuff${value.Debuffs.length > 1 ? 's' : ''}, items:[`;
+			for (let buffIndex = 0; buffIndex < value.Debuffs.length; buffIndex++) {
+				const buff = value.Debuffs[buffIndex];
+				result += `{label:Debuff,value:[link ${buff.Name} | ${buff.Image ? `Images/${buff.Image}.png` : '$default'}]}`;
+				if(buff.Tooltip){
+					result += `{label:Debuff tooltip,value:${buff.Tooltip}}`;
+				}
+				if(buff.Chance){
+					result += `{label:Chance,value:${buff.Chance}}`;
+				}
+				if(buff.Duration){
+					result += `{label:Duration,value:${buff.Duration}}`;
+				}
+			}
+			result += ']}';
+		}
 		result += ' statblock}';
 	}
 	if(value.Types.includes("NPC")){

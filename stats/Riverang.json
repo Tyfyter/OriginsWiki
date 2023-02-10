@@ -1,6 +1,7 @@
 {
     "Image":"Riverang",
     "Types":[
+        "Item",
         "Weapon"
     ],
     "Damage":28,

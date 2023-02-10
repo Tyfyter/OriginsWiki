@@ -1,9 +1,11 @@
 {
     "Image":"Krakram",
     "Types":[
+        "Item",
         "Weapon"
     ],
     "Damage":25,
+    "DamageClass":"Melee",
     "Knockback":8,
     "Crit":4,
     "UseTime":18,
