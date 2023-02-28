@@ -91,6 +91,7 @@ details > summary {
 	font-size: 111%;
 	clear: left;
 	margin-bottom: 0.75em;
+	cursor: pointer;
 }
 
 .fill {
