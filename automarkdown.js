@@ -345,9 +345,8 @@ async function processAutoStats(name = pageName){
 		return null;
 	}
 	value = JSON.parse(value);
-	var result = '';
+	result = '{statblock ';
 	if(value.Types.includes("Item")){
-		result = '{statblock ';
 		var addComma = false;
 		if(value.Image){
 			var widthStr = value.SpriteWidth ? `, spriteWidth:${value.SpriteWidth}`: '';
@@ -463,10 +462,8 @@ async function processAutoStats(name = pageName){
 			}
 			result += ']}';
 		}
-		result += ' statblock}';
 	}
 	if(value.Types.includes("NPC")){
-		result = '{statblock ';
 		var _class = (value.Expert || value.Master) ? 'class:onlytab0,' : '';
 		var _expertClass = 'class:onlytab1,';
 		var _masterClass = value.Expert ? 'class:onlytab2,' : 'class:onlytab1,';
@@ -583,8 +580,11 @@ async function processAutoStats(name = pageName){
 			}
 			result += ']}';
 		}
-		result += ' statblock}';
 	}
+	if(value.InternalName){
+		result += `{literalvalue:"<div class="internalname">Internal Name: ${value.InternalName}</div>"}`;//
+	}
+	result += ' statblock}';
 	return result;
 }
 async function processStat(...stat){
@@ -655,45 +655,52 @@ function processBiomeContents(data, depth){
 	return result;
 }
 function processStatBlock(data, depth){
+	console.log("stat bvlock: ", data);
 	var result = '';
-	if(data.header){
-		result += makeHeader(data.header);
-	}
-	if(data.tabs){
-		result += makeTabs(data.tabs);
-	}
-	if(data.items){
-		for(var i = 0; i < data.items.length; i++){
-			if(data.items[i].image){
-				var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
-				result += `<img src=${data.items[i].image} ${widthStr}>`;
-			}else{
-				if(data.items[i].label){
-					var klasse = '';
-					if(data.items[i].class){
-						klasse = ' '+data.items[i].class;
-					}
-					if(data.items[i].value){
-						result += '<div class="stat'+klasse+'">' +
-						data.items[i].label +
-						': ' +
-						data.items[i].value +
-						'</div>';
-					}else if(data.items[i].values){
-						result += '<div class="stat'+klasse+'">' +
-						data.items[i].label + ': <div class="statvalues">';
-						for(var j = 0; j < data.items[i].values.length; j++){
-							if(j>0){
-								result += '<br>';
-							}
-							result += data.items[i].values[j];
+	if(data.literalvalue){
+		console.log("literal value: "+data.literalvalue);
+		result += data.literalvalue;
+	}else{
+		if(data.header){
+			result += makeHeader(data.header);
+		}
+		if(data.tabs){
+			result += makeTabs(data.tabs);
+		}
+		if(data.items){
+			for(var i = 0; i < data.items.length; i++){
+				if(data.items[i].image){
+					var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
+					result += `<img src=${data.items[i].image} ${widthStr}>`;
+				} else {
+					if(data.items[i].label){
+						var klasse = '';
+						if(data.items[i].class){
+							klasse = ' '+data.items[i].class;
 						}
-						result += '</div></div>';
+						if(data.items[i].value){
+							result += '<div class="stat'+klasse+'">' +
+							data.items[i].label +
+							': ' +
+							data.items[i].value +
+							'</div>';
+						}else if(data.items[i].values){
+							result += '<div class="stat'+klasse+'">' +
+							data.items[i].label + ': <div class="statvalues">';
+							for(var j = 0; j < data.items[i].values.length; j++){
+								if(j>0){
+									result += '<br>';
+								}
+								result += data.items[i].values[j];
+							}
+							result += '</div></div>';
+						}
 					}
 				}
 			}
 		}
 	}
+	console.log("stat bvlock: ", result);
 	return result;
 }
 function processRecipeBlock(data, depth){
@@ -866,6 +873,75 @@ async function createCategorySegment(){
 	}
 }
 
+function jsonifyPseudoHjson(item, history){
+	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
+	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
+	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
+	const commaDeleterRegex = /(?<=[\]}])(?<!\\),(?=[\]}])/g;
+	const jsonKeySpaceRemoverRegex = /(?<!\\)"\s*(\w+)\s*":/g;
+
+	var time = 1;
+	item = item.replaceAll(commaInserterRegex, ',');
+	history[time++] = item;
+
+	item = item.replace(spaceDeleterRegex, '');
+	history[time++] = item;
+	
+
+	item = item.replace(commaDeleterRegex, '');
+	history[time++] = item;
+	
+	item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
+	history[time++] = item;
+	
+	item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
+	history[time++] = item;
+	
+	/*(item = [...item];//spread string into chars
+	var repr = [];
+	var depth = 0;
+	for(var i = 0; i < item.length; i++){
+		if(item[i] === ']'){
+			repr[i] = '<b style="color:blue">'+depth+'</b>';
+			if(depth === 1){
+				item[i] = '}';
+			}
+			depth--;
+		}else if(item[i] === '['){
+			repr[i] = '<b style="color:red">'+depth+'</b>';
+			if(depth === 0){
+				item[i] = '{';
+			}
+			depth++;
+		} else {
+			repr[i] = depth;
+		}
+	}
+	item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
+	
+	//console.log('before aPHAOR'+item);
+	//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
+	//console.log('after aPHAOR'+item);
+	
+	item = item.replaceAll(/\]\[/g, "],[");
+	item = item.replaceAll(/\}\{/g, "},{");
+	history[time++] = item;
+	
+	item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
+	history[time++] = item;
+	
+	item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
+	history[time++] = item;
+	
+	item = item.replaceAll(/\\,/g, ',');
+	item = item.replaceAll(/\\:/g, ':');
+	history[time++] = item;
+	
+	item = item.replaceAll(jsonKeySpaceRemoverRegex, '"$1":');
+	history[time++] = item;
+	return item;
+}
+
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
@@ -896,11 +972,6 @@ async function parseAFML(throwErrors = false){
 	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
 	const sortableListRegex = /\{(?<tag>sortablelist)((.|\n)*?)\k<tag>}/gi;
 
-	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
-	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
-	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
-	const commaDeleterRegex = /(?<=[\]}])(?<!\\),(?=[\]}])/g;
-	const jsonKeySpaceRemoverRegex = /(?<!\\)"\s*(\w+)\s*":/g;
 	//original space deleter regex:/(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
 	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
 	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
@@ -1001,67 +1072,8 @@ async function parseAFML(throwErrors = false){
 				substitutions[subsIndex++] = currentTag[0];
 				currentTag = htmlTagRegex.exec(item);
 			}
-			var time = 1;
 			var history = [item];
-
-			item = item.replaceAll(commaInserterRegex, ',');
-			history[time++] = item;
-
-			item = item.replace(spaceDeleterRegex, '');
-			history[time++] = item;
-			
-
-			item = item.replace(commaDeleterRegex, '');
-			history[time++] = item;
-			
-			item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
-			history[time++] = item;
-			
-			item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
-			history[time++] = item;
-			
-			/*(item = [...item];//spread string into chars
-			var repr = [];
-			var depth = 0;
-			for(var i = 0; i < item.length; i++){
-				if(item[i] === ']'){
-					repr[i] = '<b style="color:blue">'+depth+'</b>';
-					if(depth === 1){
-						item[i] = '}';
-					}
-					depth--;
-				}else if(item[i] === '['){
-					repr[i] = '<b style="color:red">'+depth+'</b>';
-					if(depth === 0){
-						item[i] = '{';
-					}
-					depth++;
-				} else {
-					repr[i] = depth;
-				}
-			}
-			item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
-			
-			//console.log('before aPHAOR'+item);
-			//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
-			//console.log('after aPHAOR'+item);
-			
-			item = item.replaceAll(/\]\[/g, "],[");
-			item = item.replaceAll(/\}\{/g, "},{");
-			history[time++] = item;
-			
-			item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
-			history[time++] = item;
-			
-			item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
-			history[time++] = item;
-			
-			item = item.replaceAll(/\\,/g, ',');
-			item = item.replaceAll(/\\:/g, ':');
-			history[time++] = item;
-			
-			item = item.replaceAll(jsonKeySpaceRemoverRegex, '"$1":');
-			history[time++] = item;
+			item = jsonifyPseudoHjson(item, history);
 			
 			//console.log('before aNPANR'+item);
 			//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
@@ -1123,6 +1135,18 @@ async function parseAFML(throwErrors = false){
 		firstSub = false;
 	}while(subbedCount > 0);
 	console.log(subsObj);
+	const internalNameRegex = /\[(internalname) ([^\[]*?)]/i;
+	try{
+		item = content.innerHTML.match(internalNameRegex);
+		while(item){
+			console.log(item);
+			content.innerHTML = content.innerHTML.replace(item[0], `<div class="internalname">Internal Name: ${item[2]}</div>`);
+			item = content.innerHTML.match(internalNameRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
 	content.innerHTML = content.innerHTML.replaceAll("§l§", '<div class="l-connector"></div>');
 	content.innerHTML = content.innerHTML.replaceAll("§L§", '<div class="L-connector"></div>');
 	content.innerHTML = content.innerHTML.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert</a>');

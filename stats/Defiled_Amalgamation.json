@@ -72,5 +72,6 @@
 			"[link Darker Instinct | Images/Darker_Instinct.png | $default] - 100%",
 			"[link Defiled Amalgamation Relic | Images/DA_Relic.png | Relics#Defiled_Amalgamation] - 100%"
         ]
-    }
+    },
+    "InternalName":"Defiled_Amalgamation"
 }

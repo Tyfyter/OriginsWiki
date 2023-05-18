@@ -163,6 +163,17 @@ details > summary {
 	--link-image-max-height: 3rem;
 }
 
+.internalname {
+	margin-top: 0.2em;
+	padding-top: 0.05em;
+	padding-left: 0.5em;
+	background-color: var(--header-bg-color);
+	font-size: 75%;
+	font-weight: bold;
+	border-top: 1px solid #0008;
+
+}
+
 .rexpert {
 	color:goldenrod;
 	font-weight: bold;

@@ -12,5 +12,6 @@
     "Velocity":9.75,
     "Rarity":"Blue",
     "Sell":5000,
-    "SpriteWidth":34
+    "SpriteWidth":34,
+    "InternalName":"Krakram"
 }
