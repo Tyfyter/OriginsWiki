@@ -339,6 +339,9 @@ function GetSpeedName(useTime) {
 	if (useTime <= 55) return "Extremely slow";
 	return "Snail";
 }
+function imagePathPrefix(path){
+	return `${path.startsWith("§")?"":"Images/"}${path}`;
+}
 async function processAutoStats(name = pageName){
 	var value = await requestStats(name);
 	if(value === null){
@@ -350,7 +353,7 @@ async function processAutoStats(name = pageName){
 		var addComma = false;
 		if(value.Image){
 			var widthStr = value.SpriteWidth ? `, spriteWidth:${value.SpriteWidth}`: '';
-			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:Images/${value.Image}.png${widthStr}}]}`;
+			result += `{header: ${value.Name || name.replaceAll('_',' ')}, items:[{image:${imagePathPrefix(value.Image)}.png${widthStr}}]}`;
 		}
 		result += (addComma ? ',{' : '{') + 'header:Statistics, items:[';
 		if(value.PickPower){
@@ -432,7 +435,7 @@ async function processAutoStats(name = pageName){
 			result += `,{header:Grants buff${value.Buffs.length > 1 ? 's' : ''}, items:[`;
 			for (let buffIndex = 0; buffIndex < value.Buffs.length; buffIndex++) {
 				const buff = value.Buffs[buffIndex];
-				result += `{label:Buff,value:[link ${buff.Name} | ${buff.Image ? `Images/${buff.Image}.png` : '$default'}]}`;
+				result += `{label:Buff,value:[link ${buff.Name} | ${buff.Image ? `${imagePathPrefix(buff.Image)}.png` : '$default'}]}`;
 				if(buff.Tooltip){
 					result += `{label:Buff tooltip,value:${buff.Tooltip}}`;
 				}
@@ -449,7 +452,7 @@ async function processAutoStats(name = pageName){
 			result += `,{header:Inflicts debuff${value.Debuffs.length > 1 ? 's' : ''}, items:[`;
 			for (let buffIndex = 0; buffIndex < value.Debuffs.length; buffIndex++) {
 				const buff = value.Debuffs[buffIndex];
-				result += `{label:Debuff,value:[link ${buff.Name} | ${buff.Image ? `Images/${buff.Image}.png` : '$default'}]}`;
+				result += `{label:Debuff,value:[link ${buff.Name} | ${buff.Image ? `${imagePathPrefix(buff.Image)}.png` : '$default'}]}`;
 				if(buff.Tooltip){
 					result += `{label:Debuff tooltip,value:${buff.Tooltip}}`;
 				}
@@ -754,7 +757,7 @@ var evalItem;
 async function processSortableList(data){
 	var result = '<thead><tr>';
 	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name',expr:'processLink(item.Name, `Images/${item.Name}.png`)',sortIndex:'item.Name',noAbbr:true};
+		data.headers[0] = {name:'Name',expr:'processLink(item.Name, `${imagePathPrefix(item.Name)}.png`)',sortIndex:'item.Name',noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
 		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
@@ -1153,6 +1156,7 @@ async function parseAFML(throwErrors = false){
 	content.innerHTML = content.innerHTML.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
 	content.innerHTML = content.innerHTML.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
 	content.innerHTML = content.innerHTML.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
+	content.innerHTML = content.innerHTML.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
