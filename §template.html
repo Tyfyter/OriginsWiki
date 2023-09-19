@@ -7,6 +7,28 @@
 	</head>
 	<body>
 		<article id="content">
+			<h1>§DisplayName§</h1>
+			<div class="divider"></div>
+			
+			<span id="toc-and-stats">
+				<div id="table-of-contents"></div>
+				[statblock §Name§]
+			</span>
+#if Crafting
+			<details class="section" id="Crafting" open>
+				<summary>Crafting<span class="divider"></span></summary>
+#if Recipes
+				<p><b>Recipes</b></p>
+				<div class="divider"></div>
+				§Recipes§
+#endif
+#if UsedIn
+				<p><b>Used In</b></p>
+				<div class="divider"></div>
+				§UsedIn§
+#endif
+			</details>
+#endif
 		</article>
 	</body>
 </html>

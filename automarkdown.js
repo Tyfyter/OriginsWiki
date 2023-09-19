@@ -40,6 +40,8 @@ function parseXMLSitemap(sitemapContent) {
 }
 var _categories = requestPageText('categories.hjson');
 var _siteMap = requestPageText('sitemap.xml');
+var _aliases = requestPageText('aliases.json');
+var aliases = false;
 var _stats = {};
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 _stats[pageName] = new Promise((resolve, reject) => {
@@ -50,6 +52,17 @@ _stats[pageName] = new Promise((resolve, reject) => {
 	}
 );
 
+async function getAliases(){
+	if (!aliases) {
+		try {
+			aliases = JSON.parse(await _aliases);
+		} catch (error) {
+			aliases = {};
+		}
+	}
+	return aliases;
+}
+getAliases();
 async function getCategories(){
 	if(typeof await _categories === 'string'){
 		var catText = await _categories;
@@ -257,9 +270,17 @@ function getBackground(){
 	return !getSiteSettings().nobackground;
 }
 
-function processLinkNew(targetName, image, targetPage, note){
+async function processLinkNew(targetName, image, targetPage, note){
+	if (aliases[targetName]) {
+		targetPage = aliases[targetName];
+	}
 	if(image === '$default'){
 		image = undefined;
+	}
+	if(image === '$fromStats'){
+		try {
+			image = JSON.parse(await requestStats(targetName.replaceAll(' ', '_'))).Image + ".png";
+		} catch (error) {}
 	}
 	if(targetPage === undefined || targetPage === '$default'){
 		targetPage = (targetName.replaceAll(' ', '_')+linkSuffix);
@@ -281,7 +302,7 @@ function processLinkNew(targetName, image, targetPage, note){
 	}
 	return result + '</a>';
 }
-function processLink(targetName, image, targetPage, note){
+async function processLink(targetName, image, targetPage, note){
 	return processLinkNew(targetName, image, targetPage, note);
 	if(image === '$default'){
 		image = undefined;
@@ -621,7 +642,7 @@ function pruneLinkArgs(array){
 	return array;
 }
 
-function processBiomeContents(data, depth){
+async function processBiomeContents(data, depth){
 	if(!depth){
 		depth = 0;
 	}
@@ -635,9 +656,11 @@ function processBiomeContents(data, depth){
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += '<span>'+processLink(data.items[i])+'</span>';
+				result += '<span>';
+				result += await processLink(data.items[i]);
+				result += '</span>';
 			}else if(data.items[i] instanceof Array){
-				result += '<span>'+processLink(...data.items[i])+'</span>';
+				result += '<span>'+(await processLink(...data.items[i]))+'</span>';
 			}else{
 				classes = "";
 				style = "";
@@ -650,7 +673,7 @@ function processBiomeContents(data, depth){
 					}
 				}
 				result += '<div class="subcontents'+classes+'"'+style+'>';
-				result += processBiomeContents(data.items[i], depth + 1);
+				result += await processBiomeContents(data.items[i], depth + 1);
 				result += '</div>';
 			}
 		}
@@ -757,7 +780,7 @@ var evalItem;
 async function processSortableList(data){
 	var result = '<thead><tr>';
 	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name',expr:'processLink(item.Name, `${imagePathPrefix(item.Name)}.png`)',sortIndex:'item.Name',noAbbr:true};
+		data.headers[0] = {name:'Name',expr:'(await processLink(item.Name, `${imagePathPrefix(item.Name)}.png`))',sortIndex:'item.Name',noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
 		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
@@ -884,20 +907,20 @@ function jsonifyPseudoHjson(item, history){
 	const jsonKeySpaceRemoverRegex = /(?<!\\)"\s*(\w+)\s*":/g;
 
 	var time = 1;
-	item = item.replaceAll(commaInserterRegex, ',');
+	item = item.replaceAll(commaInserterRegex, ',');//1
 	history[time++] = item;
 
-	item = item.replace(spaceDeleterRegex, '');
+	item = item.replace(spaceDeleterRegex, '');//2
 	history[time++] = item;
 	
 
-	item = item.replace(commaDeleterRegex, '');
+	item = item.replace(commaDeleterRegex, '');//3
 	history[time++] = item;
 	
-	item = item.replaceAll(/['"]?header['"]:?/g, '"header":');
+	item = item.replaceAll(/['"]?header['"]:?/g, '"header":');//4
 	history[time++] = item;
 	
-	item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');
+	item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');//5
 	history[time++] = item;
 	
 	/*(item = [...item];//spread string into chars
@@ -927,16 +950,18 @@ function jsonifyPseudoHjson(item, history){
 	//console.log('after aPHAOR'+item);
 	
 	item = item.replaceAll(/\]\[/g, "],[");
-	item = item.replaceAll(/\}\{/g, "},{");
+	item = item.replaceAll(/\}\{/g, "},{");//6
 	history[time++] = item;
 	
-	item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');
+	item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');//7
 	history[time++] = item;
 	
 	item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
+	item = item.replaceAll(/(?<!")\\'(?!")/g, '\\\'\"');//8
 	history[time++] = item;
 	
 	item = item.replaceAll(/\\,/g, ',');
+	item = item.replaceAll(/\\'/g, '\'',);
 	item = item.replaceAll(/\\:/g, ':');
 	history[time++] = item;
 	
@@ -1022,7 +1047,7 @@ async function parseAFML(throwErrors = false){
 		while(item != null){
 			//console.log(item);
 			let current = pruneLinkArgs(item[1].split('|'));
-			let result = processLink(...current);
+			let result = await processLink(...current);
 			substitutions[subsIndex] = result;
 			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
 			subsIndex++;
@@ -1075,7 +1100,7 @@ async function parseAFML(throwErrors = false){
 				substitutions[subsIndex++] = currentTag[0];
 				currentTag = htmlTagRegex.exec(item);
 			}
-			var history = [item];
+			var history = [item];//0
 			item = jsonifyPseudoHjson(item, history);
 			
 			//console.log('before aNPANR'+item);
