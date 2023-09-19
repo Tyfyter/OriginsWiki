@@ -39,6 +39,7 @@ function parseXMLSitemap(sitemapContent) {
 	return xmlDoc;
 }
 var _categories = requestPageText('categories.hjson');
+var _generated_categories = requestPageText('generated_categories.json');
 var _siteMap = requestPageText('sitemap.xml');
 var _aliases = requestPageText('aliases.json');
 var aliases = false;
@@ -80,7 +81,12 @@ async function getCategories(){
 				}
 			}
 		}
-
+		var genCat = JSON.parse(await _generated_categories);
+		for (let key in genCat) {
+			if (genCat.hasOwnProperty(key)) {
+				_categories[key] = genCat[key];
+			}
+		}
 	}
 	return await _categories;
 }
@@ -865,31 +871,32 @@ async function createCategorySegment(){
 		for (let key in cats0) {
 			console.log(key);
 			if (cats0.hasOwnProperty(key)) {
-				cats.push(cats0[key]);
+				cats.push(key);
 			}
 		}
 		var catsIn = '';
 		for (let i = 0; i < cats.length; i++) {
 			var noCats = false;
+			var thisCat = cats0[cats[i]];
 			while (!noCats) {
 				noCats = true;
-				for (var i1 = 0; i1 < cats[i].items.length; i1++) {
-					if(cats[i].items[i1].slice(0, 4) === 'cat:'){
+				for (var i1 = 0; i1 < thisCat.items.length; i1++) {
+					if(thisCat.items[i1].slice(0, 4) === 'cat:'){
 						noCats = false;
 						try{
-							cats[i].items.push(...cats0[cats[i].items[i1].slice(4)].items);
+							thisCat.items.push(...cats0[thisCat.items[i1].slice(4)].items);
 						}catch(error){
 							console.error(error);
 						}
-						cats[i].items.splice(i1,1);
+						thisCat.items.splice(i1,1);
 					}
 				}
 			}
-			if((cats[i].items.includes(pageName) ^ cats[i].blacklist) && !cats[i].hidden){
+			if((thisCat.items.includes(pageName) ^ thisCat.blacklist) && !thisCat.hidden){
 				if(catsIn){
 					catsIn+=', ';
 				}
-				catsIn+=`<a class="category" href="${cats[i].page ? (cats[i].page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i].name)}">${cats[i].name}</a>`;
+				catsIn+=`<a class="category" href="${thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i])}">${thisCat.name}</a>`;
 			}
 		}
 		return '<div class="categories">categories: '+catsIn+'</div>';

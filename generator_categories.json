@@ -1,0 +1,42 @@
+{
+  "items":{
+    "name":"items",
+    "items":"Types<Item"
+  },
+  "weapons":{
+    "name":"weapons",
+	"page":"Weapons",
+    "items":"Types<Weapon"
+  },
+  "melee":{
+    "name":"melee weapons",
+    "items":"DamageClass=Melee|ExplosiveMelee"
+  },
+  "ranged":{
+    "name":"ranged weapons",
+    "items":"DamageClass=Ranged|ExplosiveRanged"
+  },
+  "magic":{
+    "name":"magic weapons",
+    "items":"DamageClass=Magic|ExplosiveMagic"
+  },
+  "ranged":{
+    "name":"ranged weapons",
+    "items":"DamageClass=Summon|ExplosiveSummon"
+  },
+  "explosive":{
+    "name":"explosive weapons",
+    "items":"DamageClass=Explosive|ExplosiveMelee|ExplosiveRanged|ExplosiveMagic|ExplosiveSummon"
+  },
+  "armor":{
+    "name":"armor",
+    "items":"Types<Armor"
+  },
+  "accessories":{
+    "name":"accessories",
+    "items":"Types<Accessory"
+  },
+  "implimented":{
+    "name":"implimented"
+  }
+}
