@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Jeans",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"ArmorSlot":"Pants",

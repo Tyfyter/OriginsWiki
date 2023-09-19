@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Rift/Rift_Greaves",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":9,

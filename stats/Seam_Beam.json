@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Seam_Beam",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":19,
 	"Damage":42,

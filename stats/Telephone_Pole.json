@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Melee/Telephone_Pole",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Sword",
+		"Hardmode"
 	],
 	"Damage":110,
 	"DamageClass":"Melee",

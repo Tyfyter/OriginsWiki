@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Bled_Out_Staff",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":16,
 	"Damage":45,

@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Visor",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":9,

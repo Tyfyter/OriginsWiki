@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Melee/Eyndum_Scar",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Sword",
+		"Hardmode"
 	],
 	"Damage":407,
 	"DamageClass":"Melee",

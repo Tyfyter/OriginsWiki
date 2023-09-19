@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Laser_Tag_Gun",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":10,
 	"Damage":1,

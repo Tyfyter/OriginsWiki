@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Sonar_Visor",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Increased projectile speed\nImmunity to Confusion\nAllows you to see the outermost tiles",
 	"Rarity":"Yellow",

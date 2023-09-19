@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Mana_Drive",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Mana regenerates faster with higher speeds",
 	"Rarity":"Butterscotch",

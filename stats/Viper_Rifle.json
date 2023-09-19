@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Viper_Rifle",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun",
+		"Hardmode"
 	],
 	"Damage":60,
 	"DamageClass":"Ranged",
@@ -10,7 +12,7 @@
 	"Crit":13,
 	"UseTime":23,
 	"Velocity":8,
-	"Tooltip":"Has a chance to inflict \"Toxic Shock\"\nDeals critical damage on otherwise afflicted enemies",
+	"Tooltip":"Has a chance to inflict "Toxic Shock"\nDeals critical damage on otherwise afflicted enemies",
 	"Rarity":"LightRed",
 	"Sell":5000,
 	"SpriteWidth":100

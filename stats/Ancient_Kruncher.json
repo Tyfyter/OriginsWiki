@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Ancient_Kruncher",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun"
 	],
 	"Damage":13,
 	"DamageClass":"Ranged",

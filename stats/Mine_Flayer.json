@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Demolitionist/Mine_Flayer",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":60,
 	"DamageClass":"ExplosiveMelee",

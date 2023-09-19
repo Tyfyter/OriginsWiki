@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Helmet",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":7,

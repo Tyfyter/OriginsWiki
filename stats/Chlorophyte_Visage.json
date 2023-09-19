@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Other/Chlorophyte_Visage",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":5,

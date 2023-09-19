@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Breastplate",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":16,

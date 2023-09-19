@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Sight",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"\\'Great for impersonating Origins devs!\\'\nForesight is \\'20/20\\'",
 	"Rarity":"AltCyan",

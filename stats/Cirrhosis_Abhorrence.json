@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Cirrhosis_Abhorrence",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"5 of the closest enemies have their stats reduced whilst being set ablaze and bleeding",
 	"Rarity":"LightRed",

@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Helm",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":18,

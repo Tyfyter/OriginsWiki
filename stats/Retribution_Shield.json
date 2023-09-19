@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Retribution_Shield",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Defense":3,
 	"Tooltip":"Grants immunity to knockback\nGrants immunity to fire blocks\n67% of damage received is redirected to 3 enemies\nEnemies are less likely to target you",

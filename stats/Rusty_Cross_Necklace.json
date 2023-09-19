@@ -1,7 +1,8 @@
 {
 	"Image": "§ModImage§/Items/Pets/Rusty_Cross_Necklace",
 	"Types":[
-		"Item"
+		"Item",
+		"Hardmode"
 	],
 	"Tooltip":"Summons a Guardian Angel to watch after you\n\\'Be not afraid\\'",
 	"Rarity":"Yellow",

@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Headgear",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":4,

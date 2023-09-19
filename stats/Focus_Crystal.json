@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Focus_Crystal",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Life regeneration is boosted from dealing damage\nCritical strike chance is increased by 15% of weapon damage\nBase damage increased while standing still",
 	"Rarity":"Yellow",

@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Helium_Tank",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Extends underwater breathing\nImmunity to ‘Suffocation’\n\\'Don\\'t laugh\\'",
 	"Rarity":"LightRed",

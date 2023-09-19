@@ -3,6 +3,7 @@
 	"Types":[
 		"Item",
 		"Weapon",
+		"Sword",
 		"Tool"
 	],
 	"PickPower":80,

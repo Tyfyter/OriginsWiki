@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Powerflower",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Chance for mana stars to fall from critical hits\n8% reduced mana cost\nAutomatically use mana potions when needed",
 	"Rarity":"Pink",

@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/ATACS",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"10% increased critical strike chance\nDisplays the trajectory of projectiles from your selected item",
 	"Rarity":"Yellow",

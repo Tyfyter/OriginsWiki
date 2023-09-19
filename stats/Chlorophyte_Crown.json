@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Other/Chlorophyte_Crown",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":2,

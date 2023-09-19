@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Rigged_Cubix",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":4,
 	"Damage":88,

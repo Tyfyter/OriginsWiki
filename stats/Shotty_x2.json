@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/2_In_1_Shotty",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun"
 	],
 	"Damage":14,
 	"DamageClass":"Ranged",

@@ -1,7 +1,8 @@
 {
 	"Image": "§ModImage§/Items/Pets/Strange_Power_Up",
 	"Types":[
-		"Item"
+		"Item",
+		"Hardmode"
 	],
 	"Damage":0,
 	"UseTime":20,

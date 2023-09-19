@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Greaves",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":14,

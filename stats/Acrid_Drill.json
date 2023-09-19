@@ -3,6 +3,7 @@
 	"Types":[
 		"Item",
 		"Weapon",
+		"Hardmode",
 		"Tool"
 	],
 	"PickPower":195,

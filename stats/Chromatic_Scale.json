@@ -1,7 +1,8 @@
 {
 	"Image": "§ModImage§/Items/Pets/Chromatic_Scale",
 	"Types":[
-		"Item"
+		"Item",
+		"Hardmode"
 	],
 	"Damage":0,
 	"UseTime":20,

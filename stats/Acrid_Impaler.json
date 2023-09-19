@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Acrid_Impaler",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":40,
 	"DamageClass":"Ranged",

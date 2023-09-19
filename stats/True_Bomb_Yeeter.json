@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/True_Bomb_Yeeter",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"50% increased explosive throwing velocity\nAlso commonly referred to as the \\'True Bomb Yeeter\\'",
 	"Rarity":"LightRed",

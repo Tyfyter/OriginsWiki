@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Fragarach",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Sword",
+		"Hardmode"
 	],
 	"Damage":62,
 	"DamageClass":"Melee",

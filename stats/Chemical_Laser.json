@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Chemical_Laser",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":8,
 	"Damage":30,

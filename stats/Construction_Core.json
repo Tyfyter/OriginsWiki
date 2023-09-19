@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Construction_Core",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Allows incredible construction abilities",
 	"Rarity":"Crimson",

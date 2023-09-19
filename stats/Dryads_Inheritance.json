@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Dryads_Inheritance",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Increases damage\\, movement speed\\, and length of invincibility after taking damage\nEmit a damaging aura that inflicts poison",
 	"Rarity":"Lime",

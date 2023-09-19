@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Vest",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":7,

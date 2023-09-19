@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Pike_of_Deepneus",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":16,
 	"Damage":160,

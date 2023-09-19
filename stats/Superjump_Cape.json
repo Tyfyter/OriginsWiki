@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Superjump_Cape",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Allows for a super high jump and negates fall damage",
 	"Rarity":"LightRed",

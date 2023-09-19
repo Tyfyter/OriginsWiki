@@ -3,6 +3,8 @@
 	"Types":[
 		"Item",
 		"Weapon",
+		"Gun",
+		"Hardmode",
 		"Ammo"
 	],
 	"Damage":50,

@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Demolitionist/Rocodile",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":100,
 	"DamageClass":"ExplosiveRanged",

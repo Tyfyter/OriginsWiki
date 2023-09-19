@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Mitosis",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Damage":0,
 	"UseTime":5,

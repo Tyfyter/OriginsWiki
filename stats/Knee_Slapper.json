@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Melee/Knee_Slapper",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":45,
 	"DamageClass":"Melee",

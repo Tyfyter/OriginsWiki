@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Greaves",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":33,

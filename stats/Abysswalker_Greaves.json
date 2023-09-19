@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Greaves",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":8,

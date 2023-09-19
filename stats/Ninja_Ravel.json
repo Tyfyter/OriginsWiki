@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Ninja_Ravel",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Double tap down to transform into a small\\, rolling ball\nYou may cling to walls and ceilings when raveled\nEnemies are less likely to target you while raveled",
 	"Rarity":"Pink",

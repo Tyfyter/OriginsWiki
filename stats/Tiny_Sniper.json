@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Tiny_Sniper",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun",
+		"Hardmode"
 	],
 	"Damage":96,
 	"DamageClass":"Ranged",

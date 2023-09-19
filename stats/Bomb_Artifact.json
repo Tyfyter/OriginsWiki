@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Summoner/Bomb_Artifact",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":40,
 	"Damage":80,

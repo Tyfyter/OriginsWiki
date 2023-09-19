@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Melee/The_Bird",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Sword"
 	],
 	"Damage":99,
 	"DamageClass":"Melee",

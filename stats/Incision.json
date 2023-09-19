@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Incision",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":25,
 	"DamageClass":"Ranged",

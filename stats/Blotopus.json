@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Blotopus",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun"
 	],
 	"Damage":4,
 	"DamageClass":"Ranged",

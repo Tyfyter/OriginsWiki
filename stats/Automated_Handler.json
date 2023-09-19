@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Automated_Handler",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Allows the ability to climb walls and dash\nGreatly increased movement speed and return speed for grapple hooks and harpoon guns\nGives a chance to dodge attacks",
 	"Rarity":"Yellow",

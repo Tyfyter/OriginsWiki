@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":3,

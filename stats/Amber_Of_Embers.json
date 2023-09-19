@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Amber_Of_Embers",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":7,
 	"Damage":70,

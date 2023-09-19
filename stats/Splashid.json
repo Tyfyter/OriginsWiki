@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Splashid",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":18,
 	"Damage":52,

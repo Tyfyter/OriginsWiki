@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Breastplate",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":54,

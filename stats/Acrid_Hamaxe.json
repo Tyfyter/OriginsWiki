@@ -3,6 +3,8 @@
 	"Types":[
 		"Item",
 		"Weapon",
+		"Sword",
+		"Hardmode",
 		"Tool"
 	],
 	"AxePower":22,

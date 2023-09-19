@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Magic/Haunted_Vase",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"ManaCost":30,
 	"Damage":57,

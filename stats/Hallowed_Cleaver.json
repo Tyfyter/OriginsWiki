@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Hallowed_Cleaver",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun"
 	],
 	"Damage":39,
 	"DamageClass":"Ranged",

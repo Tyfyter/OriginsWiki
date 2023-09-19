@@ -2,7 +2,9 @@
 	"Image": "§ModImage§/Items/Weapons/Demolitionist/Dreikan",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Gun",
+		"Hardmode"
 	],
 	"Damage":66,
 	"DamageClass":"ExplosiveRanged",

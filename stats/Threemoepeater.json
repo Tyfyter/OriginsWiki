@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Ranged/Threemoepeater",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Bow"
 	],
 	"Damage":10,
 	"DamageClass":"Ranged",

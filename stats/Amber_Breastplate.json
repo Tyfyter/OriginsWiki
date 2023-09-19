@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Amber/Amber_Breastplate",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":7,

@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Hood",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":5,

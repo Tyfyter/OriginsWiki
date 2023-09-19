@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Fishing_Core",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Facilitates flawless fishing",
 	"Rarity":"Crimson",

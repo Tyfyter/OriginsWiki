@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Melee/Riverang",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Boomerang"
 	],
 	"Damage":23,
 	"DamageClass":"Melee",

@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Rebreather",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Gain more breath as you move in water",
 	"Rarity":"LightRed",

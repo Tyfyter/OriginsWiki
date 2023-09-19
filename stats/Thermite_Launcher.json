@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Weapons/Demolitionist/Thermite_Launcher",
 	"Types":[
 		"Item",
-		"Weapon"
+		"Weapon",
+		"Hardmode"
 	],
 	"Damage":27,
 	"DamageClass":"ExplosiveRanged",

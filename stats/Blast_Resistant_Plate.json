@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Blast_Resistant_Plate",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Defense":3,
 	"Tooltip":"Reduces explosive self-damage by 10%",

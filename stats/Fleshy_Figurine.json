@@ -2,7 +2,8 @@
 	"Image": "§ModImage§/Items/Accessories/Fleshy_Figurine",
 	"Types":[
 		"Item",
-		"Accessory"
+		"Accessory",
+		"Hardmode"
 	],
 	"Tooltip":"Attacks tenderize targets\n+8% torn severity",
 	"Rarity":"Pink",

@@ -2,6 +2,7 @@
 	"Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Greaves",
 	"Types":[
 		"Item",
+		"Hardmode",
 		"Armor"
 	],
 	"Defense":12,
