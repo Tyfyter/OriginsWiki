@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Rift/Rift_Helmet",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":7,
+	"ArmorSlot":"Helmet",
+	"Tooltip":"Increased explosive velocity",
+	"Rarity":"Pink",
+	"Sell":20000,
+	"SpriteWidth":26
+}

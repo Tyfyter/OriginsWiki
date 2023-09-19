@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Tools/Amoeba_Hook",
+	"Types":[
+		"Item"
+	],
+	"Damage":0,
+	"Knockback":7,
+	"UseTime":0,
+	"Velocity":18,
+	"Rarity":"Blue",
+	"Sell":800,
+	"SpriteWidth":20
+}

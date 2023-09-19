@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Mojo_Injection",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Slowly reduces assimilation",
+	"Rarity":"LightRed",
+	"Sell":20000,
+	"SpriteWidth":24
+}

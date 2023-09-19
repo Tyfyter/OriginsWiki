@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Seam_Beam",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":19,
+	"Damage":42,
+	"DamageClass":"Magic",
+	"UseTime":20,
+	"Velocity":1,
+	"Rarity":"Pink",
+	"Sell":20000,
+	"SpriteWidth":32
+}

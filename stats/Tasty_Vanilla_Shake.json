@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Food/Tasty_Vanilla_Shake",
+	"Types":[
+		"Item",
+		"Ammo"
+	],
+	"UseTime":17,
+	"Tooltip":"Medium improvements to all stats",
+	"Rarity":"LightRed",
+	"Sell":10000,
+	"SpriteWidth":20
+}

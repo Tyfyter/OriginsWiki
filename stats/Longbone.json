@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Longbone",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":28,
+	"DamageClass":"Ranged",
+	"Knockback":5,
+	"Crit":8,
+	"UseTime":16,
+	"Velocity":9,
+	"Tooltip":"Turns most arrows into fragile bone arrows",
+	"Rarity":"Green",
+	"Sell":8000,
+	"SpriteWidth":22
+}

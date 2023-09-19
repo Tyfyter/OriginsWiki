@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Fleshy_Figurine",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Attacks tenderize targets\n+8% torn severity",
+	"Rarity":"Pink",
+	"Sell":50000,
+	"SpriteWidth":26
+}

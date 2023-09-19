@@ -1,0 +1,14 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Vorpal_Sword_Cursed",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"Melee",
+	"UseTime":17,
+	"Velocity":12,
+	"Rarity":"Cursed",
+	"Sell":15000,
+	"SpriteWidth":58
+}

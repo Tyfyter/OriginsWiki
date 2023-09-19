@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Food/Brine_Cheese",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Major improvements to all stats\n\\'But\\, there\\'s a catch...\\'",
+	"Rarity":"Gray",
+	"Sell":1,
+	"SpriteWidth":24
+}

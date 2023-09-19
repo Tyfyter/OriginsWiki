@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Bomb_Charm",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Reduces explosive self-damage by 15%",
+	"Rarity":"Blue",
+	"Sell":10000,
+	"SpriteWidth":20
+}

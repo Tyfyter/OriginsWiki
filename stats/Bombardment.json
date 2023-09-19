@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Bombardment",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":4,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":4,
+	"UseTime":6,
+	"Velocity":9,
+	"Tooltip":"Fires a barrage of floating mines",
+	"Rarity":"Blue",
+	"Sell":2000,
+	"SpriteWidth":48
+}

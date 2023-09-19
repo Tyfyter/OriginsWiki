@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Splashid",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":18,
+	"Damage":52,
+	"DamageClass":"Magic",
+	"Knockback":4.75,
+	"UseTime":24,
+	"Velocity":9,
+	"Tooltip":"Shoots a flurry of brine droplets",
+	"Rarity":"LightRed",
+	"Sell":2080,
+	"SpriteWidth":30
+}

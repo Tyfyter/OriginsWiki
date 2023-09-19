@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Spirit_Shard",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Artifact minions turn into ghosts of their former selves upon death",
+	"Rarity":"Green",
+	"SpriteWidth":16
+}

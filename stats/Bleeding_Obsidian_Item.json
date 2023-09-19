@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Tiles/Dusk/Bleeding_Obsidian_Item",
+	"Types":[
+		"Item"
+	],
+	"PickReq":190,
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Tooltip":"\\'Weakens those who touch it\\'",
+	"Rarity":"White",
+	"SpriteWidth":16
+}

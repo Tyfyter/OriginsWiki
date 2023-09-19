@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Bled_Out_Staff",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":16,
+	"Damage":45,
+	"DamageClass":"Magic",
+	"Knockback":4.75,
+	"UseTime":20,
+	"Velocity":9,
+	"Rarity":"Pink",
+	"Sell":8000,
+	"SpriteWidth":44
+}

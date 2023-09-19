@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Unpowered_Eyndum_Core",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":100000,
+	"SpriteWidth":24
+}

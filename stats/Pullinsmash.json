@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Tools/Pullinsmash",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Tool"
+	],
+	"AxePower":21,
+	"HammerPower":55,
+	"Damage":16,
+	"DamageClass":"Melee",
+	"Knockback":4,
+	"UseTime":17,
+	"Tooltip":"\\'Hammer and nail in one package\\'",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":46
+}

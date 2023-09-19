@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Scavenger_Bag",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increases armor penetration by 5 and attacks tenderize targets\nIncreases your max number of minions by 1\nIncreases your summon damage by 15% and the knockback of your minions",
+	"Rarity":"Yellow",
+	"Sell":90000,
+	"SpriteWidth":26
+}

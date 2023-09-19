@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Bomb_Launcher",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":2,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":1.6,
+	"UseTime":40,
+	"Velocity":6,
+	"Tooltip":"Uses bombs as ammo",
+	"Rarity":"Green",
+	"Sell":8000,
+	"SpriteWidth":78
+}

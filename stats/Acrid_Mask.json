@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Mask",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":1,
+	"ArmorSlot":"Helmet",
+	"Tooltip":"10% increased summoning damage\n+1 minion slot\nEffects stronger when submerged\nEmit a small aura of light",
+	"Rarity":"LightRed",
+	"Sell":24000,
+	"SpriteWidth":24
+}

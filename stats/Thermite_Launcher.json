@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Thermite_Launcher",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":27,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":2,
+	"UseTime":32,
+	"Velocity":12,
+	"Tooltip":"Burn.\nUses Thermite Canisters for ammo",
+	"Rarity":"LightRed",
+	"Sell":15000,
+	"SpriteWidth":56
+}

@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Astoxo",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":78,
+	"DamageClass":"Ranged",
+	"Knockback":2,
+	"UseTime":29,
+	"Velocity":15,
+	"Tooltip":"Receives 50% higher damage bonuses",
+	"Rarity":"Yellow",
+	"Sell":20000,
+	"SpriteWidth":22
+}

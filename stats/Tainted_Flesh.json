@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Tainted_Flesh",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"+5% torn severity",
+	"Rarity":"LightRed",
+	"Sell":40000,
+	"SpriteWidth":30
+}

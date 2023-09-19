@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Hand_Grenade_Launcher",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":2,
+	"UseTime":23,
+	"Velocity":5,
+	"Tooltip":"\\'Doesn\\'t this defeat the purpose of a hand grenade?\\'",
+	"Rarity":"Orange",
+	"Sell":10000,
+	"SpriteWidth":34
+}

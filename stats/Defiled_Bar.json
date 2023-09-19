@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Defiled_Bar",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":3000,
+	"SpriteWidth":28
+}

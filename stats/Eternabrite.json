@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Eternabrite",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":14,
+	"Damage":30,
+	"DamageClass":"Magic",
+	"Knockback":8,
+	"UseTime":20,
+	"Velocity":14,
+	"Tooltip":"Casts a forceful flame",
+	"Rarity":"Orange",
+	"Sell":20000,
+	"SpriteWidth":28
+}

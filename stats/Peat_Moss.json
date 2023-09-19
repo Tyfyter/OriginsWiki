@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Peat_Moss",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":60,
+	"SpriteWidth":16
+}

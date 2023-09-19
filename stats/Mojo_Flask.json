@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Mojo_Flask",
+	"Types":[
+		"Item"
+	],
+	"UseTime":15,
+	"Tooltip":"Mitigates all assimilation by 20% each for five uses",
+	"Rarity":"Blue",
+	"Sell":4000,
+	"SpriteWidth":110
+}

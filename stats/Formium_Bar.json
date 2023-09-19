@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Formium_Bar",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":6800,
+	"SpriteWidth":30
+}

@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_Five",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":50,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":4.8,
+	"UseTime":45,
+	"Velocity":5.2,
+	"Tooltip":"\\'Compatible with your garden-variety mine launchers!\\'",
+	"Rarity":"Cyan",
+	"Sell":2600,
+	"SpriteWidth":20
+}

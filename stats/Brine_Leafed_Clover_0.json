@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_0",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Does nothing\n\\'Better luck next time!\\'",
+	"Rarity":"LightRed",
+	"SpriteWidth":16
+}

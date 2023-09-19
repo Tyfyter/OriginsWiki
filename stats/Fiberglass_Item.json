@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Tiles/Other/Fiberglass_Item",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"Green",
+	"SpriteWidth":16
+}

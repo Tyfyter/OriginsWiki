@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Protean_Potion",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Half of any weapon boosts are shared across all classes",
+	"Rarity":"Blue",
+	"Sell":200,
+	"SpriteWidth":20
+}

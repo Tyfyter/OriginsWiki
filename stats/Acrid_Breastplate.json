@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Breastplate",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":18,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"Increased life regeneration",
+	"Rarity":"LightRed",
+	"Sell":24000,
+	"SpriteWidth":34
+}

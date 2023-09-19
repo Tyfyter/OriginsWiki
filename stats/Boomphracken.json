@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Boomphracken",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":68,
+	"DamageClass":"Ranged",
+	"Knockback":10,
+	"Crit":11,
+	"UseTime":57,
+	"Velocity":24,
+	"Tooltip":"Chance to throw an explosive when used\n\\'He works his work\\, I work mine\\'",
+	"Rarity":"Pink",
+	"Sell":200000,
+	"SpriteWidth":56
+}

@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Manasynk",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"ManaCost":7,
+	"Damage":8,
+	"DamageClass":"Magic",
+	"Knockback":5.75,
+	"UseTime":15,
+	"Velocity":7,
+	"Rarity":"Orange",
+	"Sell":3000,
+	"SpriteWidth":32
+}

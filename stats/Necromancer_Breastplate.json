@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Breastplate",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":14,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"15% increased summoning attack speed\n+1 minion slot",
+	"Rarity":"Yellow",
+	"Sell":50000,
+	"SpriteWidth":30
+}

@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Felnum_Bar",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":4000,
+	"SpriteWidth":30
+}

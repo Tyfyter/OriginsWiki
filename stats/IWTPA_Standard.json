@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/IWTPA_Standard",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Reduces explosive fuse time",
+	"Rarity":"Blue",
+	"Sell":2000,
+	"SpriteWidth":28
+}

@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/3_In_1_Shotty",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":14,
+	"DamageClass":"Ranged",
+	"Knockback":5.75,
+	"UseTime":40,
+	"Velocity":5.35,
+	"Rarity":"Green",
+	"Sell":60000,
+	"SpriteWidth":52
+}

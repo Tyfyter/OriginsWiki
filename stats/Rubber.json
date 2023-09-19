@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Rubber",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":6,
+	"SpriteWidth":24
+}

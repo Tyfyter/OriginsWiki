@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Alkaline_Bomb",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":100,
+	"DamageClass":"Explosive (thrown)",
+	"UseTime":25,
+	"Velocity":5,
+	"Tooltip":"Explodes into brine droplets",
+	"Rarity":"LightRed",
+	"Sell":840,
+	"SpriteWidth":22
+}

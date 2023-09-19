@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Respyrite",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":900,
+	"SpriteWidth":24
+}

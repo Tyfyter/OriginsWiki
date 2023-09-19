@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Return_To_Sender",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Attackers receive all damage inflicted to the user",
+	"Rarity":"Blue",
+	"Sell":10000,
+	"SpriteWidth":20
+}

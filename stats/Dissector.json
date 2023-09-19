@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Tools/Dissector",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Tool"
+	],
+	"AxePower":15,
+	"Damage":16,
+	"DamageClass":"Melee",
+	"Knockback":2,
+	"UseTime":28,
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":38
+}

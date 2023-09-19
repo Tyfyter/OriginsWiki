@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/CFHES",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"All explosives inflict \\'On Fire!\\' and have a reduced fuse time\nGreatly increased explosive blast radius",
+	"Rarity":"LightRed",
+	"Sell":42000,
+	"SpriteWidth":34
+}

@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Peatball",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":17,
+	"DamageClass":"ExplosiveThrowing",
+	"Knockback":11.5,
+	"UseTime":14,
+	"Velocity":7,
+	"Rarity":"Blue",
+	"Sell":75,
+	"SpriteWidth":14
+}

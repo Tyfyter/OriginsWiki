@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Spiker_Sword",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":30,
+	"DamageClass":"Melee",
+	"Knockback":7.5,
+	"UseTime":28,
+	"Tooltip":"\\'Very pointy\\'",
+	"Rarity":"Blue",
+	"Sell":4000,
+	"SpriteWidth":52
+}

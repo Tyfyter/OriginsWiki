@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Potato_Battery",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Magic projectiles slightly home towards targets\n\\'How are you holding up? BECAUSE I\\'M A POTATO\\'",
+	"Rarity":"Pink",
+	"Sell":10000,
+	"SpriteWidth":22
+}

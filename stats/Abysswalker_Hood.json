@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Hood",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":5,
+	"ArmorSlot":"Helmet",
+	"Tooltip":"+20 max life",
+	"Rarity":"LightRed",
+	"Sell":4000,
+	"SpriteWidth":20
+}

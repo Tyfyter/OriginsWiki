@@ -1,0 +1,8 @@
+{
+	"Image": "§ModImage§/Tiles/Defiled/Defiled_Dungeon_Chest_Item",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"SpriteWidth":32
+}

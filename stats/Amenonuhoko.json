@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Amenonuhoko",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":64,
+	"DamageClass":"Melee",
+	"Knockback":4,
+	"UseTime":28,
+	"Velocity":5,
+	"Rarity":"LightRed",
+	"Sell":30000,
+	"SpriteWidth":46
+}

@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Shrapnel_Bomb",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":89,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":13,
+	"UseTime":28,
+	"Velocity":4.75,
+	"Tooltip":"Explodes into shrapnel",
+	"Rarity":"Pink",
+	"Sell":800,
+	"SpriteWidth":22
+}

@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Third_Eye",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Damage":180,
+	"DamageClass":"",
+	"Knockback":24,
+	"UseTime":180,
+	"Tooltip":"Your third eye will fire a phantasmal death ray when enemies are nearby\n\\'I am the cosmos\\'",
+	"Rarity":"Master",
+	"Sell":60000,
+	"SpriteWidth":18
+}

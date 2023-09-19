@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Items/Other/Testing/Chocolate_Bar",
+	"Types":[
+		"Item"
+	],
+	"UseTime":10,
+	"Rarity":"Green",
+	"Sell":411065408,
+	"SpriteWidth":32
+}

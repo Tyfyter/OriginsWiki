@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Tools/Snatcher",
+	"Types":[
+		"Item",
+		"Tool"
+	],
+	"FishPower":26,
+	"UseTime":8,
+	"Velocity":12,
+	"Rarity":"Blue",
+	"Sell":43600,
+	"SpriteWidth":48
+}

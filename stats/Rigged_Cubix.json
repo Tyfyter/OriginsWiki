@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Rigged_Cubix",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":4,
+	"Damage":88,
+	"DamageClass":"Magic",
+	"Knockback":4.75,
+	"Crit":1,
+	"UseTime":3,
+	"Velocity":14,
+	"Tooltip":"\\'Infinite ammo\\, infinite wisdom\\'",
+	"Rarity":"Butterscotch",
+	"Sell":200000,
+	"SpriteWidth":92
+}

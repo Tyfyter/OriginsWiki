@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Other/Fish/Crusty_Crate",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [2, 2],
+	"UseTime":15,
+	"Tooltip":"Right Click to open\n\\'No\\, this is Patrick.\\'",
+	"Rarity":"Green",
+	"Sell":10000,
+	"SpriteWidth":34
+}

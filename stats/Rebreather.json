@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Rebreather",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Gain more breath as you move in water",
+	"Rarity":"LightRed",
+	"Sell":10000,
+	"SpriteWidth":24
+}

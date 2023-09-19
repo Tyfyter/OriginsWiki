@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Lousy_Liver",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Weakens up to 4 nearby enemies",
+	"Rarity":"LightRed",
+	"Sell":10000,
+	"SpriteWidth":26
+}

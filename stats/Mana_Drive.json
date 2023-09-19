@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Mana_Drive",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Mana regenerates faster with higher speeds",
+	"Rarity":"Butterscotch",
+	"Sell":100000,
+	"SpriteWidth":32
+}

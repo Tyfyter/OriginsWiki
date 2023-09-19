@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Entangled_Energy",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Fiberglass weapons gain damage based on defense\nFiberglass weapons gain lifesteal",
+	"Rarity":"Master",
+	"Sell":60000,
+	"SpriteWidth":18
+}

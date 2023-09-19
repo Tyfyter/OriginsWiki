@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Low_Signal",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":9,
+	"Damage":40,
+	"DamageClass":"Magic",
+	"Knockback":5,
+	"UseTime":46,
+	"Velocity":16,
+	"Rarity":"Blue",
+	"Sell":20000,
+	"SpriteWidth":58
+}

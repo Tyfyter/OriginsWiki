@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Chlorodynamite",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":186,
+	"DamageClass":"Explosive (thrown)",
+	"UseTime":40,
+	"Velocity":6,
+	"Tooltip":"Vines will pull nearby enemies in before detonation",
+	"Rarity":"Lime",
+	"Sell":2200,
+	"SpriteWidth":18
+}

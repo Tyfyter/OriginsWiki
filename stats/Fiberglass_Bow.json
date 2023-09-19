@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Fiberglass_Bow",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"Ranged",
+	"Knockback":1,
+	"UseTime":14,
+	"Velocity":14,
+	"Tooltip":"\\'Be careful\\, it\\'s sharp\\'",
+	"Rarity":"Green",
+	"Sell":3000,
+	"SpriteWidth":18
+}

@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Breastplate",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":54,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"+20 max life",
+	"Rarity":"Crimson",
+	"Sell":200000,
+	"SpriteWidth":38
+}

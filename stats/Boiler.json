@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Boiler",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":38,
+	"DamageClass":"Ranged",
+	"Knockback":1.5,
+	"UseTime":12,
+	"Velocity":14,
+	"Tooltip":"Uses fireblossoms as ammo",
+	"Rarity":"Orange",
+	"Sell":10000,
+	"SpriteWidth":38
+}

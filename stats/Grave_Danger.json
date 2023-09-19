@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Grave_Danger",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Defense":5,
+	"Tooltip":"Temporarily increases defense by 25% after death",
+	"Rarity":"LightRed",
+	"Sell":20000,
+	"SpriteWidth":36
+}

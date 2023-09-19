@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Riptide/Riptide_Breastplate",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":5,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"Emit a small aura of light\n+60 mana capacity",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":30
+}

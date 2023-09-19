@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Ripper_Lance",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":24,
+	"DamageClass":"Melee",
+	"Knockback":5,
+	"UseTime":32,
+	"Velocity":3.75,
+	"Tooltip":"\\'Very pointy\\'",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":56
+}

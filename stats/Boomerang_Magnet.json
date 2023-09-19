@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Boomerang_Magnet",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increased return speed for boomerangs",
+	"Rarity":"Green",
+	"Sell":10000,
+	"SpriteWidth":34
+}

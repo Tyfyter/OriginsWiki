@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Magma_Grappler",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":34,
+	"DamageClass":"Ranged",
+	"Knockback":5,
+	"UseTime":3,
+	"Velocity":15.25,
+	"Tooltip":"Uses harpoons as ammo\n80% chance not to consume ammo",
+	"Rarity":"Orange",
+	"Sell":20000,
+	"SpriteWidth":46
+}

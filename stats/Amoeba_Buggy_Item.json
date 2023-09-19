@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Other/Fish/Amoeba_Buggy_Item",
+	"Types":[
+		"Item"
+	],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Jacket",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"ArmorSlot":"Shirt",
+	"Tooltip":"\\'Great for impersonating Origins devs!\\'\n",
+	"Rarity":"AltCyan",
+	"SpriteWidth":30
+}

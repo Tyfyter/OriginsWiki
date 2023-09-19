@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Infusion",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":3,
+	"Damage":4,
+	"DamageClass":"ExplosiveMagic",
+	"Knockback":5,
+	"UseTime":9,
+	"Velocity":16,
+	"Tooltip":"Rapidly fires spikes that will detonate when the target is implanted with enough",
+	"Rarity":"Blue",
+	"Sell":15000,
+	"SpriteWidth":30
+}

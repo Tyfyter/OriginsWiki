@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Defiled/Defiled2_Breastplate",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":7,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"3% increased damage",
+	"Rarity":"Blue",
+	"Sell":10000,
+	"SpriteWidth":30
+}

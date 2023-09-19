@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Fragarach",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":62,
+	"DamageClass":"Melee",
+	"Knockback":9.5,
+	"UseTime":18,
+	"Velocity":8,
+	"Tooltip":"Needs to be put in ROTP when it gets devving",
+	"Rarity":"LightPurple",
+	"Sell":100000,
+	"SpriteWidth":58
+}

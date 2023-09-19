@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/White_Water",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":20,
+	"DamageClass":"",
+	"Knockback":3,
+	"UseTime":15,
+	"Velocity":9,
+	"Tooltip":"Spreads the Defiled Wastelands to some blocks",
+	"Rarity":"Orange",
+	"Sell":20,
+	"SpriteWidth":26
+}

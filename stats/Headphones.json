@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Headphones",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Tagging an enemy increases the chance of a critical strike by 25% on next hit\nApplies to teammates\n\\'Callouts guys!\\'",
+	"Rarity":"Pink",
+	"Sell":20000,
+	"SpriteWidth":20
+}

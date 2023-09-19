@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Symbiote_Skull",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Attacks tenderize targets",
+	"Rarity":"Blue",
+	"Sell":20000,
+	"SpriteWidth":22
+}

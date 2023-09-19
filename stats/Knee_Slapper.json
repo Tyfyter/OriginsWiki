@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Knee_Slapper",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":45,
+	"DamageClass":"Melee",
+	"Knockback":5,
+	"UseTime":17,
+	"Velocity":16,
+	"Tooltip":"\\'Fish have feelings too\\'",
+	"Rarity":"LightRed",
+	"Sell":20000,
+	"SpriteWidth":94
+}

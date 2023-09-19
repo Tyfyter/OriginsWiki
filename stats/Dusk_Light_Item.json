@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Tiles/Dusk/Dusk_Light_Item",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

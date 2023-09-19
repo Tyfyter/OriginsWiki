@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Potato_Mine",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"PlacementSize": [1, 1],
+	"Damage":85,
+	"DamageClass":"",
+	"UseTime":10,
+	"Tooltip":"Explodes when stepped on\n\\'SPUDOW!\\'",
+	"Rarity":"White",
+	"Sell":5000,
+	"SpriteWidth":22
+}

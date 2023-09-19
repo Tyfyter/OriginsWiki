@@ -1,0 +1,14 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Cyah_Nara",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":18,
+	"DamageClass":"Melee",
+	"Crit":19,
+	"UseTime":19,
+	"Rarity":"White",
+	"Sell":200,
+	"SpriteWidth":46
+}

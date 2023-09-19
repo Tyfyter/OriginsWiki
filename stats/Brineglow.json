@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Brineglow",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":30,
+	"SpriteWidth":26
+}

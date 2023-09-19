@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Qube",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":16000,
+	"SpriteWidth":24
+}

@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Bloombomb",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":75,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":5,
+	"UseTime":25,
+	"Velocity":5,
+	"Tooltip":"Explodes into seeds",
+	"Rarity":"LightRed",
+	"Sell":1500,
+	"SpriteWidth":30
+}

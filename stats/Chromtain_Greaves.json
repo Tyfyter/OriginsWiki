@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Greaves",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":33,
+	"ArmorSlot":"Pants",
+	"Rarity":"Crimson",
+	"Sell":200000,
+	"SpriteWidth":22
+}

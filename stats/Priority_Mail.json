@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Priority_Mail",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Enemies recently struck by a teammate receive 18% more damage",
+	"Rarity":"Green",
+	"Sell":10000,
+	"SpriteWidth":34
+}

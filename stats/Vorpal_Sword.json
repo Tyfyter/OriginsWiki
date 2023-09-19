@@ -1,0 +1,14 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Vorpal_Sword",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"Melee",
+	"UseTime":17,
+	"Velocity":12,
+	"Rarity":"Blue",
+	"Sell":15000,
+	"SpriteWidth":58
+}

@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Food/Bileberry",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Minor improvements to all stats",
+	"Rarity":"Blue",
+	"Sell":2000,
+	"SpriteWidth":32
+}

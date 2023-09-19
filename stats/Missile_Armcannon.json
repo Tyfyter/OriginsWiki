@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Missile_Armcannon",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Damage":10,
+	"DamageClass":"Explosive",
+	"UseTime":15,
+	"Velocity":5,
+	"Tooltip":"30% increased explosive throwing velocity\nIncreases attack speed of thrown explosives\nEnables autouse for all explosive weapons\nShoots rockets as you swing\n\\'Payload not included\\'",
+	"Rarity":"LightRed",
+	"Sell":50000,
+	"SpriteWidth":38
+}

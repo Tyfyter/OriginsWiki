@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Volatile_Charm",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increases explosive blast radius by 40% and reduces explosive self-damage by 20%",
+	"Rarity":"Green",
+	"Sell":20000,
+	"SpriteWidth":14
+}

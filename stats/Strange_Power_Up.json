@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Pets/Strange_Power_Up",
+	"Types":[
+		"Item"
+	],
+	"Damage":0,
+	"UseTime":20,
+	"Tooltip":"The very first sprite.",
+	"Rarity":"Cyan",
+	"Sell":200000,
+	"SpriteWidth":16
+}

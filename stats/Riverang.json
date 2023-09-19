@@ -1,16 +1,16 @@
 {
-    "Image":"Riverang",
-    "Types":[
-        "Item",
-        "Weapon"
-    ],
-    "Damage":28,
-    "Knockback":8,
-    "Crit":4,
-    "UseTime":18,
-    "Velocity":9.75,
-    "Rarity":"Blue",
-    "Sell":5000,
-    "SpriteWidth":20,
-    "InternalName":"Riverang"
+	"Image": "§ModImage§/Items/Weapons/Melee/Riverang",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":23,
+	"DamageClass":"Melee",
+	"Knockback":5,
+	"UseTime":13,
+	"Velocity":10.75,
+	"Tooltip":"\\'Very hydrodynamic\\'",
+	"Rarity":"Blue",
+	"Sell":5000,
+	"SpriteWidth":20
 }

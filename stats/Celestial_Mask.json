@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Celestial_Mask",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increase to damage\\, melee speed\\, critical strike chance\\,\nlife regeneration\\, defense\\, mining speed\\, and minion knockback\\,\nbut your movement is hindered",
+	"Rarity":"Yellow",
+	"Sell":180000,
+	"SpriteWidth":22
+}

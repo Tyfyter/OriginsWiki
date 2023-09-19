@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Summoner/Bomb_Artifact",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":40,
+	"Damage":80,
+	"DamageClass":"ExplosiveSummon",
+	"UseTime":36,
+	"Tooltip":"Summons a friendly bomb to fight for you",
+	"Rarity":"Pink",
+	"Sell":15000,
+	"SpriteWidth":24
+}

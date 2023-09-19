@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Innermost_Manifest",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":8,
+	"Damage":8,
+	"DamageClass":"Magic",
+	"Knockback":4.75,
+	"UseTime":15,
+	"Velocity":9,
+	"Rarity":"Orange",
+	"Sell":3000,
+	"SpriteWidth":28
+}

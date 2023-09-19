@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Nerve_Impulse_Manipulator",
+	"Types":[
+		"Item"
+	],
+	"UseTime":45,
+	"Tooltip":"Summons the Defiled Amalgamation",
+	"Rarity":"Blue",
+	"SpriteWidth":26
+}

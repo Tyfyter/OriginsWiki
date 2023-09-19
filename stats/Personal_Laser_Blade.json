@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Personal_Laser_Blade",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":104,
+	"DamageClass":"Melee",
+	"Knockback":1,
+	"Crit":14,
+	"UseTime":1,
+	"Velocity":3,
+	"Tooltip":"Time your swings for more powerful blows\n\\'Be careful\\, it\\'s hot\\'",
+	"Rarity":"Pink",
+	"SpriteWidth":20
+}

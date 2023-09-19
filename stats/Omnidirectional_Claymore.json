@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Omnidirectional_Claymore",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"PlacementSize": [1, 1],
+	"Damage":165,
+	"DamageClass":"",
+	"UseTime":10,
+	"Tooltip":"Explodes when enemies cross its laser\nCan aim in different directions",
+	"Rarity":"Pink",
+	"Sell":17500,
+	"SpriteWidth":18
+}

@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Greaves",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":8,
+	"ArmorSlot":"Pants",
+	"Tooltip":"Increased movement speed",
+	"Rarity":"LightRed",
+	"Sell":20000,
+	"SpriteWidth":22
+}

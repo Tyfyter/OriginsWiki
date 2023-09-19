@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Tiles/Defiled/Hardened_Defiled_Sand_Item",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

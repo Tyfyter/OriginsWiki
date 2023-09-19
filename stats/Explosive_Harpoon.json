@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ammo/Explosive_Harpoon",
+	"Types":[
+		"Item",
+		"Ammo"
+	],
+	"Damage":10,
+	"DamageClass":"Ranged",
+	"Rarity":"Green",
+	"Sell":3000,
+	"SpriteWidth":24
+}

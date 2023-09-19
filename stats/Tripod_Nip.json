@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Tripod_Nip",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Reduces enemy aggression and spawn rates",
+	"Rarity":"LightRed",
+	"Sell":10000,
+	"SpriteWidth":24
+}

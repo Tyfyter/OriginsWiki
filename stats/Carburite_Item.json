@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Tiles/Other/Carburite_Item",
+	"Types":[
+		"Item"
+	],
+	"PickReq":55,
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Tooltip":"\\'An organic mineral that reacts to compounds\\'",
+	"Rarity":"White",
+	"Sell":100,
+	"SpriteWidth":24
+}

@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Dismay",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":14,
+	"Damage":50,
+	"DamageClass":"Magic",
+	"Knockback":5,
+	"Crit":10,
+	"UseTime":5,
+	"Velocity":12,
+	"Tooltip":"\\'Very pointy for a book\\'",
+	"Rarity":"LightRed",
+	"Sell":40000,
+	"SpriteWidth":40
+}

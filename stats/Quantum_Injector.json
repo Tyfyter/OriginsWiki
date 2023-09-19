@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Quantum_Injector",
+	"Types":[
+		"Item"
+	],
+	"UseTime":30,
+	"Tooltip":"Permanently increases maximum mana by 10",
+	"Rarity":"Butterscotch",
+	"Sell":10000,
+	"SpriteWidth":12
+}

@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Sleetfire",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":12,
+	"DamageClass":"Ranged",
+	"Knockback":0.43,
+	"UseTime":4,
+	"Velocity":7,
+	"Tooltip":"Uses gel as ammo",
+	"Rarity":"Orange",
+	"Sell":100000,
+	"SpriteWidth":36
+}

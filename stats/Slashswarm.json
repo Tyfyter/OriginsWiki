@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Slashswarm",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":16,
+	"Damage":16,
+	"DamageClass":"Magic",
+	"UseTime":8,
+	"Velocity":8.75,
+	"Rarity":"Blue",
+	"Sell":15000,
+	"SpriteWidth":28
+}

@@ -1,0 +1,14 @@
+{
+	"Image": "§ModImage§/Items/Tools/Parasitic_Manipulator",
+	"Types":[
+		"Item",
+		"Tool"
+	],
+	"FishPower":27,
+	"Damage":0,
+	"UseTime":8,
+	"Velocity":14,
+	"Rarity":"Blue",
+	"Sell":43600,
+	"SpriteWidth":48
+}

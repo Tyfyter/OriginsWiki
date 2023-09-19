@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Other/Fish/Polyeel",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"Blue",
+	"Sell":1500,
+	"SpriteWidth":32
+}

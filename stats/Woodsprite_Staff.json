@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Summoner/Woodsprite_Staff",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":12,
+	"Damage":3,
+	"DamageClass":"Summon",
+	"UseTime":36,
+	"Tooltip":"Summons a woodsprite to fight for you",
+	"Rarity":"White",
+	"Sell":5000,
+	"SpriteWidth":50
+}

@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Brainade",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":50,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":8,
+	"UseTime":45,
+	"Velocity":5.5,
+	"Tooltip":"Explodes into a bloody mess\n\\'Mind blown\\'",
+	"Rarity":"Blue",
+	"Sell":50,
+	"SpriteWidth":10
+}

@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Alkahest",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":900,
+	"SpriteWidth":16
+}

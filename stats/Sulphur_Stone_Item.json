@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Tiles/Brine/Sulphur_Stone_Item",
+	"Types":[
+		"Item"
+	],
+	"PickReq":200,
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

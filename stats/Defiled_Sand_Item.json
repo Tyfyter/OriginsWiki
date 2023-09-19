@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Tiles/Defiled/Defiled_Sand_Item",
+	"Types":[
+		"Item",
+		"Ammo"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

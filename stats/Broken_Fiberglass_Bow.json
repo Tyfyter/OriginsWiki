@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Broken_Fiberglass_Bow",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"Ranged",
+	"Knockback":1,
+	"UseTime":20,
+	"Velocity":9,
+	"Tooltip":"Not very useful without a bowstring\nMaybe you could find something to replace it",
+	"Rarity":"Green",
+	"Sell":3000,
+	"SpriteWidth":36
+}

@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/NE8",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":150,
+	"SpriteWidth":24
+}

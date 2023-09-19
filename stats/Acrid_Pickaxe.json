@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Tools/Acrid_Pickaxe",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Tool"
+	],
+	"PickPower":195,
+	"Damage":28,
+	"DamageClass":"Melee",
+	"Knockback":4,
+	"UseTime":7,
+	"Tooltip":"Increased mining speed when submerged",
+	"Rarity":"LightRed",
+	"Sell":40000,
+	"SpriteWidth":44
+}

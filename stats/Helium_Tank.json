@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Helium_Tank",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Extends underwater breathing\nImmunity to ‘Suffocation’\n\\'Don\\'t laugh\\'",
+	"Rarity":"LightRed",
+	"Sell":10000,
+	"SpriteWidth":20
+}

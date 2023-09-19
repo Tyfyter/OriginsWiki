@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Boat_Rocker",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":38,
+	"DamageClass":"Ranged",
+	"Knockback":4,
+	"UseTime":3,
+	"Velocity":14,
+	"Tooltip":"Uses harpoons as ammo\nRight-click while a line is cast to use it as a whip\n75% chance not to consume ammo",
+	"Rarity":"LightRed",
+	"Sell":20000,
+	"SpriteWidth":48
+}

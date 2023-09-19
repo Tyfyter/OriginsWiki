@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Pike_of_Deepneus",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":16,
+	"Damage":160,
+	"DamageClass":"Magic",
+	"Knockback":8,
+	"UseTime":17,
+	"Velocity":24,
+	"Tooltip":"Time your throws for more powerful blows\n\\'Like so deep dude\\'",
+	"Rarity":"Pink",
+	"Sell":30000,
+	"SpriteWidth":60
+}

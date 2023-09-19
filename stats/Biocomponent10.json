@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Biocomponent10",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":2,
+	"SpriteWidth":24
+}

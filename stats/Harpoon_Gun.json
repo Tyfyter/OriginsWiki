@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Harpoon_Gun",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":17,
+	"DamageClass":"Ranged",
+	"Knockback":4,
+	"UseTime":3,
+	"Velocity":14.75,
+	"Tooltip":"Uses harpoons as ammo\n85.7% chance not to consume ammo",
+	"Rarity":"Green",
+	"Sell":5400,
+	"SpriteWidth":40
+}

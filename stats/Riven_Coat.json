@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Riven/Riven_Coat",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":7,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"6% increased weapon speed",
+	"Rarity":"Blue",
+	"Sell":8000,
+	"SpriteWidth":30
+}

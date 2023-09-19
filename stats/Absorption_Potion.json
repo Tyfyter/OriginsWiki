@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Absorption_Potion",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Full protection from explosive self-damage",
+	"Rarity":"Blue",
+	"Sell":200,
+	"SpriteWidth":16
+}

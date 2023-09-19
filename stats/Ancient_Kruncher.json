@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Ancient_Kruncher",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":13,
+	"DamageClass":"Ranged",
+	"Knockback":5,
+	"Crit":3,
+	"UseTime":40,
+	"Velocity":15,
+	"Tooltip":"Wh3re did you f!nd this?",
+	"Rarity":"Blue",
+	"Sell":10000,
+	"SpriteWidth":56
+}

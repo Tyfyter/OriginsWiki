@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Voidsight_Potion",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Significantly increases visibility",
+	"Rarity":"Blue",
+	"Sell":200,
+	"SpriteWidth":20
+}

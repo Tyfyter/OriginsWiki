@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Speed_Ravel",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Double tap down to transform into a small\\, rolling ball that moves very fast",
+	"Rarity":"Pink",
+	"Sell":80000,
+	"SpriteWidth":24
+}

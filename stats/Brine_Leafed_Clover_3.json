@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_3",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increases the likelihood of favorable outcomes based on how many leaves it has\nA leaf will fall out if it causes something exceptionally rare",
+	"Rarity":"LightRed",
+	"Sell":3750,
+	"SpriteWidth":16
+}

@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Messy_Magma_Leech",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"All attacks inflict Bleeding and set enemies ablaze\nPrevents Defiled enemies from regenerating",
+	"Rarity":"Orange",
+	"Sell":30000,
+	"SpriteWidth":24
+}

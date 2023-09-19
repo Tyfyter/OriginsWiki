@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Donor_Wristband",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increased life regeneration\nDebuff and healing potion cooldown durations reduced by 37.5%",
+	"Rarity":"Blue",
+	"Sell":6000,
+	"SpriteWidth":20
+}

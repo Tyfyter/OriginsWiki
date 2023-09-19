@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Eyndum_Scar",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":407,
+	"DamageClass":"Melee",
+	"Knockback":9.5,
+	"Crit":19,
+	"UseTime":20,
+	"Tooltip":"A very lame end-game sword",
+	"Rarity":"Crimson",
+	"Sell":200000,
+	"SpriteWidth":70
+}

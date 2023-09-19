@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Soulhide/Soulhide_Helmet",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":3,
+	"ArmorSlot":"Helmet",
+	"Tooltip":"+10% melee weapon size",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":20
+}

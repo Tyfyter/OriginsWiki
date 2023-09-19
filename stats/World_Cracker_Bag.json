@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Other/LootBags/World_Cracker_Bag",
+	"Types":[
+		"Item"
+	],
+	"Tooltip":"Right Click to open",
+	"Rarity":"Yellow",
+	"SpriteWidth":32
+}

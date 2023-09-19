@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Wilting_Rose_Item",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":20,
+	"SpriteWidth":18
+}

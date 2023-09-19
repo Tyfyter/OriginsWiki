@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Riven_Carapace",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":150,
+	"SpriteWidth":34
+}

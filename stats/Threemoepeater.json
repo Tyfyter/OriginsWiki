@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Threemoepeater",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":10,
+	"DamageClass":"Ranged",
+	"Knockback":5,
+	"UseTime":13,
+	"Velocity":11,
+	"Rarity":"Blue",
+	"Sell":10000,
+	"SpriteWidth":50
+}

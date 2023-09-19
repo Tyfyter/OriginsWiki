@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Other/Consumables/Nullification_Potion",
+	"Types":[
+		"Item"
+	],
+	"UseTime":17,
+	"Tooltip":"Removes all current harmful effects",
+	"Rarity":"Blue",
+	"Sell":200,
+	"SpriteWidth":16
+}

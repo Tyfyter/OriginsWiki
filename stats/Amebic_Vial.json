@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Amebic_Vial",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Amebic tentacles will protect you from projectiles",
+	"Rarity":"Expert",
+	"Sell":20000,
+	"SpriteWidth":24
+}

@@ -1,0 +1,16 @@
+{
+	"Image": "Terraria/Images/Item_760",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":110,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":4,
+	"UseTime":12,
+	"Velocity":12,
+	"Tooltip":"\\'Light \\'em up\\'",
+	"Rarity":"Crimson",
+	"Sell":200000,
+	"SpriteWidth":52
+}

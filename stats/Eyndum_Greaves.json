@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Greaves",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":12,
+	"ArmorSlot":"Pants",
+	"Rarity":"Crimson",
+	"Sell":200000,
+	"SpriteWidth":22
+}

@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Unsought_Organ",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Half of damage received is split across 3 enemies\\, inflicting \\'Toxic Shock\\'\n5% increased damage and critical strike chance\nEnemies are less likely to target you",
+	"Rarity":"LightPurple",
+	"Sell":50000,
+	"SpriteWidth":28
+}

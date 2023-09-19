@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Tiles/Defiled/Bile_Torch",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"Sell":10,
+	"SpriteWidth":14
+}

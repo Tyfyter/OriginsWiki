@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Magnus",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":13,
+	"Damage":34,
+	"DamageClass":"Magic",
+	"Knockback":3,
+	"UseTime":33,
+	"Velocity":32,
+	"Tooltip":"Receives 50% higher damage bonuses",
+	"Rarity":"Green",
+	"Sell":6000,
+	"SpriteWidth":46
+}

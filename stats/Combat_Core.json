@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Combat_Core",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Grants impressive boosts in combat capability",
+	"Rarity":"Crimson",
+	"Sell":1000000,
+	"SpriteWidth":24
+}

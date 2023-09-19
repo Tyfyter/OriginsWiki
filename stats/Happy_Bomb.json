@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Happy_Bomb",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":120,
+	"DamageClass":"Explosive (thrown)",
+	"UseTime":25,
+	"Velocity":5,
+	"Tooltip":"Laughs at downed enemies",
+	"Rarity":"Pink",
+	"Sell":7500,
+	"SpriteWidth":22
+}

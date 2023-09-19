@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Tiles/Other/A_Perfect_World_Item",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [3, 2],
+	"UseTime":10,
+	"Tooltip":"\\'The Defiled\\'",
+	"Rarity":"White",
+	"Sell":20000,
+	"SpriteWidth":38
+}

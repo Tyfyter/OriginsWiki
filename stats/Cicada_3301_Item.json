@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Other/Fish/Cicada_3301_Item",
+	"Types":[
+		"Item"
+	],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":12
+}

@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Illegal_Explosive_Parts",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":40000,
+	"SpriteWidth":28
+}

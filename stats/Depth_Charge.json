@@ -1,0 +1,15 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Melee/Depth_Charge",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":55,
+	"DamageClass":"ExplosiveMelee",
+	"Knockback":4,
+	"UseTime":28,
+	"Velocity":8,
+	"Rarity":"LightRed",
+	"Sell":15000,
+	"SpriteWidth":36
+}

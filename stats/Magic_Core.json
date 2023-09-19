@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Magic_Core",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Graces one with true magic power",
+	"Rarity":"Crimson",
+	"Sell":1000000,
+	"SpriteWidth":24
+}

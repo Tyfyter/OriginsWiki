@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Vest",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":7,
+	"ArmorSlot":"Shirt",
+	"Tooltip":"+15% magic speed",
+	"Rarity":"Pink",
+	"Sell":20000,
+	"SpriteWidth":38
+}

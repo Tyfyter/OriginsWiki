@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Flakjack",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":96,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":8,
+	"Crit":18,
+	"UseTime":17,
+	"Velocity":12,
+	"Rarity":"Crimson",
+	"Sell":50000,
+	"SpriteWidth":72
+}

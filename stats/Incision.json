@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Incision",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":25,
+	"DamageClass":"Ranged",
+	"Knockback":4,
+	"Crit":0,
+	"UseTime":40,
+	"Velocity":20,
+	"Tooltip":"\\'Very pointy\\'",
+	"Rarity":"Pink",
+	"Sell":80000,
+	"SpriteWidth":52
+}

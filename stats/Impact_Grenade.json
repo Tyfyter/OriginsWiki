@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Impact_Grenade",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":35,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":10,
+	"UseTime":33,
+	"Velocity":9.63,
+	"Tooltip":"\\'Be careful\\, it\\'s not a book\\'",
+	"Rarity":"Green",
+	"Sell":35,
+	"SpriteWidth":14
+}

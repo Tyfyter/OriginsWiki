@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Tools/Brick_Breaker",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Tool"
+	],
+	"HammerPower":60,
+	"Damage":14,
+	"DamageClass":"Melee",
+	"Knockback":4.3,
+	"UseTime":17,
+	"Tooltip":"\\'Very pointy\\'",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":34
+}

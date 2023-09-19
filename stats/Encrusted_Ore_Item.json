@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Tiles/Riven/Encrusted_Ore_Item",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"Blue",
+	"Sell":1300,
+	"SpriteWidth":16
+}

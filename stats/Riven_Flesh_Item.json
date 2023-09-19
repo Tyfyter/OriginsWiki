@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Tiles/Riven/Riven_Flesh_Item",
+	"Types":[
+		"Item"
+	],
+	"PickReq":65,
+	"PlacementSize": [1, 1],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":16
+}

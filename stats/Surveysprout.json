@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Surveysprout",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":20,
+	"SpriteWidth":16
+}

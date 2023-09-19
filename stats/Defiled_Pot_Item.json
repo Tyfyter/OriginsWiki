@@ -1,0 +1,10 @@
+{
+	"Image": "§ModImage§/Tiles/Defiled/Defiled_Pot",
+	"Types":[
+		"Item"
+	],
+	"PlacementSize": [2, 2],
+	"UseTime":10,
+	"Rarity":"White",
+	"SpriteWidth":108
+}

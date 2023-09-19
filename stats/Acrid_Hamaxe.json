@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Tools/Acrid_Hamaxe",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Tool"
+	],
+	"AxePower":22,
+	"HammerPower":65,
+	"Damage":31,
+	"DamageClass":"Melee",
+	"Knockback":4,
+	"UseTime":7,
+	"Tooltip":"Increased mining speed when submerged",
+	"Rarity":"LightRed",
+	"Sell":40000,
+	"SpriteWidth":48
+}

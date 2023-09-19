@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Rocodile",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":100,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":4,
+	"UseTime":50,
+	"Velocity":12,
+	"Tooltip":"Uses rockets as ammo\n\\'Older cousin of the minishark\\'",
+	"Rarity":"Lime",
+	"Sell":70000,
+	"SpriteWidth":74
+}

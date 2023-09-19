@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Busted_Servo",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":200,
+	"SpriteWidth":16
+}

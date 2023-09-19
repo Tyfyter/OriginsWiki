@@ -1,0 +1,9 @@
+{
+	"Image": "§ModImage§/Items/Materials/Silicon",
+	"Types":[
+		"Item"
+	],
+	"Rarity":"White",
+	"Sell":44,
+	"SpriteWidth":16
+}

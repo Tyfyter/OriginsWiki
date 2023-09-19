@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Ameballoon",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":25,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":5,
+	"UseTime":18,
+	"Velocity":8.75,
+	"Tooltip":"\\'Arguably worse than lava balloons\\'",
+	"Rarity":"Blue",
+	"Sell":50,
+	"SpriteWidth":16
+}

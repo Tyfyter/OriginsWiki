@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Summoner/Flagellash",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":13,
+	"DamageClass":"Summon",
+	"Knockback":2,
+	"UseTime":42,
+	"Velocity":4,
+	"Tooltip":"2⅔ summon tag damage\nYour summons will focus struck enemies\n\\'Three ends are better than one\\'",
+	"Rarity":"Blue",
+	"Sell":15000,
+	"SpriteWidth":34
+}

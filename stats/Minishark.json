@@ -1,0 +1,15 @@
+{
+	"Image": "MissingTexture",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":6,
+	"DamageClass":"Ranged",
+	"UseTime":8,
+	"Velocity":7,
+	"Tooltip":"33% chance to save ammo\n'Half shark\\, half gun\\, completely awesome.'",
+	"Rarity":"Green",
+	"Sell":70000,
+	"SpriteWidth":50
+}

@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Stone_Mask",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"PlacementSize": [2, 1],
+	"UseTime":12,
+	"Tooltip":"Increases defense by 8\\, but your movement is hindered",
+	"Rarity":"Blue",
+	"Sell":100000,
+	"SpriteWidth":14
+}

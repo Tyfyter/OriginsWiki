@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Fiberglass/Fiberglass_Legs",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":5,
+	"ArmorSlot":"Pants",
+	"Tooltip":"\\'These don\\'t seem very protective\\'",
+	"Rarity":"White",
+	"Sell":4500,
+	"SpriteWidth":22
+}

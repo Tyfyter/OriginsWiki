@@ -1,0 +1,17 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Crystal_Grenade",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"Damage":45,
+	"DamageClass":"Explosive (thrown)",
+	"Knockback":5,
+	"UseTime":45,
+	"Velocity":8.25,
+	"Tooltip":"Explodes into several crystal shards",
+	"Rarity":"LightRed",
+	"Sell":210,
+	"SpriteWidth":14
+}

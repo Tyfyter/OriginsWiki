@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ranged/Bloodletter",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":21,
+	"DamageClass":"Ranged",
+	"Knockback":4,
+	"UseTime":3,
+	"Velocity":15.25,
+	"Tooltip":"Uses harpoons as ammo\n80% chance not to consume ammo",
+	"Rarity":"Blue",
+	"Sell":15000,
+	"SpriteWidth":46
+}

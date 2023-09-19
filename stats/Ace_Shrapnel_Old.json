@@ -1,0 +1,16 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Demolitionist/Ace_Shrapnel_Old",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"Damage":85,
+	"DamageClass":"ExplosiveRanged",
+	"Knockback":4,
+	"UseTime":28,
+	"Velocity":6,
+	"Tooltip":"What do we do with it?",
+	"Rarity":"Lime",
+	"Sell":100000,
+	"SpriteWidth":72
+}

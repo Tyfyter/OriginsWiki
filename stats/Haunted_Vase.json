@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Haunted_Vase",
+	"Types":[
+		"Item",
+		"Weapon"
+	],
+	"ManaCost":30,
+	"Damage":57,
+	"DamageClass":"Magic",
+	"Knockback":2,
+	"Crit":9,
+	"UseTime":27,
+	"Velocity":21,
+	"Tooltip":"\\'Try not to disturb the spirits within\\'",
+	"Rarity":"Yellow",
+	"Sell":50000,
+	"SpriteWidth":50
+}

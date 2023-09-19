@@ -1,0 +1,13 @@
+{
+	"Image": "§ModImage§/Items/Armor/Lost/Lost_Helm",
+	"Types":[
+		"Item",
+		"Armor"
+	],
+	"Defense":3,
+	"ArmorSlot":"Helmet",
+	"Tooltip":"Increased mana regeneration rate",
+	"Rarity":"Blue",
+	"Sell":3000,
+	"SpriteWidth":20
+}

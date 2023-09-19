@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Makeover_Choker",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increases life regeneration at low health\nIncreases length of invincibility after taking damage\n\\'You look like a mess\\, let\\'s get that taken care of\\'",
+	"Rarity":"LightRed",
+	"Sell":100000,
+	"SpriteWidth":22
+}

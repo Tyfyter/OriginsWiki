@@ -1,0 +1,12 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Ammo/Cursed_Harpoon",
+	"Types":[
+		"Item",
+		"Ammo"
+	],
+	"Damage":20,
+	"DamageClass":"Ranged",
+	"Rarity":"Orange",
+	"Sell":3000,
+	"SpriteWidth":26
+}

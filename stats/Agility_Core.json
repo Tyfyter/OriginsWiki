@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Agility_Core",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Grants massive boosts in maneuverability",
+	"Rarity":"Crimson",
+	"Sell":1000000,
+	"SpriteWidth":24
+}

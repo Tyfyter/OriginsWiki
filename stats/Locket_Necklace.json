@@ -1,0 +1,11 @@
+{
+	"Image": "§ModImage§/Items/Accessories/Locket_Necklace",
+	"Types":[
+		"Item",
+		"Accessory"
+	],
+	"Tooltip":"Increases damage and movement speed after taking damage",
+	"Rarity":"Orange",
+	"Sell":20000,
+	"SpriteWidth":30
+}

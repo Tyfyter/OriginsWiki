@@ -1,0 +1,18 @@
+{
+	"Image": "§ModImage§/Items/Weapons/Magic/Hot_Potato",
+	"Types":[
+		"Item",
+		"Weapon",
+		"Ammo"
+	],
+	"ManaCost":8,
+	"Damage":16,
+	"DamageClass":"Magic",
+	"Knockback":5.75,
+	"UseTime":20,
+	"Velocity":7,
+	"Tooltip":"\\'Be careful\\, it\\'s hot\\'",
+	"Rarity":"Orange",
+	"Sell":3000,
+	"SpriteWidth":22
+}
