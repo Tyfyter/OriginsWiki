@@ -12,9 +12,10 @@
 	--visited-link-color: var(--visited-link-color-base);
 	--expert-color:orange;
 	--master-color:maroon;
+	--toolbar-scale: 100%;
 }
 
-.darkmode {
+.theme-dark {
   --article-bg-color: rgb(10, 10, 10);
   --article-text-color: rgb(200, 200, 200);
 	--article-link-color-base: #2bb9ff;
@@ -367,37 +368,61 @@ details > summary {
 
 #toolbar {
 	position: fixed;
-  right: 0.6em;
-  top: 0.55em;
+  right: 0.6rem;
+  top: 0.55rem;
 	z-index: 1;
 	width: fit-content;
 	border-radius: 5px;
 	border-style: groove;
 	background: var(--article-bg-color);
+	font-size: var(--toolbar-scale);
 }
+
 #searchbar {
 	background: transparent;
 	border: none;
 	color:var(--article-text-color);
+	font-size: 100%;
 }
 .searchSymbol {
-	height: 1.25rem;
+	height: 1.25em;
 	float: right;
 	fill:var(--article-text-color);
 }
 #searchlinks {
 	clear:both;
+	overflow-y: scroll;
+	max-height: calc(100vh - 1.25em - 0.55rem - 10px);
 }
 .selectedSearch {
 	background-color: var(--box-bg-color);
 }
 #lighttoggle {
-	height: 1.25rem;
+	height: 1.25em;
 	float: left;
 	cursor: pointer;
 }
+.themeOption {
+	height: 1.25em;
+	float: left;
+	cursor: pointer;
+}
+#themeContainer:empty {
+	display: none;
+}
+#themeContainer {
+	position: absolute;
+	left: 1.5em;
+	top: calc(1.5em - 3px);
+	display: grid;
+	border-radius: 5px;
+	border-style: groove;
+	padding-top: 4px;
+	border-top: none;
+}
+
 #bgtoggle {
-	height: 1.25rem;
+	height: 1.25em;
 	float: left;
 	cursor: pointer;
 	fill: transparent;
@@ -502,10 +527,10 @@ details > summary {
 	}
 	#toolbar {
 		width: calc(100% - 1.15em);
+		--toolbar-scale: 150%;
 	}
 	#searchbar {
-		width: calc(100% - 1.25rem - 1.25rem - 1.25rem - 1.25rem);
-		font-size: 175%
+		width: calc(100% - 1.25em - 1.25em - 1.25em - 1.25em);
 	}
 	h1 {
 		margin-top: 2.25rem;

@@ -2,13 +2,15 @@
 var jsLoaded = true;
 var linkSuffix = '.html';
 var linkPrefix = '';
-const lightSettingSuffix = '_Mode.png';
+const lightSettingSuffix = '.png';
 var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
 
 const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
 const catLeftQuoteRegex = /(^|(?<!\\):)(\s*)([^{}\[\]\s])/gm;
 const catRightQuoteRegex = /([^{}\[\]\s])(\s*)($|(?<!\\):)/gm;
+
+const themes = ['light', 'dark'];
 
 var lastErrObject;
 
@@ -221,6 +223,11 @@ function setSiteSettings(setting, value){
 }
 
 function getSiteSettings(){
+	var cookie = document.cookie;
+	var changedcookie = document.cookie.replace('"darkmode":true', '"theme":"dark"');
+	if (cookie != changedcookie) {
+		document.cookie = cookie = changedcookie;
+	}
 	var match = siteSettingsRegex.exec(document.cookie.toString());
 	var siteSettings = {};
 	if(match){
@@ -234,18 +241,25 @@ function refreshSiteSettings(){
 
 	var darkMode = siteSettings.darkmode;
 	var background = !siteSettings.nobackground;
+	var theme = siteSettings.theme;
+	if(siteSettings.darkmode){
+		theme = "dark";
+	}
 	var html = document.getElementsByTagName('html')[0];
 	var body = document.getElementsByTagName('body')[0];
 
 	//console.log('setting dark mode to '+darkMode);
-	if(darkMode){
-		html.className = html.className + " darkmode";
-	} else {
-		html.className = html.className.replaceAll('darkmode', '');
+	for (let i = 0; i < html.classList.length; i++) {
+		const element = html.classList[i];
+		if (element.startsWith("theme-")) {
+			html.classList.remove(element);
+			i--;
+		}
 	}
+	html.classList.add("theme-" + theme);
 	var lightToggle = document.getElementById('lighttoggle');
 	if(lightToggle){
-		lightToggle.src = (darkMode ? 'Dark' : 'Light' ) + lightSettingSuffix;
+		lightToggle.src = "/Images/themes/" + "theme-" + theme + lightSettingSuffix;
 	}
 
 	const backgroundSettingRegex = /background|nobackground/g;
@@ -268,6 +282,25 @@ function setDarkMode(value){
 
 function getDarkMode(){
 	return getSiteSettings().darkmode;
+}
+function toggleThemeSelector(){
+	var themeContainer = document.getElementById("themeContainer");
+	if (themeContainer.children.length > 0) {
+		themeContainer.replaceChildren();
+	} else {
+		for (let i = 0; i < themes.length; i++) {
+			const themeName = themes[i];
+			var child = document.createElement('img');
+			child.classList.add('themeOption');
+			child.onclick = () => {
+				toggleThemeSelector();
+				setSiteSettings('theme', themeName);
+			}
+			child.src = `/Images/themes/theme-${themeName}.png`;
+			themeContainer.appendChild(child);
+			console.log(child);
+		}
+	}
 }
 
 function setBackground(value){
@@ -1287,13 +1320,16 @@ var parse = async ()=>{
 	console.log('1');
 
 	content.innerHTML = '<div id="toolbar">'+
-	'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
-	'<img id="lighttoggle" onclick="setDarkMode(!getDarkMode())">'+
-	'<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">'+
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
-    '<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
-    '</svg>'+
-	'<div id="searchlinks"></div>'+
+		'<div id="toolbar-container">'+
+			'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
+			'<img id="lighttoggle" onclick="toggleThemeSelector()">'+
+			'<span id="themeContainer"></span>'+
+			'<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">'+
+			'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
+			'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
+			'</svg>'+
+		'</div>'+
+		'<div id="searchlinks"></div>'+
 	'</div>'+content.innerHTML;
 	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
