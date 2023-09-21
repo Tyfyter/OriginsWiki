@@ -306,6 +306,7 @@ function toggleThemeSelector(){
 		}
 	}
 }
+function closeThemeSelector(){
 	document.getElementById("themeContainer").replaceChildren();
 }
 
