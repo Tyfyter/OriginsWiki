@@ -288,8 +288,10 @@ function toggleThemeSelector(){
 	if (themeContainer.children.length > 0) {
 		themeContainer.replaceChildren();
 	} else {
+		const currentTheme = getSiteSettings().theme;
 		for (let i = 0; i < themes.length; i++) {
 			const themeName = themes[i];
+			if (themeName === currentTheme) continue;
 			var child = document.createElement('img');
 			child.classList.add('themeOption');
 			child.onclick = () => {
