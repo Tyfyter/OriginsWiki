@@ -17,6 +17,12 @@ var lastErrObject;
 if(document.location.protocol == 'https:'){
 	cookieSuffix = cookieSuffix + 'Secure';
 }
+console.log = (function (old_function, div_log) { 
+    return function (text) {
+        old_function(text);
+        div_log.textContent += text;
+    };
+} (console.log.bind(console), document.getElementById("error-log")));
 
 console.log('cookieSuffix: ' + cookieSuffix);
 
