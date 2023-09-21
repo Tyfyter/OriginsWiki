@@ -500,13 +500,13 @@ async function processAutoStats(name = pageName){
 		if(data.Buy){
 			statistics.items.push({
 				label:'[link Buy | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(Data.Buy)
+				value:generateCoinsTag(data.Buy)
 			});
 		}
 		if(data.Sell){
 			statistics.items.push({
 				label:'[link Sell | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(Data.Sell)
+				value:generateCoinsTag(data.Sell)
 			});
 		}
 		if(data.Research){
