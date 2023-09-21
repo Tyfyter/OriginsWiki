@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Salt_Flask",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Melee and Whip attacks tenderize targets",
-	"Rarity":"LightRed",
-	"Sell":500,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Other/Consumables/Salt_Flask",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Melee and Whip attacks tenderize targets",
+  "Rarity": "LightRed",
+  "Sell": 500,
+  "SpriteWidth": 22
 }

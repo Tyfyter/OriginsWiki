@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Tools/Rivenator",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword",
-		"Tool"
-	],
-	"PickPower":80,
-	"Damage":16,
-	"DamageClass":"Melee",
-	"Knockback":4,
-	"UseTime":13,
-	"Tooltip":"Able to mine Hellstone",
-	"Rarity":"Blue",
-	"Sell":3000,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Tools/Rivenator",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Tool"
+  ],
+  "PickPower": 80,
+  "Damage": 16,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 13,
+  "Tooltip": "Able to mine Hellstone",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 36
 }

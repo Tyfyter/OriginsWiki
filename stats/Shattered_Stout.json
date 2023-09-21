@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Food/Shattered_Stout",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Minor improvements to all stats",
-	"Rarity":"Green",
-	"Sell":4000,
-	"SpriteWidth":12
+  "Image": "§ModImage§/Items/Other/Consumables/Food/Shattered_Stout",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Minor improvements to all stats",
+  "Rarity": "Green",
+  "Sell": 4000,
+  "SpriteWidth": 12
 }

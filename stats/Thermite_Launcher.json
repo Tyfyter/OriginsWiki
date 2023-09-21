@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Thermite_Launcher",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"Damage":27,
-	"DamageClass":"ExplosiveRanged",
-	"Knockback":2,
-	"UseTime":32,
-	"Velocity":12,
-	"Tooltip":"Burn.\nUses Thermite Canisters for ammo",
-	"Rarity":"LightRed",
-	"Sell":15000,
-	"SpriteWidth":56
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Thermite_Launcher",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 27,
+  "DamageClass": "ExplosiveRanged",
+  "Knockback": 2.0,
+  "UseTime": 32,
+  "Velocity": 12.0,
+  "Tooltip": "Burn.\nUses Thermite Canisters for ammo",
+  "Rarity": "LightRed",
+  "Sell": 15000,
+  "SpriteWidth": 56
 }

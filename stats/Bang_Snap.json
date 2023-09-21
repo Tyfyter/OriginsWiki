@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Bang_Snap",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":10,
-	"DamageClass":"Explosive (thrown)",
-	"UseTime":19,
-	"Velocity":12,
-	"Tooltip":"The Party Girl loves these",
-	"Rarity":"White",
-	"Sell":1,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Bang_Snap",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 10,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 19,
+  "Velocity": 12.0,
+  "Tooltip": "The Party Girl loves these",
+  "Rarity": "White",
+  "Sell": 1,
+  "SpriteWidth": 16
 }

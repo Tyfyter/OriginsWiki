@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Magic_Glove",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"ManaCost":3,
-	"Damage":-69421,
-	"UseTime":5,
-	"Velocity":14,
-	"Tooltip":"8% reduced mana usage\nAutomatically use mana potions when needed\nShoots random magic as you swing\n\\'May require magical capability\\'",
-	"Rarity":"Green",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Accessories/Magic_Glove",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "ManaCost": 3,
+  "Damage": -69421,
+  "UseTime": 5,
+  "Velocity": 14.0,
+  "Tooltip": "8% reduced mana usage\nAutomatically use mana potions when needed\nShoots random magic as you swing\n'May require magical capability'",
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

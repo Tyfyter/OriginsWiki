@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Pincushion",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Prevents tile destruction from explosives",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Accessories/Pincushion",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Prevents tile destruction from explosives",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 30
 }

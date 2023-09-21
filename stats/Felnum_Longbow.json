@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Felnum_Longbow",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Bow"
-	],
-	"Damage":19,
-	"DamageClass":"Ranged",
-	"UseTime":32,
-	"Velocity":16.5,
-	"Tooltip":"Receives 50% higher damage bonuses",
-	"Rarity":"Green",
-	"Sell":5000,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Weapons/Ranged/Felnum_Longbow",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Bow"
+  ],
+  "Damage": 19,
+  "DamageClass": "Ranged",
+  "UseTime": 32,
+  "Velocity": 16.5,
+  "Tooltip": "Receives 50% higher damage bonuses",
+  "Rarity": "Green",
+  "Sell": 5000,
+  "SpriteWidth": 18
 }

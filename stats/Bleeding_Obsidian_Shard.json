@@ -1,8 +1,8 @@
 {
-	"Image": "§ModImage§/Items/Materials/Bleeding_Obsidian_Shard",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Materials/Bleeding_Obsidian_Shard",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 16
 }

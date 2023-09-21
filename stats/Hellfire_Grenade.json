@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Hellfire_Grenade",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":67,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":8,
-	"UseTime":45,
-	"Velocity":5.5,
-	"Tooltip":"Explodes into a lingering fire",
-	"Rarity":"Orange",
-	"Sell":135,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Hellfire_Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 67,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 45,
+  "Velocity": 5.5,
+  "Tooltip": "Explodes into a lingering fire",
+  "Rarity": "Orange",
+  "Sell": 135,
+  "SpriteWidth": 18
 }

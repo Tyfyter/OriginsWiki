@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Hivateinn",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":17,
-	"Damage":78,
-	"DamageClass":"Magic",
-	"Knockback":3,
-	"UseTime":30,
-	"Velocity":16,
-	"Tooltip":"Receives 50% higher damage bonuses\nsprite needs recoloring as soon as Dawn material is determined",
-	"Rarity":"Lime",
-	"Sell":20000,
-	"SpriteWidth":46
+  "Image": "§ModImage§/Items/Weapons/Magic/Hivateinn",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 17,
+  "Damage": 78,
+  "DamageClass": "Magic",
+  "Knockback": 3.0,
+  "UseTime": 30,
+  "Velocity": 16.0,
+  "Tooltip": "Receives 50% higher damage bonuses\nsprite needs recoloring as soon as Dawn material is determined",
+  "Rarity": "Lime",
+  "Sell": 20000,
+  "SpriteWidth": 46
 }

@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Ashen/Ashen_Breastplate",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"+8% weapon speed",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":38
+  "Image": "§ModImage§/Items/Armor/Ashen/Ashen_Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+8% weapon speed",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 38
 }

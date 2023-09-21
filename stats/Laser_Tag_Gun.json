@@ -1,19 +1,19 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Laser_Tag_Gun",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":10,
-	"Damage":1,
-	"DamageClass":"Ranged/magic",
-	"Knockback":0.75,
-	"Crit":50,
-	"UseTime":16,
-	"Velocity":10,
-	"Tooltip":"‘Defective to some\\, glory to others’",
-	"Rarity":"Lime",
-	"Sell":50000,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Items/Weapons/Magic/Laser_Tag_Gun",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 10,
+  "Damage": 1,
+  "DamageClass": "Ranged/magic",
+  "Knockback": 0.75,
+  "Crit": 50,
+  "UseTime": 16,
+  "Velocity": 10.0,
+  "Tooltip": "‘Defective to some, glory to others’",
+  "Rarity": "Lime",
+  "Sell": 50000,
+  "SpriteWidth": 26
 }

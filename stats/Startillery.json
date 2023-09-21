@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Startillery",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":12,
-	"Damage":48,
-	"DamageClass":"ExplosiveMagic",
-	"Knockback":6,
-	"UseTime":20,
-	"Velocity":16,
-	"Tooltip":"Fires an arcing starshot that explodes on impact",
-	"Rarity":"LightRed",
-	"Sell":20000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Weapons/Magic/Startillery",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 12,
+  "Damage": 48,
+  "DamageClass": "ExplosiveMagic",
+  "Knockback": 6.0,
+  "UseTime": 20,
+  "Velocity": 16.0,
+  "Tooltip": "Fires an arcing starshot that explodes on impact",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 28
 }

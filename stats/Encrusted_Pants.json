@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Encrusted/Encrusted_Pants",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":3,
-	"ArmorSlot":"Pants",
-	"Tooltip":"Increases jump height",
-	"Rarity":"Blue",
-	"Sell":3000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Encrusted/Encrusted_Pants",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Pants",
+  "Tooltip": "Increases jump height",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 22
 }

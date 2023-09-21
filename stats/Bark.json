@@ -1,8 +1,8 @@
 {
-	"Image": "§ModImage§/Items/Materials/Bark",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Materials/Bark",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 22
 }

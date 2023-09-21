@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Magic_Core",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Graces one with true magic power",
-	"Rarity":"Crimson",
-	"Sell":1000000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Magic_Core",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Graces one with true magic power",
+  "Rarity": "Crimson",
+  "Sell": 1000000,
+  "SpriteWidth": 24
 }

@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Other/Cleansing_Station_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [3, 2],
-	"UseTime":10,
-	"Rarity":"White",
-	"Sell":10000,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Tiles/Other/Cleansing_Station_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 10000,
+  "SpriteWidth": 26
 }

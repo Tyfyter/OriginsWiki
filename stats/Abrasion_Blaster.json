@@ -1,20 +1,20 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Abrasion_Blaster",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun",
-		"Hardmode",
-		"Ammo"
-	],
-	"Damage":50,
-	"DamageClass":"ExplosiveRanged",
-	"Knockback":8,
-	"Crit":18,
-	"UseTime":16,
-	"Velocity":16,
-	"Tooltip":"Shots can destroy tiles\nUses scrap as ammo",
-	"Rarity":"LightPurple",
-	"Sell":50000,
-	"SpriteWidth":48
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Abrasion_Blaster",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun",
+    "Hardmode",
+    "Ammo"
+  ],
+  "Damage": 50,
+  "DamageClass": "ExplosiveRanged",
+  "Knockback": 8.0,
+  "Crit": 18,
+  "UseTime": 16,
+  "Velocity": 16.0,
+  "Tooltip": "Shots can destroy tiles\nUses scrap as ammo",
+  "Rarity": "LightPurple",
+  "Sell": 50000,
+  "SpriteWidth": 48
 }

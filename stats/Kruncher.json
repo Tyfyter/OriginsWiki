@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Kruncher",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":4,
-	"DamageClass":"Ranged",
-	"Knockback":5,
-	"Crit":3,
-	"UseTime":27,
-	"Velocity":15,
-	"Tooltip":"\\'Very pointy\\'",
-	"Rarity":"Blue",
-	"Sell":5000,
-	"SpriteWidth":52
+  "Image": "§ModImage§/Items/Weapons/Ranged/Kruncher",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 4,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "Crit": 3,
+  "UseTime": 27,
+  "Velocity": 15.0,
+  "Tooltip": "'Very pointy'",
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 52
 }

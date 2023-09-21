@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Encrusted/Encrusted_Coat",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":4,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"Increases your max number of minions by 1",
-	"Rarity":"Blue",
-	"Sell":3000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Armor/Encrusted/Encrusted_Coat",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "Increases your max number of minions by 1",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 34
 }

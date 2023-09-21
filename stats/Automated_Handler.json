@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Automated_Handler",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Allows the ability to climb walls and dash\nGreatly increased movement speed and return speed for grapple hooks and harpoon guns\nGives a chance to dodge attacks",
-	"Rarity":"Yellow",
-	"Sell":120000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Accessories/Automated_Handler",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Allows the ability to climb walls and dash\nGreatly increased movement speed and return speed for grapple hooks and harpoon guns\nGives a chance to dodge attacks",
+  "Rarity": "Yellow",
+  "Sell": 120000,
+  "SpriteWidth": 34
 }

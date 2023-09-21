@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Tolruk",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun",
-		"Hardmode"
-	],
-	"Damage":37,
-	"DamageClass":"Ranged",
-	"Knockback":1,
-	"UseTime":10,
-	"Velocity":14,
-	"Tooltip":"Receives 50% higher damage bonuses\n[tɵlɹɘk]\nSprite needs reshaping to be less like dart rifle\nOn it :)",
-	"Rarity":"Lime",
-	"Sell":20000,
-	"SpriteWidth":62
+  "Image": "§ModImage§/Items/Weapons/Ranged/Tolruk",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun",
+    "Hardmode"
+  ],
+  "Damage": 37,
+  "DamageClass": "Ranged",
+  "Knockback": 1.0,
+  "UseTime": 10,
+  "Velocity": 14.0,
+  "Tooltip": "Receives 50% higher damage bonuses\n[tɵlɹɘk]\nSprite needs reshaping to be less like dart rifle\nOn it :)",
+  "Rarity": "Lime",
+  "Sell": 20000,
+  "SpriteWidth": 62
 }

@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Cryosten/Cryosten_Breastplate",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":3,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"12% increased maximum life",
-	"Rarity":"White",
-	"Sell":700,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Armor/Cryosten/Cryosten_Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "12% increased maximum life",
+  "Rarity": "White",
+  "Sell": 700,
+  "SpriteWidth": 34
 }

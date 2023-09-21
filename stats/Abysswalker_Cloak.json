@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Cloak",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":11,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"Increased life regeneration",
-	"Rarity":"LightRed",
-	"Sell":4000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Cloak",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 11,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "Increased life regeneration",
+  "Rarity": "LightRed",
+  "Sell": 4000,
+  "SpriteWidth": 30
 }

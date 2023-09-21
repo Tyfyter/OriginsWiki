@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Other/Traffic_Cone_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 2],
-	"UseTime":10,
-	"Rarity":"White",
-	"Sell":100,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Tiles/Other/Traffic_Cone_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 26
 }

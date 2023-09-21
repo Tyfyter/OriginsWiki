@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Flammable_Harpoon",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":10,
-	"DamageClass":"Ranged",
-	"Rarity":"White",
-	"Sell":2600,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Items/Weapons/Ammo/Flammable_Harpoon",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "Rarity": "White",
+  "Sell": 2600,
+  "SpriteWidth": 26
 }

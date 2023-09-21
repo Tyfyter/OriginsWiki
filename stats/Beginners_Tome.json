@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Beginners_Tome",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"ManaCost":8,
-	"Damage":16,
-	"DamageClass":"Magic",
-	"Knockback":4.75,
-	"UseTime":20,
-	"Velocity":9,
-	"Tooltip":"\\'Be careful\\, it\\'s book\\'",
-	"Rarity":"Green",
-	"Sell":3000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Weapons/Magic/Beginners_Tome",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "ManaCost": 8,
+  "Damage": 16,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 20,
+  "Velocity": 9.0,
+  "Tooltip": "'Be careful, it's book'",
+  "Rarity": "Green",
+  "Sell": 3000,
+  "SpriteWidth": 28
 }

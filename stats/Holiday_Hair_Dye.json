@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Holiday_Hair_Dye",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Hair appearance changes depending on the current holiday",
-	"Rarity":"Green",
-	"Sell":60000,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Other/Consumables/Holiday_Hair_Dye",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Hair appearance changes depending on the current holiday",
+  "Rarity": "Green",
+  "Sell": 60000,
+  "SpriteWidth": 18
 }

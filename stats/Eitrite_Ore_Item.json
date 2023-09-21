@@ -1,13 +1,16 @@
 {
-	"Image": "§ModImage§/Tiles/Brine/Eitrite_Ore_Item",
-	"Types":[
-		"Item"
-	],
-	"PickReq":150,
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Tooltip":"\\'So alkaline-concentrated it could be used as a power source\\'",
-	"Rarity":"Orange",
-	"Sell":1700,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Brine/Eitrite_Ore_Item",
+  "Types": [
+    "Item"
+  ],
+  "PickReq": 150,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "'So alkaline-concentrated it could be used as a power source'",
+  "Rarity": "Orange",
+  "Sell": 1700,
+  "SpriteWidth": 16
 }

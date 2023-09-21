@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Resin_Shield",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Defense":3,
-	"Tooltip":"Grants immunity to knockback\nGrants immunity to fire blocks\nBlocks all self-damage on next hit\n5 second cooldown\n\\'A shield to withstand the test of time\\'",
-	"Rarity":"Pink",
-	"Sell":40000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Accessories/Resin_Shield",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Tooltip": "Grants immunity to knockback\nGrants immunity to fire blocks\nBlocks all self-damage on next hit\n5 second cooldown\n'A shield to withstand the test of time'",
+  "Rarity": "Pink",
+  "Sell": 40000,
+  "SpriteWidth": 28
 }

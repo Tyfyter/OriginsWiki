@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Crystal_Bomb",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":75,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":5,
-	"UseTime":25,
-	"Velocity":7.5,
-	"Tooltip":"Explodes into several crystal shards",
-	"Rarity":"LightRed",
-	"Sell":500,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Crystal_Bomb",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 75,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 5.0,
+  "UseTime": 25,
+  "Velocity": 7.5,
+  "Tooltip": "Explodes into several crystal shards",
+  "Rarity": "LightRed",
+  "Sell": 500,
+  "SpriteWidth": 30
 }

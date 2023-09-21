@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Amber/Amber_Breastplate",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"-34% explosive self-damage",
-	"Rarity":"LightRed",
-	"Sell":20000,
-	"SpriteWidth":38
+  "Image": "§ModImage§/Items/Armor/Amber/Amber_Breastplate",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "-34% explosive self-damage",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 38
 }

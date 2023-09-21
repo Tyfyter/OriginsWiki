@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Helium_Tank",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Extends underwater breathing\nImmunity to ‘Suffocation’\n\\'Don\\'t laugh\\'",
-	"Rarity":"LightRed",
-	"Sell":10000,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Accessories/Helium_Tank",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Extends underwater breathing\nImmunity to ‘Suffocation’\n'Don't laugh'",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 20
 }

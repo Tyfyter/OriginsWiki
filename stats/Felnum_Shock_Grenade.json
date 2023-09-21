@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Felnum_Shock_Grenade",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":32,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":15,
-	"UseTime":45,
-	"Velocity":8.25,
-	"Tooltip":"\\'Quite shocking\\'",
-	"Rarity":"Green",
-	"Sell":70,
-	"SpriteWidth":12
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Felnum_Shock_Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 32,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 15.0,
+  "UseTime": 45,
+  "Velocity": 8.25,
+  "Tooltip": "'Quite shocking'",
+  "Rarity": "Green",
+  "Sell": 70,
+  "SpriteWidth": 12
 }

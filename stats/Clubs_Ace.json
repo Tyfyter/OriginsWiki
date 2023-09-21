@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Clubs_Ace",
-	"Types":[
-		"Item"
-	],
-	"UseTime":30,
-	"Tooltip":"Developer item\n\\'It\\'s my ace in the hole!\\'",
-	"Rarity":"Cyan",
-	"Sell":2500,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Other/Consumables/Clubs_Ace",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 30,
+  "Tooltip": "Developer item\n'It's my ace in the hole!'",
+  "Rarity": "Cyan",
+  "Sell": 2500,
+  "SpriteWidth": 16
 }

@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Eitrite_Bar",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":8100,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Materials/Eitrite_Bar",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 8100,
+  "SpriteWidth": 30
 }

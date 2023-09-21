@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Shardcannon",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":9,
-	"DamageClass":"Ranged",
-	"Knockback":1.5,
-	"UseTime":38,
-	"Velocity":6.5,
-	"Rarity":"Green",
-	"Sell":20000,
-	"SpriteWidth":46
+  "Image": "§ModImage§/Items/Weapons/Ranged/Shardcannon",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 9,
+  "DamageClass": "Ranged",
+  "Knockback": 1.5,
+  "UseTime": 38,
+  "Velocity": 6.5,
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 46
 }

@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Walls/Eden_Wood_Wall_Item",
-	"Types":[
-		"Item"
-	],
-	"UseTime":7,
-	"Rarity":"White",
-	"SpriteWidth":24
+  "Image": "§ModImage§/Walls/Eden_Wood_Wall_Item",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 24
 }

@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Helmet",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":8,
-	"ArmorSlot":"Helmet",
-	"Rarity":"Crimson",
-	"Sell":200000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 8,
+  "ArmorSlot": "Helmet",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "SpriteWidth": 24
 }

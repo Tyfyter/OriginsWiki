@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Amber/Amber_Helmet",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Helmet",
-	"Rarity":"LightRed",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Amber/Amber_Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Helmet",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

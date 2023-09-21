@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Armor/Vanity/Other/Sunflower_Sandal",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"ArmorSlot":"Pants",
-	"Tooltip":"Quite fashionable",
-	"Rarity":"Green",
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Armor/Vanity/Other/Sunflower_Sandal",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "ArmorSlot": "Pants",
+  "Tooltip": "Quite fashionable",
+  "Rarity": "Green",
+  "SpriteWidth": 28
 }

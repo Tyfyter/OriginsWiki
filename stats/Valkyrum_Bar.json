@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Valkyrum_Bar",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":10000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Materials/Valkyrum_Bar",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 10000,
+  "SpriteWidth": 30
 }

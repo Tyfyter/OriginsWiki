@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Nitro_Crate",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Increases explosive blast radius by 40%",
-	"Rarity":"Green",
-	"Sell":10000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Accessories/Nitro_Crate",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Increases explosive blast radius by 40%",
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 22
 }

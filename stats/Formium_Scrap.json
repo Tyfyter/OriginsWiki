@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Formium_Scrap",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":1000,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Materials/Formium_Scrap",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 1000,
+  "SpriteWidth": 20
 }

@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Broken_Record",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Right Click to open",
-	"Rarity":"Blue",
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Other/Consumables/Broken_Record",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Blue",
+  "SpriteWidth": 24
 }

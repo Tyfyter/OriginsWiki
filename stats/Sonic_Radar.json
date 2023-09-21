@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Sonic_Radar",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Allows the detection of traps\\, enemies\\, and valuables\nEmits a small aura of light",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Accessories/Sonic_Radar",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Allows the detection of traps, enemies, and valuables\nEmits a small aura of light",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 28
 }

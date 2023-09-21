@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Dyes/High_Contrast_Dye",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"Blue",
-	"Sell":2000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Other/Dyes/High_Contrast_Dye",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 16
 }

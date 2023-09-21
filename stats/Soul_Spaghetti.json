@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Food/Soul_Spaghetti",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Medium improvements to all stats\n\\'Tastes like noodle with hairs and meats\\'",
-	"Rarity":"Green",
-	"Sell":1000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Other/Consumables/Food/Soul_Spaghetti",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Medium improvements to all stats\n'Tastes like noodle with hairs and meats'",
+  "Rarity": "Green",
+  "Sell": 1000,
+  "SpriteWidth": 32
 }

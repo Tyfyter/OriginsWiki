@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Cryosten/Cryosten_Helmet",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":2,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"Increased life regeneration",
-	"Rarity":"White",
-	"Sell":700,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Items/Armor/Cryosten/Cryosten_Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 2,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "Increased life regeneration",
+  "Rarity": "White",
+  "Sell": 700,
+  "SpriteWidth": 26
 }

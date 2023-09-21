@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Rocodile",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"Damage":100,
-	"DamageClass":"ExplosiveRanged",
-	"Knockback":4,
-	"UseTime":50,
-	"Velocity":12,
-	"Tooltip":"Uses rockets as ammo\n\\'Older cousin of the minishark\\'",
-	"Rarity":"Lime",
-	"Sell":70000,
-	"SpriteWidth":74
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Rocodile",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 100,
+  "DamageClass": "ExplosiveRanged",
+  "Knockback": 4.0,
+  "UseTime": 50,
+  "Velocity": 12.0,
+  "Tooltip": "Uses rockets as ammo\n'Older cousin of the minishark'",
+  "Rarity": "Lime",
+  "Sell": 70000,
+  "SpriteWidth": 74
 }

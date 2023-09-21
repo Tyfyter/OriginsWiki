@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Dim_Starlight",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Chance for mana stars to fall from critical hits",
-	"Rarity":"Blue",
-	"Sell":15000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Accessories/Dim_Starlight",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Chance for mana stars to fall from critical hits",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 30
 }

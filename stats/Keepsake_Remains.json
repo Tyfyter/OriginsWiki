@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Keepsake_Remains",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Increases armor penetration by 5 and attacks tenderize targets",
-	"Rarity":"Green",
-	"Sell":30000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Keepsake_Remains",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets",
+  "Rarity": "Green",
+  "Sell": 30000,
+  "SpriteWidth": 24
 }

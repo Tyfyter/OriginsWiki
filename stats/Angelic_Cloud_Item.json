@@ -1,10 +1,13 @@
 {
-	"Image": "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Rarity":"White",
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16
 }

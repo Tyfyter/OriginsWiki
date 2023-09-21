@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Mana_Drive",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Mana regenerates faster with higher speeds",
-	"Rarity":"Butterscotch",
-	"Sell":100000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Accessories/Mana_Drive",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Mana regenerates faster with higher speeds",
+  "Rarity": "Butterscotch",
+  "Sell": 100000,
+  "SpriteWidth": 32
 }

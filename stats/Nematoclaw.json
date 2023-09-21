@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Nematoclaw",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword",
-		"Hardmode"
-	],
-	"Damage":48,
-	"DamageClass":"Melee",
-	"Knockback":6,
-	"UseTime":5,
-	"Tooltip":"Inflicts acid venom\\, poison\\, and toxic shock",
-	"Rarity":"LightRed",
-	"Sell":8000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Weapons/Melee/Nematoclaw",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Hardmode"
+  ],
+  "Damage": 48,
+  "DamageClass": "Melee",
+  "Knockback": 6.0,
+  "UseTime": 5,
+  "Tooltip": "Inflicts acid venom, poison, and toxic shock",
+  "Rarity": "LightRed",
+  "Sell": 8000,
+  "SpriteWidth": 32
 }

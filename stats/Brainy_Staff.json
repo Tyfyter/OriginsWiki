@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Summoner/Brainy_Staff",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"ManaCost":16,
-	"Damage":10,
-	"DamageClass":"Summon",
-	"UseTime":36,
-	"Tooltip":"Summons a mini crimbrain to fight for you",
-	"Rarity":"Blue",
-	"Sell":15000,
-	"SpriteWidth":80
+  "Image": "§ModImage§/Items/Weapons/Summoner/Brainy_Staff",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "ManaCost": 16,
+  "Damage": 10,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": "Summons a mini crimbrain to fight for you",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 80
 }

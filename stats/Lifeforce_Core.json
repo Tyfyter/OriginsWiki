@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Lifeforce_Core",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Provides extreme boosts in health\n\\'Get a life\\'",
-	"Rarity":"Crimson",
-	"Sell":1000000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Eyndum_Cores/Lifeforce_Core",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Provides extreme boosts in health\n'Get a life'",
+  "Rarity": "Crimson",
+  "Sell": 1000000,
+  "SpriteWidth": 24
 }

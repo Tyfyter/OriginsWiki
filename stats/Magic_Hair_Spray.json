@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Magic_Hair_Spray",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":40,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Materials/Magic_Hair_Spray",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 40,
+  "SpriteWidth": 20
 }

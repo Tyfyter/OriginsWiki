@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Myth/Mythic_Skull",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":4,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"Increased explosive velocity\n\\'Skull ON\\'",
-	"Rarity":"Green",
-	"Sell":9000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Armor/Myth/Mythic_Skull",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "Increased explosive velocity\n'Skull ON'",
+  "Rarity": "Green",
+  "Sell": 9000,
+  "SpriteWidth": 28
 }

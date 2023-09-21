@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Fiberglass/Fiberglass_Body",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":6,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"These don\\'t seem very protective",
-	"Rarity":"White",
-	"Sell":6000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Armor/Fiberglass/Fiberglass_Body",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "These don't seem very protective",
+  "Rarity": "White",
+  "Sell": 6000,
+  "SpriteWidth": 30
 }

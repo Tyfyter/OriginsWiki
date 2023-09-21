@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Helmet",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":21,
-	"ArmorSlot":"Helmet",
-	"Rarity":"Crimson",
-	"Sell":200000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 21,
+  "ArmorSlot": "Helmet",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "SpriteWidth": 30
 }

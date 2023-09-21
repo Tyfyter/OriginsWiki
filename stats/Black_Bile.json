@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Black_Bile",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":1000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Materials/Black_Bile",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 1000,
+  "SpriteWidth": 16
 }

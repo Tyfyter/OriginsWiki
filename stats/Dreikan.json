@@ -1,19 +1,19 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Dreikan",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun",
-		"Hardmode"
-	],
-	"Damage":66,
-	"DamageClass":"ExplosiveRanged",
-	"Knockback":8,
-	"Crit":30,
-	"UseTime":11,
-	"Velocity":16,
-	"Tooltip":"Pronounced exactly how it looks: auf Deutsch",
-	"Rarity":"Yellow",
-	"Sell":50000,
-	"SpriteWidth":100
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Dreikan",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun",
+    "Hardmode"
+  ],
+  "Damage": 66,
+  "DamageClass": "ExplosiveRanged",
+  "Knockback": 8.0,
+  "Crit": 30,
+  "UseTime": 11,
+  "Velocity": 16.0,
+  "Tooltip": "Pronounced exactly how it looks: auf Deutsch",
+  "Rarity": "Yellow",
+  "Sell": 50000,
+  "SpriteWidth": 100
 }

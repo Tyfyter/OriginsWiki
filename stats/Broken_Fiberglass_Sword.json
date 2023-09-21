@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Broken_Fiberglass_Sword",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":18,
-	"DamageClass":"Melee",
-	"Knockback":6,
-	"UseTime":14,
-	"Velocity":3,
-	"Tooltip":"\\'It\\'s even sharper now\\'",
-	"Rarity":"Green",
-	"Sell":3000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Weapons/Melee/Broken_Fiberglass_Sword",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 6.0,
+  "UseTime": 14,
+  "Velocity": 3.0,
+  "Tooltip": "'It's even sharper now'",
+  "Rarity": "Green",
+  "Sell": 3000,
+  "SpriteWidth": 24
 }

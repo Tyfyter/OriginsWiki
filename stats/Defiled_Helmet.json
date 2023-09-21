@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Defiled/Defiled_Helmet",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":6,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"5% increased critical strike chance",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Armor/Defiled/Defiled_Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "5% increased critical strike chance",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 28
 }

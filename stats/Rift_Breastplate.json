@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Rift/Rift_Breastplate",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":10,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"-25% explosive self-damage",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Armor/Rift/Rift_Breastplate",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 10,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "-25% explosive self-damage",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 30
 }

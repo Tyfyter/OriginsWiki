@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Tools/Felnum_Pickaxe",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword",
-		"Tool"
-	],
-	"PickPower":75,
-	"Damage":13,
-	"DamageClass":"Melee",
-	"Knockback":4,
-	"UseTime":13,
-	"Tooltip":"Able to mine Hellstone\n\\'Its strikes sound like thunder\\'",
-	"Rarity":"Green",
-	"Sell":4000,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Tools/Felnum_Pickaxe",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Tool"
+  ],
+  "PickPower": 75,
+  "Damage": 13,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 13,
+  "Tooltip": "Able to mine Hellstone\n'Its strikes sound like thunder'",
+  "Rarity": "Green",
+  "Sell": 4000,
+  "SpriteWidth": 36
 }

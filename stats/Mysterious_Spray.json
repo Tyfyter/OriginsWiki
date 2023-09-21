@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Mysterious_Spray",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Increases life regeneration at low health\n\\'The perfect ailment to attack your senses\\'",
-	"Rarity":"Master",
-	"Sell":60000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Accessories/Mysterious_Spray",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Increases life regeneration at low health\n'The perfect ailment to attack your senses'",
+  "Rarity": "Master",
+  "Sell": 60000,
+  "SpriteWidth": 16
 }

@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Flashbang",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":26,
-	"DamageClass":"Explosive (thrown)",
-	"Crit":20,
-	"UseTime":45,
-	"Velocity":11,
-	"Tooltip":"Dazes enemies upon detonation",
-	"Rarity":"White",
-	"Sell":15,
-	"SpriteWidth":14
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Flashbang",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 26,
+  "DamageClass": "Explosive (thrown)",
+  "Crit": 20,
+  "UseTime": 45,
+  "Velocity": 11.0,
+  "Tooltip": "Dazes enemies upon detonation",
+  "Rarity": "White",
+  "Sell": 15,
+  "SpriteWidth": 14
 }

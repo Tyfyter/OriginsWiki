@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Strange_String",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":2,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Materials/Strange_String",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2,
+  "SpriteWidth": 24
 }

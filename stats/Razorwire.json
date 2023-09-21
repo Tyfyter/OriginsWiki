@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Razorwire",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"67% of damage received is split across 3 enemies\nEnemies are less likely to target you",
-	"Rarity":"Green",
-	"Sell":10000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Accessories/Razorwire",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "67% of damage received is split across 3 enemies\nEnemies are less likely to target you",
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 28
 }

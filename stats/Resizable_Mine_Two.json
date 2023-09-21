@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_Two",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":22,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":3,
-	"UseTime":45,
-	"Velocity":4,
-	"Tooltip":"\\'Compatible with your garden-variety mine launchers!\\'",
-	"Rarity":"Green",
-	"Sell":465,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_Two",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 22,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 3.0,
+  "UseTime": 45,
+  "Velocity": 4.0,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Green",
+  "Sell": 465,
+  "SpriteWidth": 20
 }

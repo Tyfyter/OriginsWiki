@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/The_Button",
-	"Types":[
-		"Item"
-	],
-	"UseTime":45,
-	"Tooltip":"Summons I.C.A.R.U.S",
-	"Rarity":"Crimson",
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Other/Consumables/The_Button",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 45,
+  "Tooltip": "Summons I.C.A.R.U.S",
+  "Rarity": "Crimson",
+  "SpriteWidth": 20
 }

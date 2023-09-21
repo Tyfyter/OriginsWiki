@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Tones_Of_Agony",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"ManaCost":15,
-	"Damage":40,
-	"DamageClass":"Magic",
-	"Knockback":4.75,
-	"UseTime":28,
-	"Velocity":9,
-	"Tooltip":"\\'Cries of the suffering\\'",
-	"Rarity":"Green",
-	"Sell":15000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Weapons/Magic/Tones_Of_Agony",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "ManaCost": 15,
+  "Damage": 40,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 28,
+  "Velocity": 9.0,
+  "Tooltip": "'Cries of the suffering'",
+  "Rarity": "Green",
+  "Sell": 15000,
+  "SpriteWidth": 28
 }

@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Missing_File",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":18,
-	"Damage":64,
-	"DamageClass":"Magic",
-	"Knockback":3,
-	"UseTime":30,
-	"Velocity":12,
-	"Tooltip":"Click on the portrait of the targetted enemy for a damage bonus\n\\'Let\\'s demake some code...\\'",
-	"Rarity":"Yellow",
-	"Sell":20000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Weapons/Magic/Missing_File",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 18,
+  "Damage": 64,
+  "DamageClass": "Magic",
+  "Knockback": 3.0,
+  "UseTime": 30,
+  "Velocity": 12.0,
+  "Tooltip": "Click on the portrait of the targetted enemy for a damage bonus\n'Let's demake some code...'",
+  "Rarity": "Yellow",
+  "Sell": 20000,
+  "SpriteWidth": 24
 }

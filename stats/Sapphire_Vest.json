@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Vest",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"+15% magic speed",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":38
+  "Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Vest",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+15% magic speed",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 38
 }

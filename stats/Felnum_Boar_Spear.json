@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Felnum_Boar_Spear",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":18,
-	"DamageClass":"Melee",
-	"Knockback":6,
-	"UseTime":24,
-	"Velocity":3,
-	"Tooltip":"Receives 50% higher damage bonuses",
-	"Rarity":"Green",
-	"Sell":5000,
-	"SpriteWidth":48
+  "Image": "§ModImage§/Items/Weapons/Melee/Felnum_Boar_Spear",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 6.0,
+  "UseTime": 24,
+  "Velocity": 3.0,
+  "Tooltip": "Receives 50% higher damage bonuses",
+  "Rarity": "Green",
+  "Sell": 5000,
+  "SpriteWidth": 48
 }

@@ -1,12 +1,15 @@
 {
-	"Image": "§ModImage§/Tiles/Ashen/Sanguinite_Ore_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Tooltip":"A rare mineral that grows more powerful with heat",
-	"Rarity":"Blue",
-	"Sell":1000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Ashen/Sanguinite_Ore_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "A rare mineral that grows more powerful with heat",
+  "Rarity": "Blue",
+  "Sell": 1000,
+  "SpriteWidth": 16
 }

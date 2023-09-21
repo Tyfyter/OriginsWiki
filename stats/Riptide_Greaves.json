@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Riptide/Riptide_Greaves",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":4,
-	"ArmorSlot":"Pants",
-	"Tooltip":"5% increased magic damage\nGrants the ability to swim and provides increased movement speed in water",
-	"Rarity":"Blue",
-	"Sell":3000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Riptide/Riptide_Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Pants",
+  "Tooltip": "5% increased magic damage\nGrants the ability to swim and provides increased movement speed in water",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 22
 }

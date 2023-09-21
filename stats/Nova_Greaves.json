@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Nova/Nova_Greaves",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":18,
-	"ArmorSlot":"Pants",
-	"Tooltip":"4% increased explosive damage and critical strike chance\n15% increased movement speed",
-	"Rarity":"Red",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Nova/Nova_Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 18,
+  "ArmorSlot": "Pants",
+  "Tooltip": "4% increased explosive damage and critical strike chance\n15% increased movement speed",
+  "Rarity": "Red",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

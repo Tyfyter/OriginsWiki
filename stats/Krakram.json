@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Krakram",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Boomerang"
-	],
-	"Damage":25,
-	"DamageClass":"Melee",
-	"Knockback":8,
-	"UseTime":18,
-	"Velocity":9.75,
-	"Tooltip":"\\'Very pointy\\'",
-	"Rarity":"Blue",
-	"Sell":4000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Weapons/Melee/Krakram",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang"
+  ],
+  "Damage": 25,
+  "DamageClass": "Melee",
+  "Knockback": 8.0,
+  "UseTime": 18,
+  "Velocity": 9.75,
+  "Tooltip": "'Very pointy'",
+  "Rarity": "Blue",
+  "Sell": 4000,
+  "SpriteWidth": 34
 }

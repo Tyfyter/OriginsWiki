@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Coologne",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Increases life regeneration at low health\nPuts a shell around the owner when below 50% life that reduces damage by 25%",
-	"Rarity":"Pink",
-	"Sell":100000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Accessories/Coologne",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Increases life regeneration at low health\nPuts a shell around the owner when below 50% life that reduces damage by 25%",
+  "Rarity": "Pink",
+  "Sell": 100000,
+  "SpriteWidth": 22
 }

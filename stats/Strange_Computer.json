@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Strange_Computer",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Displays the trajectory of projectiles from your selected item",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Accessories/Strange_Computer",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Displays the trajectory of projectiles from your selected item",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 32
 }

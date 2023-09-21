@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Fiberglass_Sword",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword"
-	],
-	"Damage":18,
-	"DamageClass":"Melee",
-	"Knockback":2,
-	"UseTime":16,
-	"Tooltip":"\\'Be careful\\, it\\'s sharp\\'",
-	"Rarity":"Green",
-	"SpriteWidth":42
+  "Image": "§ModImage§/Items/Weapons/Melee/Fiberglass_Sword",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword"
+  ],
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 2.0,
+  "UseTime": 16,
+  "Tooltip": "'Be careful, it's sharp'",
+  "Rarity": "Green",
+  "SpriteWidth": 42
 }

@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Nuclear_Arm",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"Damage":120,
-	"DamageClass":"ExplosiveMelee",
-	"Knockback":4,
-	"UseTime":37,
-	"Velocity":5,
-	"Tooltip":"\\'Like nuclear arms? Well now you can have nuclear arms on your... arms\\'",
-	"Rarity":"Pink",
-	"Sell":50000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Nuclear_Arm",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 120,
+  "DamageClass": "ExplosiveMelee",
+  "Knockback": 4.0,
+  "UseTime": 37,
+  "Velocity": 5.0,
+  "Tooltip": "'Like nuclear arms? Well now you can have nuclear arms on your... arms'",
+  "Rarity": "Pink",
+  "Sell": 50000,
+  "SpriteWidth": 34
 }

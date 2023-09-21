@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Black_Hole_Bomb",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":2500,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":50,
-	"UseTime":18,
-	"Velocity":10,
-	"Tooltip":"\\'Implode. Explode\\'",
-	"Rarity":"Crimson",
-	"Sell":10000,
-	"SpriteWidth":26
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Black_Hole_Bomb",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 2500,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 50.0,
+  "UseTime": 18,
+  "Velocity": 10.0,
+  "Tooltip": "'Implode. Explode'",
+  "Rarity": "Crimson",
+  "Sell": 10000,
+  "SpriteWidth": 26
 }

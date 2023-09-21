@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Magic_Tripwire",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Explosives will detonate near enemies\n\\'Uses Bluetooth\\'",
-	"Rarity":"Blue",
-	"Sell":3500,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Accessories/Magic_Tripwire",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Explosives will detonate near enemies\n'Uses Bluetooth'",
+  "Rarity": "Blue",
+  "Sell": 3500,
+  "SpriteWidth": 30
 }

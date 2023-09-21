@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Bud_Barnacle",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":2,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Materials/Bud_Barnacle",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2,
+  "SpriteWidth": 22
 }

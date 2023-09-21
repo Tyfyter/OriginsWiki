@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Starfuze",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":5,
-	"DamageClass":"Ranged",
-	"Knockback":2,
-	"Velocity":3,
-	"Rarity":"Cyan",
-	"Sell":10000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Weapons/Ammo/Starfuze",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 5,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "Velocity": 3.0,
+  "Rarity": "Cyan",
+  "Sell": 10000,
+  "SpriteWidth": 16
 }

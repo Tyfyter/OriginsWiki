@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Materials/Ash_Urn",
-	"Types":[
-		"Item"
-	],
-	"Damage":0,
-	"UseTime":15,
-	"Velocity":4,
-	"Tooltip":"The day of Verdict will come...",
-	"Rarity":"White",
-	"Sell":20,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Materials/Ash_Urn",
+  "Types": [
+    "Item"
+  ],
+  "Damage": 0,
+  "UseTime": 15,
+  "Velocity": 4.0,
+  "Tooltip": "The day of Verdict will come...",
+  "Rarity": "White",
+  "Sell": 20,
+  "SpriteWidth": 20
 }

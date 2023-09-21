@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Firespit",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":36,
-	"DamageClass":"",
-	"Crit":5,
-	"UseTime":2,
-	"Velocity":8.75,
-	"Tooltip":"Uses fireblossoms as ammo",
-	"Rarity":"Orange",
-	"Sell":20000,
-	"SpriteWidth":58
+  "Image": "§ModImage§/Items/Weapons/Ranged/Firespit",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 36,
+  "DamageClass": "",
+  "Crit": 5,
+  "UseTime": 2,
+  "Velocity": 8.75,
+  "Tooltip": "Uses fireblossoms as ammo",
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "SpriteWidth": 58
 }

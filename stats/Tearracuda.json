@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Fish/Tearracuda",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"Blue",
-	"Sell":1500,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Other/Fish/Tearracuda",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Blue",
+  "Sell": 1500,
+  "SpriteWidth": 36
 }

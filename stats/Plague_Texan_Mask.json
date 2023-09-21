@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Mask",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"ArmorSlot":"Helmet",
-	"Tooltip":"\\'Great for impersonating Origins devs!\\'\n",
-	"Rarity":"AltCyan",
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Mask",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "ArmorSlot": "Helmet",
+  "Tooltip": "'Great for impersonating Origins devs!'\n",
+  "Rarity": "AltCyan",
+  "SpriteWidth": 28
 }

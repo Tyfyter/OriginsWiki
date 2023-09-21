@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Potato_Launcher",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":25,
-	"DamageClass":"Ranged",
-	"Knockback":2,
-	"UseTime":32,
-	"Velocity":12,
-	"Tooltip":"Uses potatoes for ammo\n\\'Time to make some mash...\\'",
-	"Rarity":"Blue",
-	"Sell":6500,
-	"SpriteWidth":54
+  "Image": "§ModImage§/Items/Weapons/Potato_Launcher",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 25,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "UseTime": 32,
+  "Velocity": 12.0,
+  "Tooltip": "Uses potatoes for ammo\n'Time to make some mash...'",
+  "Rarity": "Blue",
+  "Sell": 6500,
+  "SpriteWidth": 54
 }

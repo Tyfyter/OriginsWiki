@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Fungarust",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":10,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Materials/Fungarust",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 10,
+  "SpriteWidth": 22
 }

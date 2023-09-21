@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Greaves",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":14,
-	"ArmorSlot":"Pants",
-	"Tooltip":"Grants the ability to swim",
-	"Rarity":"LightRed",
-	"Sell":24000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Acrid/Acrid_Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 14,
+  "ArmorSlot": "Pants",
+  "Tooltip": "Grants the ability to swim",
+  "Rarity": "LightRed",
+  "Sell": 24000,
+  "SpriteWidth": 22
 }

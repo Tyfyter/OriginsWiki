@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Cryostrike",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"ManaCost":10,
-	"Damage":16,
-	"DamageClass":"Magic",
-	"Knockback":4.75,
-	"UseTime":20,
-	"Velocity":9,
-	"Tooltip":"Shoots a piercing icicle",
-	"Rarity":"White",
-	"Sell":4800,
-	"SpriteWidth":48
+  "Image": "§ModImage§/Items/Weapons/Magic/Cryostrike",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "ManaCost": 10,
+  "Damage": 16,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 20,
+  "Velocity": 9.0,
+  "Tooltip": "Shoots a piercing icicle",
+  "Rarity": "White",
+  "Sell": 4800,
+  "SpriteWidth": 48
 }

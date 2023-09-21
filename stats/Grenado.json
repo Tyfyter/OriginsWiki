@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Grenado",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"Damage":80,
-	"DamageClass":"ExplosiveMagic",
-	"Knockback":4.75,
-	"UseTime":26,
-	"Velocity":9,
-	"Tooltip":"Uses grenades for ammo",
-	"Rarity":"Yellow",
-	"Sell":10000,
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Grenado",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 80,
+  "DamageClass": "ExplosiveMagic",
+  "Knockback": 4.75,
+  "UseTime": 26,
+  "Velocity": 9.0,
+  "Tooltip": "Uses grenades for ammo",
+  "Rarity": "Yellow",
+  "Sell": 10000,
+  "SpriteWidth": 28
 }

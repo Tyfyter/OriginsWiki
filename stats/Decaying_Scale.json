@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Decaying_Scale",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Attacks inflict \\'Toxic Shock\\' on enemies\nEffects are stronger while Acrid Armor is equipped",
-	"Rarity":"Pink",
-	"Sell":10000,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Accessories/Decaying_Scale",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Attacks inflict 'Toxic Shock' on enemies\nEffects are stronger while Acrid Armor is equipped",
+  "Rarity": "Pink",
+  "Sell": 10000,
+  "SpriteWidth": 18
 }

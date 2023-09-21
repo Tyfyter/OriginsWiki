@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Crystal_Cutters",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"Damage":44,
-	"DamageClass":"Melee",
-	"Knockback":4,
-	"UseTime":39,
-	"Velocity":7,
-	"Rarity":"LightRed",
-	"Sell":2000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Weapons/Melee/Crystal_Cutters",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 44,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 39,
+  "Velocity": 7.0,
+  "Rarity": "LightRed",
+  "Sell": 2000,
+  "SpriteWidth": 34
 }

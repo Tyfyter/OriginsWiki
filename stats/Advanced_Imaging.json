@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Advanced_Imaging",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Increased projectile speed\nImmunity to Confusion",
-	"Rarity":"Yellow",
-	"Sell":50000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Accessories/Advanced_Imaging",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Increased projectile speed\nImmunity to Confusion",
+  "Rarity": "Yellow",
+  "Sell": 50000,
+  "SpriteWidth": 32
 }

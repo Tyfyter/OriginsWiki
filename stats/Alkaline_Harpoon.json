@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Alkaline_Harpoon",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":16,
-	"DamageClass":"Ranged",
-	"Rarity":"LightRed",
-	"Sell":2800,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Weapons/Ammo/Alkaline_Harpoon",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 16,
+  "DamageClass": "Ranged",
+  "Rarity": "LightRed",
+  "Sell": 2800,
+  "SpriteWidth": 22
 }

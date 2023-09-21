@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Nineball",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":18,
-	"DamageClass":"Melee",
-	"Knockback":4.5,
-	"Crit":9,
-	"UseTime":25,
-	"Velocity":16,
-	"Tooltip":"\\'Target verified\\, commencing hostilities!\\'",
-	"Rarity":"Blue",
-	"Sell":9999,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Weapons/Melee/Nineball",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 4.5,
+  "Crit": 9,
+  "UseTime": 25,
+  "Velocity": 16.0,
+  "Tooltip": "'Target verified, commencing hostilities!'",
+  "Rarity": "Blue",
+  "Sell": 9999,
+  "SpriteWidth": 30
 }

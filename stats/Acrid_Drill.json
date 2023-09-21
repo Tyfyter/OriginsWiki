@@ -1,19 +1,19 @@
 {
-	"Image": "§ModImage§/Items/Tools/Acrid_Drill",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode",
-		"Tool"
-	],
-	"PickPower":195,
-	"Damage":28,
-	"DamageClass":"Melee",
-	"Knockback":1,
-	"UseTime":4,
-	"Velocity":56,
-	"Tooltip":"Increased mining speed when submerged",
-	"Rarity":"LightRed",
-	"Sell":30000,
-	"SpriteWidth":58
+  "Image": "§ModImage§/Items/Tools/Acrid_Drill",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Tool"
+  ],
+  "PickPower": 195,
+  "Damage": 28,
+  "DamageClass": "Melee",
+  "Knockback": 1.0,
+  "UseTime": 4,
+  "Velocity": 56.0,
+  "Tooltip": "Increased mining speed when submerged",
+  "Rarity": "LightRed",
+  "Sell": 30000,
+  "SpriteWidth": 58
 }

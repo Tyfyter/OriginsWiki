@@ -1,8 +1,8 @@
 {
-	"Image": "§ModImage§/Tiles/Riven/Riven_Dungeon_Chest_Item",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"SpriteWidth":32
+  "Image": "§ModImage§/Tiles/Riven/Riven_Dungeon_Chest_Item",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 32
 }

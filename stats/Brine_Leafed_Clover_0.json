@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_0",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Does nothing\n\\'Better luck next time!\\'",
-	"Rarity":"LightRed",
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_0",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Does nothing\n'Better luck next time!'",
+  "Rarity": "LightRed",
+  "SpriteWidth": 16
 }

@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Solar_Panel",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Sunlight exposure increases mana regeneration\n\\'Don\\'t worry\\, mana was always renewable!\\'",
-	"Rarity":"Lime",
-	"Sell":60000,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Accessories/Solar_Panel",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Sunlight exposure increases mana regeneration\n'Don't worry, mana was always renewable!'",
+  "Rarity": "Lime",
+  "Sell": 60000,
+  "SpriteWidth": 36
 }

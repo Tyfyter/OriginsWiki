@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Fervor_Potion",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Increases attack speed by 10%",
-	"Rarity":"Blue",
-	"Sell":200,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Other/Consumables/Fervor_Potion",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Increases attack speed by 10%",
+  "Rarity": "Blue",
+  "Sell": 200,
+  "SpriteWidth": 16
 }

@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Caustica",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":16,
-	"Damage":270,
-	"DamageClass":"ExplosiveMagic",
-	"Knockback":4.75,
-	"UseTime":24,
-	"Velocity":9,
-	"Tooltip":"Releases a flurry of chaotic sparkles\nDeveloper item",
-	"Rarity":"Butterscotch",
-	"Sell":100000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Caustica",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 16,
+  "Damage": 270,
+  "DamageClass": "ExplosiveMagic",
+  "Knockback": 4.75,
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "Releases a flurry of chaotic sparkles\nDeveloper item",
+  "Rarity": "Butterscotch",
+  "Sell": 100000,
+  "SpriteWidth": 30
 }

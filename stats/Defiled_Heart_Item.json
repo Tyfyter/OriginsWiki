@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Defiled/Defiled_Heart",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [4, 4],
-	"UseTime":10,
-	"Rarity":"White",
-	"Sell":100,
-	"SpriteWidth":46
+  "Image": "§ModImage§/Tiles/Defiled/Defiled_Heart",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    4,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 46
 }

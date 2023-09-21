@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Floaty_Bomb",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":76,
-	"DamageClass":"Explosive (thrown)",
-	"UseTime":25,
-	"Velocity":7,
-	"Tooltip":"Somewhat unaffected by gravity",
-	"Rarity":"Green",
-	"Sell":360,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Floaty_Bomb",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 76,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 25,
+  "Velocity": 7.0,
+  "Tooltip": "Somewhat unaffected by gravity",
+  "Rarity": "Green",
+  "Sell": 360,
+  "SpriteWidth": 22
 }

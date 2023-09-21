@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Tights",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Pants",
-	"Tooltip":"Increased movement speed",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Sapphire/Sapphire_Tights",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Pants",
+  "Tooltip": "Increased movement speed",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

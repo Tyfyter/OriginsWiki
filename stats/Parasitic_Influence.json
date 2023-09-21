@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Parasitic_Influence",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Damage":20,
-	"DamageClass":"Melee",
-	"Knockback":3,
-	"UseTime":30,
-	"Tooltip":"Chance to randomly strike nearby enemies",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":34
+  "Image": "§ModImage§/Items/Accessories/Parasitic_Influence",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Damage": 20,
+  "DamageClass": "Melee",
+  "Knockback": 3.0,
+  "UseTime": 30,
+  "Tooltip": "Chance to randomly strike nearby enemies",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 34
 }

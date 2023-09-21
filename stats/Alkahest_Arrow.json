@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Alkahest_Arrow",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":17,
-	"DamageClass":"Ranged",
-	"Knockback":3,
-	"Velocity":4,
-	"Tooltip":"Tenderizes the target",
-	"Rarity":"Orange",
-	"Sell":901,
-	"SpriteWidth":14
+  "Image": "§ModImage§/Items/Weapons/Ammo/Alkahest_Arrow",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 17,
+  "DamageClass": "Ranged",
+  "Knockback": 3.0,
+  "Velocity": 4.0,
+  "Tooltip": "Tenderizes the target",
+  "Rarity": "Orange",
+  "Sell": 901,
+  "SpriteWidth": 14
 }

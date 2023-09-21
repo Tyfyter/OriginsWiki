@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Rift/Rift_Greaves",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":9,
-	"ArmorSlot":"Pants",
-	"Tooltip":"15% increased movement speed",
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Rift/Rift_Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 9,
+  "ArmorSlot": "Pants",
+  "Tooltip": "15% increased movement speed",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

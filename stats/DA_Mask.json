@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Armor/Vanity/BossMasks/DA_Mask",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"ArmorSlot":"Helmet",
-	"Rarity":"Blue",
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Armor/Vanity/BossMasks/DA_Mask",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "ArmorSlot": "Helmet",
+  "Rarity": "Blue",
+  "SpriteWidth": 24
 }

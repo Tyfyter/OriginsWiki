@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Chambersite",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":800,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Materials/Chambersite",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 800,
+  "SpriteWidth": 18
 }

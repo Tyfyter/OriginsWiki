@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Tendon_Tear",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":18,
-	"DamageClass":"Ranged",
-	"Knockback":5.25,
-	"Crit":2,
-	"UseTime":38,
-	"Velocity":9,
-	"Tooltip":"\\'Snap. Crackle. Pop\\'",
-	"Rarity":"Blue",
-	"Sell":15000,
-	"SpriteWidth":86
+  "Image": "§ModImage§/Items/Weapons/Ranged/Tendon_Tear",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 18,
+  "DamageClass": "Ranged",
+  "Knockback": 5.25,
+  "Crit": 2,
+  "UseTime": 38,
+  "Velocity": 9.0,
+  "Tooltip": "'Snap. Crackle. Pop'",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 86
 }

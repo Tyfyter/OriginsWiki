@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Other/Fish/Bug_Item",
-	"Types":[
-		"Item"
-	],
-	"UseTime":10,
-	"Tooltip":"\\'Don\\'t try to smash it\\, it\\'ll make more problems\\'",
-	"Rarity":"White",
-	"SpriteWidth":26
+  "Image": "§ModImage§/Items/Other/Fish/Bug_Item",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Don't try to smash it, it'll make more problems'",
+  "Rarity": "White",
+  "SpriteWidth": 26
 }

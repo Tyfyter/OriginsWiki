@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Quantum_Cell",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Used at the Cubekon Altar",
-	"Rarity":"White",
-	"Sell":10000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Other/Consumables/Quantum_Cell",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Used at the Cubekon Altar",
+  "Rarity": "White",
+  "Sell": 10000,
+  "SpriteWidth": 22
 }

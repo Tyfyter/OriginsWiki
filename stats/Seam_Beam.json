@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Seam_Beam",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":19,
-	"Damage":42,
-	"DamageClass":"Magic",
-	"UseTime":20,
-	"Velocity":1,
-	"Rarity":"Pink",
-	"Sell":20000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Weapons/Magic/Seam_Beam",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 19,
+  "Damage": 42,
+  "DamageClass": "Magic",
+  "UseTime": 20,
+  "Velocity": 1.0,
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 32
 }

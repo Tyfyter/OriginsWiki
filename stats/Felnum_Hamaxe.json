@@ -1,19 +1,19 @@
 {
-	"Image": "§ModImage§/Items/Tools/Felnum_Hamaxe",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword",
-		"Tool"
-	],
-	"AxePower":22,
-	"HammerPower":65,
-	"Damage":18,
-	"DamageClass":"Melee",
-	"Knockback":4,
-	"UseTime":13,
-	"Tooltip":"\\'Its strikes sound like thunder\\'",
-	"Rarity":"Green",
-	"Sell":4000,
-	"SpriteWidth":42
+  "Image": "§ModImage§/Items/Tools/Felnum_Hamaxe",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Tool"
+  ],
+  "AxePower": 22,
+  "HammerPower": 65,
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 13,
+  "Tooltip": "'Its strikes sound like thunder'",
+  "Rarity": "Green",
+  "Sell": 4000,
+  "SpriteWidth": 42
 }

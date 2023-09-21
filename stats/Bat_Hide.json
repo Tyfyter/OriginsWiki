@@ -1,8 +1,8 @@
 {
-	"Image": "§ModImage§/Items/Materials/Bat_Hide",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Materials/Bat_Hide",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 24
 }

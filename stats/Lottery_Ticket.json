@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Lottery_Ticket",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Randomly provides incredible luck while in your inventory\nGets consumed when it works",
-	"Rarity":"Green",
-	"Sell":100000,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Other/Consumables/Lottery_Ticket",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Randomly provides incredible luck while in your inventory\nGets consumed when it works",
+  "Rarity": "Green",
+  "Sell": 100000,
+  "SpriteWidth": 20
 }

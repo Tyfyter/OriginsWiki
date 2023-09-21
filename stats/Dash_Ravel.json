@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Dash_Ravel",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Double tap down to transform into a small\\, rolling ball that damages enemies as it moves\nDouble tap a direction to dash and instantly morph",
-	"Rarity":"Pink",
-	"Sell":80000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Dash_Ravel",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Double tap down to transform into a small, rolling ball that damages enemies as it moves\nDouble tap a direction to dash and instantly morph",
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "SpriteWidth": 24
 }

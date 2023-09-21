@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Bile_Flask",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Melee and Whip attacks stun enemies",
-	"Rarity":"LightRed",
-	"Sell":500,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Other/Consumables/Bile_Flask",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Melee and Whip attacks stun enemies",
+  "Rarity": "LightRed",
+  "Sell": 500,
+  "SpriteWidth": 22
 }

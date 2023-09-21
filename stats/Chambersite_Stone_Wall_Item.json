@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Walls/Chambersite_Stone_Wall_Item",
-	"Types":[
-		"Item"
-	],
-	"UseTime":7,
-	"Rarity":"White",
-	"SpriteWidth":32
+  "Image": "§ModImage§/Walls/Chambersite_Stone_Wall_Item",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 32
 }

@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Adhesive_Wrap",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":18,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Materials/Adhesive_Wrap",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 18,
+  "SpriteWidth": 24
 }

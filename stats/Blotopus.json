@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Blotopus",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":4,
-	"DamageClass":"Ranged",
-	"Crit":11,
-	"UseTime":6,
-	"Velocity":7,
-	"Tooltip":"Fires a stream of needles that bleed enemies\n20% chance not consume ammo",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":64
+  "Image": "§ModImage§/Items/Weapons/Ranged/Blotopus",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 4,
+  "DamageClass": "Ranged",
+  "Crit": 11,
+  "UseTime": 6,
+  "Velocity": 7.0,
+  "Tooltip": "Fires a stream of needles that bleed enemies\n20% chance not consume ammo",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 64
 }

@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Helmet",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":7,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"25% increased summoning damage",
-	"Rarity":"Yellow",
-	"Sell":50000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "25% increased summoning damage",
+  "Rarity": "Yellow",
+  "Sell": 50000,
+  "SpriteWidth": 22
 }

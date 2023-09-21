@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/The_Defiled_Will",
-	"Types":[
-		"Item"
-	],
-	"UseTime":30,
-	"Tooltip":"Will you continue the legacy?",
-	"Rarity":"Gray",
-	"Sell":2500,
-	"SpriteWidth":58
+  "Image": "§ModImage§/Items/Other/Consumables/The_Defiled_Will",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 30,
+  "Tooltip": "Will you continue the legacy?",
+  "Rarity": "Gray",
+  "Sell": 2500,
+  "SpriteWidth": 58
 }

@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Reshaping_Chunk",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Strengthens the set bonus of Lost Armor\nReduces damage taken by 5% if Lost Armor is not equipped",
-	"Rarity":"Expert",
-	"Sell":20000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Accessories/Reshaping_Chunk",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Strengthens the set bonus of Lost Armor\nReduces damage taken by 5% if Lost Armor is not equipped",
+  "Rarity": "Expert",
+  "Sell": 20000,
+  "SpriteWidth": 30
 }

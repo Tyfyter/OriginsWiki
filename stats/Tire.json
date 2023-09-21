@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Fish/Tire",
-	"Types":[
-		"Item"
-	],
-	"UseTime":10,
-	"Rarity":"Gray",
-	"SpriteWidth":28
+  "Image": "§ModImage§/Items/Other/Fish/Tire",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Rarity": "Gray",
+  "SpriteWidth": 28
 }

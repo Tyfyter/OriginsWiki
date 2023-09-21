@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Thermite_Canister",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":20,
-	"DamageClass":"Ranged",
-	"Knockback":4,
-	"Rarity":"White",
-	"Sell":302,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Weapons/Ammo/Thermite_Canister",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 20,
+  "DamageClass": "Ranged",
+  "Knockback": 4.0,
+  "Rarity": "White",
+  "Sell": 302,
+  "SpriteWidth": 16
 }

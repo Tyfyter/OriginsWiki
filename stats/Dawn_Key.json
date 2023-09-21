@@ -1,8 +1,8 @@
 {
-	"Image": "§ModImage§/Items/Materials/Dawn_Key",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"SpriteWidth":14
+  "Image": "§ModImage§/Items/Materials/Dawn_Key",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 14
 }

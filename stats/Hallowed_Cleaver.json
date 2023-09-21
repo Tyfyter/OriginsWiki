@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Hallowed_Cleaver",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":39,
-	"DamageClass":"Ranged",
-	"Knockback":1.5,
-	"UseTime":10,
-	"Velocity":16,
-	"Tooltip":"\\'Crude and dangerous\\'",
-	"Rarity":"Pink",
-	"Sell":40000,
-	"SpriteWidth":92
+  "Image": "§ModImage§/Items/Weapons/Ranged/Hallowed_Cleaver",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 39,
+  "DamageClass": "Ranged",
+  "Knockback": 1.5,
+  "UseTime": 10,
+  "Velocity": 16.0,
+  "Tooltip": "'Crude and dangerous'",
+  "Rarity": "Pink",
+  "Sell": 40000,
+  "SpriteWidth": 92
 }

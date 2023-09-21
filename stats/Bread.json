@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Food/Bread",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Minor improvements to all stats\n\\'Let\\'s get this bread!\\'",
-	"Rarity":"White",
-	"Sell":100,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Other/Consumables/Food/Bread",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Minor improvements to all stats\n'Let's get this bread!'",
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 20
 }

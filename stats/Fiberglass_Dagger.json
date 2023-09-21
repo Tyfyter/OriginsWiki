@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Fiberglass_Dagger",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"Increases weapon damage by 8\\, but reduces defense by 8",
-	"Rarity":"Expert",
-	"Sell":20000,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Accessories/Fiberglass_Dagger",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",
+  "Rarity": "Expert",
+  "Sell": 20000,
+  "SpriteWidth": 20
 }

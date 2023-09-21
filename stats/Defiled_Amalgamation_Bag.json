@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/LootBags/Defiled_Amalgamation_Bag",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Right Click to open",
-	"Rarity":"Yellow",
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Other/LootBags/Defiled_Amalgamation_Bag",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Yellow",
+  "SpriteWidth": 32
 }

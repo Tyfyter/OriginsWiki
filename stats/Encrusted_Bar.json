@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Encrusted_Bar",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":3000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Materials/Encrusted_Bar",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 3000,
+  "SpriteWidth": 32
 }

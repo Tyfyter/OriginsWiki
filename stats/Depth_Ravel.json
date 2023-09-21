@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Depth_Ravel",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Double tap down to transform into a small\\, rolling ball\nGrants extreme underwater capabilities",
-	"Rarity":"Pink",
-	"Sell":130000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Depth_Ravel",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Double tap down to transform into a small, rolling ball\nGrants extreme underwater capabilities",
+  "Rarity": "Pink",
+  "Sell": 130000,
+  "SpriteWidth": 24
 }

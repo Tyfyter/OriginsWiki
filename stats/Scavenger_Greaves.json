@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Scavenger/Scavenger_Greaves",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":3,
-	"ArmorSlot":"Pants",
-	"Tooltip":"+15% explosive velocity",
-	"Rarity":"Blue",
-	"Sell":3000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Scavenger/Scavenger_Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Pants",
+  "Tooltip": "+15% explosive velocity",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 22
 }

@@ -1,12 +1,15 @@
 {
-	"Image": "§ModImage§/Tiles/Defiled/Defiled_Ore_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Tooltip":"A strange metal warped to the curiosity of the Defiled",
-	"Rarity":"Blue",
-	"Sell":1000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Defiled/Defiled_Ore_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "A strange metal warped to the curiosity of the Defiled",
+  "Rarity": "Blue",
+  "Sell": 1000,
+  "SpriteWidth": 16
 }

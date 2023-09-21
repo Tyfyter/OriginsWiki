@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Giant_Metal_Slug",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":25,
-	"DamageClass":"Ranged",
-	"Knockback":2,
-	"Velocity":4,
-	"Rarity":"White",
-	"Sell":300,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Weapons/Ammo/Giant_Metal_Slug",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 25,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "Velocity": 4.0,
+  "Rarity": "White",
+  "Sell": 300,
+  "SpriteWidth": 16
 }

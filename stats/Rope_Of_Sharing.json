@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Rope_Of_Sharing",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"All stats\\, afflictions and other effects are shared with another connected player",
-	"Rarity":"Green",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Accessories/Rope_Of_Sharing",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "All stats, afflictions and other effects are shared with another connected player",
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

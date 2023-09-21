@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Astoxo",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Bow",
-		"Hardmode"
-	],
-	"Damage":78,
-	"DamageClass":"Ranged",
-	"Knockback":2,
-	"UseTime":29,
-	"Velocity":15,
-	"Tooltip":"Receives 50% higher damage bonuses",
-	"Rarity":"Yellow",
-	"Sell":20000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Weapons/Ranged/Astoxo",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Bow",
+    "Hardmode"
+  ],
+  "Damage": 78,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "UseTime": 29,
+  "Velocity": 15.0,
+  "Tooltip": "Receives 50% higher damage bonuses",
+  "Rarity": "Yellow",
+  "Sell": 20000,
+  "SpriteWidth": 22
 }

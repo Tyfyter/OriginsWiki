@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Magic/Chemical_Laser",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Hardmode"
-	],
-	"ManaCost":8,
-	"Damage":30,
-	"DamageClass":"ExplosiveMagic",
-	"UseTime":12,
-	"Velocity":32,
-	"Tooltip":"Splits into brine droplets on impact",
-	"Rarity":"LightRed",
-	"Sell":5000,
-	"SpriteWidth":50
+  "Image": "§ModImage§/Items/Weapons/Magic/Chemical_Laser",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 8,
+  "Damage": 30,
+  "DamageClass": "ExplosiveMagic",
+  "UseTime": 12,
+  "Velocity": 32.0,
+  "Tooltip": "Splits into brine droplets on impact",
+  "Rarity": "LightRed",
+  "Sell": 5000,
+  "SpriteWidth": 50
 }

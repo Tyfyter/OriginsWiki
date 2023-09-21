@@ -1,17 +1,17 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Impact_Dynamite",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":75,
-	"DamageClass":"Explosive (thrown)",
-	"Knockback":16,
-	"UseTime":30,
-	"Velocity":7,
-	"Tooltip":"\\'Be careful\\, it\\'s not a book\\'",
-	"Rarity":"Green",
-	"Sell":600,
-	"SpriteWidth":14
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Impact_Dynamite",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 75,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 16.0,
+  "UseTime": 30,
+  "Velocity": 7.0,
+  "Tooltip": "'Be careful, it's not a book'",
+  "Rarity": "Green",
+  "Sell": 600,
+  "SpriteWidth": 14
 }

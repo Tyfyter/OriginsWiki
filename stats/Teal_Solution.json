@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Teal_Solution",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Tooltip":"Spreads the Riven",
-	"Rarity":"Orange",
-	"Sell":300,
-	"SpriteWidth":12
+  "Image": "§ModImage§/Items/Weapons/Ammo/Teal_Solution",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Tooltip": "Spreads the Riven",
+  "Rarity": "Orange",
+  "Sell": 300,
+  "SpriteWidth": 12
 }

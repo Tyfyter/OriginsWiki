@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Magic_Brine_Dropper",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"Blue",
-	"Sell":40,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Items/Other/Consumables/Magic_Brine_Dropper",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Blue",
+  "Sell": 40,
+  "SpriteWidth": 32
 }

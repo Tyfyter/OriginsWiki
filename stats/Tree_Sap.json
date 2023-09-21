@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Tree_Sap",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":2,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Materials/Tree_Sap",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2,
+  "SpriteWidth": 20
 }

@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Rebreather",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Gain more breath as you move in water",
-	"Rarity":"LightRed",
-	"Sell":10000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Rebreather",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Gain more breath as you move in water",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 24
 }

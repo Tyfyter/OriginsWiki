@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/The_Bird",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword"
-	],
-	"Damage":99,
-	"DamageClass":"Melee",
-	"Knockback":16,
-	"UseTime":20,
-	"Tooltip":"Developer item\n\\'How\\'s being 96-thousand feet in the air for yah? Thought so\\'",
-	"Rarity":"White",
-	"Sell":20,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Weapons/Melee/The_Bird",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword"
+  ],
+  "Damage": 99,
+  "DamageClass": "Melee",
+  "Knockback": 16.0,
+  "UseTime": 20,
+  "Tooltip": "Developer item\n'How's being 96-thousand feet in the air for yah? Thought so'",
+  "Rarity": "White",
+  "Sell": 20,
+  "SpriteWidth": 36
 }

@@ -1,19 +1,19 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Tiny_Sniper",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun",
-		"Hardmode"
-	],
-	"Damage":96,
-	"DamageClass":"Ranged",
-	"Knockback":8,
-	"Crit":40,
-	"UseTime":33,
-	"Velocity":16,
-	"Tooltip":"\\'Comically small\\, comically powerful\\'",
-	"Rarity":"Yellow",
-	"Sell":50000,
-	"SpriteWidth":68
+  "Image": "§ModImage§/Items/Weapons/Ranged/Tiny_Sniper",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun",
+    "Hardmode"
+  ],
+  "Damage": 96,
+  "DamageClass": "Ranged",
+  "Knockback": 8.0,
+  "Crit": 40,
+  "UseTime": 33,
+  "Velocity": 16.0,
+  "Tooltip": "'Comically small, comically powerful'",
+  "Rarity": "Yellow",
+  "Sell": 50000,
+  "SpriteWidth": 68
 }

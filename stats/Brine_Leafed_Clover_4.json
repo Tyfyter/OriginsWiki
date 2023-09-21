@@ -1,12 +1,12 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_4",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Hardmode"
-	],
-	"Tooltip":"Increases the likelihood of favorable outcomes based on how many leaves it has\nA leaf will fall out if it causes something exceptionally rare",
-	"Rarity":"LightRed",
-	"Sell":10000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Accessories/Brine_Leafed_Clover_4",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Increases the likelihood of favorable outcomes based on how many leaves it has\nA leaf will fall out if it causes something exceptionally rare",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 16
 }

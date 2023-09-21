@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Felnum/Felnum_Breastplate",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":6,
-	"ArmorSlot":"Shirt",
-	"Tooltip":"2% increased damage\n5% increased movement speed",
-	"Rarity":"Green",
-	"Sell":8000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Armor/Felnum/Felnum_Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "2% increased damage\n5% increased movement speed",
+  "Rarity": "Green",
+  "Sell": 8000,
+  "SpriteWidth": 30
 }

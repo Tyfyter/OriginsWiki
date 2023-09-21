@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Baseball_Bat",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Sword"
-	],
-	"Damage":5,
-	"DamageClass":"Melee",
-	"Knockback":8,
-	"UseTime":20,
-	"Rarity":"White",
-	"Sell":200,
-	"SpriteWidth":36
+  "Image": "§ModImage§/Items/Weapons/Melee/Baseball_Bat",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword"
+  ],
+  "Damage": 5,
+  "DamageClass": "Melee",
+  "Knockback": 8.0,
+  "UseTime": 20,
+  "Rarity": "White",
+  "Sell": 200,
+  "SpriteWidth": 36
 }

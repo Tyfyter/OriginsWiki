@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Melee/Snapthrow",
-	"Types":[
-		"Item",
-		"Weapon"
-	],
-	"Damage":16,
-	"DamageClass":"Melee",
-	"Knockback":4.5,
-	"UseTime":25,
-	"Velocity":16,
-	"Rarity":"Blue",
-	"Sell":5000,
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Weapons/Melee/Snapthrow",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 16,
+  "DamageClass": "Melee",
+  "Knockback": 4.5,
+  "UseTime": 25,
+  "Velocity": 16.0,
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 30
 }

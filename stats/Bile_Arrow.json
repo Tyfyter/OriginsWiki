@@ -1,15 +1,15 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ammo/Bile_Arrow",
-	"Types":[
-		"Item",
-		"Ammo"
-	],
-	"Damage":15,
-	"DamageClass":"Ranged",
-	"Knockback":2.2,
-	"Velocity":4,
-	"Tooltip":"Stuns the target",
-	"Rarity":"Orange",
-	"Sell":901,
-	"SpriteWidth":14
+  "Image": "§ModImage§/Items/Weapons/Ammo/Bile_Arrow",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 15,
+  "DamageClass": "Ranged",
+  "Knockback": 2.2,
+  "Velocity": 4.0,
+  "Tooltip": "Stuns the target",
+  "Rarity": "Orange",
+  "Sell": 901,
+  "SpriteWidth": 14
 }

@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Purification_Potion",
-	"Types":[
-		"Item"
-	],
-	"UseTime":17,
-	"Tooltip":"Grants immunity to being assimilated by world evils",
-	"Rarity":"Blue",
-	"Sell":200,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Items/Other/Consumables/Purification_Potion",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Grants immunity to being assimilated by world evils",
+  "Rarity": "Blue",
+  "Sell": 200,
+  "SpriteWidth": 16
 }

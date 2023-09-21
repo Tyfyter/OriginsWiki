@@ -1,10 +1,10 @@
 {
-	"Image": "§ModImage§/Items/Armor/Vanity/Other/Cranivore_Beanie",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"ArmorSlot":"Helmet",
-	"Rarity":"Blue",
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Vanity/Other/Cranivore_Beanie",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "ArmorSlot": "Helmet",
+  "Rarity": "Blue",
+  "SpriteWidth": 22
 }

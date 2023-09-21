@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Nova_Fragment",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":2000,
-	"SpriteWidth":18
+  "Image": "§ModImage§/Items/Materials/Nova_Fragment",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2000,
+  "SpriteWidth": 18
 }

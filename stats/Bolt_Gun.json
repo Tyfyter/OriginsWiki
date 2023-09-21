@@ -1,18 +1,18 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/Bolt_Gun",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":26,
-	"DamageClass":"Ranged",
-	"Knockback":5,
-	"Crit":8,
-	"UseTime":17,
-	"Velocity":8,
-	"Tooltip":"\\'Get boned\\'",
-	"Rarity":"Green",
-	"Sell":8000,
-	"SpriteWidth":56
+  "Image": "§ModImage§/Items/Weapons/Ranged/Bolt_Gun",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 26,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "Crit": 8,
+  "UseTime": 17,
+  "Velocity": 8.0,
+  "Tooltip": "'Get boned'",
+  "Rarity": "Green",
+  "Sell": 8000,
+  "SpriteWidth": 56
 }

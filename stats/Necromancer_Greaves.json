@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Greaves",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":10,
-	"ArmorSlot":"Pants",
-	"Tooltip":"25% increased artifact minion damage",
-	"Rarity":"Yellow",
-	"Sell":50000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 10,
+  "ArmorSlot": "Pants",
+  "Tooltip": "25% increased artifact minion damage",
+  "Rarity": "Yellow",
+  "Sell": 50000,
+  "SpriteWidth": 22
 }

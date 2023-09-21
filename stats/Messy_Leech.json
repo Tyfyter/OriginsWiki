@@ -1,11 +1,11 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Messy_Leech",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Tooltip":"All attacks inflict Bleeding\nPrevents Defiled enemies from regenerating",
-	"Rarity":"White",
-	"Sell":6000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Accessories/Messy_Leech",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "All attacks inflict Bleeding\nPrevents Defiled enemies from regenerating",
+  "Rarity": "White",
+  "Sell": 6000,
+  "SpriteWidth": 24
 }

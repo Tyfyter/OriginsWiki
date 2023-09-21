@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Riven/Primordial_Permafrost_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Tooltip":"A dangerous single-celled organism frozen...",
-	"Rarity":"White",
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Riven/Primordial_Permafrost_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "A dangerous single-celled organism frozen...",
+  "Rarity": "White",
+  "SpriteWidth": 16
 }

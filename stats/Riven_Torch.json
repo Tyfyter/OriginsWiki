@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Riven/Riven_Torch",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Rarity":"White",
-	"Sell":10,
-	"SpriteWidth":14
+  "Image": "§ModImage§/Tiles/Riven/Riven_Torch",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 10,
+  "SpriteWidth": 14
 }

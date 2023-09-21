@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Ranged/2_In_1_Shotty",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Gun"
-	],
-	"Damage":14,
-	"DamageClass":"Ranged",
-	"Knockback":5.75,
-	"UseTime":40,
-	"Velocity":5.35,
-	"Rarity":"Green",
-	"Sell":40000,
-	"SpriteWidth":52
+  "Image": "§ModImage§/Items/Weapons/Ranged/2_In_1_Shotty",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 14,
+  "DamageClass": "Ranged",
+  "Knockback": 5.75,
+  "UseTime": 40,
+  "Velocity": 5.35,
+  "Rarity": "Green",
+  "Sell": 40000,
+  "SpriteWidth": 52
 }

@@ -1,12 +1,15 @@
 {
-	"Image": "§ModImage§/Tiles/MusicBoxes/Music_Box_DC_Item",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"PlacementSize": [2, 2],
-	"UseTime":10,
-	"Rarity":"LightRed",
-	"Sell":20000,
-	"SpriteWidth":32
+  "Image": "§ModImage§/Tiles/MusicBoxes/Music_Box_DC_Item",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 32
 }

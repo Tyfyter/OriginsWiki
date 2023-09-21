@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Materials/Power_Core",
-	"Types":[
-		"Item"
-	],
-	"Rarity":"White",
-	"Sell":2000,
-	"SpriteWidth":10
+  "Image": "§ModImage§/Items/Materials/Power_Core",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2000,
+  "SpriteWidth": 10
 }

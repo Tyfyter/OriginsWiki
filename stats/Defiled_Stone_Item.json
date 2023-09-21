@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
-	"Types":[
-		"Item"
-	],
-	"PickReq":65,
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Rarity":"White",
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
+  "Types": [
+    "Item"
+  ],
+  "PickReq": 65,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16
 }

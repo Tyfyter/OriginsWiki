@@ -1,9 +1,9 @@
 {
-	"Image": "§ModImage§/Items/Other/Consumables/Corruption_Loot_Box",
-	"Types":[
-		"Item"
-	],
-	"Tooltip":"Right Click to open",
-	"Rarity":"Yellow",
-	"SpriteWidth":30
+  "Image": "§ModImage§/Items/Other/Consumables/Corruption_Loot_Box",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Yellow",
+  "SpriteWidth": 30
 }

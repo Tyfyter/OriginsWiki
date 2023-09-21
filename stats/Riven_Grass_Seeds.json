@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Riven/Riven_Grass_Seeds",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Rarity":"White",
-	"Sell":4,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Tiles/Riven/Riven_Grass_Seeds",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 4,
+  "SpriteWidth": 22
 }

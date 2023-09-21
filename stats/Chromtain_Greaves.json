@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Greaves",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":33,
-	"ArmorSlot":"Pants",
-	"Rarity":"Crimson",
-	"Sell":200000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 33,
+  "ArmorSlot": "Pants",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "SpriteWidth": 22
 }

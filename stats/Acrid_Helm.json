@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Acrid/Acrid_Helm",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":18,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"10% increased melee damage and speed\nEffect stronger when submerged\nEmit a small aura of light",
-	"Rarity":"LightRed",
-	"Sell":24000,
-	"SpriteWidth":24
+  "Image": "§ModImage§/Items/Armor/Acrid/Acrid_Helm",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 18,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "10% increased melee damage and speed\nEffect stronger when submerged\nEmit a small aura of light",
+  "Rarity": "LightRed",
+  "Sell": 24000,
+  "SpriteWidth": 24
 }

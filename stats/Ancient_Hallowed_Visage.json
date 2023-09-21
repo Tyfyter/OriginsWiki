@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage",
-	"Types":[
-		"Item",
-		"Hardmode",
-		"Armor"
-	],
-	"Defense":3,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"+15% explosive velocity\n+8% explosive critical strike chance",
-	"Rarity":"Pink",
-	"Sell":50000,
-	"SpriteWidth":20
+  "Image": "§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "+15% explosive velocity\n+8% explosive critical strike chance",
+  "Rarity": "Pink",
+  "Sell": 50000,
+  "SpriteWidth": 20
 }

@@ -1,16 +1,16 @@
 {
-	"Image": "§ModImage§/Items/Weapons/Demolitionist/Outbreak_Bomb",
-	"Types":[
-		"Item",
-		"Weapon",
-		"Ammo"
-	],
-	"Damage":94,
-	"DamageClass":"Explosive (thrown)",
-	"UseTime":25,
-	"Velocity":5,
-	"Tooltip":"Struck enemies contract a contagious effect",
-	"Rarity":"Blue",
-	"Sell":300,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Outbreak_Bomb",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 94,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 25,
+  "Velocity": 5.0,
+  "Tooltip": "Struck enemies contract a contagious effect",
+  "Rarity": "Blue",
+  "Sell": 300,
+  "SpriteWidth": 22
 }

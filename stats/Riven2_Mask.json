@@ -1,13 +1,13 @@
 {
-	"Image": "§ModImage§/Items/Armor/Riven/Riven2_Mask",
-	"Types":[
-		"Item",
-		"Armor"
-	],
-	"Defense":6,
-	"ArmorSlot":"Helmet",
-	"Tooltip":"6% increased weapon speed",
-	"Rarity":"Blue",
-	"Sell":10000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Armor/Riven/Riven2_Mask",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "6% increased weapon speed",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 22
 }

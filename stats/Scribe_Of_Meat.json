@@ -1,14 +1,14 @@
 {
-	"Image": "§ModImage§/Items/Accessories/Scribe_Of_Meat",
-	"Types":[
-		"Item",
-		"Accessory"
-	],
-	"Damage":65,
-	"DamageClass":"",
-	"Knockback":3,
-	"Tooltip":"Transform into a miniature wall of flesh during a dash\n\\'You\\'re made of meat\\'",
-	"Rarity":"Master",
-	"Sell":60000,
-	"SpriteWidth":22
+  "Image": "§ModImage§/Items/Accessories/Scribe_Of_Meat",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Damage": 65,
+  "DamageClass": "",
+  "Knockback": 3.0,
+  "Tooltip": "Transform into a miniature wall of flesh during a dash\n'You're made of meat'",
+  "Rarity": "Master",
+  "Sell": 60000,
+  "SpriteWidth": 22
 }

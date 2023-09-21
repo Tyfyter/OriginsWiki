@@ -1,11 +1,14 @@
 {
-	"Image": "§ModImage§/Tiles/Other/Felnum_Ore_Item",
-	"Types":[
-		"Item"
-	],
-	"PlacementSize": [1, 1],
-	"UseTime":10,
-	"Rarity":"Green",
-	"Sell":1000,
-	"SpriteWidth":16
+  "Image": "§ModImage§/Tiles/Other/Felnum_Ore_Item",
+  "Types": [
+    "Item"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "Green",
+  "Sell": 1000,
+  "SpriteWidth": 16
 }

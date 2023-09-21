@@ -1,15 +1,15 @@
 {
-	"Image": "Terraria/Images/Item_4242",
-	"Types":[
-		"Item",
-		"Accessory",
-		"Weapon"
-	],
-	"Damage":160,
-	"DamageClass":"Explosive",
-	"UseTime":15,
-	"Velocity":12,
-	"Rarity":"Green",
-	"Sell":10000,
-	"SpriteWidth":24
+  "Image": "Terraria/Images/Item_4242",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Weapon"
+  ],
+  "Damage": 160,
+  "DamageClass": "Explosive",
+  "UseTime": 15,
+  "Velocity": 12.0,
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 24
 }
