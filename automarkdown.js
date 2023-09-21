@@ -239,12 +239,8 @@ function getSiteSettings(){
 function refreshSiteSettings(){
 	var siteSettings = getSiteSettings();
 
-	var darkMode = siteSettings.darkmode;
 	var background = !siteSettings.nobackground;
-	var theme = siteSettings.theme;
-	if(siteSettings.darkmode){
-		theme = "dark";
-	}
+	var theme = siteSettings.theme || themes[0];
 	var html = document.getElementsByTagName('html')[0];
 	var body = document.getElementsByTagName('body')[0];
 
