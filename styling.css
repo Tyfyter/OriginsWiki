@@ -10,6 +10,8 @@
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
+	--expert-color:orange;
+	--master-color:maroon;
 }
 
 .darkmode {
@@ -174,12 +176,19 @@ details > summary {
 
 }
 
+.expert {
+	color:var(--expert-color);
+}
+.master {
+	color:var(--master-color);
+}
+
 .rexpert {
-	color:goldenrod;
+	color:var(--expert-color);
 	font-weight: bold;
 }
 .rmaster {
-	color:brown;
+	color:var(--master-color);
 	font-weight: bold;
 }
 
