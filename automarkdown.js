@@ -259,7 +259,7 @@ function refreshSiteSettings(){
 	html.classList.add("theme-" + theme);
 	var lightToggle = document.getElementById('lighttoggle');
 	if(lightToggle){
-		lightToggle.src = "/Images/themes/" + "theme-" + theme + lightSettingSuffix;
+		lightToggle.src = "Images/themes/" + "theme-" + theme + lightSettingSuffix;
 	}
 
 	const backgroundSettingRegex = /background|nobackground/g;
@@ -298,7 +298,7 @@ function toggleThemeSelector(){
 				toggleThemeSelector();
 				setSiteSettings('theme', themeName);
 			}
-			child.src = `/Images/themes/theme-${themeName}.png`;
+			child.src = `Images/themes/theme-${themeName}.png`;
 			themeContainer.appendChild(child);
 			console.log(child);
 		}
