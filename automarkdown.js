@@ -17,12 +17,6 @@ var lastErrObject;
 if(document.location.protocol == 'https:'){
 	cookieSuffix = cookieSuffix + 'Secure';
 }
-console.error = (function (old_function, div_log) { 
-    return function (text) {
-        old_function(text);
-        div_log.textContent += text;
-    };
-} (console.error.bind(console), document.getElementById("error-log")));
 
 console.log('cookieSuffix: ' + cookieSuffix);
 
@@ -34,6 +28,13 @@ if(firstHeader && firstHeader[0]){
 	if(urlExtractedTitle && urlExtractedTitle.length > 1 && urlExtractedTitle[1]){
 		document.title = urlExtractedTitle[1];
 	}
+}
+const logDiv = document.getElementById("error-log");
+function resetLogDiv() {
+	logDiv.textContent = '';
+}
+function logToDiv(data) {
+	if (linkSuffix === '.html') logDiv.textContent += data;
 }
 
 async function requestPageText(page) {
@@ -223,6 +224,7 @@ function setSiteSettings(setting, value){
 		siteSettings[setting] = value;
 		document.cookie = 'sitesettings:'+JSON.stringify(siteSettings)+'; ' + cookieSuffix;
 	}else{
+		if (typeof value === 'string') value = `"${value}"`;
 		document.cookie = 'sitesettings:{"'+setting+'":'+value+'}; ' + cookieSuffix;
 	}
 	refreshSiteSettings();
