@@ -43,14 +43,14 @@
             "Image":"Krakram",
             "Chance":"39%",
             "Tooltip":"Example Buff",
-            "Duration":"two hundred and four seconds"
+            "Duration":"seven seconds"
         },
         {
             "Name":"Example Buff",
             "Image":"Krakram",
             "Chance":"39%",
             "Tooltip":"Example Buff",
-            "Duration":"two hundred and four seconds"
+            "Duration":"four hundred and two seconds"
         }
     ],
     "SpriteWidth":34
