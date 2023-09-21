@@ -288,16 +288,16 @@ function getDarkMode(){
 function toggleThemeSelector(){
 	var themeContainer = document.getElementById("themeContainer");
 	if (themeContainer.children.length > 0) {
-		themeContainer.replaceChildren();
+		closeThemeSelector();
 	} else {
-		const currentTheme = getSiteSettings().theme;
+		const currentTheme = getSiteSettings().theme || themes[0];
 		for (let i = 0; i < themes.length; i++) {
 			const themeName = themes[i];
 			if (themeName === currentTheme) continue;
 			var child = document.createElement('img');
 			child.classList.add('themeOption');
 			child.onclick = () => {
-				toggleThemeSelector();
+				closeThemeSelector();
 				setSiteSettings('theme', themeName);
 			}
 			child.src = `Images/themes/theme-${themeName}.png`;
@@ -305,6 +305,8 @@ function toggleThemeSelector(){
 			console.log(child);
 		}
 	}
+}
+	document.getElementById("themeContainer").replaceChildren();
 }
 
 function setBackground(value){
