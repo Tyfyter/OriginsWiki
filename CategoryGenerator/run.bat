@@ -1,1 +1,1 @@
-bin\Debug\net5.0\CategoryGenerator.exe "C:\Users\Tyfyter\Documents\My Games\Terraria\OriginTML\OriginsWiki\stats" "C:\Users\Tyfyter\Documents\My Games\Terraria\OriginTML\OriginsWiki\generator_categories.json" "C:\Users\Tyfyter\Documents\My Games\Terraria\OriginTML\OriginsWiki\generated_categories.json"
+bin\Debug\net5.0\CategoryGenerator.exe "..\stats" "..\generator_categories.json" "..\generated_categories.json"
