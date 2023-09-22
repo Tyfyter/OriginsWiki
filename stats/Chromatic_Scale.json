@@ -9,5 +9,6 @@
   "Tooltip": "A very long an convoluted tooltip text because Ty forgot to mess with its name and tooltip :p",
   "Rarity": "Cyan",
   "Sell": 200000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Chromatic_Scale"
 }

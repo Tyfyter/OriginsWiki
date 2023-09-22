@@ -10,5 +10,6 @@
   "Velocity": 13.7,
   "Rarity": "Green",
   "Sell": 40000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Lightning_Rod"
 }

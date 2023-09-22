@@ -6,5 +6,6 @@
   "Tooltip": "Randomly provides incredible luck while in your inventory\nGets consumed when it works",
   "Rarity": "Green",
   "Sell": 100000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Lottery_Ticket"
 }

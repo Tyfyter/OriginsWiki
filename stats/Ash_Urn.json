@@ -9,5 +9,6 @@
   "Tooltip": "The day of Verdict will come...",
   "Rarity": "White",
   "Sell": 20,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Ash_Urn"
 }

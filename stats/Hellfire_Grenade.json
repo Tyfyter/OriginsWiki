@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into a lingering fire",
   "Rarity": "Orange",
   "Sell": 135,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Hellfire_Grenade"
 }

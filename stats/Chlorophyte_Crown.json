@@ -10,5 +10,6 @@
   "Tooltip": "Increases summon damage by 12%\nIncreases artifact minion damage by 15%\nIncreases your max number of minions by 1",
   "Rarity": "Lime",
   "Sell": 60000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Chlorophyte_Crown"
 }

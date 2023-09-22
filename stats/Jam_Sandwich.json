@@ -7,5 +7,6 @@
   "Tooltip": "Medium improvements to all stats\n'What kind of jam is this?'",
   "Rarity": "Orange",
   "Sell": 1000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Jam_Sandwich"
 }

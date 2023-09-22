@@ -10,5 +10,6 @@
   "Tooltip": "10% increased magic damage and 25% reduced mana cost\nEffect stronger when submerged\nEmit a small aura of light",
   "Rarity": "LightRed",
   "Sell": 24000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Acrid_Headgear"
 }

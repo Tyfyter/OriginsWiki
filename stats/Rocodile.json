@@ -13,5 +13,6 @@
   "Tooltip": "Uses rockets as ammo\n'Older cousin of the minishark'",
   "Rarity": "Lime",
   "Sell": 70000,
-  "SpriteWidth": 74
+  "SpriteWidth": 74,
+  "InternalName": "Rocodile"
 }

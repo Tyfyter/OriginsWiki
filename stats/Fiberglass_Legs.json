@@ -9,5 +9,6 @@
   "Tooltip": "'These don't seem very protective'",
   "Rarity": "White",
   "Sell": 4500,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Fiberglass_Legs"
 }

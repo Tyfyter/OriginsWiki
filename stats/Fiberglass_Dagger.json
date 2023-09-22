@@ -7,5 +7,6 @@
   "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",
   "Rarity": "Expert",
   "Sell": 20000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Fiberglass_Dagger"
 }

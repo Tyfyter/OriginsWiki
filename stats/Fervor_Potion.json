@@ -7,5 +7,6 @@
   "Tooltip": "Increases attack speed by 10%",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Fervor_Potion"
 }

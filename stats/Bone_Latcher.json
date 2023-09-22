@@ -11,5 +11,6 @@
   "Velocity": 4.0,
   "Rarity": "Blue",
   "Sell": 20000,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Bone_Latcher"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "Full protection from explosive self-damage",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Absorption_Potion"
 }

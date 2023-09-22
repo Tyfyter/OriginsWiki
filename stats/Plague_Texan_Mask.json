@@ -8,5 +8,6 @@
   "ArmorSlot": "Helmet",
   "Tooltip": "'Great for impersonating Origins devs!'\n",
   "Rarity": "AltCyan",
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Plague_Texan_Mask"
 }

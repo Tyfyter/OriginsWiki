@@ -15,5 +15,6 @@
   "Tooltip": "'Comically small, comically powerful'",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 68
+  "SpriteWidth": 68,
+  "InternalName": "Tiny_Sniper"
 }

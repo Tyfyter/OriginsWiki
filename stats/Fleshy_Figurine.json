@@ -8,5 +8,6 @@
   "Tooltip": "Attacks tenderize targets\n+8% torn severity",
   "Rarity": "Pink",
   "Sell": 50000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Fleshy_Figurine"
 }

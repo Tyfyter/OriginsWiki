@@ -10,5 +10,6 @@
   "Tooltip": "Grants the ability to swim",
   "Rarity": "LightRed",
   "Sell": 24000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Acrid_Greaves"
 }

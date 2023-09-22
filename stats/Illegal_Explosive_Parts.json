@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 40000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Illegal_Explosive_Parts"
 }

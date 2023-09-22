@@ -9,5 +9,6 @@
   "Tooltip": "+15% explosive velocity",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Scavenger_Greaves"
 }

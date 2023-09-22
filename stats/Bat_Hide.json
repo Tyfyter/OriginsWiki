@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Bat_Hide"
 }

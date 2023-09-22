@@ -13,5 +13,6 @@
   "Tooltip": "'Be careful, it's not a book'",
   "Rarity": "Green",
   "Sell": 600,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Impact_Dynamite"
 }

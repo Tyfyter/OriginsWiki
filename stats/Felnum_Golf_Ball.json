@@ -12,5 +12,6 @@
   "Velocity": 12.0,
   "Rarity": "Green",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Felnum_Golf_Ball"
 }

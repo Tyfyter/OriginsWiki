@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "Quest",
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Prikish"
 }

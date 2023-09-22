@@ -8,5 +8,6 @@
   "Tooltip": "Gain more breath as you move in water",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Rebreather"
 }

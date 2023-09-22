@@ -7,5 +7,6 @@
   "Tooltip": "Mana is used to increase damage",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Focus_Potion"
 }

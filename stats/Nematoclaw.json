@@ -13,5 +13,6 @@
   "Tooltip": "Inflicts acid venom, poison, and toxic shock",
   "Rarity": "LightRed",
   "Sell": 8000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Nematoclaw"
 }

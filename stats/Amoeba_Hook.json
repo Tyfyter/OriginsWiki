@@ -9,5 +9,6 @@
   "Velocity": 18.0,
   "Rarity": "Blue",
   "Sell": 800,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Amoeba_Hook"
 }

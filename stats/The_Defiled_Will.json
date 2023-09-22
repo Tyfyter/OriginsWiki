@@ -7,5 +7,6 @@
   "Tooltip": "Will you continue the legacy?",
   "Rarity": "Gray",
   "Sell": 2500,
-  "SpriteWidth": 58
+  "SpriteWidth": 58,
+  "InternalName": "The_Defiled_Will"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "Uses gel as ammo",
   "Rarity": "Orange",
   "Sell": 100000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Hailferno"
 }

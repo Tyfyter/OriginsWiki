@@ -10,5 +10,6 @@
   "Tooltip": "25% increased artifact minion damage",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Necromancer_Greaves"
 }

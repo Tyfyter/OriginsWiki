@@ -11,5 +11,6 @@
   "UseTime": 20,
   "Rarity": "White",
   "Sell": 200,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Baseball_Bat"
 }

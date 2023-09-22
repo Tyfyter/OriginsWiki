@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 150,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "NE8"
 }

@@ -8,5 +8,6 @@
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time\nGreatly increased explosive blast radius",
   "Rarity": "LightRed",
   "Sell": 42000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "CFHES"
 }

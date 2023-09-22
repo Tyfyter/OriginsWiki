@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Pawpaw"
 }

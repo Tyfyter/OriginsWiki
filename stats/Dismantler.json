@@ -14,5 +14,6 @@
   "Tooltip": "Able to mine Hellstone\n'Very pointy'",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Dismantler"
 }

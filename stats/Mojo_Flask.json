@@ -7,5 +7,6 @@
   "Tooltip": "Mitigates all assimilation by 20% each for five uses",
   "Rarity": "Blue",
   "Sell": 4000,
-  "SpriteWidth": 110
+  "SpriteWidth": 110,
+  "InternalName": "Mojo_Flask"
 }

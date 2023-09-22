@@ -10,5 +10,6 @@
   "Tooltip": "Increased movement speed",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Abysswalker_Greaves"
 }

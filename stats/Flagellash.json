@@ -12,5 +12,6 @@
   "Tooltip": "2⅔ summon tag damage\nYour summons will focus struck enemies\n'Three ends are better than one'",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Flagellash"
 }

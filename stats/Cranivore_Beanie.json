@@ -6,5 +6,6 @@
   ],
   "ArmorSlot": "Helmet",
   "Rarity": "Blue",
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Cranivore_Beanie"
 }

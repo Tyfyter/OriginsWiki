@@ -12,5 +12,6 @@
   "Tooltip": "Struck enemies will wither away\n5 summon tag damage\nYour summons will focus struck enemies",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Amebolize_Incantation"
 }

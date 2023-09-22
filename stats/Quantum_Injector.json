@@ -7,5 +7,6 @@
   "Tooltip": "Permanently increases maximum mana by 10",
   "Rarity": "Butterscotch",
   "Sell": 10000,
-  "SpriteWidth": 12
+  "SpriteWidth": 12,
+  "InternalName": "Quantum_Injector"
 }

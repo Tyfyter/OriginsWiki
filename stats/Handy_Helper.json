@@ -8,5 +8,6 @@
   "Tooltip": "Amebic tentacles will protect you from projectiles and enemies\nIncreases melee knockback\n12% increased melee speed\nEnables auto swing for melee weapons\nIncreases the size of melee weapons",
   "Rarity": "Pink",
   "Sell": 80000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Handy_Helper"
 }

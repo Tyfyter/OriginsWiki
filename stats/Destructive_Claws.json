@@ -7,5 +7,6 @@
   "Tooltip": "25% increased explosive throwing velocity\nIncreases attack speed of thrown explosives\nEnables autouse for all explosive weapons",
   "Rarity": "Orange",
   "Sell": 30000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Destructive_Claws"
 }

@@ -8,5 +8,6 @@
   "Tooltip": "Allows for a super high jump and negates fall damage",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Superjump_Cape"
 }

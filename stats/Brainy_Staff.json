@@ -11,5 +11,6 @@
   "Tooltip": "Summons a mini crimbrain to fight for you",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 80
+  "SpriteWidth": 80,
+  "InternalName": "Brainy_Staff"
 }

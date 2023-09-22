@@ -8,5 +8,6 @@
   "ArmorSlot": "Shirt",
   "Tooltip": "'Great for impersonating Origins devs!'\n",
   "Rarity": "AltCyan",
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Plague_Texan_Jacket"
 }

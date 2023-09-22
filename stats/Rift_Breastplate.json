@@ -10,5 +10,6 @@
   "Tooltip": "-25% explosive self-damage",
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Rift_Breastplate"
 }

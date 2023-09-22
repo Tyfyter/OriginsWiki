@@ -9,5 +9,6 @@
   "Tooltip": "Increased mana regeneration rate",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Lost_Helm"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "Increases damage and movement speed after taking damage",
   "Rarity": "Orange",
   "Sell": 20000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Locket_Necklace"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "Uses harpoons as ammo\n80% chance not to consume ammo",
   "Rarity": "Orange",
   "Sell": 20000,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Magma_Grappler"
 }

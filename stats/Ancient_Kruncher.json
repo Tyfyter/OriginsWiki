@@ -14,5 +14,6 @@
   "Tooltip": "Wh3re did you f!nd this?",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 56
+  "SpriteWidth": 56,
+  "InternalName": "Ancient_Kruncher"
 }

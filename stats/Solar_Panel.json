@@ -8,5 +8,6 @@
   "Tooltip": "Sunlight exposure increases mana regeneration\n'Don't worry, mana was always renewable!'",
   "Rarity": "Lime",
   "Sell": 60000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Solar_Panel"
 }

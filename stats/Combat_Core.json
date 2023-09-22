@@ -8,5 +8,6 @@
   "Tooltip": "Grants impressive boosts in combat capability",
   "Rarity": "Crimson",
   "Sell": 1000000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Combat_Core"
 }

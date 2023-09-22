@@ -9,5 +9,6 @@
   "Tooltip": "4% increased damage",
   "Rarity": "Green",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Felnum_Helmet"
 }

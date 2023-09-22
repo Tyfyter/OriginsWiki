@@ -14,5 +14,6 @@
   "Tooltip": "Able to mine Hellstone\n'Its strikes sound like thunder'",
   "Rarity": "Green",
   "Sell": 4000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Felnum_Pickaxe"
 }

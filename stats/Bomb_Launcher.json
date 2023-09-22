@@ -12,5 +12,6 @@
   "Tooltip": "Uses bombs as ammo",
   "Rarity": "Green",
   "Sell": 8000,
-  "SpriteWidth": 78
+  "SpriteWidth": 78,
+  "InternalName": "Bomb_Launcher"
 }

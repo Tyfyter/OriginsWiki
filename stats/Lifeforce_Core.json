@@ -8,5 +8,6 @@
   "Tooltip": "Provides extreme boosts in health\n'Get a life'",
   "Rarity": "Crimson",
   "Sell": 1000000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Lifeforce_Core"
 }

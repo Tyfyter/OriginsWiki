@@ -9,5 +9,6 @@
   "Tooltip": "+10% melee weapon size",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Soulhide_Helmet"
 }

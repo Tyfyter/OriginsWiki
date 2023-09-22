@@ -12,5 +12,6 @@
   "Tooltip": "Fires a barrage of floating mines",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Bombardment"
 }

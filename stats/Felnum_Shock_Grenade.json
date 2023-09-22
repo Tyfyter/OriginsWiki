@@ -13,5 +13,6 @@
   "Tooltip": "'Quite shocking'",
   "Rarity": "Green",
   "Sell": 70,
-  "SpriteWidth": 12
+  "SpriteWidth": 12,
+  "InternalName": "Felnum_Shock_Grenade"
 }

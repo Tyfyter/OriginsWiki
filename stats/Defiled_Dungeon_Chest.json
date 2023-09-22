@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Defiled/Defiled_Dungeon_Chest_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     2,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Dungeon_Chest_Item"
 }

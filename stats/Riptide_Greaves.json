@@ -9,5 +9,6 @@
   "Tooltip": "5% increased magic damage\nGrants the ability to swim and provides increased movement speed in water",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Riptide_Greaves"
 }

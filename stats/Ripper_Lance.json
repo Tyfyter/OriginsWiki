@@ -12,5 +12,6 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 56
+  "SpriteWidth": 56,
+  "InternalName": "Ripper_Lance"
 }

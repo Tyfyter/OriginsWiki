@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 1000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Formium_Scrap"
 }

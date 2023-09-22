@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Defiled/Defiled_Heart",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     4,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Defiled_Heart_Item"
 }

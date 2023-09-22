@@ -13,5 +13,6 @@
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Yellow",
   "Sell": 1300,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Four"
 }

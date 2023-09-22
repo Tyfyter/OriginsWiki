@@ -12,5 +12,6 @@
   "Tooltip": "'Doesn't this defeat the purpose of a hand grenade?'",
   "Rarity": "Orange",
   "Sell": 10000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Hand_Grenade_Launcher"
 }

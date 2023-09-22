@@ -6,5 +6,6 @@
   "UseTime": 45,
   "Tooltip": "Summons the Defiled Amalgamation",
   "Rarity": "Blue",
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Nerve_Impulse_Manipulator"
 }

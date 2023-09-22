@@ -12,5 +12,6 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 4000,
-  "SpriteWidth": 52
+  "SpriteWidth": 52,
+  "InternalName": "Spiker_Sword"
 }

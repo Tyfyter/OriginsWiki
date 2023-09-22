@@ -9,5 +9,6 @@
   "Tooltip": "12% increased maximum life",
   "Rarity": "White",
   "Sell": 700,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Cryosten_Breastplate"
 }

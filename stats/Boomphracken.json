@@ -14,5 +14,6 @@
   "Tooltip": "Chance to throw an explosive when used\n'He works his work, I work mine'",
   "Rarity": "Pink",
   "Sell": 200000,
-  "SpriteWidth": 56
+  "SpriteWidth": 56,
+  "InternalName": "Boomphracken"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "Enemies recently struck by a teammate receive 18% more damage",
   "Rarity": "Green",
   "Sell": 10000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Priority_Mail"
 }

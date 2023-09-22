@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 20,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Wilting_Rose_Item"
 }

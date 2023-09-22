@@ -7,5 +7,6 @@
   "Tooltip": "Reduces explosive fuse time",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "IWTPA_Standard"
 }

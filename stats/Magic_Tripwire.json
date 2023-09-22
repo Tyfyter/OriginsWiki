@@ -7,5 +7,6 @@
   "Tooltip": "Explosives will detonate near enemies\n'Uses Bluetooth'",
   "Rarity": "Blue",
   "Sell": 3500,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Magic_Tripwire"
 }

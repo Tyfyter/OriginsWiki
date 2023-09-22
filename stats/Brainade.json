@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into a bloody mess\n'Mind blown'",
   "Rarity": "Blue",
   "Sell": 50,
-  "SpriteWidth": 10
+  "SpriteWidth": 10,
+  "InternalName": "Brainade"
 }

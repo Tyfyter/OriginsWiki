@@ -8,5 +8,6 @@
   "Tooltip": "Summons a Meberoid to light up the day",
   "Rarity": "Blue",
   "Sell": 75000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Amoeba_Toy"
 }

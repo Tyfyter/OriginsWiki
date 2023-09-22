@@ -10,5 +10,6 @@
   "Tooltip": "Transform into a miniature wall of flesh during a dash\n'You're made of meat'",
   "Rarity": "Master",
   "Sell": 60000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Scribe_Of_Meat"
 }

@@ -11,5 +11,6 @@
   "Tooltip": "Summons a mini Eater of Worlds to fight for you",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 54
+  "SpriteWidth": 54,
+  "InternalName": "Rotting_Worm_Staff"
 }

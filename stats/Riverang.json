@@ -13,5 +13,6 @@
   "Tooltip": "'Very hydrodynamic'",
   "Rarity": "Blue",
   "Sell": 5000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Riverang"
 }

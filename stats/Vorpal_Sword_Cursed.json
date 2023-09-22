@@ -11,5 +11,6 @@
   "Velocity": 12.0,
   "Rarity": "Cursed",
   "Sell": 15000,
-  "SpriteWidth": 58
+  "SpriteWidth": 58,
+  "InternalName": "Vorpal_Sword_Cursed"
 }

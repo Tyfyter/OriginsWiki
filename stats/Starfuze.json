@@ -10,5 +10,6 @@
   "Velocity": 3.0,
   "Rarity": "Cyan",
   "Sell": 10000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Starfuze"
 }

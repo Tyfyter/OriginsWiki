@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Bouncy_Harpoon"
 }

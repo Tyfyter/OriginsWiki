@@ -8,5 +8,6 @@
   "Tooltip": "10% increased critical strike chance\nDisplays the trajectory of projectiles from your selected item",
   "Rarity": "Yellow",
   "Sell": 70000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "ATACS"
 }

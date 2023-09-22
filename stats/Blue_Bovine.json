@@ -7,5 +7,6 @@
   "Tooltip": "'Blue Bovine allows flight and slow fall!'",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Blue_Bovine"
 }

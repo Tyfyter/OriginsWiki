@@ -11,5 +11,6 @@
   "Tooltip": "Chance to randomly strike nearby enemies",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Parasitic_Influence"
 }

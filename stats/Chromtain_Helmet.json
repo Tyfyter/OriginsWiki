@@ -9,5 +9,6 @@
   "ArmorSlot": "Helmet",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Chromtain_Helmet"
 }

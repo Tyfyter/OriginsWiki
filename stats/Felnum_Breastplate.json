@@ -9,5 +9,6 @@
   "Tooltip": "2% increased damage\n5% increased movement speed",
   "Rarity": "Green",
   "Sell": 8000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Felnum_Breastplate"
 }

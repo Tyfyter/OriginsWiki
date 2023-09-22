@@ -7,5 +7,6 @@
   "Tooltip": "Double the gunpowder, double the fun.",
   "Rarity": "Expert",
   "Sell": 20000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "SOTH"
 }

@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Journal_Item"
 }

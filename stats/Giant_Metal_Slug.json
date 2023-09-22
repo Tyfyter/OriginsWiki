@@ -10,5 +10,6 @@
   "Velocity": 4.0,
   "Rarity": "White",
   "Sell": 300,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Giant_Metal_Slug"
 }

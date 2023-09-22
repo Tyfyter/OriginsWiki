@@ -12,5 +12,6 @@
   "Velocity": 5.35,
   "Rarity": "Green",
   "Sell": 40000,
-  "SpriteWidth": 52
+  "SpriteWidth": 52,
+  "InternalName": "Shotty_x2"
 }

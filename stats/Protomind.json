@@ -8,5 +8,6 @@
   "Tooltip": "Has a chance to create illusions and dodge an attack\nTemporarily increase critical chance after a dodge\nMay confuse nearby enemies after being struck\nMagic projectiles slightly home towards targets",
   "Rarity": "LightPurple",
   "Sell": 30000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Protomind"
 }

@@ -8,5 +8,6 @@
   "Tooltip": "Randomly launches a grenade while using a ranged weapon",
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Grenade_Tube"
 }

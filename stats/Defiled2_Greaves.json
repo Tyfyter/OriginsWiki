@@ -9,5 +9,6 @@
   "Tooltip": "3% increased damage",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Defiled2_Greaves"
 }

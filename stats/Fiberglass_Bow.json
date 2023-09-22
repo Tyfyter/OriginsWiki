@@ -13,5 +13,6 @@
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Fiberglass_Bow"
 }

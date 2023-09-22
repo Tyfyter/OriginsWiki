@@ -13,5 +13,6 @@
   "Tooltip": "Not very useful without a bowstring\nMaybe you could find something to replace it",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Broken_Fiberglass_Bow"
 }

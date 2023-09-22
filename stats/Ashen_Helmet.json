@@ -9,5 +9,6 @@
   "Tooltip": "8% increased damage",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Ashen_Helmet"
 }

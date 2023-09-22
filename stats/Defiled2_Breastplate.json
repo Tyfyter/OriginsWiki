@@ -9,5 +9,6 @@
   "Tooltip": "3% increased damage",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Defiled2_Breastplate"
 }

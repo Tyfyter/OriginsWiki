@@ -13,5 +13,6 @@
   "Velocity": 3.0,
   "Rarity": "Blue",
   "Sell": 50000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Test"
 }

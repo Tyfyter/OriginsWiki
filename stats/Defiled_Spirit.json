@@ -12,5 +12,6 @@
   "Velocity": 17.0,
   "Rarity": "Blue",
   "Sell": 80,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Defiled_Spirit"
 }

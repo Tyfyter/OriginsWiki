@@ -12,5 +12,6 @@
   "Velocity": 7.0,
   "Rarity": "Blue",
   "Sell": 75,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Peatball"
 }

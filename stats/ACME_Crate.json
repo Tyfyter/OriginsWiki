@@ -7,5 +7,6 @@
   "Tooltip": "Greatly increased explosive blast radius\nExplosives will detonate near enemies",
   "Rarity": "Orange",
   "Sell": 20000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "ACME_Crate"
 }

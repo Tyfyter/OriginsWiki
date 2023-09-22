@@ -7,5 +7,6 @@
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time",
   "Rarity": "Orange",
   "Sell": 22000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Danger_Barrel"
 }

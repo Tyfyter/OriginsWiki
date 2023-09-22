@@ -11,5 +11,6 @@
   "Tooltip": "Nearby bleeding enemies occasionally explode\n'Explosions happen near me 'cause I'm that cool!'",
   "Rarity": "Green",
   "Sell": 20000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Haggard_Artery"
 }

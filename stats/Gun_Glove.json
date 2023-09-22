@@ -11,5 +11,6 @@
   "Tooltip": "Shoots as you swing\n'Ammo not included'",
   "Rarity": "Green",
   "Sell": 20000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Gun_Glove"
 }

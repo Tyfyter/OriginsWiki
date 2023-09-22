@@ -7,5 +7,6 @@
   "Tooltip": "Magic projectiles slightly home towards targets\n'How are you holding up? BECAUSE I'M A POTATO'",
   "Rarity": "Pink",
   "Sell": 10000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Potato_Battery"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "3% increased damage",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Comb"
 }

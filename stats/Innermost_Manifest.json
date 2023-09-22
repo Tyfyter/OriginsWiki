@@ -12,5 +12,6 @@
   "Velocity": 9.0,
   "Rarity": "Orange",
   "Sell": 3000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Innermost_Manifest"
 }

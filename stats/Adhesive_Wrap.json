@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 18,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Adhesive_Wrap"
 }

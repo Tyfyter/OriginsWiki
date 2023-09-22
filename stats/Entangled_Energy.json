@@ -7,5 +7,6 @@
   "Tooltip": "Fiberglass weapons gain damage based on defense\nFiberglass weapons gain lifesteal",
   "Rarity": "Master",
   "Sell": 60000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Entangled_Energy"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "Spreads the Defiled Wastelands to some blocks",
   "Rarity": "Orange",
   "Sell": 20,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "White_Water"
 }

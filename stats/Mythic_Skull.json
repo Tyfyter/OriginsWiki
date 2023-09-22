@@ -9,5 +9,6 @@
   "Tooltip": "Increased explosive velocity\n'Skull ON'",
   "Rarity": "Green",
   "Sell": 9000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Mythic_Skull"
 }

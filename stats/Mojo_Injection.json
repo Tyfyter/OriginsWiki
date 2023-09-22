@@ -8,5 +8,6 @@
   "Tooltip": "Slowly reduces assimilation",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Mojo_Injection"
 }

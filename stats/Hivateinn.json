@@ -14,5 +14,6 @@
   "Tooltip": "Receives 50% higher damage bonuses\nsprite needs recoloring as soon as Dawn material is determined",
   "Rarity": "Lime",
   "Sell": 20000,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Hivateinn"
 }

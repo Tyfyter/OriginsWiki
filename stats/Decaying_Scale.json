@@ -7,5 +7,6 @@
   "Tooltip": "Attacks inflict 'Toxic Shock' on enemies\nEffects are stronger while Acrid Armor is equipped",
   "Rarity": "Pink",
   "Sell": 10000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Decaying_Scale"
 }

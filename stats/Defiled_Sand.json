@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Tiles/Defiled/Defiled_Sand_Item",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -10,5 +11,6 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Sand_Item"
 }

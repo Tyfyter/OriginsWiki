@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Periven"
 }

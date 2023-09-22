@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Sword"
+    "Sword",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -15,5 +16,6 @@
   "Tooltip": "Explodes when enemies cross its laser\nCan aim in different directions",
   "Rarity": "Pink",
   "Sell": 17500,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Omnidirectional_Claymore"
 }

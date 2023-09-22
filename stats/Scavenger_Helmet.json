@@ -9,5 +9,6 @@
   "Tooltip": "+10% explosive critical strike chance",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Scavenger_Helmet"
 }

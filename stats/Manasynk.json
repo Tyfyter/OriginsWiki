@@ -13,5 +13,6 @@
   "Velocity": 7.0,
   "Rarity": "Orange",
   "Sell": 3000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Manasynk"
 }

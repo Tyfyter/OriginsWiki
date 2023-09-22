@@ -15,5 +15,6 @@
   "Tooltip": "'Hammer and nail in one package'",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Pullinsmash"
 }

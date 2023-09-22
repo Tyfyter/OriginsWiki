@@ -5,5 +5,6 @@
   ],
   "Rarity": "White",
   "Sell": 3000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Encrusted_Bar"
 }

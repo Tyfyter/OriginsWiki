@@ -13,5 +13,6 @@
   "Tooltip": "Uses fireblossoms as ammo\nDesperately needs rework",
   "Rarity": "Orange",
   "Sell": 20000,
-  "SpriteWidth": 68
+  "SpriteWidth": 68,
+  "InternalName": "Dragons_Breath"
 }

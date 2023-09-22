@@ -7,5 +7,6 @@
   "Tooltip": "Reduces explosive self-damage by 15%\nReduces damage received from traps\nProvides 7 seconds of immunity to lava",
   "Rarity": "Green",
   "Sell": 95000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Hazard_Charm"
 }

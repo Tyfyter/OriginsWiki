@@ -9,5 +9,6 @@
   "Tooltip": "5% increased critical strike chance",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Defiled2_Helmet"
 }

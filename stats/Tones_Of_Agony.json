@@ -13,5 +13,6 @@
   "Tooltip": "'Cries of the suffering'",
   "Rarity": "Green",
   "Sell": 15000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Tones_Of_Agony"
 }

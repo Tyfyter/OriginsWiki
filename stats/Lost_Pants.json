@@ -9,5 +9,6 @@
   "Tooltip": "Increased movement speed",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Lost_Pants"
 }

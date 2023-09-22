@@ -10,5 +10,6 @@
   "Tooltip": "Increased life regeneration",
   "Rarity": "LightRed",
   "Sell": 24000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Acrid_Breastplate"
 }

@@ -5,5 +5,6 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Eden_Wood_Wall_Item"
 }

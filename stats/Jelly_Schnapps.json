@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats\n'Schnapp. Crackle. Schplit apart'",
   "Rarity": "Green",
   "Sell": 4000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Jelly_Schnapps"
 }

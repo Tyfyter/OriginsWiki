@@ -15,5 +15,6 @@
   "Tooltip": "‘Defective to some, glory to others’",
   "Rarity": "Lime",
   "Sell": 50000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Laser_Tag_Gun"
 }

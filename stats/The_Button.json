@@ -6,5 +6,6 @@
   "UseTime": 45,
   "Tooltip": "Summons I.C.A.R.U.S",
   "Rarity": "Crimson",
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "The_Button"
 }

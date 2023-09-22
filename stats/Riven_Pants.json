@@ -9,5 +9,6 @@
   "Tooltip": "6% increased weapon speed",
   "Rarity": "Blue",
   "Sell": 6000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Riven_Pants"
 }

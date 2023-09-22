@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Green",
   "Sell": 4000,
-  "SpriteWidth": 12
+  "SpriteWidth": 12,
+  "InternalName": "Shattered_Stout"
 }

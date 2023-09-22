@@ -10,5 +10,6 @@
   "Tooltip": "20% increased ranged attack speed\nEffect stronger when submerged\nEmit a small aura of light",
   "Rarity": "LightRed",
   "Sell": 24000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Acrid_Visor"
 }

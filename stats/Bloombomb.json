@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into seeds",
   "Rarity": "LightRed",
   "Sell": 1500,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Bloombomb"
 }

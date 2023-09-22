@@ -13,5 +13,6 @@
   "Tooltip": "'Be careful, it's book'",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Beginners_Tome"
 }

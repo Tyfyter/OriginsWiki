@@ -13,5 +13,6 @@
   "Tooltip": "Uses harpoons as ammo\nRight-click while a line is cast to use it as a whip\n75% chance not to consume ammo",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Boat_Rocker"
 }

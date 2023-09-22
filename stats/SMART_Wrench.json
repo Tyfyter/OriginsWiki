@@ -12,5 +12,6 @@
   "Tooltip": "Summons a SMART Turret to rip apart your enemies",
   "Rarity": "Pink",
   "Sell": 50000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "SMART_Wrench"
 }

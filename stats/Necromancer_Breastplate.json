@@ -10,5 +10,6 @@
   "Tooltip": "15% increased summoning attack speed\n+1 minion slot",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Necromancer_Breastplate"
 }

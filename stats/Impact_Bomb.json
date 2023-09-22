@@ -13,5 +13,6 @@
   "Tooltip": "'Be careful, it's not a book'",
   "Rarity": "Green",
   "Sell": 100,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Impact_Bomb"
 }

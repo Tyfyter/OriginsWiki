@@ -11,5 +11,6 @@
   "Velocity": 3.75,
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 66
+  "SpriteWidth": 66,
+  "InternalName": "Decimator"
 }

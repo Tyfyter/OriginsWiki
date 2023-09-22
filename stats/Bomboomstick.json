@@ -13,5 +13,6 @@
   "Tooltip": "Fires a cluster of three to five grenades",
   "Rarity": "Lime",
   "Sell": 43200,
-  "SpriteWidth": 70
+  "SpriteWidth": 70,
+  "InternalName": "Bomboomstick"
 }

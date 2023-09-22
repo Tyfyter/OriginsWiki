@@ -12,5 +12,6 @@
   "Velocity": 8.0,
   "Rarity": "LightRed",
   "Sell": 15000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Depth_Charge"
 }

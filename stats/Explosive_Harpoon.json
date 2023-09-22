@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Explosive_Harpoon"
 }

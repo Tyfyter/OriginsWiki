@@ -7,5 +7,6 @@
   "Tooltip": "Increases explosive blast radius by 40%",
   "Rarity": "Green",
   "Sell": 10000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Nitro_Crate"
 }

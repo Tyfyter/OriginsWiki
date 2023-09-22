@@ -12,5 +12,6 @@
   "Velocity": 1.0,
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Seam_Beam"
 }

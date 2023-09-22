@@ -12,5 +12,6 @@
   "Velocity": 16.0,
   "Rarity": "Blue",
   "Sell": 20000,
-  "SpriteWidth": 58
+  "SpriteWidth": 58,
+  "InternalName": "Low_Signal"
 }

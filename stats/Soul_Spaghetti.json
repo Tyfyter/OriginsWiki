@@ -7,5 +7,6 @@
   "Tooltip": "Medium improvements to all stats\n'Tastes like noodle with hairs and meats'",
   "Rarity": "Green",
   "Sell": 1000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Soul_Spaghetti"
 }

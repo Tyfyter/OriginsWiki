@@ -8,5 +8,6 @@
   "Tooltip": "Extends underwater breathing\nImmunity to ‘Suffocation’\n'Don't laugh'",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Helium_Tank"
 }

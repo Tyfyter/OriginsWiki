@@ -12,5 +12,6 @@
   "Velocity": 7.0,
   "Rarity": "LightRed",
   "Sell": 2000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Crystal_Cutters"
 }

@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Other/Cleansing_Station_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     3,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Cleansing_Station_Item"
 }

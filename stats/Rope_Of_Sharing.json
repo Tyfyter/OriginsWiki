@@ -6,5 +6,6 @@
   "Tooltip": "All stats, afflictions and other effects are shared with another connected player",
   "Rarity": "Green",
   "Sell": 20000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Rope_Of_Sharing"
 }

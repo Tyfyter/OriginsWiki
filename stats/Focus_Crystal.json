@@ -8,5 +8,6 @@
   "Tooltip": "Life regeneration is boosted from dealing damage\nCritical strike chance is increased by 15% of weapon damage\nBase damage increased while standing still",
   "Rarity": "Yellow",
   "Sell": 20000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Focus_Crystal"
 }

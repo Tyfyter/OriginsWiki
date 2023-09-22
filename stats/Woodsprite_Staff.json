@@ -11,5 +11,6 @@
   "Tooltip": "Summons a woodsprite to fight for you",
   "Rarity": "White",
   "Sell": 5000,
-  "SpriteWidth": 50
+  "SpriteWidth": 50,
+  "InternalName": "Woodsprite_Staff"
 }

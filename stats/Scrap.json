@@ -10,5 +10,6 @@
   "Velocity": 3.0,
   "Rarity": "Pink",
   "Sell": 465,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Scrap"
 }

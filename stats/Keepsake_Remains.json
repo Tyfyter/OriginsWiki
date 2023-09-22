@@ -7,5 +7,6 @@
   "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets",
   "Rarity": "Green",
   "Sell": 30000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Keepsake_Remains"
 }

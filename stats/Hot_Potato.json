@@ -14,5 +14,6 @@
   "Tooltip": "'Be careful, it's hot'",
   "Rarity": "Orange",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Hot_Potato"
 }

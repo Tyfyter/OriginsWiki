@@ -11,5 +11,6 @@
   "Tooltip": "30% increased explosive throwing velocity\nIncreases attack speed of thrown explosives\nEnables autouse for all explosive weapons\nShoots rockets as you swing\n'Payload not included'",
   "Rarity": "LightRed",
   "Sell": 50000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Missile_Armcannon"
 }

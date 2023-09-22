@@ -16,5 +16,6 @@
   "Tooltip": "Increased mining speed when submerged",
   "Rarity": "LightRed",
   "Sell": 40000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Acrid_Hamaxe"
 }

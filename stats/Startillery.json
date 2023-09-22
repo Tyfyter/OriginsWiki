@@ -14,5 +14,6 @@
   "Tooltip": "Fires an arcing starshot that explodes on impact",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Startillery"
 }

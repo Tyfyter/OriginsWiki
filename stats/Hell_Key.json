@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Hell_Key"
 }

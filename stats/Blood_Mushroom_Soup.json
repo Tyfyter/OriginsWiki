@@ -6,5 +6,6 @@
   "UseTime": 10,
   "Rarity": "Green",
   "Sell": 5000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Blood_Mushroom_Soup"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "+5% explosive damage",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Exploder_Emblem"
 }

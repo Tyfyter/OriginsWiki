@@ -9,5 +9,6 @@
   "Tooltip": "6% increased weapon speed",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Riven_Mask"
 }

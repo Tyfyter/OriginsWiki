@@ -6,5 +6,6 @@
   "UseTime": 10,
   "Rarity": "Green",
   "Sell": 411065408,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Chocolate_Bar"
 }

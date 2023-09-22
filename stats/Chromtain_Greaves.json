@@ -9,5 +9,6 @@
   "ArmorSlot": "Pants",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Chromtain_Greaves"
 }

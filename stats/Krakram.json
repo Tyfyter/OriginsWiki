@@ -13,5 +13,6 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 4000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Krakram"
 }

@@ -6,5 +6,6 @@
   "Tooltip": "Allows you to draw with ink that can only be seen under a black light",
   "Rarity": "White",
   "Sell": 1500,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Invisible_Ink"
 }

@@ -13,5 +13,6 @@
   "Tooltip": "'Implode. Explode'",
   "Rarity": "Crimson",
   "Sell": 10000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Black_Hole_Bomb"
 }

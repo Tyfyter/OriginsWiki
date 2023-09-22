@@ -9,5 +9,6 @@
   "Tooltip": "+6% critical strike chance",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Tendon_Shirt"
 }

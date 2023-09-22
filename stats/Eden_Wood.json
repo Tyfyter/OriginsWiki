@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Dawn/Eden_Wood_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Tooltip": "'A wood too sacred to chop'",
   "Rarity": "White",
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Eden_Wood_Item"
 }

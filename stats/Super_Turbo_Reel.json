@@ -7,5 +7,6 @@
   "Tooltip": "Greatly increased movement speed and return speed for harpoon guns",
   "Rarity": "Orange",
   "Sell": 20000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Super_Turbo_Reel"
 }

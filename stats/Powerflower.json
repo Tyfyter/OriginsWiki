@@ -8,5 +8,6 @@
   "Tooltip": "Chance for mana stars to fall from critical hits\n8% reduced mana cost\nAutomatically use mana potions when needed",
   "Rarity": "Pink",
   "Sell": 30000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Powerflower"
 }

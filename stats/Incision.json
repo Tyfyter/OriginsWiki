@@ -14,5 +14,6 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Pink",
   "Sell": 80000,
-  "SpriteWidth": 52
+  "SpriteWidth": 52,
+  "InternalName": "Incision"
 }

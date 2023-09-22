@@ -13,5 +13,6 @@
   "Velocity": 9.0,
   "Rarity": "Pink",
   "Sell": 8000,
-  "SpriteWidth": 44
+  "SpriteWidth": 44,
+  "InternalName": "Bled_Out_Staff"
 }

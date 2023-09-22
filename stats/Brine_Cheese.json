@@ -7,5 +7,6 @@
   "Tooltip": "Major improvements to all stats\n'But, there's a catch...'",
   "Rarity": "Gray",
   "Sell": 1,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Brine_Cheese"
 }

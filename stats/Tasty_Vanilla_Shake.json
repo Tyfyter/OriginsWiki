@@ -8,5 +8,6 @@
   "Tooltip": "Medium improvements to all stats",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Tasty_Vanilla_Shake"
 }

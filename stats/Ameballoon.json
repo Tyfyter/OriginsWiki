@@ -13,5 +13,6 @@
   "Tooltip": "'Arguably worse than lava balloons'",
   "Rarity": "Blue",
   "Sell": 50,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Ameballoon"
 }

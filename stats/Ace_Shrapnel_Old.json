@@ -13,5 +13,6 @@
   "Tooltip": "What do we do with it?",
   "Rarity": "Lime",
   "Sell": 100000,
-  "SpriteWidth": 72
+  "SpriteWidth": 72,
+  "InternalName": "Ace_Shrapnel_Old"
 }

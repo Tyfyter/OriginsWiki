@@ -13,5 +13,6 @@
   "Tooltip": "'Like nuclear arms? Well now you can have nuclear arms on your... arms'",
   "Rarity": "Pink",
   "Sell": 50000,
-  "SpriteWidth": 34
+  "SpriteWidth": 34,
+  "InternalName": "Nuclear_Arm"
 }

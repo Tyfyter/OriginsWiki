@@ -8,5 +8,6 @@
   "Tooltip": "Graces one with true magic power",
   "Rarity": "Crimson",
   "Sell": 1000000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Magic_Core"
 }

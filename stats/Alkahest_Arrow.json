@@ -11,5 +11,6 @@
   "Tooltip": "Tenderizes the target",
   "Rarity": "Orange",
   "Sell": 901,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Alkahest_Arrow"
 }

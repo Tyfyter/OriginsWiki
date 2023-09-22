@@ -7,5 +7,6 @@
   "Tooltip": "Grants immunity to being assimilated by world evils",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Purification_Potion"
 }

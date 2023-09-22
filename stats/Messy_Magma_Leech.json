@@ -7,5 +7,6 @@
   "Tooltip": "All attacks inflict Bleeding and set enemies ablaze\nPrevents Defiled enemies from regenerating",
   "Rarity": "Orange",
   "Sell": 30000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Messy_Magma_Leech"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "'It's even sharper now'",
   "Rarity": "Green",
   "Sell": 3000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Broken_Fiberglass_Sword"
 }

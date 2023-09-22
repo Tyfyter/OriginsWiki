@@ -12,5 +12,6 @@
   "Velocity": 5.0,
   "Rarity": "LightRed",
   "Sell": 30000,
-  "SpriteWidth": 46
+  "SpriteWidth": 46,
+  "InternalName": "Amenonuhoko"
 }

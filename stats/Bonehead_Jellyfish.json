@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "Quest",
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Bonehead_Jellyfish"
 }

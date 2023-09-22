@@ -9,5 +9,6 @@
   "Tooltip": "Increases minion damage by 10%",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Encrusted_Mask"
 }

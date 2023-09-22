@@ -9,5 +9,6 @@
   "Tooltip": "+10% ranged damage",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Tendon_Helmet"
 }

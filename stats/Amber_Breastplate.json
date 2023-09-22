@@ -10,5 +10,6 @@
   "Tooltip": "-34% explosive self-damage",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Amber_Breastplate"
 }

@@ -13,5 +13,6 @@
   "Tooltip": "'Light 'em up'",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 52
+  "SpriteWidth": 52,
+  "InternalName": "Missile_Minigun"
 }

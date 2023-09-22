@@ -15,5 +15,6 @@
   "Tooltip": "'Infinite ammo, infinite wisdom'",
   "Rarity": "Butterscotch",
   "Sell": 200000,
-  "SpriteWidth": 92
+  "SpriteWidth": 92,
+  "InternalName": "Rigged_Cubix"
 }

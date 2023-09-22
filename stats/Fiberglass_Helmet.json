@@ -9,5 +9,6 @@
   "Tooltip": "'This doesn't seem very protective'",
   "Rarity": "White",
   "Sell": 7500,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Fiberglass_Helmet"
 }

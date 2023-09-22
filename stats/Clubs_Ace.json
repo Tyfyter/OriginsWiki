@@ -7,5 +7,6 @@
   "Tooltip": "Developer item\n'It's my ace in the hole!'",
   "Rarity": "Cyan",
   "Sell": 2500,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Clubs_Ace"
 }

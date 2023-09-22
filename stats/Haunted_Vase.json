@@ -15,5 +15,6 @@
   "Tooltip": "'Try not to disturb the spirits within'",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 50
+  "SpriteWidth": 50,
+  "InternalName": "Haunted_Vase"
 }

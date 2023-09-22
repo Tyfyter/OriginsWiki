@@ -13,5 +13,6 @@
   "UseTime": 28,
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Dissector"
 }

@@ -10,5 +10,6 @@
   "Tooltip": "Increased life regeneration",
   "Rarity": "LightRed",
   "Sell": 4000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Abysswalker_Cloak"
 }

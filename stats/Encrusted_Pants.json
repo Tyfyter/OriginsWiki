@@ -9,5 +9,6 @@
   "Tooltip": "Increases jump height",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Encrusted_Pants"
 }

@@ -9,5 +9,6 @@
   "Tooltip": "5% increased movement speed\nIncreased movement speed on ice",
   "Rarity": "White",
   "Sell": 700,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Cryosten_Greaves"
 }

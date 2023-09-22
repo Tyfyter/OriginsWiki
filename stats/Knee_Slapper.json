@@ -13,5 +13,6 @@
   "Tooltip": "'Fish have feelings too'",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 94
+  "SpriteWidth": 94,
+  "InternalName": "Knee_Slapper"
 }

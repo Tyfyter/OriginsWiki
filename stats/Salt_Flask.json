@@ -7,5 +7,6 @@
   "Tooltip": "Melee and Whip attacks tenderize targets",
   "Rarity": "LightRed",
   "Sell": 500,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Salt_Flask"
 }

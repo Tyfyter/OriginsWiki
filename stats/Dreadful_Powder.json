@@ -9,5 +9,6 @@
   "Tooltip": "Spreads the Defiled",
   "Rarity": "White",
   "Sell": 20,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Dreadful_Powder"
 }

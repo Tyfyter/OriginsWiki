@@ -9,5 +9,6 @@
   "ArmorSlot": "Helmet",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Eyndum_Helmet"
 }

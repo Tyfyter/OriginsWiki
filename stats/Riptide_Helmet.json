@@ -9,5 +9,6 @@
   "Tooltip": "5% increased magic damage\nGreatly extends underwater breathing",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Riptide_Helmet"
 }

@@ -15,5 +15,6 @@
   "Tooltip": "'Its strikes sound like thunder'",
   "Rarity": "Green",
   "Sell": 4000,
-  "SpriteWidth": 42
+  "SpriteWidth": 42,
+  "InternalName": "Felnum_Hamaxe"
 }

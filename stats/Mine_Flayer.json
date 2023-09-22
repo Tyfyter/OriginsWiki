@@ -13,5 +13,6 @@
   "Tooltip": "Releases a barrage of mines when swung\n16.7% chance not to consume ammo",
   "Rarity": "Pink",
   "Sell": 50000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Mine_Flayer"
 }

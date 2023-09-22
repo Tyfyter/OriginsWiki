@@ -7,5 +7,6 @@
   ],
   "Tooltip": "'Great for impersonating Origins devs!'\nForesight is '20/20'",
   "Rarity": "AltCyan",
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Plague_Texan_Sight"
 }

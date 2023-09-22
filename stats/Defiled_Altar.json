@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Defiled/Defiled_Altar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     3,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 54
+  "SpriteWidth": 54,
+  "InternalName": "Defiled_Altar_Item"
 }

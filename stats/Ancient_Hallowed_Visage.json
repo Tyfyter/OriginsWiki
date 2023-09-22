@@ -10,5 +10,6 @@
   "Tooltip": "+15% explosive velocity\n+8% explosive critical strike chance",
   "Rarity": "Pink",
   "Sell": 50000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Ancient_Hallowed_Visage"
 }

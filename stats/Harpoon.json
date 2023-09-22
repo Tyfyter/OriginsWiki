@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "White",
   "Sell": 2500,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Harpoon"
 }

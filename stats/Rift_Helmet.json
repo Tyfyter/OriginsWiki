@@ -10,5 +10,6 @@
   "Tooltip": "Increased explosive velocity",
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Rift_Helmet"
 }

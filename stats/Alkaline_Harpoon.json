@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "LightRed",
   "Sell": 2800,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Alkaline_Harpoon"
 }

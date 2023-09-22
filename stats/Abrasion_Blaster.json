@@ -16,5 +16,6 @@
   "Tooltip": "Shots can destroy tiles\nUses scrap as ammo",
   "Rarity": "LightPurple",
   "Sell": 50000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Abrasion_Blaster"
 }

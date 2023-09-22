@@ -11,5 +11,6 @@
   "Tooltip": "Shoots out a mitosis node that duplicates projectiles",
   "Rarity": "Pink",
   "Sell": 80000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Mitosis"
 }

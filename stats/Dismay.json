@@ -15,5 +15,6 @@
   "Tooltip": "'Very pointy for a book'",
   "Rarity": "LightRed",
   "Sell": 40000,
-  "SpriteWidth": 40
+  "SpriteWidth": 40,
+  "InternalName": "Dismay"
 }

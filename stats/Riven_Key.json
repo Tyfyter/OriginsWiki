@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Riven_Key"
 }

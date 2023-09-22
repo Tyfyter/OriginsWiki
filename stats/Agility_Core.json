@@ -8,5 +8,6 @@
   "Tooltip": "Grants massive boosts in maneuverability",
   "Rarity": "Crimson",
   "Sell": 1000000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Agility_Core"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "Removes all current harmful effects",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Nullification_Potion"
 }

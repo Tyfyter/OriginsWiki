@@ -7,5 +7,6 @@
   "Tooltip": "Major improvements to all stats\n'Let's get this bread!'",
   "Rarity": "White",
   "Sell": 1000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Honey_Bread"
 }

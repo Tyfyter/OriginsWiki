@@ -9,5 +9,6 @@
   "Tooltip": "Increased life regeneration",
   "Rarity": "White",
   "Sell": 700,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Cryosten_Helmet"
 }

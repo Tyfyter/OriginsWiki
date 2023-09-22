@@ -394,6 +394,28 @@ function processCoins(copper = 0, silver = 0, gold = 0, platinum = 0){
 	}
 	return result + '</span>';
 }
+function processToolStats(pick = 0, hammer = 0, axe = 0){
+	var result = '<div class="toolstats">';
+	if(pick){
+		result += '<span class="toolstat">'+
+		'<img title="Pickaxe power" src="https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png" decoding="async" loading="lazy">'+
+		pick+
+		'%</span>';
+	}
+	if(hammer){
+		result += '<span class="toolstat">'+
+		'<img title="Hammer power" src="https://terraria.wiki.gg/images/thumb/5/57/Hammer_icon.png/16px-Hammer_icon.png" decoding="async" loading="lazy">'+
+		hammer+
+		'%</span>';
+	}
+	if(axe){
+		result += '<span class="toolstat">'+
+		'<img title="Axe power" src="https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png" decoding="async" loading="lazy">'+
+		axe+
+		'%</span>';
+	}
+	return result + '</div>';
+}
 async function requestStats(name){
 	var value = await _stats[name];
 	if(value === undefined){
@@ -432,17 +454,10 @@ async function processAutoStats(name = pageName){
 			});
     	}
 		var statistics = {header:"Statistics", items:[]};
-		if(data.PickPower){
+		if (data.PickPower || data.HammerPower || data.AxePower) {
 			statistics.items.push({
-				label:'[link Pickaxe power | | https://terraria.wiki.gg/wiki/Pickaxe_power]',
-				value:data.PickPower+'%'
+				literalvalue: `[toolpower ${data.PickPower || ''} | ${data.HammerPower || ''} | ${data.AxePower || ''}]`
 			});
-		}
-		if(data.HammerPower){
-			statistics.items.push({label:'Hammer power', value:data.HammerPower+'%'});
-		}
-		if(data.AxePower){
-			statistics.items.push({label:'Hammer power', value:data.AxePower+'%'});
 		}
 		if(data.FishPower){
 			statistics.items.push({
@@ -456,16 +471,9 @@ async function processAutoStats(name = pageName){
 				value:data.BaitPower+'%'
 			});
 		}
-		if(data.PickReq){
+		if (data.PickReq || data.HammerReq) {
 			statistics.items.push({
-				label:'Reqired [link Pickaxe power | | https://terraria.wiki.gg/wiki/Pickaxe_power] to destroy',
-				value:data.PickReq+'%'
-			});
-		}
-		if(data.HammerReq){
-			statistics.items.push({
-				label:'Reqired Hammer power to destroy',
-				value:data.HammerReq+'%'
+				literalvalue: `[toolpower ${data.PickReq || ''} | ${data.HammerReq || ''}]`
 			});
 		}
 		if(data.PlacementSize){
@@ -659,6 +667,8 @@ async function processAutoStats(name = pageName){
 		}
 		if (buffs.items.length > 0) values.push(buffs);
 	}
+	console.log('autostatblock:');
+	console.log(values);
 	var result = "<div class=\"statblock ontab0\">";
 	for (let i = 0; i < values.length; i++) {
 		result += processStatBlock(values[i]);
@@ -667,9 +677,6 @@ async function processAutoStats(name = pageName){
 		result += `<div class="internalname">Internal Name: ${data.InternalName}</div>`;//
 	}
 	return result + "</div>";
-	result = '{statblock ';
-	result += ' statblock}';
-	return result;
 }
 async function processStat(...stat){
 	var value = await requestStats((stat[0] + '').trim());
@@ -759,11 +766,16 @@ function processStatBlock(data, depth){
 					var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
 					result += `<img src=${data.items[i].image} ${widthStr}>`;
 				} else {
-					if(data.items[i].label){
-						var klasse = '';
-						if(data.items[i].class){
-							klasse = ' '+data.items[i].class;
-						}
+					var klasse = '';
+					if(data.items[i].class){
+						klasse = ' '+data.items[i].class;
+					}
+					if (data.items[i].literalvalue) {
+						console.log("literal value: "+data.literalvalue);
+						result += '<div class="stat'+klasse+'">' +
+						data.items[i].literalvalue +
+						'</div>';
+					} else if(data.items[i].label){
 						if(data.items[i].value){
 							result += '<div class="stat'+klasse+'">' +
 							data.items[i].label +
@@ -1065,6 +1077,7 @@ async function parseAFML(throwErrors = false){
 	const autoStatRegex = /\[(statblock) ([^\[]*?)]/i;
 	const linkRegex = /\[link ([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
+	const toolPowerRegex = /\[toolpower ([^\[]*?)]/i;
 	
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
@@ -1140,6 +1153,22 @@ async function parseAFML(throwErrors = false){
 			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
 			subsIndex++;
 			item = content.innerHTML.match(coinRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
+
+	try{
+		item = content.innerHTML.match(toolPowerRegex);
+		while(item){
+			console.log(item);
+			let current = pruneLinkArgs(item[1].split('|'));
+			let result = processToolStats(...current);
+			substitutions[subsIndex] = result;
+			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
+			subsIndex++;
+			item = content.innerHTML.match(toolPowerRegex);
 		}
 	}catch(e){
 		console.error(e);

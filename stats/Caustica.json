@@ -14,5 +14,6 @@
   "Tooltip": "Releases a flurry of chaotic sparkles\nDeveloper item",
   "Rarity": "Butterscotch",
   "Sell": 100000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Caustica"
 }

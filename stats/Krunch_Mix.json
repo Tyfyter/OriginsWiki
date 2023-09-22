@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats and further increased regeneration\n'Taste the graynbow'",
   "Rarity": "Orange",
   "Sell": 2000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Krunch_Mix"
 }

@@ -11,5 +11,6 @@
   "Tooltip": "Summons a Flying Exoskeleton to fight for you\nIgnores some enemy defense",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 58
+  "SpriteWidth": 58,
+  "InternalName": "Teardown"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "Uses gel as ammo",
   "Rarity": "White",
   "Sell": 5000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Sleetfire"
 }

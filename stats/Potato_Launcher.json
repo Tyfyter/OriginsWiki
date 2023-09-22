@@ -12,5 +12,6 @@
   "Tooltip": "Uses potatoes for ammo\n'Time to make some mash...'",
   "Rarity": "Blue",
   "Sell": 6500,
-  "SpriteWidth": 54
+  "SpriteWidth": 54,
+  "InternalName": "Potato_Launcher"
 }

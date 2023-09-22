@@ -10,5 +10,6 @@
   "Tooltip": "Chases after marked enemies\n'It just doesn't want to do all the work'",
   "Rarity": "Master",
   "Sell": 60000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Lazy_Cloak"
 }

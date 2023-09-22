@@ -13,5 +13,6 @@
   "Velocity": 8.0,
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Amber_Of_Embers"
 }

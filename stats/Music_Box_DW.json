@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Tiles/MusicBoxes/Music_Box_DW_Item",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Tile"
   ],
   "PlacementSize": [
     2,
@@ -11,5 +12,6 @@
   "UseTime": 10,
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Music_Box_DW_Item"
 }

@@ -11,5 +11,6 @@
   "Velocity": 8.75,
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Slashswarm"
 }

@@ -12,5 +12,6 @@
   "Tooltip": "Receives 50% higher damage bonuses",
   "Rarity": "Green",
   "Sell": 5000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Felnum_Longbow"
 }

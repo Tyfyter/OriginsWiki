@@ -7,5 +7,6 @@
   "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
   "Rarity": "Gray",
   "Sell": 30000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Endless_Explosives"
 }

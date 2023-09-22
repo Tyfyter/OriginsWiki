@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Stone_Mask",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Tile"
   ],
   "PlacementSize": [
     2,
@@ -12,5 +13,6 @@
   "Tooltip": "Increases defense by 8, but your movement is hindered",
   "Rarity": "Blue",
   "Sell": 100000,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Stone_Mask"
 }

@@ -9,5 +9,6 @@
   "ArmorSlot": "Helmet",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Amber_Helmet"
 }

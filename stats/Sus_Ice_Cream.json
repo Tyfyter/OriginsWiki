@@ -6,5 +6,6 @@
   "UseTime": 45,
   "Tooltip": "Summons the Primordial Amoeba\n'This ice cream will eat YOU'",
   "Rarity": "Blue",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Sus_Ice_Cream"
 }

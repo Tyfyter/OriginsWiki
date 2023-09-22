@@ -12,5 +12,6 @@
   "Tooltip": "Explodes into a lingering fire",
   "Rarity": "Orange",
   "Sell": 540,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Hellfire_Bomb"
 }

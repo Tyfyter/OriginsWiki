@@ -15,5 +15,6 @@
   "Tooltip": "Increased mining speed when submerged",
   "Rarity": "LightRed",
   "Sell": 40000,
-  "SpriteWidth": 44
+  "SpriteWidth": 44,
+  "InternalName": "Acrid_Pickaxe"
 }

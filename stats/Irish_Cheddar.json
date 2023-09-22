@@ -7,5 +7,6 @@
   "Tooltip": "Minor improvements to all stats and +8% critical strike chance\n'Certainly a little sharp'",
   "Rarity": "Blue",
   "Sell": 2000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Irish_Cheddar"
 }

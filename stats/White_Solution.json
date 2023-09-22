@@ -7,5 +7,6 @@
   "Tooltip": "Spreads the Defiled",
   "Rarity": "Orange",
   "Sell": 300,
-  "SpriteWidth": 12
+  "SpriteWidth": 12,
+  "InternalName": "White_Solution"
 }

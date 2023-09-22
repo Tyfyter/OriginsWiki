@@ -9,5 +9,6 @@
   "Tooltip": "Spreads the Riven",
   "Rarity": "White",
   "Sell": 20,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Sentient_Powder"
 }

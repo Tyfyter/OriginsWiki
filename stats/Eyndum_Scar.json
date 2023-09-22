@@ -14,5 +14,6 @@
   "Tooltip": "A very lame end-game sword",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 70
+  "SpriteWidth": 70,
+  "InternalName": "Eyndum_Scar"
 }

@@ -14,5 +14,6 @@
   "Tooltip": "Able to mine Hellstone",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Rivenator"
 }

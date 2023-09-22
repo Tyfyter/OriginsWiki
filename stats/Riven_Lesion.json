@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Riven/Riven_Lesion_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     4,
@@ -10,5 +11,6 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Riven_Lesion_Item"
 }

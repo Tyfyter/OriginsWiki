@@ -14,5 +14,6 @@
   "Tooltip": "Shoots a flurry of brine droplets",
   "Rarity": "LightRed",
   "Sell": 2080,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Splashid"
 }

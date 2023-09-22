@@ -7,5 +7,6 @@
   "Tooltip": "All attacks inflict Bleeding\nPrevents Defiled enemies from regenerating",
   "Rarity": "White",
   "Sell": 6000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Messy_Leech"
 }

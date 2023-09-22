@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into several crystal shards",
   "Rarity": "LightRed",
   "Sell": 500,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Crystal_Bomb"
 }

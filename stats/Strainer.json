@@ -14,5 +14,6 @@
   "Tooltip": "Able to mine Hellstone",
   "Rarity": "Green",
   "Sell": 4000,
-  "SpriteWidth": 50
+  "SpriteWidth": 50,
+  "InternalName": "Strainer"
 }

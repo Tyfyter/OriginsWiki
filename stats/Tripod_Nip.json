@@ -8,5 +8,6 @@
   "Tooltip": "Reduces enemy aggression and spawn rates",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Tripod_Nip"
 }

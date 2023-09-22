@@ -9,5 +9,6 @@
   "Knockback": 4.0,
   "Rarity": "White",
   "Sell": 302,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Thermite_Canister"
 }

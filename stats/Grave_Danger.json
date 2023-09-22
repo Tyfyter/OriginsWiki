@@ -9,5 +9,6 @@
   "Tooltip": "Temporarily increases defense by 25% after death",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "Grave_Danger"
 }

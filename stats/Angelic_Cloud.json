@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -9,5 +10,6 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Angelic_Cloud_Item"
 }

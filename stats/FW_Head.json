@@ -6,5 +6,6 @@
   ],
   "ArmorSlot": "Helmet",
   "Rarity": "White",
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "FW_Head"
 }

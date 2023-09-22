@@ -11,5 +11,6 @@
   "Velocity": 16.0,
   "Rarity": "Blue",
   "Sell": 5000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Snapthrow"
 }

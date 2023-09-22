@@ -13,5 +13,6 @@
   "Tooltip": "Fires a stream of needles that bleed enemies\n20% chance not consume ammo",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 64
+  "SpriteWidth": 64,
+  "InternalName": "Blotopus"
 }

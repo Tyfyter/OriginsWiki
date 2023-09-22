@@ -8,5 +8,6 @@
   "Tooltip": "Summons a Defiled blight to light your way",
   "Rarity": "Blue",
   "Sell": 75000,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Suspicious_Looking_Pebble"
 }

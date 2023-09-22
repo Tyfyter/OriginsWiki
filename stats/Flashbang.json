@@ -13,5 +13,6 @@
   "Tooltip": "Dazes enemies upon detonation",
   "Rarity": "White",
   "Sell": 15,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Flashbang"
 }

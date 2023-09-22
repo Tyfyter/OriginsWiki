@@ -7,5 +7,6 @@
   "ArmorSlot": "Pants",
   "Tooltip": "Quite fashionable",
   "Rarity": "Green",
-  "SpriteWidth": 28
+  "SpriteWidth": 28,
+  "InternalName": "Sunflower_Sandal"
 }

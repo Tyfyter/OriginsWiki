@@ -10,5 +10,6 @@
   "Tooltip": "+35% explosive blast radius\n-25% explosive fuse time",
   "Rarity": "Lime",
   "Sell": 60000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Chlorophyte_Visage"
 }

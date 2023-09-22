@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 10
+  "SpriteWidth": 10,
+  "InternalName": "Lunar_Token"
 }

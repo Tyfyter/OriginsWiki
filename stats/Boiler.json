@@ -12,5 +12,6 @@
   "Tooltip": "Uses fireblossoms as ammo",
   "Rarity": "Orange",
   "Sell": 10000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Boiler"
 }

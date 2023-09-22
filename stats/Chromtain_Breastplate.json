@@ -10,5 +10,6 @@
   "Tooltip": "+20 max life",
   "Rarity": "Crimson",
   "Sell": 200000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Chromtain_Breastplate"
 }

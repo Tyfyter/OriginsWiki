@@ -12,5 +12,6 @@
   "Tooltip": "Developer item\n'How's being 96-thousand feet in the air for yah? Thought so'",
   "Rarity": "White",
   "Sell": 20,
-  "SpriteWidth": 36
+  "SpriteWidth": 36,
+  "InternalName": "The_Bird"
 }

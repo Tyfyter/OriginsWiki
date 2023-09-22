@@ -14,5 +14,6 @@
   "Tooltip": "Receives 50% higher damage bonuses\n[tɵlɹɘk]\nSprite needs reshaping to be less like dart rifle\nOn it :)",
   "Rarity": "Lime",
   "Sell": 20000,
-  "SpriteWidth": 62
+  "SpriteWidth": 62,
+  "InternalName": "Tolruk"
 }

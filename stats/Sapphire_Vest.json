@@ -10,5 +10,6 @@
   "Tooltip": "+15% magic speed",
   "Rarity": "Pink",
   "Sell": 20000,
-  "SpriteWidth": 38
+  "SpriteWidth": 38,
+  "InternalName": "Sapphire_Vest"
 }

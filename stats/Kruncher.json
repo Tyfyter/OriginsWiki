@@ -14,5 +14,6 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 5000,
-  "SpriteWidth": 52
+  "SpriteWidth": 52,
+  "InternalName": "Kruncher"
 }

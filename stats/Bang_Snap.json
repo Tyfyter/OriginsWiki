@@ -12,5 +12,6 @@
   "Tooltip": "The Party Girl loves these",
   "Rarity": "White",
   "Sell": 1,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Bang_Snap"
 }

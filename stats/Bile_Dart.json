@@ -11,5 +11,6 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 6,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Bile_Dart"
 }

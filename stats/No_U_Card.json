@@ -8,5 +8,6 @@
   "Tooltip": "Attackers receive 50% of incoming damage and debuffs regardless of immunity\nImmune to most debuffs",
   "Rarity": "LightPurple",
   "Sell": 40000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "No_U_Card"
 }

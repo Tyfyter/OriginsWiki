@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into brine droplets",
   "Rarity": "LightRed",
   "Sell": 210,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Alkaline_Grenade"
 }

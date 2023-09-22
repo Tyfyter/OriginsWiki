@@ -15,5 +15,6 @@
   "Tooltip": "Has a chance to inflict \"Toxic Shock\"\nDeals critical damage on otherwise afflicted enemies",
   "Rarity": "LightRed",
   "Sell": 5000,
-  "SpriteWidth": 100
+  "SpriteWidth": 100,
+  "InternalName": "Viper_Rifle"
 }

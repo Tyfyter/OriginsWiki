@@ -6,5 +6,6 @@
   ],
   "ArmorSlot": "Helmet",
   "Rarity": "Blue",
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "DA_Mask"
 }

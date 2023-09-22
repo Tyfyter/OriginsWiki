@@ -7,5 +7,6 @@
   "Tooltip": "+5% torn severity",
   "Rarity": "LightRed",
   "Sell": 40000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Tainted_Flesh"
 }

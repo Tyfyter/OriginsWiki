@@ -8,5 +8,6 @@
   "Tooltip": "Increases pickup range for mana stars\nChance for mana stars to fall from critical hits",
   "Rarity": "Pink",
   "Sell": 33000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Celestial_Starlight"
 }

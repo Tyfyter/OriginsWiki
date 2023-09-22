@@ -9,5 +9,6 @@
   "Tooltip": "+14% weapon knockback",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Soulhide_Guards"
 }

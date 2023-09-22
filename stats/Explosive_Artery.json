@@ -11,5 +11,6 @@
   "Tooltip": "Nearby bleeding enemies occasionally explode\n'Explosions happen near me 'cause I'm that cool!'",
   "Rarity": "Blue",
   "Sell": 10000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Explosive_Artery"
 }

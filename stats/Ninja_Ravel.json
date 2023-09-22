@@ -8,5 +8,6 @@
   "Tooltip": "Double tap down to transform into a small, rolling ball\nYou may cling to walls and ceilings when raveled\nEnemies are less likely to target you while raveled",
   "Rarity": "Pink",
   "Sell": 120000,
-  "SpriteWidth": 24
+  "SpriteWidth": 24,
+  "InternalName": "Ninja_Ravel"
 }

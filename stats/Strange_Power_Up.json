@@ -9,5 +9,6 @@
   "Tooltip": "The very first sprite.",
   "Rarity": "Cyan",
   "Sell": 200000,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Strange_Power_Up"
 }

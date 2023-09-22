@@ -9,5 +9,6 @@
   "Tooltip": "Emit a small aura of light\n+60 mana capacity",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Riptide_Breastplate"
 }

@@ -7,5 +7,6 @@
   "Tooltip": "Reduces damage received from traps",
   "Rarity": "Green",
   "Sell": 20000,
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Trap_Charm"
 }

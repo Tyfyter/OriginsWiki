@@ -7,5 +7,6 @@
   "Tooltip": "Increased projectile speed\nImmunity to Confusion",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Advanced_Imaging"
 }

@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Sword"
+    "Sword",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -15,5 +16,6 @@
   "Tooltip": "Explodes when stepped on\n'SPUDOW!'",
   "Rarity": "White",
   "Sell": 5000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Potato_Mine"
 }

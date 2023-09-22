@@ -12,5 +12,6 @@
   "Tooltip": "Struck enemies contract a contagious effect",
   "Rarity": "Blue",
   "Sell": 300,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Outbreak_Bomb"
 }

@@ -15,5 +15,6 @@
   "Tooltip": "Increased mining speed when submerged",
   "Rarity": "LightRed",
   "Sell": 30000,
-  "SpriteWidth": 58
+  "SpriteWidth": 58,
+  "InternalName": "Acrid_Drill"
 }

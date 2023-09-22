@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Riven/Riven_Flesh_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PickReq": 65,
   "PlacementSize": [
@@ -10,5 +11,6 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Riven_Flesh_Item"
 }

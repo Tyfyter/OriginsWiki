@@ -11,5 +11,6 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 901,
-  "SpriteWidth": 8
+  "SpriteWidth": 8,
+  "InternalName": "Bile_Bullet"
 }

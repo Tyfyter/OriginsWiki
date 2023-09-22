@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Dawn_Key"
 }

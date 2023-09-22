@@ -5,5 +5,6 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Fiberglass_Wall_Item"
 }

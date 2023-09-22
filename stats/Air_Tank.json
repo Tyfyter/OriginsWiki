@@ -7,5 +7,6 @@
   "Tooltip": "Extends underwater breathing\nImmunity to ‘Suffocation’",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Air_Tank"
 }

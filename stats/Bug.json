@@ -6,5 +6,6 @@
   "UseTime": 10,
   "Tooltip": "'Don't try to smash it, it'll make more problems'",
   "Rarity": "White",
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Bug_Item"
 }

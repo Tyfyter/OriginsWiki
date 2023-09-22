@@ -13,5 +13,6 @@
   "Velocity": 12.0,
   "Rarity": "Crimson",
   "Sell": 50000,
-  "SpriteWidth": 72
+  "SpriteWidth": 72,
+  "InternalName": "Flakjack"
 }

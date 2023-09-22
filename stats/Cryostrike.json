@@ -13,5 +13,6 @@
   "Tooltip": "Shoots a piercing icicle",
   "Rarity": "White",
   "Sell": 4800,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Cryostrike"
 }

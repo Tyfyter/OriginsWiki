@@ -13,5 +13,6 @@
   "Tooltip": "Explodes into shrapnel",
   "Rarity": "Pink",
   "Sell": 800,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Shrapnel_Bomb"
 }

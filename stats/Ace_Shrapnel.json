@@ -14,5 +14,6 @@
   "Tooltip": "Not implemented the way spriter dev wants it\nUses scrap as ammo",
   "Rarity": "LightPurple",
   "Sell": 20000,
-  "SpriteWidth": 54
+  "SpriteWidth": 54,
+  "InternalName": "Ace_Shrapnel"
 }

@@ -5,5 +5,6 @@
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
-  "SpriteWidth": 30
+  "SpriteWidth": 30,
+  "InternalName": "Corruption_Loot_Box"
 }

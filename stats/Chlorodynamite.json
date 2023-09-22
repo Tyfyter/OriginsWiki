@@ -12,5 +12,6 @@
   "Tooltip": "Vines will pull nearby enemies in before detonation",
   "Rarity": "Lime",
   "Sell": 2200,
-  "SpriteWidth": 18
+  "SpriteWidth": 18,
+  "InternalName": "Chlorodynamite"
 }

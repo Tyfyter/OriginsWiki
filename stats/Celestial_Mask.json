@@ -8,5 +8,6 @@
   "Tooltip": "Increase to damage, melee speed, critical strike chance,\nlife regeneration, defense, mining speed, and minion knockback,\nbut your movement is hindered",
   "Rarity": "Yellow",
   "Sell": 180000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Celestial_Mask"
 }

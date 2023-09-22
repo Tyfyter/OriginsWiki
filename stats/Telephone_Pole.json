@@ -14,5 +14,6 @@
   "Tooltip": "'We already have Cellphones'",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 104
+  "SpriteWidth": 104,
+  "InternalName": "Telephone_Pole"
 }

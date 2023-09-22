@@ -14,5 +14,6 @@
   "Tooltip": "'Snap. Crackle. Pop'",
   "Rarity": "Blue",
   "Sell": 15000,
-  "SpriteWidth": 86
+  "SpriteWidth": 86,
+  "InternalName": "Tendon_Tear"
 }

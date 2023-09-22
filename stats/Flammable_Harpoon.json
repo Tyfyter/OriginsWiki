@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "White",
   "Sell": 2600,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Flammable_Harpoon"
 }

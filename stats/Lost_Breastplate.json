@@ -9,5 +9,6 @@
   "Tooltip": "15% increased magic damage",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Lost_Breastplate"
 }

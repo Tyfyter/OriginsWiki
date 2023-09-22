@@ -8,5 +8,6 @@
   "DamageClass": "Ranged",
   "Rarity": "Orange",
   "Sell": 3000,
-  "SpriteWidth": 26
+  "SpriteWidth": 26,
+  "InternalName": "Cursed_Harpoon"
 }

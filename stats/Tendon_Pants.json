@@ -9,5 +9,6 @@
   "Tooltip": "+20% ammo preservation",
   "Rarity": "Blue",
   "Sell": 3000,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Tendon_Pants"
 }

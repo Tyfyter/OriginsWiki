@@ -7,5 +7,6 @@
   "Tooltip": "Increases explosive blast radius by 40% and reduces explosive self-damage by 20%",
   "Rarity": "Green",
   "Sell": 20000,
-  "SpriteWidth": 14
+  "SpriteWidth": 14,
+  "InternalName": "Volatile_Charm"
 }

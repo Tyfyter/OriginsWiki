@@ -13,5 +13,6 @@
   "Tooltip": "Burn.\nUses Thermite Canisters for ammo",
   "Rarity": "LightRed",
   "Sell": 15000,
-  "SpriteWidth": 56
+  "SpriteWidth": 56,
+  "InternalName": "Thermite_Launcher"
 }

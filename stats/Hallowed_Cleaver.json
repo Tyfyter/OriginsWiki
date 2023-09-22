@@ -13,5 +13,6 @@
   "Tooltip": "'Crude and dangerous'",
   "Rarity": "Pink",
   "Sell": 40000,
-  "SpriteWidth": 92
+  "SpriteWidth": 92,
+  "InternalName": "Hallowed_Cleaver"
 }

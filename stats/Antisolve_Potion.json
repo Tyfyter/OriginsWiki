@@ -7,5 +7,6 @@
   "Tooltip": "Grants immunity to 'Toxic Shock' and 'Torn'",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Antisolve_Potion"
 }

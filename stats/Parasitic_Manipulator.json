@@ -10,5 +10,6 @@
   "Velocity": 14.0,
   "Rarity": "Blue",
   "Sell": 43600,
-  "SpriteWidth": 48
+  "SpriteWidth": 48,
+  "InternalName": "Parasitic_Manipulator"
 }

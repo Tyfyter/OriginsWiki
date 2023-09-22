@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Brine/Eitrite_Ore_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PickReq": 150,
   "PlacementSize": [
@@ -12,5 +13,6 @@
   "Tooltip": "'So alkaline-concentrated it could be used as a power source'",
   "Rarity": "Orange",
   "Sell": 1700,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Eitrite_Ore_Item"
 }

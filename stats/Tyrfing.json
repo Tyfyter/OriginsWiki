@@ -13,5 +13,6 @@
   "Tooltip": "Receives 50% higher damage bonuses\nHold right click to stab\n'Behold'",
   "Rarity": "Lime",
   "Sell": 20000,
-  "SpriteWidth": 240
+  "SpriteWidth": 240,
+  "InternalName": "Tyrfing"
 }

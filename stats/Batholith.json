@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Other/Batholith_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PickReq": 250,
   "PlacementSize": [
@@ -11,5 +12,6 @@
   "UseTime": 10,
   "Tooltip": "'Respect your elders'",
   "Rarity": "White",
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Batholith_Item"
 }

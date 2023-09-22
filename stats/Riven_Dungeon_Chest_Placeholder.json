@@ -4,5 +4,6 @@
     "Item"
   ],
   "Rarity": "White",
-  "SpriteWidth": 32
+  "SpriteWidth": 32,
+  "InternalName": "Riven_Dungeon_Chest_Placeholder_Item"
 }

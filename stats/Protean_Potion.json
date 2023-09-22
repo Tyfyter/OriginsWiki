@@ -7,5 +7,6 @@
   "Tooltip": "Half of any weapon boosts are shared across all classes",
   "Rarity": "Blue",
   "Sell": 200,
-  "SpriteWidth": 20
+  "SpriteWidth": 20,
+  "InternalName": "Protean_Potion"
 }

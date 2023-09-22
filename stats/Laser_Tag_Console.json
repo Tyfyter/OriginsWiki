@@ -1,7 +1,8 @@
 {
   "Image": "§ModImage§/Tiles/Other/Laser_Tag_Console_Item",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -11,5 +12,6 @@
   "Tooltip": "Used to set up laser tag matches",
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 16
+  "SpriteWidth": 16,
+  "InternalName": "Laser_Tag_Console_Item"
 }

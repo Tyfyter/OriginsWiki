@@ -12,5 +12,6 @@
   "Tooltip": "Somewhat unaffected by gravity",
   "Rarity": "Green",
   "Sell": 360,
-  "SpriteWidth": 22
+  "SpriteWidth": 22,
+  "InternalName": "Floaty_Bomb"
 }
