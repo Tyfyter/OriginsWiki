@@ -12,11 +12,11 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
-  "LightIntensity": 1.8186532,
+  "LightIntensity": "105%",
   "LightColor": [
-    0.57735026,
-    0.57735026,
-    0.57735026
+    1.0,
+    1.0,
+    1.0
   ],
   "SpriteWidth": 14,
   "InternalName": "Bile_Torch"

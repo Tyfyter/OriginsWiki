@@ -12,6 +12,12 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
+  "LightIntensity": "130%",
+  "LightColor": [
+    0.923077,
+    1.0,
+    0.6923077
+  ],
   "SpriteWidth": 14,
   "InternalName": "Alkahest_Torch"
 }

@@ -95,7 +95,13 @@ async function getCategories(){
 		var genCat = JSON.parse(await _generated_categories);
 		for (let key in genCat) {
 			if (genCat.hasOwnProperty(key)) {
-				_categories[key] = genCat[key];
+				if (_categories.hasOwnProperty(key)) {
+					for(var i = 0; i < _genCat[key].items.length; i++){
+						_categories[key].items[i].push(genCat[key].items[i].replace('\\:', ':'));
+					}
+				} else {
+					_categories[key] = genCat[key];
+				}
 			}
 		}
 	}
@@ -474,6 +480,19 @@ async function processAutoStats(name = pageName){
 		if (data.PickReq || data.HammerReq) {
 			statistics.items.push({
 				literalvalue: `[toolpower ${data.PickReq || ''} | ${data.HammerReq || ''}]`
+			});
+		}
+		if(data.LightIntensity){
+			var torchIcon = '';
+			var torchIntensity = data.LightIntensity;
+			if (data.LightColor) {
+				torchIcon = `<img src="Images/Torch_Icon.png" style="mix-blend-mode: screen;background-color: ${
+					`rgb(${(data.LightColor[0]) * 255}, ${(data.LightColor[1]) * 255}, ${(data.LightColor[2]) * 255})`
+				};">`;
+			}
+			statistics.items.push({
+				label:'Light',
+				value: torchIcon + torchIntensity
 			});
 		}
 		if(data.PlacementSize){

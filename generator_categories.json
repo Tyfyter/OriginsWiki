@@ -20,8 +20,8 @@
     "name":"magic weapons",
     "items":"DamageClass=Magic|ExplosiveMagic"
   },
-  "ranged":{
-    "name":"ranged weapons",
+  "summon":{
+    "name":"summon weapons",
     "items":"DamageClass=Summon|ExplosiveSummon"
   },
   "explosive":{
@@ -31,6 +31,10 @@
   "armor":{
     "name":"armor",
     "items":"Types<Armor"
+  },
+  "tile":{
+    "name":"tile",
+    "items":"Types<Tile"
   },
   "accessories":{
     "name":"accessories",

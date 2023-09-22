@@ -12,6 +12,12 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
+  "LightIntensity": "52.5%-157.5%",
+  "LightColor": [
+    0.14285715,
+    1.0,
+    0.9047619
+  ],
   "SpriteWidth": 14,
   "InternalName": "Riven_Torch"
 }

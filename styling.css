@@ -13,6 +13,7 @@
 	--expert-color:orange;
 	--master-color:maroon;
 	--toolbar-scale: 100%;
+	--tool-power-filter: none;
 }
 
 .theme-dark {
@@ -24,6 +25,7 @@
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
   --box-bg-color: rgb(200, 200, 200, 0.35);
+	--tool-power-filter: invert(100%);
 }
 
 html.background {
@@ -239,6 +241,15 @@ details > summary {
 
 .statvalues > .link {
 	vertical-align: middle;
+}
+
+.toolstats {
+	display: flex;
+	width: 50%;
+	margin: auto;
+}
+.toolstat {
+	margin: auto;
 }
 
 .quoteheader {
