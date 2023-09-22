@@ -304,7 +304,6 @@ function toggleThemeSelector(){
 			}
 			child.src = `Images/themes/theme-${themeName}.png`;
 			themeContainer.appendChild(child);
-			console.log(child);
 		}
 	}
 }
