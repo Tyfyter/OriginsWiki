@@ -1377,7 +1377,7 @@ var parse = async ()=>{
 
 	content.innerHTML = '<div id="toolbar">'+
 		'<div id="toolbar-container">'+
-			'<a href="."><img id="wikilogo"></a>'+
+			'<a href="." style="height: 0;"><img id="wikilogo"></a>'+
 			'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
 			'<img id="lighttoggle" onclick="toggleThemeSelector()">'+
 			'<span id="themeContainer"></span>'+
