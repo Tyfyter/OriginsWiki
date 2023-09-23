@@ -16,6 +16,7 @@
 	--tool-power-filter: none;
 	--themes-offset: 0em;
 	--wiki-logo: url(Images/themes/light-logo-small.png);
+	--wiki-logo-mobile: url(Images/themes/light-logo-small.png);
 }
 
 .theme-dark {
@@ -536,9 +537,6 @@ details > summary {
 
 /* mobile version, make sure to set back to max-aspect-ratio: 1/1*/
 @media (max-aspect-ratio: 1/1){
-	:root {
-		--wiki-logo: url(Images/themes/light-logo.png);
-	}
 	.statblock {
 		float: none;
 		display: table-header-group;
@@ -572,6 +570,7 @@ details > summary {
 		position: initial;
 		left: 0;
 		top: 0;
+		content: var(--wiki-logo);
 	}
 	h1 {
 		margin-top: 3.375rem;
