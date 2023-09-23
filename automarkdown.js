@@ -416,7 +416,7 @@ function processToolStats(pick = 0, hammer = 0, axe = 0){
 	}
 	if(axe){
 		result += '<span class="toolstat">'+
-		'<img title="Axe power" src="https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png" decoding="async" loading="lazy">'+
+		'<img title="Axe power" src="Images/Axe_Icon.png" decoding="async" loading="lazy">'+
 		axe+
 		'%</span>';
 	}
@@ -963,9 +963,9 @@ async function createCategorySegment(){
 		}
 		var cats0 = await getCategories();
 		var cats = [];
-		console.log("cats:");
+		//console.log("cats:");
 		for (let key in cats0) {
-			console.log(key);
+			//console.log(key);
 			if (cats0.hasOwnProperty(key)) {
 				cats.push(key);
 			}
@@ -1205,8 +1205,8 @@ async function parseAFML(throwErrors = false){
 		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
 	];
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
-		console.log(blockRegexes[cycle].class);
 		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
+		if (currentMatch !== null) console.log(blockRegexes[cycle].class);
 		while(currentMatch !== null){
 			console.log("an item");
 			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
@@ -1377,6 +1377,7 @@ var parse = async ()=>{
 
 	content.innerHTML = '<div id="toolbar">'+
 		'<div id="toolbar-container">'+
+			'<a href="."><img id="wikilogo"></a>'+
 			'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
 			'<img id="lighttoggle" onclick="toggleThemeSelector()">'+
 			'<span id="themeContainer"></span>'+

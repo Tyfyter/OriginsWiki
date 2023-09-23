@@ -14,6 +14,7 @@
 	--master-color:maroon;
 	--toolbar-scale: 100%;
 	--tool-power-filter: none;
+	--wiki-logo: url(Images/themes/light-logo-small.png);
 }
 
 .theme-dark {
@@ -53,7 +54,7 @@ a:link {
 }
 
 h1 {
-	margin-top: 0;
+	margin-top: 2.5rem;
 	margin-bottom: 0.2em;
 }
 
@@ -75,6 +76,16 @@ img {
 	image-rendering: pixelated;                 /* Universal support since 2021   */
 	image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
 	-ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+#wikilogo {
+	display: inline-block;
+  height: 2.5em;
+  width: 2.5em;
+  position: fixed;
+  left: calc(-100vw + 1.25em + 100%);
+  top: 0rem;
+	content: var(--wiki-logo);
 }
 
 article > details {
@@ -389,6 +400,10 @@ details > summary {
 	font-size: var(--toolbar-scale);
 }
 
+#toolbar-container {
+	display: flex;
+}
+
 #searchbar {
 	background: transparent;
 	border: none;
@@ -520,6 +535,9 @@ details > summary {
 
 /* mobile version, make sure to set back to max-aspect-ratio: 1/1*/
 @media (max-aspect-ratio: 1/1){
+	:root {
+		--wiki-logo: url(Images/themes/light-logo.png);
+	}
 	.statblock {
 		float: none;
 		display: table-header-group;
@@ -542,6 +560,14 @@ details > summary {
 	}
 	#searchbar {
 		width: calc(100% - 1.25em - 1.25em - 1.25em - 1.25em);
+	}
+	#wikilogo {
+		display: inline-block;
+		height: 1.25em;
+		width: 1.25em;
+		position: initial;
+		left: 0;
+		top: 0;
 	}
 	h1 {
 		margin-top: 2.25rem;
