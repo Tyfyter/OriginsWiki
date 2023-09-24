@@ -443,7 +443,7 @@ function GetSpeedName(useTime) {
 function imagePathPrefix(path){
 	return `${path.startsWith("§")?"":"Images/"}${path}`;
 }
-async function processAutoStats(name = pageName){
+async function processAutoStats(name = pageName, inline){
 	var data = await requestStats(name);
 	if(data === null){
 		return null;
@@ -688,7 +688,7 @@ async function processAutoStats(name = pageName){
 	}
 	console.log('autostatblock:');
 	console.log(values);
-	var result = "<div class=\"statblock ontab0\">";
+	var result = `<div class="${inline ? 'inlinestatblock': 'statblock'} ontab0">`;
 	for (let i = 0; i < values.length; i++) {
 		result += processStatBlock(values[i]);
 	}
@@ -1114,6 +1114,7 @@ async function parseAFML(throwErrors = false){
 
 	const statRegex = /\[(stat) ([^\[]*?)]/i;
 	const autoStatRegex = /\[(statblock) ([^\[]*?)]/i;
+	const inlineAutoStatRegex = /\[(statblock) ([^\[]*?)]/i;
 	const linkRegex = /\[link ([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
 	const toolPowerRegex = /\[toolpower ([^\[]*?)]/i;
@@ -1153,6 +1154,20 @@ async function parseAFML(throwErrors = false){
 			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim()));
 			console.log(['after',content.innerHTML]);
 			item = content.innerHTML.match(autoStatRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
+
+	try{
+		item = content.innerHTML.match(inlineAutoStatRegexegex);
+		while(item){
+			console.log(item);
+			console.log(['before',content.innerHTML]);
+			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim(), true));
+			console.log(['after',content.innerHTML]);
+			item = content.innerHTML.match(inlineAutoStatRegexegex);
 		}
 	}catch(e){
 		console.error(e);
