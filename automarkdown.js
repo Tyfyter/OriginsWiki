@@ -781,7 +781,27 @@ function processStatBlock(data, depth){
 		}
 		if(data.items){
 			for(var i = 0; i < data.items.length; i++){
-				if(data.items[i].image){
+				if(data.items[i].images){
+					result += '<div class="statimagecontainer">';
+					for (let j = 0; j < data.items[i].images.length; j++) {
+						const image = data.items[i].images[j];
+						if (Array.isArray(image)) {
+							if (j > 0) {
+								result += '<div class="statimagedivider"></div>';
+							}
+							result += '<div class="statimagecontainer">';
+							for (let k = 0; k < image.length; k++) {
+								var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j][k] * 0.5}%"`: '';
+								result += `<img src=${image[k]} ${widthStr}>`;
+							}
+							result += '</div>';
+						} else {
+							var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j] * 0.5}%"`: '';
+							result += `<img src=${image} ${widthStr}>`;
+						}
+					}
+					result += '</div>';
+				} else if(data.items[i].image){
 					var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
 					result += `<img src=${data.items[i].image} ${widthStr}>`;
 				} else {

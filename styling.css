@@ -179,6 +179,29 @@ details > summary {
 	border: 1px solid black;
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
+	--tabvis-0:none;
+	--tabvis-1:none;
+	--tabvis-2:none;
+}
+.statimagecontainer {
+	margin: auto;
+	width: fit-content;
+}
+.statimagecontainer > img {
+  margin-left: auto;
+  margin-right: auto;
+}
+.statimagedivider {
+	height: 0px;
+	display: flex;
+	flex-grow: 1;
+	border-bottom: 1px solid var(--article-text-color);
+	margin-bottom: 0em;
+	padding-top: 0em;
+	width: calc(100% + 1rem);
+  margin: 0.2em auto 0.2em auto;
+  left: -0.5rem;
+  position: relative;
 }
 
 .internalname {
@@ -189,7 +212,6 @@ details > summary {
 	font-size: 75%;
 	font-weight: bold;
 	border-top: 1px solid #0008;
-
 }
 
 .expert {
@@ -210,9 +232,6 @@ details > summary {
 
 .statblock {
 	float: right;
-	--tabvis-0:none;
-	--tabvis-1:none;
-	--tabvis-2:none;
 }
 .ontab0 {
 	--tabvis-0:block;
