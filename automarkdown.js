@@ -326,8 +326,8 @@ function getBackground(){
 }
 
 async function processLinkNew(targetName, image, targetPage, note){
-	if (aliases[targetName]) {
-		targetPage = aliases[targetName];
+	if (aliases[targetPage]) {
+		targetPage = aliases[targetPage];
 	}
 	if(image === '$default'){
 		image = undefined;
@@ -338,14 +338,22 @@ async function processLinkNew(targetName, image, targetPage, note){
 		} catch (error) {}
 	}
 	if(targetPage === undefined || targetPage === '$default'){
-		targetPage = (targetName.replaceAll(' ', '_')+linkSuffix);
+		targetPage = targetName.replaceAll(' ', '_');
+		if (aliases[targetPage]) {
+			targetPage = aliases[targetPage];
+		}
+		targetPage = targetPage + linkSuffix
 	}
-	var result = `<a class="link" href="${targetPage}">`;
+	let tag = 'a';
+	if (new URL(targetPage, document.baseURI).href == document.location) {
+		tag = 'b';
+	}
+	var result = `<${tag} class="link" href="${targetPage}">`;
 	if(image){
 		result += `<img src=${image}>`;
 	}
 	if(!targetPage){
-		return targetName + '</a>';
+		return targetName + `</${tag}>`;
 	}
 	if(note){
 		result += '<span class="linkandnote">';
@@ -355,7 +363,7 @@ async function processLinkNew(targetName, image, targetPage, note){
 	}else{
 		result += targetName;
 	}
-	return result + '</a>';
+	return result + `</${tag}>`;
 }
 async function processLink(targetName, image, targetPage, note){
 	return processLinkNew(targetName, image, targetPage, note);
@@ -452,6 +460,7 @@ async function processAutoStats(name = pageName, inline){
 	
     var values = [];
 	if(data.Types.includes("Item")){
+		var setSuffix = data.Types.includes("ArmorSet") ? '(set)' : '';
     	if(data.Image){
 			var widthStr = data.SpriteWidth ? `, spriteWidth:${data.SpriteWidth}`: false;
         	values.push({
@@ -504,7 +513,7 @@ async function processAutoStats(name = pageName, inline){
 		if(data.Defense){
 			statistics.items.push({
 				label:'[link Defense | | https://terraria.wiki.gg/wiki/Defense]',
-				value:data.Defense
+				value:data.Defense + setSuffix
 			});
 			if(data.Tooltip){
 				statistics.items.push({
@@ -568,13 +577,13 @@ async function processAutoStats(name = pageName, inline){
 		if(data.Buy){
 			statistics.items.push({
 				label:'[link Buy | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(data.Buy)
+				value:generateCoinsTag(data.Buy) + setSuffix
 			});
 		}
 		if(data.Sell){
 			statistics.items.push({
 				label:'[link Sell | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(data.Sell)
+				value:generateCoinsTag(data.Sell) + setSuffix
 			});
 		}
 		if(data.Research){
@@ -1092,7 +1101,33 @@ function jsonifyPseudoHjson(item, history){
 	history[time++] = item;
 	return item;
 }
-
+function getScrollTop() {
+    if (typeof window.pageYOffset !== "undefined" ) {
+        // Most browsers
+        return window.pageYOffset;
+    }
+  
+    var d = document.documentElement;
+    if (typeof d.clientHeight !== "undefined") {
+        // IE in standards mode
+        return d.scrollTop;
+    }
+  
+    // IE in quirks mode
+    return document.body.scrollTop;
+}
+function applyScrollToLogo(){
+    let logo = document.getElementById('wikilogo');
+    if (visualViewport.width > visualViewport.height) {
+        logo.style.top = -getScrollTop() + 'px';
+    }
+}
+onscroll = applyScrollToLogo;
+onresize = () => {
+    let logo = document.getElementById('wikilogo');
+	logo.style.top = 0;
+	applyScrollToLogo();
+};
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
@@ -1114,7 +1149,7 @@ async function parseAFML(throwErrors = false){
 
 	const statRegex = /\[(stat) ([^\[]*?)]/i;
 	const autoStatRegex = /\[(statblock) ([^\[]*?)]/i;
-	const inlineAutoStatRegex = /\[(statblock) ([^\[]*?)]/i;
+	const inlineAutoStatRegex = /\[(inlinestatblock) ([^\[]*?)]/i;
 	const linkRegex = /\[link ([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
 	const toolPowerRegex = /\[toolpower ([^\[]*?)]/i;
@@ -1161,13 +1196,13 @@ async function parseAFML(throwErrors = false){
 	}
 
 	try{
-		item = content.innerHTML.match(inlineAutoStatRegexegex);
+		item = content.innerHTML.match(inlineAutoStatRegex);
 		while(item){
 			console.log(item);
 			console.log(['before',content.innerHTML]);
 			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim(), true));
 			console.log(['after',content.innerHTML]);
-			item = content.innerHTML.match(inlineAutoStatRegexegex);
+			item = content.innerHTML.match(inlineAutoStatRegex);
 		}
 	}catch(e){
 		console.error(e);

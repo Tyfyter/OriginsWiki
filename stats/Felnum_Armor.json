@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Felnum_Armor",
+  "Images": [
+    "ArmorSets/Felnum_Armor",
+    "ArmorSets/Felnum_Armor_Female"
+  ],
+  "Defense": 16,
+  "SetBonus": "Moving quickly will build up a static charge to boost your next attack's damage",
+  "Rarity": "Green",
+  "Sell": 120000
+}

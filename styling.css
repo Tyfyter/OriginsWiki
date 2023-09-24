@@ -85,9 +85,10 @@ img {
   height: 2.5em;
   width: 2.5em;
   position: fixed;
-  left: calc(-100vw + 1.25em + 100%);
+  left: calc(-100vw + 100%);
   top: 0rem;
 	content: var(--wiki-logo);
+	margin-left: calc(100vw - 100%);
 }
 
 article > details {
@@ -590,6 +591,7 @@ details > summary {
 		left: 0;
 		top: 0;
 		content: var(--wiki-logo);
+		margin-left: 0px;
 	}
 	h1 {
 		margin-top: 3.375rem;

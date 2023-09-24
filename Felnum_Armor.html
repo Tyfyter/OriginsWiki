@@ -7,41 +7,67 @@
 	</head>
 	<body>
 		<article id="content">
-			<h1>§DisplayName§</h1>
+			<h1>Felnum_Armor</h1>
 			<div class="divider"></div>
 			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				[statblock §Name§]
+				[statblock Felnum_Armor]
 			</span>
 			<span id="error-log"></span>
-#if PageTextMain
+
 			<p>
-			§PageTextMain§
+			WikiGenerator.Felnum_Armor.Armor.Felnum_Armor.MainText
 			</p>
-#endif
+
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Pieces<span class="divider"></span></summary>
-#for PieceNames
-[inlinestatblock §iteratorValue§]
-#endfor
+
+[inlinestatblock Felnum_Helmet]
+
+[inlinestatblock Felnum_Breastplate]
+
+[inlinestatblock Felnum_Greaves]
+
 				</details>
-#if Crafting
+
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
-#if Recipes
+
 					<p><b>Recipes</b></p>
 					<div class="divider"></div>
-					§Recipes§
-#endif
-#if UsedIn
-					<p><b>Used In</b></p>
-					<div class="divider"></div>
-					§UsedIn§
-#endif
+					{recipes
+{
+stations:[
+[link Anvil | $default | https://terraria.wiki.gg/wiki/Anvil]
+]
+items:[
+{
+result:[link Felnum Helmet | $fromStats],
+ingredients:[
+[link Felnum Bar | $fromStats](15)
+]
+}
+{
+result:[link Felnum Breastplate | $fromStats],
+ingredients:[
+[link Felnum Bar | $fromStats](25)
+]
+}
+{
+result:[link Felnum Greaves | $fromStats],
+ingredients:[
+[link Felnum Bar | $fromStats](20)
+]
+}
+]
+}
+recipes}
+
+
 				</details>
-#endif
+
 			</div>
 		</article>
 	</body>
