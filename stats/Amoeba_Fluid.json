@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Riven/Amoeba_Fluid_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Amoeba_Fluid_Item"
+  "InternalName": "Amoeba_Fluid_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Amoeba_Fluid_Item",
+    "Tiles/Amoeba_Fluid"
+  ]
 }

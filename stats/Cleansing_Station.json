@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/Cleansing_Station_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 10000,
   "SpriteWidth": 26,
-  "InternalName": "Cleansing_Station_Item"
+  "InternalName": "Cleansing_Station_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Cleansing_Station_Item",
+    "Tiles/Cleansing_Station"
+  ]
 }

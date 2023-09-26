@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Demolitionist/Potato_Mine",
   "Types": [
     "Item",
     "Weapon",
@@ -17,5 +16,9 @@
   "Rarity": "White",
   "Sell": 5000,
   "SpriteWidth": 22,
-  "InternalName": "Potato_Mine"
+  "InternalName": "Potato_Mine",
+  "Images": [
+    "§ModImage§/Items/Weapons/Demolitionist/Potato_Mine",
+    "Tiles/Potato_Mine"
+  ]
 }

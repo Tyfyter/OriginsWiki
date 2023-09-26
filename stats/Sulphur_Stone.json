@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Brine/Sulphur_Stone_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Sulphur_Stone_Item"
+  "InternalName": "Sulphur_Stone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Sulphur_Stone_Item",
+    "Tiles/Sulphur_Stone"
+  ]
 }

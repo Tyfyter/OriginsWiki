@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Pot",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 100,
   "SpriteWidth": 108,
-  "InternalName": "Riven_Pot_Item"
+  "InternalName": "Riven_Pot_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Pot",
+    "Tiles/Riven_Pot"
+  ]
 }

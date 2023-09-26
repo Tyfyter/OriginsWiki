@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Grass_Seeds",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 4,
   "SpriteWidth": 22,
-  "InternalName": "Defiled_Grass_Seeds"
+  "InternalName": "Defiled_Grass_Seeds",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Grass_Seeds",
+    "Tiles/Defiled_Grass_Seeds"
+  ]
 }

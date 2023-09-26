@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Dungeon_Chest_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 100,
   "SpriteWidth": 32,
-  "InternalName": "Defiled_Dungeon_Chest_Item"
+  "InternalName": "Defiled_Dungeon_Chest_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Dungeon_Chest_Item",
+    "Tiles/Defiled_Dungeon_Chest"
+  ]
 }

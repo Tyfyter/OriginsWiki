@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Dusk/Bleeding_Obsidian_Item",
   "Types": [
     "Item",
     "Tile"
@@ -13,5 +12,9 @@
   "Tooltip": "'Weakens those who touch it'",
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Bleeding_Obsidian_Item"
+  "InternalName": "Bleeding_Obsidian_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dusk/Bleeding_Obsidian_Item",
+    "Tiles/Bleeding_Obsidian"
+  ]
 }

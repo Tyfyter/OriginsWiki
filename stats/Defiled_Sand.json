@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Sand_Item",
   "Types": [
     "Item",
     "Ammo",
@@ -12,5 +11,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Defiled_Sand_Item"
+  "InternalName": "Defiled_Sand_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Sand_Item",
+    "Tiles/Defiled_Sand"
+  ]
 }

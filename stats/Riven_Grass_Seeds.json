@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Riven/Riven_Grass_Seeds",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 4,
   "SpriteWidth": 22,
-  "InternalName": "Riven_Grass_Seeds"
+  "InternalName": "Riven_Grass_Seeds",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Riven_Grass_Seeds",
+    "Tiles/Riven_Grass_Seeds"
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Riven/Encrusted_Ore_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "Blue",
   "Sell": 1300,
   "SpriteWidth": 16,
-  "InternalName": "Encrusted_Ore_Item"
+  "InternalName": "Encrusted_Ore_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Encrusted_Ore_Item",
+    "Tiles/Encrusted_Ore"
+  ]
 }

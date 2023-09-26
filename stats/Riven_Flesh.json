@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Riven/Riven_Flesh_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Riven_Flesh_Item"
+  "InternalName": "Riven_Flesh_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Riven_Flesh_Item",
+    "Tiles/Riven_Flesh"
+  ]
 }

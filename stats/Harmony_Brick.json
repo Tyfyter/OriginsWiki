@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Dawn/Harmony_Brick_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Harmony_Brick_Item"
+  "InternalName": "Harmony_Brick_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dawn/Harmony_Brick_Item",
+    "Tiles/Harmony_Brick"
+  ]
 }

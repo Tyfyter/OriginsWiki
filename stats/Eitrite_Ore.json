@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Brine/Eitrite_Ore_Item",
   "Types": [
     "Item",
     "Tile"
@@ -14,5 +13,9 @@
   "Rarity": "Orange",
   "Sell": 1700,
   "SpriteWidth": 16,
-  "InternalName": "Eitrite_Ore_Item"
+  "InternalName": "Eitrite_Ore_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Eitrite_Ore_Item",
+    "Tiles/Eitrite_Ore"
+  ]
 }

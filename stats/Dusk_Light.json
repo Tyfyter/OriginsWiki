@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Dusk/Dusk_Light_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Dusk_Light_Item"
+  "InternalName": "Dusk_Light_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dusk/Dusk_Light_Item",
+    "Tiles/Dusk_Light"
+  ]
 }

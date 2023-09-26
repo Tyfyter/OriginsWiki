@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Items/Other/Fish/Crusty_Crate",
   "Types": [
     "Item",
     "Tile"
@@ -13,5 +12,9 @@
   "Rarity": "Green",
   "Sell": 10000,
   "SpriteWidth": 34,
-  "InternalName": "Crusty_Crate"
+  "InternalName": "Crusty_Crate",
+  "Images": [
+    "§ModImage§/Items/Other/Fish/Crusty_Crate",
+    "Tiles/Crusty_Crate"
+  ]
 }

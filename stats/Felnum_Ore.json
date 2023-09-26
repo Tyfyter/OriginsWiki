@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/Felnum_Ore_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "Green",
   "Sell": 1000,
   "SpriteWidth": 16,
-  "InternalName": "Felnum_Ore_Item"
+  "InternalName": "Felnum_Ore_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Felnum_Ore_Item",
+    "Tiles/Felnum_Ore"
+  ]
 }

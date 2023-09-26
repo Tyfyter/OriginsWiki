@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/A_Perfect_World_Item",
   "Types": [
     "Item",
     "Tile"
@@ -13,5 +12,9 @@
   "Rarity": "White",
   "Sell": 20000,
   "SpriteWidth": 38,
-  "InternalName": "A_Perfect_World_Item"
+  "InternalName": "A_Perfect_World_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/A_Perfect_World_Item",
+    "Tiles/A_Perfect_World"
+  ]
 }

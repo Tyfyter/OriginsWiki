@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Riven/Riven_Dungeon_Chest_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 100,
   "SpriteWidth": 32,
-  "InternalName": "Riven_Dungeon_Chest_Item"
+  "InternalName": "Riven_Dungeon_Chest_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Riven_Dungeon_Chest_Item",
+    "Tiles/Riven_Dungeon_Chest"
+  ]
 }

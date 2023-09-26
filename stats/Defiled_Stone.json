@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Defiled_Stone_Item"
+  "InternalName": "Defiled_Stone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
+    "Tiles/Defiled_Stone"
+  ]
 }

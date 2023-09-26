@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Angelic_Cloud_Item"
+  "InternalName": "Angelic_Cloud_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
+    "Tiles/Angelic_Cloud"
+  ]
 }

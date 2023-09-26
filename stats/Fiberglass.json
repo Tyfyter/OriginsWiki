@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/Fiberglass_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "Green",
   "SpriteWidth": 16,
-  "InternalName": "Fiberglass_Item"
+  "InternalName": "Fiberglass_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Fiberglass_Item",
+    "Tiles/Fiberglass"
+  ]
 }

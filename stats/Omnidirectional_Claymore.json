@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Demolitionist/Omnidirectional_Claymore",
   "Types": [
     "Item",
     "Weapon",
@@ -17,5 +16,9 @@
   "Rarity": "Pink",
   "Sell": 17500,
   "SpriteWidth": 18,
-  "InternalName": "Omnidirectional_Claymore"
+  "InternalName": "Omnidirectional_Claymore",
+  "Images": [
+    "§ModImage§/Items/Weapons/Demolitionist/Omnidirectional_Claymore",
+    "Tiles/Omnidirectional_Claymore"
+  ]
 }

@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Ice_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Defiled_Ice_Item"
+  "InternalName": "Defiled_Ice_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Ice_Item",
+    "Tiles/Defiled_Ice"
+  ]
 }

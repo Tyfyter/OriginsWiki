@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Defiled/Defiled_Sandstone_Item",
   "Types": [
     "Item",
     "Tile"
@@ -11,5 +10,9 @@
   "UseTime": 10,
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Defiled_Sandstone_Item"
+  "InternalName": "Defiled_Sandstone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Sandstone_Item",
+    "Tiles/Defiled_Sandstone"
+  ]
 }

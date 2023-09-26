@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/Traffic_Cone_Item",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 100,
   "SpriteWidth": 26,
-  "InternalName": "Traffic_Cone_Item"
+  "InternalName": "Traffic_Cone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Traffic_Cone_Item",
+    "Tiles/Traffic_Cone"
+  ]
 }

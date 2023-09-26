@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Other/Batholith_Item",
   "Types": [
     "Item",
     "Tile"
@@ -13,5 +12,9 @@
   "Tooltip": "'Respect your elders'",
   "Rarity": "White",
   "SpriteWidth": 16,
-  "InternalName": "Batholith_Item"
+  "InternalName": "Batholith_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Batholith_Item",
+    "Tiles/Batholith"
+  ]
 }

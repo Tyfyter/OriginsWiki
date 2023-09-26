@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/Dawn/Genesis_Grass_Seeds",
   "Types": [
     "Item",
     "Tile"
@@ -12,5 +11,9 @@
   "Rarity": "White",
   "Sell": 4,
   "SpriteWidth": 22,
-  "InternalName": "Genesis_Grass_Seeds"
+  "InternalName": "Genesis_Grass_Seeds",
+  "Images": [
+    "§ModImage§/Tiles/Dawn/Genesis_Grass_Seeds",
+    "Tiles/Genesis_Grass_Seeds"
+  ]
 }

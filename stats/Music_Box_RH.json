@@ -1,5 +1,4 @@
 {
-  "Image": "§ModImage§/Tiles/MusicBoxes/Music_Box_RH_Item",
   "Types": [
     "Item",
     "Accessory",
@@ -13,5 +12,9 @@
   "Rarity": "LightRed",
   "Sell": 20000,
   "SpriteWidth": 32,
-  "InternalName": "Music_Box_RH_Item"
+  "InternalName": "Music_Box_RH_Item",
+  "Images": [
+    "§ModImage§/Tiles/MusicBoxes/Music_Box_RH_Item",
+    "Tiles/Music_Box_RH"
+  ]
 }
