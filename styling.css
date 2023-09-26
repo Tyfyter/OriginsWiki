@@ -188,6 +188,10 @@ details > summary {
 	margin: auto;
 	width: fit-content;
 }
+.statimagecontainer:not(:has(.statimagecontainer)) {
+	align-items: center;
+	display: flex;
+}
 .statimagecontainer > img {
   margin-left: auto;
   margin-right: auto;

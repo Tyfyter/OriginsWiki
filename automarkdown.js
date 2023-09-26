@@ -467,6 +467,23 @@ async function processAutoStats(name = pageName, inline){
 				header: data.Name || name.replaceAll('_',' '),
 				items:[{image:`${imagePathPrefix(data.Image)}.png`, spriteWidth:widthStr}]
 			});
+    	} else if(data.Images){
+			var widthStr = data.SpriteWidth ? `, spriteWidth:${data.SpriteWidth}`: false;
+			var images = data.Images;
+			for (let i = 0; i < images.length; i++) {
+				const image = images[i];
+				if (Array.isArray(image)) {
+					for (let j = 0; j < image.length; j++) {
+						image[j] = `${imagePathPrefix(image[j])}.png`;
+					}
+				} else {
+					images[i] = `${imagePathPrefix(image)}.png`;
+				}
+			}
+        	values.push({
+				header: data.Name || name.replaceAll('_',' '),
+				items: [{images: images}]
+			});
     	}
 		var statistics = {header:"Statistics", items:[]};
 		if (data.PickPower || data.HammerPower || data.AxePower) {
@@ -800,13 +817,15 @@ function processStatBlock(data, depth){
 							}
 							result += '<div class="statimagecontainer">';
 							for (let k = 0; k < image.length; k++) {
+								let title = (image.endsWith && image[k].endsWith('_Female.png')) ? ' title="female sprite"' : '';
 								var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j][k] * 0.5}%"`: '';
-								result += `<img src=${image[k]} ${widthStr}>`;
+								result += `<img src=${image[k]} ${widthStr} ${title}>`;
 							}
 							result += '</div>';
 						} else {
+							let title = (image.endsWith && image.endsWith('_Female.png')) ? ' title="female sprite"' : '';
 							var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j] * 0.5}%"`: '';
-							result += `<img src=${image} ${widthStr}>`;
+							result += `<img src=${image} ${widthStr} ${title}>`;
 						}
 					}
 					result += '</div>';
