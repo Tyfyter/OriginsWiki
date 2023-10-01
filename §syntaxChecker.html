@@ -22,15 +22,22 @@
 			});
 		});
         
-		function execute() {
-            try{
-                document.getElementById('output').innerHTML = document.getElementById('terminal').textContent;
-                parseAFML(true);
-            }catch(e){
-                document.getElementById('output').innerHTML = JSON.stringify(e);
+		function execute(e) {
+            if (e.altKey) {
+                eval(document.getElementById('terminal').textContent);
+            } else {
+                try{
+                    document.getElementById('output').innerHTML = document.getElementById('terminal').textContent;
+                    parseAFML(true);
+                }catch(e){
+                    document.getElementById('output').innerHTML = JSON.stringify(e);
+                }
             }
 		};
 		</script>
+        <script>
+            preParseCallback = () => document.getElementById('submit').onclick = execute;
+        </script>
         <style>
             #terminal {
                 font-size: large;
@@ -50,7 +57,7 @@
     <body>
 		<h1></h1>
         <span id="terminal" contenteditable spellcheck="false">[statblock Example]{sortablelist {headers:[Name,Crit,Damage,UseTime,{name:DPS,expr:"(item.Damage*(1+item.Crit/100)*(60/item.UseTime)).toFixed(2)"}],items:[Krakram,Riverang]} sortablelist}</span>
-        <button id="submit" type="submit" onclick="execute();">evaluate</button>
+        <button id="submit" type="submit">evaluate</button>
         <article id="content"><div id="output"></div></article>
     </body>
 </html>
