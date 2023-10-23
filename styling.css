@@ -22,14 +22,14 @@
 }
 
 .theme-dark {
-  --article-bg-color: rgb(10, 10, 10);
-  --article-text-color: rgb(200, 200, 200);
-	--article-link-color-base: #2bb9ff;
-	--visited-link-color-base: rgb(140, 125, 255);
+  --article-bg-color: rgb(10, 9, 10);
+  --article-text-color: rgb(218, 218, 218);
+	--article-link-color-base: #2d62e9;
+	--visited-link-color-base: rgb(48, 30, 170);
 	--redlink-color: rgb(255, 62, 62);
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
-  --box-bg-color: rgb(200, 200, 200, 0.35);
+  --box-bg-color: rgba(102, 102, 102, 0.35);
 	--tool-power-filter: invert(100%);
 }
 
@@ -61,6 +61,34 @@
 	--tool-power-filter: invert(60%) sepia(100%) saturate(200%) hue-rotate(90deg);
 	--wiki-logo: url(Images/themes/brinelogo.png);
 	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
+  }
+
+  .theme-dawn {
+	--article-bg-color: rgb(238, 231, 183);
+	--article-text-color: rgb(134, 5, 53);
+	  --article-link-color-base: #0649bc;
+	  --visited-link-color-base: rgb(0, 33, 151);
+	  --redlink-color: rgb(255, 62, 62);
+	--header-bg-color: rgba(10, 10, 10, 0.15);
+	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
+	--box-bg-color: rgba(135, 64, 64, 0.35);
+	  --tool-power-filter: invert(100%);
+	  --wiki-logo: url(Images/themes/dawnlogo.png);
+	  --wiki-logo-mobile: url(Images/themes/dawnlogo.png);
+  }
+
+  .theme-dusk {
+	--article-bg-color: rgb(18, 3, 20);
+	--article-text-color: rgb(224, 150, 245);
+	  --article-link-color-base: #dfe4af;
+	  --visited-link-color-base: rgb(195, 179, 130);
+	  --redlink-color: rgb(255, 62, 62);
+	--header-bg-color: rgba(10, 10, 10, 0.15);
+	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
+	--box-bg-color: rgba(130, 64, 135, 0.35);
+	  --tool-power-filter: invert(100%);
+	  --wiki-logo: url(Images/themes/dusklogo.png);
+	  --wiki-logo-mobile: url(Images/themes/dusklogo.png);
   }
 
 .theme-riven {
