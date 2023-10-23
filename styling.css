@@ -24,8 +24,8 @@
 .theme-dark {
   --article-bg-color: rgb(10, 9, 10);
   --article-text-color: rgb(218, 218, 218);
-	--article-link-color-base: #2d62e9;
-	--visited-link-color-base: rgb(48, 30, 170);
+	--article-link-color-base: #3d74ff;
+	--visited-link-color-base: rgb(61, 39, 203);
 	--redlink-color: rgb(255, 62, 62);
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
