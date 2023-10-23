@@ -34,13 +34,13 @@
 .theme-ashen {
 	--article-bg-color: rgb(39, 28, 27);
 	--article-text-color: rgb(184, 96, 29);
-	  --article-link-color-base: #cbf31a;
-	  --visited-link-color-base: rgb(194, 158, 0);
-	  --redlink-color: rgb(249, 31, 93);
+	--article-link-color-base: #cbf31a;
+	--visited-link-color-base: rgb(194, 158, 0);
+	--redlink-color: rgb(249, 31, 93);
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(159, 111, 81, 0.35);
-	  --tool-power-filter: invert(100%);
+	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/ashenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
   }
@@ -48,13 +48,13 @@
   .theme-brine {
 	--article-bg-color: rgb(20, 38, 39);
 	--article-text-color: rgb(45, 171, 74);
-	  --article-link-color-base: #421af3;
-	  --visited-link-color-base: rgb(30, 116, 107);
-	  --redlink-color: rgb(249, 31, 140);
+	--article-link-color-base: #421af3;
+	--visited-link-color-base: rgb(30, 116, 107);
+	--redlink-color: rgb(249, 31, 140);
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(62, 76, 182, 0.35);
-	  --tool-power-filter: invert(100%);
+	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/brinelogo.png);
 	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
   }
@@ -62,13 +62,13 @@
 .theme-riven {
 	--article-bg-color: rgb(26, 37, 57);
 	--article-text-color: rgb(41, 185, 204);
-	  --article-link-color-base: #0ef2a6;
-	  --visited-link-color-base: rgb(0, 129, 101);
-	  --redlink-color: rgb(255, 62, 62);
+	--article-link-color-base: #0ef2a6;
+	--visited-link-color-base: rgb(0, 129, 101);
+	--redlink-color: rgb(255, 62, 62);
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(152, 188, 255, 0.119);
-	  --tool-power-filter: invert(100%);
+	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/rivenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/rivenlogo.png);
   }
