@@ -10,7 +10,7 @@ const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
 const catLeftQuoteRegex = /(^|(?<!\\):)(\s*)([^{}\[\]\s])/gm;
 const catRightQuoteRegex = /([^{}\[\]\s])(\s*)($|(?<!\\):)/gm;
 
-const themes = ['light', 'dark', 'ashen','brine','riven'];
+const themes = ['light', 'dark', 'ashen', 'brine', 'riven', 'nightsky', 'terminal'];
 
 var lastErrObject;
 
@@ -270,6 +270,7 @@ function refreshSiteSettings(){
 	var lightToggle = document.getElementById('lighttoggle');
 	if(lightToggle){
 		lightToggle.src = "Images/themes/" + "theme-" + theme + lightSettingSuffix;
+		lightToggle.className = 'themeOption-' + theme;
 	}
 
 	const backgroundSettingRegex = /background|nobackground/g;
@@ -304,6 +305,7 @@ function toggleThemeSelector(){
 			if (themeName === currentTheme) continue;
 			var child = document.createElement('img');
 			child.classList.add('themeOption');
+			child.classList.add('themeOption-' + themeName);
 			child.onclick = () => {
 				closeThemeSelector();
 				setSiteSettings('theme', themeName);

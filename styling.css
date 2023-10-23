@@ -6,8 +6,9 @@
 	--redlink-color: rgb(140, 0, 0);
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
+	--subcontents-border-color: darkslategrey;
   --box-bg-color: rgb(235, 235, 235);
-	--toc-border-color:grey;
+	--box-border-color:grey;
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
@@ -41,8 +42,8 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(159, 111, 81, 0.35);
-	--toc-border-color: rgb(184, 96, 29);
-	--tool-power-filter: invert(100%);
+	--box-border-color: rgb(184, 96, 29);
+	--tool-power-filter: invert(50%) sepia(100%) saturate(200%);
 	--wiki-logo: url(Images/themes/ashenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
   }
@@ -56,8 +57,8 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(62, 76, 182, 0.35);
-	--toc-border-color: rgb(30, 116, 107);
-	--tool-power-filter: invert(100%);
+	--box-border-color: rgb(30, 116, 107);
+	--tool-power-filter: invert(60%) sepia(100%) saturate(200%) hue-rotate(90deg);
 	--wiki-logo: url(Images/themes/brinelogo.png);
 	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
   }
@@ -71,11 +72,46 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(152, 188, 255, 0.119);
-	--toc-border-color: rgb(0, 129, 101);
-	--tool-power-filter: invert(100%);
+	--box-border-color: rgb(0, 129, 101);
+	--tool-power-filter: invert(55%) sepia(100%) saturate(200%) hue-rotate(135deg);
 	--wiki-logo: url(Images/themes/rivenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/rivenlogo.png);
-  }
+}
+
+.theme-nightsky {
+	--article-bg-color: #140a44;
+	--article-text-color: #8E8AC4;
+	--article-link-color-base: #43E7E0;
+	--visited-link-color-base: #B870F6;
+	--redlink-color: #EC008C;
+	--header-bg-color: #7F96F026;
+	--subcontents-bg-color: #7F96F026;
+	--subcontents-border-color: #8E8AC466;
+	--box-bg-color: #7F96F059;
+	--box-border-color: #8E8AC4;
+	--expert-color: #FFF17F;
+	--master-color: #E71D00;
+	--tool-power-filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
+	--wiki-logo: url(Images/themes/nightskylogo.png);
+	--wiki-logo-mobile: url(Images/themes/nightskylogo.png);
+}
+
+.themeOption-terminal {
+  image-rendering: smooth;
+}
+.theme-terminal {
+  --article-bg-color: rgb(0, 0, 0);
+  --article-text-color: rgb(0, 255, 0);
+	--article-link-color-base: rgb(0, 0, 255);
+	--visited-link-color-base: rgb(255, 0, 255);
+	--redlink-color: rgb(255, 0, 0);
+  --header-bg-color: rgba(255, 255, 255, 0.15);
+  --subcontents-bg-color: rgb(255, 255, 255, 0.15);
+  --box-bg-color: rgb(255, 255, 255, 0.35);
+	--tool-power-filter: invert(60%) sepia(9001%) saturate(999%) hue-rotate(75deg);
+	--wiki-logo: url(Images/themes/terminal-logo.png);
+	--wiki-logo-mobile: url(Images/themes/terminal-logo.png);
+}
 
 html.background {
 	display: table;
@@ -197,7 +233,7 @@ details > summary {
 	clear: both;
 	width: 95%;
 	background-color: var(--box-bg-color);
-	border: 1px solid black;
+	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	padding-top: 2.5px;
 	padding-bottom: 7.5px;
@@ -229,7 +265,7 @@ details > summary {
 	position: relative;
 	margin: .5em 0 .5em 1em;
 	background-color: var(--box-bg-color);
-	border: 1px solid black;
+	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
 	--tabvis-0:none;
@@ -342,6 +378,9 @@ details > summary {
 .toolstat {
 	margin: auto;
 }
+.toolstat > img {
+	filter: var(--tool-power-filter)
+}
 
 .quoteheader {
 	display: block;
@@ -353,24 +392,24 @@ details > summary {
 	position: relative;
 	margin: .5em 0 .5em 1em;
 	background-color: var(--box-bg-color);
-	border: 1px solid black;
+	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
 }
 .recipetable > thead > tr > th {
   padding: 2px;
   background-color: var(--subcontents-bg-color);
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--box-border-color);
 }
 
 .recipetable > thead > tr > th.middle {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 1px solid var(--box-border-color);
+	border-right: 1px solid var(--box-border-color);
 }
 
 .recipetable > tbody > tr > td {
   padding: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--box-border-color);
 }
 
 .recipetable > tbody > tr > td > .or {
@@ -380,35 +419,35 @@ details > summary {
 }
 
 .recipetable > tbody > tr > td.middle {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-left: 1px solid var(--box-border-color);
+	border-right: 1px solid var(--box-border-color);
 }
 
 .sortablelist {
 	position: relative;
 	margin: .5em 0 .5em 1em;
 	background-color: var(--box-bg-color);
-	border: 1px solid black;
+	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
 }
 .sortablelist > thead > tr > th {
   padding: 2px;
   background-color: var(--subcontents-bg-color);
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--box-border-color);
 }
 
 .sortablelist > thead > tr > th.notleft {
-	border-left: 1px solid black;
+	border-left: 1px solid var(--box-border-color);
 }
 
 .sortablelist > tbody > tr > td {
   padding: 10px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid var(--box-border-color);
 }
 
 .sortablelist > tbody > tr > td.notleft {
-	border-left: 1px solid black;
+	border-left: 1px solid var(--box-border-color);
 }
 
 .sortindex {
