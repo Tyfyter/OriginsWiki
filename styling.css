@@ -1,9 +1,9 @@
 :root {
   --article-bg-color: rgb(255, 255, 255);
   --article-text-color: rgb(0, 0, 0);
-	--article-link-color-base: rgb(0, 102, 204);
-	--visited-link-color-base: rgb(85, 26, 139);
-	--redlink-color: rgb(140, 0, 0);
+	--article-link-color-base: rgb(167, 0, 204);
+	--visited-link-color-base: rgb(139, 26, 128);
+	--redlink-color: rgb(238, 0, 0);
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
 	--subcontents-border-color: darkslategrey;
