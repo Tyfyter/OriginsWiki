@@ -24,8 +24,8 @@
 .theme-dark {
   --article-bg-color: rgb(10, 9, 10);
   --article-text-color: rgb(218, 218, 218);
-	--article-link-color-base: #3d74ff;
-	--visited-link-color-base: rgb(61, 39, 203);
+	--article-link-color-base: #2bb9ff;
+	--visited-link-color-base: rgb(140, 125, 255);
 	--redlink-color: rgb(255, 62, 62);
   --header-bg-color: rgba(10, 10, 10, 0.15);
   --subcontents-bg-color: rgb(10, 10, 10, 0.15);
@@ -239,7 +239,7 @@ details > summary {
 }
 
 #table-of-contents {
-	border: 1px solid var(--toc-border-color);
+	border: 1px solid var(--box-border-color);
 	/*display: table;*/
 	margin: 0 0.5em 0;
 	border-radius: 5px;
@@ -247,7 +247,7 @@ details > summary {
 }
 
 #table-of-contents-details {
-	border: 1px solid var(--toc-border-color);
+	border: 1px solid var(--box-border-color);
 	margin: 0px;
 	padding: 0.2em;
 }
