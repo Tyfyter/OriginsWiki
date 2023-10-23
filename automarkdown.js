@@ -10,7 +10,7 @@ const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
 const catLeftQuoteRegex = /(^|(?<!\\):)(\s*)([^{}\[\]\s])/gm;
 const catRightQuoteRegex = /([^{}\[\]\s])(\s*)($|(?<!\\):)/gm;
 
-const themes = ['light', 'dark'];
+const themes = ['light', 'dark', 'ashen','brine','riven'];
 
 var lastErrObject;
 
