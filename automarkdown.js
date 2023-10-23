@@ -1157,7 +1157,7 @@ async function parseAFML(throwErrors = false){
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
 		toc.innerHTML = '';//"<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
-		var contents = '<details style = "border: 1px solid grey; margin: 0px; padding: 0.2em;" open><summary>Contents<span class="divider"></span></summary>'
+		var contents = '<details id="table-of-contents-details" open><summary>Contents<span class="divider"></span></summary>'
 		forDescendants(content, (v, i) => {
 			contents += '<div style="margin-left: '+0.2*i.length+'em"><a class="toc-link"  href=#'+v.id+'>'+i+'. '+getSummaryOrId(v)+'</a></div>'
 		}, (v) => v.className == 'section', (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");

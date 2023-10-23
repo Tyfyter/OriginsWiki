@@ -7,6 +7,7 @@
   --header-bg-color: rgba(0, 0, 0, 0.15);
   --subcontents-bg-color: rgb(0, 0, 0, 0.15);
   --box-bg-color: rgb(235, 235, 235);
+	--toc-border-color:grey;
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
 	--visited-link-color: var(--visited-link-color-base);
@@ -40,6 +41,7 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(159, 111, 81, 0.35);
+	--toc-border-color: rgb(184, 96, 29);
 	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/ashenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
@@ -54,6 +56,7 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(62, 76, 182, 0.35);
+	--toc-border-color: rgb(30, 116, 107);
 	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/brinelogo.png);
 	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
@@ -68,6 +71,7 @@
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(152, 188, 255, 0.119);
+	--toc-border-color: rgb(0, 129, 101);
 	--tool-power-filter: invert(100%);
 	--wiki-logo: url(Images/themes/rivenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/rivenlogo.png);
@@ -171,11 +175,17 @@ details > summary {
 }
 
 #table-of-contents {
-	border: 1px solid grey;
+	border: 1px solid var(--toc-border-color);
 	/*display: table;*/
 	margin: 0 0.5em 0;
 	border-radius: 5px;
 	float: left;
+}
+
+#table-of-contents-details {
+	border: 1px solid var(--toc-border-color);
+	margin: 0px;
+	padding: 0.2em;
 }
 
 .toc-link {
