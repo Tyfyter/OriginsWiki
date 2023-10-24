@@ -6,6 +6,11 @@
       Defiled_Amalgamation
     ]
   }
+  weapons: {
+    name: weapons
+    page: Weapons
+    items:[]
+  }
   special:{
     name:special
     items:[
