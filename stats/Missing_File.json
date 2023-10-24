@@ -11,7 +11,7 @@
   "Knockback": 3.0,
   "UseTime": 30,
   "Velocity": 12.0,
-  "Tooltip": "Click on the portrait of the targetted enemy for a damage bonus\n'Let's demake some code...'",
+  "Tooltip": "Click on the portrait of the targeted enemy for a damage bonus\n'Let's demake some code...'",
   "Rarity": "Yellow",
   "Sell": 20000,
   "SpriteWidth": 24,

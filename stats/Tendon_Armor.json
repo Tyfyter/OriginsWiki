@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Tendon_Armor",
+  "Images": [
+    "ArmorSets/Tendon_Armor",
+    "ArmorSets/Tendon_Armor_Female"
+  ],
+  "Defense": 10,
+  "SetBonus": "Increased mobility based on available lifeforce",
+  "Rarity": "Blue",
+  "Sell": 45000
+}

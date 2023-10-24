@@ -1,0 +1,19 @@
+{
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 15,
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 34,
+  "InternalName": "Festering_Crate",
+  "Images": [
+    "§ModImage§/Items/Other/Fish/Festering_Crate",
+    "Tiles/Festering_Crate"
+  ]
+}

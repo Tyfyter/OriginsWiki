@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Eyndum_Armor",
+  "Images": [
+    "ArmorSets/Eyndum_Armor",
+    "ArmorSets/Eyndum_Armor_Female"
+  ],
+  "Defense": 36,
+  "SetBonus": "",
+  "Rarity": "Crimson",
+  "Sell": 3000000
+}

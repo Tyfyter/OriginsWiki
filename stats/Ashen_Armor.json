@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Ashen_Armor",
+  "Images": [
+    "ArmorSets/Ashen_Armor",
+    "ArmorSets/Ashen_Armor_Female"
+  ],
+  "Defense": 19,
+  "SetBonus": "+15% knockback and knockback resistance\n-15% self-damage",
+  "Rarity": "Blue",
+  "Sell": 150000
+}

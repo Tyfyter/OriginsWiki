@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Shrap_Stack",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": "Double the gunpowder, double the fun.",
+  "Rarity": "Expert",
+  "Sell": 20000,
+  "SpriteWidth": 10,
+  "InternalName": "Shrap_Stack"
+}

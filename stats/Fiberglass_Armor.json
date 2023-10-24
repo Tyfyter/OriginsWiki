@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Fiberglass_Armor",
+  "Images": [
+    "ArmorSets/Fiberglass_Armor",
+    "ArmorSets/Fiberglass_Armor_Female"
+  ],
+  "Defense": 16,
+  "SetBonus": "Weapon damage increased by 4",
+  "Rarity": "White",
+  "Sell": 90000
+}

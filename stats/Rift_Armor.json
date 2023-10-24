@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Rift_Armor",
+  "Images": [
+    "ArmorSets/Rift_Armor",
+    "ArmorSets/Rift_Armor_Female"
+  ],
+  "Defense": 26,
+  "SetBonus": "Explosive projectiles have a chance to be duplicated",
+  "Rarity": "Pink",
+  "Sell": 300000
+}

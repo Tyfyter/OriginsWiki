@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Cinder_Seal",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Damage": 12,
+  "DamageClass": "",
+  "Knockback": 3.0,
+  "Rarity": "Blue",
+  "Sell": 42000,
+  "SpriteWidth": 20,
+  "InternalName": "Cinder_Seal"
+}

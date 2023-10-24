@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Soulhide_Armor",
+  "Images": [
+    "ArmorSets/Soulhide_Armor",
+    "ArmorSets/Soulhide_Armor_Female"
+  ],
+  "Defense": 10,
+  "SetBonus": "Nearby enemies are afflicted 'Shadowflame' and 'Weak'",
+  "Rarity": "Blue",
+  "Sell": 45000
+}

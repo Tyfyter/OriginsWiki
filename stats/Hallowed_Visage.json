@@ -1,15 +1,16 @@
 {
-  "Image": "§ModImage§/Items/Armor/Other/Hallowed_Visage",
   "Types": [
     "Item",
-    "Hardmode",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "Defense": 3,
-  "ArmorSlot": "Helmet",
-  "Tooltip": "+15% explosive velocity\n+8% explosive critical strike chance",
+  "SetName": "Hallowed_Visage",
+  "Images": [
+    "ArmorSets/Hallowed_Visage",
+    "ArmorSets/Hallowed_Visage_Female"
+  ],
+  "Defense": 29,
+  "SetBonus": "Become immune after striking an enemy",
   "Rarity": "Pink",
-  "Sell": 50000,
-  "SpriteWidth": 20,
-  "InternalName": "Hallowed_Visage"
+  "Sell": 600000
 }

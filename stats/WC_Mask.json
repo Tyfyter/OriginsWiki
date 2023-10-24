@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "WC_Mask",
+  "Images": [
+    "ArmorSets/WC_Mask"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 0
+}

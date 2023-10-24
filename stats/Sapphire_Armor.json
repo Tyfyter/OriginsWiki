@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Sapphire_Armor",
+  "Images": [
+    "ArmorSets/Sapphire_Armor",
+    "ArmorSets/Sapphire_Armor_Female"
+  ],
+  "Defense": 21,
+  "SetBonus": "Generate a massive aura that pushes away enemies and projectiles\nharder the closer they are to you. Allies receive a minor boost in stats when in\nthe aura. Fades as you run out of mana",
+  "Rarity": "Pink",
+  "Sell": 300000
+}

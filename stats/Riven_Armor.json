@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Riven_Armor",
+  "Images": [
+    "ArmorSets/Riven_Armor",
+    "ArmorSets/Riven_Armor_Female"
+  ],
+  "Defense": 19,
+  "SetBonus": "+10% torn severity",
+  "Rarity": "Blue",
+  "Sell": 120000
+}

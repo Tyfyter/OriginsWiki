@@ -1,11 +1,15 @@
 {
-  "Image": "§ModImage§/Items/Armor/Vanity/BossMasks/DA_Mask",
   "Types": [
     "Item",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "ArmorSlot": "Helmet",
+  "SetName": "DA_Mask",
+  "Images": [
+    "ArmorSets/DA_Mask"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
   "Rarity": "Blue",
-  "SpriteWidth": 24,
-  "InternalName": "DA_Mask"
+  "Sell": 0
 }

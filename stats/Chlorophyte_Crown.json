@@ -1,15 +1,16 @@
 {
-  "Image": "§ModImage§/Items/Armor/Other/Chlorophyte_Crown",
   "Types": [
     "Item",
-    "Hardmode",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "Defense": 2,
-  "ArmorSlot": "Helmet",
-  "Tooltip": "Increases summon damage by 12%\nIncreases artifact minion damage by 15%\nIncreases your max number of minions by 1",
+  "SetName": "Chlorophyte_Crown",
+  "Images": [
+    "ArmorSets/Chlorophyte_Crown",
+    "ArmorSets/Chlorophyte_Crown_Female"
+  ],
+  "Defense": 33,
+  "SetBonus": "Summons a powerful leaf crystal to shoot at nearby enemies,\nand increases your max number of minions by 2",
   "Rarity": "Lime",
-  "Sell": 60000,
-  "SpriteWidth": 24,
-  "InternalName": "Chlorophyte_Crown"
+  "Sell": 720000
 }

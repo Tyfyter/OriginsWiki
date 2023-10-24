@@ -1,11 +1,15 @@
 {
-  "Image": "§ModImage§/Items/Armor/Vanity/BossMasks/FW_Head",
   "Types": [
     "Item",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "ArmorSlot": "Helmet",
+  "SetName": "FW_Head",
+  "Images": [
+    "ArmorSets/FW_Head"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
   "Rarity": "White",
-  "SpriteWidth": 30,
-  "InternalName": "FW_Head"
+  "Sell": 0
 }

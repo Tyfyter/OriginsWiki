@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Tools/Piledriver",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 46,
+  "DamageClass": "Melee",
+  "Knockback": 9.0,
+  "UseTime": 60,
+  "Velocity": 4.0,
+  "Tooltip": "Right Click to mine a larger area",
+  "Rarity": "Blue",
+  "Sell": 4000,
+  "SpriteWidth": 72,
+  "InternalName": "Piledriver"
+}

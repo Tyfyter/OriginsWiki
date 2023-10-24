@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Necromancer_Armor",
+  "Images": [
+    "ArmorSets/Necromancer_Armor",
+    "ArmorSets/Necromancer_Armor_Female"
+  ],
+  "Defense": 31,
+  "SetBonus": "Slain enemies provide a temporary boost to all stats\nMana usage is halved when in a Graveyard and artifact minions cost half as much\nEnemies spawn more frequently\n+3 minion slots",
+  "Rarity": "Yellow",
+  "Sell": 750000
+}

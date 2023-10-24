@@ -1,0 +1,19 @@
+{
+  "Types": [
+    "Item",
+    "Ammo",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Silica_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Silica_Item",
+    "Tiles/Silica"
+  ]
+}

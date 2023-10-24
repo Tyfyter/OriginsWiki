@@ -1,11 +1,15 @@
 {
-  "Image": "§ModImage§/Items/Armor/Vanity/Other/Cranivore_Beanie",
   "Types": [
     "Item",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "ArmorSlot": "Helmet",
+  "SetName": "Cranivore_Beanie",
+  "Images": [
+    "ArmorSets/Cranivore_Beanie"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
   "Rarity": "Blue",
-  "SpriteWidth": 22,
-  "InternalName": "Cranivore_Beanie"
+  "Sell": 0
 }

@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Encrusted_Armor",
+  "Images": [
+    "ArmorSets/Encrusted_Armor",
+    "ArmorSets/Encrusted_Armor_Female"
+  ],
+  "Defense": 10,
+  "SetBonus": "Increases minion damage by up to 30% when over half health",
+  "Rarity": "Blue",
+  "Sell": 45000
+}

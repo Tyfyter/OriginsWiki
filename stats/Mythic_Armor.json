@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Mythic_Armor",
+  "Images": [
+    "ArmorSets/Mythic_Armor",
+    "ArmorSets/Mythic_Armor_Female"
+  ],
+  "Defense": 12,
+  "SetBonus": "Explosive damage and velocity increased by movement speed",
+  "Rarity": "Green",
+  "Sell": 105000
+}

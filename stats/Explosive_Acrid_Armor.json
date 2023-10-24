@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Explosive_Acrid_Armor",
+  "Images": [
+    "ArmorSets/Explosive_Acrid_Armor",
+    "ArmorSets/Explosive_Acrid_Armor_Female"
+  ],
+  "Defense": 34,
+  "SetBonus": "All attacks inflict 'Toxic Shock'\nImmunity to 'Toxic Shock', 'Acid Venom', and 'Poisoned' debuffs\nExtends underwater breathing",
+  "Rarity": "LightRed",
+  "Sell": 290000
+}

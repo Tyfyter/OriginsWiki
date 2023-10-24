@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Tools/Miter_Saw",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Tool"
+  ],
+  "AxePower": 10,
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 0.8,
+  "UseTime": 5,
+  "Tooltip": "Right Click while holding for an alternate attack",
+  "Rarity": "Green",
+  "Sell": 4000,
+  "SpriteWidth": 48,
+  "InternalName": "Miter_Saw"
+}

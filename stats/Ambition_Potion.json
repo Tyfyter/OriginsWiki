@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Ambition_Potion",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Rarity": "Blue",
+  "Sell": 200,
+  "SpriteWidth": 20,
+  "InternalName": "Ambition_Potion"
+}
