@@ -564,7 +564,7 @@ details > summary {
 }
 #searchlinks {
 	clear:both;
-	overflow-y: scroll;
+	overflow-y: auto;
 	max-height: calc(100vh - 1.25em - 0.55rem - 10px);
 }
 .selectedSearch {

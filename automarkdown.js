@@ -56,6 +56,7 @@ var defaultStats;
 var aliases = false;
 var _stats = {};
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
+pageName = decodeURI(pageName);
 _stats[pageName] = new Promise((resolve, reject) => {
 		requestPageText('stats/'+pageName + '.json').then((v) => {
 			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null: v;
@@ -96,8 +97,8 @@ async function getCategories(){
 		for (let key in genCat) {
 			if (genCat.hasOwnProperty(key)) {
 				if (_categories.hasOwnProperty(key)) {
-					for(var i = 0; i < _genCat[key].items.length; i++){
-						_categories[key].items[i].push(genCat[key].items[i].replace('\\:', ':'));
+					for(var i = 0; i < genCat[key].items.length; i++){
+						_categories[key].items.push(genCat[key].items[i].replace('\\:', ':'));
 					}
 				} else {
 					_categories[key] = genCat[key];
@@ -725,6 +726,7 @@ async function processAutoStats(name = pageName, inline){
 	}
 	return result + "</div>";
 }
+
 async function processStat(...stat){
 	var value = await requestStats((stat[0] + '').trim());
 	if(value === null){
@@ -922,7 +924,7 @@ async function processSortableList(data){
 	if (!defaultStats) defaultStats = JSON.parse(await requestStats("Defaults"));
 	var result = '<thead><tr>';
 	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name',expr:'processLink(item.Name, `${imagePathPrefix(item.Name)}.png`)',sortIndex:'item.Name',noAbbr:true};
+		data.headers[0] = {name:'Name',expr:'processLink(item.Name, "$fromStats")',sortIndex:'item.Name',noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
 		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
@@ -949,7 +951,7 @@ async function processSortableList(data){
 		for(var j = 0; j < data.headers.length; j++){
 			var displayValue = item[data.headers[j]];
 			if (data.headers[j].expr){
-				console.log(data.headers[j].expr+';');
+				//console.log(data.headers[j].expr+';');
 				displayValue = await new Function('item', 'return '+data.headers[j].expr+';')(item);
 			}
 			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>
@@ -959,7 +961,7 @@ async function processSortableList(data){
 		result += '</tr>';
 	}
 	result += '</tbody>';
-	console.log(result);
+	//console.log(result);
 	return result;
 }
 function clickSortableList(event, index){
@@ -1004,6 +1006,30 @@ function sortSortableList(target, index){
 			return a > b;
 		}
 	}));
+}
+
+async function substituteAutoSortableList(list){
+	return `<table class="sortablelist deferred listsource-${list}"></table>`;
+}
+
+async function processAutoSortableList(table, list){
+	console.log(`processing sortable list "${list}"`);
+	list = requestStats("statLists/" + list);
+	if (!list) {
+		table.innerHTML = `could not find statList ${list}`;
+		return;
+	}
+	var cats = await getCategories();
+	var data = JSON.parse(await list);
+	data.items = [];
+	var currentCat;
+	for (var i = 0; i < data.categories.length; i++) {
+		currentCat = cats[data.categories[i]];
+		for (var j = 0; j < currentCat.items.length; j++) {
+			data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
+		}
+	}
+	return await processSortableList(data);
 }
 
 async function createCategorySegment(){
@@ -1149,6 +1175,16 @@ onresize = () => {
 	logo.style.top = 0;
 	applyScrollToLogo();
 };
+function replaceBasicSubstitutions(text) {
+	text = text.replaceAll("§l§", '<div class="l-connector"></div>');
+	text = text.replaceAll("§L§", '<div class="L-connector"></div>');
+	text = text.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert</a>');
+	text = text.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
+	text = text.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
+	text = text.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
+	text = text.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
+	return text;
+}
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
@@ -1174,6 +1210,7 @@ async function parseAFML(throwErrors = false){
 	const linkRegex = /\[link ([^\[]*?)]/i;
 	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
 	const toolPowerRegex = /\[toolpower ([^\[]*?)]/i;
+	const autoSortableListRegex = /\[(sortablelist) ([^\[]*?)]/i;
 	
 	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
 	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
@@ -1224,6 +1261,20 @@ async function parseAFML(throwErrors = false){
 			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim(), true));
 			console.log(['after',content.innerHTML]);
 			item = content.innerHTML.match(inlineAutoStatRegex);
+		}
+	}catch(e){
+		console.error(e);
+		if(throwErrors) throw {sourceError:e, data:item};
+	}
+	
+	try{
+		item = content.innerHTML.match(autoSortableListRegex);
+		while(item){
+			console.log(item);
+			console.log(['before',content.innerHTML]);
+			content.innerHTML = content.innerHTML.replace(item[0], await substituteAutoSortableList(item[2].trim()));
+			console.log(['after',content.innerHTML]);
+			item = content.innerHTML.match(autoSortableListRegex);
 		}
 	}catch(e){
 		console.error(e);
@@ -1386,13 +1437,7 @@ async function parseAFML(throwErrors = false){
 		console.error(e);
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
-	content.innerHTML = content.innerHTML.replaceAll("§l§", '<div class="l-connector"></div>');
-	content.innerHTML = content.innerHTML.replaceAll("§L§", '<div class="L-connector"></div>');
-	content.innerHTML = content.innerHTML.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert</a>');
-	content.innerHTML = content.innerHTML.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
-	content.innerHTML = content.innerHTML.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
-	content.innerHTML = content.innerHTML.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
-	content.innerHTML = content.innerHTML.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
+	content.innerHTML = replaceBasicSubstitutions(content.innerHTML);
 	//*/
 	//let item of content.innerHTML.matchAll(biomeContentRegex)
 	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
@@ -1414,6 +1459,33 @@ async function parseAFML(throwErrors = false){
 		result += "</div>";
 	}*/
 //});
+	var deferred = document.getElementsByClassName("deferred");
+	let processedLists = [];
+	for (let index = 0; index < deferred.length; index++) {
+		const element = deferred[index];
+		if (element.classList.contains('sortablelist')) {
+			var list;
+			for (let index = 0; index < element.classList.length; index++) {
+				list = element.classList[index];
+				if (list.startsWith('listsource-')) {
+					list = list.replace('listsource-', '');
+					break;
+				}
+				list = null;
+			}
+			if (processedLists.includes(list)) continue;
+			processedLists.push(list);
+			console.log(element);
+			processAutoSortableList(element, list).then(function name(params) {
+				console.log(list);
+				params = replaceBasicSubstitutions(params);
+				var tables = document.getElementsByClassName('listsource-' + list);
+				for (let index = 0; index < tables.length; index++) {
+					tables[index].innerHTML = params;
+				}
+			});
+		}
+	}
 }
 var onSearchbarInput = async (e)=>{
 	var searchbar = document.getElementById("searchbar");
@@ -1460,13 +1532,52 @@ var onSearchbarKeyDown = (e)=>{
 		}
 	}
 };
+function createElementWith(tag) {
+	let element = document.createElement(tag);
+	for (let index = 1; index < arguments.length; index++) {
+		const arg = arguments[index];
+		element[arg[0]] = arg[1];
+	}
+	return element;
+}
+function withChildren(parent) {
+	for (let index = 1; index < arguments.length; index++) {
+		parent.appendChild(arguments[index]);
+	}
+	return parent;
+}
 var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
 	await parseAFML();
 	var content = document.getElementById("content");
 	console.log('1');
-
-	content.innerHTML = '<div id="toolbar">'+
+	
+	content.insertBefore(
+		withChildren(createElementWith('div', ['id', 'toolbar']),
+			withChildren(createElementWith('div', ['id', 'toolbar-container']),
+				withChildren(createElementWith('a', ['href', '.'], ['style', 'height: 0;']),
+					createElementWith('img', ['id', 'wikilogo'])
+				),
+				withChildren(createElementWith('svg', ["xmlns", "http://www.w3.org/2000/svg"], ["id", "bgtoggle"]),//, [viewBox="0 0 24 18"]
+					createElementWith('path', ['d', ''])
+				),
+				createElementWith('img', ['id', 'lighttoggle']),
+				createElementWith('span', ['id', 'themeContainer']),
+				createElementWith('input', ['id', 'searchbar'], ['placeholder', 'Search Origins wiki']),
+				withChildren(createElementWith('svg', ["xmlns", "http://www.w3.org/2000/svg"], ["id", "searchIcon"]),),
+			),
+			createElementWith('div', ['id', 'searchlinks'])
+		),
+	content.childNodes[0]);
+	document.getElementById('bgtoggle').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>';
+	//document.getElementById('bgtoggle').onclick = () => setBackground(!getBackground());
+	document.getElementById('lighttoggle').outerHTML = '<img id="lighttoggle" onclick="toggleThemeSelector()">';
+	document.getElementById('searchbar').outerHTML = '<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">';
+	document.getElementById('searchIcon').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
+	'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
+	'</svg>';
+	//document.getElementById('searchSymbol').onclick = search;
+	/*content.innerHTML = '<div id="toolbar">'+
 		'<div id="toolbar-container">'+
 			'<a href="." style="height: 0;"><img id="wikilogo"></a>'+
 			'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
@@ -1478,11 +1589,16 @@ var parse = async ()=>{
 			'</svg>'+
 		'</div>'+
 		'<div id="searchlinks"></div>'+
-	'</div>'+content.innerHTML;
+	'</div>'+content.innerHTML;*/
 	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){
-		head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
+		var favicon = document.createElement('link');
+		favicon.rel = 'icon';
+		favicon.href = 'favicon.ico';
+		favicon.type = 'image/icon type';
+		head[0].appendChild(favicon);
+		//head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
 	let catSegPromise = createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
 	let redableLinks = content.getElementsByTagName("A");

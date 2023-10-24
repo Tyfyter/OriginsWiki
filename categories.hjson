@@ -9,11 +9,6 @@
   special:{
     name:special
     items:[
-      §example
-      §page2
-      §pageList
-      §syntaxChecker
-      §template
       404
       index
       Accessories
@@ -34,11 +29,23 @@
       searchPage
     ]
   }
+  dev:{
+    name:dev
+    items:[
+      §example
+      §page2
+      §pageList
+      §syntaxChecker
+      §template
+      §armorTemplate
+    ]
+  }
   unimplimented:{
     name:unimplimented
     blacklist:true
     items:[
       cat\\:special
+      cat\\:dev
       cat\\:implimented
     ]
   }
