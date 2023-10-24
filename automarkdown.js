@@ -1023,10 +1023,24 @@ async function processAutoSortableList(table, list){
 	var data = JSON.parse(await list);
 	data.items = [];
 	var currentCat;
-	for (var i = 0; i < data.categories.length; i++) {
-		currentCat = cats[data.categories[i]];
-		for (var j = 0; j < currentCat.items.length; j++) {
-			data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
+
+	if (data.intersection) {
+		currentCat = cats[data.categories[0]];
+		for (var i = 0; i < currentCat.items.length; i++) {
+			data.items.push(currentCat.items[i]);
+		}
+		for (var i = 1; i < data.categories.length; i++) {
+			currentCat = cats[data.categories[i]];
+			for (var j = 0; j < data.items.length; j++) {
+				currentCat.items.includes(data.items[j]) || data.items.splice(j--,1);
+			}
+		}
+	} else {
+		for (var i = 0; i < data.categories.length; i++) {
+			currentCat = cats[data.categories[i]];
+			for (var j = 0; j < currentCat.items.length; j++) {
+				data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
+			}
 		}
 	}
 	return await processSortableList(data);
@@ -1267,8 +1281,10 @@ async function parseAFML(throwErrors = false){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 	
+	console.log('autoSortableLists:');
 	try{
 		item = content.innerHTML.match(autoSortableListRegex);
+		//console.log('first', item);
 		while(item){
 			console.log(item);
 			console.log(['before',content.innerHTML]);
@@ -1281,6 +1297,7 @@ async function parseAFML(throwErrors = false){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
+	console.log('links:');
 	try{
 		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
 			let current = pruneLinkArgs(item[1].split('|'));
@@ -1304,6 +1321,7 @@ async function parseAFML(throwErrors = false){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
+	console.log('coins:');
 	try{
 		item = content.innerHTML.match(coinRegex);
 		while(item){
@@ -1460,6 +1478,7 @@ async function parseAFML(throwErrors = false){
 	}*/
 //});
 	var deferred = document.getElementsByClassName("deferred");
+	console.log('deferred processing:', deferred);
 	let processedLists = [];
 	for (let index = 0; index < deferred.length; index++) {
 		const element = deferred[index];
