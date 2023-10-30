@@ -273,6 +273,7 @@ function refreshSiteSettings(){
 		lightToggle.src = "Images/themes/" + "theme-" + theme + lightSettingSuffix;
 		lightToggle.className = 'themeOption-' + theme;
 	}
+	refreshThemeIcon();
 
 	const backgroundSettingRegex = /background|nobackground/g;
 	html.className = html.className.replaceAll(backgroundSettingRegex, '');
@@ -286,6 +287,12 @@ function refreshSiteSettings(){
 		html.className = html.className + " nobackground";
 		body.className = body.className + " nobackground";
 		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12 m 1 -11 l -20 10');
+	}
+}
+function refreshThemeIcon(){
+	let favicon = document.getElementById('favicon');
+	if (favicon) {
+		favicon.href = window.getComputedStyle(document.children[0]).getPropertyValue('--wiki-logo').replace('url(', '').replace(')', '');
 	}
 }
 function setDarkMode(value){
@@ -1616,9 +1623,11 @@ var parse = async ()=>{
 		favicon.rel = 'icon';
 		favicon.href = 'favicon.ico';
 		favicon.type = 'image/icon type';
+		favicon.id = 'favicon';
 		head[0].appendChild(favicon);
 		//head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
+	refreshThemeIcon();
 	let catSegPromise = createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
 	let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
