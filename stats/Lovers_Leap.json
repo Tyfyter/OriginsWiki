@@ -3,12 +3,18 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Movement",
+    "Combat"
   ],
   "Damage": 30,
   "DamageClass": "",
   "Knockback": 2.0,
-  "Tooltip": "The wearer can run super fast and even faster after taking damage\nAllows the player to dash into the enemy\nDouble tap a direction",
+  "Tooltip": [
+    "The wearer can run super fast and even faster after taking damage",
+    "Allows the player to dash into the enemy",
+    "Double tap a direction"
+  ],
   "Rarity": "LightRed",
   "Sell": 40000,
   "SpriteWidth": 16,

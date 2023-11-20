@@ -24,7 +24,10 @@
     "Crit":4,
     "UseTime":18,
     "Velocity":9.75,
-    "Tooltip":"This will be really long\\, but I want to put all of the possible stat block values here\\, remember to escape commas in text",
+    "Tooltip":[
+        "This will be really long, but I want to put all of the possible stat block values here", 
+        "remember that you don't have to escape commas in text for auto-stats"
+    ],
     "Rarity":"Blue",
     "Buy":25000,
     "Sell":5000,

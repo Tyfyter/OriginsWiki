@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Misc"
   ],
-  "Tooltip": "Does nothing\n'Better luck next time!'",
+  "Tooltip": [
+    "Does nothing",
+    "'Better luck next time!'"
+  ],
   "Rarity": "LightRed",
   "SpriteWidth": 16,
   "InternalName": "Brine_Leafed_Clover_0"

@@ -2,9 +2,14 @@
   "Image": "§ModImage§/Items/Accessories/Olid_Organ",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
-  "Tooltip": "5% increased damage and critical strike chance\nAll attacks inflict Toxic Shock\nEnemies are less likely to target you",
+  "Tooltip": [
+    "5% increased damage and critical strike chance",
+    "All attacks inflict Toxic Shock",
+    "Enemies are less likely to target you"
+  ],
   "Rarity": "LightPurple",
   "Sell": 40000,
   "SpriteWidth": 28,

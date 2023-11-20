@@ -2,7 +2,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Tile"
+    "Tile",
+    "Combat"
   ],
   "PlacementSize": [
     2,

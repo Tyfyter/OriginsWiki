@@ -6,7 +6,10 @@
   ],
   "Defense": 4,
   "ArmorSlot": "Helmet",
-  "Tooltip": "Increased explosive velocity\n'Skull ON'",
+  "Tooltip": [
+    "Increased explosive velocity",
+    "'Skull ON'"
+  ],
   "Rarity": "Green",
   "Sell": 9000,
   "SpriteWidth": 28,

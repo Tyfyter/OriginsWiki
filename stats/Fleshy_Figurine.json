@@ -3,9 +3,15 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat",
+    "Torn",
+    "TornSource"
   ],
-  "Tooltip": "Attacks tenderize targets\n+8% torn severity",
+  "Tooltip": [
+    "Attacks tenderize targets",
+    "+8% torn severity"
+  ],
   "Rarity": "Pink",
   "Sell": 50000,
   "SpriteWidth": 26,

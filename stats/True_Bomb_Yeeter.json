@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat",
+    "Explosive"
   ],
-  "Tooltip": "50% increased explosive throwing velocity\nAlso commonly referred to as the 'True Bomb Yeeter'",
+  "Tooltip": [
+    "50% increased explosive throwing velocity",
+    "Also commonly referred to as the 'True Bomb Yeeter'"
+  ],
   "Rarity": "LightRed",
   "Sell": 30000,
   "SpriteWidth": 30,

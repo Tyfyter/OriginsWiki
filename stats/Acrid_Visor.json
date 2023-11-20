@@ -7,7 +7,11 @@
   ],
   "Defense": 9,
   "ArmorSlot": "Helmet",
-  "Tooltip": "20% increased ranged attack speed\nEffect stronger when submerged\nEmit a small aura of light",
+  "Tooltip": [
+    "20% increased ranged attack speed",
+    "Effect stronger when submerged",
+    "Emit a small aura of light"
+  ],
   "Rarity": "LightRed",
   "Sell": 24000,
   "SpriteWidth": 26,

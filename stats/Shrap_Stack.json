@@ -2,7 +2,10 @@
   "Image": "§ModImage§/Items/Accessories/Shrap_Stack",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Expert",
+    "Combat",
+    "Explosive"
   ],
   "Tooltip": "Double the gunpowder, double the fun.",
   "Rarity": "Expert",

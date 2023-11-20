@@ -2,9 +2,14 @@
   "Image": "§ModImage§/Items/Accessories/ACME_Crate",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
-  "Tooltip": "Greatly increased explosive blast radius\nExplosives will detonate near enemies",
+  "Tooltip": [
+    "Greatly increased explosive blast radius",
+    "Explosives will detonate near enemies"
+  ],
   "Rarity": "Orange",
   "Sell": 20000,
   "SpriteWidth": 22,

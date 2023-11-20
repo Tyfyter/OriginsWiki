@@ -2,9 +2,13 @@
   "Image": "§ModImage§/Items/Accessories/Spider_Ravel",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Movement"
   ],
-  "Tooltip": "Double tap down to transform into a small, rolling ball\nYou may cling to walls and ceilings when raveled",
+  "Tooltip": [
+    "Double tap down to transform into a small, rolling ball",
+    "You may cling to walls and ceilings when raveled"
+  ],
   "Rarity": "Pink",
   "Sell": 80000,
   "SpriteWidth": 24,

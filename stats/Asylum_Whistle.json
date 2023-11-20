@@ -2,9 +2,13 @@
   "Image": "§ModImage§/Items/Accessories/Asylum_Whistle",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
-  "Tooltip": "Summons can target two enemies at once\nIncreases minion damage by 10%",
+  "Tooltip": [
+    "Summons can target two enemies at once",
+    "Increases minion damage by 10%"
+  ],
   "Rarity": "Orange",
   "Sell": 10000,
   "SpriteWidth": 30,

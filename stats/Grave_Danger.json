@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
   "Defense": 5,
   "Tooltip": "Temporarily increases defense by 25% after death",

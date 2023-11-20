@@ -3,9 +3,17 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Expert",
+    "Combat",
+    "Info"
   ],
-  "Tooltip": "Has a chance to create illusions and dodge an attack\nTemporarily increase critical chance after a dodge\nMay confuse nearby enemies after being struck\nMagic projectiles slightly home towards targets",
+  "Tooltip": [
+    "Has a chance to create illusions and dodge an attack",
+    "Temporarily increase critical chance after a dodge",
+    "May confuse nearby enemies after being struck",
+    "Magic projectiles slightly home towards targets"
+  ],
   "Rarity": "LightPurple",
   "Sell": 30000,
   "SpriteWidth": 26,

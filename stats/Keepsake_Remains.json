@@ -2,7 +2,10 @@
   "Image": "§ModImage§/Items/Accessories/Keepsake_Remains",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Torn",
+    "TornSource"
   ],
   "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets",
   "Rarity": "Green",

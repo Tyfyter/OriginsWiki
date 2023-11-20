@@ -6,7 +6,10 @@
   ],
   "Defense": 4,
   "ArmorSlot": "Helmet",
-  "Tooltip": "5% increased magic damage\nGreatly extends underwater breathing",
+  "Tooltip": [
+    "5% increased magic damage",
+    "Greatly extends underwater breathing"
+  ],
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 20,

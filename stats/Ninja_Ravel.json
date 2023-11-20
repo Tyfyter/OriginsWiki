@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Movement"
   ],
-  "Tooltip": "Double tap down to transform into a small, rolling ball\nYou may cling to walls and ceilings when raveled\nEnemies are less likely to target you while raveled",
+  "Tooltip": [
+    "Double tap down to transform into a small, rolling ball",
+    "You may cling to walls and ceilings when raveled",
+    "Enemies are less likely to target you while raveled"
+  ],
   "Rarity": "Pink",
   "Sell": 120000,
   "SpriteWidth": 24,

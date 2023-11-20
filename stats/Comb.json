@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Comb",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Tooltip": "3% increased damage",
   "Rarity": "Green",

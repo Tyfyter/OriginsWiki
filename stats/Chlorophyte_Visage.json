@@ -7,7 +7,10 @@
   ],
   "Defense": 5,
   "ArmorSlot": "Helmet",
-  "Tooltip": "+35% explosive blast radius\n-25% explosive fuse time",
+  "Tooltip": [
+    "+35% explosive blast radius",
+    "-25% explosive fuse time"
+  ],
   "Rarity": "Lime",
   "Sell": 60000,
   "SpriteWidth": 26,

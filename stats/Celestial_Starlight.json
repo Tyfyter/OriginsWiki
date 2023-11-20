@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Increases pickup range for mana stars\nChance for mana stars to fall from critical hits",
+  "Tooltip": [
+    "Increases pickup range for mana stars",
+    "Chance for mana stars to fall from critical hits"
+  ],
   "Rarity": "Pink",
   "Sell": 33000,
   "SpriteWidth": 30,

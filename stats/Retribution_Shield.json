@@ -3,10 +3,16 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
   "Defense": 3,
-  "Tooltip": "Grants immunity to knockback\nGrants immunity to fire blocks\n67% of damage received is redirected to 3 enemies\nEnemies are less likely to target you",
+  "Tooltip": [
+    "Grants immunity to knockback",
+    "Grants immunity to fire blocks",
+    "67% of damage received is redirected to 3 enemies",
+    "Enemies are less likely to target you"
+  ],
   "Rarity": "Pink",
   "Sell": 30000,
   "SpriteWidth": 36,

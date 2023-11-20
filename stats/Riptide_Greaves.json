@@ -6,7 +6,10 @@
   ],
   "Defense": 4,
   "ArmorSlot": "Pants",
-  "Tooltip": "5% increased magic damage\nGrants the ability to swim and provides increased movement speed in water",
+  "Tooltip": [
+    "5% increased magic damage",
+    "Grants the ability to swim and provides increased movement speed in water"
+  ],
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 22,

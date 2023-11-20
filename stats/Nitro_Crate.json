@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Nitro_Crate",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
   "Tooltip": "Increases explosive blast radius by 40%",
   "Rarity": "Green",

@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Half of damage received is split across 3 enemies, inflicting 'Toxic Shock'\n5% increased damage and critical strike chance\nEnemies are less likely to target you",
+  "Tooltip": [
+    "Half of damage received is split across 3 enemies, inflicting 'Toxic Shock'",
+    "5% increased damage and critical strike chance",
+    "Enemies are less likely to target you"
+  ],
   "Rarity": "LightPurple",
   "Sell": 50000,
   "SpriteWidth": 28,

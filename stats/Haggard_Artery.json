@@ -2,13 +2,18 @@
   "Image": "§ModImage§/Items/Accessories/Haggard_Artery",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
   "Damage": 40,
   "DamageClass": "Explosive",
   "Knockback": 4.0,
   "UseTime": 6,
-  "Tooltip": "Nearby bleeding enemies occasionally explode\n'Explosions happen near me 'cause I'm that cool!'",
+  "Tooltip": [
+    "Nearby bleeding enemies occasionally explode",
+    "'Explosions happen near me 'cause I'm that cool!'"
+  ],
   "Rarity": "Green",
   "Sell": 20000,
   "SpriteWidth": 26,

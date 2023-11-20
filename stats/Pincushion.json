@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Pincushion",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Misc",
+    "Explosive"
   ],
   "Tooltip": "Prevents tile destruction from explosives",
   "Rarity": "Blue",

@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Movement"
   ],
   "Tooltip": "Double tap down to transform into a small, rolling ball that moves very fast",
   "Rarity": "Pink",

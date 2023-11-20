@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "10% increased critical strike chance\nDisplays the trajectory of projectiles from your selected item",
+  "Tooltip": [
+    "10% increased critical strike chance",
+    "Displays the trajectory of projectiles from your selected item"
+  ],
   "Rarity": "Yellow",
   "Sell": 70000,
   "SpriteWidth": 32,

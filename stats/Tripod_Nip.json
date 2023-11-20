@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Misc"
   ],
   "Tooltip": "Reduces enemy aggression and spawn rates",
   "Rarity": "LightRed",

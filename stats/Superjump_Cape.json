@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Movement"
   ],
   "Tooltip": "Allows for a super high jump and negates fall damage",
   "Rarity": "LightRed",

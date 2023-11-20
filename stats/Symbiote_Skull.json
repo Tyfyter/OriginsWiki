@@ -2,7 +2,10 @@
   "Image": "§ModImage§/Items/Accessories/Symbiote_Skull",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Torn",
+    "TornSource"
   ],
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Blue",

@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Increases life regeneration at low health\nPuts a shell around the owner when below 50% life that reduces damage by 25%",
+  "Tooltip": [
+    "Increases life regeneration at low health",
+    "Puts a shell around the owner when below 50% life that reduces damage by 25%",
+    "'20% cooler than competing brands!'"
+  ],
   "Rarity": "Pink",
   "Sell": 100000,
   "SpriteWidth": 22,

@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/IWTPA_Standard",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
   "Tooltip": "Reduces explosive fuse time",
   "Rarity": "Blue",

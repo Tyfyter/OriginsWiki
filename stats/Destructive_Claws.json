@@ -2,9 +2,15 @@
   "Image": "§ModImage§/Items/Accessories/Destructive_Claws",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
-  "Tooltip": "25% increased explosive throwing velocity\nIncreases attack speed of thrown explosives\nEnables autouse for all explosive weapons",
+  "Tooltip": [
+    "25% increased explosive throwing velocity",
+    "Increases attack speed of thrown explosives",
+    "Enables autouse for all explosive weapons"
+  ],
   "Rarity": "Orange",
   "Sell": 30000,
   "SpriteWidth": 38,

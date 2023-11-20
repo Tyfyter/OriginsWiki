@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Endless_Explosives",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Resource",
+    "Explosive"
   ],
   "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
   "Rarity": "Gray",

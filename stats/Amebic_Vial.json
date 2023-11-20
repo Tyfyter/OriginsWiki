@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Amebic_Vial",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Expert",
+    "Combat"
   ],
   "Tooltip": "Amebic tentacles will protect you from projectiles",
   "Rarity": "Expert",

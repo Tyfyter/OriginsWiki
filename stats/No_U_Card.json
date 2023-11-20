@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Attackers receive 50% of incoming damage and debuffs regardless of immunity\nImmune to most debuffs",
+  "Tooltip": [
+    "Attackers receive 50% of incoming damage and debuffs regardless of immunity",
+    "Immune to most debuffs"
+  ],
   "Rarity": "LightPurple",
   "Sell": 40000,
   "SpriteWidth": 16,

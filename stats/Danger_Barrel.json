@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Danger_Barrel",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time",
   "Rarity": "Orange",

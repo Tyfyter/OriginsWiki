@@ -2,9 +2,13 @@
   "Image": "§ModImage§/Items/Accessories/Last_Descendant",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
-  "Tooltip": "Increases damage, movement speed, and length of invincibility after taking damage\nAdditionally causes stars to fall after taking damage",
+  "Tooltip": [
+    "Increases damage, movement speed, and length of invincibility after taking damage",
+    "Additionally causes stars to fall after taking damage"
+  ],
   "Rarity": "LightPurple",
   "Sell": 40000,
   "SpriteWidth": 22,

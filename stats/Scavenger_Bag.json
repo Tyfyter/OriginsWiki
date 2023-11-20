@@ -3,9 +3,16 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat",
+    "Torn",
+    "TornSource"
   ],
-  "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets\nIncreases your max number of minions by 1\nIncreases your summon damage by 15% and the knockback of your minions",
+  "Tooltip": [
+    "Increases armor penetration by 5 and attacks tenderize targets",
+    "Increases your max number of minions by 1",
+    "Increases your summon damage by 15% and the knockback of your minions"
+  ],
   "Rarity": "Yellow",
   "Sell": 90000,
   "SpriteWidth": 26,

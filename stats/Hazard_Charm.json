@@ -2,9 +2,15 @@
   "Image": "§ModImage§/Items/Accessories/Hazard_Charm",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Misc",
+    "Explosive"
   ],
-  "Tooltip": "Reduces explosive self-damage by 15%\nReduces damage received from traps\nProvides 7 seconds of immunity to lava",
+  "Tooltip": [
+    "Reduces explosive self-damage by 15%",
+    "Reduces damage received from traps",
+    "Provides 7 seconds of immunity to lava"
+  ],
   "Rarity": "Green",
   "Sell": 95000,
   "SpriteWidth": 30,

@@ -2,14 +2,20 @@
   "Image": "§ModImage§/Items/Accessories/Protozoa_Food",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Master",
+    "Combat",
+    "Explosive"
   ],
   "ManaCost": 10,
   "Damage": 13,
   "DamageClass": "ExplosiveSummon",
   "Knockback": 3.0,
   "UseTime": 45,
-  "Tooltip": "+1 minion slot\nSummons an amoeba pellet to chase after enemies and slow them down for every minion slot you have",
+  "Tooltip": [
+    "+1 minion slot",
+    "Summons an amoeba pellet to chase after enemies and slow them down for every minion slot you have"
+  ],
   "Rarity": "Master",
   "Sell": 60000,
   "SpriteWidth": 24,

@@ -5,7 +5,10 @@
     "Accessory",
     "Hardmode"
   ],
-  "Tooltip": "Provides extreme boosts in health\n'Get a life'",
+  "Tooltip": [
+    "Provides extreme boosts in health",
+    "'Get a life'"
+  ],
   "Rarity": "Crimson",
   "Sell": 1000000,
   "SpriteWidth": 24,

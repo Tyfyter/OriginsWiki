@@ -2,9 +2,13 @@
   "Image": "§ModImage§/Items/Accessories/Advanced_Imaging",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
-  "Tooltip": "Increased projectile speed\nImmunity to Confusion",
+  "Tooltip": [
+    "Increased projectile speed",
+    "Immunity to Confusion"
+  ],
   "Rarity": "Yellow",
   "Sell": 50000,
   "SpriteWidth": 32,

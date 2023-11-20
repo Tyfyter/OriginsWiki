@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Eccentric_Stone",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Lore"
   ],
   "Rarity": "Blue",
   "SpriteWidth": 18,

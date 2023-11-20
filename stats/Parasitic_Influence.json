@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Parasitic_Influence",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Damage": 20,
   "DamageClass": "Melee",

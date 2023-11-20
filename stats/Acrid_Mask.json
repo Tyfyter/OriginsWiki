@@ -7,7 +7,12 @@
   ],
   "Defense": 1,
   "ArmorSlot": "Helmet",
-  "Tooltip": "10% increased summoning damage\n+1 minion slot\nEffects stronger when submerged\nEmit a small aura of light",
+  "Tooltip": [
+    "10% increased summoning damage",
+    "+1 minion slot",
+    "Effects stronger when submerged",
+    "Emit a small aura of light"
+  ],
   "Rarity": "LightRed",
   "Sell": 24000,
   "SpriteWidth": 24,

@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Increase to damage, melee speed, critical strike chance,\nlife regeneration, defense, mining speed, and minion knockback,\nbut your movement is hindered",
+  "Tooltip": [
+    "Increase to damage, melee speed, critical strike chance,",
+    "life regeneration, defense, mining speed, and minion knockback,",
+    "but your movement is hindered"
+  ],
   "Rarity": "Yellow",
   "Sell": 180000,
   "SpriteWidth": 22,

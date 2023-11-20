@@ -2,13 +2,17 @@
   "Image": "§ModImage§/Items/Accessories/Gun_Glove",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",
   "UseTime": 5,
   "Velocity": 5.0,
-  "Tooltip": "Shoots as you swing\n'Ammo not included'",
+  "Tooltip": [
+    "Shoots as you swing",
+    "'Ammo not included'"
+  ],
   "Rarity": "Green",
   "Sell": 20000,
   "SpriteWidth": 24,

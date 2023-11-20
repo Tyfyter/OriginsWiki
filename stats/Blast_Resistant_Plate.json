@@ -3,7 +3,9 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat",
+    "Explosive"
   ],
   "Defense": 3,
   "Tooltip": "Reduces explosive self-damage by 10%",

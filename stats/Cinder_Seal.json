@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Cinder_Seal",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Damage": 12,
   "DamageClass": "",

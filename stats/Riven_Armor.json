@@ -2,7 +2,8 @@
   "Types": [
     "Item",
     "Armor",
-    "ArmorSet"
+    "ArmorSet",
+    "Torn"
   ],
   "SetName": "Riven_Armor",
   "Images": [

@@ -3,7 +3,9 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Resource",
+    "Exploration"
   ],
   "Tooltip": "Slowly reduces assimilation",
   "Rarity": "LightRed",

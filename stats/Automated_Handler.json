@@ -3,9 +3,14 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Allows the ability to climb walls and dash\nGreatly increased movement speed and return speed for grapple hooks and harpoon guns\nGives a chance to dodge attacks",
+  "Tooltip": [
+    "Allows the ability to climb walls and dash",
+    "Greatly increased movement speed and return speed for grapple hooks and harpoon guns",
+    "Gives a chance to dodge attacks"
+  ],
   "Rarity": "Yellow",
   "Sell": 120000,
   "SpriteWidth": 34,

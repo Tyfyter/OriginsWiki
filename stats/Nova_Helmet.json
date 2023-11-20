@@ -7,7 +7,10 @@
   ],
   "Defense": 8,
   "ArmorSlot": "Helmet",
-  "Tooltip": "4% increased explosive damage and critical strike chance\n50% increased explosive velocity",
+  "Tooltip": [
+    "4% increased explosive damage and critical strike chance",
+    "50% increased explosive velocity"
+  ],
   "Rarity": "Red",
   "Sell": 20000,
   "SpriteWidth": 22,

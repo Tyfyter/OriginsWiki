@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "Increases damage, movement speed, and length of invincibility after taking damage\nEmit a damaging aura that inflicts poison",
+  "Tooltip": [
+    "Increases damage, movement speed, and length of invincibility after taking damage",
+    "Emit a damaging aura that inflicts poison"
+  ],
   "Rarity": "Lime",
   "Sell": 80000,
   "SpriteWidth": 28,

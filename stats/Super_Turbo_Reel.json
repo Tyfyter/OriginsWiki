@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Super_Turbo_Reel",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Movement",
+    "Combat"
   ],
   "Tooltip": "Greatly increased movement speed and return speed for harpoon guns",
   "Rarity": "Orange",

@@ -7,7 +7,11 @@
   ],
   "Defense": 2,
   "ArmorSlot": "Helmet",
-  "Tooltip": "10% increased explosive critical chance and throwing velocity\nEffect stronger when submerged\nEmit a small aura of light",
+  "Tooltip": [
+    "10% increased explosive critical chance and throwing velocity",
+    "Effect stronger when submerged",
+    "Emit a small aura of light"
+  ],
   "Rarity": "LightRed",
   "Sell": 10000,
   "SpriteWidth": 22,

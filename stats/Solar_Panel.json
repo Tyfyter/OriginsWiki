@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Resource"
   ],
-  "Tooltip": "Sunlight exposure increases mana regeneration\n'Don't worry, mana was always renewable!'",
+  "Tooltip": [
+    "Sunlight exposure increases mana regeneration",
+    "'Don't worry, mana was always renewable!'"
+  ],
   "Rarity": "Lime",
   "Sell": 60000,
   "SpriteWidth": 36,

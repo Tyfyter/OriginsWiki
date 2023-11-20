@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "World_Cracker_Mask",
+  "Images": [
+    "ArmorSets/World_Cracker_Mask"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 0
+}

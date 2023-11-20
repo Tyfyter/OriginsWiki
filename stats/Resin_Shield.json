@@ -3,10 +3,18 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Misc",
+    "Explosive"
   ],
   "Defense": 3,
-  "Tooltip": "Grants immunity to knockback\nGrants immunity to fire blocks\nBlocks all self-damage on next hit\n5 second cooldown\n'A shield to withstand the test of time'",
+  "Tooltip": [
+    "Grants immunity to knockback",
+    "Grants immunity to fire blocks",
+    "Blocks all self-damage on next hit",
+    "5 second cooldown",
+    "'A shield to withstand the test of time'"
+  ],
   "Rarity": "Pink",
   "Sell": 40000,
   "SpriteWidth": 28,

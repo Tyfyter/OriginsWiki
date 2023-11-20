@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Ruby_Reticle",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat"
   ],
   "Tooltip": "Critical strike chance is increased by 15% of weapon damage",
   "Rarity": "Green",

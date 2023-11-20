@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Dim_Starlight",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Resource",
+    "Exploration"
   ],
   "Tooltip": "Chance for mana stars to fall from critical hits",
   "Rarity": "Blue",

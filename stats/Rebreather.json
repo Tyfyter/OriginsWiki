@@ -3,7 +3,9 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Resource",
+    "Misc"
   ],
   "Tooltip": "Gain more breath as you move in water",
   "Rarity": "LightRed",

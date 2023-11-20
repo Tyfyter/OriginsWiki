@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Accessories/Ravel",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Movement"
   ],
   "Tooltip": "Double tap down to transform into a small, rolling ball",
   "Rarity": "Pink",

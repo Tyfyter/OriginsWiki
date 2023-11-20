@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat"
   ],
-  "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time\nGreatly increased explosive blast radius",
+  "Tooltip": [
+    "All explosives inflict 'On Fire!' and have a reduced fuse time",
+    "Greatly increased explosive blast radius"
+  ],
   "Rarity": "LightRed",
   "Sell": 42000,
   "SpriteWidth": 34,

@@ -2,9 +2,15 @@
   "Image": "§ModImage§/Items/Accessories/Plasma_Phial",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Resource"
   ],
-  "Tooltip": "Debuff durations are halved\nSlightly increased regeneration\nRapidly lose life when inflicted with Bleeding",
+  "Tooltip": [
+    "Debuff durations are halved",
+    "Slightly increased regeneration",
+    "Rapidly lose life when inflicted with Bleeding"
+  ],
   "Rarity": "Blue",
   "Sell": 6000,
   "SpriteWidth": 24,

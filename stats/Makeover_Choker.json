@@ -3,9 +3,15 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Combat",
+    "Resource"
   ],
-  "Tooltip": "Increases life regeneration at low health\nIncreases length of invincibility after taking damage\n'You look like a mess, let's get that taken care of'",
+  "Tooltip": [
+    "Increases life regeneration at low health",
+    "Increases length of invincibility after taking damage",
+    "'You look like a mess, let's get that taken care of'"
+  ],
   "Rarity": "LightRed",
   "Sell": 100000,
   "SpriteWidth": 22,

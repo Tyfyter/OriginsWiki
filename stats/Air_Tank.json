@@ -2,9 +2,14 @@
   "Image": "§ModImage§/Items/Accessories/Air_Tank",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Resource",
+    "Misc"
   ],
-  "Tooltip": "Extends underwater breathing\nImmunity to ‘Suffocation’",
+  "Tooltip": [
+    "Extends underwater breathing",
+    "Immunity to ‘Suffocation’"
+  ],
   "Rarity": "LightRed",
   "Sell": 10000,
   "SpriteWidth": 20,

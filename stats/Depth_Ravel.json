@@ -3,9 +3,13 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Movement"
   ],
-  "Tooltip": "Double tap down to transform into a small, rolling ball\nGrants extreme underwater capabilities",
+  "Tooltip": [
+    "Double tap down to transform into a small, rolling ball",
+    "Grants extreme underwater capabilities"
+  ],
   "Rarity": "Pink",
   "Sell": 130000,
   "SpriteWidth": 24,

@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Items/Accessories/Exploder_Emblem",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Combat",
+    "Explosive"
   ],
   "Tooltip": "+5% explosive damage",
   "Rarity": "LightRed",

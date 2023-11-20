@@ -3,9 +3,15 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode"
+    "Hardmode",
+    "Resource",
+    "Exploration"
   ],
-  "Tooltip": "Chance for mana stars to fall from critical hits\n8% reduced mana cost\nAutomatically use mana potions when needed",
+  "Tooltip": [
+    "Chance for mana stars to fall from critical hits",
+    "8% reduced mana cost",
+    "Automatically use mana potions when needed"
+  ],
   "Rarity": "Pink",
   "Sell": 30000,
   "SpriteWidth": 32,

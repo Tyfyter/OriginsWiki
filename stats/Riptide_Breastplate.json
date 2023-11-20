@@ -6,7 +6,10 @@
   ],
   "Defense": 5,
   "ArmorSlot": "Shirt",
-  "Tooltip": "Emit a small aura of light\n+60 mana capacity",
+  "Tooltip": [
+    "Emit a small aura of light",
+    "+60 mana capacity"
+  ],
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 30,
