@@ -461,6 +461,14 @@ function GetSpeedName(useTime) {
 function imagePathPrefix(path){
 	return `${path.startsWith("§")?"":"Images/"}${path}`;
 }
+function setValueOrValues(obj, value){
+	if(Array.isArray(value)){
+		obj.values = value;
+	}else{
+		obj.value = value;
+	}
+	return obj;
+}
 async function processAutoStats(name = pageName, inline){
 	var data = await requestStats(name);
 	if(data === null){
@@ -543,10 +551,9 @@ async function processAutoStats(name = pageName, inline){
 				value:data.Defense + setSuffix
 			});
 			if(data.Tooltip){
-				statistics.items.push({
-					label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]',
-					value:data.Tooltip
-				});
+				statistics.items.push(setValueOrValues({
+					label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]'
+				}, data.Tooltip));
 			}
 		}
 		if(data.SetBonus){
@@ -590,10 +597,9 @@ async function processAutoStats(name = pageName, inline){
 			statistics.items.push({label:'[link Velocity | | https://terraria.wiki.gg/wiki/Velocity]',value:data.Velocity});
 		}
 		if(data.Tooltip && !data.Defense){
-			statistics.items.push({
-				label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]',
-				value:data.Tooltip
-			});
+			statistics.items.push(setValueOrValues({
+				label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]'
+			}, data.Tooltip));
 		}
 		if(data.Rarity){
 			statistics.items.push({
