@@ -1,0 +1,9 @@
+{
+  "categories": [
+    "accessories"
+  ],
+  "headers": [
+    "Name",
+    { "name":"Obtainable<br>pre-hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" }
+  ]
+}

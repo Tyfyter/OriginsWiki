@@ -355,6 +355,7 @@ details > summary {
 
 .statblock {
 	float: right;
+	clear: right;
 }
 .ontab0 {
 	--tabvis-0:block;
@@ -476,6 +477,10 @@ details > summary {
 
 .sortablelist > tbody > tr > td.notleft {
 	border-left: 1px solid var(--box-border-color);
+}
+
+.prehardmode-table-indicator {
+	text-align: center;
 }
 
 .sortindex {

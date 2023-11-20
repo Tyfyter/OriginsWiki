@@ -1022,6 +1022,7 @@ function sortSortableList(target, index){
 }
 
 async function substituteAutoSortableList(list){
+	console.log(`deferred processing of sortable list ${list}`);
 	return `<table class="sortablelist deferred listsource-${list}"></table>`;
 }
 
