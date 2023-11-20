@@ -184,6 +184,7 @@
       "Defiled2_Helmet",
       "Defiled_Altar",
       "Defiled_Amalgamation_Bag",
+      "Defiled_Amalgamation_Mask",
       "Defiled_Armor",
       "Defiled_Bar",
       "Defiled_Breastplate",
@@ -277,6 +278,7 @@
       "Fiberglass_Sword",
       "Fiberglass_Wall",
       "Fiberglass_Weaver_Bag",
+      "Fiberglass_Weaver_Head",
       "Fibron_Plating",
       "Firespit",
       "Fishing_Core",
@@ -616,6 +618,7 @@
       "Wilting_Rose",
       "Woodsprite_Staff",
       "World_Cracker_Bag",
+      "World_Cracker_Mask",
       "Wrycoral"
     ]
   },
@@ -1033,6 +1036,7 @@
       "Defiled2_Breastplate",
       "Defiled2_Greaves",
       "Defiled2_Helmet",
+      "Defiled_Amalgamation_Mask",
       "Defiled_Armor",
       "Defiled_Breastplate",
       "Defiled_Greaves",
@@ -1055,6 +1059,7 @@
       "Fiberglass_Body",
       "Fiberglass_Helmet",
       "Fiberglass_Legs",
+      "Fiberglass_Weaver_Head",
       "FW_Head",
       "Hallowed_Visage",
       "Lost_Armor",
@@ -1113,7 +1118,8 @@
       "Tendon_Helmet",
       "Tendon_Pants",
       "Tendon_Shirt",
-      "WC_Mask"
+      "WC_Mask",
+      "World_Cracker_Mask"
     ]
   },
   "tile": {
@@ -1493,6 +1499,7 @@
       "Defiled_Altar",
       "Defiled_Amalgamation",
       "Defiled_Amalgamation_Bag",
+      "Defiled_Amalgamation_Mask",
       "Defiled_Armor",
       "Defiled_Bar",
       "Defiled_Breastplate",
@@ -1586,6 +1593,7 @@
       "Fiberglass_Sword",
       "Fiberglass_Wall",
       "Fiberglass_Weaver_Bag",
+      "Fiberglass_Weaver_Head",
       "Fibron_Plating",
       "Firespit",
       "Fishing_Core",
@@ -1925,6 +1933,7 @@
       "Wilting_Rose",
       "Woodsprite_Staff",
       "World_Cracker_Bag",
+      "World_Cracker_Mask",
       "Wrycoral"
     ]
   }
