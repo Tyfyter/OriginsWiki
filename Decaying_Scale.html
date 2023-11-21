@@ -10,42 +10,13 @@
 			<h1>Decaying Scale</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Decaying Scale,
-			items:[
-			{image: Images/Decaying_Scale.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			values:[
-			"Attacks inflict 'Toxic Shock' and 'Solvent' on enemies"
-			"Effects are stronger while Acrid Armor is equipped"
-			]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RarePink.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|2|0|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Decaying_Scale]
 
 			<p>
-				The <b>Decaying Scale</b> is an [link accessory | $default | Accessories.html] dropped by [link Scalren | $default | Scalron.html]. It provides afflicts enemies with '[link Toxic Shock]' and '[link Solvent]' with a 40% chance for either and a 16% chance for both at once. The effects of these debuffs are also boosted while [link Acrid Armor] is equipped with that being Toxic Shock's [link stun] time lasts 50% longer and Solvent's increased <a href="https://terraria.wiki.gg/wiki/Critical_hit">critical damage</a> is raised to 60% more damage.
+				<b>Decaying Scale</b> is a <a href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> [link accessory | $default | Accessories.html] that has a 1/8 (12.5%) of being dropped by a [link Carpalfish].
+				When equipped, all attacks from the player inflict [link Toxic Shock], which has a stronger effect while [link Acrid Armor] is also equipped.
 			</p>
+
 			<div>
 				<details open>
 					<summary>Crafting<span class="divider"></span></summary>
@@ -58,10 +29,10 @@
 					],
 					items:[
 					{
-					result:[link Olid Organ | Images/Olid_Organ.png],
+					result:[link Olid Organ | $fromStats],
 					ingredients:[
 					<a href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a>,
-					<b>Decaying Scale</b> (4)
+					[link Decaying Scale | $fromStats]
 					]
 					}
 					]
