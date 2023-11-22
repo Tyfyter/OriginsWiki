@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Trap_Charm",
+  "Name": "Trap Charm",
   "Types": [
     "Item",
     "Accessory",

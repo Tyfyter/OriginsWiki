@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/ATACS",
+  "Name": "ATACS",
   "Types": [
     "Item",
     "Accessory",

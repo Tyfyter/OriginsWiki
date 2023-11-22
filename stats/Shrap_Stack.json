@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Shrap_Stack",
+  "Name": "Stack of Shraps",
   "Types": [
     "Item",
     "Accessory",

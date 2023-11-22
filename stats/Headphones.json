@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Headphones",
+  "Name": "Headphones",
   "Types": [
     "Item",
     "Accessory",

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Scavenger_Bag",
+  "Name": "Scavenger Bag",
   "Types": [
     "Item",
     "Accessory",

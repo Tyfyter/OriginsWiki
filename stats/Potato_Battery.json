@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Potato_Battery",
+  "Name": "Potato Battery",
   "Types": [
     "Item",
     "Accessory",

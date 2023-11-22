@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Grenade_Tube",
+  "Name": "Grenade Tube",
   "Types": [
     "Item",
     "Accessory",

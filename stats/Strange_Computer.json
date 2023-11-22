@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Strange_Computer",
+  "Name": "Strange Computer",
   "Types": [
     "Item",
     "Accessory"

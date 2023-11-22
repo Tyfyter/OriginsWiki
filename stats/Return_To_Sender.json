@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Return_To_Sender",
+  "Name": "Return To Sender",
   "Types": [
     "Item",
     "Accessory",

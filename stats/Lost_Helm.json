@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Armor/Lost/Lost_Helm",
+  "Name": "Lost Helm",
   "Types": [
     "Item",
     "Armor"

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Air_Tank",
+  "Name": "Air Tank",
   "Types": [
     "Item",
     "Accessory",

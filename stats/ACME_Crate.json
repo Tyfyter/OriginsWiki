@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/ACME_Crate",
+  "Name": "ACME Crate",
   "Types": [
     "Item",
     "Accessory",

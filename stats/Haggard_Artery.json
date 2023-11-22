@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Haggard_Artery",
+  "Name": "Haggard Artery",
   "Types": [
     "Item",
     "Accessory",
@@ -11,8 +12,9 @@
   "Knockback": 4.0,
   "UseTime": 6,
   "Tooltip": [
-    "Nearby bleeding enemies occasionally explode",
-    "'Explosions happen near me 'cause I'm that cool!'"
+    "All attacks inflict Bleeding",
+    "Prevents Defiled enemies from regenerating",
+    "Nearby bleeding enemies occasionally explode"
   ],
   "Rarity": "Green",
   "Sell": 20000,

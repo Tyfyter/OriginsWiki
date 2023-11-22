@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Missile_Armcannon",
+  "Name": "Missile Armcannon",
   "Types": [
     "Item",
     "Accessory",

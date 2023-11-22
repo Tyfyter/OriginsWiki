@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Solar_Panel",
+  "Name": "Solar Panel",
   "Types": [
     "Item",
     "Accessory",

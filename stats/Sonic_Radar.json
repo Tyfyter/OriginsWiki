@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Sonic_Radar",
+  "Name": "Sonic Radar",
   "Types": [
     "Item",
     "Accessory",

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Nitro_Crate",
+  "Name": "Nitro Crate",
   "Types": [
     "Item",
     "Accessory",

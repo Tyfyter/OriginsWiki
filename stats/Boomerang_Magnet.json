@@ -1,11 +1,15 @@
 {
   "Image": "§ModImage§/Items/Accessories/Boomerang_Magnet",
+  "Name": "Boomerang Magnet",
   "Types": [
     "Item",
     "Accessory",
     "Combat"
   ],
-  "Tooltip": "Increased return speed for boomerangs",
+  "Tooltip": [
+    "Increased return speed for boomerangs and harpoons",
+    "Increases pickup range for items"
+  ],
   "Rarity": "Green",
   "Sell": 10000,
   "SpriteWidth": 34,
