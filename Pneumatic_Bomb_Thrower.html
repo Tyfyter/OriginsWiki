@@ -10,47 +10,36 @@
 			<h1>Pneumatic Bomb Thrower</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Pneumatic Bomb Thrower,
-			items:[
-			{image: Images/Pneumatic_Bomb_Thrower.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			values:[
-			"Also commonly referred to as the 'True Bomb Yeeter'"
-			]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareLightRed.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|3|0|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Pneumatic_Bomb_Thrower]
 
 			<p>
-				The <b>Pneumatic Bomb Thrower</b> is a craftable [link accessory | $default | Accessories.html] made from an [link Air Tank] and [link Bomb Handling Device | $default | Bomb_Handling_Device.html]. 
-				The PBT increases the throwing velocity of [link Demolitionist Weapons] by 80% making the reach of these weapons reasonable.
+				The <b>Pneumatic Bomb Thrower</b> is a <a href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> [link accessory | $default | Accessories.html] combining an [link Air Tank] with a [link Bomb Handling Device].
+				It increases the velocity of <a href="https://terraria.wiki.gg/wiki/Throwing_weapons">thrown</a> [link explosives | $default | Demolitionist_Weapons.html] by 50%.
 			</p>
+
 			<div>
 				<details open>
-					<summary>Notes<span class="divider"></span></summary>
-					<p> - Like its earlier-counterpart, the "True Bomb Yeeter" is also abbreviated to "PBT" for simple reference.</p>
+					<summary>Crafting<span class="divider"></span></summary>
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					stations:[
+					<a href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop"><b>Tinkerer's Workshop</b></a>
+					],
+					items:[
+					{
+					result:[link Pneumatic Bomb Thrower | $fromStats],
+					ingredients:[
+					[link Air Tank | $fromStats],
+					[link Bomb Handling Device | $fromStats]
+					]
+					}
+					]
+					}
+					recipes}
 				</details>
+			</div>
 		</article>
 	</body>
 </html>

@@ -9,46 +9,21 @@
 		<article id="content">
 			<h1>Olid Organ</h1>
 			<div class="divider"></div>
-
-			{statblock
-			{
-			header:Olid Organ,
-			items:[
-			{image: Images/Olid_Organ.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			values:[
-			"8% increased damage and critical strike chance"
-			"Attacks inflict 'Toxic Shock' and 'Solvent' on enemies"
-			]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareLightPurple.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|10|0|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			
+			<span id="toc-and-stats">
+				<div id="table-of-contents"></div>
+				[statblock Olid_Organ]
+			</span>
+			<span id="error-log"></span>
 
 			<p>
-				The <b>Olid Organ</b> is an [link accessory | $default | Accessories.html] crafted from combining the [link Decaying Scale] and <a href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a>, combining their effects. It allows the player to inflict both<br>
-				'[link Toxic Shock]' and '[link Solvent]' similarly to Decaying Scale except the [link stun] length of Toxic Shock is twice as long and the critical damage of Solvent is increased to 75%. Olid Organ also has the same combat-based stats of Putrid Scent but boosted
-				to 8% as well.
+				The <b>Olid Organ</b> is a <a href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> [link accessory | $default | Accessories.html] combining a <a href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a> with a [link Decaying Scale].
+				While equipped, the player has 5% increased damage and <a href="https://terraria.wiki.gg/wiki/Critical_hit">critical strike</a> chances and have decreased <a href="https://terraria.wiki.gg/wiki/Aggro">aggro</a> from enemies.
+				Additionally, all attacks from the player inflict [link Toxic Shock].
 			</p>
+
 			<div>
+
 				<details open>
 					<summary>Crafting<span class="divider"></span></summary>
 					<p><b>Recipes</b></p>
@@ -60,16 +35,17 @@
 					],
 					items:[
 					{
-					result:<b>Olid Organ</b>,
+					result:[link Olid Organ | $fromStats],
 					ingredients:[
 					<a href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a>,
-					[link Decaying Scale | Images/Decaying_Scale.png] (4)
+					[link Decaying Scale | $fromStats]
 					]
 					}
 					]
 					}
 					recipes}
 				</details>
+			</div>
 		</article>
 	</body>
 </html>
