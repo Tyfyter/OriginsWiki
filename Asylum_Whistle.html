@@ -17,7 +17,12 @@
 			<span id="error-log"></span>
 
 			<p>
-			WikiGenerator.Origins.Items.Asylum_Whistle.MainText
+				The <b>Asylum Whistle</b> is a <a href="https://terraria.wiki.gg/wiki/Pre-Hardmode">Pre-Hardmode</a> [link accessory | $default | Accessories.html] found in <a href="https://terraria.wiki.gg/wiki/Gold_Chest#Dungeon">Locked Gold Chests</a> stowed away in the <a href="https://terraria.wiki.gg/wiki/Dungeon">Dungeon</a>.
+				It allows the player to <a href="https://terraria.wiki.gg/wiki/Whips">tag</a> two different enemies at once whilst increasing <a href="https://terraria.wiki.gg/wiki/Damage#Summon">minion damage</a> by 10%.
+			</p>
+
+			<p>
+				The Asylum Whistle is a [link lore item | $default | Lore_Item.html] indicated by "You hear whispers nearby..."
 			</p>
 
 			<div>
@@ -25,28 +30,64 @@
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
 
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					stations:[
+					<a href="https://terraria.wiki.gg/wiki/Shimmer"><b>Shimmer Transmutation</b></a>
+					]
+					items:[
+					{
+					result:[link Asylum Whistle | $fromStats],
+					ingredients:[
+					[link Bomb Handling Device | §ModImage§/Items/Accessories/Bomb_Handling_Device.png | Bomb_Handling_Device.html]
+					]
+					}
+					]
+					}
+					recipes}
 
 					<p><b>Used In</b></p>
 					<div class="divider"></div>
 					{recipes
-{
-stations:[
-[link Work Bench | $default | https://terraria.wiki.gg/wiki/Work_Bench]
-]
-items:[
-{
-result:[link Priority Mail | $fromStats](2),
-ingredients:[
-[link Book | $default | https://terraria.wiki.gg/wiki/Book],[link Fallen Star | $default | https://terraria.wiki.gg/wiki/Fallen_Star](2),[link Paper Airplane | $default | https://terraria.wiki.gg/wiki/Paper_Airplane](4),[link Asylum Whistle | $fromStats]
-]
-}
-]
-}
-recipes}
+					{
+					stations:[
+					<a href="https://terraria.wiki.gg/wiki/Shimmer"><b>Shimmer Transmutation</b></a>
+					]
+					items:[
+					{
+					result:[link Bomb Handling Device | §ModImage§/Items/Accessories/Bomb_Handling_Device.png | Bomb_Handling_Device.html],
+					ingredients:[
+					[link Asylum Whistle | $fromStats]
+					]
+					}
+					]
+					},
 
+					{
+					stations:[
+					[link Work Bench | $default | https://terraria.wiki.gg/wiki/Work_Bench]
+					]
+					items:[
+					{
+					result:[link Priority Mail | $fromStats](2),
+					ingredients:[
+					[link Book | $default | https://terraria.wiki.gg/wiki/Book],[link Fallen Star | $default | https://terraria.wiki.gg/wiki/Fallen_Star](2),[link Paper Airplane | $default | https://terraria.wiki.gg/wiki/Paper_Airplane](4),[link Asylum Whistle | $fromStats]
+					]
+					}
+					]
+					}
+					recipes}
 				</details>
-
 			</div>
+
+			<details open>
+				<summary>Lore<span class="divider"></span></summary>
+				<p>
+					[itemlore]
+				</p>
+			</details>
 		</article>
 	</body>
 </html>
