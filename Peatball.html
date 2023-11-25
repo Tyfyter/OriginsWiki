@@ -10,57 +10,13 @@
 			<h1>Peatball</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Peatball,
-			items:[
-			{image: Images/Peatball.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:Max Stack,
-			value:999
-			},
-			{
-			label:Damage,
-			value:17
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Knockback">Knockback</a>,
-			value:Insane
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Critical_hit">Critical Chance</a>,
-			value:4%
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Use_time">Use Time</a>,
-			value:Very fast
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Velocity">Velocity</a>,
-			value:7
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareWhite.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|0|0|75]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>99 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Peatball]
 
-			<p>The <b>Peatball</b> is a new ammo source for the <a href="https://terraria.wiki.gg/wiki/Snowball_Cannon">Snowball Cannon</a> and is one of the [link Demolitionist Weapons] added by Origins. It is sold by the <a href="https://terraria.wiki.gg/wiki/Demolitionist">Demolitionist</a> or can be crafted from the recipe below.</p>
+			<p>
+				<b>Peatballs</b> are consumable <a href="https://terraria.wiki.gg/wiki/Throwing_weapons">thrown</a> [link explosives | $default | Demolitionist_Weapons.html] crafted from [link Peat Moss].
+				Peatballs can additionally be used as [link ammunition] for the <a href="https://terraria.wiki.gg/wiki/Snowball_Cannon">Snowball Cannon</a>.
+				Peatballs explode on impact and have a comparatively large blast radius.
+			</p>
 
 			<details open>
 				<summary>Crafting<span class="divider"></span></summary>
@@ -69,18 +25,18 @@
 				{recipes
 				{
 				stations:[
-					<a href="https://terraria.wiki.gg/wiki/Work_Benches"><b>Any Workbench</b></a>
-					],
-					items:[
-					{
-					result:<b>Peatball (4)</b>,
-					ingredients:[
-					[link Peat Moss]
-					]
-					}
-					]
-					}
-					recipes}
+				<a href="https://terraria.wiki.gg/wiki/Work_Benches"><b>Any Work Bench</b></a>
+				],
+				items:[
+				{
+				result:[link Peatball | $fromStats](4),
+				ingredients:[
+				[link Peat Moss | $fromStats]
+				]
+				}
+				]
+				}
+				recipes}
 			</details>
 		</article>
 	</body>
