@@ -10,55 +10,12 @@
 			<h1>Nuclear Arm</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Nuclear Arm,
-			items:[
-			{image: Images/Nuclear_Arm.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:Damage,
-			value:57
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Knockback">Knockback</a>,
-			value:Strong
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Critical_hit">Critical Chance</a>,
-			value:4%
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Use_time">Use Time</a>,
-			value:Average
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Velocity">Velocity</a>,
-			value:3
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RarePink.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|6|0|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Nuclear_Arm]
 
 			<p>
-				The <b>Nuclear Arm</b> is a [link Demolitionist Weapon | $default | Demolitionist_Weapons.html] that is craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>. It replaces the player's active arm with a custom sprite resembling the Nuclear Arm. The Arm will track wherever the cursor is on the screen and will fire a slow explosive projectile whenever clicked. The Arm can fire prematurely before it is
-				aimed at where the player wants to shoot, so the player will have to wait before shooting for most accuracy. That paired with the slower projectile velocity are drawbacks of using this weapon limitlessly.
+				The <b>Nuclear Arm</b> is a [link Demolitionist Weapon | $default | Demolitionist_Weapons.html] that is craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>.
+				It replaces the player's active arm with a custom sprite resembling the Nuclear Arm. The Arm will track wherever the cursor is on the screen and will fire a slow explosive projectile whenever clicked.
+				The arm can fire prematurely before it is aimed at where the player wants to shoot, so the player will have to wait before shooting for most accuracy. That paired with the slower projectile velocity are drawbacks of using this weapon limitlessly.
 			</p>
 
 			<details open>
@@ -68,15 +25,15 @@
 				{recipes
 				{
 				stations:[
-				[link Fabricator | Images/Fabricator.png]
+				<b>[link Fabricator | Images/Fabricator.png]</b>
 				],
 				items:[
 				{
-				result:<b>Nuclear Arm</b>,
+				result:[link Nuclear Arm | $fromStats],
 				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Hallowed_Bar">Hallowed Bar</a> (10),
-				<a href="https://terraria.wiki.gg/wiki/Soul_of_Might">Soul of Might</a> (8),
-				<a href="https://terraria.wiki.gg/wiki/Soul_of_Fright">Soul of Fright</a> (4)
+				[link Explosive Powder | $default | https://terraria.wiki.gg/wiki/Explosive_Powder](10),
+				[link Busted Servo | $fromStats](20),
+				[link Power Core | $fromStats](2)
 				]
 				}
 				]

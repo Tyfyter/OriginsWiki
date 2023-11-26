@@ -10,50 +10,12 @@
 			<h1>Personal Laser Blade</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Personal Laser Blade,
-			items:[
-			{image: Images/Personal_Laser_Blade.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:Damage,
-			value:152
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Knockback">Knockback</a>,
-			value:Very Weak
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Critical_hit">Critical Chance</a>,
-			value:25%
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Use_time">Use Time</a>,
-			value:Snail speed
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RarePink.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|7|0|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Personal_Laser_Blade]
 
 			<p>
-				The <b>Personal Laser Blade</b> is a melee weapon craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>. It is a longer-range, <a href="https://terraria.wiki.gg/wiki/Swords#Broadswords">broadsword</a> type weapon that deals high upfront damage. Its slashes have a very large area of effect and can hit through tiles as well as illuminate the area. They have a cooldown after everytime its used that lasts around 7 seconds. This weapon requires careful use.
+				The <b>Personal Laser Blade</b> is a melee weapon craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>.
+				It is a longer-range, [link broadsword | $default | Broadswords.html] that deals high upfront damage.
+				Its slashes have a very large area of effect and can hit through tiles as well as illuminate the area.
 			</p>
 
 			<details open>
@@ -63,15 +25,16 @@
 				{recipes
 				{
 				stations:[
-				[link Fabricator | Images/Fabricator.png]
+				<b>[link Fabricator | Images/Fabricator.png]</b>
 				],
 				items:[
 				{
 				result:<b>Personal Laser Blade</b>,
 				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Hallowed_Bar">Hallowed Bar</a> (6),
-				<a href="https://terraria.wiki.gg/wiki/Soul_of_Light">Soul of Light</a> (10),
-				<a href="https://terraria.wiki.gg/wiki/Soul_of_Sight">Soul of Sight</a> (8)
+				[link Busted Servo | $fromStats](13),
+				[link Power Core | $fromStats],
+				[link Rotor | $fromStats](2),
+				[link Rubber | $fromStats](8)
 				]
 				}
 				]
