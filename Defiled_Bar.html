@@ -10,45 +10,13 @@
 			<h1>Defiled Bar</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Defiled Bar,
-			items:[
-			{image: Images/Defiled_Bar.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Placement">Placeable</a>,
-			value:<b>Yes</b> (1x1)
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Use_time">Use Time</a>,
-			value:Very fast
-			},
-			{
-			label:Max Stack,
-			value:99
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareBlue.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|0|40|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>25 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Defiled_Bar]
 
-			<p><b>Defiled Bars</b> are craftable from [link Lost Ore] and dropped by the [link Defiled Amalgamation]. They are used to crafted a lot of Defiled-themed content and are the Defiled equivalent of the <a href="https://terraria.wiki.gg/wiki/Demonite_Bar">Demonite Bar</a>, <a href="https://terraria.wiki.gg/wiki/Crimtane_Bar">Crimtane Bar</a>, and [link Infested Bar].</p>
+			<p>
+				<b>Defiled Bars</b> are [link pre-Hardmode | $default | https://terraria.wiki.gg/wiki/Pre-Hardmode] [link bars] crafted using [link Lost Ore] at a [link Furnace | $default | https://terraria.wiki.gg/wiki/Furnace].
+				They are used to craft mid-tier pre-hardmode equipment and weapons.
+				Defiled bars are considered an [link evil bar | $default | Recipes.html].
+			</p>
 
 			<details open>
 				<summary>Crafting<span class="divider"></span></summary>
@@ -57,13 +25,13 @@
 				{recipes
 				{
 				stations:[
-				<a href="https://terraria.wiki.gg/wiki/Furnace"><b>Furnace</b></a>
+				<b>[link Furnace | $default | https://terraria.wiki.gg/wiki/Furnace]</b>
 				],
 				items:[
 				{
-				result:<b>Defiled Bar</b>,
+				result:[link Defiled Bar | $fromStats],
 				ingredients:[
-				[link Lost Ore | Images/Lost_Ore.png] (3)
+				[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png](3)
 				]
 				}
 				]
@@ -75,71 +43,71 @@
 				{recipes
 				{
 				stations:[
-				<a href="https://terraria.wiki.gg/wiki/Pre-Hardmode_Anvils"><b>Any Anvil</b></a>
+				<b>[link Any Anvil | $default | https://terraria.wiki.gg/wiki/Anvil]</b>
 				],
 				items:[
 				{
-				result:<a href="file:///C:/Users/atomb/Documents/GitHub/OriginsWiki/Defiled_Armor.html">Defiled Helmet</a>,
+				result:[link Defiled Helmet | $fromStats | Defiled_Armor.html],
 				ingredients:[
-				<b>Defiled Bar</b> (15),
-				[link Undead Chunk | Images/Undead_Chunk.png] (10)
+				[link Defiled Bar | $fromStats](15),
+				[link Undead Chunk | $fromStats](10)
 				]
 				},
 				{
-				result:<a href="file:///C:/Users/atomb/Documents/GitHub/OriginsWiki/Defiled_Armor.html">Defiled Breastplate</a>,
+				result:[link Defiled Breastplate | $fromStats | Defiled_Armor.html],
 				ingredients:[
-				<b>Defiled Bar</b> (25),
-				[link Undead Chunk | Images/Undead_Chunk.png] (20)
+				[link Defiled Bar | $fromStats](25),
+				[link Undead Chunk | $fromStats](20)
 				]
 				},
 				{
-				result:<a href="file:///C:/Users/atomb/Documents/GitHub/OriginsWiki/Defiled_Armor.html">Defiled Greaves</a>,
+				result:[link Defiled Greaves | $fromStats | Defiled_Armor.html],
 				ingredients:[
-				<b>Defiled Bar</b> (20),
-				[link Undead Chunk | Images/Undead_Chunk.png] (15)
+				[link Defiled Bar | $fromStats](20),
+				[link Undead Chunk | $fromStats](15)
 				]
 				},
 				{
-				result:[link Dismantler | Images/Dismantler.png],
+				result:[link Dismantler | $fromStats],
 				ingredients:[
-				<b>Defiled Bar</b> (12),
-				[link Undead Chunk | Images/Undead_Chunk.png] (6)
+				[link Defiled Bar | $fromStats](12),
+				[link Undead Chunk | $fromStats](6)
 				]
 				},
 				{
-				result:[link Brick Breaker | Images/Brick_Breaker.png],
+				result:[link Brick Breaker | $fromStats],
 				ingredients:[
-				<b>Defiled Bar</b> (10),
-				[link Undead Chunk | Images/Undead_Chunk.png] (5)
+				[link Defiled Bar | $fromStats](10),
+				[link Undead Chunk | $fromStats](5)
 				]
 				},
 				{
-				result:[link Spiker Sword | Images/Spiker_Sword.png],
+				result:[link Spiker Sword | $fromStats],
 				ingredients:[
-				<b>Defiled Bar</b> (6),
-				[link Undead Chunk | Images/Undead_Chunk.png] (3)
+				[link Defiled Bar | $fromStats](6),
+				[link Undead Chunk | $fromStats](3)
 				]
 				},
 				{
-				result:[link Ripper Lance | Images/Ripper_Lance.png],
+				result:[link Ripper Lance | $fromStats],
 				ingredients:[
-				<b>Defiled Bar</b> (9),
-				[link Undead Chunk | Images/Undead_Chunk.png] (5)
+				[link Defiled Bar | $fromStats](9),
+				[link Undead Chunk | $fromStats](5)
 				]
 				},
 				{
-				result:[link The Kruncher | Images/The_Kruncher.png],
+				result:[link The Kruncher | §ModImage§/Items/Weapons/Ranged/Kruncher.png],
 				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Illegal_Gun_Parts">Illegal Gun Parts</a> (3),
-				<b>Defiled Bar</b> (6),
-				[link Undead Chunk | Images/Undead_Chunk.png] (3)
+				[link Illegal Gun Parts | $default | https://terraria.wiki.gg/wiki/Illegal_Gun_Parts],
+				[link Defiled Bar | $fromStats](6),
+				[link Undead Chunk | $fromStats](3)
 				]
 				},
 				{
-				result:[link Krakram | Images/Krakram.png],
+				result:[link Krakram | $fromStats],
 				ingredients:[
-				<b>Defiled Bar</b> (7),
-				[link Undead Chunk | Images/Undead_Chunk.png] (4)
+				[link Defiled Bar | $fromStats](7),
+				[link Undead Chunk | $fromStats](4)
 				]
 				}
 				]
@@ -149,9 +117,8 @@
 			</details>
 
 			<details open>
-				<summary>Properties and Lore<span class="divider"></span></summary>
-				<p><h1>Defiled Bar</h1>
-				<p>Defiled Bars are not a metal material, they are just spare Defiled chunks the Terrarian can use for crafting Defiled equipment.</p>
+				<summary>Lore<span class="divider"></span></summary>
+				[itemlore]
 			</details>
 		</article>
 	</body>
