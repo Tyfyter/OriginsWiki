@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Armor/Rift/Rift_Helmet",
-  "Name": "Bleeding Obsidian Hardee",
+  "Name": "Mods.Origins.Items.Rift_Helmet.DisplayName",
   "Types": [
     "Item",
     "Hardmode",
@@ -8,7 +8,7 @@
   ],
   "Defense": 7,
   "ArmorSlot": "Helmet",
-  "Tooltip": "Increased explosive velocity",
+  "Tooltip": "Mods.Origins.Items.Rift_Helmet.Tooltip",
   "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 26,

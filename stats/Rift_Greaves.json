@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Armor/Rift/Rift_Greaves",
-  "Name": "Bleeding Obsidian Chaps",
+  "Name": "Mods.Origins.Items.Rift_Greaves.DisplayName",
   "Types": [
     "Item",
     "Hardmode",
@@ -8,7 +8,7 @@
   ],
   "Defense": 9,
   "ArmorSlot": "Pants",
-  "Tooltip": "15% increased movement speed",
+  "Tooltip": "Mods.Origins.Items.Rift_Greaves.Tooltip",
   "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 22,

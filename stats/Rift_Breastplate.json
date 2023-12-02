@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Armor/Rift/Rift_Breastplate",
-  "Name": "Bleeding Obsidian Trenchcoat",
+  "Name": "Mods.Origins.Items.Rift_Breastplate.DisplayName",
   "Types": [
     "Item",
     "Hardmode",
@@ -8,7 +8,7 @@
   ],
   "Defense": 10,
   "ArmorSlot": "Shirt",
-  "Tooltip": "-25% explosive self-damage",
+  "Tooltip": "Mods.Origins.Items.Rift_Breastplate.Tooltip",
   "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 30,

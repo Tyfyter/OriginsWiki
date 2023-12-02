@@ -8,7 +8,7 @@
   ],
   "Defense": 7,
   "ArmorSlot": "Shirt",
-  "Tooltip": "-34% explosive self-damage",
+  "Tooltip": "-34% self-damage",
   "Rarity": "LightRed",
   "Sell": 20000,
   "SpriteWidth": 38,

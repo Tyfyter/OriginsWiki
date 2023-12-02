@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Bleeding_Obsidian_Armor",
+  "Images": [
+    "ArmorSets/Bleeding_Obsidian_Armor",
+    "ArmorSets/Bleeding_Obsidian_Armor_Female"
+  ],
+  "Defense": 26,
+  "SetBonus": "Explosive projectiles have a chance to be duplicated",
+  "Rarity": "Pink",
+  "Sell": 300000
+}

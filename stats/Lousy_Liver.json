@@ -6,7 +6,7 @@
     "Accessory",
     "Combat"
   ],
-  "Tooltip": "Weakens up to 4 nearby enemies",
+  "Tooltip": "Inflicts Rasterize to 4 nearby enemies",
   "Rarity": "LightRed",
   "Sell": 10000,
   "SpriteWidth": 26,

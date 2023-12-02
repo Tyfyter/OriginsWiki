@@ -5,7 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Acrid_Armor",
-  "SetBonus": "All attacks inflict 'Toxic Shock'\nImmunity to 'Toxic Shock', 'Acid Venom', and 'Poisoned' debuffs\nExtends underwater breathing",
+  "SetBonus": "All attacks inflict 'Toxic Shock'\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
   "Images": [
     [
       "ArmorSets/Explosive_Acrid_Armor",
@@ -22,5 +22,5 @@
       "ArmorSets/Ranged_Acrid_Armor_Female"
     ]
   ],
-  "Defense": "<img src=§ModImage§/Items/Armor/Acrid/Acrid_Dome>34<img src=§ModImage§/Items/Armor/Acrid/Acrid_Headgear>36<img src=§ModImage§/Items/Armor/Acrid/Acrid_Helm>50<img src=§ModImage§/Items/Armor/Acrid/Acrid_Mask>33<img src=§ModImage§/Items/Armor/Acrid/Acrid_Visor>41"
+  "Defense": "<img src=§ModImage§/Items/Armor/Acrid/Acrid_Dome.png>34<img src=§ModImage§/Items/Armor/Acrid/Acrid_Headgear.png>36<img src=§ModImage§/Items/Armor/Acrid/Acrid_Helm.png>50<img src=§ModImage§/Items/Armor/Acrid/Acrid_Mask.png>33<img src=§ModImage§/Items/Armor/Acrid/Acrid_Visor.png>41"
 }

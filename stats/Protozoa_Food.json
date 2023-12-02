@@ -10,7 +10,7 @@
   ],
   "ManaCost": 10,
   "Damage": 13,
-  "DamageClass": "ExplosiveSummon",
+  "DamageClass": "Explosive Summon",
   "Knockback": 3.0,
   "UseTime": 45,
   "Tooltip": [

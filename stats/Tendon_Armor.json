@@ -10,7 +10,7 @@
     "ArmorSets/Tendon_Armor_Female"
   ],
   "Defense": 10,
-  "SetBonus": "Increased mobility based on available lifeforce",
+  "SetBonus": "Mobility is based on available lifeforce",
   "Rarity": "Blue",
   "Sell": 45000
 }

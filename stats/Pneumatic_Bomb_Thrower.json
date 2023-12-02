@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Pneumatic_Bomb_Thrower",
+  "Name": "Pneumatic Bomb Thrower",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "Explosive"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 30000,
+  "SpriteWidth": 30,
+  "InternalName": "Pneumatic_Bomb_Thrower"
+}

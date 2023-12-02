@@ -10,7 +10,7 @@
     "ArmorSets/Cryosten_Armor_Female"
   ],
   "Defense": 7,
-  "SetBonus": "Life restoration from hearts increased. Resistance to Chilled, Frozen, and Frostburn",
+  "SetBonus": "Life restoration from hearts increased.\nCannot be frozen or chilled",
   "Rarity": "White",
   "Sell": 10500
 }

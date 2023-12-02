@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Bomb_Handling_Device",
+  "Name": "Bomb Handling Device",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "Explosive"
+  ],
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 38,
+  "InternalName": "Bomb_Handling_Device"
+}
