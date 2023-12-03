@@ -1,16 +1,20 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Mine_Flayer",
+  "Name": "Mine Flayer",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 60,
-  "DamageClass": "ExplosiveMelee",
+  "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 4,
   "Velocity": 9.0,
-  "Tooltip": "Releases a barrage of mines when swung\n16.7% chance not to consume ammo",
+  "Tooltip": [
+    "Releases a barrage of mines when swung",
+    "16.7% chance not to consume ammo"
+  ],
   "Rarity": "Pink",
   "Sell": 50000,
   "SpriteWidth": 26,

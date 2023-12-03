@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Alkahest",
+  "Name": "Alkahest",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Orange",
   "Sell": 900,
   "SpriteWidth": 16,
   "InternalName": "Alkahest"

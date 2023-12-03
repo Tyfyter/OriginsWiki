@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Lunar_Token",
+  "Name": "Lunar Token",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Cyan",
   "SpriteWidth": 10,
   "InternalName": "Lunar_Token"
 }

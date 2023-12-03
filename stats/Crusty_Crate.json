@@ -1,4 +1,5 @@
 {
+  "Name": "Crusty Crate",
   "Types": [
     "Item",
     "Tile"
@@ -8,7 +9,10 @@
     2
   ],
   "UseTime": 15,
-  "Tooltip": "Right Click to open\n'No, this is Patrick.'",
+  "Tooltip": [
+    "Right Click to open",
+    "'No, this is Patrick.'"
+  ],
   "Rarity": "Green",
   "Sell": 10000,
   "SpriteWidth": 34,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Boiler",
+  "Name": "Boiler",
   "Types": [
     "Item",
     "Weapon"

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Decimator",
+  "Name": "Decimator",
   "Types": [
     "Item",
     "Weapon"

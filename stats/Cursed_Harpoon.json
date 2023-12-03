@@ -1,11 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Cursed_Harpoon",
+  "Name": "Cursed Harpoon",
   "Types": [
     "Item",
     "Ammo"
   ],
   "Damage": 20,
   "DamageClass": "Ranged",
+  "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Orange",
   "Sell": 3000,
   "SpriteWidth": 26,

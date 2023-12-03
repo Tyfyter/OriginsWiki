@@ -1,7 +1,9 @@
 {
   "Image": "§ModImage§/Items/Other/LootBags/Defiled_Amalgamation_Bag",
+  "Name": "Treasure Bag (Defiled Amalgamation)",
   "Types": [
-    "Item"
+    "Item",
+    "Expert"
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",

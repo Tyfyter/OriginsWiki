@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Tolruk",
+  "Name": "Tolruk",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,12 @@
   "Knockback": 1.0,
   "UseTime": 10,
   "Velocity": 14.0,
-  "Tooltip": "Receives 50% higher damage bonuses\n[tɵlɹɘk]\nSprite needs reshaping to be less like dart rifle\nOn it :)",
+  "Tooltip": [
+    "Receives 50% higher damage bonuses",
+    "[tɵlɹɘk]",
+    "Sprite needs reshaping to be less like dart rifle",
+    "On it :)"
+  ],
   "Rarity": "Lime",
   "Sell": 20000,
   "SpriteWidth": 62,

@@ -1,4 +1,5 @@
 {
+  "Name": "Omni-Directional Claymore",
   "Types": [
     "Item",
     "Weapon",
@@ -12,7 +13,10 @@
   "Damage": 165,
   "DamageClass": "",
   "UseTime": 10,
-  "Tooltip": "Explodes when enemies cross its laser\nCan aim in different directions",
+  "Tooltip": [
+    "Explodes when enemies cross its laser",
+    "Can aim in different directions"
+  ],
   "Rarity": "Pink",
   "Sell": 17500,
   "SpriteWidth": 18,

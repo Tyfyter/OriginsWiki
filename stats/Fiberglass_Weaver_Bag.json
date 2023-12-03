@@ -1,7 +1,9 @@
 {
   "Image": "§ModImage§/Items/Other/LootBags/Fiberglass_Weaver_Bag",
+  "Name": "Treasure Bag (Fiberglass Weaver)",
   "Types": [
-    "Item"
+    "Item",
+    "Expert"
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",

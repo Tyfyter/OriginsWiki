@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Longbone",
+  "Name": "Longbone",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,7 @@
   "Crit": 8,
   "UseTime": 16,
   "Velocity": 9.0,
-  "Tooltip": "Turns most arrows into fragile bone arrows",
+  "Tooltip": "Turns most arrows into splitting bone arrows",
   "Rarity": "Green",
   "Sell": 8000,
   "SpriteWidth": 22,

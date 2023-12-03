@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Potato",
+  "Name": "Potato",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Minor improvements to all stats\nIt's a potato...",
+  "Tooltip": [
+    "Minor improvements to all stats",
+    "It's a potato..."
+  ],
   "Rarity": "Orange",
   "Sell": 100,
   "SpriteWidth": 22,

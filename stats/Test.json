@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Test",
+  "Name": "Test",
   "Types": [
     "Item",
     "Weapon"

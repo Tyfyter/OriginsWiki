@@ -1,9 +1,11 @@
 {
   "Image": "§ModImage§/Items/Materials/Ocean_Key",
+  "Name": "Ocean Key",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
-  "Rarity": "White",
+  "Rarity": "Yellow",
   "SpriteWidth": 14,
   "InternalName": "Ocean_Key"
 }

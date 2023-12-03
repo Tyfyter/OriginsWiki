@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Piledriver",
+  "Name": "Piledriver",
   "Types": [
     "Item",
     "Weapon"

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Nineball",
+  "Name": "Nineball",
   "Types": [
     "Item",
     "Weapon"

@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Magic_Hair_Spray",
+  "Name": "Magic Hair Treatment Gel",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Quest",
   "Sell": 40,
   "SpriteWidth": 20,
   "InternalName": "Magic_Hair_Spray"

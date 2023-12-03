@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Strainer",
+  "Name": "Strainer",
   "Types": [
     "Item",
     "Weapon",

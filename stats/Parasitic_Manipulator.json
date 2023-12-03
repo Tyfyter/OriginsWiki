@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Parasitic_Manipulator",
+  "Name": "Parasitic Manipulator",
   "Types": [
     "Item",
     "Tool"

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Miter_Saw",
+  "Name": "Miter Saw",
   "Types": [
     "Item",
     "Weapon",

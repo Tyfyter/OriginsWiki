@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Eitrite_Bar",
+  "Name": "Eitrite Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Orange",
   "Sell": 8100,
   "SpriteWidth": 30,
   "InternalName": "Eitrite_Bar"

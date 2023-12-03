@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Lightning_Rod",
+  "Name": "Lightning Rod",
   "Types": [
     "Item",
     "Tool"

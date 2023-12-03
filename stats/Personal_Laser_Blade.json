@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Personal_Laser_Blade",
+  "Name": "Laser Blade",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "Crit": 14,
   "UseTime": 1,
   "Velocity": 3.0,
-  "Tooltip": "Time your swings for more powerful blows\n'Be careful, it's hot'",
+  "Tooltip": [
+    "Time your swings for more powerful blows",
+    "'Be careful, it's hot'"
+  ],
   "Rarity": "Pink",
   "SpriteWidth": 20,
   "InternalName": "Personal_Laser_Blade"

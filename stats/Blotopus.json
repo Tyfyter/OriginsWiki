@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Blotopus",
+  "Name": "Blotopus",
   "Types": [
     "Item",
     "Weapon",
@@ -10,7 +11,10 @@
   "Crit": 11,
   "UseTime": 6,
   "Velocity": 7.0,
-  "Tooltip": "Fires a stream of needles that bleed enemies\n20% chance not consume ammo",
+  "Tooltip": [
+    "Fires a stream of needles that bleed enemies",
+    "20% chance not consume ammo"
+  ],
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 64,

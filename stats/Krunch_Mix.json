@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Krunch_Mix",
+  "Name": "Krunch Mix",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Minor improvements to all stats and further increased regeneration\n'Taste the graynbow'",
+  "Tooltip": [
+    "Minor improvements to all stats and further increased regeneration",
+    "'Taste the graynbow'"
+  ],
   "Rarity": "Orange",
   "Sell": 2000,
   "SpriteWidth": 30,

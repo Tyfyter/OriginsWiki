@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Qube",
+  "Name": "Qube",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Butterscotch",
   "Sell": 16000,
   "SpriteWidth": 24,
   "InternalName": "Qube"

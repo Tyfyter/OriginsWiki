@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Depth_Charge",
+  "Name": "Depth Charge",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 55,
-  "DamageClass": "ExplosiveMelee",
+  "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 28,
   "Velocity": 8.0,

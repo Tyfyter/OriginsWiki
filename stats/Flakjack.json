@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Flakjack",
+  "Name": "Flakjack",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 96,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
   "Crit": 18,
   "UseTime": 17,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Summoner/Amebolize_Incantation",
+  "Name": "Amebolize Incantation",
   "Types": [
     "Item",
     "Weapon"
@@ -9,7 +10,11 @@
   "DamageClass": "Summon",
   "UseTime": 26,
   "Velocity": 9.75,
-  "Tooltip": "Struck enemies will wither away\n5 summon tag damage\nYour summons will focus struck enemies",
+  "Tooltip": [
+    "Struck enemies will wither away",
+    "5 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
   "Rarity": "Blue",
   "Sell": 15000,
   "SpriteWidth": 22,

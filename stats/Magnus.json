@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Magnus",
+  "Name": "Magnus",
   "Types": [
     "Item",
     "Weapon"

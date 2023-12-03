@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Scrap",
+  "Name": "Scrap",
   "Types": [
     "Item",
     "Ammo"

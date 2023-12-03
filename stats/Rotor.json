@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Rotor",
+  "Name": "Rotor",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Pink",
   "Sell": 40,
   "SpriteWidth": 22,
   "InternalName": "Rotor"

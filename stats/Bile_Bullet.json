@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Bile_Bullet",
+  "Name": "Bile Bullet",
   "Types": [
     "Item",
     "Ammo"

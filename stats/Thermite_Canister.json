@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Thermite_Canister",
+  "Name": "Thermite Canister",
   "Types": [
     "Item",
     "Ammo"

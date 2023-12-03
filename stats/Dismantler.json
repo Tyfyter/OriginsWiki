@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Dismantler",
+  "Name": "Dismantler",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "DamageClass": "Melee",
   "Knockback": 4.0,
   "UseTime": 13,
-  "Tooltip": "Able to mine Hellstone\n'Very pointy'",
+  "Tooltip": [
+    "Able to mine Hellstone",
+    "'Very pointy'"
+  ],
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 34,

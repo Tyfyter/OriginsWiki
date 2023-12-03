@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Eruption",
+  "Name": "Eruption",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 50,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
+  "UseTime": 32,
+  "Velocity": 12.0,
+  "Rarity": "Crimson",
+  "Sell": 50000,
+  "SpriteWidth": 50,
+  "InternalName": "Eruption"
+}

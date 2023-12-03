@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Ace_Shrapnel_Old",
+  "Name": "Ancient Fragthrower",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 85,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 28,
   "Velocity": 6.0,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/The_Bird",
+  "Name": "The Bird",
   "Types": [
     "Item",
     "Weapon",
@@ -9,7 +10,10 @@
   "DamageClass": "Melee",
   "Knockback": 16.0,
   "UseTime": 20,
-  "Tooltip": "Developer item\n'How's being 96-thousand feet in the air for yah? Thought so'",
+  "Tooltip": [
+    "Developer item",
+    "'How's being 96-thousand feet in the air for yah? Thought so'"
+  ],
   "Rarity": "White",
   "Sell": 20,
   "SpriteWidth": 36,

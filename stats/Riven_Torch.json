@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Tiles/Riven/Riven_Torch",
+  "Name": "Riven Torch",
   "Types": [
     "Item",
     "Tile",

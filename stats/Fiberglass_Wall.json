@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Walls/Fiberglass_Wall_Item",
+  "Name": "Fiberglass Wall",
   "Types": [
     "Item"
   ],

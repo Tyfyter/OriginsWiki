@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Rivenator",
+  "Name": "Rivenator",
   "Types": [
     "Item",
     "Weapon",

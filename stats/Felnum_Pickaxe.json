@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Felnum_Pickaxe",
+  "Name": "Felnum Pickaxe",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "DamageClass": "Melee",
   "Knockback": 4.0,
   "UseTime": 13,
-  "Tooltip": "Able to mine Hellstone\n'Its strikes sound like thunder'",
+  "Tooltip": [
+    "Able to mine Hellstone",
+    "'Its strikes sound like thunder'"
+  ],
   "Rarity": "Green",
   "Sell": 4000,
   "SpriteWidth": 36,

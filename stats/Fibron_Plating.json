@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Fibron_Plating",
+  "Name": "Fibron Plating",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Crimson",
   "Sell": 6800,
   "SpriteWidth": 26,
   "InternalName": "Fibron_Plating"

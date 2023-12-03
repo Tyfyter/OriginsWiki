@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Mojo_Flask",
+  "Name": "Mojo Flask",
   "Types": [
     "Item"
   ],
   "UseTime": 15,
-  "Tooltip": "Mitigates all assimilation by 20% each for five uses",
+  "Tooltip": [
+    "Reduces all assimilation by 20% each",
+    "All uses are restored when you use a Cleansing Station"
+  ],
   "Rarity": "Blue",
   "Sell": 4000,
   "SpriteWidth": 110,

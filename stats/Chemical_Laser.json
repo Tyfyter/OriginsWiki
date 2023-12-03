@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Chemical_Laser",
+  "Name": "Chemical Laser",
   "Types": [
     "Item",
     "Weapon",
@@ -7,7 +8,7 @@
   ],
   "ManaCost": 8,
   "Damage": 30,
-  "DamageClass": "ExplosiveMagic",
+  "DamageClass": "Explosive Magic",
   "UseTime": 12,
   "Velocity": 32.0,
   "Tooltip": "Splits into brine droplets on impact",

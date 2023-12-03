@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Felnum_Bar",
+  "Name": "Felnum Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Green",
   "Sell": 4000,
   "SpriteWidth": 30,
   "InternalName": "Felnum_Bar"

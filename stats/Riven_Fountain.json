@@ -1,0 +1,19 @@
+{
+  "Name": "Riven Water Fountain",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 22,
+  "InternalName": "Riven_Fountain_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Riven_Fountain_Item",
+    "Tiles/Riven_Fountain"
+  ]
+}

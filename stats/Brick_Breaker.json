@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Brick_Breaker",
+  "Name": "Brick Breaker",
   "Types": [
     "Item",
     "Weapon",

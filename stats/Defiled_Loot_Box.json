@@ -1,7 +1,9 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Defiled_Loot_Box",
+  "Name": "Defiled Loot Box",
   "Types": [
-    "Item"
+    "Item",
+    "Expert"
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",

@@ -1,9 +1,11 @@
 {
   "Image": "§ModImage§/Items/Materials/Hell_Key",
+  "Name": "Hell Key",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
-  "Rarity": "White",
+  "Rarity": "Yellow",
   "SpriteWidth": 16,
   "InternalName": "Hell_Key"
 }

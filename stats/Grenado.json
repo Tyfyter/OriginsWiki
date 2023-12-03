@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Grenado",
+  "Name": "Grenado",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 80,
-  "DamageClass": "ExplosiveMagic",
+  "DamageClass": "Explosive Magic",
   "Knockback": 4.75,
   "UseTime": 26,
   "Velocity": 9.0,

@@ -1,9 +1,11 @@
 {
   "Image": "§ModImage§/Items/Materials/Dusk_Key",
+  "Name": "Dusk Key",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
-  "Rarity": "White",
+  "Rarity": "Yellow",
   "SpriteWidth": 16,
   "InternalName": "Dusk_Key"
 }

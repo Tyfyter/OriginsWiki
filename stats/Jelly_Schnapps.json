@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Jelly_Schnapps",
+  "Name": "Jelly Schnapps",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Minor improvements to all stats\n'Schnapp. Crackle. Schplit apart'",
+  "Tooltip": [
+    "Minor improvements to all stats",
+    "'Schnapp. Crackle. Schplit apart'"
+  ],
   "Rarity": "Green",
   "Sell": 4000,
   "SpriteWidth": 16,

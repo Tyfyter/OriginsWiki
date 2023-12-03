@@ -1,4 +1,5 @@
 {
+  "Name": "Potato Mine",
   "Types": [
     "Item",
     "Weapon",
@@ -12,7 +13,10 @@
   "Damage": 85,
   "DamageClass": "",
   "UseTime": 10,
-  "Tooltip": "Explodes when stepped on\n'SPUDOW!'",
+  "Tooltip": [
+    "Explodes when stepped on",
+    "'SPUDOW!'"
+  ],
   "Rarity": "White",
   "Sell": 5000,
   "SpriteWidth": 22,

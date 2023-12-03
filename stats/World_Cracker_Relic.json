@@ -1,0 +1,21 @@
+{
+  "Name": "World Cracker Relic",
+  "Types": [
+    "Item",
+    "Tile",
+    "Master"
+  ],
+  "PlacementSize": [
+    3,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "Master",
+  "Sell": 10000,
+  "SpriteWidth": 38,
+  "InternalName": "World_Cracker_Relic_Item",
+  "Images": [
+    "§ModImage§/Tiles/BossDrops/World_Cracker_Relic_Item",
+    "Tiles/World_Cracker_Relic"
+  ]
+}

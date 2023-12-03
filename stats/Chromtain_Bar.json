@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Chromtain_Bar",
+  "Name": "Chromtain Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Crimson",
   "Sell": 10000,
   "SpriteWidth": 30,
   "InternalName": "Chromtain_Bar"

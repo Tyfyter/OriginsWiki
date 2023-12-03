@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Boomphracken",
+  "Name": "Boomphracken",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "Crit": 11,
   "UseTime": 57,
   "Velocity": 24.0,
-  "Tooltip": "Chance to throw an explosive when used\n'He works his work, I work mine'",
+  "Tooltip": [
+    "Chance to throw an explosive when used",
+    "'He works his work, I work mine'"
+  ],
   "Rarity": "Pink",
   "Sell": 200000,
   "SpriteWidth": 56,

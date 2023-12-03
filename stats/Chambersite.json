@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Chambersite",
+  "Name": "Chambersite",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 800,
   "SpriteWidth": 18,
   "InternalName": "Chambersite"

@@ -1,11 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Flammable_Harpoon",
+  "Name": "Flammable Harpoon",
   "Types": [
     "Item",
     "Ammo"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",
+  "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "White",
   "Sell": 2600,
   "SpriteWidth": 26,

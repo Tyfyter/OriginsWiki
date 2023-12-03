@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Dreikan",
+  "Name": "Dreikan",
   "Types": [
     "Item",
     "Weapon",
@@ -7,7 +8,7 @@
     "Hardmode"
   ],
   "Damage": 66,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
   "Crit": 30,
   "UseTime": 11,

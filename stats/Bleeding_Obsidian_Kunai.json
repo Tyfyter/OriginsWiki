@@ -1,9 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Bleeding_Obsidian_Kunai",
+  "Name": "Bleeding Obsidian Kunai",
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Torn",
+    "TornSource"
   ],
   "Damage": 38,
   "DamageClass": "Ranged",

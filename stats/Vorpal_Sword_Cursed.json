@@ -1,9 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Vorpal_Sword_Cursed",
+  "Name": "Vorpal Sword",
   "Types": [
     "Item",
     "Weapon",
-    "Sword"
+    "Sword",
+    "Torn",
+    "TornSource"
   ],
   "Damage": 17,
   "DamageClass": "Melee",

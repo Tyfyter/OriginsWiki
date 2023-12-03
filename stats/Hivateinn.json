@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Hivateinn",
+  "Name": "Hævateinn",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "Knockback": 3.0,
   "UseTime": 30,
   "Velocity": 16.0,
-  "Tooltip": "Receives 50% higher damage bonuses\nsprite needs recoloring as soon as Dawn material is determined",
+  "Tooltip": [
+    "Receives 50% higher damage bonuses",
+    "sprite needs recoloring as soon as Dawn material is determined"
+  ],
   "Rarity": "Lime",
   "Sell": 20000,
   "SpriteWidth": 46,

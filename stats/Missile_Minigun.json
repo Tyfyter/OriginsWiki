@@ -1,12 +1,13 @@
 {
   "Image": "Terraria/Images/Item_760",
+  "Name": "Missile Minigun",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 110,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 12,
   "Velocity": 12.0,

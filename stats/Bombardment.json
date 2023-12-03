@@ -1,11 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Bombardment",
+  "Name": "Bombardment",
   "Types": [
     "Item",
     "Weapon"
   ],
   "Damage": 4,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 6,
   "Velocity": 9.0,

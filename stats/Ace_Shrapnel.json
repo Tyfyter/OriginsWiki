@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Ace_Shrapnel",
+  "Name": "Ace Shrapnel",
   "Types": [
     "Item",
     "Weapon",
@@ -7,11 +8,14 @@
     "Ammo"
   ],
   "Damage": 150,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 20,
   "Velocity": 12.0,
-  "Tooltip": "Not implemented the way spriter dev wants it\nUses scrap as ammo",
+  "Tooltip": [
+    "Not implemented the way spriter dev wants it",
+    "Uses scrap as ammo"
+  ],
   "Rarity": "LightPurple",
   "Sell": 20000,
   "SpriteWidth": 54,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Dragons_Breath",
+  "Name": "Dragon's Breath",
   "Types": [
     "Item",
     "Weapon"
@@ -10,7 +11,10 @@
   "Crit": 15,
   "UseTime": 43,
   "Velocity": 10.0,
-  "Tooltip": "Uses fireblossoms as ammo\nDesperately needs rework",
+  "Tooltip": [
+    "Uses fireblossoms as ammo",
+    "Desperately needs rework"
+  ],
   "Rarity": "Orange",
   "Sell": 20000,
   "SpriteWidth": 68,

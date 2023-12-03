@@ -1,7 +1,9 @@
 {
   "Image": "§ModImage§/Items/Other/LootBags/World_Cracker_Bag",
+  "Name": "Treasure Bag (World Cracker)",
   "Types": [
-    "Item"
+    "Item",
+    "Expert"
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",

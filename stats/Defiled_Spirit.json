@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Defiled_Spirit",
+  "Name": "Defiled Spirit",
   "Types": [
     "Item",
     "Weapon",
     "Ammo"
   ],
   "Damage": 13,
-  "DamageClass": "ExplosiveThrowing",
+  "DamageClass": "Explosive Throwing",
   "Knockback": 2.75,
   "UseTime": 28,
   "Velocity": 17.0,

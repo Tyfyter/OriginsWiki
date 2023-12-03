@@ -1,10 +1,11 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Nullification_Potion",
+  "Name": "Nullification Potion",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Removes all current harmful effects",
+  "Tooltip": "Cures all debuffs",
   "Rarity": "Blue",
   "Sell": 200,
   "SpriteWidth": 16,

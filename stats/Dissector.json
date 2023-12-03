@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Tools/Dissector",
+  "Name": "Dissector",
   "Types": [
     "Item",
     "Weapon",

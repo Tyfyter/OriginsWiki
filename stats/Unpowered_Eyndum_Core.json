@@ -1,9 +1,11 @@
 {
   "Image": "§ModImage§/Items/Materials/Unpowered_Eyndum_Core",
+  "Name": "Unpowered Eyndum Core",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
-  "Rarity": "White",
+  "Rarity": "Butterscotch",
   "Sell": 100000,
   "SpriteWidth": 24,
   "InternalName": "Unpowered_Eyndum_Core"

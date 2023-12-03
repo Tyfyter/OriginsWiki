@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Pets/Chromatic_Scale",
+  "Name": "Chromatic Scale",
   "Types": [
     "Item",
     "Hardmode"
   ],
   "Damage": 0,
   "UseTime": 20,
-  "Tooltip": "A very long an convoluted tooltip text because Ty forgot to mess with its name and tooltip :p",
+  "Tooltip": "Summons a rainbow pangolin",
   "Rarity": "Cyan",
   "Sell": 200000,
   "SpriteWidth": 22,

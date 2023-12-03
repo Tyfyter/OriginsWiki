@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Pike_of_Deepneus",
+  "Name": "Pike of Deepneus",
   "Types": [
     "Item",
     "Weapon",
@@ -11,7 +12,10 @@
   "Knockback": 8.0,
   "UseTime": 17,
   "Velocity": 24.0,
-  "Tooltip": "Time your throws for more powerful blows\n'Like so deep dude'",
+  "Tooltip": [
+    "Time your throws for more powerful blows",
+    "'Like so deep dude'"
+  ],
   "Rarity": "Pink",
   "Sell": 30000,
   "SpriteWidth": 60,

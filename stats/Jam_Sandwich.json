@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Jam_Sandwich",
+  "Name": "Jam Sandwich",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Medium improvements to all stats\n'What kind of jam is this?'",
+  "Tooltip": [
+    "Medium improvements to all stats",
+    "'What kind of jam is this?'"
+  ],
   "Rarity": "Orange",
   "Sell": 1000,
   "SpriteWidth": 28,

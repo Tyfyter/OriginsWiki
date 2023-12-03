@@ -1,4 +1,5 @@
 {
+  "Name": "Cleansing Station",
   "Types": [
     "Item",
     "Tile"
@@ -8,6 +9,7 @@
     2
   ],
   "UseTime": 10,
+  "Tooltip": "Use to cleanse all assimilation",
   "Rarity": "White",
   "Sell": 10000,
   "SpriteWidth": 26,

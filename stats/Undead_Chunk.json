@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Undead_Chunk",
+  "Name": "Undead Chunk",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 150,
   "SpriteWidth": 24,
   "InternalName": "Undead_Chunk"

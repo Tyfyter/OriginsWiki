@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Other/Testing/Blood_Mushroom_Soup",
+  "Name": "Worldgen Testing Item",
   "Types": [
     "Item"
   ],

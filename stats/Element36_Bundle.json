@@ -1,9 +1,11 @@
 {
   "Image": "§ModImage§/Items/Materials/Element36_Bundle",
+  "Name": "Material-36 Bundle",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
-  "Rarity": "White",
+  "Rarity": "Crimson",
   "Sell": 10000,
   "SpriteWidth": 26,
   "InternalName": "Element36_Bundle"

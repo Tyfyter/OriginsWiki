@@ -1,9 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Seam_Beam",
+  "Name": "Seam Beam",
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Torn",
+    "TornSource"
   ],
   "ManaCost": 19,
   "Damage": 42,

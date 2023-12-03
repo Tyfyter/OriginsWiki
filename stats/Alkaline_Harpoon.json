@@ -1,11 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Alkaline_Harpoon",
+  "Name": "Alkaline Harpoon",
   "Types": [
     "Item",
     "Ammo"
   ],
   "Damage": 16,
   "DamageClass": "Ranged",
+  "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "LightRed",
   "Sell": 2800,
   "SpriteWidth": 22,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Gooey_Water",
+  "Name": "Gooey Water",
   "Types": [
     "Item",
     "Weapon"

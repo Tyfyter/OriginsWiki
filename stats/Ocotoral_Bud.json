@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Ocotoral_Bud",
+  "Name": "Ocotoral Bud",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Torn",
+    "TornSource"
+  ],
+  "ManaCost": 12,
+  "Damage": 26,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Velocity": 1.0,
+  "Tooltip": "Summons a mobile barnacle turret to fight for you",
+  "Rarity": "Pink",
+  "Sell": 5000,
+  "SpriteWidth": 40,
+  "InternalName": "Ocotoral_Bud"
+}

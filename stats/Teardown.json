@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Summoner/Teardown",
+  "Name": "Teardown",
   "Types": [
     "Item",
     "Weapon"
@@ -8,7 +9,10 @@
   "Damage": 11,
   "DamageClass": "Summon",
   "UseTime": 36,
-  "Tooltip": "Summons a Flying Exoskeleton to fight for you\nIgnores some enemy defense",
+  "Tooltip": [
+    "Summons a Flying Exoskeleton to fight for you",
+    "Ignores some enemy defense"
+  ],
   "Rarity": "Blue",
   "Sell": 15000,
   "SpriteWidth": 58,

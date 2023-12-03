@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Starfuze",
+  "Name": "Starfuze",
   "Types": [
     "Item",
     "Ammo"

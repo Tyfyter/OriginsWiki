@@ -1,11 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Hand_Grenade_Launcher",
+  "Name": "Hand Grenade Launcher",
   "Types": [
     "Item",
     "Weapon"
   ],
   "Damage": 17,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
   "UseTime": 23,
   "Velocity": 5.0,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Snapthrow",
+  "Name": "Snapthrow",
   "Types": [
     "Item",
     "Weapon"

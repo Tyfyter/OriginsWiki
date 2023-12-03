@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Honey_Bread",
+  "Name": "Honey Wheat Bread",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Major improvements to all stats\n'Let's get this bread!'",
+  "Tooltip": [
+    "Major improvements to all stats",
+    "'Let's get this bread!'"
+  ],
   "Rarity": "White",
   "Sell": 1000,
   "SpriteWidth": 20,

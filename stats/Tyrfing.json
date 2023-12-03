@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Tyrfing",
+  "Name": "Tyrfing",
   "Types": [
     "Item",
     "Weapon",
@@ -10,7 +11,11 @@
   "DamageClass": "Melee",
   "Knockback": 9.0,
   "UseTime": 48,
-  "Tooltip": "Receives 50% higher damage bonuses\nHold right click to stab\n'Behold'",
+  "Tooltip": [
+    "Receives 50% higher damage bonuses",
+    "Hold right click to stab",
+    "'Behold'"
+  ],
   "Rarity": "Lime",
   "Sell": 20000,
   "SpriteWidth": 240,

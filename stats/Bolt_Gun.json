@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Bolt_Gun",
+  "Name": "Bolt Gun",
   "Types": [
     "Item",
     "Weapon",

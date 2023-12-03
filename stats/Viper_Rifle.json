@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ranged/Viper_Rifle",
+  "Name": "HNO-3 \"Viper\"",
   "Types": [
     "Item",
     "Weapon",
@@ -12,7 +13,10 @@
   "Crit": 13,
   "UseTime": 23,
   "Velocity": 8.0,
-  "Tooltip": "Has a chance to inflict \"Toxic Shock\"\nDeals critical damage on otherwise afflicted enemies",
+  "Tooltip": [
+    "Has a chance to inflict Toxic Shock",
+    "Deals critical damage on otherwise afflicted enemies"
+  ],
   "Rarity": "LightRed",
   "Sell": 5000,
   "SpriteWidth": 100,

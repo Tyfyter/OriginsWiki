@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Formium_Bar",
+  "Name": "Formium Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Butterscotch",
   "Sell": 6800,
   "SpriteWidth": 30,
   "InternalName": "Formium_Bar"

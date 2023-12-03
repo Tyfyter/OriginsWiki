@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Tiles/Defiled/Defiled_Torch",
+  "Name": "Defiled Torch",
   "Types": [
     "Item",
     "Tile",

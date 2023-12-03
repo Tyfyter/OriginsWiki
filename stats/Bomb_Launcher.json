@@ -1,11 +1,12 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Bomb_Launcher",
+  "Name": "Bomb Launcher",
   "Types": [
     "Item",
     "Weapon"
   ],
   "Damage": 2,
-  "DamageClass": "ExplosiveRanged",
+  "DamageClass": "Explosive Ranged",
   "Knockback": 1.6,
   "UseTime": 40,
   "Velocity": 6.0,

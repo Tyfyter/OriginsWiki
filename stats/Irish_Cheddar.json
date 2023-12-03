@@ -1,10 +1,14 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Food/Irish_Cheddar",
+  "Name": "Irish Cheddar",
   "Types": [
     "Item"
   ],
   "UseTime": 17,
-  "Tooltip": "Minor improvements to all stats and +8% critical strike chance\n'Certainly a little sharp'",
+  "Tooltip": [
+    "Minor improvements to all stats and +8% critical strike chance",
+    "'Certainly a little sharp'"
+  ],
   "Rarity": "Blue",
   "Sell": 2000,
   "SpriteWidth": 22,

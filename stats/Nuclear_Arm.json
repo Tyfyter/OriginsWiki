@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Demolitionist/Nuclear_Arm",
+  "Name": "Nuclear Arm",
   "Types": [
     "Item",
     "Weapon",
     "Hardmode"
   ],
   "Damage": 120,
-  "DamageClass": "ExplosiveMelee",
+  "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 37,
   "Velocity": 5.0,

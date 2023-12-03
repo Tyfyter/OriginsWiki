@@ -1,8 +1,11 @@
 {
   "Image": "§ModImage§/Items/Weapons/Magic/Innermost_Manifest",
+  "Name": "Innermost Manifest",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Torn",
+    "TornSource"
   ],
   "ManaCost": 8,
   "Damage": 8,

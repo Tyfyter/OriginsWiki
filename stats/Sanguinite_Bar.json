@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Sanguinite_Bar",
+  "Name": "Sanguinite Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 30,
   "InternalName": "Sanguinite_Bar"

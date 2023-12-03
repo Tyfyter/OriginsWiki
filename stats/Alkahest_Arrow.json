@@ -1,8 +1,11 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Alkahest_Arrow",
+  "Name": "Alkahest Arrow",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Torn",
+    "TornSource"
   ],
   "Damage": 17,
   "DamageClass": "Ranged",

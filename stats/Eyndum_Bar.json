@@ -1,9 +1,10 @@
 {
   "Image": "§ModImage§/Items/Materials/Eyndum_Bar",
+  "Name": "Eyndum Bar",
   "Types": [
     "Item"
   ],
-  "Rarity": "White",
+  "Rarity": "Crimson",
   "Sell": 10000,
   "SpriteWidth": 30,
   "InternalName": "Eyndum_Bar"

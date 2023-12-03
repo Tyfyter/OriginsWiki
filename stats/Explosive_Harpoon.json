@@ -1,11 +1,13 @@
 {
   "Image": "§ModImage§/Items/Weapons/Ammo/Explosive_Harpoon",
+  "Name": "Explosive Harpoon",
   "Types": [
     "Item",
     "Ammo"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",
+  "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Green",
   "Sell": 3000,
   "SpriteWidth": 24,

@@ -1,5 +1,6 @@
 {
   "Image": "§ModImage§/Items/Weapons/Melee/Baseball_Bat",
+  "Name": "Baseball Bat",
   "Types": [
     "Item",
     "Weapon",

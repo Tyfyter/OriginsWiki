@@ -1,7 +1,9 @@
 {
   "Image": "§ModImage§/Items/Other/Consumables/Corruption_Loot_Box",
+  "Name": "Corruption Loot Box",
   "Types": [
-    "Item"
+    "Item",
+    "Expert"
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
