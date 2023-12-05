@@ -37,7 +37,7 @@
         "MaxLife":3840,
         "Defense":15,
         "Drops":[
-            "[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%",
+            "[link Treasure Bag (Defiled Amalgamation) | | Treasure_Bags#Defiled_Amalgamation] - 100%",
 			"§l§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%",
 			"§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%",
 			"§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%",
@@ -58,7 +58,7 @@
         "MaxLife":6144,
         "Defense":16,
         "Drops":[
-            "[link Treasure Bag (Defiled Amalgamation) | $default | Treasure_Bags#Defiled_Amalgamation] - 100%",
+            "[link Treasure Bag (Defiled Amalgamation) | | Treasure_Bags#Defiled_Amalgamation] - 100%",
 			"§l§ [link Lost Ore | Images/Lost_Ore.png] (140-330) - 100%",
 			"§L§ [link Undead Chunk | Images/Undead_Chunk.png] (40-100) - 100%",
 			"§L§ [link Fiend Staff | Images/Fiend_Staff.png] - 33%",

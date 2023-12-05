@@ -9,114 +9,99 @@
 		<article id="content">
 			<h1>Peat Moss</h1>
 			<div class="divider"></div>
-			<p><i>"The Demolitionist might find this interesting..."</i></p>
+			<p>
+				<i>"The Demolitionist might find this interesting..."</i>
+			</p>
 
-			{statblock
-			{
-			header:Peat Moss,
-			items:[
-			{image: Images/Peat_Moss.png, spriteWidth:16}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Placement">Placeable</a>,
-			value:<b>No</b>
-			},
-			{
-			label:Max Stack,
-			value:999
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			value:"The Demolitionist might find this interesting..."
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareWhite.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|0|3|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>99 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Peat_Moss]
 
-			<p><b>Peat Moss</b> is a [link pre-Hardmode | $default | https://terraria.wiki.gg/wiki/Pre-Hardmode] material that is used to craft some early game [link Demolitionist Weapons]. It is harvested from [link Peat] blocks found in the <a href="https://terraria.wiki.gg/wiki/Jungle">Jungle</a> biome, especially on the surface of the [link Brine Pool]. It can be grown on any <a href="https://terraria.wiki.gg/wiki/Mud">Mud</a> tile next to a <a href="https://terraria.wiki.gg/wiki/Water">water source</a> whilst in a Jungle biome. It is also crafted into [link Explosive Powder] for advanced crafting.</p>
+			<p>
+				<b>Peat Moss</b> is a [link pre-Hardmode | | https://terraria.wiki.gg/wiki/Pre-Hardmode] [link material] and [link block | | Blocks.html] type found in the [link Brine Pool].
+				It envelops the outermost parts of each cell within the Brine Pool, but it can be grown on any [link mud | | https://terraria.wiki.gg/wiki/Mud_Block] block given it is submerged.
+				It can additionally be dropped by many enemies in the [link Underground Jungle | | https://terraria.wiki.gg/wiki/Underground_Jungle].
+				Peat Moss can be sold to the [link Demolitionist | | https://terraria.wiki.gg/wiki/Demolitionist] NPC to unlock some [link explosive | | Demolitionist_Weapons.html] items that which he can sell.
+			</p>
 
-			<details open>
-				<summary>Crafting<span class="divider"></span></summary>
-				<p><b>Used In</b></p>
-				<div class="divider"></div>
-				{recipes
-				{
-				items:[
-				{
-				result:[link Impact Grenade] (3),
-				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Grenade">Grenade</a> (3),
-				<b>Peat Moss</b>
-				]
-				},
-				{
-				result:[link Impact Bomb] (2),
-				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Bomb">Bomb</a> (2),
-				<b>Peat Moss</b>
-				]
-				},
-				{
-				result:[link Impact Dynamite],
-				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Dynamite">Dynamite</a>,
-				<b>Peat Moss</b>
-				]
-				},
-				{
-				result:[link Lightning Grenade] (3),
-				ingredients:[
-				<a href="https://terraria.wiki.gg/wiki/Grenade">Grenade</a> (3),
-				[link Felnum Bar] (2),
-				<b>Peat Moss</b>
-				]
-				}
-				]
-				},
-				{
-				stations:[
-				<a href="https://terraria.wiki.gg/wiki/Work_Benches"><b>Any Workbench</b></a>
-				],
-				items:[
-				{
-				result:[link Peatball] (4),
-				ingredients:[
-				<b>Peat Moss</b>
-				]
-				}
-				]
-				},
-				{
-				stations:[
-				<a href="https://terraria.wiki.gg/wiki/Glass_Kiln"><b>Glass Kiln</b></a>
-				],
-				items:[
-				{
-				result:[link Explosive Powder],
-				ingredients:[
-				<b>Peat Moss</b> (3)
-				]
-				}
-				]
-				}
-				recipes}
-			</details>
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					items:[
+					{
+					result:[link Peatball | $fromStats](4),
+					ingredients:[
+					[link Peat Moss | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					<b>[link Alchemy Table | $default | https://terraria.wiki.gg/wiki/Alchemy_Table]</b>,
+					<b>[link Placed Bottle | $default | https://terraria.wiki.gg/wiki/Bottle_(crafting_station)]</b>
+					]
+					items:[
+					{
+					result:[link Anti-Solve Potion | §ModImage§/Items/Other/Consumables/Antisolve_Potion.png | Anti_Solve_Potion.html],
+					ingredients:[
+					[link Bottled Brine | $fromStats],
+					[link Brineglow | $fromStats],
+					[link Peat Moss | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					<b>[link Any Anvil | $default | https://terraria.wiki.gg/wiki/Anvils]</b>
+					]
+					items:[
+					{
+					result:[link Impact Bomb | $fromStats],
+					ingredients:[
+					[link Bomb | | https://terraria.wiki.gg/wiki/Bomb](2),
+					[link Peat Moss | $fromStats]
+					]
+					}
+					{
+					result:[link Impact Dynamite | $fromStats],
+					ingredients:[
+					[link Dynamite | | https://terraria.wiki.gg/wiki/Dynamite],
+					[link Peat Moss | $fromStats]
+					]
+					}
+					{
+					result:[link Impact Grenade | $fromStats],
+					ingredients:[
+					[link Dynamite | | https://terraria.wiki.gg/wiki/Grenade](4),
+					[link Peat Moss | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					<b>[link Glass Kiln | $default | https://terraria.wiki.gg/wiki/Glass_Kiln]</b>
+					]
+					items:[
+					{
+					result:[link Explosive Powder | | https://terraria.wiki.gg/wiki/Explosive_Powder],
+					ingredients:[
+					[link Peat Moss | $fromStats](2)
+					]
+					}
+					]
+					}
+					recipes}
+				</details>
+			</div>
 		</article>
 	</body>
 </html>
