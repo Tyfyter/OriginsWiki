@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/404.html</loc>
@@ -110,7 +110,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ascendant_Armor.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ashen_Armor.html</loc>
@@ -126,11 +126,11 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bars.html</loc>
-<lastmod>2023-12-01T17:01:58-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Batholith.html</loc>
-<lastmod>2023-11-18T11:53:38-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bile_Arrow.html</loc>
@@ -154,7 +154,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Biomes.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Blast_Armor.html</loc>
@@ -174,7 +174,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Blocks.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bloodletter.html</loc>
@@ -278,7 +278,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Changes.html</loc>
-<lastmod>2023-12-09T18:40:03-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Chlorophyte_Crown.html</loc>
@@ -290,11 +290,11 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Chromtain_Armor.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Chromtain_Bar.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Cinder_Seal.html</loc>
@@ -303,6 +303,10 @@
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Cirrhosis_Abhorrence.html</loc>
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Cleansing_Station.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Cobalt_Harpoon_Gun.html</loc>
@@ -333,12 +337,8 @@
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
 <url>
-<loc>https://tyfyter.github.io/OriginsWiki/Crafting_Materials.html</loc>
-<lastmod>2023-11-26T14:23:41-06:00</lastmod>
-</url>
-<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Crafting_Stations.html</loc>
-<lastmod>2023-11-26T14:23:41-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Crimson_Hymn.html</loc>
@@ -437,6 +437,10 @@
 <lastmod>2023-12-06T16:12:59-06:00</lastmod>
 </url>
 <url>
+<loc>https://tyfyter.github.io/OriginsWiki/Defiled_Waste_Organ.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+</url>
+<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Defiled_Wastelands.html</loc>
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
@@ -521,6 +525,10 @@
 <lastmod>2023-12-06T16:12:59-06:00</lastmod>
 </url>
 <url>
+<loc>https://tyfyter.github.io/OriginsWiki/Elderforge.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+</url>
+<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Encrusted_Armor.html</loc>
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
@@ -558,15 +566,15 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Eyndum_Armor.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
-</url>
-<url>
-<loc>https://tyfyter.github.io/OriginsWiki/Eyndum_Bar.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Eyndum_Cores.html</loc>
 <lastmod>2023-10-22T23:35:20-07:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Fabricator.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Felnum_Armor.html</loc>
@@ -618,7 +626,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Formium_Bar.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Fungarust.html</loc>
@@ -626,7 +634,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Furniture.html</loc>
-<lastmod>2023-11-26T14:23:41-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Fuse_Time.html</loc>
@@ -709,6 +717,10 @@
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
 <url>
+<loc>https://tyfyter.github.io/OriginsWiki/Interstellar_Sampler.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+</url>
+<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Keepsake_Remains.html</loc>
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
@@ -762,7 +774,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Locus_Armor.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Lost_Armor.html</loc>
@@ -807,6 +819,10 @@
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Mana_Shielding.html</loc>
 <lastmod>2023-11-26T14:23:41-06:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Materials.html</loc>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Messy_Leech.html</loc>
@@ -866,7 +882,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Nanite_Armor.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Necromancer_Armor.html</loc>
@@ -906,7 +922,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Nuclear_Arm.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ocean_Amulet.html</loc>
@@ -942,7 +958,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Personal_Laser_Blade.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Pincushion.html</loc>
@@ -1006,7 +1022,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Recipe_Changes.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Refactoring_Pieces.html</loc>
@@ -1018,7 +1034,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Residue_Block.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Resin_Shield.html</loc>
@@ -1210,7 +1226,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Starfuze.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Stealth_Ravel.html</loc>
