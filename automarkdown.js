@@ -334,8 +334,10 @@ function setBackground(value){
 function getBackground(){
 	return !getSiteSettings().nobackground;
 }
-
-async function processLinkNew(targetName, image, targetPage, note){
+async function processLinkWithExtraClasses(extraClasses, targetName, image, targetPage, note) {
+	return (await processLink(targetName, image, targetPage, note)).replace('class="link"', `class="link${extraClasses}"`);
+}
+async function processLink(targetName, image, targetPage, note){
 	if (aliases[targetPage]) {
 		targetPage = aliases[targetPage];
 	}
@@ -374,30 +376,6 @@ async function processLinkNew(targetName, image, targetPage, note){
 		result += targetName;
 	}
 	return result + `</${tag}>`;
-}
-async function processLink(targetName, image, targetPage, note){
-	return processLinkNew(targetName, image, targetPage, note);
-	if(image === '$default'){
-		image = undefined;
-	}
-	if(targetPage === '$default'){
-		targetPage = undefined;
-	}
-	var result = '<span class="linkdiv">';
-	if(targetPage === undefined){
-		targetPage = (targetName.replaceAll(' ', '_')+linkSuffix);
-	}
-	if(image){
-		result += `<a class="linkimage" href="${targetPage}"><img src=${image}></a>`;
-	}
-	if(!targetPage){
-		return targetName + '</span>';
-	}
-	result += '<span class=linktext'+(image?' style="vertical-align: middle"':'')+'><a href="'+targetPage+'">'+targetName+'</a>';
-	if(note){
-		result += '<br><span class="linknote">'+note+'</span>';
-	}
-	return result + '</span></span>';
 }
 function generateCoinsTag(value){
 	return `[coins ${Math.floor(value / 1000000) % 100} | ${Math.floor(value / 10000) % 100} | ${Math.floor(value / 100) % 100} | ${(value) % 100}]`;
@@ -1321,13 +1299,27 @@ async function parseAFML(throwErrors = false){
 			subsIndex++;
 		}*/
 		item = content.innerHTML.match(linkRegex);
+		let linkIndex = 0;
 		while(item != null){
 			//console.log(item);
 			let current = pruneLinkArgs(item[1].split('|'));
-			let result = await processLink(...current);
-			substitutions[subsIndex] = result;
-			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
-			subsIndex++;
+			//let result = await processLink(...current);
+			const currentIndex = linkIndex;
+			content.innerHTML = content.innerHTML.replace(item[0], `<span id=link${currentIndex}>${current[0]}</span>`);//'§'+subsIndex+'§'
+			processLinkWithExtraClasses(` link${currentIndex}`, ...current).then(async (value) => {
+				console.log(`link ${currentIndex}: ${value}`);
+				let element = document.getElementById('link' + currentIndex);
+				if (element) {
+					element.outerHTML = replaceBasicSubstitutions(value);
+					element = document.getElementsByClassName('link' + currentIndex)[0];
+					const hrefMatch = /[^\/]+(?!.*[^\/]+)/.exec(/href="([^"]*)"/.exec(value)[1].replaceAll('.html',''))[0];
+					const nonMetaMatch = /(?<!.*[^?#]+)[^?#]+/.exec(hrefMatch)[0];
+					if(nonMetaMatch && !(await pageExists(nonMetaMatch))){
+						element.classList.add('redlink');
+					}
+				}
+			}, null);
+			linkIndex++;
 			item = content.innerHTML.match(linkRegex);
 		}
 	}catch(e){
@@ -1609,6 +1601,7 @@ var parse = async ()=>{
 	document.getElementById('searchIcon').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
 	'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
 	'</svg>';
+	refreshSiteSettings();
 	//document.getElementById('searchSymbol').onclick = search;
 	/*content.innerHTML = '<div id="toolbar">'+
 		'<div id="toolbar-container">'+
@@ -1623,7 +1616,6 @@ var parse = async ()=>{
 		'</div>'+
 		'<div id="searchlinks"></div>'+
 	'</div>'+content.innerHTML;*/
-	refreshSiteSettings();
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){
 		var favicon = document.createElement('link');
