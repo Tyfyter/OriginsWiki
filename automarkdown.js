@@ -334,9 +334,43 @@ function setBackground(value){
 function getBackground(){
 	return !getSiteSettings().nobackground;
 }
+function waitForElement(selector) {
+    return new Promise(resolve => {
+		let element = document.querySelector(selector);
+        if (element) {
+            return resolve(element);
+        }
+        const observer = new MutationObserver(mutations => {
+            for (let i = 0; i < mutations.length; i++)  {
+				for (let j = 0; j < mutations[i].addedNodes.length; j++)  {
+					console.log(mutations[i].addedNodes[j]);
+					if (mutations[i].addedNodes[j].querySelector) {
+						element = mutations[i].addedNodes[j].querySelector(selector);
+						if (element) {
+							observer.disconnect();
+							resolve(mutations[i].addedNodes[j]);
+							return;
+						}
+					}
+					if (mutations[i].addedNodes[j].matches && mutations[i].addedNodes[j].matches(selector)) {
+						observer.disconnect();
+						resolve(mutations[i].addedNodes[j]);
+						return;
+					}
+				}
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
 async function processLinkWithID(id, targetName, image, targetPage, note) {
 	return (await processLink(targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
 }
+let linkNum = 0
 async function processLink(targetName, image, targetPage, note){
 	if (aliases[targetPage]) {
 		targetPage = aliases[targetPage];
@@ -360,7 +394,31 @@ async function processLink(targetName, image, targetPage, note){
 	if (new URL(targetPage, document.baseURI).href == document.location) {
 		tag = 'b';
 	}
-	var result = `<${tag} class="link" href="${targetPage}">`;
+	const linkIndex = linkNum++;
+	var result = `<${tag} class="link" id="link${linkIndex}" href="${targetPage}">`;
+	waitForElement(`a#link${linkIndex}`).then(element => {
+		//console.log(element);
+		try {
+			fetch(element.href, {method: 'HEAD'}).then(response => {
+				//console.log(response);
+				if (response.status == 404) {
+					document.getElementById(element.id).classList.add('redlink');
+				}
+			});
+		} catch (error) {}
+	});
+	/*fetch(targetPage, { method:"HEAD"}).then((response) => {
+		if (response.status == 404) {
+			let linkElement;
+			linkElement = document.getElementById("link"+linkIndex);
+			while (!linkElement) {
+				setTimeout
+				linkElement = document.getElementById("link"+linkIndex);
+			}
+			console.log
+		}
+	});*/
+	
 	if(image){
 		result += `<img src=${image}>`;
 	}
@@ -1304,7 +1362,14 @@ async function parseAFML(throwErrors = false){
 			//let result = await processLink(...current);
 			const currentIndex = linkIndex;
 			content.innerHTML = content.innerHTML.replace(item[0], `<span id=link${currentIndex}>${current[0]}</span>`);//'§'+subsIndex+'§'
-			processLinkWithID(`link${currentIndex}`, ...current).then(async (value) => {
+			processLink(...current).then(async (value) => {
+				//console.log(`link ${currentIndex}: ${value}`);
+				let element = document.getElementById('link' + currentIndex);
+				if (element) {
+					element.outerHTML = replaceBasicSubstitutions(value);
+				}
+			}, null);
+			/*processLinkWithID(`link${currentIndex}`, ...current).then(async (value) => {
 				//console.log(`link ${currentIndex}: ${value}`);
 				let element = document.getElementById('link' + currentIndex);
 				if (element) {
@@ -1316,7 +1381,7 @@ async function parseAFML(throwErrors = false){
 						element.classList.add('redlink');
 					}
 				}
-			}, null);
+			}, null);*/
 			linkIndex++;
 			item = content.innerHTML.match(linkRegex);
 		}
@@ -1626,7 +1691,7 @@ var parse = async ()=>{
 	}
 	refreshThemeIcon();
 	let catSegPromise = createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
-	let redableLinks = content.getElementsByTagName("A");
+	/*let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
 	let redLinkPromise = (async () => {
 		for (let i = 0; i < redableLinks.length; i++) {
@@ -1638,9 +1703,9 @@ var parse = async ()=>{
 				element.classList.add("redlink");
 			}
 		}
-	})();
+	})();*/
 	await catSegPromise;
-	await redLinkPromise;
+	//await redLinkPromise;
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 };
 parse();
