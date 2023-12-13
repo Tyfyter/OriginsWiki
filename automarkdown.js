@@ -343,19 +343,18 @@ function waitForElement(selector) {
         const observer = new MutationObserver(mutations => {
             for (let i = 0; i < mutations.length; i++)  {
 				for (let j = 0; j < mutations[i].addedNodes.length; j++)  {
-					console.log(mutations[i].addedNodes[j]);
-					if (mutations[i].addedNodes[j].querySelector) {
-						element = mutations[i].addedNodes[j].querySelector(selector);
-						if (element) {
-							observer.disconnect();
-							resolve(mutations[i].addedNodes[j]);
-							return;
-						}
-					}
 					if (mutations[i].addedNodes[j].matches && mutations[i].addedNodes[j].matches(selector)) {
 						observer.disconnect();
 						resolve(mutations[i].addedNodes[j]);
 						return;
+					}
+					if (mutations[i].addedNodes[j].querySelector) {
+						element = mutations[i].addedNodes[j].querySelector(selector);
+						if (element) {
+							observer.disconnect();
+							resolve(element);
+							return;
+						}
 					}
 				}
             }
