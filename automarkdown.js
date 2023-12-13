@@ -398,14 +398,14 @@ async function processLink(targetName, image, targetPage, note){
 	var result = `<${tag} class="link" id="link${linkIndex}" href="${targetPage}">`;
 	waitForElement(`a#link${linkIndex}`).then(element => {
 		//console.log(element);
-		try {
+		if (new URL(element.href).origin == new URL(window.location).origin) {
 			fetch(element.href, {method: 'HEAD'}).then(response => {
 				//console.log(response);
 				if (response.status == 404) {
 					document.getElementById(element.id).classList.add('redlink');
 				}
 			});
-		} catch (error) {}
+		}
 	});
 	/*fetch(targetPage, { method:"HEAD"}).then((response) => {
 		if (response.status == 404) {
