@@ -246,6 +246,13 @@ details > summary {
 	float: left;
 }
 
+.pagebanner {
+	max-width: 100vw;
+	margin: auto;
+	display: block;
+	padding-top: 0.5em;
+}
+
 #table-of-contents-details {
 	border: 1px solid var(--box-border-color);
 	margin: 0px;

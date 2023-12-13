@@ -763,7 +763,7 @@ async function processBiomeContents(data, depth){
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += '<span>' + (data.items[i].startsWith('&') ? data.items[i].substring(5) : await processLink(data.items[i])) + '</span>';
+				result += '<span>' + (data.items[i].startsWith('&amp;') ? data.items[i].substring('&amp;'.length) : await processLink(data.items[i])) + '</span>';
 			}else if(data.items[i] instanceof Array){
 				result += '<span>'+(await processLink(...data.items[i]))+'</span>';
 			}else{
