@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/</loc>
-<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/404.html</loc>
-<lastmod>2023-10-23T19:45:29-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/ACME_Crate.html</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Accessories.html</loc>
-<lastmod>2023-12-01T17:01:58-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Acetabularia.html</loc>
@@ -82,15 +82,11 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ancient_Defiled_Armor.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ancient_Hallowed_Visage.html</loc>
 <lastmod>2023-12-06T16:12:59-06:00</lastmod>
-</url>
-<url>
-<loc>https://tyfyter.github.io/OriginsWiki/Ancient_Riven_Armor - Copy.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ancient_Riven_Armor.html</loc>
@@ -125,12 +121,16 @@
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
 </url>
 <url>
+<loc>https://tyfyter.github.io/OriginsWiki/Banners.html</loc>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
+</url>
+<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bars.html</loc>
 <lastmod>2023-12-12T17:06:46-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Batholith.html</loc>
-<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bile_Arrow.html</loc>
@@ -174,7 +174,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Blocks.html</loc>
-<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bloodletter.html</loc>
@@ -306,7 +306,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Cleansing_Station.html</loc>
-<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Cobalt_Harpoon_Gun.html</loc>
@@ -327,6 +327,10 @@
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Construction_Core.html</loc>
 <lastmod>2023-10-23T20:44:35-06:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Consumables.html</loc>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Control_Locus.html</loc>
@@ -526,7 +530,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Elderforge.html</loc>
-<lastmod>2023-12-12T17:06:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Encrusted_Armor.html</loc>
@@ -666,7 +670,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Haggard_Artery.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Hallowed_Visage.html</loc>
@@ -738,11 +742,11 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Laser_Tag_Vest.html</loc>
-<lastmod>2023-12-11T10:59:27-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Last_Descendant.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Launchers.html</loc>
@@ -1026,7 +1030,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Refactoring_Pieces.html</loc>
-<lastmod>2023-12-04T19:25:46-06:00</lastmod>
+<lastmod>2023-12-13T17:22:55-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Repeaters.html</loc>
