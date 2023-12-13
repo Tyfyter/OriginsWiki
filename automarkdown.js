@@ -334,8 +334,8 @@ function setBackground(value){
 function getBackground(){
 	return !getSiteSettings().nobackground;
 }
-async function processLinkWithExtraClasses(extraClasses, targetName, image, targetPage, note) {
-	return (await processLink(targetName, image, targetPage, note)).replace('class="link"', `class="link${extraClasses}"`);
+async function processLinkWithID(id, targetName, image, targetPage, note) {
+	return (await processLink(targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
 }
 async function processLink(targetName, image, targetPage, note){
 	if (aliases[targetPage]) {
@@ -763,9 +763,7 @@ async function processBiomeContents(data, depth){
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += '<span>';
-				result += await processLink(data.items[i]);
-				result += '</span>';
+				result += '<span>' + (data.items[i].startsWith('&') ? data.items[i].substring(5) : await processLink(data.items[i])) + '</span>';
 			}else if(data.items[i] instanceof Array){
 				result += '<span>'+(await processLink(...data.items[i]))+'</span>';
 			}else{
@@ -1306,12 +1304,12 @@ async function parseAFML(throwErrors = false){
 			//let result = await processLink(...current);
 			const currentIndex = linkIndex;
 			content.innerHTML = content.innerHTML.replace(item[0], `<span id=link${currentIndex}>${current[0]}</span>`);//'§'+subsIndex+'§'
-			processLinkWithExtraClasses(` link${currentIndex}`, ...current).then(async (value) => {
-				console.log(`link ${currentIndex}: ${value}`);
+			processLinkWithID(`link${currentIndex}`, ...current).then(async (value) => {
+				//console.log(`link ${currentIndex}: ${value}`);
 				let element = document.getElementById('link' + currentIndex);
 				if (element) {
 					element.outerHTML = replaceBasicSubstitutions(value);
-					element = document.getElementsByClassName('link' + currentIndex)[0];
+					element = document.getElementById('link' + currentIndex)[0];
 					const hrefMatch = /[^\/]+(?!.*[^\/]+)/.exec(/href="([^"]*)"/.exec(value)[1].replaceAll('.html',''))[0];
 					const nonMetaMatch = /(?<!.*[^?#]+)[^?#]+/.exec(hrefMatch)[0];
 					if(nonMetaMatch && !(await pageExists(nonMetaMatch))){

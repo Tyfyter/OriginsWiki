@@ -280,11 +280,17 @@ details > summary {
 
 .subcontents {
 	background-color: var(--subcontents-bg-color);
-	border: 1px solid darkslategrey;
+	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	padding-top: 2.5px;
 	padding-bottom: 7.5px;
 	margin-top: 7.5px;
+	flex-grow: 1;
+}
+
+.flexcontents {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .statblock, .inlinestatblock {
