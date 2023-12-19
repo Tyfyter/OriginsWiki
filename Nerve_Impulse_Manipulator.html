@@ -10,41 +10,13 @@
 			<h1>Nerve Impulse Manipulator</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Nerve Impulse Manipulator,
-			items:[
-			{image: Images/Nerve_ImpulseM.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Use_time">Use Time</a>,
-			value:Very slow
-			},
-			{
-			label:Max Stack,
-			value:2
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			value:"Summons the Defiled Amalgamation"
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareBlue.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>3 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Nerve_Impulse_Manipulator]
 
-			<p>The <b>Nerve Impulse Manipulator</b> is a summoning item <a href="https://terraria.wiki.gg/wiki/Consumables#Summoning_items">summoning item</a> that is used to summon the [link Defiled Amalgamation] when inside the [link Defiled Wastelands]. It has no use outside of the Wastelands.</p>
+			<p>
+				The <b>Nerve Impulse Manipulator</b> is a boss-summoning [link consumable | | Consumables.html] item crafted using [link Dreadful Powder] and [link Strange String].
+				Upon use, it will summon the [link Defiled Amalgamation] anywhere in the world.
+				If not used in the [link Defiled Wastelands], it will cause the Defiled Amalgamation to automatically enter its "enraged" state when spawned.
+			</p>
 
 			<details open>
 				<summary>Crafting<span class="divider"></span></summary>
@@ -53,14 +25,14 @@
 				{recipes
 				{
 				stations:[
-				<a href="https://terraria.wiki.gg/wiki/Altars">Any Altar</a>
-				],
+				[link Any Altar | $default | https://terraria.wiki.gg/wiki/Altars]
+				]
 				items:[
 				{
-				result:<b>Nerve Impulse Manipulator</b>,
+				result:[link Nerve Impulse Manipulator | $fromStats],
 				ingredients:[
-				[link Defiled Powder] (30),
-				[link Strange String] (15)
+				[link Dreadful Powder | $fromStats](30),
+				[link Strange String | $fromStats](15)
 				]
 				}
 				]

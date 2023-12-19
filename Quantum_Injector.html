@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<article id="content">
+			<h1>Quantum Injector</h1>
+			<div class="divider"></div>
+
+			[statblock Quantum_Injector]
+
+			<p>
+				The <b>Quantum Injector</b> is a [link consumable | | Consumables.html] item that is crafted a [link Mana Crystal | | https://terraria.wiki.gg/wiki/Mana_Crystal] and [link Qubes | | Qube.html].
+				When used, it will permanently increase the player's [link mana | | https://terraria.wiki.gg/wiki/Mana] capacity by 40, up to a maximum of 400 total.
+				It takes 5 injections to reach this maximum.
+				It also restores 40 mana when used, but only as long as the character's maximum mana is below 400.
+			</p>
+
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					stations:[
+					[link Ancient Manipulator | | https://terraria.wiki.gg/wiki/Ancient_Manipulator.html]
+					]
+					items:[
+					{
+					result:[link Quantum Injector | $fromStats],
+					ingredients:[
+					[link Mana Crystal | | https://terraria.wiki.gg/wiki/Mana_Crystal],
+					[link Qube | $fromStats](50)
+					]
+					}
+					]
+					}
+					recipes}
+				</details>
+			</div>
+		</article>
+	</body>
+</html>

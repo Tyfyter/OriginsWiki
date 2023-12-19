@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<article id="content">
+			<h1>Dreadful Powder</h1>
+			<div class="divider"></div>
+
+			[statblock Dreadful_Powder]
+
+			<p>
+				<b>Dreadful Powder</b> is a [link consumable | | Consumables.html] item that can be crafted using [link Soulspores | | Soulspore.html] or purchased from the [link Dryad | | https://terraria.wiki.gg/wiki/Dryad] for [price 1|0] each during a [link Blood Moon | | https://terraria.wiki.gg/wiki/Blood_Moon] in a Defiled world.
+				It is able to convert blocks and walls, including those of its [link world evil | | https://terraria.wiki.gg/wiki/Evil_biomes] counterparts and [link Hallowed | | https://terraria.wiki.gg/wiki/The_Hallow] ones, into their Defiled form.
+				If thrown at a [link Goldfish | | https://terraria.wiki.gg/wiki/Goldfish] or [link Penguin | | https://terraria.wiki.gg/wiki/Penguin], they will turn into their respective Defiled variants: the [link Shattered Goldfish] and [link Bilebird] respectively.
+				However, when thrown at a [link Bunny | | https://terraria.wiki.gg/wiki/Bunny], it will turn into a [link Defiled Mite].
+			</p>
+
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					stations:[
+					[link Alchemy Table | $default | https://terraria.wiki.gg/wiki/Alchemy_Table],
+					[link Placed Bottle | $default | https://terraria.wiki.gg/wiki/Bottle_(crafting_station)]
+					]
+					items:[
+					{
+					result:[link Dreadful Powder | $fromStats](5),
+					ingredients:[
+					[link Soulspore | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					[link Shimmer Transmutation | $default | https://terraria.wiki.gg/wiki/Shimmer]
+					]
+					items:[
+					{
+					result:[link Dreadful Powder | $fromStats],
+					ingredients:[
+					[link Purification Powder | | https://terraria.wiki.gg/wiki/Thrown_Powder]
+					]
+					}
+					]
+					}
+					recipes}
+
+					<p><b>Used In</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					items:[
+					{
+					result:[link Poisoned Knife | | https://terraria.wiki.gg/wiki/Poisoned_Knife](50),
+					ingredients:[
+					[link Throwing Knife | | https://terraria.wiki.gg/wiki/Throwing_Knife](50),
+					[link Dreadful Powder | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					[link Shimmer Transmutation | $default | https://terraria.wiki.gg/wiki/Shimmer]
+					]
+					items:[
+					{
+					result:[link Purification Powder | | https://terraria.wiki.gg/wiki/Thrown_Powder],
+					ingredients:[
+					[link Dreadful Powder | $fromStats]
+					]
+					}
+					]
+					},
+
+					{
+					stations:[
+					[link Any Altar | $default | https://terraria.wiki.gg/wiki/Altars]
+					]
+					items:[
+					{
+					result:[link Nerve Impulse Manipulator | $fromStats],
+					ingredients:[
+					[link Dreadful Powder | $fromStats](30),
+					[link Strange String | $fromStats](15)
+					]
+					}
+					]
+					}
+					recipes}
+				</details>
+			</div>
+		</article>
+	</body>
+</html>
