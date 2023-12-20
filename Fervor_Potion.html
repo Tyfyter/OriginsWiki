@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<article id="content">
+			<h1>Fervor Potion</h1>
+			<div class="divider"></div>
+
+			[statblock Fervor_Potion]
+
+			<p>
+				The <b>Fervor Potion</b> is a [link buff potion | | Buff_Potions.html] that can be crafted using [link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water], a [link Bilemouth] and any [link evil herb | | Recipes.html].
+				When consumed, it provides the <b>Fervor</b> [link buff | | Buffs.html], which increases weapon speed by 10%.
+				This effect will last for 4 minutes, but can be canceled anytime by right-clicking the icon.
+			</p>
+
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					{recipes
+					{
+					stations:[
+					[link Alchemy Table | $default | https://terraria.wiki.gg/wiki/Alchemy_Table],
+					[link Placed Bottle | $default | https://terraria.wiki.gg/wiki/Bottle_(crafting_station)]
+					]
+					items:[
+					{
+					result:[link Fervor Potion | $fromStats],
+					ingredients:[
+					[link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water],
+					[link Bilemouth | $fromStats],
+					[link Any Evil Herb | Images/Animations/Cycling_Herbs.gif | Recipes.html]
+					]
+					}
+					]
+					}
+					recipes}
+				</details>
+			</div>
+		</article>
+	</body>
+</html>
