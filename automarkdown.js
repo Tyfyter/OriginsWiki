@@ -3,7 +3,6 @@ var jsLoaded = true;
 var linkSuffix = '.html';
 var linkPrefix = '';
 const lightSettingSuffix = '.png';
-var cookieSuffix = 'path=/;';
 const section = '§'.substring('§'.length-1);
 
 const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
@@ -13,12 +12,6 @@ const catRightQuoteRegex = /([^{}\[\]\s])(\s*)($|(?<!\\):)/gm;
 const themes = ['light', 'dark', 'ashen', 'brine', 'dawn', 'dusk', 'nightsky', 'riven', 'terminal'];
 
 var lastErrObject;
-
-if(document.location.protocol == 'https:'){
-	cookieSuffix = cookieSuffix + 'Secure';
-}
-
-console.log('cookieSuffix: ' + cookieSuffix);
 
 var firstHeader = document.getElementsByTagName("h1");
 if(firstHeader && firstHeader[0]){
@@ -223,32 +216,13 @@ function getSummaryOrId(element){
 	return element.id;
 }
 
-const siteSettingsRegex = /sitesettings:(.*?)(;|$)/;
 function setSiteSettings(setting, value){
-	var match = siteSettingsRegex.exec(document.cookie.toString());
-	if(match){
-		var siteSettings = JSON.parse(match[1]);
-		siteSettings[setting] = value;
-		document.cookie = 'sitesettings:'+JSON.stringify(siteSettings)+'; ' + cookieSuffix;
-	}else{
-		if (typeof value === 'string') value = `"${value}"`;
-		document.cookie = 'sitesettings:{"'+setting+'":'+value+'}; ' + cookieSuffix;
-	}
+	localStorage.setItem(setting, value);
 	refreshSiteSettings();
 }
 
 function getSiteSettings(){
-	var cookie = document.cookie;
-	var changedcookie = document.cookie.replace('"darkmode":true', '"theme":"dark"');
-	if (cookie != changedcookie) {
-		document.cookie = cookie = changedcookie;
-	}
-	var match = siteSettingsRegex.exec(document.cookie.toString());
-	var siteSettings = {};
-	if(match){
-		siteSettings = JSON.parse(match[1]);
-	}
-	return siteSettings;
+	return localStorage;
 }
 
 function refreshSiteSettings(){
