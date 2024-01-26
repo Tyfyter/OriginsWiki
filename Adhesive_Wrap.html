@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<script src="automarkdown.js" defer></script>
+		<link rel="stylesheet" href="styling.css"></link>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<article id="content">
+			<h1>Adhesive Wrap</h1>
+			<div class="divider"></div>
+
+			<span id="toc-and-stats">
+				<div id="table-of-contents"></div>
+				[statblock Adhesive_Wrap]
+			</span>
+
+			<p>
+				<b>Adhesive Wrap</b> is a [link material | | Materials.html] that is crafted using [link Silicon] and [link Tree Sap].
+			</p>
+
+			<details class="section" id="Crafting" open>
+				<summary>Crafting<span class="divider"></span></summary>
+				<p><b>Recipes</b></p>
+				<div class="divider"></div>
+				{recipes
+				{
+				stations:[
+				[link Work Benches]
+				],
+				items:[
+				{
+				result:[link Adhesive Wrap | $fromStats](3),
+				ingredients:[
+				[link Silicon | §ModImage§/Tiles/Other/Silicon_Item.png],
+				[link Tree Sap | §ModImage§/Items/Materials/Tree_Sap.png]
+				]
+				}
+				]
+				}
+				recipes}
+
+				<p><b>Used In</b></p>
+				<div class="divider"></div>
+				{recipes
+				{
+				stations:[
+				[link Work Benches]
+				],
+				items:[
+				{
+				result:[link Adhesive Bandage | | https://terraria.wiki.gg/wiki/Adhesive_Bandage],
+				ingredients:[
+				[link Glowing Mushroom | | https://terraria.wiki.gg/wiki/Glowing_Mushroom](3),
+				[link Adhesive Wrap | $fromStats]
+				]
+				}
+				]
+				},
+
+				{
+				stations:[
+				[link Tinkerer's Workshop | | https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop]
+				],
+				items:[
+				{
+				result:[link 2-in-1 Shotty | $fromStats | 2_in_1_Shotty.html],
+				ingredients:[
+				[link Boomstick | | https://terraria.wiki.gg/wiki/Boomstick](2),
+				[link Adhesive Wrap | $fromStats](6)
+				]
+				}
+				{
+				result:[link 3-in-1 Shotty | $fromStats | 3_in_1_Shotty.html],
+				ingredients:[
+				[link Boomstick | | https://terraria.wiki.gg/wiki/Boomstick](3),
+				[link Adhesive Wrap | $fromStats](9)
+				]
+				}
+				{
+				result:[link 3-in-1 Shotty | $fromStats | 3_in_1_Shotty.html],
+				ingredients:[
+				[link Boomstick | | https://terraria.wiki.gg/wiki/Boomstick],
+				[link 2-in-1 Shotty | $fromStats | 2_in_1_Shotty.html],
+				[link Adhesive Wrap | $fromStats](9)
+				]
+				}
+				]
+				}
+				recipes}
+			</details>
+		</article>
+	</body>
+</html>
