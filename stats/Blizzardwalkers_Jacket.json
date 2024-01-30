@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Blizzardwalkers_Jacket",
+  "Name": "Blizzardwalkers_ Jacket",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "Combat"
+  ],
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "SpriteWidth": 30,
+  "InternalName": "Blizzardwalkers_Jacket"
+}

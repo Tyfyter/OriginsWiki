@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Strange_Tooth",
+  "Name": "Strange_ Tooth",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master"
+  ],
+  "Damage": 13,
+  "DamageClass": "Summon",
+  "Knockback": 2.0,
+  "UseTime": 45,
+  "Rarity": "Green",
+  "Sell": 15000,
+  "SpriteWidth": 20,
+  "InternalName": "Strange_Tooth"
+}

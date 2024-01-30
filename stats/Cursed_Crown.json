@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Cursed_Crown",
+  "Name": "Cursed_ Crown",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "Combat"
+  ],
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 24,
+  "InternalName": "Cursed_Crown"
+}
