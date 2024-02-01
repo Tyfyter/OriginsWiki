@@ -7,21 +7,42 @@
 	</head>
 	<body>
 		<article id="content">
-			<h1>Busted Servo</h1>
+			<h1>Power Core</h1>
 			<div class="divider"></div>
 
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				[statblock Busted_Servo]
+				[statblock Power_Core]
 			</span>
 
 			<p>
-				<b>Busted Servos</b> are a [link Hardmode | | https://terraria.wiki.gg/wiki/Hardmode] [link material | | Materials.html] that is dropped by the [link mechanical bosses | | https://terraria.wiki.gg/wiki/Mechanical_bosses] in amounts of 8-37.
-				It is the common mech component needed to craft a lot of mechanical-themed items from the [link Fabricator].
+				<b>Power Cores</b> are a [link Hardmode | | https://terraria.wiki.gg/wiki/Hardmode] [link material | | Materials.html] that is dropped by the [link mechanical bosses | | https://terraria.wiki.gg/wiki/Mechanical_bosses] in amounts of 1-3, or can be crafted using [link Hallowed Bars | | https://terraria.wiki.gg/wiki/Hallowed_Bar] and [link Eitrite Bars | | Eitrite_Bar.html].
+				It is the rare mech component needed to craft a lot of mechanical-themed items from the [link Fabricator].
+				Most of the stronger mech-themed items require 2 Power Cores in their recipes while the lesser items can require one or even none.
+				Power Cores are also used as a type of [link ammunition] for items like the [link Starforge] or [link EAC Thunder].
 			</p>
 
 			<details class="section" id="Crafting" open>
 				<summary>Crafting<span class="divider"></span></summary>
+				<p><b>Recipes</b></p>
+				<div class="divider"></div>
+				{recipes
+				{
+				stations:[
+				[link Fabricator | Images/Tiles/Fabricator.gif]
+				]
+				items:[
+				{
+				result:[link Power Core | $fromStats],
+				ingredients:[
+				[link Hallowed Bar | | https://terraria.wiki.gg/wiki/Hallowed_Bar](2),
+				[link Eitrite Bar | $fromStats](3)
+				]
+				}
+				]
+				}
+				recipes}
+
 				<p><b>Used In</b></p>
 				<div class="divider"></div>
 				{recipes
@@ -31,29 +52,12 @@
 				]
 				items:[
 				{
-				result:[link Blast Helmet | §ModImage§/Items/Armor/Blast/Blast_Helmet.png | Blast_Armor.html],
-				ingredients:[
-				[link Chlorophyte Bar | | https://terraria.wiki.gg/wiki/Chlorophyte_Bar](12),
-				[link Blast-Resistant Plate | §ModImage§/Items/Accessories/Blast_Resistant_Plate.png | Blast_Resistant_Plate.html],
-				[link Busted Servo | $fromStats](2)
-				]
-				}
-				{
 				result:[link Blast Plate | §ModImage§/Items/Armor/Blast/Blast_Breastplate.png | Blast_Armor.html],
 				ingredients:[
 				[link Chlorophyte Bar | | https://terraria.wiki.gg/wiki/Chlorophyte_Bar](24),
 				[link Blast-Resistant Plate | §ModImage§/Items/Accessories/Blast_Resistant_Plate.png | Blast_Resistant_Plate.html],
 				[link Busted Servo | $fromStats](2),
-				[link Power Core | $fromStats](2),
-				[link Rotor | $fromStats](2)
-				]
-				}
-				{
-				result:[link Blast Guards | §ModImage§/Items/Armor/Blast/Blast_Greaves.png | Blast_Armor.html],
-				ingredients:[
-				[link Chlorophyte Bar | | https://terraria.wiki.gg/wiki/Chlorophyte_Bar](18),
-				[link Blast-Resistant Plate | §ModImage§/Items/Accessories/Blast_Resistant_Plate.png | Blast_Resistant_Plate.html],
-				[link Busted Servo | $fromStats](2),
+				[link Power Core | $fromStats](4),
 				[link Rotor | $fromStats](2)
 				]
 				}
@@ -64,6 +68,14 @@
 				[link Fiberglass Block | §ModImage§/Tiles/Other/Fiberglass_Item.png](6),
 				[link Power Core | $fromStats],
 				[link Rubber | $fromStats](5)
+				]
+				}
+				{
+				result:[link Potato Battery | $fromStats],
+				ingredients:[
+				[link Copper Bar | | https://terraria.wiki.gg/wiki/Copper_Bar],
+				[link Potato | $fromStats],
+				[link Power Core | $fromStats]
 				]
 				}
 				{
@@ -82,14 +94,6 @@
 				[link Busted Servo | $fromStats](10),
 				[link Power Core | $fromStats],
 				[link Rotor | $fromStats](6)
-				]
-				}
-				{
-				result:[link Autohandcannon | $fromStats],
-				ingredients:[
-				[link Busted Servo | $fromStats](20),
-				[link Illegal Explosive Parts | $fromStats],
-				[link Rotor | $fromStats](8)
 				]
 				}
 				{
@@ -142,14 +146,6 @@
 				[link Explosive Powder | | https://terraria.wiki.gg/wiki/Explosive_Powder](10),
 				[link Busted Servo | $fromStats](20),
 				[link Power Core | $fromStats](2)
-				]
-				}
-				{
-				result:[link Omni-directional Claymore | §ModImage§/Items/Weapons/Demolitionist/Omnidirectional_Claymore.png | Omni_Directional_Claymore.html](25),
-				ingredients:[
-				[link Explosive Powder | | https://terraria.wiki.gg/wiki/Explosive_Powder](7),
-				[link Busted Servo | $fromStats](13),
-				[link Rotor | $fromStats](25)
 				]
 				}
 				{
