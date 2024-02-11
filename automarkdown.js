@@ -960,7 +960,7 @@ async function processSortableList(data){
 		}else{
 			item = JSON.parse(await requestStats(data.items[i]));
 		}
-		if(!item.Name){
+		if(!item.Name && !(data.items[i] instanceof Object)){
 			item.Name = data.items[i];
 		}
 		for(let key in defaultStats){
@@ -973,7 +973,6 @@ async function processSortableList(data){
 			keys.add(key);
 		}
 		keys.forEach((key)=>{evalItem[key] = item[key];});
-		var context = `let item = ${JSON.stringify(evalItem)};`;
 		for(var j = 0; j < data.headers.length; j++){
 			var displayValue = item[data.headers[j]];
 			if (data.headers[j].expr){
