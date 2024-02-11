@@ -104,6 +104,23 @@
 
 					Repellat dolor quo expedita. Odio et itaque minima. Consequatur reprehenderit optio consequatur dolore libero error eum. Dolores temporibus eveniet adipisci<br>
 					repellendus qui et aut cumque. Magni eum omnis atque nemo. Ut illo dolores iste.
+					{sortablelist
+					{
+						headers: [
+							"Name",
+							"Damage",
+							"Crit",
+							{ "name":"Use Time", "expr":"item.UseTime" },
+							{
+							"name":"Average DPS",
+							"expr":"(item.Damage*(1+item.Crit/100)*(60/item.UseTime)).toFixed(2)"
+							}
+						],
+						items:[
+							{Name: "HNO-3 \"Viper\"", Damage: 60, Crit: 13, UseTime: 23}
+						]
+					}
+					sortablelist}
 					</details>
 
 					<details class="section" id="recipes" open>
