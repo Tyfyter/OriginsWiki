@@ -944,7 +944,7 @@ var evalItem;
 async function processSortableList(data){
 	if (!defaultStats) defaultStats = JSON.parse(await requestStats("Defaults"));
 	var result = '<thead><tr>';
-	if(data.headers[0] === 'Name' && !item.hasOwnProperty("expr")){
+	if(data.headers[0] === 'Name'){
 		data.headers[0] = {name:'Name', expr:'processLink(item.Name, "$fromStats")', sortIndex:'item.Name', noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
