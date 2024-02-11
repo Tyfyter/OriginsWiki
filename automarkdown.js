@@ -1,3 +1,4 @@
+"use strict";
 //window.alert("test");
 var jsLoaded = true;
 var linkSuffix = '.html';
@@ -1183,6 +1184,15 @@ function jsonifyPseudoHjson(item, history){
 	history[time++] = item;
 	return item;
 }
+function jsonifyPseudoJson(item, history){
+	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
+
+	var time = 1;
+	item = item.replaceAll(commaInserterRegex, ',');//1
+	history[time++] = item;
+	
+	return item;
+}
 function getScrollTop() {
     if (typeof window.pageYOffset !== "undefined" ) {
         // Most browsers
@@ -1423,7 +1433,8 @@ async function parseAFML(throwErrors = false){
 				currentTag = htmlTagRegex.exec(item);
 			}
 			var history = [item];//0
-			item = jsonifyPseudoHjson(item, history);
+			//item = jsonifyPseudoHjson(item, history);
+			item = jsonifyPseudoJson(item, history);
 			
 			//console.log('before aNPANR'+item);
 			//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
@@ -1434,8 +1445,9 @@ async function parseAFML(throwErrors = false){
 			//result += item;
 			var sections;
 			try{
-				sections = JSON.parse('['+item+']');
-			  lastErrObject = sections;
+				//sections = JSON.parse('['+item+']');
+				sections = eval('['+item+']');
+				lastErrObject = sections;
 				if(blockRegexes[cycle].first) result += blockRegexes[cycle].first;
 				for(var i = 0; i < sections.length; i++){
 					result += await blockRegexes[cycle].func(sections[i]);
