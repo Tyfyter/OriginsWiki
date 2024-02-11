@@ -110,7 +110,7 @@
 							"Name",
 							"Damage",
 							"Crit",
-							{ "name":"Use Time", "expr":"item.UseTime" },
+							{ "name":"Use Time", "expr":"item.UseTime", "noAbbr":true },
 							{
 							"name":"Average DPS",
 							"expr":"(item.Damage*(1+item.Crit/100)*(60/item.UseTime)).toFixed(2)"
