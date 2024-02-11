@@ -954,7 +954,12 @@ async function processSortableList(data){
 	var keys = new Set();
 	for(var i = 0; i < data.items.length; i++){
 		result += '<tr>';
-		var item = JSON.parse(await requestStats(data.items[i]));
+		var item;
+		if(data.items[i] instanceof Object){
+			item = data.items[i];
+		}else{
+			item = JSON.parse(await requestStats(data.items[i]));
+		}
 		if(!item.Name){
 			item.Name = data.items[i];
 		}
