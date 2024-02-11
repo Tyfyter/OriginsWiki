@@ -1196,6 +1196,10 @@ function jsonifyPseudoJson(item, history){
 	item = item.replaceAll(commaInserterRegex, ',');//1
 	history[time++] = item;
 	
+	item = item.replaceAll(/\]\[/g, "],[");
+	item = item.replaceAll(/\}\{/g, "},{");//2
+	history[time++] = item;
+	
 	return item;
 }
 function getScrollTop() {
