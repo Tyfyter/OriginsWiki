@@ -1047,7 +1047,7 @@ async function processAutoSortableList(table, list){
 	}
 	var cats = await getCategories();
 	var data = JSON.parse(await list);
-	data.items = [];
+	if (!(data.items instanceof Array)) data.items = [];
 	var currentCat;
 
 	if (data.intersection) {
