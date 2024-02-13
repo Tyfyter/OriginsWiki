@@ -9,7 +9,7 @@
   "DamageClass": "Ranged",
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "White",
-  "Sell": 2600,
+  "Sell": 300,
   "SpriteWidth": 26,
   "InternalName": "Flammable_Harpoon"
 }

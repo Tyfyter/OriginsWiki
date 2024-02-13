@@ -1,11 +1,20 @@
 {
-  "Image": "§ModImage§/Items/Materials/Defiled_Bar",
   "Name": "Defiled Bar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 28,
-  "InternalName": "Defiled_Bar"
+  "InternalName": "Defiled_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Defiled_Bar",
+    "Tiles/Defiled_Bar"
+  ]
 }

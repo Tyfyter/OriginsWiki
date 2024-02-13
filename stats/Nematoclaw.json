@@ -11,7 +11,7 @@
   "DamageClass": "Melee",
   "Knockback": 6.0,
   "UseTime": 5,
-  "Tooltip": "Inflicts acid venom, poison, and toxic shock",
+  "Tooltip": "Inflicts toxic shock",
   "Rarity": "LightRed",
   "Sell": 8000,
   "SpriteWidth": 32,

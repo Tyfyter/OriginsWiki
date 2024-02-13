@@ -2,6 +2,7 @@
   "Name": "Defiled Sandstone",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

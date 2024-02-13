@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Shield_of_Retribution",
+  "Name": "Shield of Retribution",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "Grants immunity to knockback",
+    "Grants immunity to fire blocks",
+    "67% of damage received is redirected to 3 enemies",
+    "Enemies are less likely to target you"
+  ],
+  "Rarity": "Pink",
+  "Sell": 30000,
+  "SpriteWidth": 36,
+  "InternalName": "Shield_of_Retribution"
+}

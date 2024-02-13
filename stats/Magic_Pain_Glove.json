@@ -1,0 +1,25 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Magic_Pain_Glove",
+  "Name": "Magic Pain Glove",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "ManaCost": 3,
+  "Damage": -9,
+  "UseTime": 5,
+  "Velocity": 1.0,
+  "Tooltip": [
+    "12% increased melee speed",
+    "8% reduced mana usage",
+    "Enables auto swing for melee weapons",
+    "Automatically use mana potions when needed",
+    "Shoots random magic as you swing"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 30000,
+  "SpriteWidth": 24,
+  "InternalName": "Magic_Pain_Glove"
+}

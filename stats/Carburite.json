@@ -2,6 +2,7 @@
   "Name": "Carburite",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
   "PickReq": 55,

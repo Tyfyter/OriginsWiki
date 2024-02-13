@@ -1,11 +1,22 @@
 {
-  "Image": "§ModImage§/Items/Materials/Qube",
   "Name": "Qube",
   "Types": [
-    "Item"
+    "Item",
+    "Ammo",
+    "Tile"
   ],
+  "PickReq": 235,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Physical information, like everything else in the world'",
   "Rarity": "Butterscotch",
-  "Sell": 16000,
   "SpriteWidth": 24,
-  "InternalName": "Qube"
+  "InternalName": "Qube_Item",
+  "Images": [
+    "§ModImage§/Tiles/Cubekon/Qube_Item",
+    "Tiles/Qube"
+  ]
 }

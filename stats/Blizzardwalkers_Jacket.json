@@ -1,12 +1,13 @@
 {
   "Image": "§ModImage§/Items/Accessories/Blizzardwalkers_Jacket",
-  "Name": "Blizzardwalkers_ Jacket",
+  "Name": "Blizzardwalkers Jacket",
   "Types": [
     "Item",
     "Accessory",
     "Master",
     "Combat"
   ],
+  "Tooltip": "The player will dodge their next attack as long as no enemies are nearby",
   "Rarity": "Orange",
   "Sell": 20000,
   "SpriteWidth": 30,

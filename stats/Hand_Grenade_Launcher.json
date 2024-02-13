@@ -5,7 +5,7 @@
     "Item",
     "Weapon"
   ],
-  "Damage": 17,
+  "Damage": 2,
   "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
   "UseTime": 23,

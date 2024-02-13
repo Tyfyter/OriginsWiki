@@ -2,15 +2,16 @@
   "Name": "Batholith",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
-  "PickReq": 250,
+  "PickReq": 235,
   "PlacementSize": [
     1,
     1
   ],
   "UseTime": 10,
-  "Tooltip": "'Respect your elders'",
+  "Tooltip": "'Patiently awaiting its unearthing...'",
   "Rarity": "White",
   "SpriteWidth": 16,
   "InternalName": "Batholith_Item",

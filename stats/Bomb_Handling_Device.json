@@ -7,6 +7,10 @@
     "Combat",
     "Explosive"
   ],
+  "Tooltip": [
+    "25% increased explosive throwing velocity",
+    "Also commonly referred to as the 'Bomb Yeeter'"
+  ],
   "Rarity": "Green",
   "Sell": 20000,
   "SpriteWidth": 38,

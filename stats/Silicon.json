@@ -1,11 +1,22 @@
 {
-  "Image": "§ModImage§/Items/Materials/Silicon",
   "Name": "Silicon",
   "Types": [
-    "Item"
+    "Item",
+    "Ammo",
+    "Tile"
   ],
+  "PickReq": 35,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "White",
   "Sell": 44,
   "SpriteWidth": 16,
-  "InternalName": "Silicon"
+  "InternalName": "Silicon_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Silicon_Item",
+    "Tiles/Silicon"
+  ]
 }

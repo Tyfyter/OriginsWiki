@@ -9,7 +9,7 @@
   "DamageClass": "Ranged",
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Blue",
-  "Sell": 3000,
+  "Sell": 400,
   "SpriteWidth": 26,
   "InternalName": "Bouncy_Harpoon"
 }

@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Joint_Pop",
+  "Name": "Joint Pop",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 20,
+  "DamageClass": "Explosive Summon",
+  "Knockback": 2.0,
+  "UseTime": 60,
+  "Velocity": 4.0,
+  "Tooltip": [
+    "Striking with the tip will cause it to explode",
+    "The explosion will briefly slow enemies",
+    "3 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 26,
+  "InternalName": "Joint_Pop"
+}

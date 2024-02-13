@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Materials/Peat_Moss",
+  "Image": "§ModImage§/Tiles/Brine/Peat_Moss_Item",
   "Name": "Peat Moss",
   "Types": [
     "Item"
@@ -7,5 +7,5 @@
   "Rarity": "Green",
   "Sell": 60,
   "SpriteWidth": 16,
-  "InternalName": "Peat_Moss"
+  "InternalName": "Peat_Moss_Item"
 }

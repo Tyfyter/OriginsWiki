@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Cold_Snap",
+  "Name": "Cold Snap",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "Damage": 6,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
+  "UseTime": 32,
+  "Velocity": 12.0,
+  "Tooltip": [
+    "Inflicts frostburn to struck enemies",
+    "Uses mines as ordinance"
+  ],
+  "Rarity": "Orange",
+  "Sell": 5000,
+  "SpriteWidth": 50,
+  "InternalName": "Cold_Snap"
+}

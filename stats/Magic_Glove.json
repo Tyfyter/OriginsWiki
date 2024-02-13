@@ -7,16 +7,17 @@
     "Combat"
   ],
   "ManaCost": 3,
-  "Damage": -69421,
+  "Damage": 7,
+  "DamageClass": "Magic",
   "UseTime": 5,
-  "Velocity": 14.0,
+  "Velocity": 1.0,
   "Tooltip": [
     "8% reduced mana usage",
     "Automatically use mana potions when needed",
     "Shoots random magic as you swing",
     "'May require a prowess in magicks'"
   ],
-  "Rarity": "Green",
+  "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 22,
   "InternalName": "Magic_Glove"

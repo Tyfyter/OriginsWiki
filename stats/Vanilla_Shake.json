@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Food/Vanilla_Shake",
+  "Name": "Vanilla Shake",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "UseTime": 17,
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 20,
+  "InternalName": "Vanilla_Shake"
+}

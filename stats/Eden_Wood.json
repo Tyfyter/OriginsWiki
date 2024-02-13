@@ -1,5 +1,5 @@
 {
-  "Name": "Eden Wood",
+  "Name": "Edenwood",
   "Types": [
     "Item",
     "Tile"
@@ -9,7 +9,7 @@
     1
   ],
   "UseTime": 10,
-  "Tooltip": "'A wood too sacred to chop'",
+  "Tooltip": "'Too sacred to chop'",
   "Rarity": "White",
   "SpriteWidth": 24,
   "InternalName": "Eden_Wood_Item",

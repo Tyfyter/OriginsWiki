@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Weakpoint_Analyzer",
+  "Name": "Weakpoint Analyzer",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "Combat",
+    "Resource",
+    "Ranged"
+  ],
+  "Tooltip": [
+    "Ranged projectiles are duplicated twice",
+    "Duplicates have a chance to deal damage equal to your ammo conservation chance",
+    "8% chance to save ammo"
+  ],
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "SpriteWidth": 42,
+  "InternalName": "Weakpoint_Analyzer"
+}

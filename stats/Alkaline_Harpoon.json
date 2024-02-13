@@ -9,7 +9,7 @@
   "DamageClass": "Ranged",
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "LightRed",
-  "Sell": 2800,
+  "Sell": 500,
   "SpriteWidth": 22,
   "InternalName": "Alkaline_Harpoon"
 }

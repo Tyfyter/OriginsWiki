@@ -3,16 +3,15 @@
   "Name": "Eruption",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode"
+    "Weapon"
   ],
-  "Damage": 50,
+  "Damage": 12,
   "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
   "UseTime": 32,
   "Velocity": 12.0,
-  "Rarity": "Crimson",
-  "Sell": 50000,
+  "Rarity": "Orange",
+  "Sell": 5000,
   "SpriteWidth": 50,
   "InternalName": "Eruption"
 }

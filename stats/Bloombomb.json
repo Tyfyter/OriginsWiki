@@ -6,14 +6,14 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 75,
+  "Damage": 54,
   "DamageClass": "Explosive (thrown)",
   "Knockback": 5.0,
   "UseTime": 25,
   "Velocity": 5.0,
   "Tooltip": "Explodes into seeds",
   "Rarity": "LightRed",
-  "Sell": 1500,
+  "Sell": 400,
   "SpriteWidth": 30,
   "InternalName": "Bloombomb"
 }

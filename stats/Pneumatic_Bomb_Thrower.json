@@ -8,6 +8,10 @@
     "Combat",
     "Explosive"
   ],
+  "Tooltip": [
+    "50% increased explosive throwing velocity",
+    "Also commonly referred to as the 'True Bomb Yeeter'"
+  ],
   "Rarity": "LightRed",
   "Sell": 30000,
   "SpriteWidth": 30,

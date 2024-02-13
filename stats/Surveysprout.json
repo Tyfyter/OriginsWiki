@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Materials/Surveysprout",
+  "Image": "§ModImage§/Tiles/Ashen/Surveysprout_Item",
   "Name": "Surveysprout",
   "Types": [
     "Item"
@@ -7,5 +7,5 @@
   "Rarity": "White",
   "Sell": 20,
   "SpriteWidth": 16,
-  "InternalName": "Surveysprout"
+  "InternalName": "Surveysprout_Item"
 }

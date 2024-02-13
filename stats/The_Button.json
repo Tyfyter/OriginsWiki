@@ -5,7 +5,7 @@
     "Item"
   ],
   "UseTime": 45,
-  "Tooltip": "Summons I.C.A.R.U.S",
+  "Tooltip": "Summons an I.C.A.R.U.S. unit",
   "Rarity": "Crimson",
   "SpriteWidth": 20,
   "InternalName": "The_Button"

@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Stack_of_Shraps",
+  "Name": "Stack of Shraps",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Expert",
+    "Combat",
+    "Explosive"
+  ],
+  "Tooltip": "Double the gunpowder, double the fun.",
+  "Rarity": "Expert",
+  "Sell": 20000,
+  "SpriteWidth": 10,
+  "InternalName": "Stack_of_Shraps"
+}

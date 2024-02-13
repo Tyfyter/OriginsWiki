@@ -1,11 +1,20 @@
 {
-  "Image": "§ModImage§/Items/Materials/Encrusted_Bar",
   "Name": "Encrusted Bar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 32,
-  "InternalName": "Encrusted_Bar"
+  "InternalName": "Encrusted_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Encrusted_Bar",
+    "Tiles/Encrusted_Bar"
+  ]
 }

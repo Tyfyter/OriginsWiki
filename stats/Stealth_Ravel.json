@@ -11,7 +11,7 @@
     "Enemies are unable to target you when raveled"
   ],
   "Rarity": "Pink",
-  "Sell": 80000,
+  "Sell": 60000,
   "SpriteWidth": 24,
   "InternalName": "Stealth_Ravel"
 }

@@ -1,11 +1,20 @@
 {
-  "Image": "§ModImage§/Items/Materials/Sanguinite_Bar",
   "Name": "Sanguinite Bar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
   "SpriteWidth": 30,
-  "InternalName": "Sanguinite_Bar"
+  "InternalName": "Sanguinite_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Sanguinite_Bar",
+    "Tiles/Sanguinite_Bar"
+  ]
 }

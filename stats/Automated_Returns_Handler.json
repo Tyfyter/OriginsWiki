@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Automated_Returns_Handler",
+  "Name": "Automated_ Returns_ Handler",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 120000,
+  "SpriteWidth": 34,
+  "InternalName": "Automated_Returns_Handler"
+}

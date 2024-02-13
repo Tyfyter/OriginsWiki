@@ -6,7 +6,7 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 75,
+  "Damage": 60,
   "DamageClass": "Explosive (thrown)",
   "Knockback": 5.0,
   "UseTime": 25,

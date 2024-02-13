@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Dysfunctional_Endless_Explosives_Bag",
+  "Name": "Dysfunctional Endless Explosives Bag",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Resource",
+    "Explosive"
+  ],
+  "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
+  "Rarity": "Gray",
+  "Sell": 30000,
+  "SpriteWidth": 26,
+  "InternalName": "Dysfunctional_Endless_Explosives_Bag"
+}

@@ -2,8 +2,10 @@
   "Name": "Felnum Ore",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
+  "PickReq": 65,
   "PlacementSize": [
     1,
     1

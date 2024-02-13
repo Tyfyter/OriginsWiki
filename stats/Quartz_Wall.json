@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Quartz_Wall_Item",
+  "Name": "Quartz Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 34,
+  "InternalName": "Quartz_Wall_Item"
+}

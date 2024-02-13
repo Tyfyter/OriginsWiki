@@ -1,11 +1,20 @@
 {
-  "Image": "§ModImage§/Items/Materials/Felnum_Bar",
   "Name": "Felnum Bar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "Green",
   "Sell": 4000,
   "SpriteWidth": 30,
-  "InternalName": "Felnum_Bar"
+  "InternalName": "Felnum_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Felnum_Bar",
+    "Tiles/Felnum_Bar"
+  ]
 }

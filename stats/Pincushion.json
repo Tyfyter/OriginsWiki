@@ -3,11 +3,13 @@
   "Name": "Pincushion",
   "Types": [
     "Item",
-    "Accessory",
     "Misc",
     "Explosive"
   ],
-  "Tooltip": "Prevents tile destruction from explosives",
+  "Tooltip": [
+    "Prevents tile destruction from explosives when pinned",
+    "Right click to unpin"
+  ],
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 30,

@@ -1,11 +1,10 @@
 {
-  "Image": "§ModImage§/Items/Materials/Brineglow",
+  "Image": "§ModImage§/Tiles/Brine/Brineglow_Item",
   "Name": "Brineglow",
   "Types": [
     "Item"
   ],
   "Rarity": "White",
-  "Sell": 30,
   "SpriteWidth": 26,
-  "InternalName": "Brineglow"
+  "InternalName": "Brineglow_Item"
 }

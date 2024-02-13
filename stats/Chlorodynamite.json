@@ -10,7 +10,7 @@
   "DamageClass": "Explosive (thrown)",
   "UseTime": 40,
   "Velocity": 6.0,
-  "Tooltip": "Vines will pull nearby enemies in before detonation",
+  "Tooltip": "Will pull in and stun any nearby enemies",
   "Rarity": "Lime",
   "Sell": 2200,
   "SpriteWidth": 18,

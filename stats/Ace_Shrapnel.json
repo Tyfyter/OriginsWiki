@@ -4,20 +4,19 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode",
     "Ammo"
   ],
-  "Damage": 150,
+  "Damage": 18,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 4.0,
-  "UseTime": 20,
-  "Velocity": 12.0,
+  "Knockback": 0.3,
+  "UseTime": 1,
+  "Velocity": 1.75,
   "Tooltip": [
     "Not implemented the way spriter dev wants it",
     "Uses scrap as ammo"
   ],
-  "Rarity": "LightPurple",
-  "Sell": 20000,
+  "Rarity": "Blue",
+  "Sell": 10000,
   "SpriteWidth": 54,
   "InternalName": "Ace_Shrapnel"
 }

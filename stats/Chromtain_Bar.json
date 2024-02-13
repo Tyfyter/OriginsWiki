@@ -1,11 +1,20 @@
 {
-  "Image": "§ModImage§/Items/Materials/Chromtain_Bar",
   "Name": "Chromtain Bar",
   "Types": [
-    "Item"
+    "Item",
+    "Tile"
   ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
   "Rarity": "Crimson",
   "Sell": 10000,
   "SpriteWidth": 30,
-  "InternalName": "Chromtain_Bar"
+  "InternalName": "Chromtain_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Chromtain_Bar",
+    "Tiles/Chromtain_Bar"
+  ]
 }

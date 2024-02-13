@@ -12,7 +12,8 @@
   "Velocity": 14.75,
   "Tooltip": [
     "Uses harpoons as ammo",
-    "85.7% chance not to consume ammo"
+    "85.7% chance not to consume ammo",
+    "'Harpoons not included'"
   ],
   "Rarity": "Green",
   "Sell": 5400,

@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Refactoring_Pieces",
+  "Name": "Refactoring_ Pieces",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Expert",
+    "Combat"
+  ],
+  "Rarity": "Expert",
+  "Sell": 20000,
+  "SpriteWidth": 30,
+  "InternalName": "Refactoring_Pieces"
+}

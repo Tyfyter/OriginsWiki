@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Materials/Fungarust",
+  "Image": "§ModImage§/Tiles/Ashen/Fungarust_Item",
   "Name": "Fungarust",
   "Types": [
     "Item"
@@ -7,5 +7,5 @@
   "Rarity": "White",
   "Sell": 10,
   "SpriteWidth": 22,
-  "InternalName": "Fungarust"
+  "InternalName": "Fungarust_Item"
 }

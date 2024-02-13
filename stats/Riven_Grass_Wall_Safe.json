@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Riven_Grass_Wall_Item",
+  "Name": "Riven Grass Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 28,
+  "InternalName": "Riven_Grass_Wall_Safe_Item"
+}

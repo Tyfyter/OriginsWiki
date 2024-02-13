@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Strange_Tooth",
-  "Name": "Strange_ Tooth",
+  "Name": "Strange Tooth",
   "Types": [
     "Item",
     "Accessory",
@@ -10,6 +10,10 @@
   "DamageClass": "Summon",
   "Knockback": 2.0,
   "UseTime": 45,
+  "Tooltip": [
+    "Summons miniature servants to chase after enemies for every minion slot you have",
+    "Servants have a chance to drop hearts when the player is low on health"
+  ],
   "Rarity": "Green",
   "Sell": 15000,
   "SpriteWidth": 20,

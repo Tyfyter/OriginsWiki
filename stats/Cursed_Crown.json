@@ -1,11 +1,17 @@
 {
   "Image": "§ModImage§/Items/Accessories/Cursed_Crown",
-  "Name": "Cursed_ Crown",
+  "Name": "Cursed Crown",
   "Types": [
     "Item",
     "Accessory",
     "Master",
     "Combat"
+  ],
+  "Tooltip": [
+    "The player adopts the consistency of a slime",
+    "Reduced movement speed and acceleration",
+    "Significantly increased jump speed",
+    "+30% damage reduction"
   ],
   "Rarity": "Green",
   "Sell": 10000,

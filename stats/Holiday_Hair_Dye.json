@@ -1,5 +1,5 @@
 {
-  "Image": "Terraria/Images/Item_3259",
+  "Image": "§ModImage§/Items/Other/Consumables/Holiday_Hair_Dye",
   "Name": "Holiday Hair Dye",
   "Types": [
     "Item"
@@ -8,6 +8,6 @@
   "Tooltip": "Hair appearance changes depending on the current holiday",
   "Rarity": "Green",
   "Sell": 60000,
-  "SpriteWidth": 32,
+  "SpriteWidth": 18,
   "InternalName": "Holiday_Hair_Dye"
 }

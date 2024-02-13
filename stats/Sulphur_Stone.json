@@ -2,6 +2,7 @@
   "Name": "Sulphur Stone",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
   "PickReq": 200,
