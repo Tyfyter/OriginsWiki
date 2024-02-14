@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Celestial_Stone_Mask",
+  "Name": "Celestial_ Stone_ Mask",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 180000,
+  "SpriteWidth": 22,
+  "InternalName": "Celestial_Stone_Mask"
+}

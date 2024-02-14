@@ -7,7 +7,7 @@
     "Combat",
     "Explosive"
   ],
-  "Damage": 40,
+  "Damage": 45,
   "DamageClass": "Explosive",
   "Knockback": 4.0,
   "UseTime": 6,
