@@ -1,64 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-		<script>
-			function postParseCallback() {
-				var content = document.getElementById("content");
-				var child = document.createElement('div');
-				child.innerText = content.innerHTML;
-				content.appendChild(child);
-			}
-		</script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<article id="content">
-			<h1>Freeze Frame</h1>
+			<h1>Rasterized</h1>
 			<div class="divider"></div>
 
-			{statblock
-			{
-			header:Freeze Frame,
-			items:[
-			{image: Images/Freeze_Frame.png}
-			]
-			},
-			{
-			header:Statistics,
-			items:[
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Tooltips">Tooltip</a>,
-			values:[
-			"Attacks may inflict 'Rasterize'"
-			]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Rarity">Rarity</a>,
-			value:[link | Images/RareBlue.png | https://terraria.wiki.gg/wiki/Rarity]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Value">Sell</a>,
-			value:[value 0|0|35|0]
-			},
-			{
-			label:<a href="https://terraria.wiki.gg/wiki/Journey_Mode#Research">Research</a>,
-			value:<b>1 required</b>
-			}
-			]
-			}
-			statblock}
+			[statblock Rasterized]
 
 			<p>
-				<b>Freeze Frame</b> is an [link accessory | | Accessories.html] obtained from smashing [link Defiled Fissures | | Defiled_Fissure.html]. It allows the player to inflict '[link Rasterize]', which freezes any enemies for 5/6ths of a second while still allowing them to attack if the player gets too close.
-				I'm just putting this here so I can see if my browser is just refusing to refresh the page properly, figured I'd test on a page that's getting deleted, and isn't this item removed?
+				<b>Rasterized</b> is a [link debuff | | Debuffs.html] that is applied by most items and enemies found in the [link Defiled Wastelands].
+				When applied to an NPC, they will be [link stunned | | Stun.html] for a duration based on the source while taking on a light gray hue.
+				When applied to a player, they will instead have their movement speed reduced in all directions and movement-related inputs delayed while taking on the same light gray hue but with a glitchy effect depending on how fast they move.
 			</p>
-			<div>
-				<details open>
-					<summary>Notes<span class="divider"></span></summary>
-					<p> - 'Rasterize' cannot be inflicted onto any boss.</p>
-				</details>
+
+			<h3>Causes</h3>
+
+			[sortableList RasterSource]
+
+			<details open>
+				<summary>Notes<span class="divider"></span></summary>
+				<p>
+					 - Rasterized cannot be applied to any boss in the game.
+				</p>
+			</details>
 		</article>
 	</body>
 </html>
