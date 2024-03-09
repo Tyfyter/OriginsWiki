@@ -258,6 +258,18 @@ details > summary {
 	margin: 0px;
 	padding: 0.2em;
 }
+#table-of-contents-details > summary {
+	margin-bottom: 0em;
+}
+#table-of-contents-details[open] > summary {
+	margin-bottom: 0.5em;
+}
+#table-of-contents-details > summary > .divider {
+	display: none;
+}
+#table-of-contents-details[open] > summary > .divider {
+	display: flex;
+}
 
 .toc-link {
 	--article-link-color: --article-text-color;
