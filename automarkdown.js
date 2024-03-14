@@ -582,6 +582,9 @@ async function processAutoStats(name = pageName, inline){
 			var classStr = data.DamageClass ? ` (${data.DamageClass})`: '';
 			statistics.items.push({label:'Damage',value:`${data.Damage}${classStr}`});
 		}
+		if(data.ArmorPenetration){
+			statistics.items.push({label:'[link Armor Penetration | | https://terraria.wiki.gg/wiki/Defense#Armor_penetration]', value:`${data.ArmorPenetration}`});
+		}
 		if(data.Knockback){
 			statistics.items.push({
 				label:'[link Knockback | | https://terraria.wiki.gg/wiki/Knockback]',
