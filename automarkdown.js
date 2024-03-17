@@ -342,10 +342,10 @@ function waitForElement(selector) {
     });
 }
 async function processLinkWithID(id, targetName, image, targetPage, note) {
-	return (await processLink(targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
+	const currentIndex = linkIndex++;
+	return (await processLink(currentIndex, targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
 }
-let linkNum = 0
-async function processLink(targetName, image, targetPage, note){
+async function processLink(index, targetName, image, targetPage, note){
 	if (aliases[targetPage]) {
 		targetPage = aliases[targetPage];
 	}
@@ -368,10 +368,16 @@ async function processLink(targetName, image, targetPage, note){
 	if (new URL(targetPage, document.baseURI).href == document.location) {
 		tag = 'b';
 	}
-	const linkIndex = linkNum++;
+	const linkIndex = index;
+	console.log(`link to ${targetPage} at index ${linkIndex}`);
 	var result = `<${tag} class="link" id="link${linkIndex}" href="${targetPage}">`;
-	waitForElement(`a#link${linkIndex}`).then(element => {
+	waitForElement(`${tag}#link${linkIndex}`).then(element => {
 		//console.log(element);
+		if (!element.href) {
+			//console.log(`link ${element.outerHTML} has no HREF`);
+			return;
+		}
+		//console.log(`link ${element.outerHTML} at index ${element.id}`);
 		if (new URL(element.href).origin == new URL(window.location).origin) {
 			fetch(element.href, {method: 'HEAD'}).then(response => {
 				//console.log(response);
@@ -798,9 +804,17 @@ async function processBiomeContents(data, depth){
 
 		for(var i = 0; i < data.items.length; i++){
 			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += '<span>' + (data.items[i].startsWith('&amp;') ? data.items[i].substring('&amp;'.length) : await processLink(data.items[i])) + '</span>';
+				result += '<span>';
+				if(data.items[i].startsWith('&amp;')){
+					result += data.items[i].substring('&amp;'.length);
+				}else{
+					const currentIndex = linkIndex++;
+					result += await processLink(currentIndex, data.items[i]);
+				}
+				result += '</span>';
 			}else if(data.items[i] instanceof Array){
-				result += '<span>'+(await processLink(...data.items[i]))+'</span>';
+				const currentIndex = linkIndex++;
+				result += '<span>'+(await processLink(currentIndex, ...data.items[i]))+'</span>';
 			}else{
 				classes = "";
 				style = "";
@@ -1241,6 +1255,7 @@ function replaceBasicSubstitutions(text) {
 	text = text.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
 	return text;
 }
+let linkIndex = 0;
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
@@ -1349,14 +1364,14 @@ async function parseAFML(throwErrors = false){
 			subsIndex++;
 		}*/
 		item = content.innerHTML.match(linkRegex);
-		let linkIndex = 0;
 		while(item != null){
 			//console.log(item);
 			let current = pruneLinkArgs(item[1].split('|'));
 			//let result = await processLink(...current);
-			const currentIndex = linkIndex;
+			const currentIndex = linkIndex++;
 			content.innerHTML = content.innerHTML.replace(item[0], `<span id=link${currentIndex}>${current[0]}</span>`);//'§'+subsIndex+'§'
-			processLink(...current).then(async (value) => {
+			console.log(`making link ${current} at index ${currentIndex}`);
+			processLink(currentIndex, ...current).then(async (value) => {
 				//console.log(`link ${currentIndex}: ${value}`);
 				let element = document.getElementById('link' + currentIndex);
 				if (element) {
@@ -1427,6 +1442,23 @@ async function parseAFML(throwErrors = false){
 		
 		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
 	];
+	var rec = document.getElementsByTagName("recipes");
+	console.log(rec);
+	for(let i = 0; i < rec.length; i++) {
+		let result = "<table class=\"recipetable\" cellspacing=\"0\">";
+		let item = rec[i].innerHTML;
+		var history = [item];//0
+		item = jsonifyPseudoJson(item, history);
+		console.log('['+item+']');
+		sections = eval('['+item+']');
+		lastErrObject = sections;
+		result += '<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>';
+		for(let j = 0; j < sections.length; j++){
+			result += await processRecipeBlock(sections[j]);
+		}
+		result += "</table>";
+		rec[i].outerHTML = result;
+	}
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
 		if (currentMatch !== null) console.log(blockRegexes[cycle].class);
