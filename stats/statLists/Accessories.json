@@ -6,7 +6,7 @@
     "Name",
     "Source",
     { "name":"Effects", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.effects)+'</div>'" },
-    { "name":"Obtainable<br>pre-hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
-    { "name":"Visible<br>on<br>character", "expr":"'<div class=\\'visibility-table-indicator\\'>'+(item.visibility)+'</div>'" }
+    { "name":"Obtainablepre-hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
+    { "name":"Visibleoncharacter", "expr":"'<div class=\\'visibility-table-indicator\\'>'+(item.visibility)+'</div>'" }
   ]
 }

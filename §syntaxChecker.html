@@ -18,7 +18,7 @@
 			document.getElementById('terminal').addEventListener("paste", function(e) {
 				e.preventDefault();
 				var text = window.escapeHTML(e.clipboardData.getData("text/plain"));
-				document.execCommand("insertHTML", false, text.replaceAll('\n','<br>'));
+				document.execCommand("insertHTML", false, text.replaceAll('\n',''));
 			});
 		});
         

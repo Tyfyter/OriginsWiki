@@ -152,7 +152,7 @@ function appendAllToContent(values){
 	values = values.map(function(v){
 		return "<a href="+v+">"+v+"</a>";
 	});
-	document.getElementById("content").innerHTML += "<div>"+values.join("<br>")+"</div>";
+	document.getElementById("content").innerHTML += "<div>"+values.join("")+"</div>";
 }
 
 function requestAndProcessPageList(action, filter, sync){
@@ -192,7 +192,7 @@ async function getSearchLinks(query, filter = ".html"){
 	//window.alert(results);
 	return results.map(function(v){
 		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replace(regexQuery, "<b>\$1</b>").replaceAll('_', ' ')+"</a>";
-	}).join("<br>");
+	}).join("");
 }
 
 //requestAndProcessPageList(appendAllToContent);
@@ -407,7 +407,7 @@ async function processLink(index, targetName, image, targetPage, note){
 	if(note){
 		result += '<span class="linkandnote">';
 		result += targetName;
-		result += '<br><span class="linknote">'+note+'</span>';
+		result += '<span class="linknote">'+note+'</span>';
 		result += '</span>';
 	}else{
 		result += targetName;
@@ -895,7 +895,7 @@ function processStatBlock(data, depth){
 							data.items[i].label + `: <div class="statvalues ${data.items[i].valueClass || ''}">`;
 							for(var j = 0; j < data.items[i].values.length; j++){
 								if(j>0){
-									result += '<br>';
+									result += '';
 								}
 								result += data.items[i].values[j];
 							}
@@ -917,7 +917,7 @@ function processRecipeBlock(data, depth){
 			stations = '';
 			for(var j = 0; j < data.stations.length; j++){
 				if(j>0){
-					stations += '<br><div class="or">or</div><br>';
+					stations += '<div class="or">or</div>';
 				}
 				stations += data.stations[j];
 			}
@@ -933,7 +933,7 @@ function processRecipeBlock(data, depth){
 		'</td><td class="middle">';
 		for(var j = 0; j < data.items[i].ingredients.length; j++){
 			if(j>0){
-				result += '<br>';
+				result += '';
 			}
 			result += data.items[i].ingredients[j];
 		}
@@ -1178,7 +1178,7 @@ function jsonifyPseudoHjson(item, history){
 			repr[i] = depth;
 		}
 	}
-	item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
+	item = item.join('');//reassemble string// +''+repr.join('');*/
 	
 	//console.log('before aPHAOR'+item);
 	//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
