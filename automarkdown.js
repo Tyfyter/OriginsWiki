@@ -229,7 +229,7 @@ function getSiteSettings(){
 function refreshSiteSettings(){
 	var siteSettings = getSiteSettings();
 
-	var background = !siteSettings.nobackground;
+	var background = !(siteSettings.nobackground || false);
 	var theme = siteSettings.theme || themes[0];
 	var html = document.getElementsByTagName('html')[0];
 	var body = document.getElementsByTagName('body')[0];
@@ -250,17 +250,16 @@ function refreshSiteSettings(){
 	}
 	refreshThemeIcon();
 
-	const backgroundSettingRegex = /background|nobackground/g;
-	html.className = html.className.replaceAll(backgroundSettingRegex, '');
-	body.className = body.className.replaceAll(backgroundSettingRegex, '');
+	html.classList.remove('background', 'nobackground');
+	body.classList.remove('background', 'nobackground');
 	var bgTogglePath = document.getElementById('bgtoggle').firstChild;
 	if(background){
-		html.className = html.className + " background";
-		body.className = body.className + " background";
+		html.classList.add('background');
+		body.classList.add('background');
 		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12');
 	} else {
-		html.className = html.className + " nobackground";
-		body.className = body.className + " nobackground";
+		html.classList.add('nobackground');
+		body.classList.add('nobackground');
 		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12 m 1 -11 l -20 10');
 	}
 }
@@ -303,7 +302,7 @@ function closeThemeSelector(){
 }
 
 function setBackground(value){
-	setSiteSettings('nobackground', !value);
+	setSiteSettings('nobackground', value ? '' : 'truthy');
 }
 
 function getBackground(){
