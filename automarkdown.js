@@ -1254,6 +1254,14 @@ function replaceBasicSubstitutions(text) {
 	text = text.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
 	return text;
 }
+function logItToo(value, text = "") {
+	if (text) {
+		console.log(text, value);
+	} else {
+		console.log(value);
+	}
+	return value;
+}
 let linkIndex = 0;
 async function parseAFML(throwErrors = false){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
@@ -1456,7 +1464,12 @@ async function parseAFML(throwErrors = false){
 			result += await processRecipeBlock(sections[j]);
 		}
 		result += "</table>";
+		let oldLength = rec.length;
 		rec[i].outerHTML = result;
+		if (oldLength != rec.length) {
+			i -= oldLength - rec.length;
+			if (rec.length <= 0) break;
+		}
 	}
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
