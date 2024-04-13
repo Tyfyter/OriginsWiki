@@ -44,6 +44,7 @@
 	--box-bg-color: rgba(159, 111, 81, 0.35);
 	--box-border-color: rgb(184, 96, 29);
 	--tool-power-filter: invert(50%) sepia(100%) saturate(200%);
+	--master-color: #f30698;
 	--wiki-logo: url(Images/themes/ashenlogo.png);
 	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
   }
