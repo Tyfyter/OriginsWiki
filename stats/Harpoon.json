@@ -3,7 +3,8 @@
   "Name": "Harpoon",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Harpoon"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",

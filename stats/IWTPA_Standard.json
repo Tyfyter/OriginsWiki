@@ -5,11 +5,11 @@
     "Item",
     "Accessory",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "Reduces explosive fuse time",
   "Rarity": "Blue",
-  "Sell": 2000,
+  "Sell": 10000,
   "SpriteWidth": 28,
   "InternalName": "IWTPA_Standard"
 }

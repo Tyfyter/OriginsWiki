@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Endowood_Wall_Item",
+  "Name": "Endowood Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 26,
+  "InternalName": "Endowood_Wall_Item"
+}

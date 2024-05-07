@@ -3,7 +3,8 @@
   "Name": "Starfuze",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Canistah"
   ],
   "Damage": 5,
   "DamageClass": "Ranged",

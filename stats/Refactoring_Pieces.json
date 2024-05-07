@@ -1,11 +1,16 @@
 {
   "Image": "Refactoring_Pieces",
-  "Name": "Refactoring_ Pieces",
+  "Name": "Refactoring Pieces",
   "Types": [
     "Item",
     "Accessory",
     "Expert",
-    "Combat"
+    "ExpertAcc",
+    "ManaShielding"
+  ],
+  "Tooltip": [
+    "Increases mana shielding by 10%",
+    "Reduces damage taken by 5% if Lost Armor is not equipped"
   ],
   "Rarity": "Expert",
   "Sell": 20000,

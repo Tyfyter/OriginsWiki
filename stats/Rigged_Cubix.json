@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "MagicGun"
   ],
   "ManaCost": 4,
   "Damage": 88,
@@ -12,7 +13,7 @@
   "Knockback": 4.75,
   "Crit": 1,
   "UseTime": 3,
-  "Velocity": 14.0,
+  "Velocity": 12.0,
   "Tooltip": "'Infinite ammo, infinite wisdom'",
   "Rarity": "Butterscotch",
   "Sell": 200000,

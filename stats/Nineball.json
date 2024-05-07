@@ -3,7 +3,8 @@
   "Name": "Nineball",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Yoyo"
   ],
   "Damage": 18,
   "DamageClass": "Melee",

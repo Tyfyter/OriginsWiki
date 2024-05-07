@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time",
   "Rarity": "Orange",

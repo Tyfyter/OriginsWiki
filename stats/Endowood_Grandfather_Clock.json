@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Clock",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    5
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 16,
+  "InternalName": "Endowood_Grandfather_Clock_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Grandfather_Clock_Item",
+    "Tiles/Endowood_Grandfather_Clock"
+  ]
+}

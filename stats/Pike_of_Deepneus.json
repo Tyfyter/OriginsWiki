@@ -4,9 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "OtherMagic"
   ],
-  "ManaCost": 16,
+  "ManaCost": 34,
   "Damage": 160,
   "DamageClass": "Magic",
   "Knockback": 8.0,

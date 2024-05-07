@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "Half of damage received is split across 3 enemies, inflicting 'Toxic Shock'",

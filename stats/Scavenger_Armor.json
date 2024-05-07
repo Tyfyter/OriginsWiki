@@ -10,7 +10,7 @@
     "ArmorSets/Scavenger_Armor_Female"
   ],
   "Defense": 10,
-  "SetBonus": "All explosives inflict 'Impeding Shrapnel'\nAdditional scrap drops from Ashen enemies",
+  "SetBonus": "All explosives inflict Impeding Shrapnel\nAdditional scrap drops from Ashen enemies",
   "Rarity": "Blue",
   "Sell": 45000
 }

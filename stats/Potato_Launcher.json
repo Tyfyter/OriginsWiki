@@ -5,8 +5,8 @@
     "Item",
     "Weapon"
   ],
-  "Damage": 25,
-  "DamageClass": "Ranged",
+  "Damage": 17,
+  "DamageClass": "",
   "Knockback": 2.0,
   "UseTime": 32,
   "Velocity": 12.0,

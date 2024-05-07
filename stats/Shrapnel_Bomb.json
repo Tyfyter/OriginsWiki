@@ -4,16 +4,20 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "SpendableWeapon"
   ],
   "Damage": 50,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive (thrown)",
   "Knockback": 13.0,
   "UseTime": 28,
   "Velocity": 4.75,
   "Tooltip": "Explodes into shrapnel",
-  "Rarity": "Pink",
-  "Sell": 800,
+  "Rarity": "Blue",
+  "Sell": 180,
   "SpriteWidth": 22,
   "InternalName": "Shrapnel_Bomb"
 }

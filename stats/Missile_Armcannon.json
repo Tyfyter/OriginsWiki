@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Damage": 10,
   "DamageClass": "Explosive",
@@ -13,7 +13,9 @@
   "Velocity": 5.0,
   "Tooltip": [
     "30% increased explosive throwing velocity",
-    "Increases attack speed of thrown explosives",
+    "20% increased explosive knockback",
+    "15% increased explosive blast radius",
+    "Increases explosive attack speed",
     "Enables autouse for all explosive weapons",
     "Shoots rockets as you swing",
     "'Payload not included'"

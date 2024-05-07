@@ -3,16 +3,19 @@
   "Name": "Cold Snap",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Launcher",
+    "CanistahUser"
   ],
-  "Damage": 6,
+  "Damage": 15,
+  "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 8.0,
+  "Knockback": 4.0,
   "UseTime": 32,
   "Velocity": 12.0,
   "Tooltip": [
     "Inflicts frostburn to struck enemies",
-    "Uses mines as ordinance"
+    "Uses canisters as ordinance"
   ],
   "Rarity": "Orange",
   "Sell": 5000,

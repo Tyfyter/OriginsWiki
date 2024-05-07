@@ -3,7 +3,8 @@
   "Name": "Low Signal",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MagicStaff"
   ],
   "ManaCost": 9,
   "Damage": 40,

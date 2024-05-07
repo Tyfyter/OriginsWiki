@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "10% increased critical strike chance",

@@ -3,7 +3,8 @@
   "Name": "Felnum Boar Spear",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Spear"
   ],
   "Damage": 18,
   "DamageClass": "Melee",

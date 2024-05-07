@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "DartLauncher"
   ],
   "Damage": 25,
   "DamageClass": "Ranged",

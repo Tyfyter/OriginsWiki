@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "MagicBoostAcc"
   ],
   "ManaCost": 3,
   "Damage": 7,

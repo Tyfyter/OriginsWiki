@@ -3,7 +3,8 @@
   "Name": "Flagellash",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Whip"
   ],
   "Damage": 13,
   "DamageClass": "Summon",

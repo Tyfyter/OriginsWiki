@@ -4,15 +4,18 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "SpendableWeapon"
   ],
-  "Damage": 13,
-  "DamageClass": "Explosive Throwing",
+  "Damage": 16,
+  "ArmorPenetration": 1,
+  "DamageClass": "Explosive (thrown)",
   "Knockback": 2.75,
   "UseTime": 28,
   "Velocity": 17.0,
   "Rarity": "Blue",
-  "Sell": 80,
+  "Sell": 40,
   "SpriteWidth": 20,
   "InternalName": "Defiled_Spirit"
 }

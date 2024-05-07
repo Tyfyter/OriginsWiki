@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Artifact"
   ],
   "ManaCost": 40,
   "Damage": 80,

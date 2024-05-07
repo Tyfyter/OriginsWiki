@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Dyes/Rasterized_Dye",
+  "Name": "Rasterized Dye",
+  "Types": [
+    "Item",
+    "Dye"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 16,
+  "InternalName": "Rasterized_Dye"
+}

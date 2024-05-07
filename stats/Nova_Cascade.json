@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Nova_Cascade",
+  "Name": "Nova Cascade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "HandCannon"
+  ],
+  "Damage": 180,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
+  "Crit": 11,
+  "UseTime": 57,
+  "Velocity": 12.0,
+  "Tooltip": "Causes an explosion after piercing enemies",
+  "Rarity": "Red",
+  "Sell": 200000,
+  "SpriteWidth": 56,
+  "InternalName": "Nova_Cascade"
+}

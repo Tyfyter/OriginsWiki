@@ -9,7 +9,7 @@
     "Gets consumed when it works"
   ],
   "Rarity": "Green",
-  "Sell": 100000,
+  "Sell": 10000,
   "SpriteWidth": 22,
   "InternalName": "Lottery_Ticket"
 }

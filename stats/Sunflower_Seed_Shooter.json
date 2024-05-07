@@ -3,7 +3,8 @@
   "Name": "Sunflower Seed Shooter",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Gun"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",

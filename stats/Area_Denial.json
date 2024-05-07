@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Area_Denial",
+  "Name": "Area Denial",
+  "Types": [
+    "Item",
+    "Weapon",
+    "MagicStaff"
+  ],
+  "ManaCost": 13,
+  "Damage": 20,
+  "DamageClass": "Explosive Magic",
+  "Knockback": 3.0,
+  "UseTime": 37,
+  "Velocity": 12.0,
+  "Tooltip": "Launches a probe to bombard the targeted area with explosions",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 42,
+  "InternalName": "Area_Denial"
+}

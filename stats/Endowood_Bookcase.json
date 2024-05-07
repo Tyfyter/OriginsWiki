@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Bookcase",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 24,
+  "InternalName": "Endowood_Bookcase_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Bookcase_Item",
+    "Tiles/Endowood_Bookcase"
+  ]
+}

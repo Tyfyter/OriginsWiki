@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Gun",
-    "Hardmode"
+    "Hardmode",
+    "OtherExplosive"
   ],
   "Damage": 66,
   "DamageClass": "Explosive Ranged",

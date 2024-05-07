@@ -5,7 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Chlorophyte_Armor",
-  "SetBonus": "Summons a powerful leaf crystal to shoot at nearby enemies,\nand increases your max number of minions by 2",
+  "SetBonus": "Summons a powerful leaf crystal to shoot at nearby enemies\nIncreases your max number of minions by 2",
   "Images": [
     [
       "ArmorSets/Chlorophyte_Crown",

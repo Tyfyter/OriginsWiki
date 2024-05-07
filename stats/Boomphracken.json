@@ -4,14 +4,16 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "HandCannon"
   ],
-  "Damage": 68,
-  "DamageClass": "Ranged",
-  "Knockback": 10.0,
+  "Damage": 80,
+  "ArmorPenetration": 8,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
   "Crit": 11,
   "UseTime": 57,
-  "Velocity": 24.0,
+  "Velocity": 12.0,
   "Tooltip": [
     "Chance to throw an explosive when used",
     "'He works his work, I work mine'"

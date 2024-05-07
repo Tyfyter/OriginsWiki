@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": [
     "25% increased explosive throwing velocity",

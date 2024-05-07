@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Futurephones",
+  "Name": "Futurephones",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Tooltip": [
+    "All attacks other than from your minion can tag enemies",
+    "5% increased damage and 10% critical strike chance against tagged enemies"
+  ],
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "SpriteWidth": 26,
+  "InternalName": "Futurephones"
+}

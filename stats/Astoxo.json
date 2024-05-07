@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Bow",
-    "Hardmode"
+    "Hardmode",
+    "Bow"
   ],
   "Damage": 78,
   "DamageClass": "Ranged",

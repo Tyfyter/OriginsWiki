@@ -4,10 +4,13 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "ThrownExplosive",
+    "IsDynamite",
+    "SpendableWeapon"
   ],
   "Damage": 186,
   "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
   "UseTime": 40,
   "Velocity": 6.0,
   "Tooltip": "Will pull in and stun any nearby enemies",

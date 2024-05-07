@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Table",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 30,
+  "InternalName": "Endowood_Table_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Table_Item",
+    "Tiles/Endowood_Table"
+  ]
+}

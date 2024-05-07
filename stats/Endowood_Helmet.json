@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Armor/Endowood/Endowood_Helmet",
+  "Name": "Endowood Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 1,
+  "ArmorSlot": "Helmet",
+  "Rarity": "White",
+  "SpriteWidth": 26,
+  "InternalName": "Endowood_Helmet"
+}

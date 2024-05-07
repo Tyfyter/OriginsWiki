@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Vitality",
+    "MagicBoostAcc"
   ],
   "Tooltip": [
     "Increases pickup range for mana stars",

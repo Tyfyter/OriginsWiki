@@ -3,7 +3,8 @@
   "Name": "Boiler",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Gun"
   ],
   "Damage": 38,
   "DamageClass": "Ranged",

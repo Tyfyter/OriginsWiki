@@ -4,13 +4,15 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Combat",
+    "ManaShielding",
+    "MagicBoostAcc"
   ],
   "Tooltip": [
     "Increases pickup range for mana stars",
     "Increases maximum mana by 20",
     "Increases mana shielding by 10%",
+    "Restores mana when damaged",
     "Reduces damage taken by 5% if Lost Armor is not equipped"
   ],
   "Rarity": "LightPurple",

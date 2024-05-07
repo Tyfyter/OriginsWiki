@@ -3,7 +3,9 @@
   "Name": "Bile Arrow",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Arrow",
+    "RasterSource"
   ],
   "Damage": 15,
   "DamageClass": "Ranged",

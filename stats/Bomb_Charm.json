@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Misc",
-    "Explosive"
+    "Vitality",
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "Reduces explosive self-damage by 15%",
   "Rarity": "Blue",

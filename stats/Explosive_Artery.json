@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat",
-    "Explosive"
+    "Combat"
   ],
   "Damage": 40,
   "DamageClass": "Explosive",

@@ -10,7 +10,7 @@
     "ArmorSets/Soulhide_Armor_Female"
   ],
   "Defense": 10,
-  "SetBonus": "Nearby enemies are afflicted 'Shadowflame' and 'Weak'",
+  "SetBonus": "Nearby enemies are weakened and afflicted with Shadowflame",
   "Rarity": "Blue",
   "Sell": 45000
 }

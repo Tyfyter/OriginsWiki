@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "+5% explosive damage",
   "Rarity": "LightRed",

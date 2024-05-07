@@ -4,9 +4,11 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Launcher"
   ],
   "Damage": 120,
+  "ArmorPenetration": 3,
   "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 37,

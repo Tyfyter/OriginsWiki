@@ -1,11 +1,15 @@
 {
   "Image": "§ModImage§/Items/Accessories/Celestial_Stone_Mask",
-  "Name": "Celestial_ Stone_ Mask",
+  "Name": "Celestial Stone Mask",
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode",
     "Combat"
+  ],
+  "Tooltip": [
+    "Increase to damage, melee speed, critical strike chance,",
+    "life regeneration, defense, mining speed, and minion knockback,",
+    "but your movement is hindered"
   ],
   "Rarity": "Yellow",
   "Sell": 180000,

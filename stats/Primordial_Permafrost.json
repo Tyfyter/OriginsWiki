@@ -2,7 +2,6 @@
   "Name": "Primordial Permafrost",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

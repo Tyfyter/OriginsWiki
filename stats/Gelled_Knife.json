@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Gelled_Knife",
+  "Name": "Gelled Knife",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Torn",
+    "TornSource",
+    "OtherRanged"
+  ],
+  "Damage": 12,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "UseTime": 15,
+  "Velocity": 10.0,
+  "Tooltip": "Applies progressively higher torn severities after every successful strike",
+  "Rarity": "White",
+  "Sell": 12,
+  "SpriteWidth": 10,
+  "InternalName": "Gelled_Knife"
+}

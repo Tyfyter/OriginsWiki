@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "Shouldntexist"
   ],
   "Damage": 0,
   "UseTime": 5,

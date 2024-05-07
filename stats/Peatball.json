@@ -4,10 +4,12 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "SpendableWeapon"
   ],
   "Damage": 12,
-  "DamageClass": "Explosive Throwing",
+  "DamageClass": "Explosive (thrown)",
   "Knockback": 11.5,
   "UseTime": 14,
   "Velocity": 7.0,

@@ -2,9 +2,12 @@
   "Image": "§ModImage§/Items/Other/Journal_Item",
   "Name": "Journal",
   "Types": [
-    "Item"
+    "Item",
+    "Ammo"
   ],
-  "Rarity": "White",
+  "UseTime": 17,
+  "Rarity": "Blue",
+  "Sell": 500,
   "SpriteWidth": 26,
   "InternalName": "Journal_Item"
 }

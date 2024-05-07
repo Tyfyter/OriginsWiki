@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Tools/Stabsmash",
+  "Name": "Stabsmash",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Tool"
+  ],
+  "AxePower": 21,
+  "HammerPower": 55,
+  "Damage": 16,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 17,
+  "Tooltip": "'Hammer and nail in one package'",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 46,
+  "InternalName": "Stabsmash"
+}

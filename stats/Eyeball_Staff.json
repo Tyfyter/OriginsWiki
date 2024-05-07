@@ -3,7 +3,8 @@
   "Name": "Eyeball Staff",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MinionSummoner"
   ],
   "ManaCost": 11,
   "Damage": 8,

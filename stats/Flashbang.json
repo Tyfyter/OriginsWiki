@@ -4,9 +4,13 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "SpendableWeapon"
   ],
   "Damage": 26,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive (thrown)",
   "Crit": 20,
   "UseTime": 45,

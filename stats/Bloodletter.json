@@ -3,9 +3,10 @@
   "Name": "Bloodletter",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "HarpoonGun"
   ],
-  "Damage": 21,
+  "Damage": 30,
   "DamageClass": "Ranged",
   "Knockback": 4.0,
   "UseTime": 3,

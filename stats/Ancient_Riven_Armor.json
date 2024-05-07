@@ -3,7 +3,8 @@
     "Item",
     "Armor",
     "ArmorSet",
-    "Torn"
+    "Torn",
+    "TornSource"
   ],
   "SetName": "Ancient_Riven_Armor",
   "Images": [

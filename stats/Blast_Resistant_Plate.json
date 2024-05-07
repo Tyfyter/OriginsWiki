@@ -4,9 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode",
-    "Combat",
-    "Explosive"
+    "Vitality",
+    "ExplosiveBoostAcc"
   ],
   "Defense": 3,
   "Tooltip": "Reduces explosive self-damage by 10%",

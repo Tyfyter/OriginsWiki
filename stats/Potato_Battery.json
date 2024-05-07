@@ -4,8 +4,9 @@
   "Types": [
     "Item",
     "Accessory",
+    "Ammo",
     "Combat",
-    "Info"
+    "MagicBoostAcc"
   ],
   "Tooltip": [
     "Magic projectiles slightly home towards targets",

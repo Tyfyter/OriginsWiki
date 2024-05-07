@@ -4,7 +4,9 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "MeleeBoostAcc",
+    "RangedBoostAcc"
   ],
   "Tooltip": [
     "Increased return speed for boomerangs and harpoons",

@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": [
     "All explosives inflict 'On Fire!' and have a reduced fuse time",

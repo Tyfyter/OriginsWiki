@@ -6,11 +6,12 @@
     "Accessory",
     "Combat"
   ],
-  "Damage": 12,
+  "Damage": 24,
+  "ArmorPenetration": 6,
   "DamageClass": "",
-  "Knockback": 3.0,
+  "Knockback": 6.0,
   "Rarity": "Blue",
-  "Sell": 42000,
+  "Sell": 20000,
   "SpriteWidth": 20,
   "InternalName": "Cinder_Seal"
 }

@@ -4,7 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Misc"
+    "Vitality"
   ],
   "Tooltip": "Reduces damage received from traps",
   "Rarity": "Green",

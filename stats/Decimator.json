@@ -3,7 +3,8 @@
   "Name": "Decimator",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Spear"
   ],
   "Damage": 22,
   "DamageClass": "Melee",

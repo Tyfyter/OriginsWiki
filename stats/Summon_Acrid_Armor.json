@@ -10,7 +10,7 @@
     "ArmorSets/Summon_Acrid_Armor_Female"
   ],
   "Defense": 33,
-  "SetBonus": "All attacks inflict 'Toxic Shock'\nImmunity to 'Toxic Shock', 'Acid Venom', and 'Poisoned' debuffs\nExtends underwater breathing",
+  "SetBonus": "All attacks inflict Toxic Shock\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
   "Rarity": "LightRed",
   "Sell": 360000
 }

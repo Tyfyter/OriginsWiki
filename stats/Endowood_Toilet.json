@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Toilet",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 16,
+  "InternalName": "Endowood_Toilet_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Toilet_Item",
+    "Tiles/Endowood_Toilet"
+  ]
+}

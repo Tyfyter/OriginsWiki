@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Resource",
-    "Exploration"
+    "Vitality",
+    "MagicBoostAcc"
   ],
   "Tooltip": "Chance for mana stars to fall from critical hits",
   "Rarity": "Blue",

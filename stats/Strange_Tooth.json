@@ -14,7 +14,7 @@
     "Summons miniature servants to chase after enemies for every minion slot you have",
     "Servants have a chance to drop hearts when the player is low on health"
   ],
-  "Rarity": "Green",
+  "Rarity": "Master",
   "Sell": 15000,
   "SpriteWidth": 20,
   "InternalName": "Strange_Tooth"

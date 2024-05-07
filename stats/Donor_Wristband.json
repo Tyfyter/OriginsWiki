@@ -4,12 +4,11 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat",
-    "Resource"
+    "Vitality"
   ],
   "Tooltip": [
     "Increased life regeneration",
-    "Debuff durations reduced by 37.5%"
+    "Debuff durations reduced by 48%"
   ],
   "Rarity": "Blue",
   "Sell": 6000,

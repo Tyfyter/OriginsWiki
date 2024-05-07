@@ -4,9 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "HarpoonGun"
   ],
-  "Damage": 38,
+  "Damage": 48,
   "DamageClass": "Ranged",
   "Knockback": 4.0,
   "UseTime": 3,

@@ -4,9 +4,13 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "SpendableWeapon"
   ],
-  "Damage": 65,
+  "Damage": 48,
+  "ArmorPenetration": 1,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 25,
   "Velocity": 5.0,

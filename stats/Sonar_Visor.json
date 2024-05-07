@@ -6,7 +6,7 @@
     "Accessory",
     "Hardmode",
     "Combat",
-    "Info"
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "Increased projectile speed",

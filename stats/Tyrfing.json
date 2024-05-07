@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Sword",
-    "Hardmode"
+    "Hardmode",
+    "Sword"
   ],
   "Damage": 88,
   "DamageClass": "Melee",

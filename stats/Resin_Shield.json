@@ -5,8 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Misc",
-    "Explosive"
+    "Vitality",
+    "ExplosiveBoostAcc"
   ],
   "Defense": 3,
   "Tooltip": [

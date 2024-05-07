@@ -4,7 +4,9 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "SummonBoostAcc",
+    "LoreItem"
   ],
   "Tooltip": [
     "Summons can target two enemies at once",

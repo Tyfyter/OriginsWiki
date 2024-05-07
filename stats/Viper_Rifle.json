@@ -5,12 +5,13 @@
     "Item",
     "Weapon",
     "Gun",
-    "Hardmode"
+    "Hardmode",
+    "Gun"
   ],
-  "Damage": 60,
+  "Damage": 72,
   "DamageClass": "Ranged",
   "Knockback": 7.75,
-  "Crit": 13,
+  "Crit": 20,
   "UseTime": 23,
   "Velocity": 8.0,
   "Tooltip": [

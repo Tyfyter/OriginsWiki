@@ -6,7 +6,8 @@
     "Weapon",
     "Hardmode",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "SentrySummoner"
   ],
   "ManaCost": 12,
   "Damage": 26,

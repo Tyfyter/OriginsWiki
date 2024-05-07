@@ -5,7 +5,9 @@
     "Item",
     "Weapon",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "UsesBookcase",
+    "SpellBook"
   ],
   "ManaCost": 8,
   "Damage": 8,

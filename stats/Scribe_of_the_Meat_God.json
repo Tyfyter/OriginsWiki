@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Scribe_of_the_Meat_God",
+  "Name": "Scribe of the Meat God",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "MasterAcc"
+  ],
+  "Damage": 65,
+  "DamageClass": "",
+  "Knockback": 3.0,
+  "Tooltip": [
+    "Transform into a miniature wall of flesh during a dash",
+    "'You're made of meat'"
+  ],
+  "Rarity": "Master",
+  "Sell": 60000,
+  "SpriteWidth": 22,
+  "InternalName": "Scribe_of_the_Meat_God"
+}

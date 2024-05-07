@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Piano",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 26,
+  "InternalName": "Marrowick_Piano_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Piano_Item",
+    "Tiles/Marrowick_Piano"
+  ]
+}

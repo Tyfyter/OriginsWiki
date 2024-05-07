@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Food/Petrified_Prickly_Pear",
+  "Name": "Petrified Prickly Pear",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Minor improvements to all stats and 25% increased mana shielding",
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 28,
+  "InternalName": "Petrified_Prickly_Pear"
+}

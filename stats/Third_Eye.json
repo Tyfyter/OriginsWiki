@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Master",
-    "Combat"
+    "MasterAcc"
   ],
   "Damage": 180,
   "DamageClass": "",

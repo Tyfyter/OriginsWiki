@@ -4,16 +4,15 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "Combat",
-    "Resource"
+    "Expert",
+    "ExpertAcc"
   ],
   "Tooltip": [
     "Fiberglass weapons gain damage based on defense",
     "Fiberglass weapons gain lifesteal"
   ],
-  "Rarity": "Master",
-  "Sell": 60000,
+  "Rarity": "Expert",
+  "Sell": 20000,
   "SpriteWidth": 18,
   "InternalName": "Entangled_Energy"
 }

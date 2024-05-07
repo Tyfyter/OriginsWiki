@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "MagicBoostAcc"
   ],
   "ManaCost": 3,
   "Damage": -9,

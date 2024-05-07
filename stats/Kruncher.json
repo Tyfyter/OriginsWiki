@@ -4,9 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
+    "Gun",
     "Gun"
   ],
-  "Damage": 4,
+  "Damage": 6,
   "DamageClass": "Ranged",
   "Knockback": 5.0,
   "Crit": 3,

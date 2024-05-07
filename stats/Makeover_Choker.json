@@ -5,8 +5,7 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat",
-    "Resource"
+    "Vitality"
   ],
   "Tooltip": [
     "Increases life regeneration at low health",

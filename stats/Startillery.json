@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "SpellBook"
   ],
   "ManaCost": 12,
   "Damage": 48,

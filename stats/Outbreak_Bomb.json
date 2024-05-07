@@ -4,15 +4,19 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "SpendableWeapon"
   ],
-  "Damage": 74,
+  "Damage": 65,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 25,
   "Velocity": 5.0,
   "Tooltip": "Struck enemies contract a contagious effect",
   "Rarity": "Blue",
-  "Sell": 300,
+  "Sell": 120,
   "SpriteWidth": 22,
   "InternalName": "Outbreak_Bomb"
 }

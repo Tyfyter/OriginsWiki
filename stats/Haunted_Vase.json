@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "OtherMagic"
   ],
   "ManaCost": 30,
   "Damage": 57,

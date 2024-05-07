@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Snipers_Mark",
+  "Name": "Sniper's Mark",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "RangedBoostAcc"
+  ],
+  "Tooltip": [
+    "+15% ranged damage",
+    "Increased critical strike chance by 15% of the weapon's base damage"
+  ],
+  "Rarity": "Pink",
+  "Sell": 60000,
+  "SpriteWidth": 34,
+  "InternalName": "Snipers_Mark"
+}

@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Movement",
-    "Combat"
+    "Combat",
+    "RangedBoostAcc"
   ],
   "Tooltip": "Greatly increased movement speed and return speed for harpoon guns",
   "Rarity": "Orange",

@@ -3,7 +3,8 @@
   "Name": "Teardown",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MinionSummoner"
   ],
   "ManaCost": 18,
   "Damage": 11,

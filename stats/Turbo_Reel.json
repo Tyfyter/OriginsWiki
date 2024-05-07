@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "RangedBoostAcc"
   ],
   "Tooltip": "Increased return speed for harpoon guns",
   "Rarity": "Green",

@@ -3,11 +3,11 @@
   "Name": "Resizable Mine Mk. V",
   "Types": [
     "Item",
-    "Weapon",
     "Ammo"
   ],
-  "Damage": 50,
-  "DamageClass": "Explosive (thrown)",
+  "Damage": 60,
+  "ArmorPenetration": 5,
+  "DamageClass": "Explosive Ranged",
   "Knockback": 4.8,
   "UseTime": 45,
   "Velocity": 5.2,

@@ -3,9 +3,11 @@
   "Name": "Sleetfire",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Gun"
   ],
   "Damage": 9,
+  "ArmorPenetration": 5,
   "DamageClass": "Ranged",
   "Knockback": 0.425,
   "UseTime": 4,

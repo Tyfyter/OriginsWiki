@@ -4,17 +4,16 @@
   "Types": [
     "Item",
     "Accessory",
-    "Expert",
-    "Combat",
-    "Movement",
-    "Beesource"
+    "Master",
+    "MasterAcc"
   ],
   "Tooltip": [
     "All bees become friendly",
     "All bees have a chance to be duplicated",
-    "The player can move freely through honey"
+    "The player can move freely through honey",
+    "'In case of emergency, break glass for bees'"
   ],
-  "Rarity": "Green",
+  "Rarity": "Master",
   "Sell": 20000,
   "SpriteWidth": 24,
   "InternalName": "Emergency_Bee_Canister"

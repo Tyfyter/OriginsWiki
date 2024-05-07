@@ -3,7 +3,8 @@
   "Name": "Ripper Lance",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Spear"
   ],
   "Damage": 24,
   "DamageClass": "Melee",

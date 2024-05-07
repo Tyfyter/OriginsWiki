@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
+    "Sword",
     "Sword"
   ],
   "Damage": 18,

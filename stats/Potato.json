@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Other/Consumables/Food/Potato",
   "Name": "Potato",
   "Types": [
-    "Item"
+    "Item",
+    "Ammo"
   ],
   "UseTime": 17,
   "Tooltip": [

@@ -3,7 +3,9 @@
   "Name": "Bile Bullet",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Bullet",
+    "RasterSource"
   ],
   "Damage": 11,
   "DamageClass": "Ranged",

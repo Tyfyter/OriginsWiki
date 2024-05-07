@@ -3,7 +3,8 @@
   "Name": "Woodsprite Staff",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MinionSummoner"
   ],
   "ManaCost": 12,
   "Damage": 3,

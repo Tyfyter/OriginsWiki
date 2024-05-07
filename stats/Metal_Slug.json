@@ -6,9 +6,9 @@
     "Ammo"
   ],
   "Damage": 25,
-  "DamageClass": "Ranged",
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
-  "Velocity": 4.0,
   "Tooltip": "'Great ammo for a really BIG gun'",
   "Rarity": "White",
   "Sell": 300,

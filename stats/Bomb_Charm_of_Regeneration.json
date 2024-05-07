@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Bomb_Charm_of_Regeneration",
+  "Name": "Bomb Charm of Regeneration",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Vitality",
+    "ExplosiveBoostAcc"
+  ],
+  "Tooltip": [
+    "-15% self-damage",
+    "Rapidly regenerate life after taking self-damage"
+  ],
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 28,
+  "InternalName": "Bomb_Charm_of_Regeneration"
+}

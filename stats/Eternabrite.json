@@ -3,10 +3,12 @@
   "Name": "Eternabrite",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "UsesBookcase",
+    "SpellBook"
   ],
   "ManaCost": 14,
-  "Damage": 30,
+  "Damage": 28,
   "DamageClass": "Magic",
   "Knockback": 8.0,
   "UseTime": 20,

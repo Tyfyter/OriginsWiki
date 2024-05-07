@@ -3,7 +3,8 @@
   "Name": "Brainy Staff",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MinionSummoner"
   ],
   "ManaCost": 16,
   "Damage": 10,

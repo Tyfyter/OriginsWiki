@@ -3,7 +3,8 @@
   "Name": "Triple Threat",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Yoyo"
   ],
   "Damage": 16,
   "DamageClass": "Melee",

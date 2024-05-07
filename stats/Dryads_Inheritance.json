@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "Increases damage, movement speed, and length of invincibility after taking damage",

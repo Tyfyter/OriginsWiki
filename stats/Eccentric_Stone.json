@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Lore"
+    "Misc",
+    "LoreItem"
   ],
   "Rarity": "Blue",
   "SpriteWidth": 18,

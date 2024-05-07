@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Dyes/Amber_Dye",
+  "Name": "Amber Dye",
+  "Types": [
+    "Item",
+    "Dye"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 16,
+  "InternalName": "Amber_Dye"
+}

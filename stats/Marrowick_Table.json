@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Table",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 30,
+  "InternalName": "Marrowick_Table_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Table_Item",
+    "Tiles/Marrowick_Table"
+  ]
+}

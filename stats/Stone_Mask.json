@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Vitality",
+    "LoreItem"
   ],
   "UseTime": 12,
   "Tooltip": "Increases defense by 8, but your movement is hindered",

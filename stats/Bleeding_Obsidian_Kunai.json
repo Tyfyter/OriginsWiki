@@ -6,7 +6,9 @@
     "Weapon",
     "Hardmode",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "OtherRanged",
+    "SpendableWeapon"
   ],
   "Damage": 38,
   "DamageClass": "Ranged",

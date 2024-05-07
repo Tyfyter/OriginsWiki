@@ -4,16 +4,18 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "OtherExplosive"
   ],
-  "Damage": 96,
+  "Damage": 192,
   "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
   "Crit": 18,
   "UseTime": 17,
   "Velocity": 12.0,
+  "Tooltip": "Uses metal slugs as ammo",
   "Rarity": "Crimson",
-  "Sell": 50000,
+  "Sell": 150000,
   "SpriteWidth": 72,
   "InternalName": "Flakjack"
 }

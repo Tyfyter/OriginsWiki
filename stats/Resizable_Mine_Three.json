@@ -3,11 +3,11 @@
   "Name": "Resizable Mine Mk. III",
   "Types": [
     "Item",
-    "Weapon",
     "Ammo"
   ],
-  "Damage": 31,
-  "DamageClass": "Explosive (thrown)",
+  "Damage": 35,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
   "Knockback": 3.6,
   "UseTime": 45,
   "Velocity": 4.4,

@@ -3,7 +3,8 @@
   "Name": "Rotting Worm Staff",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MinionSummoner"
   ],
   "ManaCost": 14,
   "Damage": 4,

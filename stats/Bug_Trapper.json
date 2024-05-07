@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Bug_Trapper",
+  "Name": "Bug Trapper",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Vitality"
+  ],
+  "Tooltip": "Increased life regeneration and defense based on the torn severity you're affected by",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 20,
+  "InternalName": "Bug_Trapper"
+}

@@ -1,15 +1,14 @@
 {
   "Image": "§ModImage§/Items/Accessories/Plasma_Phial",
-  "Name": "Plasma Phial",
+  "Name": "Plasma Bag",
   "Types": [
     "Item",
     "Accessory",
-    "Combat",
-    "Resource"
+    "Vitality"
   ],
   "Tooltip": [
-    "Debuff durations are halved",
     "Slightly increased regeneration",
+    "Debuff durations reduced by 30%",
     "Rapidly lose life when inflicted with Bleeding"
   ],
   "Rarity": "Blue",

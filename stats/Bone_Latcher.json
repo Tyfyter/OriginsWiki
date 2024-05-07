@@ -3,7 +3,8 @@
   "Name": "Bone Latcher",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "OtherMelee"
   ],
   "Damage": 20,
   "DamageClass": "Melee",

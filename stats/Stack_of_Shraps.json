@@ -6,7 +6,7 @@
     "Accessory",
     "Expert",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "Double the gunpowder, double the fun.",
   "Rarity": "Expert",

@@ -4,13 +4,17 @@
     "Item",
     "Weapon",
     "Sword",
-    "Tile"
+    "Ammo",
+    "Tile",
+    "OtherExplosive",
+    "SpendableWeapon"
   ],
   "PlacementSize": [
     1,
     1
   ],
   "Damage": 85,
+  "ArmorPenetration": 6,
   "DamageClass": "",
   "UseTime": 10,
   "Tooltip": [

@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Resource",
-    "Explosive"
+    "Combat",
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
   "Rarity": "Gray",

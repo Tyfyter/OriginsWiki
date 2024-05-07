@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Misc"
+    "Misc",
+    "LoreItem"
   ],
   "Tooltip": "Reduces enemy aggression and spawn rates",
   "Rarity": "LightRed",

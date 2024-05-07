@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
+    "Boomerang",
     "Boomerang"
   ],
   "Damage": 25,

@@ -5,7 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Acrid_Armor",
-  "SetBonus": "All attacks inflict 'Toxic Shock'\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
+  "SetBonus": "All attacks inflict Toxic Shock\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
   "Images": [
     [
       "ArmorSets/Explosive_Acrid_Armor",

@@ -4,9 +4,11 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Launcher"
   ],
   "Damage": 100,
+  "ArmorPenetration": 1,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 50,

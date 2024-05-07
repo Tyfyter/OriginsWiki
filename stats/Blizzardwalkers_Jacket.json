@@ -5,10 +5,10 @@
     "Item",
     "Accessory",
     "Master",
-    "Combat"
+    "MasterAcc"
   ],
   "Tooltip": "The player will dodge their next attack as long as no enemies are nearby",
-  "Rarity": "Orange",
+  "Rarity": "Master",
   "Sell": 20000,
   "SpriteWidth": 30,
   "InternalName": "Blizzardwalkers_Jacket"

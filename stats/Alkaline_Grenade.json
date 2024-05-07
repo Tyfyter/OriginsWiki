@@ -4,7 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "SpendableWeapon"
   ],
   "Damage": 60,
   "DamageClass": "Explosive (thrown)",
@@ -13,7 +16,7 @@
   "Velocity": 5.5,
   "Tooltip": "Explodes into brine droplets",
   "Rarity": "LightRed",
-  "Sell": 210,
+  "Sell": 100,
   "SpriteWidth": 14,
   "InternalName": "Alkaline_Grenade"
 }

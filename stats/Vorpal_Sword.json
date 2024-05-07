@@ -4,11 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Sword",
-    "Torn",
-    "TornSource"
+    "Sword"
   ],
   "Damage": 17,
+  "ArmorPenetration": 150,
   "DamageClass": "Melee",
   "UseTime": 17,
   "Velocity": 12.0,

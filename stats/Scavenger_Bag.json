@@ -7,7 +7,9 @@
     "Hardmode",
     "Combat",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "SummonBoostAcc",
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "Increases armor penetration by 5 and attacks tenderize targets",

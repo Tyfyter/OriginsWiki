@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Candelabra",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 26,
+  "InternalName": "Endowood_Candelabra_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Candelabra_Item",
+    "Tiles/Endowood_Candelabra"
+  ]
+}

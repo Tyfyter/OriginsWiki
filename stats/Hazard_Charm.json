@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Misc",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": [
     "Reduces explosive self-damage by 15%",

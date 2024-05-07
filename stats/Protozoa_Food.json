@@ -6,7 +6,7 @@
     "Accessory",
     "Master",
     "Combat",
-    "Explosive"
+    "SummonBoostAcc"
   ],
   "ManaCost": 10,
   "Damage": 13,

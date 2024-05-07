@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "OtherExplosive"
   ],
   "ManaCost": 16,
   "Damage": 270,

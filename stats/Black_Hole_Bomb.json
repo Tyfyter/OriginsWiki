@@ -4,7 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "SpendableWeapon"
   ],
   "Damage": 455,
   "DamageClass": "Explosive (thrown)",

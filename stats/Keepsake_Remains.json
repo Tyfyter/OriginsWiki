@@ -6,7 +6,8 @@
     "Accessory",
     "Combat",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "GenericBoostAcc"
   ],
   "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets",
   "Rarity": "Green",

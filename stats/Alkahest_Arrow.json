@@ -5,7 +5,8 @@
     "Item",
     "Ammo",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "Arrow"
   ],
   "Damage": 17,
   "DamageClass": "Ranged",

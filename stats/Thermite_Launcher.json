@@ -4,16 +4,19 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Launcher",
+    "CanistahUser"
   ],
-  "Damage": 27,
+  "Damage": 40,
+  "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
   "UseTime": 32,
   "Velocity": 12.0,
   "Tooltip": [
     "Burn.",
-    "Uses Thermite Canisters for ammo"
+    "Uses canisters as ordinance"
   ],
   "Rarity": "LightRed",
   "Sell": 15000,

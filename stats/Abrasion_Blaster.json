@@ -4,22 +4,21 @@
   "Types": [
     "Item",
     "Weapon",
-    "Gun",
-    "Hardmode",
-    "Ammo"
+    "Launcher"
   ],
   "Damage": 29,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
-  "Crit": 18,
-  "UseTime": 16,
+  "Crit": 8,
+  "UseTime": 1,
   "Velocity": 16.0,
   "Tooltip": [
-    "Shots can destroy tiles",
+    "Charged shots can destroy tiles",
     "Uses scrap as ammo"
   ],
-  "Rarity": "LightPurple",
-  "Sell": 50000,
+  "Rarity": "Blue",
+  "Sell": 20000,
   "SpriteWidth": 48,
   "InternalName": "Abrasion_Blaster"
 }

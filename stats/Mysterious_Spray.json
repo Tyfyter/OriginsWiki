@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Master",
-    "Resource"
+    "MasterAcc"
   ],
   "Tooltip": [
     "Increases life regeneration at low health",

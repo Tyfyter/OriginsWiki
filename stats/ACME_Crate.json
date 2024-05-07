@@ -5,7 +5,7 @@
     "Item",
     "Accessory",
     "Combat",
-    "Explosive"
+    "ExplosiveBoostAcc"
   ],
   "Tooltip": [
     "Greatly increased explosive blast radius",

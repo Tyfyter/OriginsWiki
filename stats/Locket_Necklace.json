@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Tooltip": "Increases damage and movement speed after taking damage",
   "Rarity": "Orange",

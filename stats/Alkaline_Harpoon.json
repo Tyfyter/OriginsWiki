@@ -3,7 +3,8 @@
   "Name": "Alkaline Harpoon",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Harpoon"
   ],
   "Damage": 16,
   "DamageClass": "Ranged",

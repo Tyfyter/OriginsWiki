@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<article id="content">
-			<img src="Images/BiomeBannerBrine.png">
+			<img src="Images/BiomeBannerBrine.png" class="pagebanner">
 			<h1>Brine Pool</h1>
 			<div class="divider"></div>
 			<p>
@@ -29,7 +29,7 @@
 			</p>
 
 			<details class="section" id="Content" open>
-				<summary>Content<span class="divider"></span></summary>
+				<summary>Contents<span class="divider"></span></summary>
 				{biomecontent
 				{
 				header:'NPCs'
@@ -37,14 +37,14 @@
 				{
 				items:[
 				['<b>Hardmode:</b>', '$default', 'https://terraria.wiki.gg/wiki/Hardmode']
-				['Brine Moccasin', 'Images/Brine_Moccasin.png']
-				['Carpalfish', '§ModImage§/NPCs/Brine/Carpalfish.png']
-				['Hoarder', '§ModImage§/NPCs/Brine/Hoarder.png']
-				['King Crab', '§ModImage§/NPCs/Brine/King_Crab.png']
-				['Lost Diver', '§ModImage§/NPCs/Brine/Lost_Diver_Walking.png']
-				['Mildew Creeper', '§ModImage§/NPCs/Brine/Mildew_Creeper.png']
-				['Peat Lobber', '§ModImage§/NPCs/Brine/Peat_Lobber.png']
-				['Sea Dragon', '§ModImage§/NPCs/Brine/Sea_Dragon.png']
+				['Brine Moccasin', '$fromStats']
+				['Carpalfish', '$fromStats']
+				['Hoarder', '$fromStats']
+				['King Crab', '$fromStats']
+				['Lost Diver', '$fromStats']
+				['Mildew Creeper', '$fromStats']
+				['Peat Lobber', '$fromStats']
+				['Sea Dragon', '$fromStats']
 				]
 				}
 				]
@@ -56,7 +56,7 @@
 				header:'From [link Brine Moccasin]:'
 				class:'miniheader inlineblock'
 				items:[
-				['Splashid', '§ModImage§/Items/Weapons/Magic/Splashid.png']
+				['Splashid', '$fromStats']
 				]
 				}
 				{
@@ -64,45 +64,52 @@
 				class:'miniheader inlineblock'
 				items:[
 				['Mildew', '§ModImage§/Tiles/Brine/Mildew_Item.png']
-				['Mildew Whip', '§ModImage§/Items/Weapons/Summoner/Mildew_Whip.png']
+				['Mildew Whip', '$fromStats']
 				]
 				}
 				{
 				header:'From [link Lost Diver]:'
 				class:'miniheader'
 				items:[
-				['Boat Rocker', '§ModImage§/Items/Weapons/Ranged/Boat_Rocker.png']
-				['Cavitation Cannon', '§ModImage§/Items/Weapons/Demolitionist/Cavitation_Cannon.png']
-				['Depth Charge', '§ModImage§/Items/Weapons/Melee/Depth_Charge.png']
-				['Lost Diver Trophy', '§ModImage§/Tiles/BossDrops/Lost_Diver_Trophy_Item.png']
-				['Lost Diver Head', '§ModImage§/Items/Armor/Vanity/BossMasks/Lost_Diver_Head.png']
-				['Treasure Bag', '§ModImage§/Items/Other/LootBags/Lost_Diver_Bag.png']
-				['Lost Diver Relic', '§ModImage§/Tiles/BossDrops/Lost_Diver_Relic_Item.png']
-				['Retaliatory Tendril', '§ModImage§/Items/Accessories/Retaliatory_Tendril.png', '$default', 'in Expert Mode']
-				['Mildewy Diving Helmet', '§ModImage§/Items/Accessories/Mildewy_Diving_Helmet.png', '$default', 'in Master Mode']
+				['Boat Rocker', '$fromStats']
+				['Cavitation Cannon', '$fromStats']
+				['Depth Charge', '$fromStats']
+				['Lost Diver Head', '$fromStats']
+				['Lost Diver Trophy', '$fromStats']
+				['Treasure Bag', '§ModImage§/Items/Other/LootBags/Lost_Diver_Bag.png', 'Treasure_Bag.html', 'in Expert Mode']
+				['Retaliatory Tendril', '$fromStats', '$default', '(from treasure bag)']
+				['Lost Diver Relic', '§ModImage§/Tiles/BossDrops/Lost_Diver_Relic_Item.png', 'in Master Mode']
+				['Mildewy Diving Helmet', '$fromStats', '$default', 'in Master Mode']
+				['Wet Wood', '$fromStats', '$default', 'in Master Mode']
 				]
 				}
 				{
 				header:'From [link Peat Lobber]:'
 				class:'miniheader inlineblock'
 				items:[
-				['Peat Moss', '§ModImage§/Tiles/Brine/Peat_Moss_Item.png']
+				['Peat Moss', '$fromStats']
 				]
 				}
 				{
 				header:'From [link Sea Dragon]:'
 				class:'miniheader inlineblock'
 				items:[
-				['Decaying Scale', '§ModImage§/Items/Accessories/Decaying_Scale.png']
-				['Nematoclaw', '§ModImage§/Items/Weapons/Melee/Nematoclaw.png']
+				['Decaying Scale', '$fromStats']
+				['Nematoclaw', '$fromStats']
+				]
+				}
+				{
+				header:'From [link vegetation | | https://terraria.wiki.gg/wiki/Plants]:'
+				class:'miniheader'
+				items:[
+				['Brine-Leafed Clover', '§ModImage§/Items/Accessories/Brine_Leafed_Clover.png', 'Brine_Leafed_Clover.png']
+				['Brineglow', '$fromStats']
 				]
 				}
 				{
 				header:'From terrain:'
 				class:'miniheader'
 				items:[
-				['Brine-Leafed Clover', '§ModImage§/Items/Accessories/Brine_Leafed_Clover.png', 'Brine_Leafed_Clover.png']
-				['Brineglow', '$fromStats']
 				['Dolomite', '§ModImage§/Tiles/Brine/Sulphur_Stone_Item.png']
 				['Eitrite Ore', '§ModImage§/Tiles/Brine/Eitrite_Ore_Item.png']
 				['Mildew', '§ModImage§/Tiles/Brine/Mildew_Item.png']
@@ -121,7 +128,7 @@
 				{
 				header:'Music'
 				items:[
-				['Music Box (Brine Pool)', 'Images/Music_Box_BP.png']
+				['Music Box (Brine Pool)', '§ModImage§/Tiles/MusicBoxes/Music_Box_BP_Item.png', 'Music_Boxes.html']
 				]
 				}
 				biomecontent}

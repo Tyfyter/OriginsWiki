@@ -3,11 +3,14 @@
   "Name": "Eruption",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Launcher",
+    "CanistahUser"
   ],
-  "Damage": 12,
+  "Damage": 27,
+  "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 8.0,
+  "Knockback": 4.0,
   "UseTime": 32,
   "Velocity": 12.0,
   "Rarity": "Orange",

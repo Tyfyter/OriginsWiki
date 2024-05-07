@@ -5,7 +5,11 @@
     "Item",
     "Accessory"
   ],
-  "Tooltip": "Enemies recently struck by a teammate receive 18% more damage",
+  "Tooltip": [
+    "Enemies recently struck by a teammate or minion receive 18% more damage",
+    "Summons can target two enemies at once",
+    "Increases minion damage by 10%"
+  ],
   "Rarity": "Green",
   "Sell": 10000,
   "SpriteWidth": 34,

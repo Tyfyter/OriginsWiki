@@ -6,13 +6,14 @@
     "Weapon",
     "Hardmode",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "MagicGun"
   ],
   "ManaCost": 19,
   "Damage": 42,
   "DamageClass": "Magic",
   "UseTime": 20,
-  "Velocity": 1.0,
+  "Velocity": 8.0,
   "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 32,

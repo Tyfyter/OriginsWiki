@@ -4,16 +4,19 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Launcher",
+    "CanistahUser"
   ],
-  "Damage": 60,
+  "Damage": 48,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 4,
-  "Velocity": 9.0,
+  "Velocity": 5.0,
   "Tooltip": [
-    "Releases a barrage of mines when swung",
-    "16.7% chance not to consume ammo"
+    "Releases a barrage of canisters when swung",
+    "60% chance not to consume ammo"
   ],
   "Rarity": "Pink",
   "Sell": 50000,

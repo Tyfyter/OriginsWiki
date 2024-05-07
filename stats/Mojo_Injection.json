@@ -5,8 +5,7 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Resource",
-    "Exploration"
+    "Misc"
   ],
   "Tooltip": "Slowly reduces assimilation",
   "Rarity": "LightRed",

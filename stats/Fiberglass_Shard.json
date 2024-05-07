@@ -1,9 +1,11 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Fiberglass_Shard",
+  "Image": "§ModImage§/Items/Weapons/Ranged/Fiberglass_Shard",
   "Name": "Fiberglass Shard",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "OtherRanged",
+    "SpendableWeapon"
   ],
   "Damage": 12,
   "DamageClass": "Ranged",

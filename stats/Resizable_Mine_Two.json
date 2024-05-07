@@ -3,11 +3,12 @@
   "Name": "Resizable Mine Mk. II",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo"
+    "Ammo",
+    "Canistah"
   ],
   "Damage": 22,
-  "DamageClass": "Explosive (thrown)",
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
   "Knockback": 3.0,
   "UseTime": 45,
   "Velocity": 4.0,

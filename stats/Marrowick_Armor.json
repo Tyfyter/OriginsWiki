@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Marrowick_Armor",
+  "Images": [
+    "ArmorSets/Marrowick_Armor",
+    "ArmorSets/Marrowick_Armor_Female"
+  ],
+  "Defense": 5,
+  "SetBonus": "",
+  "Rarity": "White",
+  "Sell": 0
+}

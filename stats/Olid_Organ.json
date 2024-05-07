@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Tooltip": [
     "5% increased damage and critical strike chance",

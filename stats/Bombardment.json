@@ -3,14 +3,19 @@
   "Name": "Bombardment",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Launcher",
+    "CanistahUser"
   ],
-  "Damage": 4,
+  "Damage": 3,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 6,
   "Velocity": 9.0,
-  "Tooltip": "Fires a barrage of floating mines",
+  "Tooltip": [
+    "Fires a barrage of floating mines",
+    "50% chance not to consume ammo"
+  ],
   "Rarity": "Blue",
   "Sell": 2000,
   "SpriteWidth": 48,

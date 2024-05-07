@@ -4,7 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
-    "Sword"
+    "Sword",
+    "Sword",
+    "DeveloperItem",
+    "ReworkExpected"
   ],
   "Damage": 99,
   "DamageClass": "Melee",

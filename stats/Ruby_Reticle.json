@@ -7,7 +7,7 @@
     "Combat"
   ],
   "Tooltip": "Critical strike chance is increased by 15% of weapon damage",
-  "Rarity": "Green",
+  "Rarity": "LightRed",
   "Sell": 20000,
   "SpriteWidth": 28,
   "InternalName": "Ruby_Reticle"

@@ -3,7 +3,8 @@
   "Name": "Outreach",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Spear"
   ],
   "Damage": 26,
   "DamageClass": "Melee",

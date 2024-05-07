@@ -4,17 +4,15 @@
   "Types": [
     "Item",
     "Weapon",
-    "Ammo"
+    "Launcher"
   ],
   "Damage": 18,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive Ranged",
   "Knockback": 0.3,
   "UseTime": 1,
-  "Velocity": 1.75,
-  "Tooltip": [
-    "Not implemented the way spriter dev wants it",
-    "Uses scrap as ammo"
-  ],
+  "Velocity": 2.0,
+  "Tooltip": "Uses scrap as ammo",
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 54,

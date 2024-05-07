@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode"
+    "Hardmode",
+    "Spear"
   ],
   "Damage": 64,
   "DamageClass": "Melee",

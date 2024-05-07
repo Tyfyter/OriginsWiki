@@ -5,8 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Movement",
-    "Combat"
+    "Combat",
+    "GenericBoostAcc"
   ],
   "Damage": 30,
   "DamageClass": "",

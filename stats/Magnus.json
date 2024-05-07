@@ -3,7 +3,8 @@
   "Name": "Magnus",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "MagicStaff"
   ],
   "ManaCost": 13,
   "Damage": 34,

@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Forbidden_Voice",
+  "Name": "Forbidden Voice",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "MasterAcc"
+  ],
+  "ManaCost": 20,
+  "Damage": 50,
+  "DamageClass": "",
+  "Knockback": 7.0,
+  "UseTime": 48,
+  "Tooltip": "You are Silenced, but the mouth will attack for you",
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "SpriteWidth": 38,
+  "InternalName": "Forbidden_Voice"
+}

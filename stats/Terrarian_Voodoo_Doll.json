@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Terrarian_Voodoo_Doll",
+  "Name": "Terrarian Voodoo Doll",
+  "Types": [
+    "Item",
+    "Accessory",
+    "MasterAcc"
+  ],
+  "Rarity": "Master",
+  "SpriteWidth": 16,
+  "InternalName": "Terrarian_Voodoo_Doll"
+}

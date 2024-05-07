@@ -3,7 +3,8 @@
   "Name": "Amebolize Incantation",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "Incantation"
   ],
   "ManaCost": 14,
   "Damage": 17,

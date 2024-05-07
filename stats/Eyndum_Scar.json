@@ -5,7 +5,9 @@
     "Item",
     "Weapon",
     "Sword",
-    "Hardmode"
+    "Hardmode",
+    "Sword",
+    "ReworkExpected"
   ],
   "Damage": 407,
   "DamageClass": "Melee",
