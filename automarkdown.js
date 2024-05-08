@@ -344,9 +344,15 @@ async function processLinkWithID(id, targetName, image, targetPage, note) {
 	const currentIndex = linkIndex++;
 	return (await processLink(currentIndex, targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
 }
-async function processLink(index, targetName, image, targetPage, note){
+async function processLink(index, targetName, image, targetPage, note, extraClass){
 	if (aliases[targetPage]) {
 		targetPage = aliases[targetPage];
+	}
+	if(extraClass === '$default' || extraClass === undefined){
+		extraClass = '';
+	}
+	if(note === '$default'){
+		note = undefined;
 	}
 	if(image === '$default'){
 		image = undefined;
@@ -369,7 +375,7 @@ async function processLink(index, targetName, image, targetPage, note){
 	}
 	const linkIndex = index;
 	console.log(`link to ${targetPage} at index ${linkIndex}`);
-	var result = `<${tag} class="link" id="link${linkIndex}" href="${targetPage}">`;
+	var result = `<${tag} class="link ${extraClass}" id="link${linkIndex}" href="${targetPage}">`;
 	waitForElement(`${tag}#link${linkIndex}`).then(element => {
 		//console.log(element);
 		if (!element.href) {

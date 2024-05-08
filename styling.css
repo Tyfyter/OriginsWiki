@@ -365,17 +365,25 @@ details > summary {
 
 .expert {
 	color:var(--expert-color);
+	--article-link-color:var(--expert-color);
+	--visited-link-color:var(--expert-color);
 }
 .master {
 	color:var(--master-color);
+	--article-link-color:var(--master-color);
+	--visited-link-color:var(--master-color);
 }
 
 .rexpert {
 	color:var(--expert-color);
+	--article-link-color:var(--expert-color);
+	--visited-link-color:var(--expert-color);
 	font-weight: bold;
 }
 .rmaster {
 	color:var(--master-color);
+	--article-link-color:var(--master-color);
+	--visited-link-color:var(--master-color);
 	font-weight: bold;
 }
 
