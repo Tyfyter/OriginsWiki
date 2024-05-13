@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/</loc>
-<lastmod>2024-03-31T16:26:40-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/404.html</loc>
@@ -130,7 +130,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Amebic_Vial.html</loc>
-<lastmod>2024-05-02T14:33:10-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Ammunition.html</loc>
@@ -202,7 +202,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Banners.html</loc>
-<lastmod>2024-05-07T15:26:54-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bark.html</loc>
@@ -394,7 +394,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Brainy_Staff.html</loc>
-<lastmod>2024-03-28T16:47:49-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Bread.html</loc>
@@ -774,7 +774,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Defiled_Wastelands.html</loc>
-<lastmod>2024-05-09T19:13:55-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Defiled_Watcher.html</loc>
@@ -1730,7 +1730,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Protozoa_Food.html</loc>
-<lastmod>2024-04-02T20:37:29-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Purification_Potion.html</loc>
@@ -1855,6 +1855,10 @@
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Riven_Grass.html</loc>
 <lastmod>2023-12-04T19:25:46-06:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Riven_Hive.html</loc>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Riven_Jungle_Grass.html</loc>
@@ -2070,11 +2074,15 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Stun.html</loc>
-<lastmod>2024-02-10T20:00:54-07:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Sunflower_Seed_Shooter.html</loc>
 <lastmod>2024-05-12T17:09:29-06:00</lastmod>
+</url>
+<url>
+<loc>https://tyfyter.github.io/OriginsWiki/Super_Cell.html</loc>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Super_Turbo_Reel.html</loc>
@@ -2166,7 +2174,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Toxic_Shock.html</loc>
-<lastmod>2024-02-05T15:44:55-07:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Traffic_Cone.html</loc>
@@ -2213,6 +2221,10 @@
 <lastmod>2024-05-02T14:33:10-06:00</lastmod>
 </url>
 <url>
+<loc>https://tyfyter.github.io/OriginsWiki/Underground_Riven_Hive.html</loc>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
+</url>
+<url>
 <loc>https://tyfyter.github.io/OriginsWiki/Unsought_Organ.html</loc>
 <lastmod>2024-05-12T17:09:29-06:00</lastmod>
 </url>
@@ -2246,7 +2258,7 @@
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/Weapons.html</loc>
-<lastmod>2024-05-12T17:09:29-06:00</lastmod>
+<lastmod>2024-05-13T14:38:10-06:00</lastmod>
 </url>
 <url>
 <loc>https://tyfyter.github.io/OriginsWiki/White_Water.html</loc>
