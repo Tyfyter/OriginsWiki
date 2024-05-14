@@ -136,12 +136,15 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 	}	public class HasFilter(params Filter[] filters) : Filter {
 		public Filter[] Filters => filters;
 		public override bool Matches(JToken data) {
+			bool ret;
 			if (data is JArray array) {
-				return !filters.Any(filter => !array.Any(filter.Matches));
+				ret = !filters.Any(filter => !array.Any(filter.Matches));
+				return ret;
 			}
 			if (filters.Any(f => f is not IsFilter)) throw new Exception($"I don't even know how I'd go about supporting \"has\" clauses like {this} on things other than arrays");
 			string dataString = data.ToString();
-			return !filters.Any(filter => !dataString.Contains(((IsFilter)filter).Value));
+			ret = !filters.Any(filter => !dataString.Contains(((IsFilter)filter).Value));
+			return ret;
 		}
 		public override string ToString() => $"<{string.Join<Filter>(',', filters)}";
 	}	public class NotFilter(Filter a) : Filter {
