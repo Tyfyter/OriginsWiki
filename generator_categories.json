@@ -10,23 +10,23 @@
   },
   "melee":{
     "name":"melee weapons",
-    "items":"DamageClass=Melee|ExplosiveMelee"
+    "items":"DamageClass=Melee | DamageClass=ExplosiveMelee"
   },
   "ranged":{
     "name":"ranged weapons",
-    "items":"DamageClass=Ranged|ExplosiveRanged"
+    "items":"DamageClass=Ranged | ExplosiveRanged"
   },
   "magic":{
     "name":"magic weapons",
-    "items":"DamageClass=Magic|ExplosiveMagic"
+    "items":"DamageClass=Magic | DamageClass=ExplosiveMagic"
   },
   "summon":{
     "name":"summon weapons",
-    "items":"DamageClass=Summon|ExplosiveSummon"
+    "items":"DamageClass=Summon | DamageClass=ExplosiveSummon"
   },
   "explosive":{
     "name":"explosive weapons",
-    "items":"DamageClass=Explosive|ExplosiveMelee|ExplosiveRanged|ExplosiveMagic|ExplosiveSummon"
+    "items":"DamageClass<Explosive"
   },
   "armor":{
     "name":"armor",
@@ -39,6 +39,18 @@
   "accessories":{
     "name":"accessories",
     "items":"Types<Accessory"
+  },
+  "bow":{
+    "name":"Bows",
+    "items":"Types<Bow"
+  },
+  "prehardmodebow":{
+    "name":"Prehardmode Bows",
+    "items":"Types<Bow -Types<Hardmode"
+  },
+  "hardmodebow":{
+    "name":"Hardmode Bows",
+    "items":"Types<Bow Types<Hardmode"
   },
   "implimented":{
     "name":"implimented"
