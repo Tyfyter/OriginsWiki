@@ -105,15 +105,18 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 			string[] sections = text.Split('.');
 			bool valid = false;
 			Filter filter = null;
-			string[] subsections = sections[^1].Split("=");
+			string[] subsections = sections[^1].Split("<", 2);
 			if (subsections.Length == 2) {
-				valid ^= true;
-				filter = new ChildMatchesFilter(subsections[0], new IsFilter(subsections[1]));
-			}
-			subsections = sections[^1].Split("<");
-			if (subsections.Length == 2) {
-				valid ^= true;
-				filter = new ChildMatchesFilter(subsections[0], new HasFilter(subsections[1].Split(',')));
+				valid = true;
+				filter = new ChildMatchesFilter(subsections[0], new HasFilter(subsections[1].Split(',').Select(
+					s => s[0] == '.' ? ParseSingleFilter(s[1..]) : new IsFilter(s)
+				).ToArray()));
+			} else {
+				subsections = sections[^1].Split("=");
+				if (subsections.Length == 2) {
+					valid = true;
+					filter = new ChildMatchesFilter(subsections[0], new IsFilter(subsections[1]));
+				}
 			}
 			if (!valid) throw new Exception($"{text} is not a valid filter string, a valid filter string must end in exactly one \"is\" (__=__) or \"has\" (__<__,__) clause");
 			for (int i = 2; i < sections.Length + 1; i++) {
@@ -130,16 +133,17 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 		public string Value => value;
 		public override bool Matches(JToken data) => data.ToString() == value;
 		public override string ToString() => $"={value}";
-	}	public class HasFilter(params string[] values) : Filter {
-		public string[] Values => values;
+	}	public class HasFilter(params Filter[] filters) : Filter {
+		public Filter[] Filters => filters;
 		public override bool Matches(JToken data) {
 			if (data is JArray array) {
-				return !values.Any(value => !array.Any(data => data.ToString() == value));
+				return !filters.Any(filter => !array.Any(filter.Matches));
 			}
+			if (filters.Any(f => f is not IsFilter)) throw new Exception($"I don't even know how I'd go about supporting \"has\" clauses like {this} on things other than arrays");
 			string dataString = data.ToString();
-			return !values.Any(dataString.Contains);
+			return !filters.Any(filter => !dataString.Contains(((IsFilter)filter).Value));
 		}
-		public override string ToString() => $"<{string.Join(',', values)}";
+		public override string ToString() => $"<{string.Join<Filter>(',', filters)}";
 	}	public class NotFilter(Filter a) : Filter {
 		public Filter A => a;
 		public override bool Matches(JToken data) => !a.Matches(data);
