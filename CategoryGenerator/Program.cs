@@ -57,7 +57,7 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 				if (tag == "") continue;
 				switch (tag[0]) {
 					case '|':
-					isOr = false;
+					isOr = true;
 					tag = tag[1..];
 					goto reparse;
 					case '&':
@@ -77,7 +77,7 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 							for (int k = oldI + 1; k < i; k++) {
 								test[k - oldI] = tags[k];
 							}
-							test[0] = tags[oldI][1..];
+							test[0] = tag[1..];
 							test[^1] = tags[i][..^1];
 							newFilter = CreateFilter(test);
 							break;
@@ -86,7 +86,7 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 					break;
 
 					default:
-					newFilter = ParseSingleFilter(tags[i]);
+					newFilter = ParseSingleFilter(tag);
 					break;
 				}
 				if (newFilter is null) throw new Exception("you formatted something wrong and a null got in here");

@@ -14,7 +14,7 @@
   },
   "ranged":{
     "name":"ranged weapons",
-    "items":"DamageClass=Ranged | ExplosiveRanged"
+    "items":"DamageClass=Ranged | DamageClass=ExplosiveRanged"
   },
   "magic":{
     "name":"magic weapons",
