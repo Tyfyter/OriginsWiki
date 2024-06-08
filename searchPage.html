@@ -7,16 +7,17 @@
 					return;
 				}
 				var siteMap = await getSiteMap();
-				var search = location.search.replaceAll(' ', '_');
+				var search = location.search.substring(1).replaceAll(' ', '_').replaceAll('+', '_');
 
+				const lowerSearch = search.toLowerCase();
 				for (var i = 0; i < siteMap.length; i++) {
-					if(('?'+siteMap[i].toLowerCase()) == search.toLowerCase()){
+					if(siteMap[i].toLowerCase() == lowerSearch){
 						window.open(siteMap[i] + linkSuffix, '_self');
 						return;
 					}
 				}
 				var content = document.getElementById("content");
-				content.innerHTML = await getSearchLinks(location.search.substring(1)) + content.innerHTML;
+				content.innerHTML = await getSearchLinks(search) + content.innerHTML;
 			}
 		</script>
 		<script src="automarkdown.js" defer></script>
