@@ -1446,6 +1446,53 @@ async function parseAFML(throwErrors = false){
 	}
 
 	console.log("items:");
+	let customTags = [
+		{name: 'recipes', opener: '<table class="recipetable" cellspacing="0"><thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', closer:'</table>', func:async (item) => {
+				var history = [item.innerHTML];//0
+				item = jsonifyPseudoJson(item.innerHTML, history);
+				console.log('['+item+']');
+				sections = eval('['+item+']');
+				lastErrObject = sections;
+				let result = '';
+				for(let j = 0; j < sections.length; j++){
+					result += await processRecipeBlock(sections[j]);
+				}
+				return result;
+			}
+		},
+		{name: 'aimg', opener: '<div class="picturebox">', closer:'</div>', func:async (item) => {
+			let alt = '';
+			if (item.attributes['alt']) alt = `alt="${item.attributes['alt'].value}"`;
+			return `<img src="${item.attributes['src'].value}" ${alt} style="width: inherit;">`;
+		}}
+		/*{name: 'snippet', opener: '<snippet', closer:'</snippet>', func:async (item) => {
+			var history = [item.outerHTML];//0
+			let value = eval('{' + jsonifyPseudoJson(item.innerHTML, history) + '}');
+			lastErrObject = value;
+
+			return `name="${value.name}"> ${value}`;
+		}}*/
+	];
+	for (let t = 0; t < customTags.length; t++) {
+		const customTag = customTags[t];
+		var rec = document.getElementsByTagName(customTag.name);
+		var rec2 = [];
+		for(let i = 0; i < rec.length; i++) {
+			rec2.push(rec[i]);
+		}
+		rec = rec2;
+		for(let i = 0; i < rec.length; i++) {
+			let oldLength = rec.length;
+			console.debug(rec[i], await customTag.func(rec[i]));
+			//console.debug(rec);
+			rec[i].outerHTML = customTag.opener + (await customTag.func(rec[i])) + customTag.closer;
+			//console.debug(rec);
+			if (oldLength != rec.length) {
+				i -= oldLength - rec.length;
+				if (rec.length <= 0) break;
+			}
+		}
+	}
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock ontab0", tag: "div", func: processStatBlock},
@@ -1455,28 +1502,6 @@ async function parseAFML(throwErrors = false){
 		
 		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
 	];
-	var rec = document.getElementsByTagName("recipes");
-	console.log(rec);
-	for(let i = 0; i < rec.length; i++) {
-		let result = "<table class=\"recipetable\" cellspacing=\"0\">";
-		let item = rec[i].innerHTML;
-		var history = [item];//0
-		item = jsonifyPseudoJson(item, history);
-		console.log('['+item+']');
-		sections = eval('['+item+']');
-		lastErrObject = sections;
-		result += '<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>';
-		for(let j = 0; j < sections.length; j++){
-			result += await processRecipeBlock(sections[j]);
-		}
-		result += "</table>";
-		let oldLength = rec.length;
-		rec[i].outerHTML = result;
-		if (oldLength != rec.length) {
-			i -= oldLength - rec.length;
-			if (rec.length <= 0) break;
-		}
-	}
 	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
 		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
 		if (currentMatch !== null) console.log(blockRegexes[cycle].class);

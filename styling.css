@@ -574,6 +574,18 @@ details > summary {
 	flex-grow: 1;
 }
 
+.picturebox {
+	float: right;
+	clear: right;
+	width: 15em;
+	margin: 2px;
+	padding: 4px;
+	line-height: 0;
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+	background-color: var(--box-bg-color);
+}
+
 #toolbar {
 	position: fixed;
   right: 0.6rem;
