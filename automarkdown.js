@@ -1447,23 +1447,34 @@ async function parseAFML(throwErrors = false){
 
 	console.log("items:");
 	let customTags = [
-		{name: 'recipes', opener: '<table class="recipetable" cellspacing="0"><thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', closer:'</table>', func:async (item) => {
+		{name: 'recipes', func:async (item) => {
 				var history = [item.innerHTML];//0
-				item = jsonifyPseudoJson(item.innerHTML, history);
-				console.log('['+item+']');
-				sections = eval('['+item+']');
+				let data = jsonifyPseudoJson(item.innerHTML, history);
+				item.innerHTML = '';
+				console.log('['+data+']');
+				sections = eval('['+data+']');
 				lastErrObject = sections;
 				let result = '';
 				for(let j = 0; j < sections.length; j++){
-					result += await processRecipeBlock(sections[j]);
+					result += processRecipeBlock(sections[j]);
 				}
-				return result;
+				item.appendChild(withChildren(createElementWithAttributes('table', ['class', 'recipetable'], ['cellspacing', '0']),
+					withChildren(createElementWithAttributes('thead'), withChildren(createElementWithAttributes('tr'),
+						createElementWithTextAndAttributes('th', 'Result'),
+						createElementWithTextAndAttributes('th', 'Ingredients', ['class', 'middle']),
+						createElementWithTextAndAttributes('th', '<a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a>')
+					)),
+					createElementWithTextAndAttributes('tbody', result)
+				));
+				//withChildren(item, document.createElement('table'));
 			}
 		},
-		{name: 'aimg', opener: '<div class="picturebox">', closer:'</div>', func:async (item) => {
-			let alt = '';
-			if (item.attributes['alt']) alt = `alt="${item.attributes['alt'].value}"`;
-			return `<img src="${item.attributes['src'].value}" ${alt} style="width: inherit;">`;
+		{name: 'aimg', func:async (item) => {
+			let attributes = [['src', item.attributes['src'].value], ['style', 'width: inherit;']];
+			if (item.attributes['alt']) attributes.push(['alt', item.attributes['alt'].value]);
+			item.appendChild(withChildren(createElementWithAttributes('div', ['class', 'picturebox']),
+				createElementWithAttributes('img', ...attributes)
+			));
 		}}
 		/*{name: 'snippet', opener: '<snippet', closer:'</snippet>', func:async (item) => {
 			var history = [item.outerHTML];//0
@@ -1473,26 +1484,34 @@ async function parseAFML(throwErrors = false){
 			return `name="${value.name}"> ${value}`;
 		}}*/
 	];
-	for (let t = 0; t < customTags.length; t++) {
-		const customTag = customTags[t];
-		var rec = document.getElementsByTagName(customTag.name);
-		var rec2 = [];
-		for(let i = 0; i < rec.length; i++) {
-			rec2.push(rec[i]);
-		}
-		rec = rec2;
-		for(let i = 0; i < rec.length; i++) {
-			let oldLength = rec.length;
-			console.debug(rec[i], await customTag.func(rec[i]));
-			//console.debug(rec);
-			rec[i].outerHTML = customTag.opener + (await customTag.func(rec[i])) + customTag.closer;
-			//console.debug(rec);
-			if (oldLength != rec.length) {
-				i -= oldLength - rec.length;
-				if (rec.length <= 0) break;
+	let anyUnparsed = false;
+	do{
+		anyUnparsed = false;
+		for (let t = 0; t < customTags.length; t++) {
+			const customTag = customTags[t];
+			var rec = document.getElementsByTagName(customTag.name);
+			var rec2 = [];
+			for(let i = 0; i < rec.length; i++) {
+				rec2.push(rec[i]);
+			}
+			rec = rec2;
+			for(let i = 0; i < rec.length; i++) {
+				if(rec[i].attributes['parsed']) continue;
+				anyUnparsed = true;
+				let oldLength = rec.length;
+				//console.debug(rec[i], await customTag.func(rec[i]));
+				//console.debug(rec);
+				customTag.func(rec[i]);
+				/*rec[i].innerHTML = customTag.opener + ()) + customTag.closer;*/
+				//console.debug(rec);
+				rec[i].setAttribute('parsed', '');
+				if (oldLength != rec.length) {
+					i -= oldLength - rec.length;
+					if (rec.length <= 0) break;
+				}
 			}
 		}
-	}
+	} while (anyUnparsed);
 	let blockRegexes = [
 		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
 		{regex: statBlockRegex, class: "statblock ontab0", tag: "div", func: processStatBlock},
@@ -1696,6 +1715,21 @@ function createElementWith(tag) {
 	for (let index = 1; index < arguments.length; index++) {
 		const arg = arguments[index];
 		element[arg[0]] = arg[1];
+	}
+	return element;
+}
+function createElementWithAttributes(tag) {
+	let element = document.createElement(tag);
+	for (let index = 1; index < arguments.length; index++) {
+		element.setAttribute(...arguments[index]);
+	}
+	return element;
+}
+function createElementWithTextAndAttributes(tag, text) {
+	let element = document.createElement(tag);
+	element.innerHTML = text;
+	for (let index = 2; index < arguments.length; index++) {
+		element.setAttribute(...arguments[index]);
 	}
 	return element;
 }
