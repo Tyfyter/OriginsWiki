@@ -1470,11 +1470,10 @@ async function parseAFML(throwErrors = false){
 			}
 		},
 		{name: 'aimg', func:async (item) => {
+			item.classList.add('picturebox');
 			let attributes = [['src', item.attributes['src'].value], ['style', 'width: inherit;']];
 			if (item.attributes['alt']) attributes.push(['alt', item.attributes['alt'].value]);
-			item.appendChild(withChildren(createElementWithAttributes('div', ['class', 'picturebox']),
-				createElementWithAttributes('img', ...attributes)
-			));
+			item.appendChild(createElementWithAttributes('img', ...attributes));
 		}}
 		/*{name: 'snippet', opener: '<snippet', closer:'</snippet>', func:async (item) => {
 			var history = [item.outerHTML];//0
