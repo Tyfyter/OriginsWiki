@@ -1504,7 +1504,17 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 			let pageText = await requestPageText(item.getAttribute('href'));
 			let content = document.getElementById(currentContent);
 			content.innerHTML = pageText;
-
+			let pluckSelector = item.getAttribute('pluck')
+			console.debug('pluck: ', pluckSelector, ' from ', content.children);
+			if (pluckSelector) {
+				let children = content.querySelectorAll(pluckSelector);
+				console.debug(children);
+				content.innerHTML = "";
+				console.debug(children);
+				for (var i = 0; i < children.length; i++) {
+					content.appendChild(children[i]);
+				}
+			}
 			await parseAFML(false, currentContent);
 			let button = document.getElementById(currentButton);
 			button.href = 'javascript:void(0)';
