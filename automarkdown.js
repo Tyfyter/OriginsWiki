@@ -1498,9 +1498,13 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 				document.getElementById(currentContent).textContent = "snippet is missing href attribute";
 				return;
 			}
+			if (item.hasAttribute('hidden')) {
+				item.setAttribute('open', '');
+			}
 			let pageText = await requestPageText(item.getAttribute('href'));
 			let content = document.getElementById(currentContent);
 			content.innerHTML = pageText;
+
 			await parseAFML(false, currentContent);
 			let button = document.getElementById(currentButton);
 			button.href = 'javascript:void(0)';

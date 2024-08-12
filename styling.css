@@ -714,6 +714,13 @@ snippet {
 snippet[open] {
 	width: 95%;
 }
+snippet[hidden] {
+	margin: revert;
+	padding: revert;
+	background-color: revert;
+	border: revert;
+	width: revert;
+}
 .snippetContent {
 	display: none;
 }
