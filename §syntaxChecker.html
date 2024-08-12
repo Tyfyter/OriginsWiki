@@ -15,6 +15,9 @@
 			return escapeEl.textContent;
 		};
 		window.addEventListener("load", function () {
+            if (location.search) {
+                document.getElementById('terminal').textContent = unescape(location.search.substring(1));
+            }
 			document.getElementById('terminal').addEventListener("paste", function(e) {
 				e.preventDefault();
 				var text = window.escapeHTML(e.clipboardData.getData("text/plain"));
@@ -34,9 +37,15 @@
                 }
             }
 		};
+		function copyLink(e) {
+            navigator.clipboard.writeText('https://tyfyter.github.io/OriginsWiki/§syntaxChecker?' + escape(document.getElementById('terminal').textContent));
+		};
 		</script>
         <script>
-            preParseCallback = () => document.getElementById('submit').onclick = execute;
+            preParseCallback = () => {
+                document.getElementById('submit').onclick = execute;
+                document.getElementById('permalink').onclick = copyLink;
+            }
         </script>
         <style>
             #terminal {
@@ -52,12 +61,19 @@
                 border: 0.1em solid grey;
                 font-family: monospace;
             }
+            #permalink {
+                font-size: large;
+                border: 0.1em solid grey;
+                font-family: monospace;
+                float: right;
+            }
         </style>
     </head>
     <body>
 		<h1></h1>
         <span id="terminal" contenteditable spellcheck="false">[statblock Example][sortablelist Melee]</span>
         <button id="submit" type="submit">evaluate</button>
+        <button id="permalink" type="submit">permalink</button>
         <article id="content"><div id="output"></div></article>
     </body>
 </html>
