@@ -1269,12 +1269,22 @@ function logItToo(value, text = "") {
 	return value;
 }
 let linkIndex = 0;
-async function parseAFML(throwErrors = false){
+const parsingLockAttr = 'parsingLock';
+function parsingLocked(element) {
+	while (element) {
+		if (element.hasAttribute(parsingLockAttr)) return true;
+		element = element.parentElement;
+	}
+	return false;
+}
+async function parseAFML(throwErrors = false, elementID = "content"){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
 		linkPrefix = '/OriginsWiki';
 	}
-	var content = document.getElementById("content");
+	var content = document.getElementById(elementID);
+	while(parsingLocked());
+	content.setAttribute(parsingLockAttr, '');
 	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
@@ -1446,6 +1456,7 @@ async function parseAFML(throwErrors = false){
 	}
 
 	console.log("items:");
+	let snindex = 0;
 	let customTags = [
 		{name: 'recipes', func:async (item) => {
 				var history = [item.innerHTML];//0
@@ -1474,14 +1485,34 @@ async function parseAFML(throwErrors = false){
 			let attributes = [['src', item.attributes['src'].value], ['style', 'width: inherit;']];
 			if (item.attributes['alt']) attributes.push(['alt', item.attributes['alt'].value]);
 			item.appendChild(createElementWithAttributes('img', ...attributes));
+		}},
+		{name: 'snippet', func:async (item) => {
+			let currentIndex = snindex++;
+			item.id = `snindex${currentIndex}`;
+			let currentButton = `snindexButton${currentIndex}`;
+			let currentContent = `snindexContent${currentIndex}`;
+			item.innerHTML = `<a id="${currentButton}" class="snippetButton">${item.innerHTML}</a>`;
+			item.appendChild(createElementWith('span', ['id', currentContent], ['className', "snippetContent"]));
+			if (!item.hasAttribute('href')) {
+				item.setAttribute('open', '');
+				document.getElementById(currentContent).textContent = "snippet is missing href attribute";
+				return;
+			}
+			let pageText = await requestPageText(item.getAttribute('href'));
+			let content = document.getElementById(currentContent);
+			content.innerHTML = pageText;
+			await parseAFML(false, currentContent);
+			let button = document.getElementById(currentButton);
+			button.href = 'javascript:void(0)';
+			button.onclick = () => {
+				let snippet = document.getElementById(`snindex${currentIndex}`);
+				if (snippet.hasAttribute('open')) {
+					snippet.removeAttribute('open');
+				} else {
+					snippet.setAttribute('open', '');
+				}
+			}
 		}}
-		/*{name: 'snippet', opener: '<snippet', closer:'</snippet>', func:async (item) => {
-			var history = [item.outerHTML];//0
-			let value = eval('{' + jsonifyPseudoJson(item.innerHTML, history) + '}');
-			lastErrObject = value;
-
-			return `name="${value.name}"> ${value}`;
-		}}*/
 	];
 	let anyUnparsed = false;
 	do{
@@ -1504,10 +1535,6 @@ async function parseAFML(throwErrors = false){
 				/*rec[i].innerHTML = customTag.opener + ()) + customTag.closer;*/
 				//console.debug(rec);
 				rec[i].setAttribute('parsed', '');
-				if (oldLength != rec.length) {
-					i -= oldLength - rec.length;
-					if (rec.length <= 0) break;
-				}
 			}
 		}
 	} while (anyUnparsed);
@@ -1663,6 +1690,7 @@ async function parseAFML(throwErrors = false){
 			});
 		}
 	}
+	content.removeAttribute(parsingLockAttr);
 }
 var onSearchbarInput = async (e)=>{
 	var searchbar = document.getElementById("searchbar");

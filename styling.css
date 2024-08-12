@@ -237,6 +237,7 @@ details > summary {
 	border-bottom: 1px solid var(--article-text-color);
 	margin-bottom: 0em;
 	padding-top: 0em;
+	margin-right: 3px;
 }
 
 #table-of-contents {
@@ -688,7 +689,7 @@ details > summary {
 }
 .categories{
 	display: block;
-  clear: both;
+  	clear: both;
 	border-radius: 5px;
 	border-style: groove;
 	background: var(--box-bg-color);
@@ -699,6 +700,27 @@ details > summary {
 .revsortedby ::after{
   content: '▴';
 }
+
+snippet {
+	clear: both;
+	width: fit-content;
+	margin: 2px;
+	padding: 4px;
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+	background-color: var(--box-bg-color);
+	display: block;
+}
+snippet[open] {
+	width: 95%;
+}
+.snippetContent {
+	display: none;
+}
+snippet[open] > .snippetContent {
+	display: flow-root;
+}
+
 .coins ::after {
   content: '';
   display: inline-block;
