@@ -66,7 +66,7 @@
 			"§L§ [link Lesser Healing Potion|$default|https://terraria.wiki.gg/wiki/Lesser_Healing_Potion] (5-15) - 100%",
 			"§L§ [link Reshaping Chunk | Images/Reshaping_Chunk.png | $default] - 100%",
 			"§L§ [link Defiled Amalgamation Mask | Images/DA_Mask.png | $default] - 14.29%",
-			"[link Darker Instinct | Images/Darker_Instinct.png | $default] - 100%",
+			"[link Mysterious Spray | $fromStats | $default] - 100%",
 			"[link Defiled Amalgamation Relic | Images/DA_Relic.png | Relics#Defiled_Amalgamation] - 100%"
         ]
     },
