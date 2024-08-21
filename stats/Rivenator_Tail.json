@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Rivenator_Tail",
+  "Name": "Mitoworm",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 30,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 300.0,
+  "Drops": [],
+  "RivenAssimilation": 0.06,
+  "Expert": {
+    "MaxLife": 800,
+    "Coins": 1875.0,
+    "Drops": [],
+    "RivenAssimilation": 0.077999994
+  },
+  "Master": {
+    "MaxLife": 1800,
+    "Coins": 1875.0,
+    "Drops": [],
+    "RivenAssimilation": 0.089999996
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Rivenator_Tail"
+}

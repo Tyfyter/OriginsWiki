@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Pets/Chew_Toy",
+  "Name": "Chew Toy",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Rarity": "Cyan",
+  "Sell": 200000,
+  "SpriteWidth": 22,
+  "InternalName": "Chew_Toy"
+}

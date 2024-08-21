@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Squid",
+  "Name": "Defiled Squid",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 165,
+  "Defense": 22,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 100.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 330,
+    "Coins": 1500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 495,
+    "Coins": 1500.0,
+    "Drops": []
+  },
+  "SpriteWidth": 30,
+  "InternalName": "Defiled_Squid"
+}

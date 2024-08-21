@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Pustule_Jelly",
+  "Name": "Pustule Jellyfish",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 380,
+  "Defense": 20,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 800.0,
+  "Drops": [],
+  "RivenAssimilation": 0.08,
+  "Expert": {
+    "MaxLife": 760,
+    "KBResist": 0.19000006,
+    "Coins": 5000.0,
+    "Drops": [],
+    "RivenAssimilation": 0.103999995
+  },
+  "Master": {
+    "MaxLife": 1140,
+    "KBResist": 0.35999995,
+    "Coins": 5000.0,
+    "Drops": [],
+    "RivenAssimilation": 0.12
+  },
+  "SpriteWidth": 32,
+  "InternalName": "Pustule_Jelly"
+}

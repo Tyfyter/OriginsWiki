@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Amebeye",
+  "Name": "Amoebeye",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 60,
+  "KBResist": 0.25,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link Ichor | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 76.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 600,
+    "KBResist": 0.32500005,
+    "Coins": 190.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 900,
+    "KBResist": 0.39999998,
+    "Coins": 190.0,
+    "Drops": []
+  },
+  "SpriteWidth": 72,
+  "InternalName": "Amebeye"
+}

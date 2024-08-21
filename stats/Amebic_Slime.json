@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Amebic_Slime",
+  "Name": "Amoebic Slime",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 60,
+  "Defense": 5,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 40.0,
+  "Drops": [],
+  "RivenAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 264,
+    "Defense": 10,
+    "KBResist": 0.19000006,
+    "Coins": 160.0,
+    "Drops": [],
+    "RivenAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 396,
+    "Defense": 10,
+    "KBResist": 0.35999995,
+    "Coins": 160.0,
+    "Drops": [],
+    "RivenAssimilation": 0.06
+  },
+  "SpriteWidth": 32,
+  "InternalName": "Amebic_Slime"
+}

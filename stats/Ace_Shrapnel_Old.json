@@ -8,7 +8,6 @@
   ],
   "Damage": 85,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 4.0,
   "UseTime": 28,
   "Velocity": 6.0,
   "Tooltip": "What do we do with it?",

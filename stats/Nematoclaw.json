@@ -6,7 +6,8 @@
     "Weapon",
     "Sword",
     "Hardmode",
-    "OtherMelee"
+    "OtherMelee",
+    "ToxicSource"
   ],
   "Damage": 48,
   "DamageClass": "Melee",

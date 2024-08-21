@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Trijaw_Shark",
+  "Name": "Trijaw Shark",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 450,
+  "Defense": 23,
+  "KBResist": 0.19999999,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 400.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 900,
+    "KBResist": 0.35200006,
+    "Coins": 1000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1350,
+    "KBResist": 0.48799998,
+    "Coins": 1000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 96,
+  "InternalName": "Trijaw_Shark"
+}

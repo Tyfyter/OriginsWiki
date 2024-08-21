@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Barnacle_Bunny",
+  "Name": "Barnacle Bunny",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 75,
+  "Defense": 5,
+  "Immunities": [
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 500.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 660,
+    "Defense": 10,
+    "KBResist": 0.19000006,
+    "Coins": 5000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1485,
+    "Defense": 10,
+    "KBResist": 0.35999995,
+    "Coins": 5000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 48,
+  "InternalName": "Barnacle_Bunny"
+}

@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_One",
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_One",
   "Name": "Resizable Mine Mk. I",
   "Types": [
     "Item",
@@ -10,7 +10,7 @@
   "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
   "UseTime": 45,
-  "Velocity": 3.7,
+  "Velocity": -1.3,
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "White",
   "Sell": 233,

@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Breach",
+  "Name": "Breach",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "OtherMagic"
+  ],
+  "ManaCost": 26,
+  "Damage": 57,
+  "ArmorPenetration": 8,
+  "DamageClass": "Explosive Magic",
+  "Knockback": 6.0,
+  "Crit": 9,
+  "UseTime": 27,
+  "Velocity": 9.0,
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 28,
+  "InternalName": "Breach"
+}

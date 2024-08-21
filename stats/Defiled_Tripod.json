@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Tripod",
+  "Name": "Defiled Tripod",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 475,
+  "Defense": 28,
+  "KBResist": 0.5,
+  "Coins": 5000.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.07,
+  "Expert": {
+    "MaxLife": 950,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 12500.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.091
+  },
+  "Master": {
+    "MaxLife": 1425,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 12500.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.105000004
+  },
+  "SpriteWidth": 98,
+  "InternalName": "Defiled_Tripod"
+}

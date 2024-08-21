@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Cleaver_Body",
+  "Name": "Cleaver",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 20,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 300.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 880,
+    "Coins": 1500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1980,
+    "Coins": 1500.0,
+    "Drops": []
+  },
+  "SpriteWidth": 6,
+  "InternalName": "Cleaver_Body"
+}

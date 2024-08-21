@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Enchanted_Trident",
+  "Name": "Profaned Bident",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 175,
+  "Defense": 16,
+  "KBResist": 0.65,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link On Fire! | $default | $default]`",
+    "`[link Confused | $default | $default]`",
+    "`[link Hellfire | $default | $default]`",
+    "`[link Incandescent Burn | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 1000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 350,
+    "KBResist": 0.685,
+    "Coins": 2500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 525,
+    "KBResist": 0.72,
+    "Coins": 2500.0,
+    "Drops": []
+  },
+  "SpriteWidth": 76,
+  "InternalName": "Enchanted_Trident"
+}

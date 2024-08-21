@@ -4,7 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
-    "MagicStaff"
+    "OtherMagic"
   ],
   "ManaCost": 13,
   "Damage": 20,

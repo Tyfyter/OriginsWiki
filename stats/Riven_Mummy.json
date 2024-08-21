@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Riven_Mummy",
+  "Name": "Amoebic Mummy",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 110,
+  "Defense": 8,
+  "KBResist": 0.5,
+  "Immunities": [
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 7.0,
+  "Drops": [],
+  "RivenAssimilation": 0.07,
+  "Expert": {
+    "MaxLife": 242,
+    "KBResist": 0.595,
+    "Coins": 12.0,
+    "Drops": [],
+    "RivenAssimilation": 0.091
+  },
+  "Master": {
+    "MaxLife": 363,
+    "KBResist": 0.67999995,
+    "Coins": 12.0,
+    "Drops": [],
+    "RivenAssimilation": 0.105000004
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Riven_Mummy"
+}

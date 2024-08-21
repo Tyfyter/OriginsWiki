@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/MiscE/Cranivore",
+  "Name": "Cranivore",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 28,
+  "Defense": 5,
+  "KBResist": 0.19999999,
+  "Coins": 56.0,
+  "Drops": [],
+  "CorruptionAssimilation": 0.03,
+  "Expert": {
+    "MaxLife": 184,
+    "Defense": 15,
+    "KBResist": 0.35200006,
+    "Immunities": [],
+    "Coins": 335.0,
+    "Drops": [],
+    "CorruptionAssimilation": 0.038999997
+  },
+  "Master": {
+    "MaxLife": 276,
+    "Defense": 15,
+    "KBResist": 0.48799998,
+    "Immunities": [],
+    "Coins": 335.0,
+    "Drops": [],
+    "CorruptionAssimilation": 0.044999998
+  },
+  "SpriteWidth": 18,
+  "InternalName": "Cranivore"
+}

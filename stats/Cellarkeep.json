@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Dungeon/Cellarkeep",
+  "Name": "Cellarkeep",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 81,
+  "Defense": 10,
+  "KBResist": 0.5,
+  "Coins": 90.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 178,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 180.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 267,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 180.0,
+    "Drops": []
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Cellarkeep"
+}

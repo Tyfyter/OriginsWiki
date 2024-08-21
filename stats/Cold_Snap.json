@@ -10,9 +10,9 @@
   "Damage": 15,
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 4.0,
+  "Knockback": 3.0,
   "UseTime": 32,
-  "Velocity": 12.0,
+  "Velocity": 16.0,
   "Tooltip": [
     "Inflicts frostburn to struck enemies",
     "Uses canisters as ordinance"

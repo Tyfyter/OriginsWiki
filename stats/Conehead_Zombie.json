@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/MiscE/Conehead_Zombie",
+  "Name": "Conehead Zombie",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 45,
+  "Defense": 14,
+  "KBResist": 0.5,
+  "Coins": 60.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 198,
+    "Defense": 28,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 1440.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 297,
+    "Defense": 28,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 1440.0,
+    "Drops": []
+  },
+  "SpriteWidth": 34,
+  "InternalName": "Conehead_Zombie"
+}

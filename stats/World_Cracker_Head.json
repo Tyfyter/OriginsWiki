@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/World_Cracker/World_Cracker_Head",
+  "Name": "World Cracker",
+  "Types": [
+    "NPC",
+    "Boss"
+  ],
+  "MaxLife": 4000,
+  "Defense": 100,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 50000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 8000,
+    "Coins": 125000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 12000,
+    "Coins": 125000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 98,
+  "InternalName": "World_Cracker_Head"
+}

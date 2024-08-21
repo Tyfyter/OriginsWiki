@@ -4,7 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
+    "Expert",
     "Combat",
     "SummonBoostAcc"
   ],
@@ -17,7 +17,7 @@
     "+1 minion slot",
     "Summons an amoeba pellet to chase after enemies and slow them down for every minion slot you have"
   ],
-  "Rarity": "Master",
+  "Rarity": "Blue",
   "Sell": 60000,
   "SpriteWidth": 24,
   "InternalName": "Protozoa_Food"

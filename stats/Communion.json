@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Communion",
+  "Name": "Communion",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Wand"
+  ],
+  "ManaCost": 20,
+  "Damage": 47,
+  "DamageClass": "Magic",
+  "Knockback": 8.0,
+  "UseTime": 26,
+  "Velocity": 10.0,
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "SpriteWidth": 102,
+  "InternalName": "Communion"
+}

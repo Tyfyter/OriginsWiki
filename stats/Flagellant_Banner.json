@@ -1,0 +1,20 @@
+{
+  "Name": "Flagellant Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Flagellant",
+  "Rarity": "White",
+  "SpriteWidth": 12,
+  "InternalName": "Flagellant_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Flagellant_Banner_Item",
+    "Tiles/Flagellant_Banner"
+  ]
+}

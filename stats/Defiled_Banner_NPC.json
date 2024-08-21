@@ -1,0 +1,26 @@
+{
+  "Image": "Terraria/Images/Item_1",
+  "Name": "Defiled Antibodies",
+  "Types": [
+    "NPC"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Banner_NPC"
+}

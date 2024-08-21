@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Rivenator_Head",
+  "Name": "Mitoworm",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 634,
+  "Defense": 18,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 1000.0,
+  "Drops": [],
+  "RivenAssimilation": 0.06,
+  "Expert": {
+    "MaxLife": 1268,
+    "Coins": 2500.0,
+    "Drops": [],
+    "RivenAssimilation": 0.077999994
+  },
+  "Master": {
+    "MaxLife": 1902,
+    "Coins": 2500.0,
+    "Drops": [],
+    "RivenAssimilation": 0.089999996
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Rivenator_Head"
+}

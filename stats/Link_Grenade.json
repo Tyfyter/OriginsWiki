@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Link_Grenade",
+  "Name": "Link Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "SpendableWeapon"
+  ],
+  "Damage": 35,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 10.0,
+  "UseTime": 33,
+  "Velocity": 4.125,
+  "Tooltip": "Only explodes when another explosive detonates nearby or when its fuse runs out",
+  "Rarity": "Green",
+  "Sell": 35,
+  "SpriteWidth": 20,
+  "InternalName": "Link_Grenade"
+}

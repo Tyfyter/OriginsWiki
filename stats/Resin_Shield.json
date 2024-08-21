@@ -6,7 +6,8 @@
     "Accessory",
     "Hardmode",
     "Vitality",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek"
   ],
   "Defense": 3,
   "Tooltip": [

@@ -6,13 +6,12 @@
     "Weapon",
     "Launcher"
   ],
-  "Damage": 29,
+  "Damage": 23,
   "ArmorPenetration": 2,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 8.0,
   "Crit": 8,
   "UseTime": 1,
-  "Velocity": 16.0,
+  "Velocity": 15.0,
   "Tooltip": [
     "Charged shots can destroy tiles",
     "Uses scrap as ammo"

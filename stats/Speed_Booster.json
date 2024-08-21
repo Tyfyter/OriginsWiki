@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Speed_Booster",
+  "Name": "Speed Booster",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "Movement",
+    "RangedBoostAcc",
+    "GenericBoostAcc"
+  ],
+  "Damage": 30,
+  "DamageClass": "",
+  "Knockback": 2.0,
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "SpriteWidth": 24,
+  "InternalName": "Speed_Booster"
+}

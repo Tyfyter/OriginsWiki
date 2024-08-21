@@ -4,13 +4,17 @@
   "Types": [
     "Item",
     "Weapon",
-    "MinionSummoner"
+    "MinionWeapon",
+    "Minion"
   ],
   "ManaCost": 16,
   "Damage": 10,
   "DamageClass": "Summon",
   "UseTime": 36,
-  "Tooltip": "Summons a mini crimbrain to fight for you",
+  "Tooltip": [
+    "Summons a mini crimbrain to fight for you",
+    "Uses 2 minion slots"
+  ],
   "Rarity": "Blue",
   "Sell": 15000,
   "SpriteWidth": 80,

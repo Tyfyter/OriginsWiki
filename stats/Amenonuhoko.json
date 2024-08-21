@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Hardmode",
-    "Spear"
+    "Spear",
+    "ToxicSource"
   ],
   "Damage": 64,
   "DamageClass": "Melee",

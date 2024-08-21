@@ -3,13 +3,12 @@
   "Name": "Mojo Injection",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Misc"
   ],
+  "UseTime": 30,
   "Tooltip": "Slowly reduces assimilation",
   "Rarity": "LightRed",
-  "Sell": 20000,
+  "Sell": 800,
   "SpriteWidth": 24,
   "InternalName": "Mojo_Injection"
 }

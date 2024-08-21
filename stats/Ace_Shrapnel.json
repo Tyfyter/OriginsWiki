@@ -9,7 +9,6 @@
   "Damage": 18,
   "ArmorPenetration": 2,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 0.3,
   "UseTime": 1,
   "Velocity": 2.0,
   "Tooltip": "Uses scrap as ammo",

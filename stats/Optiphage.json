@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/MiscE/Optiphage",
+  "Name": "Optiphage",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 14,
+  "Defense": 2,
+  "KBResist": 0.19999999,
+  "Coins": 34.0,
+  "Drops": [],
+  "CorruptionAssimilation": 0.03,
+  "Expert": {
+    "MaxLife": 154,
+    "Defense": 10,
+    "KBResist": 0.35200006,
+    "Immunities": [],
+    "Coins": 340.0,
+    "Drops": [],
+    "CorruptionAssimilation": 0.038999997
+  },
+  "Master": {
+    "MaxLife": 231,
+    "Defense": 10,
+    "KBResist": 0.48799998,
+    "Immunities": [],
+    "Coins": 340.0,
+    "Drops": [],
+    "CorruptionAssimilation": 0.044999998
+  },
+  "SpriteWidth": 16,
+  "InternalName": "Optiphage"
+}

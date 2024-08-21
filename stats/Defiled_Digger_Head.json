@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Digger_Head",
+  "Name": "Defiled Digger",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 80,
+  "Defense": 8,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 140.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.06,
+  "Expert": {
+    "MaxLife": 176,
+    "Coins": 280.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.077999994
+  },
+  "Master": {
+    "MaxLife": 264,
+    "Coins": 280.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.089999996
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Defiled_Digger_Head"
+}

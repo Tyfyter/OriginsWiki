@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "ToxicSource"
   ],
   "Tooltip": [
     "5% increased damage and critical strike chance",

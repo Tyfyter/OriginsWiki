@@ -4,11 +4,11 @@
   "Types": [
     "Item",
     "Accessory",
-    "Expert",
+    "Master",
     "Combat"
   ],
   "Tooltip": "Amebic tentacles will protect you from projectiles",
-  "Rarity": "Expert",
+  "Rarity": "Master",
   "Sell": 20000,
   "SpriteWidth": 24,
   "InternalName": "Amebic_Vial"

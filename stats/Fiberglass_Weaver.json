@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/Fiberglass/Fiberglass_Weaver",
+  "Name": "Fiberglass Weaver",
+  "Types": [
+    "NPC",
+    "Boss"
+  ],
+  "MaxLife": 1400,
+  "Defense": 26,
+  "KBResist": 0.9,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link On Fire! | $default | $default]`",
+    "`[link Hellfire | $default | $default]`",
+    "`[link Incandescent Burn | $default | $default]`"
+  ],
+  "Coins": 150000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 2800,
+    "KBResist": 0.91,
+    "Coins": 375000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 4200,
+    "KBResist": 0.92,
+    "Coins": 375000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 68,
+  "InternalName": "Fiberglass_Weaver"
+}

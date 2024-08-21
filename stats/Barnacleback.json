@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Barnacleback",
+  "Name": "Barnacleback",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 40,
+  "KBResist": 0.25,
+  "Immunities": [
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 76.0,
+  "Drops": [],
+  "RivenAssimilation": 0.05,
+  "Expert": {
+    "MaxLife": 352,
+    "Defense": 0,
+    "KBResist": 0.32500005,
+    "Coins": 607.0,
+    "Drops": [],
+    "RivenAssimilation": 0.065
+  },
+  "Master": {
+    "MaxLife": 528,
+    "Defense": 0,
+    "KBResist": 0.39999998,
+    "Coins": 607.0,
+    "Drops": [],
+    "RivenAssimilation": 0.075
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Barnacleback"
+}

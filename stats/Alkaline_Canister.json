@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Alkaline_Canister",
+  "Name": "Alkaline Canister",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 30,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Rarity": "White",
+  "Sell": 302,
+  "SpriteWidth": 16,
+  "InternalName": "Alkaline_Canister"
+}

@@ -4,8 +4,9 @@
   "Types": [
     "Item",
     "Weapon",
+    "Handcannon",
     "Hardmode",
-    "HandCannon"
+    "Handcannon"
   ],
   "Damage": 80,
   "ArmorPenetration": 8,

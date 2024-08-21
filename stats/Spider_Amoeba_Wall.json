@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Spider_Amoeba_Wall",
+  "Name": "Spider Amoeba",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 81,
+  "Defense": 10,
+  "KBResist": 0.75,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 90.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 178,
+    "KBResist": 0.7975,
+    "Coins": 180.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 267,
+    "KBResist": 0.84,
+    "Coins": 180.0,
+    "Drops": []
+  },
+  "SpriteWidth": 68,
+  "InternalName": "Spider_Amoeba_Wall"
+}

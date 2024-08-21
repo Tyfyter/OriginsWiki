@@ -6,7 +6,7 @@
     "Accessory",
     "Combat"
   ],
-  "Damage": 40,
+  "Damage": 31,
   "DamageClass": "Explosive",
   "Knockback": 4.0,
   "UseTime": 6,

@@ -5,9 +5,10 @@
     "Item",
     "Weapon",
     "Ammo",
-    "ThrownExplosive",
-    "IsGrenade",
-    "SpendableWeapon"
+    "ThrownHardmodeExplosive",
+    "IsBomb",
+    "SpendableWeapon",
+    "ToxicSource"
   ],
   "Damage": 60,
   "DamageClass": "Explosive (thrown)",

@@ -12,6 +12,7 @@
   "DamageClass": "",
   "Knockback": 7.0,
   "UseTime": 48,
+  "Velocity": 4.0,
   "Tooltip": "You are Silenced, but the mouth will attack for you",
   "Rarity": "Cursed",
   "Sell": 20000,

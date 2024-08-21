@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Ekko",
+  "Name": "Defiled Ekko",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 26,
+  "KBResist": 0.65,
+  "Coins": 1500.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 440,
+    "KBResist": 0.71650004,
+    "Immunities": [],
+    "Coins": 7500.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 660,
+    "KBResist": 0.776,
+    "Immunities": [],
+    "Coins": 7500.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.06
+  },
+  "SpriteWidth": 28,
+  "InternalName": "Defiled_Ekko"
+}

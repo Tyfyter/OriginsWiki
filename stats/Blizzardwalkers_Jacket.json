@@ -7,7 +7,7 @@
     "Master",
     "MasterAcc"
   ],
-  "Tooltip": "The player will dodge their next attack as long as no enemies are nearby",
+  "Tooltip": "Become immune after some time away from enemies",
   "Rarity": "Master",
   "Sell": 20000,
   "SpriteWidth": 30,

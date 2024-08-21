@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Hardmode",
-    "MagicGun"
+    "MagicGun",
+    "ToxicSource"
   ],
   "ManaCost": 8,
   "Damage": 30,

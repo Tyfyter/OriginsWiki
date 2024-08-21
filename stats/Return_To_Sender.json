@@ -6,7 +6,7 @@
     "Accessory",
     "Combat"
   ],
-  "Tooltip": "Attackers receive all damage inflicted to the user",
+  "Tooltip": "Attackers receive all damage inflicted on the user",
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 20,

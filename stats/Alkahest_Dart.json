@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Alkahest_Dart",
+  "Name": "Alkahest Dart",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Dart",
+    "TornSource"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "Knockback": 2.2,
+  "Velocity": 3.0,
+  "Rarity": "Orange",
+  "Sell": 6,
+  "SpriteWidth": 14,
+  "InternalName": "Alkahest_Dart"
+}

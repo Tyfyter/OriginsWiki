@@ -7,7 +7,7 @@
     "Dart",
     "RasterSource"
   ],
-  "Damage": 9,
+  "Damage": 11,
   "DamageClass": "Ranged",
   "Knockback": 2.2,
   "Velocity": 3.0,

@@ -8,11 +8,9 @@
     "OtherMagic"
   ],
   "ManaCost": 18,
-  "Damage": 64,
-  "DamageClass": "Magic",
-  "Knockback": 3.0,
+  "Damage": 250,
+  "DamageClass": "Explosive Magic",
   "UseTime": 30,
-  "Velocity": 12.0,
   "Tooltip": [
     "Click on the portrait of the targeted enemy for a damage bonus",
     "'Let's demake some code...'"

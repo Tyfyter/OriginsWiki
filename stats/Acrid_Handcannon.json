@@ -4,8 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
+    "Handcannon",
     "Hardmode",
-    "HandCannon"
+    "Handcannon",
+    "ToxicSource"
   ],
   "Damage": 72,
   "ArmorPenetration": 6,

@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Plasma_Cutter",
+  "Name": "Plasma Cutter",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "MagicGun"
+  ],
+  "ManaCost": 28,
+  "Damage": 60,
+  "DamageClass": "Magic",
+  "Knockback": 6.0,
+  "UseTime": 30,
+  "Velocity": 9.0,
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 46,
+  "InternalName": "Plasma_Cutter"
+}

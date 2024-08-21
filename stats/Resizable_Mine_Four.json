@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_Four",
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Four",
   "Name": "Resizable Mine Mk. IV",
   "Types": [
     "Item",
@@ -9,8 +9,7 @@
   "ArmorPenetration": 4,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.3,
-  "UseTime": 45,
-  "Velocity": 4.8,
+  "Velocity": 0.6,
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Yellow",
   "Sell": 1300,

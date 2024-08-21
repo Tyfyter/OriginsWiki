@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Ancient_Defiled_Cyclops",
+  "Name": "Ancient Defiled Cyclops",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 12,
+  "KBResist": 0.5,
+  "Coins": 10000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 600,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 25000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 900,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 25000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 96,
+  "InternalName": "Ancient_Defiled_Cyclops"
+}

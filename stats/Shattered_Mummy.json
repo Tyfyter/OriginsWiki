@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Shattered_Mummy",
+  "Name": "Shattered Mummy",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 180,
+  "Defense": 18,
+  "KBResist": 0.5,
+  "Coins": 700.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 360,
+    "KBResist": 0.55,
+    "Immunities": [],
+    "Coins": 1750.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 540,
+    "KBResist": 0.6,
+    "Immunities": [],
+    "Coins": 1750.0,
+    "Drops": []
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Shattered_Mummy"
+}

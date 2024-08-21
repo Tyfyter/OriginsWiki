@@ -1,0 +1,26 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Sticky_Link_Grenade",
+  "Name": "Sticky Link Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "SpendableWeapon"
+  ],
+  "Damage": 35,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 10.0,
+  "UseTime": 33,
+  "Velocity": 4.125,
+  "Tooltip": [
+    "Only explodes when another explosive detonates nearby or when its fuse runs out",
+    "Can stick to enemies and tiles"
+  ],
+  "Rarity": "Green",
+  "Sell": 35,
+  "SpriteWidth": 20,
+  "InternalName": "Sticky_Link_Grenade"
+}

@@ -5,7 +5,8 @@
     "Item",
     "Weapon",
     "Hardmode",
-    "Artifact"
+    "Artifact",
+    "Minion"
   ],
   "ManaCost": 40,
   "Damage": 80,

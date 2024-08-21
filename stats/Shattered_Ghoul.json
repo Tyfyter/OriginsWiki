@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Shattered_Ghoul",
+  "Name": "Shattered Ghoul",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 280,
+  "Defense": 30,
+  "KBResist": 0.5,
+  "Coins": 650.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 560,
+    "KBResist": 0.55,
+    "Immunities": [],
+    "Coins": 1625.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 840,
+    "KBResist": 0.6,
+    "Immunities": [],
+    "Coins": 1625.0,
+    "Drops": []
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Shattered_Ghoul"
+}

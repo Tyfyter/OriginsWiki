@@ -13,7 +13,7 @@
   "DamageClass": "Explosive Melee",
   "Knockback": 4.0,
   "UseTime": 4,
-  "Velocity": 5.0,
+  "Velocity": 9.0,
   "Tooltip": [
     "Releases a barrage of canisters when swung",
     "60% chance not to consume ammo"

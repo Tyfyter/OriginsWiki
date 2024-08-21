@@ -1,0 +1,29 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/World_Cracker/World_Cracker_Tail",
+  "Name": "World Cracker",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 20,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 300.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 800,
+    "Coins": 1875.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1800,
+    "Coins": 1875.0,
+    "Drops": []
+  },
+  "SpriteWidth": 84,
+  "InternalName": "World_Cracker_Tail"
+}

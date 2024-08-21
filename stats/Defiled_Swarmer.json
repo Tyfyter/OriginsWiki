@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Swarmer",
+  "Name": "Defiled Swarmer",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 20,
+  "Defense": 8,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "DefiledAssimilation": 0.02,
+  "Expert": {
+    "MaxLife": 40,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.025999999
+  },
+  "Master": {
+    "MaxLife": 60,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.03
+  },
+  "SpriteWidth": 28,
+  "InternalName": "Defiled_Swarmer"
+}

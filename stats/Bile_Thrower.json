@@ -1,0 +1,29 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Bile_Thrower",
+  "Name": "Bile Thrower",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 70,
+  "Defense": 4,
+  "Coins": 500.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 616,
+    "Defense": 8,
+    "KBResist": 0.19000006,
+    "Immunities": [],
+    "Coins": 5000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1386,
+    "Defense": 8,
+    "KBResist": 0.35999995,
+    "Immunities": [],
+    "Coins": 5000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 28,
+  "InternalName": "Bile_Thrower"
+}

@@ -2,8 +2,7 @@
   "Image": "§ModImage§/Items/Other/Journal_Item",
   "Name": "Journal",
   "Types": [
-    "Item",
-    "Ammo"
+    "Item"
   ],
   "UseTime": 17,
   "Rarity": "Blue",

@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Counter_Offensive_Scarf",
+  "Name": "Counter Offensive Scarf",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Expert",
+    "Vitality",
+    "Combat",
+    "GenericBoostAcc"
+  ],
+  "Tooltip": [
+    "Reduces damage you take by up to 20% when enemies gain distance from you",
+    "Increases damage you deal by up to 10% when enemies draw near"
+  ],
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 28,
+  "InternalName": "Counter_Offensive_Scarf"
+}

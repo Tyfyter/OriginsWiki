@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/True_Waning_Crescent",
+  "Name": "True Waning Crescent",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Boomerang"
+  ],
+  "Damage": 73,
+  "DamageClass": "Melee",
+  "Knockback": 5.0,
+  "UseTime": 18,
+  "Velocity": 11.75,
+  "Rarity": "Orange",
+  "Sell": 5000,
+  "SpriteWidth": 34,
+  "InternalName": "True_Waning_Crescent"
+}

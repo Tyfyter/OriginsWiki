@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Pets/Fleshy_Globe",
+  "Name": "Fleshy Globe",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a Self Contained Universe to light your way",
+  "Rarity": "Cyan",
+  "Sell": 200000,
+  "SpriteWidth": 20,
+  "InternalName": "Fleshy_Globe"
+}

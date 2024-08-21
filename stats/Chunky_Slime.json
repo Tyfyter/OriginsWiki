@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Chunky_Slime",
+  "Name": "Chunky Slime",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 60,
+  "Defense": 6,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`"
+  ],
+  "Coins": 40.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.05,
+  "Expert": {
+    "MaxLife": 132,
+    "KBResist": 0.19000006,
+    "Coins": 80.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.065
+  },
+  "Master": {
+    "MaxLife": 198,
+    "KBResist": 0.35999995,
+    "Coins": 80.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.075
+  },
+  "SpriteWidth": 32,
+  "InternalName": "Chunky_Slime"
+}

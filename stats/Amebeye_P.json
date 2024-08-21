@@ -1,0 +1,29 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Amebeye_P",
+  "Name": "Amoebeye Bubble",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 90,
+  "KBResist": 0.99,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link Ichor | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "KBResist": 0.991,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "KBResist": 0.992,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 58,
+  "InternalName": "Amebeye_P"
+}

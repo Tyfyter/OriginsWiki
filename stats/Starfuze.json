@@ -1,15 +1,13 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Ammo/Starfuze",
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Starfuze",
   "Name": "Starfuze",
   "Types": [
     "Item",
     "Ammo",
     "Canistah"
   ],
-  "Damage": 5,
-  "DamageClass": "Ranged",
-  "Knockback": 2.0,
-  "Velocity": 3.0,
+  "Damage": 80,
+  "DamageClass": "Explosive Ranged",
   "Rarity": "Cyan",
   "Sell": 10000,
   "SpriteWidth": 16,

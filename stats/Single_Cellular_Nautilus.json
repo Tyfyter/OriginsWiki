@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Single_Cellular_Nautilus",
+  "Name": "Single-Cellular Nautilus",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 110,
+  "Defense": 31,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 450.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 242,
+    "KBResist": 0.100000024,
+    "Coins": 900.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 363,
+    "KBResist": 0.19999999,
+    "Coins": 900.0,
+    "Drops": []
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Single_Cellular_Nautilus"
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Amoebic Mummy Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Amoebic Mummy",
+  "Rarity": "White",
+  "SpriteWidth": 12,
+  "InternalName": "Riven_Mummy_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Riven_Mummy_Banner_Item",
+    "Tiles/Riven_Mummy_Banner"
+  ]
+}

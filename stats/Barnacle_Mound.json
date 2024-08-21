@@ -1,0 +1,25 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Barnacle_Mound",
+  "Name": "Barnacle Mound",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 90,
+  "Defense": 18,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 100.0,
+  "Drops": [],
+  "Expert": {
+    "Drops": []
+  },
+  "Master": {
+    "Drops": []
+  },
+  "SpriteWidth": 34,
+  "InternalName": "Barnacle_Mound"
+}

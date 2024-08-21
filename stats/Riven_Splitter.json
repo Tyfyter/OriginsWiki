@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
+    "HarpoonGun",
     "HarpoonGun"
   ],
   "Damage": 30,

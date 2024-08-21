@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Flagellant",
+  "Name": "Flagellant",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 135,
+  "Defense": 14,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 500.0,
+  "Drops": [],
+  "RivenAssimilation": 0.11,
+  "Expert": {
+    "MaxLife": 296,
+    "KBResist": 0.19000006,
+    "Coins": 1000.0,
+    "Drops": [],
+    "RivenAssimilation": 0.14299999
+  },
+  "Master": {
+    "MaxLife": 444,
+    "KBResist": 0.35999995,
+    "Coins": 1000.0,
+    "Drops": [],
+    "RivenAssimilation": 0.16499999
+  },
+  "SpriteWidth": 56,
+  "InternalName": "Flagellant"
+}

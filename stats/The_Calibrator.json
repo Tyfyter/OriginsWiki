@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/The_Calibrator",
+  "Name": "The Calibrator",
+  "Types": [
+    "Item",
+    "Weapon",
+    "MagicGun"
+  ],
+  "ManaCost": 10,
+  "Damage": 90,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 6,
+  "Velocity": 9.0,
+  "Rarity": "Green",
+  "Sell": 15000,
+  "SpriteWidth": 58,
+  "InternalName": "The_Calibrator"
+}

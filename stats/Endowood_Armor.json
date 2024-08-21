@@ -10,7 +10,7 @@
     "ArmorSets/Endowood_Armor_Female"
   ],
   "Defense": 5,
-  "SetBonus": "",
+  "SetBonus": "1 defense",
   "Rarity": "White",
   "Sell": 0
 }

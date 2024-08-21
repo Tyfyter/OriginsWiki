@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Pigron",
+  "Name": "Pigron",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 210,
+  "Defense": 16,
+  "KBResist": 0.5,
+  "Coins": 2000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 840,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 12500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1890,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 12500.0,
+    "Drops": []
+  },
+  "SpriteWidth": 90,
+  "InternalName": "Defiled_Pigron"
+}

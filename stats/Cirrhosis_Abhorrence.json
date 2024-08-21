@@ -7,7 +7,7 @@
     "Hardmode",
     "Combat"
   ],
-  "Tooltip": "5 of the closest enemies will be inflicted with Bleeding, On Fire, and Rasterize",
+  "Tooltip": "The five nearest enemies will be afflicted with Bleeding, On Fire, and Rasterized",
   "Rarity": "LightRed",
   "Sell": 20000,
   "SpriteWidth": 28,

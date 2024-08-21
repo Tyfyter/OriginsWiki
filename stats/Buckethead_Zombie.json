@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/NPCs/MiscE/Buckethead_Zombie",
+  "Name": "Buckethead Zombie",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 45,
+  "Defense": 28,
+  "KBResist": 0.5,
+  "Coins": 60.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 98,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 720.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 147,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 720.0,
+    "Drops": []
+  },
+  "SpriteWidth": 34,
+  "InternalName": "Buckethead_Zombie"
+}

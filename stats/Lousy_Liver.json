@@ -6,7 +6,7 @@
     "Accessory",
     "Combat"
   ],
-  "Tooltip": "Inflicts Rasterize to 4 nearby enemies",
+  "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
   "Rarity": "LightRed",
   "Sell": 10000,
   "SpriteWidth": 26,

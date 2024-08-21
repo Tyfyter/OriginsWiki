@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Ammo/Resizable_Mine_Five",
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Five",
   "Name": "Resizable Mine Mk. V",
   "Types": [
     "Item",
@@ -9,8 +9,7 @@
   "ArmorPenetration": 5,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.8,
-  "UseTime": 45,
-  "Velocity": 5.2,
+  "Velocity": 1.0,
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Cyan",
   "Sell": 2600,

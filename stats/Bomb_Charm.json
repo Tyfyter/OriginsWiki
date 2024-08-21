@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Vitality",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek"
   ],
   "Tooltip": "Reduces explosive self-damage by 15%",
   "Rarity": "Blue",

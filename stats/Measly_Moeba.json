@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Measly_Moeba",
+  "Name": "Measly 'Moeba",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 34,
+  "Defense": 4,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 20.0,
+  "Drops": [],
+  "RivenAssimilation": 0.05,
+  "Expert": {
+    "MaxLife": 148,
+    "Defense": 8,
+    "KBResist": 0.19000006,
+    "Coins": 80.0,
+    "Drops": [],
+    "RivenAssimilation": 0.065
+  },
+  "Master": {
+    "MaxLife": 222,
+    "Defense": 8,
+    "KBResist": 0.35999995,
+    "Coins": 80.0,
+    "Drops": [],
+    "RivenAssimilation": 0.075
+  },
+  "SpriteWidth": 18,
+  "InternalName": "Measly_Moeba"
+}

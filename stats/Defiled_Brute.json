@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Brute",
+  "Name": "Defiled Krusher",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 160,
+  "Defense": 9,
+  "KBResist": 0.5,
+  "Coins": 103.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.08,
+  "Expert": {
+    "MaxLife": 352,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 205.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.103999995
+  },
+  "Master": {
+    "MaxLife": 528,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 205.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.12
+  },
+  "SpriteWidth": 74,
+  "InternalName": "Defiled_Brute"
+}

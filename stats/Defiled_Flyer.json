@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Flyer",
+  "Name": "Defiled Phantom",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 48,
+  "Defense": 10,
+  "KBResist": 0.25,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 76.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.05,
+  "Expert": {
+    "MaxLife": 210,
+    "Defense": 20,
+    "KBResist": 0.32500005,
+    "Coins": 302.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.065
+  },
+  "Master": {
+    "MaxLife": 315,
+    "Defense": 20,
+    "KBResist": 0.39999998,
+    "Coins": 302.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.075
+  },
+  "SpriteWidth": 104,
+  "InternalName": "Defiled_Flyer"
+}

@@ -4,8 +4,10 @@
   "Types": [
     "Item",
     "Weapon",
+    "HarpoonGun",
     "Hardmode",
-    "HarpoonGun"
+    "HarpoonGun",
+    "ToxicSource"
   ],
   "Damage": 48,
   "DamageClass": "Ranged",

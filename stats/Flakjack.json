@@ -4,8 +4,9 @@
   "Types": [
     "Item",
     "Weapon",
+    "Handcannon",
     "Hardmode",
-    "OtherExplosive"
+    "Handcannon"
   ],
   "Damage": 192,
   "DamageClass": "Explosive Ranged",

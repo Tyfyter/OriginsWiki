@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Terrarang",
+  "Name": "Terrarang",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Hardmode",
+    "Boomerang"
+  ],
+  "Damage": 80,
+  "DamageClass": "Melee",
+  "Knockback": 8.0,
+  "UseTime": 10,
+  "Velocity": 16.0,
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 36,
+  "InternalName": "Terrarang"
+}

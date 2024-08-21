@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Cursed_Canister",
+  "Name": "Cursed Canister",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 27,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Rarity": "White",
+  "Sell": 302,
+  "SpriteWidth": 16,
+  "InternalName": "Cursed_Canister"
+}

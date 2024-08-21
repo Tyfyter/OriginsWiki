@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Bottomfeeder",
+  "Name": "Bottomfeeder",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 120,
+  "Defense": 7,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 500.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 264,
+    "KBResist": 0.19000006,
+    "Coins": 1000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 396,
+    "KBResist": 0.35999995,
+    "Coins": 1000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Bottomfeeder"
+}

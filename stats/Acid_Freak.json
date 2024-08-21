@@ -1,0 +1,25 @@
+{
+  "Image": "§ModImage§/NPCs/TownNPCs/Acid_Freak",
+  "Name": "Acid Freak",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 250,
+  "Defense": 15,
+  "KBResist": 0.5,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 40,
+  "InternalName": "Acid_Freak"
+}

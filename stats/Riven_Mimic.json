@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Riven_Mimic",
+  "Name": "Riven Mimic",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 3500,
+  "Defense": 34,
+  "KBResist": 0.9,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link On Fire! | $default | $default]`",
+    "`[link Confused | $default | $default]`",
+    "`[link Hellfire | $default | $default]`",
+    "`[link Incandescent Burn | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 30000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 7000,
+    "KBResist": 0.91,
+    "Coins": 75000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 10500,
+    "KBResist": 0.92,
+    "Coins": 75000.0,
+    "Drops": []
+  },
+  "SpriteWidth": 60,
+  "InternalName": "Riven_Mimic"
+}

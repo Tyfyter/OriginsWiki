@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Cyclops",
+  "Name": "Defiled Cyclops",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 110,
+  "Defense": 8,
+  "KBResist": 0.5,
+  "Coins": 90.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.08,
+  "Expert": {
+    "MaxLife": 242,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 180.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.103999995
+  },
+  "Master": {
+    "MaxLife": 363,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 180.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.12
+  },
+  "SpriteWidth": 52,
+  "InternalName": "Defiled_Cyclops"
+}

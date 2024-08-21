@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/NPCs/ICARUS/Swarmer",
+  "Name": "Swarmer",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 80,
+  "Defense": 3,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 352,
+    "Defense": 6,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 528,
+    "Defense": 6,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 18,
+  "InternalName": "Swarmer"
+}

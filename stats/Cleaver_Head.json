@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Cleaver_Head",
+  "Name": "Cleaver",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 50,
+  "Defense": 7,
+  "KBResist": 1.0,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 70.0,
+  "Drops": [],
+  "RivenAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 220,
+    "Defense": 14,
+    "Coins": 280.0,
+    "Drops": [],
+    "RivenAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 330,
+    "Defense": 14,
+    "Coins": 280.0,
+    "Drops": [],
+    "RivenAssimilation": 0.06
+  },
+  "SpriteWidth": 6,
+  "InternalName": "Cleaver_Head"
+}

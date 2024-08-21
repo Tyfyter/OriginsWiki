@@ -1,15 +1,14 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Ammo/Napalm_Canister",
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Napalm_Canister",
   "Name": "Napalm Canister",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Canistah"
   ],
   "Damage": 30,
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 4.0,
-  "Velocity": 4.1,
   "Tooltip": "Releases napalm after landing",
   "Rarity": "White",
   "Sell": 302,

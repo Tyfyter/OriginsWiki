@@ -5,7 +5,7 @@
     "Item",
     "Weapon",
     "Ammo",
-    "ThrownExplosive",
+    "ThrownHardmodeExplosive",
     "IsGrenade",
     "SpendableWeapon"
   ],

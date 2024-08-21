@@ -10,6 +10,7 @@
   "ArmorPenetration": 6,
   "DamageClass": "",
   "Knockback": 6.0,
+  "Tooltip": "Motes of dust will combust after taking damage",
   "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 20,

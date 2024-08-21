@@ -1,12 +1,27 @@
 {
-  "Image": "§ModImage§/Items/Other/Fish/Bug_Item",
+  "Image": "§ModImage§/NPCs/Critters/Bug",
   "Name": "Bug",
   "Types": [
-    "Item"
+    "NPC"
   ],
-  "UseTime": 10,
-  "Tooltip": "'Don't try to smash it, it'll make more problems'",
-  "Rarity": "White",
-  "SpriteWidth": 26,
-  "InternalName": "Bug_Item"
+  "MaxLife": 5,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 20,
+  "InternalName": "Bug"
 }

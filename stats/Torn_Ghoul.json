@@ -1,0 +1,29 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Torn_Ghoul",
+  "Name": "Torn Ghoul",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 240,
+  "Defense": 24,
+  "KBResist": 0.39999998,
+  "Immunities": [
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 650.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 480,
+    "KBResist": 0.45999998,
+    "Coins": 1625.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 720,
+    "KBResist": 0.52,
+    "Coins": 1625.0,
+    "Drops": []
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Torn_Ghoul"
+}

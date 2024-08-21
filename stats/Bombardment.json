@@ -11,7 +11,7 @@
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 6,
-  "Velocity": 9.0,
+  "Velocity": 13.0,
   "Tooltip": [
     "Fires a barrage of floating mines",
     "50% chance not to consume ammo"

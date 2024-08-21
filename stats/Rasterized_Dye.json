@@ -3,7 +3,7 @@
   "Name": "Rasterized Dye",
   "Types": [
     "Item",
-    "Dye"
+    "SpecialEffectDye"
   ],
   "Rarity": "Blue",
   "Sell": 2000,

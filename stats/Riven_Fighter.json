@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Riven_Fighter",
+  "Name": "Riven Protoform",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 81,
+  "Defense": 10,
+  "KBResist": 0.5,
+  "Immunities": [
+    "`[link Torn | $fromStats | $default]`"
+  ],
+  "Coins": 90.0,
+  "Drops": [],
+  "RivenAssimilation": 0.09,
+  "Expert": {
+    "MaxLife": 178,
+    "KBResist": 0.595,
+    "Coins": 180.0,
+    "Drops": [],
+    "RivenAssimilation": 0.117
+  },
+  "Master": {
+    "MaxLife": 267,
+    "KBResist": 0.67999995,
+    "Coins": 180.0,
+    "Drops": [],
+    "RivenAssimilation": 0.135
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Riven_Fighter"
+}

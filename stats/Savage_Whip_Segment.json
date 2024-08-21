@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/NPCs/Riven/Savage_Whip",
+  "Name": "Savage Whip",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 18,
+  "KBResist": 0.39999998,
+  "Immunities": [
+    "`[link Poisoned | $default | $default]`",
+    "`[link On Fire! | $default | $default]`",
+    "`[link Confused | $default | $default]`",
+    "`[link Hellfire | $default | $default]`",
+    "`[link Incandescent Burn | $default | $default]`",
+    "`[link Torn | $fromStats | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Coins": 1000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 400,
+    "KBResist": 0.45999998,
+    "Coins": 2500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 600,
+    "KBResist": 0.52,
+    "Coins": 2500.0,
+    "Drops": []
+  },
+  "SpriteWidth": 48,
+  "InternalName": "Savage_Whip_Segment"
+}

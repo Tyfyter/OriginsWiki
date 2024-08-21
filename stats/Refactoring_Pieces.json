@@ -1,5 +1,5 @@
 {
-  "Image": "Refactoring_Pieces",
+  "Image": "Images/Refactoring_Pieces",
   "Name": "Refactoring Pieces",
   "Types": [
     "Item",
@@ -9,10 +9,10 @@
     "ManaShielding"
   ],
   "Tooltip": [
-    "Increases mana shielding by 10%",
+    "Increases mana shielding by 10% if Lost Armor is equipped",
     "Reduces damage taken by 5% if Lost Armor is not equipped"
   ],
-  "Rarity": "Expert",
+  "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 30,
   "InternalName": "Refactoring_Pieces"
