@@ -964,10 +964,11 @@ function selectTab(container, tabNumber){
 }
 var evalItem;
 async function processSortableList(data){
+	console.log(`processing sortable list "${JSON.stringify(data)}"`);
 	if (!defaultStats) defaultStats = JSON.parse(await requestStats("Defaults"));
 	var result = '<thead><tr>';
 	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name', expr:'processLink(item.Name, "$fromStats")', sortIndex:'item.Name', noAbbr:true};
+		data.headers[0] = {name:'Name', expr:'processLinkWithID(item.Name, item.Name, "$fromStats")', sortIndex:'item.Name', noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
 		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
@@ -1009,6 +1010,7 @@ async function processSortableList(data){
 	}
 	result += '</tbody>';
 	//console.log(result);
+	console.log(`processed sortable list "${result}"`);
 	return result;
 }
 function clickSortableList(event, index){
@@ -1061,7 +1063,7 @@ async function substituteAutoSortableList(list){
 }
 
 async function processAutoSortableList(table, list){
-	console.log(`processing sortable list "${list}"`);
+	console.log(`processing automatic sortable list "${list}"`);
 	list = requestStats("statLists/" + list);
 	if (!list) {
 		table.innerHTML = `could not find statList ${list}`;
