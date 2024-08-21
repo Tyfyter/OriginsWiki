@@ -13,20 +13,24 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 70.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+  ],
   "RivenAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 220,
-    "Defense": 14,
-    "Coins": 280.0,
-    "Drops": [],
+    "MaxLife": 100,
+    "Coins": 175.0,
+    "Drops": [
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    ],
     "RivenAssimilation": 0.051999997
   },
   "Master": {
-    "MaxLife": 330,
-    "Defense": 14,
-    "Coins": 280.0,
-    "Drops": [],
+    "MaxLife": 150,
+    "Coins": 175.0,
+    "Drops": [
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    ],
     "RivenAssimilation": 0.06
   },
   "SpriteWidth": 6,

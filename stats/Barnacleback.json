@@ -10,22 +10,40 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 76.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bud Barnacle | $fromStats | $default | ]` - (2‒5) 100%",
+    "`[link Avulsion | $fromStats | $default | ]` - 2.703%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "RivenAssimilation": 0.05,
   "Expert": {
-    "MaxLife": 352,
+    "MaxLife": 80,
     "Defense": 0,
     "KBResist": 0.32500005,
-    "Coins": 607.0,
-    "Drops": [],
+    "Coins": 190.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (2‒5) 100%",
+      "`[link Avulsion | $fromStats | $default | ]` - 2.703%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.065
   },
   "Master": {
-    "MaxLife": 528,
+    "MaxLife": 120,
     "Defense": 0,
     "KBResist": 0.39999998,
-    "Coins": 607.0,
-    "Drops": [],
+    "Coins": 190.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (2‒5) 100%",
+      "`[link Avulsion | $fromStats | $default | ]` - 2.703%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.075
   },
   "SpriteWidth": 36,

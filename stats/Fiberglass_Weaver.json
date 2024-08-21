@@ -15,18 +15,47 @@
     "`[link Incandescent Burn | $default | $default]`"
   ],
   "Coins": 150000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Fiberglass Helmet | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Pauldrons | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Boots | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Weaver Head | $fromStats | $default | ]` - 10%"
+  ],
   "Expert": {
     "MaxLife": 2800,
     "KBResist": 0.91,
     "Coins": 375000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Treasure Bag (Fiberglass Weaver) | $fromStats | $default | This is an Expert Mode drop rate]` - 100%",
+      "§l§ `[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Entangled Energy | $fromStats | $default | ]` - 100%",
+      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+    ]
   },
   "Master": {
     "MaxLife": 4200,
     "KBResist": 0.92,
     "Coins": 375000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Treasure Bag (Fiberglass Weaver) | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
+      "§l§ `[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
+      "§L§ `[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
+      "§L§ `[link Entangled Energy | $fromStats | $default | ]` - 100%",
+      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%",
+      "`[link Fiberglass Dagger | $fromStats | $default | This is a Master Mode drop rate]` - 25%"
+    ]
   },
   "SpriteWidth": 68,
   "InternalName": "Fiberglass_Weaver"

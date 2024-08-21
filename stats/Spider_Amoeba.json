@@ -11,18 +11,36 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 90.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+    "`[link Ameballoon | $fromStats | $default | ]` - (3‒4) 100%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "Expert": {
-    "MaxLife": 178,
+    "MaxLife": 162,
     "KBResist": 0.595,
-    "Coins": 180.0,
-    "Drops": []
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒4) 100%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "Master": {
-    "MaxLife": 267,
+    "MaxLife": 243,
     "KBResist": 0.67999995,
-    "Coins": 180.0,
-    "Drops": []
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒4) 100%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "SpriteWidth": 72,
   "InternalName": "Spider_Amoeba"

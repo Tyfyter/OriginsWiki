@@ -8,20 +8,35 @@
   "Defense": 16,
   "KBResist": 0.5,
   "Coins": 2000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
+    "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
+    "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
+    "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+  ],
   "Expert": {
     "MaxLife": 840,
     "KBResist": 0.595,
     "Immunities": [],
     "Coins": 12500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
+      "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
+      "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
+      "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+    ]
   },
   "Master": {
     "MaxLife": 1890,
     "KBResist": 0.67999995,
     "Immunities": [],
     "Coins": 12500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
+      "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
+      "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
+      "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+    ]
   },
   "SpriteWidth": 90,
   "InternalName": "Defiled_Pigron"

@@ -8,20 +8,38 @@
   "Defense": 12,
   "KBResist": 0.5,
   "Coins": 10000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+    "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
+    "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
+    "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
+    "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+  ],
   "Expert": {
     "MaxLife": 600,
     "KBResist": 0.595,
     "Immunities": [],
     "Coins": 25000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+    ]
   },
   "Master": {
     "MaxLife": 900,
     "KBResist": 0.67999995,
     "Immunities": [],
     "Coins": 25000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+    ]
   },
   "SpriteWidth": 96,
   "InternalName": "Ancient_Defiled_Cyclops"

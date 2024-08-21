@@ -15,14 +15,14 @@
   "Drops": [],
   "DefiledAssimilation": 0.03,
   "Expert": {
-    "MaxLife": 880,
-    "Coins": 1500.0,
+    "MaxLife": 800,
+    "Coins": 1875.0,
     "Drops": [],
     "DefiledAssimilation": 0.038999997
   },
   "Master": {
-    "MaxLife": 1980,
-    "Coins": 1500.0,
+    "MaxLife": 1800,
+    "Coins": 1875.0,
     "Drops": [],
     "DefiledAssimilation": 0.044999998
   },

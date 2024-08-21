@@ -17,18 +17,24 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 1000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1%"
+  ],
   "Expert": {
     "MaxLife": 400,
     "KBResist": 0.45999998,
     "Coins": 2500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+    ]
   },
   "Master": {
     "MaxLife": 600,
     "KBResist": 0.52,
     "Coins": 2500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+    ]
   },
   "SpriteWidth": 48,
   "InternalName": "Savage_Whip"

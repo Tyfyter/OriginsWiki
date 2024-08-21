@@ -12,20 +12,38 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 500.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Jam Sandwich | $fromStats | $default | ]` - 5.882%",
+    "`[link Flagellash | $fromStats | $default | ]` - 4%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "RivenAssimilation": 0.11,
   "Expert": {
-    "MaxLife": 296,
+    "MaxLife": 270,
     "KBResist": 0.19000006,
-    "Coins": 1000.0,
-    "Drops": [],
+    "Coins": 1250.0,
+    "Drops": [
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 5.882%",
+      "`[link Flagellash | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.14299999
   },
   "Master": {
-    "MaxLife": 444,
+    "MaxLife": 405,
     "KBResist": 0.35999995,
-    "Coins": 1000.0,
-    "Drops": [],
+    "Coins": 1250.0,
+    "Drops": [
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 5.882%",
+      "`[link Flagellash | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.16499999
   },
   "SpriteWidth": 56,

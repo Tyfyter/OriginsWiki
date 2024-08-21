@@ -11,18 +11,30 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 20.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+  ],
   "Expert": {
-    "MaxLife": 96,
+    "MaxLife": 88,
     "KBResist": 0.100000024,
-    "Coins": 40.0,
-    "Drops": []
+    "Coins": 50.0,
+    "Drops": [
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "Master": {
-    "MaxLife": 144,
+    "MaxLife": 132,
     "KBResist": 0.19999999,
-    "Coins": 40.0,
-    "Drops": []
+    "Coins": 50.0,
+    "Drops": [
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "SpriteWidth": 34,
   "InternalName": "Defiled_Mite"

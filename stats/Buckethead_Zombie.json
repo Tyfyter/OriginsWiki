@@ -8,20 +8,29 @@
   "Defense": 28,
   "KBResist": 0.5,
   "Coins": 60.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Empty Bucket | $default | https://terraria.wiki.gg/wiki/Empty_Bucket]` - 10%",
+    "`[link Diamond | $default | https://terraria.wiki.gg/wiki/Diamond]` - 5%"
+  ],
   "Expert": {
-    "MaxLife": 98,
+    "MaxLife": 90,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 720.0,
-    "Drops": []
+    "Coins": 375.0,
+    "Drops": [
+      "`[link Empty Bucket | $default | https://terraria.wiki.gg/wiki/Empty_Bucket]` - 10%",
+      "`[link Diamond | $default | https://terraria.wiki.gg/wiki/Diamond]` - 5%"
+    ]
   },
   "Master": {
-    "MaxLife": 147,
+    "MaxLife": 135,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 720.0,
-    "Drops": []
+    "Coins": 375.0,
+    "Drops": [
+      "`[link Empty Bucket | $default | https://terraria.wiki.gg/wiki/Empty_Bucket]` - 10%",
+      "`[link Diamond | $default | https://terraria.wiki.gg/wiki/Diamond]` - 5%"
+    ]
   },
   "SpriteWidth": 34,
   "InternalName": "Buckethead_Zombie"

@@ -11,20 +11,41 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 90.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+    "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+    "`[link Symbiote Skull | $fromStats | $default | ]` - 2.5%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "RivenAssimilation": 0.09,
   "Expert": {
-    "MaxLife": 178,
+    "MaxLife": 162,
     "KBResist": 0.595,
-    "Coins": 180.0,
-    "Drops": [],
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+      "`[link Symbiote Skull | $fromStats | $default | ]` - 2.5%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.117
   },
   "Master": {
-    "MaxLife": 267,
+    "MaxLife": 243,
     "KBResist": 0.67999995,
-    "Coins": 180.0,
-    "Drops": [],
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+      "`[link Symbiote Skull | $fromStats | $default | ]` - 2.5%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.135
   },
   "SpriteWidth": 36,

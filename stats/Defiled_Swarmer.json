@@ -10,20 +10,32 @@
     "`[link Confused | $default | $default]`",
     "`[link Stunned | $fromStats | $default]`"
   ],
-  "Drops": [],
+  "Drops": [
+    "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
+    "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
+    "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+  ],
   "DefiledAssimilation": 0.02,
   "Expert": {
     "MaxLife": 40,
     "KBResist": 0.100000024,
     "Coins": 0.0,
-    "Drops": [],
+    "Drops": [
+      "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
+      "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
+      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+    ],
     "DefiledAssimilation": 0.025999999
   },
   "Master": {
     "MaxLife": 60,
     "KBResist": 0.19999999,
     "Coins": 0.0,
-    "Drops": [],
+    "Drops": [
+      "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
+      "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
+      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+    ],
     "DefiledAssimilation": 0.03
   },
   "SpriteWidth": 28,

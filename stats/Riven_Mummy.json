@@ -11,20 +11,41 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 7.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+    "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1%",
+    "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1%",
+    "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+    "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+    "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+  ],
   "RivenAssimilation": 0.07,
   "Expert": {
-    "MaxLife": 242,
+    "MaxLife": 220,
     "KBResist": 0.595,
-    "Coins": 12.0,
-    "Drops": [],
+    "Coins": 17.0,
+    "Drops": [
+      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+      "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1.99%",
+      "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1.99%",
+      "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+      "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+      "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+    ],
     "RivenAssimilation": 0.091
   },
   "Master": {
-    "MaxLife": 363,
+    "MaxLife": 330,
     "KBResist": 0.67999995,
-    "Coins": 12.0,
-    "Drops": [],
+    "Coins": 17.0,
+    "Drops": [
+      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+      "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1.99%",
+      "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1.99%",
+      "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+      "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+      "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+    ],
     "RivenAssimilation": 0.105000004
   },
   "SpriteWidth": 40,

@@ -14,16 +14,45 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 50000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Encrusted Ore | $fromStats | $default | ]` - (20‒330) 100%",
+    "`[link Riven Carapace | $fromStats | $default | ]` - (1‒134) 100%",
+    "`[link Teardown | $fromStats | $default | ]` - 50%",
+    "`[link Vorpal Sword | $fromStats | $default | ]` - 50%",
+    "`[link World Cracker Trophy | $fromStats | $default | ]` - 10%",
+    "`[link World Cracker Mask | $fromStats | $default | ]` - 10%"
+  ],
   "Expert": {
     "MaxLife": 8000,
     "Coins": 125000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Treasure Bag (World Cracker) | $fromStats | $default | This is an Expert Mode drop rate]` - 100%",
+      "§l§ `[link Encrusted Ore | $fromStats | $default | ]` - (20‒330) 100%",
+      "§L§ `[link Riven Carapace | $fromStats | $default | ]` - (1‒134) 100%",
+      "§L§ `[link Teardown | $fromStats | $default | ]` - 50%",
+      "§L§ `[link Vorpal Sword | $fromStats | $default | ]` - 50%",
+      "§L§ `[link World Cracker Trophy | $fromStats | $default | ]` - 10%",
+      "§L§ `[link World Cracker Mask | $fromStats | $default | ]` - 10%",
+      "§L§ `[link Protozoa Food | $fromStats | $default | ]` - 100%",
+      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+    ]
   },
   "Master": {
     "MaxLife": 12000,
     "Coins": 125000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Treasure Bag (World Cracker) | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
+      "§l§ `[link Encrusted Ore | $fromStats | $default | ]` - (20‒330) 100%",
+      "§L§ `[link Riven Carapace | $fromStats | $default | ]` - (1‒134) 100%",
+      "§L§ `[link Teardown | $fromStats | $default | ]` - 50%",
+      "§L§ `[link Vorpal Sword | $fromStats | $default | ]` - 50%",
+      "§L§ `[link World Cracker Trophy | $fromStats | $default | ]` - 10%",
+      "§L§ `[link World Cracker Mask | $fromStats | $default | ]` - 10%",
+      "§L§ `[link Protozoa Food | $fromStats | $default | ]` - 100%",
+      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%",
+      "`[link Amebic Vial | $fromStats | $default | This is a Master Mode drop rate]` - 25%",
+      "`[link World Cracker Relic | $fromStats | $default | This is a Master Mode drop rate]` - 100%"
+    ]
   },
   "SpriteWidth": 98,
   "InternalName": "World_Cracker_Head"

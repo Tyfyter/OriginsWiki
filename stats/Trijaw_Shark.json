@@ -12,18 +12,39 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 400.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Shark Fin | $default | https://terraria.wiki.gg/wiki/Shark_Fin]` - 12.5%",
+    "`[link Nachos | $default | https://terraria.wiki.gg/wiki/Nachos]` - 3.333%",
+    "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 4%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 4%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 4%"
+  ],
   "Expert": {
     "MaxLife": 900,
     "KBResist": 0.35200006,
     "Coins": 1000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Shark Fin | $default | https://terraria.wiki.gg/wiki/Shark_Fin]` - 12.5%",
+      "`[link Nachos | $default | https://terraria.wiki.gg/wiki/Nachos]` - 3.333%",
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 4%"
+    ]
   },
   "Master": {
     "MaxLife": 1350,
     "KBResist": 0.48799998,
     "Coins": 1000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Shark Fin | $default | https://terraria.wiki.gg/wiki/Shark_Fin]` - 12.5%",
+      "`[link Nachos | $default | https://terraria.wiki.gg/wiki/Nachos]` - 3.333%",
+      "`[link Jam Sandwich | $fromStats | $default | ]` - 6.25%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 4%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 4%"
+    ]
   },
   "SpriteWidth": 96,
   "InternalName": "Trijaw_Shark"

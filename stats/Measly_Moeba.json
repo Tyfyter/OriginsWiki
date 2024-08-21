@@ -12,22 +12,35 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 20.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Ameballoon | $fromStats | $default | ]` - (2‒4) 100%",
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "RivenAssimilation": 0.05,
   "Expert": {
-    "MaxLife": 148,
-    "Defense": 8,
+    "MaxLife": 68,
     "KBResist": 0.19000006,
-    "Coins": 80.0,
-    "Drops": [],
+    "Coins": 50.0,
+    "Drops": [
+      "`[link Ameballoon | $fromStats | $default | ]` - (2‒4) 100%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.065
   },
   "Master": {
-    "MaxLife": 222,
-    "Defense": 8,
+    "MaxLife": 102,
     "KBResist": 0.35999995,
-    "Coins": 80.0,
-    "Drops": [],
+    "Coins": 50.0,
+    "Drops": [
+      "`[link Ameballoon | $fromStats | $default | ]` - (2‒4) 100%",
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ],
     "RivenAssimilation": 0.075
   },
   "SpriteWidth": 18,

@@ -12,17 +12,15 @@
   "Coins": 500.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 660,
-    "Defense": 10,
+    "MaxLife": 300,
     "KBResist": 0.19000006,
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 1485,
-    "Defense": 10,
+    "MaxLife": 675,
     "KBResist": 0.35999995,
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": []
   },
   "SpriteWidth": 48,

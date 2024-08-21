@@ -12,18 +12,33 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 140.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+    "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+  ],
   "DefiledAssimilation": 0.06,
   "Expert": {
-    "MaxLife": 176,
-    "Coins": 280.0,
-    "Drops": [],
+    "MaxLife": 160,
+    "Coins": 350.0,
+    "Drops": [
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+    ],
     "DefiledAssimilation": 0.077999994
   },
   "Master": {
-    "MaxLife": 264,
-    "Coins": 280.0,
-    "Drops": [],
+    "MaxLife": 240,
+    "Coins": 350.0,
+    "Drops": [
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+    ],
     "DefiledAssimilation": 0.089999996
   },
   "SpriteWidth": 38,

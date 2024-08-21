@@ -17,18 +17,45 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 30000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Dew Justice | $fromStats | $default | ]` - 20%",
+    "`[link Dart Crossbow | $fromStats | $default | ]` - 20%",
+    "`[link Amoebash | $fromStats | $default | ]` - 20%",
+    "`[link Tainted Flesh | $fromStats | $default | ]` - 20%",
+    "`[link Amoeba Hook | $fromStats | $default | ]` - 20%",
+    "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
+    "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
+    "`[link Riven Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+  ],
   "Expert": {
     "MaxLife": 7000,
     "KBResist": 0.91,
     "Coins": 75000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Dew Justice | $fromStats | $default | ]` - 20%",
+      "`[link Dart Crossbow | $fromStats | $default | ]` - 20%",
+      "`[link Amoebash | $fromStats | $default | ]` - 20%",
+      "`[link Tainted Flesh | $fromStats | $default | ]` - 20%",
+      "`[link Amoeba Hook | $fromStats | $default | ]` - 20%",
+      "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
+      "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
+      "`[link Riven Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+    ]
   },
   "Master": {
     "MaxLife": 10500,
     "KBResist": 0.92,
     "Coins": 75000.0,
-    "Drops": []
+    "Drops": [
+      "`[link Dew Justice | $fromStats | $default | ]` - 20%",
+      "`[link Dart Crossbow | $fromStats | $default | ]` - 20%",
+      "`[link Amoebash | $fromStats | $default | ]` - 20%",
+      "`[link Tainted Flesh | $fromStats | $default | ]` - 20%",
+      "`[link Amoeba Hook | $fromStats | $default | ]` - 20%",
+      "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
+      "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
+      "`[link Riven Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+    ]
   },
   "SpriteWidth": 60,
   "InternalName": "Riven_Mimic"

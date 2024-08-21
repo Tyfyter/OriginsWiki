@@ -15,13 +15,13 @@
   "Coins": 300.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 880,
-    "Coins": 1500.0,
+    "MaxLife": 800,
+    "Coins": 1875.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 1980,
-    "Coins": 1500.0,
+    "MaxLife": 1800,
+    "Coins": 1875.0,
     "Drops": []
   },
   "SpriteWidth": 64,

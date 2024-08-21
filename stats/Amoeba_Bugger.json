@@ -14,16 +14,14 @@
   "Drops": [],
   "RivenAssimilation": 0.03,
   "Expert": {
-    "MaxLife": 198,
-    "Defense": 16,
+    "MaxLife": 90,
     "KBResist": 0.100000024,
     "Coins": 0.0,
     "Drops": [],
     "RivenAssimilation": 0.038999997
   },
   "Master": {
-    "MaxLife": 297,
-    "Defense": 16,
+    "MaxLife": 135,
     "KBResist": 0.19999999,
     "Coins": 0.0,
     "Drops": [],

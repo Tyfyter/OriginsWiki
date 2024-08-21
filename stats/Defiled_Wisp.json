@@ -760,18 +760,27 @@
     "`[link True Self | $default | $default]`"
   ],
   "Coins": 500.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Defiled Spirit | $fromStats | $default | ]` - (1‒2) 100%",
+    "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 25%"
+  ],
   "Expert": {
     "MaxLife": 24,
     "KBResist": 0.838,
     "Coins": 3125.0,
-    "Drops": []
+    "Drops": [
+      "`[link Defiled Spirit | $fromStats | $default | ]` - (1‒2) 100%",
+      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 25%"
+    ]
   },
   "Master": {
     "MaxLife": 36,
     "KBResist": 0.872,
     "Coins": 3125.0,
-    "Drops": []
+    "Drops": [
+      "`[link Defiled Spirit | $fromStats | $default | ]` - (1‒2) 100%",
+      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 25%"
+    ]
   },
   "SpriteWidth": 22,
   "InternalName": "Defiled_Wisp"

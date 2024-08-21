@@ -13,12 +13,18 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 100.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+  ],
   "Expert": {
-    "Drops": []
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+    ]
   },
   "Master": {
-    "Drops": []
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+    ]
   },
   "SpriteWidth": 34,
   "InternalName": "Barnacle_Mound"

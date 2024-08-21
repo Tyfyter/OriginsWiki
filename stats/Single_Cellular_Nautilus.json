@@ -12,18 +12,30 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 450.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+  ],
   "Expert": {
-    "MaxLife": 242,
+    "MaxLife": 220,
     "KBResist": 0.100000024,
-    "Coins": 900.0,
-    "Drops": []
+    "Coins": 1125.0,
+    "Drops": [
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "Master": {
-    "MaxLife": 363,
+    "MaxLife": 330,
     "KBResist": 0.19999999,
-    "Coins": 900.0,
-    "Drops": []
+    "Coins": 1125.0,
+    "Drops": [
+      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
+      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    ]
   },
   "SpriteWidth": 38,
   "InternalName": "Single_Cellular_Nautilus"

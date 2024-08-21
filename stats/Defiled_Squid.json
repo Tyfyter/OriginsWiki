@@ -12,16 +12,28 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 100.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
+    "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+    "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+  ],
   "Expert": {
     "MaxLife": 330,
-    "Coins": 1500.0,
-    "Drops": []
+    "Coins": 625.0,
+    "Drops": [
+      "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+    ]
   },
   "Master": {
     "MaxLife": 495,
-    "Coins": 1500.0,
-    "Drops": []
+    "Coins": 625.0,
+    "Drops": [
+      "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
+      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
+      "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+    ]
   },
   "SpriteWidth": 30,
   "InternalName": "Defiled_Squid"

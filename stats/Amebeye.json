@@ -13,18 +13,27 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 76.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
+    "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+  ],
   "Expert": {
     "MaxLife": 600,
     "KBResist": 0.32500005,
     "Coins": 190.0,
-    "Drops": []
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
+      "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+    ]
   },
   "Master": {
     "MaxLife": 900,
     "KBResist": 0.39999998,
     "Coins": 190.0,
-    "Drops": []
+    "Drops": [
+      "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
+      "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+    ]
   },
   "SpriteWidth": 72,
   "InternalName": "Amebeye"

@@ -8,20 +8,41 @@
   "Defense": 18,
   "KBResist": 0.5,
   "Coins": 700.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+    "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1%",
+    "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1%",
+    "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+    "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+    "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+  ],
   "Expert": {
     "MaxLife": 360,
     "KBResist": 0.55,
     "Immunities": [],
     "Coins": 1750.0,
-    "Drops": []
+    "Drops": [
+      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+      "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1.99%",
+      "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1.99%",
+      "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+      "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+      "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+    ]
   },
   "Master": {
     "MaxLife": 540,
     "KBResist": 0.6,
     "Immunities": [],
     "Coins": 1750.0,
-    "Drops": []
+    "Drops": [
+      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 10%",
+      "`[link Megaphone | $default | https://terraria.wiki.gg/wiki/Megaphone]` - 1.99%",
+      "`[link Blindfold | $default | https://terraria.wiki.gg/wiki/Blindfold]` - 1.99%",
+      "`[link Mummy Mask | $default | https://terraria.wiki.gg/wiki/Mummy_Mask]` - 1.333%",
+      "`[link Mummy Shirt | $default | https://terraria.wiki.gg/wiki/Mummy_Shirt]` - 1.333%",
+      "`[link Mummy Pants | $default | https://terraria.wiki.gg/wiki/Mummy_Pants]` - 1.333%"
+    ]
   },
   "SpriteWidth": 40,
   "InternalName": "Shattered_Mummy"

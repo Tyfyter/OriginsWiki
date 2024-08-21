@@ -16,18 +16,27 @@
     "`[link Stunned | $fromStats | $default]`"
   ],
   "Coins": 1000.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
+    "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1%"
+  ],
   "Expert": {
     "MaxLife": 350,
     "KBResist": 0.685,
     "Coins": 2500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
+      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+    ]
   },
   "Master": {
     "MaxLife": 525,
     "KBResist": 0.72,
     "Coins": 2500.0,
-    "Drops": []
+    "Drops": [
+      "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
+      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+    ]
   },
   "SpriteWidth": 76,
   "InternalName": "Enchanted_Trident"

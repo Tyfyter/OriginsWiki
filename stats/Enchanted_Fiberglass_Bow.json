@@ -14,20 +14,30 @@
     "`[link Incandescent Burn | $default | $default]`"
   ],
   "Coins": 400.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Unstrung Fiberglass Bow | $fromStats | $default | ]` - 10%",
+    "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
+    "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+  ],
   "Expert": {
-    "MaxLife": 418,
-    "Defense": 20,
+    "MaxLife": 190,
     "KBResist": 0.676,
-    "Coins": 4000.0,
-    "Drops": []
+    "Coins": 2500.0,
+    "Drops": [
+      "`[link Unstrung Fiberglass Bow | $fromStats | $default | ]` - 10%",
+      "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
+      "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+    ]
   },
   "Master": {
-    "MaxLife": 627,
-    "Defense": 20,
+    "MaxLife": 285,
     "KBResist": 0.74399996,
-    "Coins": 4000.0,
-    "Drops": []
+    "Coins": 2500.0,
+    "Drops": [
+      "`[link Unstrung Fiberglass Bow | $fromStats | $default | ]` - 10%",
+      "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
+      "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+    ]
   },
   "SpriteWidth": 18,
   "InternalName": "Enchanted_Fiberglass_Bow"

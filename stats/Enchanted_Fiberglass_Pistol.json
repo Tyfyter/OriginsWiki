@@ -14,20 +14,24 @@
     "`[link Incandescent Burn | $default | $default]`"
   ],
   "Coins": 400.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+  ],
   "Expert": {
-    "MaxLife": 250,
-    "Defense": 20,
+    "MaxLife": 114,
     "KBResist": 0.676,
-    "Coins": 4000.0,
-    "Drops": []
+    "Coins": 2500.0,
+    "Drops": [
+      "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+    ]
   },
   "Master": {
-    "MaxLife": 375,
-    "Defense": 20,
+    "MaxLife": 171,
     "KBResist": 0.74399996,
-    "Coins": 4000.0,
-    "Drops": []
+    "Coins": 2500.0,
+    "Drops": [
+      "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+    ]
   },
   "SpriteWidth": 38,
   "InternalName": "Enchanted_Fiberglass_Pistol"

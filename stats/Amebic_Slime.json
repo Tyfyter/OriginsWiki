@@ -11,22 +11,29 @@
     "`[link Torn | $fromStats | $default]`"
   ],
   "Coins": 40.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
+    "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+  ],
   "RivenAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 264,
-    "Defense": 10,
+    "MaxLife": 120,
     "KBResist": 0.19000006,
-    "Coins": 160.0,
-    "Drops": [],
+    "Coins": 100.0,
+    "Drops": [
+      "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    ],
     "RivenAssimilation": 0.051999997
   },
   "Master": {
-    "MaxLife": 396,
-    "Defense": 10,
+    "MaxLife": 180,
     "KBResist": 0.35999995,
-    "Coins": 160.0,
-    "Drops": [],
+    "Coins": 100.0,
+    "Drops": [
+      "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
+      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    ],
     "RivenAssimilation": 0.06
   },
   "SpriteWidth": 32,

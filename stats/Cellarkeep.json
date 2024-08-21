@@ -8,20 +8,26 @@
   "Defense": 10,
   "KBResist": 0.5,
   "Coins": 90.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+  ],
   "Expert": {
-    "MaxLife": 178,
+    "MaxLife": 162,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 180.0,
-    "Drops": []
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+    ]
   },
   "Master": {
-    "MaxLife": 267,
+    "MaxLife": 243,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 180.0,
-    "Drops": []
+    "Coins": 225.0,
+    "Drops": [
+      "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+    ]
   },
   "SpriteWidth": 40,
   "InternalName": "Cellarkeep"

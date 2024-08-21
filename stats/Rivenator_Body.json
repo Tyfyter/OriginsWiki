@@ -16,14 +16,14 @@
   "Drops": [],
   "RivenAssimilation": 0.06,
   "Expert": {
-    "MaxLife": 880,
-    "Coins": 1500.0,
+    "MaxLife": 800,
+    "Coins": 1875.0,
     "Drops": [],
     "RivenAssimilation": 0.077999994
   },
   "Master": {
-    "MaxLife": 1980,
-    "Coins": 1500.0,
+    "MaxLife": 1800,
+    "Coins": 1875.0,
     "Drops": [],
     "RivenAssimilation": 0.089999996
   },

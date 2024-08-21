@@ -8,14 +8,14 @@
   "KBResist": 1.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 88,
+    "MaxLife": 80,
     "Defense": 0,
     "Immunities": [],
     "Coins": 0.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 132,
+    "MaxLife": 120,
     "Defense": 0,
     "Immunities": [],
     "Coins": 0.0,

@@ -8,24 +8,31 @@
   "Defense": 2,
   "KBResist": 0.19999999,
   "Coins": 34.0,
-  "Drops": [],
+  "Drops": [
+    "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 20%",
+    "`[link Rotting Worm Staff | $fromStats | $default | ]` - 20%"
+  ],
   "CorruptionAssimilation": 0.03,
   "Expert": {
-    "MaxLife": 154,
-    "Defense": 10,
+    "MaxLife": 28,
     "KBResist": 0.35200006,
     "Immunities": [],
-    "Coins": 340.0,
-    "Drops": [],
+    "Coins": 85.0,
+    "Drops": [
+      "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 20%",
+      "`[link Rotting Worm Staff | $fromStats | $default | ]` - 20%"
+    ],
     "CorruptionAssimilation": 0.038999997
   },
   "Master": {
-    "MaxLife": 231,
-    "Defense": 10,
+    "MaxLife": 42,
     "KBResist": 0.48799998,
     "Immunities": [],
-    "Coins": 340.0,
-    "Drops": [],
+    "Coins": 85.0,
+    "Drops": [
+      "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 20%",
+      "`[link Rotting Worm Staff | $fromStats | $default | ]` - 20%"
+    ],
     "CorruptionAssimilation": 0.044999998
   },
   "SpriteWidth": 16,
