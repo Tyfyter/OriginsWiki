@@ -7,6 +7,16 @@
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
+  "Drops": [
+    "`[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
+    "`[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
+    "`[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
+    "`[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
+    "`[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
+    "`[link Entangled Energy | $fromStats | $default | ]` - 100%",
+    "`[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Fiberglass_Weaver_Bag"
 }

@@ -6,6 +6,15 @@
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Blue",
+  "Drops": [
+    "`[link Neural Network | $fromStats | $default | ]` - 20%",
+    "`[link Musket Ball | $default | https://terraria.wiki.gg/wiki/Musket_Ball]` - (100‒100) 20%",
+    "`[link Ace Shrapnel | $fromStats | $default | ]` - 20%",
+    "`[link Scrap | $fromStats | $default | ]` - (200‒200) 20%",
+    "`[link Area Denial | $fromStats | $default | ]` - 20%",
+    "`[link Smith's Hammer | $fromStats | $default | ]` - 20%",
+    "`[link Seal of Cinders | $fromStats | $default | ]` - 20%"
+  ],
   "SpriteWidth": 24,
   "InternalName": "Broken_Record"
 }

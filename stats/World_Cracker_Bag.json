@@ -7,6 +7,16 @@
   ],
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
+  "Drops": [
+    "`[link Encrusted Ore | $fromStats | $default | ]` - (20‒330) 100%",
+    "`[link Riven Carapace | $fromStats | $default | ]` - (1‒134) 100%",
+    "`[link Teardown | $fromStats | $default | ]` - 50%",
+    "`[link Vorpal Sword | $fromStats | $default | ]` - 50%",
+    "`[link World Cracker Trophy | $fromStats | $default | ]` - 10%",
+    "`[link World Cracker Mask | $fromStats | $default | ]` - 10%",
+    "`[link Protozoa Food | $fromStats | $default | ]` - 100%",
+    "`[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+  ],
   "SpriteWidth": 32,
   "InternalName": "World_Cracker_Bag"
 }
