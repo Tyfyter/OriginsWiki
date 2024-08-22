@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Rotor",
   "Name": "Rotor",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Pink",
   "Sell": 40,

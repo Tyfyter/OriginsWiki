@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Nova_Fragment",
   "Name": "Nova Fragment",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Cyan",
   "Sell": 2000,

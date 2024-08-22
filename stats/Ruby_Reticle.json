@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Combat"
   ],
   "Tooltip": "Critical strike chance is increased by 15% of weapon damage",

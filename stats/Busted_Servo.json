@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Busted_Servo",
   "Name": "Busted Servo",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Pink",
   "Sell": 200,

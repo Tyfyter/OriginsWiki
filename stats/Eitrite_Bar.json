@@ -2,6 +2,7 @@
   "Name": "Eitrite Bar",
   "Types": [
     "Item",
+    "Hardmode",
     "Tile"
   ],
   "PlacementSize": [

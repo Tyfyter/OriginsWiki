@@ -10,7 +10,7 @@
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
   "Tooltip": "Releases napalm after landing",
-  "Rarity": "White",
+  "Rarity": "Orange",
   "Sell": 302,
   "SpriteWidth": 16,
   "InternalName": "Napalm_Canister"

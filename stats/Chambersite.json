@@ -2,6 +2,7 @@
   "Name": "Chambersite",
   "Types": [
     "Item",
+    "Hardmode",
     "Tile"
   ],
   "PickReq": 35,

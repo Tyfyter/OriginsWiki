@@ -3,7 +3,8 @@
   "Name": "Resizable Mine Mk. I",
   "Types": [
     "Item",
-    "Ammo"
+    "Ammo",
+    "Canistah"
   ],
   "Damage": 14,
   "ArmorPenetration": 1,

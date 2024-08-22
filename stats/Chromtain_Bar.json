@@ -2,6 +2,7 @@
   "Name": "Chromtain Bar",
   "Types": [
     "Item",
+    "Hardmode",
     "Tile"
   ],
   "PlacementSize": [

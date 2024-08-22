@@ -3,7 +3,8 @@
   "Name": "Strange Computer",
   "Types": [
     "Item",
-    "Accessory"
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": "Displays the trajectory of projectiles from your selected item",
   "Rarity": "Pink",

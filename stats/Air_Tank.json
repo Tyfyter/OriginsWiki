@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Misc"
   ],
   "Tooltip": [

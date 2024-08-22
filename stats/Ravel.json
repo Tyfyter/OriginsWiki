@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Movement"
   ],
   "Tooltip": "Double tap down to transform into a small, rolling ball",

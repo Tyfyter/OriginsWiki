@@ -2,6 +2,7 @@
   "Name": "Formium Bar",
   "Types": [
     "Item",
+    "Hardmode",
     "Tile"
   ],
   "PlacementSize": [

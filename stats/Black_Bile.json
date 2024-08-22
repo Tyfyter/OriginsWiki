@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Black_Bile",
   "Name": "Black Bile",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Orange",
   "Sell": 1000,

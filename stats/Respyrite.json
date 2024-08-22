@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Respyrite",
   "Name": "Respyrite",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Orange",
   "Sell": 900,

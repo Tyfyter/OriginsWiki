@@ -3,8 +3,7 @@
   "Name": "Starfuze",
   "Types": [
     "Item",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 80,
   "DamageClass": "Explosive Ranged",

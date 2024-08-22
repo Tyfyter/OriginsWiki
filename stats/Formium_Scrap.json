@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Formium_Scrap",
   "Name": "Formium Scrap",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Purple",
   "Sell": 1000,

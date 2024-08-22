@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Power_Core",
   "Name": "Power Core",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Pink",
   "Sell": 2000,

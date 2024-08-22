@@ -3,13 +3,14 @@
   "Name": "Alkahest Canister",
   "Types": [
     "Item",
+    "Hardmode",
     "Ammo",
     "Canistah"
   ],
   "Damage": 30,
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Rarity": "White",
+  "Rarity": "LightRed",
   "Sell": 302,
   "SpriteWidth": 16,
   "InternalName": "Alkahest_Canister"

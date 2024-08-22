@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Combat"
   ],
   "Tooltip": "The four nearest enemies will be afflicted with Rasterized",

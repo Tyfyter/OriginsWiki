@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Alkahest",
   "Name": "Alkahest",
   "Types": [
-    "Item"
+    "Item",
+    "Hardmode"
   ],
   "Rarity": "Orange",
   "Sell": 900,

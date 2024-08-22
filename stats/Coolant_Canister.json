@@ -3,6 +3,7 @@
   "Name": "Coolant Canister",
   "Types": [
     "Item",
+    "Hardmode",
     "Ammo",
     "Canistah"
   ],
