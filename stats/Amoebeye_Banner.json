@@ -12,9 +12,9 @@
   "Tooltip": "Nearby players get a bonus against: Amoebeye",
   "Rarity": "White",
   "SpriteWidth": 12,
-  "InternalName": "Amebeye_Banner_Item",
+  "InternalName": "Amoebeye_Banner_Item",
   "Images": [
-    "§ModImage§/Tiles/Banners/Amebeye_Banner_Item",
-    "Tiles/Amebeye_Banner"
+    "§ModImage§/Tiles/Banners/Amoebeye_Banner_Item",
+    "Tiles/Amoebeye_Banner"
   ]
 }

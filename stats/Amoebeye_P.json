@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Amebeye_P",
+  "Image": "§ModImage§/NPCs/Riven/Amoebeye_P",
   "Name": "Amoebeye Bubble",
   "Types": [
     "NPC"
@@ -25,5 +25,5 @@
     "Drops": []
   },
   "SpriteWidth": 58,
-  "InternalName": "Amebeye_P"
+  "InternalName": "Amoebeye_P"
 }

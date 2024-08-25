@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Amebeye",
+  "Image": "§ModImage§/NPCs/Riven/Amoebeye",
   "Name": "Amoebeye",
   "Types": [
     "NPC"
@@ -36,5 +36,5 @@
     ]
   },
   "SpriteWidth": 72,
-  "InternalName": "Amebeye"
+  "InternalName": "Amoebeye"
 }
