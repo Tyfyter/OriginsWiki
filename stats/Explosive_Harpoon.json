@@ -10,7 +10,7 @@
   "DamageClass": "Ranged",
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Green",
-  "Sell": 3000,
+  "Sell": 900,
   "SpriteWidth": 24,
   "InternalName": "Explosive_Harpoon"
 }

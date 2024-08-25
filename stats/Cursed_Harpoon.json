@@ -10,7 +10,7 @@
   "DamageClass": "Ranged",
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Orange",
-  "Sell": 3000,
+  "Sell": 1000,
   "SpriteWidth": 26,
   "InternalName": "Cursed_Harpoon"
 }

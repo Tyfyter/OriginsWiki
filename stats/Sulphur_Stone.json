@@ -2,7 +2,6 @@
   "Name": "Dolomite",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PickReq": 200,

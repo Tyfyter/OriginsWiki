@@ -2,7 +2,6 @@
   "Name": "Dusklight",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

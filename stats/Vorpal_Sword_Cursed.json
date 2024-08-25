@@ -9,7 +9,7 @@
     "Sword",
     "Cursed"
   ],
-  "Damage": 17,
+  "Damage": 32,
   "ArmorPenetration": 9999,
   "DamageClass": "Melee",
   "UseTime": 17,

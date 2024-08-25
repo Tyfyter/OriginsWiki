@@ -2,7 +2,6 @@
   "Name": "Qube",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PickReq": 235,

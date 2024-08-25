@@ -10,11 +10,18 @@
     "RangedBoostAcc",
     "GenericBoostAcc"
   ],
-  "Damage": 30,
+  "Damage": 42,
   "DamageClass": "",
-  "Knockback": 2.0,
-  "Rarity": "LightRed",
-  "Sell": 40000,
+  "Knockback": 3.0,
+  "Tooltip": [
+    "The wearer can run super fast and even faster after taking damage",
+    "Allows the ability to climb walls and dash into enemies",
+    "Greatly increased movement speed and return speed for grapple hooks and harpoon guns",
+    "Gives a 10% chance to dodge attacks",
+    "Running fast for extended periods of time generates a charge for a powerful dash"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 140000,
   "SpriteWidth": 24,
   "InternalName": "Speed_Booster"
 }

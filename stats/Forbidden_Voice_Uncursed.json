@@ -13,6 +13,7 @@
   "Knockback": 4.0,
   "UseTime": 48,
   "Velocity": 4.0,
+  "Tooltip": "The mouth will spit at nearby enemies",
   "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 38,

@@ -8,11 +8,15 @@
     "MagicGun"
   ],
   "ManaCost": 28,
-  "Damage": 60,
+  "Damage": 27,
   "DamageClass": "Magic",
   "Knockback": 6.0,
   "UseTime": 30,
   "Velocity": 9.0,
+  "Tooltip": [
+    "Inflicts torn with increasing severities depending on how many of the three pulses hit the target",
+    "Torn severities are twice as effective for this weapon"
+  ],
   "Rarity": "Yellow",
   "Sell": 200000,
   "SpriteWidth": 46,

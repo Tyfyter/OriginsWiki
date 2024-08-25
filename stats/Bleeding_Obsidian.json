@@ -2,7 +2,6 @@
   "Name": "Bleeding Obsidian",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PickReq": 190,

@@ -12,6 +12,7 @@
   "DamageClass": "Explosive Ranged",
   "Knockback": 3.6,
   "Velocity": 0.3,
+  "Tooltip": "Inflicts frostburn to anything nearby upon impact",
   "Rarity": "Pink",
   "Sell": 880,
   "SpriteWidth": 16,

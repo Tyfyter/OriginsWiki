@@ -11,6 +11,7 @@
   "DamageClass": "Summon",
   "Knockback": 0.8,
   "UseTime": 26,
+  "Tooltip": "Summons a swarm of bees to your cursor",
   "Rarity": "Orange",
   "Sell": 15000,
   "SpriteWidth": 22,

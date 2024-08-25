@@ -5,6 +5,7 @@
     "Item",
     "SpecialEffectDye"
   ],
+  "Tooltip": "Makes things look quite shimmery",
   "Rarity": "Blue",
   "Sell": 2000,
   "SpriteWidth": 16,

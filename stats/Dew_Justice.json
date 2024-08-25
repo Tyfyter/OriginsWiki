@@ -13,6 +13,7 @@
   "Knockback": 8.0,
   "UseTime": 9,
   "Velocity": 12.0,
+  "Tooltip": "Amebic gel particulates rise from nearby surfaces to bombard your target",
   "Rarity": "Pink",
   "Sell": 80000,
   "SpriteWidth": 28,

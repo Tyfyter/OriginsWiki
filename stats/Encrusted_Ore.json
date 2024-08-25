@@ -2,7 +2,6 @@
   "Name": "Encrusted Ore",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

@@ -11,6 +11,7 @@
   "DamageClass": "Ranged",
   "Knockback": 2.2,
   "Velocity": 3.0,
+  "Tooltip": "Leaves a trail of alkahest behind it",
   "Rarity": "Orange",
   "Sell": 6,
   "SpriteWidth": 14,

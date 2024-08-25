@@ -4,16 +4,18 @@
   "Types": [
     "Item",
     "Weapon",
+    "Hardmode",
     "MagicGun"
   ],
-  "ManaCost": 10,
-  "Damage": 90,
+  "ManaCost": 16,
+  "Damage": 48,
   "DamageClass": "Magic",
   "Knockback": 4.75,
   "UseTime": 6,
   "Velocity": 9.0,
-  "Rarity": "Green",
-  "Sell": 15000,
+  "Tooltip": "Fires trackers that prompt a laser to fire upon colliding",
+  "Rarity": "Yellow",
+  "Sell": 200000,
   "SpriteWidth": 58,
   "InternalName": "The_Calibrator"
 }

@@ -15,6 +15,11 @@
   "Crit": 9,
   "UseTime": 27,
   "Velocity": 9.0,
+  "Tooltip": [
+    "Casts a spirit-bound mass of black bile that explodes into miniature wisps",
+    "Enemies struck by this weapon recieve a brief raster",
+    "Self-damage recieved from this weapon replenishes mana"
+  ],
   "Rarity": "Yellow",
   "Sell": 200000,
   "SpriteWidth": 28,

@@ -3,13 +3,13 @@
   "Name": "Fleshy Globe",
   "Types": [
     "Item",
-    "Hardmode"
+    "Master"
   ],
   "Damage": 0,
   "UseTime": 20,
   "Tooltip": "Summons a Self Contained Universe to light your way",
-  "Rarity": "Cyan",
-  "Sell": 200000,
+  "Rarity": "Master",
+  "Sell": 50000,
   "SpriteWidth": 20,
   "InternalName": "Fleshy_Globe"
 }

@@ -10,6 +10,7 @@
   "Damage": 27,
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
+  "Tooltip": "Releases a lingering cursed inferno in its wake",
   "Rarity": "LightRed",
   "Sell": 302,
   "SpriteWidth": 16,

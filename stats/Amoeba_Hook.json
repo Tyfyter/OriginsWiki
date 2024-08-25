@@ -8,6 +8,7 @@
   "Knockback": 7.0,
   "UseTime": 0,
   "Velocity": 18.0,
+  "Tooltip": "'Wibbly wobbly, time-y, wimey",
   "Rarity": "Blue",
   "Sell": 800,
   "SpriteWidth": 20,

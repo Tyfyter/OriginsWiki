@@ -2,7 +2,6 @@
   "Name": "Hardened Defiled Sand",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

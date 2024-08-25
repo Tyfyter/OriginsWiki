@@ -2,7 +2,6 @@
   "Name": "Lost Ore",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

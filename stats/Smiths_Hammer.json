@@ -2,14 +2,13 @@
   "Image": "§ModImage§/Items/Pets/Smiths_Hammer",
   "Name": "Smith's Hammer",
   "Types": [
-    "Item",
-    "Hardmode"
+    "Item"
   ],
   "Damage": 0,
   "UseTime": 20,
   "Tooltip": "Summons a Walking Furnace to light your way",
-  "Rarity": "Cyan",
-  "Sell": 200000,
+  "Rarity": "Blue",
+  "Sell": 15000,
   "SpriteWidth": 32,
   "InternalName": "Smiths_Hammer"
 }

@@ -2,7 +2,6 @@
   "Name": "Gray Ice",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [
