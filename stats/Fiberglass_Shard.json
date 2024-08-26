@@ -5,7 +5,7 @@
     "Item",
     "Weapon",
     "OtherRanged",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 12,
   "DamageClass": "Ranged",

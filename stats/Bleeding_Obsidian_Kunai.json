@@ -8,7 +8,7 @@
     "Torn",
     "TornSource",
     "OtherRanged",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 38,
   "DamageClass": "Ranged",

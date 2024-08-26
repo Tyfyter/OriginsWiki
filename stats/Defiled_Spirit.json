@@ -6,7 +6,7 @@
     "Weapon",
     "Ammo",
     "ThrownExplosive",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 16,
   "ArmorPenetration": 1,

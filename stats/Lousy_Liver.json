@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "RasterSource"
   ],
   "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
   "Rarity": "LightRed",

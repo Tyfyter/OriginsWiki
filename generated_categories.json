@@ -2377,14 +2377,21 @@
   "thrownexplosive": {
     "name": "Thrown explosives",
     "items": [
+      "Alkaline_Bomb",
+      "Alkaline_Grenade",
       "Ameballoon",
       "Bang_Snap",
+      "Black_Hole_Bomb",
       "Bloombomb",
       "Brainade",
+      "Chlorodynamite",
+      "Crystal_Bomb",
+      "Crystal_Grenade",
       "Defiled_Spirit",
       "Felnum_Shock_Grenade",
       "Flashbang",
       "Floaty_Bomb",
+      "Happy_Bomb",
       "Hellfire_Bomb",
       "Hellfire_Grenade",
       "Impact_Bomb",
@@ -2401,14 +2408,21 @@
   "prehardmodethrownexplosive": {
     "name": "Prehardmode thrown explosives",
     "items": [
+      "Alkaline_Bomb",
+      "Alkaline_Grenade",
       "Ameballoon",
       "Bang_Snap",
+      "Black_Hole_Bomb",
       "Bloombomb",
       "Brainade",
+      "Chlorodynamite",
+      "Crystal_Bomb",
+      "Crystal_Grenade",
       "Defiled_Spirit",
       "Felnum_Shock_Grenade",
       "Flashbang",
       "Floaty_Bomb",
+      "Happy_Bomb",
       "Hellfire_Bomb",
       "Hellfire_Grenade",
       "Impact_Bomb",
@@ -3483,7 +3497,6 @@
       "Eccentric_Stone",
       "Hazard_Charm",
       "Helium_Tank",
-      "Mojo_Injection",
       "Pincushion",
       "Rebreather",
       "Tripod_Nip",
@@ -3572,7 +3585,38 @@
   },
   "expendableweapon": {
     "name": "Expendable weapons",
-    "items": []
+    "items": [
+      "Alkaline_Bomb",
+      "Alkaline_Grenade",
+      "Ameballoon",
+      "Bang_Snap",
+      "Black_Hole_Bomb",
+      "Bleeding_Obsidian_Kunai",
+      "Bloombomb",
+      "Brainade",
+      "Chlorodynamite",
+      "Crystal_Bomb",
+      "Crystal_Grenade",
+      "Defiled_Spirit",
+      "Felnum_Shock_Grenade",
+      "Fiberglass_Shard",
+      "Flashbang",
+      "Floaty_Bomb",
+      "Happy_Bomb",
+      "Hellfire_Bomb",
+      "Hellfire_Grenade",
+      "Impact_Bomb",
+      "Impact_Dynamite",
+      "Impact_Grenade",
+      "Internal_Combustionfish",
+      "Link_Grenade",
+      "Omnidirectional_Claymore",
+      "Outbreak_Bomb",
+      "Peatball",
+      "Potato_Mine",
+      "Shrapnel_Bomb",
+      "Sticky_Link_Grenade"
+    ]
   },
   "expendabletool": {
     "name": "Expendable tools",
@@ -3580,7 +3624,9 @@
   },
   "permaboost": {
     "name": "Permanent Boosters",
-    "items": []
+    "items": [
+      "Mojo_Injection"
+    ]
   },
   "bosssummon": {
     "name": "Boss Summons",
@@ -3655,5 +3701,30 @@
   "hardmodemount": {
     "name": "Hardmode Mounts",
     "items": []
+  },
+  "rastersource": {
+    "name": "Raster source",
+    "items": [
+      "Bile_Arrow",
+      "Bile_Bullet",
+      "Bile_Dart",
+      "Cirrhosis_Abhorrence",
+      "Lousy_Liver"
+    ]
+  },
+  "toxicsource": {
+    "name": "Toxic source",
+    "items": [
+      "Acrid_Handcannon",
+      "Acrid_Impaler",
+      "Alkaline_Bomb",
+      "Alkaline_Grenade",
+      "Amenonuhoko",
+      "Chemical_Laser",
+      "Decaying_Scale",
+      "Nematoclaw",
+      "Olid_Organ",
+      "Unsought_Organ"
+    ]
   }
 }

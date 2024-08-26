@@ -6,7 +6,7 @@
     "Weapon",
     "ThrownExplosive",
     "IsDynamite",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 75,
   "ArmorPenetration": 3,

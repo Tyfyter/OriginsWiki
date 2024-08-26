@@ -5,7 +5,7 @@
     "Item",
     "Weapon",
     "ThrownExplosive",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 35,
   "ArmorPenetration": 7,

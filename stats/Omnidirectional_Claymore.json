@@ -6,7 +6,7 @@
     "Sword",
     "Tile",
     "OtherExplosive",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "PlacementSize": [
     1,

@@ -5,9 +5,9 @@
     "Item",
     "Weapon",
     "Ammo",
-    "ThrownHardmodeExplosive",
+    "ThrownExplosive",
     "IsGrenade",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 56,
   "ArmorPenetration": 3,

@@ -1,5 +1,5 @@
 {
-  "Name": "Riven Protoform Banner",
+  "Name": "{§Riven} Protoform Banner",
   "Types": [
     "Item",
     "Tile"
@@ -9,7 +9,7 @@
     3
   ],
   "UseTime": 10,
-  "Tooltip": "Nearby players get a bonus against: Riven Protoform",
+  "Tooltip": "Nearby players get a bonus against: {§Riven} Protoform",
   "Rarity": "White",
   "SpriteWidth": 12,
   "InternalName": "Riven_Fighter_Banner_Item",

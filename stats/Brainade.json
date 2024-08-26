@@ -7,7 +7,7 @@
     "Ammo",
     "ThrownExplosive",
     "IsGrenade",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 50,
   "DamageClass": "Explosive (thrown)",

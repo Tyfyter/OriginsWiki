@@ -4,9 +4,9 @@
   "Types": [
     "Item",
     "Weapon",
-    "ThrownHardmodeExplosive",
+    "ThrownExplosive",
     "IsDynamite",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 186,
   "DamageClass": "Explosive (thrown)",

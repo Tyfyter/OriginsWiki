@@ -5,7 +5,8 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Combat"
+    "Combat",
+    "RasterSource"
   ],
   "Tooltip": "The five nearest enemies will be afflicted with Bleeding, On Fire, and Rasterized",
   "Rarity": "LightRed",

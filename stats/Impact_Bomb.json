@@ -7,7 +7,7 @@
     "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "SpendableWeapon"
+    "ExpendableWeapon"
   ],
   "Damage": 45,
   "ArmorPenetration": 3,
