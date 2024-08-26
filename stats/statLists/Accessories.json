@@ -6,7 +6,7 @@
     "Name",
     "Source",
     "Tooltip",
-    { "name":"Obtainable pre-hardmode", "expr":"'<div class=\\'stat-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
+    { "name":"Obtainable pre-Hardmode", "expr":"'<div class=\\'stat-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
     { "name":"Visible on character", "expr":"item.VisualImage || '<div class=\\'stat-table-indicator\\'>❌</div>'" }
   ]
 }

@@ -482,5 +482,13 @@
   "toxicsource":{
     "name":"Toxic source",
     "items":"Types<ToxicSource"
+  },
+  "bar":{
+    "name":"Bars",
+    "items":"Types<Bar"
+  },
+  "ore":{
+    "name":"Ores",
+    "items":"Types<Ore"
   }
 }

@@ -11,5 +11,10 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 28,
-  "InternalName": "IWTPA_Standard"
+  "InternalName": "IWTPA_Standard",
+
+  "Source": [
+    "[link Undead Miner | | https://terraria.wiki.gg/wiki/Undead_Miner]",
+    "[link Demolitionist | | https://terraria.wiki.gg/wiki/Demolitionist]"
+  ]
 }

@@ -7,7 +7,6 @@
     "Name",
     "Defense",
     { "name":"Bonuses / Effects / Notes", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.effects)+'</div>'" },
-    "Source",
-    { "name":"Obtainable pre-Hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" }
+    "Source"
   ]
 }
