@@ -17,6 +17,7 @@
       "Acrid_Breastplate",
       "Acrid_Dome",
       "Acrid_Drill",
+      "Acrid_Dye",
       "Acrid_Greaves",
       "Acrid_Hamaxe",
       "Acrid_Handcannon",
@@ -33,8 +34,11 @@
       "Alkahest",
       "Alkahest_Arrow",
       "Alkahest_Bullet",
+      "Alkahest_Canister",
+      "Alkahest_Dart",
       "Alkahest_Torch",
       "Alkaline_Bomb",
+      "Alkaline_Canister",
       "Alkaline_Grenade",
       "Alkaline_Harpoon",
       "Amber_Armor",
@@ -45,13 +49,16 @@
       "Amber_Of_Embers",
       "Ambition_Potion",
       "Ameballoon",
+      "Amebic_Slime_Banner",
       "Amebic_Vial",
       "Amebolize_Incantation",
       "Amenonuhoko",
+      "Amoebash",
       "Amoeba_Buggy",
       "Amoeba_Fluid",
       "Amoeba_Hook",
       "Amoeba_Toy",
+      "Amoebeye_Banner",
       "Ancient_Defiled_Armor",
       "Ancient_Hallowed_Visage",
       "Ancient_Kruncher",
@@ -73,16 +80,20 @@
       "A_Perfect_World",
       "Bang_Snap",
       "Bark",
+      "Barnacleback_Banner",
+      "Barnacle_Bunny_Banner",
       "Baseball_Bat",
       "Batholith",
       "Batholith_Wall_Placed_Unsafe",
       "Batholith_Wall_Safe",
       "Bat_Hide",
+      "Bee_Afraid_Incantation",
       "Beginners_Tome",
       "Bileberry",
       "Bilemouth",
       "Bile_Arrow",
       "Bile_Bullet",
+      "Bile_Canister",
       "Bile_Dart",
       "Bile_Flask",
       "Bile_Torch",
@@ -126,10 +137,12 @@
       "Boomerang_Magnet",
       "Boomphracken",
       "Bottled_Brine",
+      "Bottomfeeder_Banner",
       "Bouncy_Explosive_Golf_Ball",
       "Bouncy_Harpoon",
       "Brainade",
       "Brainy_Staff",
+      "Breach",
       "Bread",
       "Brick_Breaker",
       "Brineglow",
@@ -156,11 +169,15 @@
       "Celestial_Mask",
       "Celestial_Starlight",
       "Celestial_Stone_Mask",
+      "Cellarkeep_Banner",
       "CFHES",
       "Chambersite",
       "Chambersite_Gemspark",
+      "Chambersite_Gemspark_Wall_Off_Safe",
+      "Chambersite_Gemspark_Wall_On_Safe",
       "Chambersite_Stone_Wall",
       "Chemical_Laser",
+      "Chew_Toy",
       "Chlorodynamite",
       "Chlorophyte_Armor",
       "Chlorophyte_Crown",
@@ -173,20 +190,26 @@
       "Chromtain_Greaves",
       "Chromtain_Helmet",
       "Chunky_Crate",
+      "Chunky_Hook",
       "Cicada_3301",
       "Cinder_Seal",
       "Cirrhosis_Abhorrence",
       "Cleansing_Station",
+      "Cleaver_Head_Banner",
       "Clubs_Ace",
       "Cold_Snap",
       "Comb",
       "Combat_Core",
+      "Communion",
       "Construction_Core",
       "Control_Locus",
+      "Coolant_Canister",
       "Coologne",
       "CORE_Generator",
       "Corruption_Loot_Box",
+      "Counter_Offensive_Scarf",
       "Cranivore_Beanie",
+      "Crimbrain_Banner",
       "Crimson_Loot_Box",
       "Crusty_Crate",
       "Cryosten_Armor",
@@ -197,10 +220,13 @@
       "Crystal_Bomb",
       "Crystal_Cutters",
       "Crystal_Grenade",
+      "Cursed_Canister",
       "Cursed_Crown",
       "Cursed_Harpoon",
       "Cyah_Nara",
       "Danger_Barrel",
+      "Dark_Spiral",
+      "Dart_Crossbow",
       "Dash_Ravel",
       "Dawn_Key",
       "DA_Mask",
@@ -216,6 +242,7 @@
       "Defiled_Amalgamation_Relic",
       "Defiled_Amalgamation_Trophy",
       "Defiled_Armor",
+      "Defiled_Banner_NPC_Banner",
       "Defiled_Bar",
       "Defiled_Breastplate",
       "Defiled_Campfire",
@@ -243,6 +270,7 @@
       "Depth_Charge",
       "Depth_Ravel",
       "Destructive_Claws",
+      "Dew_Justice",
       "Dim_Starlight",
       "Dismantler",
       "Dismay",
@@ -264,8 +292,10 @@
       "Eitrite_Ore",
       "Element36_Bundle",
       "Emergency_Bee_Canister",
+      "Enchanted_Trident_Banner",
       "Encrusted_Armor",
       "Encrusted_Bar",
+      "Encrusted_Brick",
       "Encrusted_Coat",
       "Encrusted_Mask",
       "Encrusted_Ore",
@@ -292,6 +322,7 @@
       "Endowood_Lamp",
       "Endowood_Lantern",
       "Endowood_Piano",
+      "Endowood_Platform",
       "Endowood_Sink",
       "Endowood_Sofa",
       "Endowood_Sword",
@@ -346,15 +377,19 @@
       "Fibron_Plating",
       "Firespit",
       "Fishing_Core",
+      "Flagellant_Banner",
       "Flagellash",
       "Flakjack",
       "Flammable_Harpoon",
+      "Flare_Launcher",
       "Flashbang",
       "Fleshy_Figurine",
+      "Fleshy_Globe",
       "Floaty_Bomb",
       "Focus_Crystal",
       "Focus_Potion",
       "Forbidden_Voice",
+      "Forbidden_Voice_Uncursed",
       "Formium_Bar",
       "Formium_Scrap",
       "Fragarach",
@@ -391,12 +426,14 @@
       "Hellfire_Bomb",
       "Hellfire_Grenade",
       "Hell_Key",
+      "Hemorang",
       "High_Contrast_Dye",
       "Hivateinn",
       "Holiday_Hair_Dye",
       "Honey_Bread",
       "Honey_Wheat_Bread",
       "Hot_Potato",
+      "Ichor_Canister",
       "Illegal_Explosive_Parts",
       "Impact_Bomb",
       "Impact_Dynamite",
@@ -405,6 +442,7 @@
       "Incision",
       "Infusion",
       "Innermost_Manifest",
+      "Internal_Combustionfish",
       "Invisible_Ink",
       "Irish_Cheddar",
       "IWTPA_Standard",
@@ -423,11 +461,13 @@
       "Lazy_Cloak",
       "Lifeforce_Core",
       "Lightning_Rod",
+      "Link_Grenade",
       "Locked_Defiled_Dungeon_Chest",
       "Locket_Necklace",
       "Longbone",
       "Lost_Armor",
       "Lost_Breastplate",
+      "Lost_Brick",
       "Lost_Helm",
       "Lost_Pants",
       "Lottery_Ticket",
@@ -548,6 +588,7 @@
       "Plague_Texan_Mask",
       "Plague_Texan_Sight",
       "Plague_Texan_Vanity",
+      "Plasma_Cutter",
       "Plasma_Phial",
       "Playtimes_Over",
       "Pneumatic_Bomb_Thrower",
@@ -568,6 +609,7 @@
       "Protozoa_Food",
       "Pullinsmash",
       "Purification_Potion",
+      "Pustule_Jelly_Banner",
       "Quantum_Cell",
       "Quantum_Injector",
       "Quartz",
@@ -603,6 +645,7 @@
       "Riven2_Mask",
       "Riven2_Pants",
       "Rivenator",
+      "Rivenator_Head_Banner",
       "Riven_Armor",
       "Riven_Cactus",
       "Riven_Campfire",
@@ -610,6 +653,7 @@
       "Riven_Coat",
       "Riven_Dungeon_Chest",
       "Riven_Dungeon_Chest_Placeholder",
+      "Riven_Fighter_Banner",
       "Riven_Flesh",
       "Riven_Flesh_Wall",
       "Riven_Fountain",
@@ -620,7 +664,10 @@
       "Riven_Lesion",
       "Riven_Loot_Box",
       "Riven_Mask",
+      "Riven_Mimic_Banner",
+      "Riven_Mummy_Banner",
       "Riven_Pants",
+      "Riven_Penguin_Banner",
       "Riven_Pot",
       "Riven_Splitter",
       "Riven_Torch",
@@ -639,6 +686,7 @@
       "Sapphire_Hood",
       "Sapphire_Tights",
       "Sapphire_Vest",
+      "Savage_Whip_Banner",
       "Scavenger_Armor",
       "Scavenger_Bag",
       "Scavenger_Breastplate",
@@ -654,15 +702,19 @@
       "Shardcannon",
       "Shattered_Stout",
       "Shield_of_Retribution",
+      "Shimmer_Dye",
+      "Shimmer_Rod",
       "Shotty_x2",
       "Shotty_x3",
       "Shrapnel_Bomb",
       "Shrap_Stack",
       "Silica",
       "Silicon",
+      "Single_Cellular_Nautilus_Banner",
       "Slashswarm",
       "Sleetfire",
       "SMART_Wrench",
+      "Smiths_Hammer",
       "Snapthrow",
       "Snatcher",
       "Snipers_Mark",
@@ -676,7 +728,9 @@
       "Soulhide_Helmet",
       "Soulspore",
       "Soul_Spaghetti",
+      "Speed_Booster",
       "Speed_Ravel",
+      "Spider_Amoeba_Banner",
       "Spider_Ravel",
       "Spiker_Sword",
       "Spirit_Shard",
@@ -687,6 +741,7 @@
       "Starfuze",
       "Startillery",
       "Stealth_Ravel",
+      "Sticky_Link_Grenade",
       "Stone_Mask",
       "Strainer",
       "Strange_Computer",
@@ -717,12 +772,14 @@
       "Tendon_Pants",
       "Tendon_Shirt",
       "Tendon_Tear",
+      "Terrarang",
       "Terrarian_Voodoo_Doll",
       "Test",
       "Thermite_Canister",
       "Thermite_Launcher",
       "The_Bird",
       "The_Button",
+      "The_Calibrator",
       "The_Defiled_Will",
       "Third_Eye",
       "Threemoepeater",
@@ -733,9 +790,12 @@
       "Traffic_Cone",
       "Trap_Charm",
       "Tree_Sap",
+      "Trijaw_Shark_Banner",
       "Triple_Threat",
       "Tripod_Nip",
       "True_Bomb_Yeeter",
+      "True_Light_Disc",
+      "True_Waning_Crescent",
       "Turbo_Reel",
       "Tyrfing",
       "Undead_Chunk",
@@ -749,6 +809,7 @@
       "Volatile_Charm",
       "Vorpal_Sword",
       "Vorpal_Sword_Cursed",
+      "Waning_Crescent",
       "WC_Mask",
       "Weakpoint_Analyzer",
       "White_Solution",
@@ -759,7 +820,8 @@
       "World_Cracker_Mask",
       "World_Cracker_Relic",
       "World_Cracker_Trophy",
-      "Wrycoral"
+      "Wrycoral",
+      "Ziptie"
     ]
   },
   "weapons": {
@@ -780,12 +842,14 @@
       "Ameballoon",
       "Amebolize_Incantation",
       "Amenonuhoko",
+      "Amoebash",
       "Ancient_Kruncher",
       "Area_Denial",
       "Astoxo",
       "Avulsion",
       "Bang_Snap",
       "Baseball_Bat",
+      "Bee_Afraid_Incantation",
       "Beginners_Tome",
       "Black_Hole_Bomb",
       "Bled_Out_Staff",
@@ -805,6 +869,7 @@
       "Bouncy_Explosive_Golf_Ball",
       "Brainade",
       "Brainy_Staff",
+      "Breach",
       "Brick_Breaker",
       "Broken_Fiberglass_Bow",
       "Broken_Fiberglass_Sword",
@@ -813,14 +878,18 @@
       "Chemical_Laser",
       "Chlorodynamite",
       "Cold_Snap",
+      "Communion",
       "Cryostrike",
       "Crystal_Bomb",
       "Crystal_Cutters",
       "Crystal_Grenade",
       "Cyah_Nara",
+      "Dark_Spiral",
+      "Dart_Crossbow",
       "Decimator",
       "Defiled_Spirit",
       "Depth_Charge",
+      "Dew_Justice",
       "Dismantler",
       "Dismay",
       "Dissector",
@@ -848,6 +917,7 @@
       "Firespit",
       "Flagellash",
       "Flakjack",
+      "Flare_Launcher",
       "Flashbang",
       "Floaty_Bomb",
       "Fragarach",
@@ -862,6 +932,7 @@
       "Haunted_Vase",
       "Hellfire_Bomb",
       "Hellfire_Grenade",
+      "Hemorang",
       "Hivateinn",
       "Hot_Potato",
       "Impact_Bomb",
@@ -871,11 +942,13 @@
       "Incision",
       "Infusion",
       "Innermost_Manifest",
+      "Internal_Combustionfish",
       "Joint_Pop",
       "Knee_Slapper",
       "Krakram",
       "Kruncher",
       "Laser_Tag_Gun",
+      "Link_Grenade",
       "Longbone",
       "Low_Signal",
       "Maelstrom_Incantation",
@@ -906,6 +979,7 @@
       "Personal_Laser_Blade",
       "Pike_of_Deepneus",
       "Piledriver",
+      "Plasma_Cutter",
       "Potato_Launcher",
       "Potato_Mine",
       "Pullinsmash",
@@ -920,6 +994,7 @@
       "Seam_Beam",
       "Self_Destruct",
       "Shardcannon",
+      "Shimmer_Rod",
       "Shotty_x2",
       "Shotty_x3",
       "Shrapnel_Bomb",
@@ -932,6 +1007,7 @@
       "Splitsplash",
       "Stabsmash",
       "Startillery",
+      "Sticky_Link_Grenade",
       "Strainer",
       "Sunflower_Seed_Shooter",
       "Switchblade_Broadsword",
@@ -939,20 +1015,26 @@
       "Teardown",
       "Telephone_Pole",
       "Tendon_Tear",
+      "Terrarang",
       "Test",
       "Thermite_Launcher",
       "The_Bird",
+      "The_Calibrator",
       "Threemoepeater",
       "Tiny_Sniper",
       "Tolruk",
       "Tones_Of_Agony",
       "Triple_Threat",
+      "True_Light_Disc",
+      "True_Waning_Crescent",
       "Tyrfing",
       "Viper_Rifle",
       "Vorpal_Sword",
       "Vorpal_Sword_Cursed",
+      "Waning_Crescent",
       "White_Water",
-      "Woodsprite_Staff"
+      "Woodsprite_Staff",
+      "Ziptie"
     ]
   },
   "melee": {
@@ -962,6 +1044,7 @@
       "Acrid_Hamaxe",
       "Acrid_Pickaxe",
       "Amenonuhoko",
+      "Amoebash",
       "Baseball_Bat",
       "Bone_Latcher",
       "Brick_Breaker",
@@ -969,6 +1052,7 @@
       "C6_Jackhammer",
       "Crystal_Cutters",
       "Cyah_Nara",
+      "Dark_Spiral",
       "Decimator",
       "Dismantler",
       "Dissector",
@@ -981,6 +1065,7 @@
       "Felnum_Pickaxe",
       "Fiberglass_Sword",
       "Fragarach",
+      "Hemorang",
       "Knee_Slapper",
       "Krakram",
       "Marrowick_Hammer",
@@ -1004,11 +1089,15 @@
       "Switchblade_Broadsword",
       "Switchblade_Shortsword",
       "Telephone_Pole",
+      "Terrarang",
       "The_Bird",
       "Triple_Threat",
+      "True_Light_Disc",
+      "True_Waning_Crescent",
       "Tyrfing",
       "Vorpal_Sword",
-      "Vorpal_Sword_Cursed"
+      "Vorpal_Sword_Cursed",
+      "Waning_Crescent"
     ]
   },
   "ranged": {
@@ -1017,6 +1106,7 @@
       "Acrid_Impaler",
       "Alkahest_Arrow",
       "Alkahest_Bullet",
+      "Alkahest_Dart",
       "Alkaline_Harpoon",
       "Ancient_Kruncher",
       "Astoxo",
@@ -1032,6 +1122,7 @@
       "Bouncy_Harpoon",
       "Broken_Fiberglass_Bow",
       "Cursed_Harpoon",
+      "Dart_Crossbow",
       "Dragons_Breath",
       "Endowood_Bow",
       "Explosive_Harpoon",
@@ -1059,7 +1150,6 @@
       "Shotty_x2",
       "Shotty_x3",
       "Sleetfire",
-      "Starfuze",
       "Sunflower_Seed_Shooter",
       "Tendon_Tear",
       "Thermite_Canister",
@@ -1076,7 +1166,9 @@
       "Avulsion",
       "Beginners_Tome",
       "Bled_Out_Staff",
+      "Communion",
       "Cryostrike",
+      "Dew_Justice",
       "Dismay",
       "Eternabrite",
       "Haunted_Vase",
@@ -1087,14 +1179,16 @@
       "Magic_Glove",
       "Magnus",
       "Manasynk",
-      "Missing_File",
       "Pike_of_Deepneus",
+      "Plasma_Cutter",
       "Rigged_Cubix",
       "Seam_Beam",
+      "Shimmer_Rod",
       "Slashswarm",
       "Splashid",
       "Splitsplash",
       "Test",
+      "The_Calibrator",
       "Tones_Of_Agony"
     ]
   },
@@ -1102,6 +1196,7 @@
     "name": "summon weapons",
     "items": [
       "Amebolize_Incantation",
+      "Bee_Afraid_Incantation",
       "Brainy_Staff",
       "Eyeball_Staff",
       "Flagellash",
@@ -1112,7 +1207,8 @@
       "SMART_Wrench",
       "Strange_Tooth",
       "Teardown",
-      "Woodsprite_Staff"
+      "Woodsprite_Staff",
+      "Ziptie"
     ]
   },
   "explosive": {
@@ -1122,11 +1218,14 @@
       "Ace_Shrapnel",
       "Ace_Shrapnel_Old",
       "Acrid_Handcannon",
+      "Alkahest_Canister",
       "Alkaline_Bomb",
+      "Alkaline_Canister",
       "Alkaline_Grenade",
       "Ameballoon",
       "Area_Denial",
       "Bang_Snap",
+      "Bile_Canister",
       "Black_Hole_Bomb",
       "Bloombomb",
       "Bombardment",
@@ -1136,13 +1235,16 @@
       "Boomphracken",
       "Bouncy_Explosive_Golf_Ball",
       "Brainade",
+      "Breach",
       "Caustica",
       "Chemical_Laser",
       "Chlorodynamite",
       "Cold_Snap",
+      "Coolant_Canister",
       "CORE_Generator",
       "Crystal_Bomb",
       "Crystal_Grenade",
+      "Cursed_Canister",
       "Defiled_Spirit",
       "Depth_Charge",
       "Dreikan",
@@ -1151,6 +1253,7 @@
       "Explosive_Golf_Ball",
       "Felnum_Shock_Grenade",
       "Flakjack",
+      "Flare_Launcher",
       "Flashbang",
       "Floaty_Bomb",
       "Grenado",
@@ -1159,17 +1262,21 @@
       "Happy_Bomb",
       "Hellfire_Bomb",
       "Hellfire_Grenade",
+      "Ichor_Canister",
       "Impact_Bomb",
       "Impact_Dynamite",
       "Impact_Golf_Ball",
       "Impact_Grenade",
       "Infusion",
+      "Internal_Combustionfish",
       "Joint_Pop",
+      "Link_Grenade",
       "Metal_Slug",
       "Meteor",
       "Mine_Flayer",
       "Missile_Armcannon",
       "Missile_Minigun",
+      "Missing_File",
       "Napalm_Canister",
       "Nova_Cascade",
       "Nova_Swarm",
@@ -1186,179 +1293,155 @@
       "Rocodile",
       "Self_Destruct",
       "Shrapnel_Bomb",
+      "Starfuze",
       "Startillery",
+      "Sticky_Link_Grenade",
       "Thermite_Launcher"
     ]
   },
   "armor": {
-    "name": "armor",
+    "name": "Armor sets",
     "items": [
       "Abysswalker_Armor",
-      "Abysswalker_Cloak",
-      "Abysswalker_Greaves",
-      "Abysswalker_Hood",
       "Acrid_Armor",
-      "Acrid_Breastplate",
-      "Acrid_Dome",
-      "Acrid_Greaves",
-      "Acrid_Headgear",
-      "Acrid_Helm",
-      "Acrid_Mask",
-      "Acrid_Visor",
       "Amber_Armor",
-      "Amber_Breastplate",
-      "Amber_Greaves",
-      "Amber_Helmet",
       "Ancient_Defiled_Armor",
       "Ancient_Hallowed_Visage",
       "Ancient_Riven_Armor",
       "Ashen_Armor",
-      "Ashen_Breastplate",
-      "Ashen_Greaves",
-      "Ashen_Helmet",
       "Blast_Armor",
-      "Blast_Breastplate",
-      "Blast_Greaves",
-      "Blast_Helmet",
       "Bleeding_Obsidian_Armor",
-      "Bleeding_Obsidian_Breastplate",
-      "Bleeding_Obsidian_Greaves",
-      "Bleeding_Obsidian_Helmet",
       "Chlorophyte_Armor",
       "Chlorophyte_Crown",
-      "Chlorophyte_Visage",
       "Chromtain_Armor",
-      "Chromtain_Breastplate",
-      "Chromtain_Greaves",
-      "Chromtain_Helmet",
       "Cranivore_Beanie",
       "Cryosten_Armor",
-      "Cryosten_Breastplate",
-      "Cryosten_Greaves",
-      "Cryosten_Helmet",
       "DA_Mask",
-      "Defiled2_Breastplate",
-      "Defiled2_Greaves",
-      "Defiled2_Helmet",
       "Defiled_Amalgamation_Mask",
       "Defiled_Armor",
-      "Defiled_Breastplate",
-      "Defiled_Greaves",
-      "Defiled_Helmet",
       "Encrusted_Armor",
-      "Encrusted_Coat",
-      "Encrusted_Mask",
-      "Encrusted_Pants",
       "Endowood_Armor",
-      "Endowood_Breastplate",
-      "Endowood_Greaves",
-      "Endowood_Helmet",
       "Explosive_Acrid_Armor",
       "Explosive_Hallowed_Armor",
       "Eyndum_Armor",
-      "Eyndum_Breastplate",
-      "Eyndum_Greaves",
-      "Eyndum_Helmet",
       "Felnum_Armor",
-      "Felnum_Breastplate",
-      "Felnum_Greaves",
-      "Felnum_Helmet",
       "Fiberglass_Armor",
-      "Fiberglass_Body",
-      "Fiberglass_Helmet",
-      "Fiberglass_Legs",
       "Fiberglass_Weaver_Head",
       "FW_Head",
       "Hallowed_Visage",
       "Lost_Armor",
-      "Lost_Breastplate",
-      "Lost_Helm",
-      "Lost_Pants",
       "Magic_Acrid_Armor",
       "Marrowick_Armor",
-      "Marrowick_Breastplate",
-      "Marrowick_Greaves",
-      "Marrowick_Helmet",
       "Melee_Acrid_Armor",
       "Mythic_Armor",
-      "Mythic_Leggings",
-      "Mythic_Shell",
-      "Mythic_Skull",
       "Necromancer_Armor",
-      "Necromancer_Breastplate",
-      "Necromancer_Greaves",
-      "Necromancer_Helmet",
       "Newsboy_Cap",
       "Nova_Armor",
-      "Nova_Breastplate",
-      "Nova_Greaves",
-      "Nova_Helmet",
-      "Plague_Texan_Jacket",
-      "Plague_Texan_Jeans",
-      "Plague_Texan_Mask",
       "Plague_Texan_Vanity",
       "Ranged_Acrid_Armor",
       "Rift_Armor",
-      "Rift_Breastplate",
-      "Rift_Greaves",
-      "Rift_Helmet",
       "Riptide_Armor",
-      "Riptide_Breastplate",
-      "Riptide_Greaves",
-      "Riptide_Helmet",
-      "Riven2_Coat",
-      "Riven2_Mask",
-      "Riven2_Pants",
       "Riven_Armor",
-      "Riven_Coat",
-      "Riven_Mask",
-      "Riven_Pants",
       "Sapphire_Armor",
-      "Sapphire_Hood",
-      "Sapphire_Tights",
-      "Sapphire_Vest",
       "Scavenger_Armor",
-      "Scavenger_Breastplate",
-      "Scavenger_Greaves",
-      "Scavenger_Helmet",
       "Soulhide_Armor",
-      "Soulhide_Coat",
-      "Soulhide_Guards",
-      "Soulhide_Helmet",
       "Summon_Acrid_Armor",
       "Sunflower_Sandal",
       "Tendon_Armor",
-      "Tendon_Helmet",
-      "Tendon_Pants",
-      "Tendon_Shirt",
       "WC_Mask",
       "World_Cracker_Mask"
     ]
+  },
+  "prehardmodearmor": {
+    "name": "Prehardmode Armor sets",
+    "items": [
+      "Abysswalker_Armor",
+      "Acrid_Armor",
+      "Amber_Armor",
+      "Ancient_Defiled_Armor",
+      "Ancient_Hallowed_Visage",
+      "Ancient_Riven_Armor",
+      "Ashen_Armor",
+      "Blast_Armor",
+      "Bleeding_Obsidian_Armor",
+      "Chlorophyte_Armor",
+      "Chlorophyte_Crown",
+      "Chromtain_Armor",
+      "Cranivore_Beanie",
+      "Cryosten_Armor",
+      "DA_Mask",
+      "Defiled_Amalgamation_Mask",
+      "Defiled_Armor",
+      "Encrusted_Armor",
+      "Endowood_Armor",
+      "Explosive_Acrid_Armor",
+      "Explosive_Hallowed_Armor",
+      "Eyndum_Armor",
+      "Felnum_Armor",
+      "Fiberglass_Armor",
+      "Fiberglass_Weaver_Head",
+      "FW_Head",
+      "Hallowed_Visage",
+      "Lost_Armor",
+      "Magic_Acrid_Armor",
+      "Marrowick_Armor",
+      "Melee_Acrid_Armor",
+      "Mythic_Armor",
+      "Necromancer_Armor",
+      "Newsboy_Cap",
+      "Nova_Armor",
+      "Plague_Texan_Vanity",
+      "Ranged_Acrid_Armor",
+      "Rift_Armor",
+      "Riptide_Armor",
+      "Riven_Armor",
+      "Sapphire_Armor",
+      "Scavenger_Armor",
+      "Soulhide_Armor",
+      "Summon_Acrid_Armor",
+      "Sunflower_Sandal",
+      "Tendon_Armor",
+      "WC_Mask",
+      "World_Cracker_Mask"
+    ]
+  },
+  "hardmodearmor": {
+    "name": "Hardmode Armor sets",
+    "items": []
   },
   "tile": {
     "name": "tile",
     "items": [
       "Alkahest_Torch",
+      "Amebic_Slime_Banner",
       "Amoeba_Fluid",
+      "Amoebeye_Banner",
       "Angelic_Cloud",
       "A_Perfect_World",
+      "Barnacleback_Banner",
+      "Barnacle_Bunny_Banner",
       "Batholith",
       "Bile_Torch",
       "Bilious_Crate",
       "Bleeding_Obsidian",
+      "Bottomfeeder_Banner",
       "Brineglow_Debug",
       "Brittle_Quartz",
       "Carburite",
+      "Cellarkeep_Banner",
       "Chambersite",
       "Chambersite_Gemspark",
       "Chromtain_Bar",
       "Chunky_Crate",
       "Cleansing_Station",
+      "Cleaver_Head_Banner",
+      "Crimbrain_Banner",
       "Crusty_Crate",
       "DA_Trophy",
       "Defiled_Altar",
       "Defiled_Amalgamation_Relic",
       "Defiled_Amalgamation_Trophy",
+      "Defiled_Banner_NPC_Banner",
       "Defiled_Bar",
       "Defiled_Campfire",
       "Defiled_Dungeon_Chest",
@@ -1377,7 +1460,9 @@
       "Eden_Wood",
       "Eitrite_Bar",
       "Eitrite_Ore",
+      "Enchanted_Trident_Banner",
       "Encrusted_Bar",
+      "Encrusted_Brick",
       "Encrusted_Ore",
       "Endowood",
       "Endowood_Bathtub",
@@ -1394,6 +1479,7 @@
       "Endowood_Lamp",
       "Endowood_Lantern",
       "Endowood_Piano",
+      "Endowood_Platform",
       "Endowood_Sink",
       "Endowood_Sofa",
       "Endowood_Table",
@@ -1403,6 +1489,7 @@
       "Felnum_Ore",
       "Festering_Crate",
       "Fiberglass",
+      "Flagellant_Banner",
       "Formium_Bar",
       "Gel_Blister",
       "Genesis_Grass_Seeds",
@@ -1410,6 +1497,7 @@
       "Harmony_Brick",
       "Laser_Tag_Console",
       "Locked_Defiled_Dungeon_Chest",
+      "Lost_Brick",
       "Marrowick",
       "Marrowick_Bathtub",
       "Marrowick_Bed",
@@ -1436,23 +1524,33 @@
       "Omnidirectional_Claymore",
       "Potato_Mine",
       "Primordial_Permafrost",
+      "Pustule_Jelly_Banner",
       "Quartz",
       "Qube",
+      "Rivenator_Head_Banner",
       "Riven_Cactus",
       "Riven_Campfire",
       "Riven_Dungeon_Chest",
+      "Riven_Fighter_Banner",
       "Riven_Flesh",
       "Riven_Fountain",
       "Riven_Grass_Seeds",
       "Riven_Lesion",
+      "Riven_Mimic_Banner",
+      "Riven_Mummy_Banner",
+      "Riven_Penguin_Banner",
       "Riven_Pot",
       "Riven_Torch",
       "Sanguinite_Bar",
       "Sanguinite_Ore",
+      "Savage_Whip_Banner",
       "Silica",
       "Silicon",
+      "Single_Cellular_Nautilus_Banner",
+      "Spider_Amoeba_Banner",
       "Sulphur_Stone",
       "Traffic_Cone",
+      "Trijaw_Shark_Banner",
       "World_Cracker_Relic",
       "World_Cracker_Trophy"
     ]
@@ -1496,6 +1594,7 @@
       "Control_Locus",
       "Coologne",
       "CORE_Generator",
+      "Counter_Offensive_Scarf",
       "Cursed_Crown",
       "Danger_Barrel",
       "Dash_Ravel",
@@ -1519,6 +1618,7 @@
       "Fleshy_Figurine",
       "Focus_Crystal",
       "Forbidden_Voice",
+      "Forbidden_Voice_Uncursed",
       "Futurephones",
       "Grave_Danger",
       "Grenade_Tube",
@@ -1547,7 +1647,6 @@
       "Messy_Magma_Leech",
       "Missile_Armcannon",
       "Mitosis",
-      "Mojo_Injection",
       "Music_Box_DC",
       "Music_Box_DW",
       "Music_Box_RH",
@@ -1586,6 +1685,7 @@
       "Sonar_Visor",
       "Sonic_Radar",
       "SOTH",
+      "Speed_Booster",
       "Speed_Ravel",
       "Spider_Ravel",
       "Spirit_Shard",
@@ -1640,6 +1740,717 @@
       "Astoxo"
     ]
   },
+  "sword": {
+    "name": "Swords",
+    "items": [
+      "Acrid_Hamaxe",
+      "Acrid_Pickaxe",
+      "Amoebash",
+      "Baseball_Bat",
+      "Brick_Breaker",
+      "Broken_Fiberglass_Sword",
+      "Crystal_Cutters",
+      "Cyah_Nara",
+      "Dismantler",
+      "Dissector",
+      "Endowood_Hammer",
+      "Endowood_Sword",
+      "Eyndum_Scar",
+      "Felnum_Hamaxe",
+      "Felnum_Pickaxe",
+      "Fiberglass_Sword",
+      "Fragarach",
+      "Marrowick_Hammer",
+      "Marrowick_Sword",
+      "Miter_Saw",
+      "Nematoclaw",
+      "Omnidirectional_Claymore",
+      "Personal_Laser_Blade",
+      "Potato_Mine",
+      "Pullinsmash",
+      "Rivenator",
+      "Spiker_Sword",
+      "Stabsmash",
+      "Switchblade_Broadsword",
+      "Switchblade_Shortsword",
+      "Telephone_Pole",
+      "The_Bird",
+      "Tyrfing",
+      "Vorpal_Sword",
+      "Vorpal_Sword_Cursed"
+    ]
+  },
+  "prehardmodesword": {
+    "name": "Prehardmode Swords",
+    "items": [
+      "Baseball_Bat",
+      "Brick_Breaker",
+      "Broken_Fiberglass_Sword",
+      "Cyah_Nara",
+      "Dismantler",
+      "Dissector",
+      "Endowood_Hammer",
+      "Endowood_Sword",
+      "Felnum_Hamaxe",
+      "Felnum_Pickaxe",
+      "Fiberglass_Sword",
+      "Marrowick_Hammer",
+      "Marrowick_Sword",
+      "Miter_Saw",
+      "Omnidirectional_Claymore",
+      "Potato_Mine",
+      "Pullinsmash",
+      "Rivenator",
+      "Spiker_Sword",
+      "Stabsmash",
+      "Switchblade_Broadsword",
+      "Switchblade_Shortsword",
+      "The_Bird",
+      "Vorpal_Sword",
+      "Vorpal_Sword_Cursed"
+    ]
+  },
+  "hardmodesword": {
+    "name": "Hardmode Swords",
+    "items": [
+      "Acrid_Hamaxe",
+      "Acrid_Pickaxe",
+      "Amoebash",
+      "Crystal_Cutters",
+      "Eyndum_Scar",
+      "Fragarach",
+      "Nematoclaw",
+      "Personal_Laser_Blade",
+      "Telephone_Pole",
+      "Tyrfing"
+    ]
+  },
+  "spear": {
+    "name": "Spears",
+    "items": [
+      "Amenonuhoko",
+      "Decimator",
+      "Felnum_Boar_Spear",
+      "Outreach",
+      "Ripper_Lance"
+    ]
+  },
+  "prehardmodespear": {
+    "name": "Prehardmode Spears",
+    "items": [
+      "Decimator",
+      "Felnum_Boar_Spear",
+      "Outreach",
+      "Ripper_Lance"
+    ]
+  },
+  "hardmodespear": {
+    "name": "Hardmode Spears",
+    "items": [
+      "Amenonuhoko"
+    ]
+  },
+  "boomerang": {
+    "name": "Boomerangs",
+    "items": [
+      "Dark_Spiral",
+      "Hemorang",
+      "Krakram",
+      "Orbital_Saw",
+      "Riverang",
+      "Terrarang",
+      "True_Light_Disc",
+      "True_Waning_Crescent",
+      "Waning_Crescent"
+    ]
+  },
+  "prehardmodeboomerang": {
+    "name": "Prehardmode Boomerangs",
+    "items": [
+      "Dark_Spiral",
+      "Hemorang",
+      "Krakram",
+      "Orbital_Saw",
+      "Riverang",
+      "Waning_Crescent"
+    ]
+  },
+  "hardmodeboomerang": {
+    "name": "Hardmode Boomerangs",
+    "items": [
+      "Terrarang",
+      "True_Light_Disc",
+      "True_Waning_Crescent"
+    ]
+  },
+  "flail": {
+    "name": "Flails",
+    "items": [
+      "Depth_Charge"
+    ]
+  },
+  "prehardmodeflail": {
+    "name": "Prehardmode Flails",
+    "items": []
+  },
+  "hardmodeflail": {
+    "name": "Hardmode Flails",
+    "items": [
+      "Depth_Charge"
+    ]
+  },
+  "yoyo": {
+    "name": "Yoyos",
+    "items": [
+      "Nineball",
+      "Snapthrow",
+      "Triple_Threat"
+    ]
+  },
+  "prehardmodeyoyo": {
+    "name": "Prehardmode Yoyos",
+    "items": [
+      "Nineball",
+      "Snapthrow",
+      "Triple_Threat"
+    ]
+  },
+  "hardmodeyoyo": {
+    "name": "Hardmode Yoyos",
+    "items": []
+  },
+  "othermelee": {
+    "name": "Other melee",
+    "items": [
+      "Bone_Latcher",
+      "Knee_Slapper",
+      "Nematoclaw"
+    ]
+  },
+  "prehardmodeothermelee": {
+    "name": "Prehardmode other melee",
+    "items": [
+      "Bone_Latcher"
+    ]
+  },
+  "hardmodeothermelee": {
+    "name": "Hardmode other melee",
+    "items": [
+      "Knee_Slapper",
+      "Nematoclaw"
+    ]
+  },
+  "gun": {
+    "name": "Guns",
+    "items": [
+      "Ancient_Kruncher",
+      "Blotopus",
+      "Boiler",
+      "Bolt_Gun",
+      "Dreikan",
+      "Fiberglass_Pistol",
+      "Firespit",
+      "Hallowed_Cleaver",
+      "Kruncher",
+      "Neural_Network",
+      "Shardcannon",
+      "Shotty_x2",
+      "Shotty_x3",
+      "Sleetfire",
+      "Sunflower_Seed_Shooter",
+      "Tendon_Tear",
+      "Tiny_Sniper",
+      "Tolruk",
+      "Viper_Rifle"
+    ]
+  },
+  "prehardmodegun": {
+    "name": "Prehardmode Guns",
+    "items": [
+      "Ancient_Kruncher",
+      "Blotopus",
+      "Boiler",
+      "Bolt_Gun",
+      "Fiberglass_Pistol",
+      "Firespit",
+      "Kruncher",
+      "Neural_Network",
+      "Shardcannon",
+      "Shotty_x2",
+      "Shotty_x3",
+      "Sleetfire",
+      "Sunflower_Seed_Shooter",
+      "Tendon_Tear"
+    ]
+  },
+  "hardmodegun": {
+    "name": "Hardmode Guns",
+    "items": [
+      "Dreikan",
+      "Hallowed_Cleaver",
+      "Tiny_Sniper",
+      "Tolruk",
+      "Viper_Rifle"
+    ]
+  },
+  "repeater": {
+    "name": "Repeaters",
+    "items": [
+      "Threemoepeater"
+    ]
+  },
+  "prehardmoderepeater": {
+    "name": "Prehardmode Repeaters",
+    "items": [
+      "Threemoepeater"
+    ]
+  },
+  "hardmoderepeater": {
+    "name": "Hardmode Repeaters",
+    "items": []
+  },
+  "dartlauncher": {
+    "name": "Dart Launchers",
+    "items": [
+      "Dart_Crossbow",
+      "Incision"
+    ]
+  },
+  "prehardmodedartlauncher": {
+    "name": "Prehardmode Dart Launchers",
+    "items": []
+  },
+  "hardmodedartlauncher": {
+    "name": "Hardmode Dart Launchers",
+    "items": [
+      "Dart_Crossbow",
+      "Incision"
+    ]
+  },
+  "harpoongun": {
+    "name": "Harpoon Guns",
+    "items": [
+      "Acrid_Impaler",
+      "Bloodletter",
+      "Boat_Rocker",
+      "Harpoon_Gun",
+      "Magma_Grappler",
+      "Riven_Splitter"
+    ]
+  },
+  "prehardmodeharpoongun": {
+    "name": "Prehardmode Harpoon Guns",
+    "items": [
+      "Bloodletter",
+      "Harpoon_Gun",
+      "Magma_Grappler",
+      "Riven_Splitter"
+    ]
+  },
+  "hardmodeharpoongun": {
+    "name": "Hardmode Harpoon Guns",
+    "items": [
+      "Acrid_Impaler",
+      "Boat_Rocker"
+    ]
+  },
+  "otherranged": {
+    "name": "Other ranged",
+    "items": [
+      "Bleeding_Obsidian_Kunai",
+      "Fiberglass_Shard",
+      "Gelled_Knife"
+    ]
+  },
+  "prehardmodeotherranged": {
+    "name": "Prehardmode other ranged",
+    "items": [
+      "Fiberglass_Shard",
+      "Gelled_Knife"
+    ]
+  },
+  "hardmodeotherranged": {
+    "name": "Hardmode other ranged",
+    "items": [
+      "Bleeding_Obsidian_Kunai"
+    ]
+  },
+  "wand": {
+    "name": "Wands",
+    "items": [
+      "Amber_Of_Embers",
+      "Avulsion",
+      "Bled_Out_Staff",
+      "Communion",
+      "Cryostrike",
+      "Hivateinn",
+      "Low_Signal",
+      "Magnus"
+    ]
+  },
+  "prehardmodewand": {
+    "name": "Prehardmode Wands",
+    "items": [
+      "Avulsion",
+      "Cryostrike",
+      "Low_Signal",
+      "Magnus"
+    ]
+  },
+  "hardmodewand": {
+    "name": "Hardmode Wands",
+    "items": [
+      "Amber_Of_Embers",
+      "Bled_Out_Staff",
+      "Communion",
+      "Hivateinn"
+    ]
+  },
+  "magicgun": {
+    "name": "Magic Guns",
+    "items": [
+      "Chemical_Laser",
+      "Infusion",
+      "Laser_Tag_Gun",
+      "Plasma_Cutter",
+      "Rigged_Cubix",
+      "Seam_Beam",
+      "The_Calibrator"
+    ]
+  },
+  "prehardmodemagicgun": {
+    "name": "Prehardmode Magic Guns",
+    "items": [
+      "Infusion"
+    ]
+  },
+  "hardmodemagicgun": {
+    "name": "Hardmode Magic Guns",
+    "items": [
+      "Chemical_Laser",
+      "Laser_Tag_Gun",
+      "Plasma_Cutter",
+      "Rigged_Cubix",
+      "Seam_Beam",
+      "The_Calibrator"
+    ]
+  },
+  "spellbook": {
+    "name": "Spell Books",
+    "items": [
+      "Beginners_Tome",
+      "Dew_Justice",
+      "Dismay",
+      "Eternabrite",
+      "Innermost_Manifest",
+      "Splitsplash",
+      "Startillery",
+      "Tones_Of_Agony"
+    ]
+  },
+  "prehardmodespellbook": {
+    "name": "Prehardmode Spell Books",
+    "items": [
+      "Beginners_Tome",
+      "Eternabrite",
+      "Innermost_Manifest",
+      "Splitsplash",
+      "Tones_Of_Agony"
+    ]
+  },
+  "hardmodespellbook": {
+    "name": "Hardmode Spell Books",
+    "items": [
+      "Dew_Justice",
+      "Dismay",
+      "Startillery"
+    ]
+  },
+  "othermagic": {
+    "name": "Other magic",
+    "items": [
+      "Area_Denial",
+      "Breach",
+      "Haunted_Vase",
+      "Hot_Potato",
+      "Manasynk",
+      "Missing_File",
+      "Pike_of_Deepneus",
+      "Shimmer_Rod"
+    ]
+  },
+  "prehardmodeothermagic": {
+    "name": "Prehardmode other magic",
+    "items": [
+      "Area_Denial",
+      "Hot_Potato",
+      "Manasynk"
+    ]
+  },
+  "hardmodeothermagic": {
+    "name": "Hardmode other magic",
+    "items": [
+      "Breach",
+      "Haunted_Vase",
+      "Missing_File",
+      "Pike_of_Deepneus",
+      "Shimmer_Rod"
+    ]
+  },
+  "minionweapon": {
+    "name": "Minion weapons",
+    "items": [
+      "Brainy_Staff",
+      "Eyeball_Staff",
+      "Rotting_Worm_Staff",
+      "SMART_Wrench",
+      "Teardown",
+      "Woodsprite_Staff"
+    ]
+  },
+  "prehardmodeminionweapon": {
+    "name": "Prehardmode Minion weapons",
+    "items": [
+      "Brainy_Staff",
+      "Eyeball_Staff",
+      "Rotting_Worm_Staff",
+      "Teardown",
+      "Woodsprite_Staff"
+    ]
+  },
+  "hardmodeminionweapon": {
+    "name": "Hardmode Minion weapons",
+    "items": [
+      "SMART_Wrench"
+    ]
+  },
+  "sentryweapon": {
+    "name": "Sentry weapons",
+    "items": [
+      "Ocotoral_Bud"
+    ]
+  },
+  "prehardmodesentryweapon": {
+    "name": "Prehardmode Sentry weapons",
+    "items": []
+  },
+  "hardmodesentryweapon": {
+    "name": "Hardmode Sentry weapons",
+    "items": [
+      "Ocotoral_Bud"
+    ]
+  },
+  "whip": {
+    "name": "Whips",
+    "items": [
+      "Flagellash",
+      "Joint_Pop",
+      "Ziptie"
+    ]
+  },
+  "prehardmodewhip": {
+    "name": "Prehardmode Whips",
+    "items": [
+      "Flagellash",
+      "Joint_Pop"
+    ]
+  },
+  "hardmodewhip": {
+    "name": "Hardmode Whips",
+    "items": [
+      "Ziptie"
+    ]
+  },
+  "artifact": {
+    "name": "Artifacts",
+    "items": [
+      "Bomb_Artifact"
+    ]
+  },
+  "prehardmodeartifact": {
+    "name": "Prehardmode Artifacts",
+    "items": []
+  },
+  "hardmodeartifact": {
+    "name": "Hardmode Artifacts",
+    "items": [
+      "Bomb_Artifact"
+    ]
+  },
+  "incantation": {
+    "name": "Incantations",
+    "items": [
+      "Amebolize_Incantation",
+      "Bee_Afraid_Incantation"
+    ]
+  },
+  "prehardmodeincantation": {
+    "name": "Prehardmode Incantations",
+    "items": [
+      "Amebolize_Incantation",
+      "Bee_Afraid_Incantation"
+    ]
+  },
+  "hardmodeincantation": {
+    "name": "Hardmode Incantations",
+    "items": []
+  },
+  "othersummoner": {
+    "name": "Other summoner",
+    "items": []
+  },
+  "prehardmodeothersummoner": {
+    "name": "Prehardmode other summoner",
+    "items": []
+  },
+  "hardmodeothersummoner": {
+    "name": "Hardmode other summoner",
+    "items": []
+  },
+  "launcher": {
+    "name": "Launchers",
+    "items": [
+      "Abrasion_Blaster",
+      "Ace_Shrapnel",
+      "Bombardment",
+      "Bomboomstick",
+      "Bomb_Launcher",
+      "Cold_Snap",
+      "Eruption",
+      "Flare_Launcher",
+      "Hand_Grenade_Launcher",
+      "Meteor",
+      "Mine_Flayer",
+      "Nova_Swarm",
+      "Nuclear_Arm",
+      "Rocodile",
+      "Thermite_Launcher"
+    ]
+  },
+  "prehardmodelauncher": {
+    "name": "Prehardmode Launchers",
+    "items": [
+      "Abrasion_Blaster",
+      "Ace_Shrapnel",
+      "Bombardment",
+      "Bomb_Launcher",
+      "Cold_Snap",
+      "Eruption",
+      "Flare_Launcher",
+      "Hand_Grenade_Launcher",
+      "Meteor"
+    ]
+  },
+  "hardmodelauncher": {
+    "name": "Hardmode Launchers",
+    "items": [
+      "Bomboomstick",
+      "Mine_Flayer",
+      "Nova_Swarm",
+      "Nuclear_Arm",
+      "Rocodile",
+      "Thermite_Launcher"
+    ]
+  },
+  "handcannon": {
+    "name": "Handcannons",
+    "items": [
+      "Acrid_Handcannon",
+      "Boomphracken",
+      "Flakjack",
+      "Nova_Cascade"
+    ]
+  },
+  "prehardmodehandcannon": {
+    "name": "Prehardmode Handcannons",
+    "items": []
+  },
+  "hardmodehandcannon": {
+    "name": "Hardmode Handcannons",
+    "items": [
+      "Acrid_Handcannon",
+      "Boomphracken",
+      "Flakjack",
+      "Nova_Cascade"
+    ]
+  },
+  "thrownexplosive": {
+    "name": "Thrown explosives",
+    "items": [
+      "Ameballoon",
+      "Bang_Snap",
+      "Bloombomb",
+      "Brainade",
+      "Defiled_Spirit",
+      "Felnum_Shock_Grenade",
+      "Flashbang",
+      "Floaty_Bomb",
+      "Hellfire_Bomb",
+      "Hellfire_Grenade",
+      "Impact_Bomb",
+      "Impact_Dynamite",
+      "Impact_Grenade",
+      "Internal_Combustionfish",
+      "Link_Grenade",
+      "Outbreak_Bomb",
+      "Peatball",
+      "Shrapnel_Bomb",
+      "Sticky_Link_Grenade"
+    ]
+  },
+  "prehardmodethrownexplosive": {
+    "name": "Prehardmode thrown explosives",
+    "items": [
+      "Ameballoon",
+      "Bang_Snap",
+      "Bloombomb",
+      "Brainade",
+      "Defiled_Spirit",
+      "Felnum_Shock_Grenade",
+      "Flashbang",
+      "Floaty_Bomb",
+      "Hellfire_Bomb",
+      "Hellfire_Grenade",
+      "Impact_Bomb",
+      "Impact_Dynamite",
+      "Impact_Grenade",
+      "Internal_Combustionfish",
+      "Link_Grenade",
+      "Outbreak_Bomb",
+      "Peatball",
+      "Shrapnel_Bomb",
+      "Sticky_Link_Grenade"
+    ]
+  },
+  "hardmodethrownexplosive": {
+    "name": "Hardmode thrown explosives",
+    "items": []
+  },
+  "otherexplosive": {
+    "name": "Other explosives",
+    "items": [
+      "Caustica",
+      "Dreikan",
+      "Omnidirectional_Claymore",
+      "Potato_Mine",
+      "Self_Destruct"
+    ]
+  },
+  "prehardmodeotherexplosive": {
+    "name": "Prehardmode other explosives",
+    "items": [
+      "Omnidirectional_Claymore",
+      "Potato_Mine"
+    ]
+  },
+  "hardmodeotherexplosive": {
+    "name": "Hardmode other explosives",
+    "items": [
+      "Caustica",
+      "Dreikan",
+      "Self_Destruct"
+    ]
+  },
   "implimented": {
     "name": "implimented",
     "items": [
@@ -1653,11 +2464,13 @@
       "Acetabularia",
       "Ace_Shrapnel",
       "Ace_Shrapnel_Old",
+      "Acid_Freak",
       "ACME_Crate",
       "Acrid_Armor",
       "Acrid_Breastplate",
       "Acrid_Dome",
       "Acrid_Drill",
+      "Acrid_Dye",
       "Acrid_Greaves",
       "Acrid_Hamaxe",
       "Acrid_Handcannon",
@@ -1674,8 +2487,11 @@
       "Alkahest",
       "Alkahest_Arrow",
       "Alkahest_Bullet",
+      "Alkahest_Canister",
+      "Alkahest_Dart",
       "Alkahest_Torch",
       "Alkaline_Bomb",
+      "Alkaline_Canister",
       "Alkaline_Grenade",
       "Alkaline_Harpoon",
       "Amber_Armor",
@@ -1686,14 +2502,22 @@
       "Amber_Of_Embers",
       "Ambition_Potion",
       "Ameballoon",
+      "Amebic_Slime",
+      "Amebic_Slime_Banner",
       "Amebic_Vial",
       "Amebolize_Incantation",
       "Amenonuhoko",
+      "Amoebash",
+      "Amoeba_Bugger",
       "Amoeba_Buggy",
       "Amoeba_Fluid",
       "Amoeba_Hook",
       "Amoeba_Toy",
+      "Amoebeye",
+      "Amoebeye_Banner",
+      "Amoebeye_P",
       "Ancient_Defiled_Armor",
+      "Ancient_Defiled_Cyclops",
       "Ancient_Hallowed_Visage",
       "Ancient_Kruncher",
       "Ancient_Riven_Armor",
@@ -1714,18 +2538,26 @@
       "A_Perfect_World",
       "Bang_Snap",
       "Bark",
+      "Barnacleback",
+      "Barnacleback_Banner",
+      "Barnacle_Bunny",
+      "Barnacle_Bunny_Banner",
+      "Barnacle_Mound",
       "Baseball_Bat",
       "Batholith",
       "Batholith_Wall_Placed_Unsafe",
       "Batholith_Wall_Safe",
       "Bat_Hide",
+      "Bee_Afraid_Incantation",
       "Beginners_Tome",
       "Bileberry",
       "Bilemouth",
       "Bile_Arrow",
       "Bile_Bullet",
+      "Bile_Canister",
       "Bile_Dart",
       "Bile_Flask",
+      "Bile_Thrower",
       "Bile_Torch",
       "Bilious_Crate",
       "Binding_Book",
@@ -1767,10 +2599,13 @@
       "Boomerang_Magnet",
       "Boomphracken",
       "Bottled_Brine",
+      "Bottomfeeder",
+      "Bottomfeeder_Banner",
       "Bouncy_Explosive_Golf_Ball",
       "Bouncy_Harpoon",
       "Brainade",
       "Brainy_Staff",
+      "Breach",
       "Bread",
       "Brick_Breaker",
       "Brineglow",
@@ -1786,6 +2621,7 @@
       "Broken_Fiberglass_Bow",
       "Broken_Fiberglass_Sword",
       "Broken_Record",
+      "Buckethead_Zombie",
       "Bud_Barnacle",
       "Bug",
       "Bug_Trapper",
@@ -1797,11 +2633,17 @@
       "Celestial_Mask",
       "Celestial_Starlight",
       "Celestial_Stone_Mask",
+      "Cellarkeep",
+      "Cellarkeep_Banner",
+      "Cellarkeep_Barrel",
       "CFHES",
       "Chambersite",
       "Chambersite_Gemspark",
+      "Chambersite_Gemspark_Wall_Off_Safe",
+      "Chambersite_Gemspark_Wall_On_Safe",
       "Chambersite_Stone_Wall",
       "Chemical_Laser",
+      "Chew_Toy",
       "Chlorodynamite",
       "Chlorophyte_Armor",
       "Chlorophyte_Crown",
@@ -1814,20 +2656,33 @@
       "Chromtain_Greaves",
       "Chromtain_Helmet",
       "Chunky_Crate",
+      "Chunky_Hook",
+      "Chunky_Slime",
       "Cicada_3301",
       "Cinder_Seal",
       "Cirrhosis_Abhorrence",
       "Cleansing_Station",
+      "Cleaver_Body",
+      "Cleaver_Head",
+      "Cleaver_Head_Banner",
+      "Cleaver_Tail",
       "Clubs_Ace",
       "Cold_Snap",
       "Comb",
       "Combat_Core",
+      "Communion",
+      "Conehead_Zombie",
       "Construction_Core",
       "Control_Locus",
+      "Coolant_Canister",
       "Coologne",
       "CORE_Generator",
       "Corruption_Loot_Box",
+      "Counter_Offensive_Scarf",
+      "Cranivore",
       "Cranivore_Beanie",
+      "Crimbrain",
+      "Crimbrain_Banner",
       "Crimson_Loot_Box",
       "Crusty_Crate",
       "Cryosten_Armor",
@@ -1838,10 +2693,13 @@
       "Crystal_Bomb",
       "Crystal_Cutters",
       "Crystal_Grenade",
+      "Cursed_Canister",
       "Cursed_Crown",
       "Cursed_Harpoon",
       "Cyah_Nara",
       "Danger_Barrel",
+      "Dark_Spiral",
+      "Dart_Crossbow",
       "Dash_Ravel",
       "Dawn_Key",
       "DA_Mask",
@@ -1859,12 +2717,21 @@
       "Defiled_Amalgamation_Relic",
       "Defiled_Amalgamation_Trophy",
       "Defiled_Armor",
+      "Defiled_Banner_NPC",
+      "Defiled_Banner_NPC_Banner",
       "Defiled_Bar",
       "Defiled_Breastplate",
+      "Defiled_Brute",
       "Defiled_Campfire",
+      "Defiled_Cyclops",
+      "Defiled_Digger_Body",
+      "Defiled_Digger_Head",
+      "Defiled_Digger_Tail",
       "Defiled_Dungeon_Chest",
       "Defiled_Dungeon_Chest_Placeholder",
+      "Defiled_Ekko",
       "Defiled_Fissure",
+      "Defiled_Flyer",
       "Defiled_Grass_Seeds",
       "Defiled_Grass_Wall_Placed_Unsafe",
       "Defiled_Grass_Wall_Safe",
@@ -1874,18 +2741,26 @@
       "Defiled_Ice",
       "Defiled_Key",
       "Defiled_Loot_Box",
+      "Defiled_Mimic",
+      "Defiled_Mite",
       "Defiled_Ore",
+      "Defiled_Pigron",
       "Defiled_Pot",
       "Defiled_Sand",
       "Defiled_Sandstone",
       "Defiled_Sandstone_Wall",
       "Defiled_Spirit",
+      "Defiled_Squid",
       "Defiled_Stone",
       "Defiled_Stone_Wall",
+      "Defiled_Swarmer",
       "Defiled_Torch",
+      "Defiled_Tripod",
+      "Defiled_Wisp",
       "Depth_Charge",
       "Depth_Ravel",
       "Destructive_Claws",
+      "Dew_Justice",
       "Dim_Starlight",
       "Dismantler",
       "Dismay",
@@ -1907,8 +2782,14 @@
       "Eitrite_Ore",
       "Element36_Bundle",
       "Emergency_Bee_Canister",
+      "Enchanted_Fiberglass_Bow",
+      "Enchanted_Fiberglass_Pistol",
+      "Enchanted_Fiberglass_Sword",
+      "Enchanted_Trident",
+      "Enchanted_Trident_Banner",
       "Encrusted_Armor",
       "Encrusted_Bar",
+      "Encrusted_Brick",
       "Encrusted_Coat",
       "Encrusted_Mask",
       "Encrusted_Ore",
@@ -1935,6 +2816,7 @@
       "Endowood_Lamp",
       "Endowood_Lantern",
       "Endowood_Piano",
+      "Endowood_Platform",
       "Endowood_Sink",
       "Endowood_Sofa",
       "Endowood_Sword",
@@ -1984,20 +2866,26 @@
       "Fiberglass_Shard",
       "Fiberglass_Sword",
       "Fiberglass_Wall",
+      "Fiberglass_Weaver",
       "Fiberglass_Weaver_Bag",
       "Fiberglass_Weaver_Head",
       "Fibron_Plating",
       "Firespit",
       "Fishing_Core",
+      "Flagellant",
+      "Flagellant_Banner",
       "Flagellash",
       "Flakjack",
       "Flammable_Harpoon",
+      "Flare_Launcher",
       "Flashbang",
       "Fleshy_Figurine",
+      "Fleshy_Globe",
       "Floaty_Bomb",
       "Focus_Crystal",
       "Focus_Potion",
       "Forbidden_Voice",
+      "Forbidden_Voice_Uncursed",
       "Formium_Bar",
       "Formium_Scrap",
       "Fragarach",
@@ -2034,12 +2922,14 @@
       "Hellfire_Bomb",
       "Hellfire_Grenade",
       "Hell_Key",
+      "Hemorang",
       "High_Contrast_Dye",
       "Hivateinn",
       "Holiday_Hair_Dye",
       "Honey_Bread",
       "Honey_Wheat_Bread",
       "Hot_Potato",
+      "Ichor_Canister",
       "Illegal_Explosive_Parts",
       "Impact_Bomb",
       "Impact_Dynamite",
@@ -2048,6 +2938,7 @@
       "Incision",
       "Infusion",
       "Innermost_Manifest",
+      "Internal_Combustionfish",
       "Invisible_Ink",
       "Irish_Cheddar",
       "IWTPA_Standard",
@@ -2066,11 +2957,13 @@
       "Lazy_Cloak",
       "Lifeforce_Core",
       "Lightning_Rod",
+      "Link_Grenade",
       "Locked_Defiled_Dungeon_Chest",
       "Locket_Necklace",
       "Longbone",
       "Lost_Armor",
       "Lost_Breastplate",
+      "Lost_Brick",
       "Lost_Helm",
       "Lost_Pants",
       "Lottery_Ticket",
@@ -2120,6 +3013,7 @@
       "Marrowick_Toilet",
       "Marrowick_Wall",
       "Marrowick_Work_Bench",
+      "Measly_Moeba",
       "Melee_Acrid_Armor",
       "Messy_Leech",
       "Messy_Magma_Leech",
@@ -2171,6 +3065,7 @@
       "Ocotoral_Bud",
       "Olid_Organ",
       "Omnidirectional_Claymore",
+      "Optiphage",
       "Orbital_Saw",
       "Outbreak_Bomb",
       "Outreach",
@@ -2191,6 +3086,7 @@
       "Plague_Texan_Mask",
       "Plague_Texan_Sight",
       "Plague_Texan_Vanity",
+      "Plasma_Cutter",
       "Plasma_Phial",
       "Playtimes_Over",
       "Pneumatic_Bomb_Thrower",
@@ -2211,6 +3107,8 @@
       "Protozoa_Food",
       "Pullinsmash",
       "Purification_Potion",
+      "Pustule_Jelly",
+      "Pustule_Jelly_Banner",
       "Quantum_Cell",
       "Quantum_Injector",
       "Quartz",
@@ -2246,6 +3144,10 @@
       "Riven2_Mask",
       "Riven2_Pants",
       "Rivenator",
+      "Rivenator_Body",
+      "Rivenator_Head",
+      "Rivenator_Head_Banner",
+      "Rivenator_Tail",
       "Riven_Armor",
       "Riven_Cactus",
       "Riven_Campfire",
@@ -2253,6 +3155,8 @@
       "Riven_Coat",
       "Riven_Dungeon_Chest",
       "Riven_Dungeon_Chest_Placeholder",
+      "Riven_Fighter",
+      "Riven_Fighter_Banner",
       "Riven_Flesh",
       "Riven_Flesh_Wall",
       "Riven_Fountain",
@@ -2263,7 +3167,14 @@
       "Riven_Lesion",
       "Riven_Loot_Box",
       "Riven_Mask",
+      "Riven_Mimic",
+      "Riven_Mimic_Banner",
+      "Riven_Mummy",
+      "Riven_Mummy_Banner",
       "Riven_Pants",
+      "Riven_Penguin",
+      "Riven_Penguin_Banner",
+      "Riven_Pigron",
       "Riven_Pot",
       "Riven_Splitter",
       "Riven_Torch",
@@ -2282,6 +3193,9 @@
       "Sapphire_Hood",
       "Sapphire_Tights",
       "Sapphire_Vest",
+      "Savage_Whip",
+      "Savage_Whip_Banner",
+      "Savage_Whip_Segment",
       "Scavenger_Armor",
       "Scavenger_Bag",
       "Scavenger_Breastplate",
@@ -2295,17 +3209,25 @@
       "Sentient_Powder",
       "Shaped_Glass",
       "Shardcannon",
+      "Shattered_Ghoul",
+      "Shattered_Goldfish",
+      "Shattered_Mummy",
       "Shattered_Stout",
       "Shield_of_Retribution",
+      "Shimmer_Dye",
+      "Shimmer_Rod",
       "Shotty_x2",
       "Shotty_x3",
       "Shrapnel_Bomb",
       "Shrap_Stack",
       "Silica",
       "Silicon",
+      "Single_Cellular_Nautilus",
+      "Single_Cellular_Nautilus_Banner",
       "Slashswarm",
       "Sleetfire",
       "SMART_Wrench",
+      "Smiths_Hammer",
       "Snapthrow",
       "Snatcher",
       "Snipers_Mark",
@@ -2319,7 +3241,11 @@
       "Soulhide_Helmet",
       "Soulspore",
       "Soul_Spaghetti",
+      "Speed_Booster",
       "Speed_Ravel",
+      "Spider_Amoeba",
+      "Spider_Amoeba_Banner",
+      "Spider_Amoeba_Wall",
       "Spider_Ravel",
       "Spiker_Sword",
       "Spirit_Shard",
@@ -2330,6 +3256,7 @@
       "Starfuze",
       "Startillery",
       "Stealth_Ravel",
+      "Sticky_Link_Grenade",
       "Stone_Mask",
       "Strainer",
       "Strange_Computer",
@@ -2346,6 +3273,7 @@
       "Surveysprout",
       "Suspicious_Looking_Pebble",
       "Sus_Ice_Cream",
+      "Swarmer",
       "Switchblade_Broadsword",
       "Switchblade_Shortsword",
       "Symbiote_Skull",
@@ -2360,12 +3288,14 @@
       "Tendon_Pants",
       "Tendon_Shirt",
       "Tendon_Tear",
+      "Terrarang",
       "Terrarian_Voodoo_Doll",
       "Test",
       "Thermite_Canister",
       "Thermite_Launcher",
       "The_Bird",
       "The_Button",
+      "The_Calibrator",
       "The_Defiled_Will",
       "Third_Eye",
       "Threemoepeater",
@@ -2373,12 +3303,17 @@
       "Tire",
       "Tolruk",
       "Tones_Of_Agony",
+      "Torn_Ghoul",
       "Traffic_Cone",
       "Trap_Charm",
       "Tree_Sap",
+      "Trijaw_Shark",
+      "Trijaw_Shark_Banner",
       "Triple_Threat",
       "Tripod_Nip",
       "True_Bomb_Yeeter",
+      "True_Light_Disc",
+      "True_Waning_Crescent",
       "Turbo_Reel",
       "Tyrfing",
       "Undead_Chunk",
@@ -2392,6 +3327,7 @@
       "Volatile_Charm",
       "Vorpal_Sword",
       "Vorpal_Sword_Cursed",
+      "Waning_Crescent",
       "WC_Mask",
       "Weakpoint_Analyzer",
       "White_Solution",
@@ -2399,10 +3335,325 @@
       "Wilting_Rose",
       "Woodsprite_Staff",
       "World_Cracker_Bag",
+      "World_Cracker_Body",
+      "World_Cracker_Head",
       "World_Cracker_Mask",
       "World_Cracker_Relic",
+      "World_Cracker_Tail",
       "World_Cracker_Trophy",
-      "Wrycoral"
+      "Wrycoral",
+      "Ziptie"
     ]
+  },
+  "movement": {
+    "name": "Movement",
+    "items": [
+      "Automated_Returns_Handler",
+      "Dash_Ravel",
+      "Depth_Ravel",
+      "Ninja_Ravel",
+      "Ravel",
+      "Scribe_Of_Meat",
+      "Speed_Booster",
+      "Speed_Ravel",
+      "Spider_Ravel",
+      "Stealth_Ravel",
+      "Superjump_Cape"
+    ]
+  },
+  "info": {
+    "name": "Informational",
+    "items": [
+      "Sonic_Radar"
+    ]
+  },
+  "vitality": {
+    "name": "Vitality",
+    "items": [
+      "Blast_Resistant_Plate",
+      "Bomb_Charm",
+      "Bomb_Charm_of_Regeneration",
+      "Bug_Trapper",
+      "Celestial_Starlight",
+      "Coologne",
+      "Counter_Offensive_Scarf",
+      "Dim_Starlight",
+      "Donor_Wristband",
+      "Makeover_Choker",
+      "Plasma_Phial",
+      "Playtimes_Over",
+      "Powerflower",
+      "Primordial_Soup",
+      "Resin_Shield",
+      "Solar_Panel",
+      "Stone_Mask",
+      "Trap_Charm"
+    ]
+  },
+  "combat": {
+    "name": "Combat",
+    "items": [
+      "Abyssal_Anchor",
+      "ACME_Crate",
+      "Advanced_Imaging",
+      "Amebic_Vial",
+      "Asylum_Whistle",
+      "ATACS",
+      "Automated_Handler",
+      "Binding_Book",
+      "Bomb_Handling_Device",
+      "Boomerang_Magnet",
+      "Celestial_Mask",
+      "Celestial_Stone_Mask",
+      "CFHES",
+      "Cinder_Seal",
+      "Cirrhosis_Abhorrence",
+      "Comb",
+      "Control_Locus",
+      "CORE_Generator",
+      "Counter_Offensive_Scarf",
+      "Danger_Barrel",
+      "Decaying_Scale",
+      "Destructive_Claws",
+      "Dryads_Inheritance",
+      "Dysfunctional_Endless_Explosives_Bag",
+      "Exploder_Emblem",
+      "Explosive_Artery",
+      "Fleshy_Figurine",
+      "Focus_Crystal",
+      "Futurephones",
+      "Grave_Danger",
+      "Gun_Glove",
+      "Haggard_Artery",
+      "Handy_Helper",
+      "Headphones",
+      "IWTPA_Standard",
+      "Keepsake_Remains",
+      "Last_Descendant",
+      "Locket_Necklace",
+      "Lousy_Liver",
+      "Lovers_Leap",
+      "Magic_Glove",
+      "Magic_Pain_Glove",
+      "Magic_Tripwire",
+      "Messy_Leech",
+      "Messy_Magma_Leech",
+      "Missile_Armcannon",
+      "Mitosis",
+      "Nitro_Crate",
+      "No_U_Card",
+      "Olid_Organ",
+      "Parasitic_Influence",
+      "Pneumatic_Bomb_Thrower",
+      "Potato_Battery",
+      "Protomind",
+      "Protozoa_Food",
+      "Razorwire",
+      "Retribution_Shield",
+      "Return_To_Sender",
+      "Ruby_Reticle",
+      "Scavenger_Bag",
+      "Scribe_Of_Meat",
+      "Shield_of_Retribution",
+      "Shrap_Stack",
+      "Snipers_Mark",
+      "Sonar_Visor",
+      "Speed_Booster",
+      "Spirit_Shard",
+      "Stack_of_Shraps",
+      "Super_Turbo_Reel",
+      "Symbiote_Skull",
+      "Tainted_Flesh",
+      "True_Bomb_Yeeter",
+      "Turbo_Reel",
+      "Unsought_Organ",
+      "Volatile_Charm",
+      "Weakpoint_Analyzer"
+    ]
+  },
+  "misc": {
+    "name": "Miscellaneous",
+    "items": [
+      "Air_Tank",
+      "Brine_Leafed_Clover_0",
+      "Brine_Leafed_Clover_1",
+      "Brine_Leafed_Clover_2",
+      "Brine_Leafed_Clover_3",
+      "Brine_Leafed_Clover_4",
+      "Eccentric_Stone",
+      "Hazard_Charm",
+      "Helium_Tank",
+      "Mojo_Injection",
+      "Pincushion",
+      "Rebreather",
+      "Tripod_Nip",
+      "Volatile_Charm"
+    ]
+  },
+  "musicboxes": {
+    "name": "Music Boxes",
+    "items": []
+  },
+  "expertacc": {
+    "name": "Expert Accessories",
+    "items": [
+      "Entangled_Energy",
+      "Refactoring_Pieces"
+    ]
+  },
+  "masteracc": {
+    "name": "Master Accessories",
+    "items": [
+      "Blizzardwalkers_Jacket",
+      "Cursed_Crown",
+      "Emergency_Bee_Canister",
+      "Fiberglass_Dagger",
+      "Forbidden_Voice",
+      "Forbidden_Voice_Uncursed",
+      "Lazy_Cloak",
+      "Mysterious_Spray",
+      "Scribe_of_the_Meat_God",
+      "Terrarian_Voodoo_Doll",
+      "Third_Eye"
+    ]
+  },
+  "arrow": {
+    "name": "Arrows",
+    "items": [
+      "Alkahest_Arrow",
+      "Bile_Arrow"
+    ]
+  },
+  "bullet": {
+    "name": "Bullets",
+    "items": [
+      "Alkahest_Bullet",
+      "Bile_Bullet"
+    ]
+  },
+  "dart": {
+    "name": "Darts",
+    "items": [
+      "Alkahest_Dart",
+      "Bile_Dart"
+    ]
+  },
+  "canistah": {
+    "name": "Canisters",
+    "items": [
+      "Alkahest_Canister",
+      "Alkaline_Canister",
+      "Bile_Canister",
+      "Coolant_Canister",
+      "Cursed_Canister",
+      "Ichor_Canister",
+      "Napalm_Canister",
+      "Resizable_Mine_Five",
+      "Resizable_Mine_Four",
+      "Resizable_Mine_One",
+      "Resizable_Mine_Three",
+      "Resizable_Mine_Two"
+    ]
+  },
+  "rocket": {
+    "name": "Rockets",
+    "items": []
+  },
+  "harpoon": {
+    "name": "Harpoons",
+    "items": [
+      "Alkaline_Harpoon",
+      "Bouncy_Harpoon",
+      "Cursed_Harpoon",
+      "Explosive_Harpoon",
+      "Flammable_Harpoon",
+      "Harpoon"
+    ]
+  },
+  "expendableweapon": {
+    "name": "Expendable weapons",
+    "items": []
+  },
+  "expendabletool": {
+    "name": "Expendable tools",
+    "items": []
+  },
+  "permaboost": {
+    "name": "Permanent Boosters",
+    "items": []
+  },
+  "bosssummon": {
+    "name": "Boss Summons",
+    "items": []
+  },
+  "potion": {
+    "name": "Potions",
+    "items": [
+      "Mojo_Flask"
+    ]
+  },
+  "food": {
+    "name": "Food",
+    "items": []
+  },
+  "grabbag": {
+    "name": "Grab Bags",
+    "items": [
+      "Bilious_Crate",
+      "Chunky_Crate",
+      "Crusty_Crate",
+      "Festering_Crate"
+    ]
+  },
+  "specialeffectdye": {
+    "name": "Special Effect Dyes",
+    "items": [
+      "Acrid_Dye",
+      "Amber_Dye",
+      "High_Contrast_Dye",
+      "Rasterized_Dye",
+      "Shimmer_Dye"
+    ]
+  },
+  "minion": {
+    "name": "Minions",
+    "items": [
+      "Bomb_Artifact",
+      "Brainy_Staff",
+      "Eyeball_Staff",
+      "Rotting_Worm_Staff",
+      "SMART_Wrench",
+      "Teardown",
+      "Woodsprite_Staff"
+    ]
+  },
+  "prehardmodeminion": {
+    "name": "Prehardmode Minions",
+    "items": [
+      "Brainy_Staff",
+      "Eyeball_Staff",
+      "Rotting_Worm_Staff",
+      "Teardown",
+      "Woodsprite_Staff"
+    ]
+  },
+  "hardmodeminion": {
+    "name": "Hardmode Minions",
+    "items": [
+      "Bomb_Artifact",
+      "SMART_Wrench"
+    ]
+  },
+  "mount": {
+    "name": "Mounts",
+    "items": []
+  },
+  "prehardmodemount": {
+    "name": "Prehardmode Mounts",
+    "items": []
+  },
+  "hardmodemount": {
+    "name": "Hardmode Mounts",
+    "items": []
   }
 }
