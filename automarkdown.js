@@ -968,7 +968,7 @@ async function processSortableList(data){
 	if (!defaultStats) defaultStats = JSON.parse(await requestStats("Defaults"));
 	var result = '<thead><tr>';
 	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name', expr:'processLinkWithID(item.Name, item.Name, "$fromStats")', sortIndex:'item.Name', noAbbr:true};
+		data.headers[0] = {name:'Name', expr:'processLinkWithID(item.Name, item.Name, "$fromStats", item.WikiName)', sortIndex:'item.Name', noAbbr:true};
 	}
 	for(var j = 0; j < data.headers.length; j++){
 		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
@@ -982,6 +982,7 @@ async function processSortableList(data){
 			item = data.items[i];
 		}else{
 			item = JSON.parse(await requestStats(data.items[i]));
+			item.WikiName = data.items[i];
 		}
 		if(!item.Name && !(data.items[i] instanceof Object)){
 			item.Name = data.items[i];
