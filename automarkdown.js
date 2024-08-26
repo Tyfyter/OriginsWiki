@@ -359,7 +359,7 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 	}
 	if(image === '$fromStats'){
 		try {
-			image = JSON.parse(await requestStats(targetName.replaceAll(' ', '_'))).Image + ".png";
+			image = JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png";
 		} catch (error) {}
 	}
 	if(targetPage === undefined || targetPage === '$default'){
