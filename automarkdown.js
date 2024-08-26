@@ -1056,7 +1056,7 @@ function sortSortableList(target, index){
 		if(af && bf){
 			return af > bf;
 		}else{
-			return a > b;
+			return av > bv;
 		}
 	}));
 }
