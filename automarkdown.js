@@ -357,17 +357,17 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 	if(image === '$default'){
 		image = undefined;
 	}
-	if(image === '$fromStats'){
-		try {
-			image = JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png";
-		} catch (error) {}
-	}
 	if(targetPage === undefined || targetPage === '$default'){
 		targetPage = targetName.replaceAll(' ', '_');
 		if (aliases[targetPage]) {
 			targetPage = aliases[targetPage];
 		}
 		targetPage = targetPage + linkSuffix
+	}
+	if(image === '$fromStats'){
+		try {
+			image = JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png";
+		} catch (error) {}
 	}
 	let tag = 'a';
 	if (new URL(targetPage, document.baseURI).href == document.location) {
