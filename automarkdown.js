@@ -363,7 +363,7 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 			targetPage = aliases[targetPage];
 		}
 	}
-	targetPage = targetPage.replaceAll('.html', '') + linkSuffix;
+	if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '') + linkSuffix;
 	if(image === '$fromStats'){
 		try {
 			image = imagePathPrefix(JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png");
