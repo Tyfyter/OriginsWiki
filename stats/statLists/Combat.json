@@ -5,7 +5,7 @@
   "headers": [
     "Name",
     "Source",
-    { "name":"Effects", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.Effects)+'</div>'" },
+    "Tooltip",
     { "name":"Obtainable pre-Hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
     { "name":"Visible on character", "expr":"'<div class=\\'visibility-table-indicator\\'>'+(item.visibility)+'</div>'" }
   ]
