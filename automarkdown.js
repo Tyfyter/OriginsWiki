@@ -362,8 +362,8 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 		if (aliases[targetPage]) {
 			targetPage = aliases[targetPage];
 		}
-		targetPage = targetPage + linkSuffix
 	}
+	targetPage = targetPage.replaceAll('.html', '') + linkSuffix;
 	if(image === '$fromStats'){
 		try {
 			image = JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png";
@@ -465,7 +465,7 @@ async function requestStats(name){
 	var value = await _stats[name];
 	if(value === undefined){
 		var v = await (_stats[name] = requestPageText('stats/'+name + '.json'));
-		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null: v);
+		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null : v);
 	}
 	return value;
 }
@@ -981,8 +981,11 @@ async function processSortableList(data){
 		if(data.items[i] instanceof Object){
 			item = data.items[i];
 		}else{
-			item = JSON.parse(await requestStats(data.items[i]));
-			item.WikiName = data.items[i];
+			let stats = await requestStats(data.items[i]);
+			if (stats) {
+				item = JSON.parse(stats);
+				item.WikiName = data.items[i];
+			}
 		}
 		if(!item.Name && !(data.items[i] instanceof Object)){
 			item.Name = data.items[i];
