@@ -1054,9 +1054,9 @@ function sortSortableList(target, index){
 		var af = parseFloat(av);
 		var bf = parseFloat(bv);
 		if(af && bf){
-			return af > bf;
+			return af - bf;
 		}else{
-			return av > bv;
+			return av.localeCompare(bv);
 		}
 	}));
 }
