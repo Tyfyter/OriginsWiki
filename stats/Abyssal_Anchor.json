@@ -27,6 +27,7 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 120000,
+  "Source": "test1",
   "SpriteWidth": 60,
   "InternalName": "Abyssal_Anchor"
 }

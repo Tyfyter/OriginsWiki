@@ -2,6 +2,7 @@
   "Name": "Twilith",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
   "PickReq": 220,

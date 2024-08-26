@@ -2,6 +2,7 @@
   "Name": "Brittle Quartz",
   "Types": [
     "Item",
+    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

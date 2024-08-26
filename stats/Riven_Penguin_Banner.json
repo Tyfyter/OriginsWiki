@@ -1,5 +1,5 @@
 {
-  "Name": "{§Riven} Penguin Banner",
+  "Name": "Riven Penguin Banner",
   "Types": [
     "Item",
     "Tile"
@@ -9,7 +9,7 @@
     3
   ],
   "UseTime": 10,
-  "Tooltip": "Nearby players get a bonus against: {§Riven} Penguin",
+  "Tooltip": "Nearby players get a bonus against: Riven Penguin",
   "Rarity": "White",
   "SpriteWidth": 12,
   "InternalName": "Riven_Penguin_Banner_Item",

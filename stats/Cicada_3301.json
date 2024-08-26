@@ -1,11 +1,27 @@
 {
-  "Image": "§ModImage§/Items/Other/Fish/Cicada_3301_Item",
+  "Image": "§ModImage§/NPCs/Critters/Cicada_3301",
   "Name": "Cicada 3301",
   "Types": [
-    "Item"
+    "NPC"
   ],
-  "UseTime": 10,
-  "Rarity": "White",
-  "SpriteWidth": 12,
-  "InternalName": "Cicada_3301_Item"
+  "MaxLife": 5,
+  "Immunities": [
+    "`[link Confused | $default | $default]`",
+    "`[link Stunned | $fromStats | $default]`"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 20,
+  "InternalName": "Cicada_3301"
 }
