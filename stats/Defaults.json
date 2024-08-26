@@ -23,6 +23,9 @@
     "Velocity":0,
     "Tooltip":"This will be really long\\, but I want to put all of the possible stat block values here\\, remember to escape commas in text",
     "Rarity":"Blue",
+    "Effect":"",
+    "Source":"",
+    "VisualImage":false,
     "Buy":0,
     "Sell":0,
     "SpriteWidth":34

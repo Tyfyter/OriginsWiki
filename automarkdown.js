@@ -366,7 +366,7 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 	targetPage = targetPage.replaceAll('.html', '') + linkSuffix;
 	if(image === '$fromStats'){
 		try {
-			image = JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png";
+			image = imagePathPrefix(JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png");
 		} catch (error) {}
 	}
 	let tag = 'a';
@@ -1005,6 +1005,9 @@ async function processSortableList(data){
 			if (data.headers[j].expr){
 				//console.log(data.headers[j].expr+';');
 				displayValue = await new Function('item', 'return '+data.headers[j].expr+';')(item);
+			}
+			if (Array.isArray(displayValue)) {
+				displayValue = displayValue.join('<br>');
 			}
 			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>
 			${displayValue}
