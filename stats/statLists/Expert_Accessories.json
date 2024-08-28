@@ -1,0 +1,12 @@
+{
+  "categories": [
+    "expertacc"
+  ],
+  "headers": [
+    "Name",
+    "Source",
+    "Tooltip",
+    { "name":"Obtainable pre-Hardmode", "expr":"'<div class=\\'prehardmode-table-indicator\\'>'+(item.Types.includes('Hardmode') ? '❌' : '✔️')+'</div>'" },
+    { "name":"Visible on character", "expr":"item.VisualImage || '<div class=\\'stat-table-indicator\\'>❌</div>'" }
+  ]
+}

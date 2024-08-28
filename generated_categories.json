@@ -707,7 +707,6 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
-      "SOTH",
       "Soulhide_Armor",
       "Soulhide_Coat",
       "Soulhide_Guards",
@@ -715,7 +714,6 @@
       "Soulspore",
       "Soul_Spaghetti",
       "Speed_Booster",
-      "Speed_Ravel",
       "Spider_Amoeba_Banner",
       "Spider_Ravel",
       "Spiker_Sword",
@@ -1659,9 +1657,7 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
-      "SOTH",
       "Speed_Booster",
-      "Speed_Ravel",
       "Spider_Ravel",
       "Spirit_Shard",
       "Stack_of_Shraps",
@@ -3210,7 +3206,6 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
-      "SOTH",
       "Soulhide_Armor",
       "Soulhide_Coat",
       "Soulhide_Guards",
@@ -3218,7 +3213,6 @@
       "Soulspore",
       "Soul_Spaghetti",
       "Speed_Booster",
-      "Speed_Ravel",
       "Spider_Amoeba",
       "Spider_Amoeba_Banner",
       "Spider_Amoeba_Wall",
@@ -3328,7 +3322,6 @@
       "Ninja_Ravel",
       "Ravel",
       "Speed_Booster",
-      "Speed_Ravel",
       "Spider_Ravel",
       "Stealth_Ravel",
       "Superjump_Cape"
@@ -3675,5 +3668,13 @@
       "Olid_Organ",
       "Unsought_Organ"
     ]
+  },
+  "bar": {
+    "name": "Bars",
+    "items": []
+  },
+  "ore": {
+    "name": "Ores",
+    "items": []
   }
 }

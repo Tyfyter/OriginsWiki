@@ -10,7 +10,7 @@
   "KBResist": 1.0,
   "Coins": 50000.0,
   "Drops": [
-    "`[link Lost Ore | $fromStats | $default | ]` - (140‒330) 100%",
+    "`[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
     "`[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
     "`[link Low Signal | $fromStats | $default | ]` - 50%",
     "`[link Return To Sender | $fromStats | $default | ]` - 50%",
@@ -25,7 +25,7 @@
     "Coins": 125000.0,
     "Drops": [
       "`[link Treasure Bag (Defiled Amalgamation) | $fromStats | $default | This is an Expert Mode drop rate]` - 100%",
-      "§l§ `[link Lost Ore | $fromStats | $default | ]` - (140‒330) 100%",
+      "§l§ `[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
       "§L§ `[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
       "§L§ `[link Low Signal | $fromStats | $default | ]` - 50%",
       "§L§ `[link Return To Sender | $fromStats | $default | ]` - 50%",
@@ -43,7 +43,7 @@
     "Coins": 125000.0,
     "Drops": [
       "`[link Treasure Bag (Defiled Amalgamation) | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
-      "§l§ `[link Lost Ore | $fromStats | $default | ]` - (140‒330) 100%",
+      "§l§ `[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
       "§L§ `[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
       "§L§ `[link Low Signal | $fromStats | $default | ]` - 50%",
       "§L§ `[link Return To Sender | $fromStats | $default | ]` - 50%",

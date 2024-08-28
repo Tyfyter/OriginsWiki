@@ -27,7 +27,7 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 120000,
-  "Source": "test1",
+  "Source": "[link Binding Book | $fromStats] + [link Celestial Stone Mask | $fromStats] @ [link Tinkerer's Workshop | | https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop]",
   "SpriteWidth": 60,
   "InternalName": "Abyssal_Anchor"
 }
