@@ -5,8 +5,8 @@
     "NPC",
     "Boss"
   ],
-  "MaxLife": 2400,
-  "Defense": 14,
+  "MaxLife": 3100,
+  "Defense": 12,
   "KBResist": 1.0,
   "Coins": 50000.0,
   "Drops": [
@@ -19,8 +19,8 @@
   ],
   "DefiledAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 3840,
-    "Defense": 16,
+    "MaxLife": 4960,
+    "Defense": 13,
     "Immunities": [],
     "Coins": 125000.0,
     "Drops": [
@@ -37,8 +37,8 @@
     "DefiledAssimilation": 0.051999997
   },
   "Master": {
-    "MaxLife": 6144,
-    "Defense": 18,
+    "MaxLife": 7936,
+    "Defense": 15,
     "Immunities": [],
     "Coins": 125000.0,
     "Drops": [
