@@ -31,11 +31,16 @@ function requestHead(url) {
     return headRequests[url] ??= fetch(url, {method: "HEAD"});
 }
 class AFMLLink extends HTMLAnchorElement {
+    static observedAttributes = ["href"];
     constructor() {
         // Always call super first in constructor
         super();
-        requestHead(this.href).then((v) => {
+    }
+    attributeChangedCallback(name, oldValue, newValue) {
+        if (name !== 'href') return;
+        requestHead(newValue).then((v) => {
             if (v.status == 404) this.classList.add('redlink');
+            else this.classList.remove('redlink');
         });
     }
 }
