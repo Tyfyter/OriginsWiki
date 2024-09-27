@@ -30,7 +30,7 @@ let headRequests = {};
 function requestHead(url) {
     return headRequests[url] ??= fetch(url, {method: "HEAD"});
 }
-class AFMLLink extends HTMLAnchorElement {
+class AFMLLink extends HTMLAnchorElement { // can be created with document.createElement('a', {is: 'a-link' })
     static observedAttributes = ["href"];
     constructor() {
         // Always call super first in constructor
