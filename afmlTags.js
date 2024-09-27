@@ -6,11 +6,8 @@ class AFMLImg extends HTMLElement {
         super();
         this.textContent = "";
         this.classList.add('picturebox');
-        this.child = document.createElement('img');
-        this.child.setAttribute('src', this.attributes['src'].value);
+        this.child ??= document.createElement('img');
         this.child.setAttribute('style', 'width: inherit;');
-        if (this.attributes['alt']) this.child.setAttribute('alt', this.attributes['alt'].value);
-        else this.child.removeAttribute('alt');
         this.appendChild(this.child);
     }
 
@@ -24,6 +21,7 @@ class AFMLImg extends HTMLElement {
             else this.child.removeAttribute('alt');
             break;
         }
+        //console.log(name, oldValue, newValue);
     }
 }
 customElements.define("a-img", AFMLImg);

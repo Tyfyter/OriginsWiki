@@ -1117,7 +1117,11 @@ async function createCategorySegment(){
 				cats.push(key);
 			}
 		}
-		var catsIn = '';
+		let categoriesElement = document.createElement('div');
+		categoriesElement.textContent = 'categories: ';
+		categoriesElement.classList.add('categories');
+
+		var catsIn = false;
 		for (let i = 0; i < cats.length; i++) {
 			var noCats = false;
 			var thisCat = cats0[cats[i]];
@@ -1137,12 +1141,18 @@ async function createCategorySegment(){
 			}
 			if((thisCat.items.includes(pageName) ^ thisCat.blacklist) && !thisCat.hidden){
 				if(catsIn){
-					catsIn+=', ';
+					categoriesElement.append(document.createTextNode(', '));
 				}
-				catsIn+=`<a class="category" href="${thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i])}">${thisCat.name}</a>`;
+				catsIn = true;
+				let newLink = document.createElement('a');
+				newLink.textContent = thisCat.name;
+				newLink.classList.add('category');
+				newLink.href = thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i]);
+				categoriesElement.append(newLink);
+				//catsIn+=`<a class="category" href="${thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i])}">${thisCat.name}</a>`;
 			}
 		}
-		return '<div class="categories">categories: '+catsIn+'</div>';
+		return categoriesElement;//'<div class="categories">categories: '+catsIn+'</div>';
 	} catch (error) {
 		console.log(error);
 		return '';
@@ -1662,27 +1672,7 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 	content.innerHTML = replaceBasicSubstitutions(content.innerHTML);
-	//*/
-	//let item of content.innerHTML.matchAll(biomeContentRegex)
-	/*let currentItem = item[0].replace(/(?<q>['"])?header\k<q>?/g, '"header"');
-	let index = 0;
-	let substitutions = [];
-	let currentEgg = uneggedCurlyBracketRegex.exec(currentItem);
-	while(currentEgg !== null){
-		currentItem = currentItem.replace(currentEgg[0], "§"+index);
-		substitutions[index++] = currentEgg[0];
-		currentEgg = uneggedCurlyBracketRegex.exec(currentItem);
-	}
-	for(let i = 0; i < substitutions.length; i++){
-		console.log(tryParseEgg(substitutions[i]));
-	}
-	for(let group of item[0].replace(/\s/g, '').matchAll()){
-		result = "<div class=\"subcontents\">";
-			let current = group[0].replace(/(\s*{)*(}\s*)* /g,'').split('|');
-			result += processLink(current[0], current[1], current[2]);
-		result += "</div>";
-	}*/
-//});
+
 	var deferred = document.getElementsByClassName("deferred");
 	console.log('deferred processing:', deferred);
 	let processedLists = [];
@@ -1843,7 +1833,7 @@ var parse = async ()=>{
 		//head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
 	refreshThemeIcon();
-	let catSegPromise = createCategorySegment().then(function(v){console.log(v);content.innerHTML += v;});
+	let catSegPromise = createCategorySegment().then(function(v){console.log("category segment: ", v);content.append(v);});
 	/*let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
 	let redLinkPromise = (async () => {
