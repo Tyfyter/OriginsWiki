@@ -25,3 +25,18 @@ class AFMLImg extends HTMLElement {
     }
 }
 customElements.define("a-img", AFMLImg);
+
+let headRequests = {};
+function requestHead(url) {
+    return headRequests[url] ??= fetch(url, {method: "HEAD"});
+}
+class AFMLLink extends HTMLAnchorElement {
+    constructor() {
+        // Always call super first in constructor
+        super();
+        requestHead(this.href).then((v) => {
+            if (v.status == 404) this.classList.add('redlink');
+        });
+    }
+}
+customElements.define("a-link", AFMLLink, { extends: "a" });
