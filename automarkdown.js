@@ -387,7 +387,8 @@ async function processLink(index, targetName, image, targetPage, note, extraClas
 			fetch(element.href, {method: 'HEAD'}).then(response => {
 				//console.log(response);
 				if (response.status == 404) {
-					document.getElementById(element.id).classList.add('redlink');
+					let el = document.getElementById(element.id);
+					if (el) el.classList.add('redlink');
 				}
 			});
 		}
@@ -1671,7 +1672,18 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		console.error(e);
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
-	content.innerHTML = replaceBasicSubstitutions(content.innerHTML);
+	var walker = document.createTreeWalker(
+		content,
+		NodeFilter.SHOW_TEXT,
+		null,
+		false
+	);
+	
+	var node;
+	console.log('test walker');
+	while(node = walker.nextNode()) {
+		node.textContent = replaceBasicSubstitutions(node.textContent);
+	}
 
 	var deferred = document.getElementsByClassName("deferred");
 	console.log('deferred processing:', deferred);

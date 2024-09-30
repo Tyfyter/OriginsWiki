@@ -701,7 +701,7 @@ details > summary {
   content: '▴';
 }
 
-snippet {
+snippet, a-snippet {
 	clear: both;
 	width: fit-content;
 	margin: 2px;
@@ -711,10 +711,10 @@ snippet {
 	background-color: var(--box-bg-color);
 	display: block;
 }
-snippet[open] {
+snippet[open], a-snippet[open]{
 	width: 95%;
 }
-snippet[hidden] {
+snippet[hidden], a-snippet[hidden] {
 	margin: revert;
 	padding: revert;
 	background-color: revert;
@@ -724,7 +724,7 @@ snippet[hidden] {
 .snippetContent {
 	display: none;
 }
-snippet[open] > .snippetContent {
+snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 	display: flow-root;
 }
 
