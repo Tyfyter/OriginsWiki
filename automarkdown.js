@@ -1277,7 +1277,6 @@ function replaceBasicSubstitutions(text) {
 	text = text.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
 	text = text.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
 	text = text.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
-	text = text.replaceAll("§ModImage§", 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
 	return text;
 }
 function logItToo(value, text = "") {
@@ -1677,7 +1676,18 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 	
 	var node;
 	while(node = walker.nextNode()) {
-		node.textContent = replaceBasicSubstitutions(node.textContent);
+		let value = replaceBasicSubstitutions(node.textContent);
+		if (value != node.textContent) {
+			var span = document.createElement('span');
+			span.innerHTML = value;
+			node.replaceWith(span);
+			walker = document.createTreeWalker(
+				content,
+				NodeFilter.SHOW_TEXT,
+				null,
+				false
+			);
+		}
 	}
 
 	var deferred = document.getElementsByClassName("deferred");
