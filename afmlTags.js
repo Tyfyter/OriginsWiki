@@ -9,8 +9,8 @@ pageName = decodeURI(pageName);
 if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 	aLinkSuffix = '';
 }
-function imagePathPrefix(path) {
-	return `${path.startsWith("§")?"":"Images/"}${path}`;
+function processImagePath(path) {
+	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '.png';
 }
 let pageRequests = {};
 let pageRequestLock = {};
@@ -29,16 +29,16 @@ async function getPageText(url) {
 	}
 	return pageRequests[url];
 }
-var _stats = {};
-async function requestStats(name) {
-	var value = await _stats[name];
+var aStats = {};
+async function getStats(name) {
+	var value = await aStats[name];
 	if(value === undefined){
-		var v = await (_stats[name] = getPageText('stats/'+name + '.json'));
-		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null : v);
+		var v = await (aStats[name] = getPageText('stats/'+name + '.json'));
+		value = aStats[name] = JSON.parse(v.startsWith('<!DOCTYPE html>') ? null : v);
 	}
 	return value;
 }
-requestStats(pageName);
+getStats(pageName);
 
 function createElementWithTextAndAttributes(tag, text) {
 	let element = document.createElement(tag);
@@ -155,11 +155,11 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		if (path === '$fromStats') {
 			path = this.href.replaceAll('.html', '').split('/');
 			path = path[path.length - 1];
-			requestStats(path).then((v) => {
-				this.setImage(imagePathPrefix(JSON.parse(v).Image + ".png"));
+			getStats(path).then((v) => {
+				this.setImage(v.Image);
 			});
 		} else {
-			this.image.src = path.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master');
+			this.image.src = processImagePath(path);
 		}
 	}
 }
@@ -303,3 +303,19 @@ class AFMLRecipes extends HTMLElement {
 	}
 }
 customElements.define("a-recipes", AFMLRecipes);
+
+class AFMLStat extends HTMLElement {
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.classList.add('stat');
+		let stat = this.textContent.replace(' ', '_').split('.');
+		getStats(stat[0]).then((v) => {
+			for(var i = 1; i < stat.length; i++){
+				v = v[stat[i]];
+			}
+			this.innerHTML = v;
+		});
+	}
+}
+customElements.define("a-stat", AFMLStat);
