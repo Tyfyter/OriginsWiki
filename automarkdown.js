@@ -53,7 +53,7 @@ var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '
 pageName = decodeURI(pageName);
 _stats[pageName] = new Promise((resolve, reject) => {
 		requestPageText('stats/'+pageName + '.json').then((v) => {
-			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null: v;
+			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null : v;
 			_stats[pageName] ? resolve(_stats[pageName]) : reject(404);
 		});
 	}
@@ -1156,7 +1156,7 @@ async function createCategorySegment(){
 		return categoriesElement;//'<div class="categories">categories: '+catsIn+'</div>';
 	} catch (error) {
 		console.log(error);
-		return '';
+		return document.createElement('div');
 	}
 }
 
@@ -1381,7 +1381,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 	
-	console.log('autoSortableLists:');
 	try{
 		item = content.innerHTML.match(autoSortableListRegex);
 		//console.log('first', item);
@@ -1397,7 +1396,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
-	console.log('links:');
 	try{
 		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
 			let current = pruneLinkArgs(item[1].split('|'));
@@ -1442,7 +1440,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
-	console.log('coins:');
 	try{
 		item = content.innerHTML.match(coinRegex);
 		while(item){
@@ -1475,7 +1472,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		if(throwErrors) throw {sourceError:e, data:item};
 	}
 
-	console.log("items:");
 	let snindex = 0;
 	let customTags = [
 		{name: 'recipes', func:async (item) => {
@@ -1680,7 +1676,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 	);
 	
 	var node;
-	console.log('test walker');
 	while(node = walker.nextNode()) {
 		node.textContent = replaceBasicSubstitutions(node.textContent);
 	}

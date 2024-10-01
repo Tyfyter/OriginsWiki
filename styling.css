@@ -176,8 +176,12 @@ a:visited {
 	text-decoration: none;
 }
 
-a:hover {
+a:link:hover {
 	text-decoration: underline;
+}
+
+a.selflink {
+	font-weight: bold;
 }
 
 /* disable interpolation */
@@ -550,9 +554,10 @@ details > summary {
 .linknote {
 	color: var(--article-text-color);
 	font-size:0.9rem;
+	display: block;
 }
 
-.link > img {
+.link > img, a-link > img {
 	vertical-align: middle;
 }
 
