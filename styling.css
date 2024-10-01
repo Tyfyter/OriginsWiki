@@ -318,7 +318,7 @@ details > summary {
 	flex-wrap: wrap;
 }
 
-.statblock, .inlinestatblock {
+.statblock, .inlinestatblock, a-statblock {
 	width: 21rem;
 	right: 0px;
 	position: relative;
@@ -392,7 +392,7 @@ details > summary {
 	font-weight: bold;
 }
 
-.statblock {
+.statblock, a-statblock {
 	float: right;
 	clear: right;
 }
@@ -415,17 +415,18 @@ details > summary {
 	display: var(--tabvis-2);
 }
 
-.inlinestatblock {
+.inlinestatblock, a-statblock[inline] {
 	display: inline-block;
+	float: none;
 }
 
-.statblock > img, .inlinestatblock > img {
+.statblock > img, .inlinestatblock > img, a-statblock > img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.statblock > .stat, .inlinestatblock > .stat {
+.statblock > .stat, .inlinestatblock > .stat, a-statblock > .stat {
   margin-left: 0.5em;
 }
 
@@ -557,7 +558,7 @@ details > summary {
 	display: block;
 }
 
-.link > img, a-link > img {
+.link > img {
 	vertical-align: middle;
 }
 
@@ -767,7 +768,7 @@ snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 
 /* mobile version, make sure to set back to max-aspect-ratio: 1/1*/
 @media (max-aspect-ratio: 1/1){
-	.statblock {
+	.statblock, a-statblock {
 		float: none;
 		display: table-header-group;
 	}
@@ -780,7 +781,7 @@ snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 		display: table;
 		font-size: 115%;
 	}
-	.statblock > img {
+	.statblock > img, a-statblock > img {
 		width: 60%;
 	}
 	#toolbar {

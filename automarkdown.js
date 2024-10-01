@@ -1850,7 +1850,7 @@ var parse = async ()=>{
 		//head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
 	refreshThemeIcon();
-	let catSegPromise = createCategorySegment().then(function(v){console.log("category segment: ", v);content.append(v);});
+	let catSegPromise = createCategorySegment().then(function(v){content.append(v);});
 	/*let redableLinks = content.getElementsByTagName("A");
 	console.log(redableLinks.length + 'links');
 	let redLinkPromise = (async () => {

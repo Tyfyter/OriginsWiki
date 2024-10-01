@@ -11,6 +11,11 @@
     "BaitPower":15,
     "PickReq":15,
     "HammerReq":15,
+    "LightColor":[
+        1,
+        0,
+        0.5
+    ],
     "PlacementSize":[1,17],
     "Defense":34,
     "ArmorSlot":"Helmet",
@@ -31,6 +36,7 @@
     "Rarity":"Blue",
     "Buy":25000,
     "Sell":5000,
+    "Research": 1,
     "Buffs":[
         {
             "Name":"Example Buff",

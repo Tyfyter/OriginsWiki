@@ -39,7 +39,12 @@
             }
 		};
 		function copyLink(e) {
-            navigator.clipboard.writeText(document.location.origin + document.location.pathname + '?' + escape(document.getElementById('terminal').textContent));
+            let text = document.location.origin + document.location.pathname + '?' + escape(document.getElementById('terminal').textContent);
+            if (e.altKey) {
+                window.open(text, '_self');
+            } else {
+                navigator.clipboard.writeText(text);
+            }
 		};
 		</script>
         <script>
