@@ -64,9 +64,17 @@ function createElementWithTextAndAttributes(tag, text) {
 	return element;
 }
 
+function createHeader(parent, text) {
+	let header = parent.createChild('div', '', ['class', 'header']);
+	header.createChild('span', '', ['class', "padding"], ['style', "padding-left: 7.5px;"]);
+	header.createChild('span', text, ['class', "text"]);
+	header.createChild('span', '', ['class', "padding"], ['style', "flex-grow: 1;"]);
+}
+
 Object.defineProperty(HTMLElement.prototype, "createChild", {
     value: function createChild(tag, contents) {
 		let element = document.createElement(tag);
+		if (customElements.get(tag)) element = document.createElement('a', { is: tag });
 		if (contents) element.innerHTML = contents;
 		this.appendChild(element);
 		for (let index = 2; index < arguments.length; index++) {
@@ -82,9 +90,13 @@ class AFMLImg extends HTMLElement {
 	static observedAttributes = ["src", "alt"];
 	child;
 	constructor() {
-		// Always call super first in constructor
 		super();
-		//this.textContent = "";
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.child) return;
 		this.classList.add('picturebox');
 		this.child ??= document.createElement('img');
 		this.child.setAttribute('style', 'width: inherit;');
@@ -92,6 +104,7 @@ class AFMLImg extends HTMLElement {
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {
+		this.setup();
 		switch (name) {
 			case 'src':
 			this.child.setAttribute('src', newValue);
@@ -109,8 +122,9 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	static observedAttributes = ["href", "image"];
 	image;
 	constructor() {
-		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
 		this.classList.add('link');
 		let _notes = this.getElementsByTagName('note');
 		let notes = [];
@@ -155,6 +169,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			this.appendChild(noteContainer);
 		}
 	}
+
 	attributeChangedCallback(name, oldValue, newValue) {
 		switch (name) {
 			case 'href': {
@@ -190,13 +205,19 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 }
 customElements.define("a-link", AFMLLink, { extends: "a" });
 
-class AFMLSnippet extends HTMLElement { // can be created with document.createElement('a', {is: 'a-link' })
+class AFMLSnippet extends HTMLElement {
 	static observedAttributes = ["href", "pluck"];
 	button;
 	content;
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.content) return;
 		let text = this.textContent;
 		this.textContent = "";
 		this.button = document.createElement('a');
@@ -225,6 +246,7 @@ class AFMLSnippet extends HTMLElement { // can be created with document.createEl
 		}
 	}
 	attributeChangedCallback(name, oldValue, newValue) {
+		this.setup();
 		let contentID = 'snippetContent' + this.getAttribute('href') + this.getAttribute('pluck');
 		if (this.content.id === contentID) return;
 		this.content.id = contentID;
@@ -249,6 +271,8 @@ class AFMLCoins extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
 		this.classList.add('coins');
 		let count = parseInt(this.textContent);
 		this.textContent = '';
@@ -269,6 +293,8 @@ class AFMLCoin extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
 		this.classList.add('coins');
 		let type = this.textContent.trim().toLowerCase();
 		this.textContent = '';
@@ -282,9 +308,16 @@ class AFMLToolStats extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.child) return;
 		this.classList.add('toolstats');
 	}
 	attributeChangedCallback(name, oldValue, newValue) {
+		this.setup();
 		this.textContent = '';
 		this.createTool(this.getAttribute('pick'), 'Pickaxe power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
 		this.createTool(this.getAttribute('hammer'), 'Hammer power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
@@ -307,6 +340,8 @@ class AFMLRecipes extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
 		if (!this.innerHTML.startsWith('{') && !this.innerHTML.startsWith('[')) return;
 		//console.log('['+this.textContent+']');
 		let sections = eval('['+this.innerHTML+']');
@@ -371,6 +406,8 @@ class AFMLStat extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
 		this.classList.add('stat');
 		let stat = this.textContent.replace(' ', '_').split('.');
 		getStats(stat[0]).then((v) => {
@@ -409,6 +446,12 @@ class AFMLStatBlock extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.child) return;
 		this.classList.add('ontab0');
 		if (!this.hasAttribute('src')) {
 			let value = new Function(`return ${this.innerHTML};`)();
@@ -419,6 +462,7 @@ class AFMLStatBlock extends HTMLElement {
 		}
 	}
 	attributeChangedCallback(name, oldValue, newValue) {
+		this.setup();
 		getStats(newValue.replace(' ', '_')).then((v) => { this.doAutoStats(v) });
 	}
 	doAutoStats(stats) {
@@ -610,15 +654,11 @@ class AFMLStatBlock extends HTMLElement {
 		for (let i = 0; i < values.length; i++) {
 			this.addContents(values[i]);
 		}
+		if (data.InternalName) this.createChild('div', 'Internal Name: ' + data.InternalName, ['class', "internalname"]);
 	}
 	
 	addContents(data) {
-		if (data.header) {
-			let header = this.createChild('div', '', ['class', 'header']);
-			header.createChild('span', '', ['class', "padding"], ['style', "padding-left: 7.5px;"]);
-			header.createChild('span', data.header, ['class', "text"]);
-			header.createChild('span', '', ['class', "padding"], ['style', "flex-grow: 1;"]);
-		}
+		if (data.header) createHeader(this, data.header);
 		if (data.tabs && data.tabs.length > 1) {
 			let container = this.createChild('div', '', ['class', 'tabnames']);
 			for(var i = 0; i < data.tabs.length; i++){
@@ -726,6 +766,8 @@ class AFMLSortableList extends HTMLElement {
 		// Always call super first in constructor
 		super();
 		this.table = this.createChild('table', '', ['class', 'sortablelist']);
+	}
+	connectedCallback(){
 		if (!this.hasAttribute('src')) {
 			try {
 				let value = new Function(`return ${this.innerHTML};`)();
@@ -836,3 +878,67 @@ class AFMLSortableList extends HTMLElement {
 	}
 }
 customElements.define("a-sortablelist", AFMLSortableList);
+
+class AFMLBiomeContents extends HTMLElement {
+	static observedAttributes = ["src"];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	connectedCallback(){
+		if (!this.hasAttribute('src')) {
+			try {
+				let value = new Function(`return [${this.innerHTML}];`)();
+				this.textContent = '';
+				for (let i = 0; i < value.length; i++) {
+					this.processBiomeContents(value[i], this);
+				}
+			} catch (error) {
+				console.error(error, this.innerHTML);
+			}
+		}
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+		getStats('biomeContents/'+newValue.replace(' ', '_')).then((value) => { 
+			for (let i = 0; i < value.length; i++) {
+				this.processBiomeContents(value[i], this);
+			}
+		});
+	}
+	async processBiomeContents(data, parent){
+		if(data.header) createHeader(parent, data.header);
+		if(data.items){
+			for(var i = 0; i < data.items.length; i++){
+				if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
+					let span = parent.createChild('span');
+					if(data.items[i].startsWith('&amp;')){
+						span.appendChild(document.createTextNode(data.items[i].substring('&amp;'.length)));
+					}else{
+						span.createChild('a-link', data.items[i]);
+					}
+				}else if(data.items[i] instanceof Array){
+					let span = parent.createChild('span');
+					let attributes = [];
+					const pass = (index, name) => (data.items[i].length > index) && attributes.push([name, data.items[i][index]]);
+					pass(1, 'image');
+					pass(2, 'href');
+					let text = data.items[i][0];
+					if (data.items[i].length > 3) text += `<note>${data.items[i][3]}</note>`;
+					span.createChild('a-link', text, ...attributes);
+				}else{
+					let classes = "subcontents";
+					let attributes = [];
+					if(data.items && data.items[i]){
+						if(data.items[i].class) {
+							classes = ' '+data.items[i].class;
+						}
+						if (data.items[i].style) attributes.push(['style', data.items[i].style]);
+					}
+					let div = parent.createChild('div', '', ['class', classes], ...attributes);
+					this.processBiomeContents(data.items[i], div);
+				}
+			}
+		}
+	}
+}
+customElements.define("a-biomecontents", AFMLBiomeContents);

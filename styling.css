@@ -282,7 +282,8 @@ details > summary {
 	--visited-link-color: --article-text-color;
 }
 
-.biomecontents {
+.biomecontents, a-biomecontents {
+	display: block;
 	clear: both;
 	width: 95%;
 	background-color: var(--box-bg-color);
@@ -290,15 +291,15 @@ details > summary {
 	border-radius: 5px;
 	padding-top: 2.5px;
 	padding-bottom: 7.5px;
-	--link-image-max-height: 3rem;
+	--link-image-max-height: 7rem;
 }
 
-.biomecontents > .subcontents, .subcontents > .subcontents {
+.biomecontents > .subcontents, a-biomecontents > .subcontents, .subcontents > .subcontents {
 	margin-left: 3.5px;
 	margin-right: 3.5px;
 }
 
-.biomecontents > span, .subcontents > span {
+.biomecontents > span, a-biomecontents > span, .subcontents > span {
 	margin-left: 7.5px;
 	margin-right: 10px;
 }
