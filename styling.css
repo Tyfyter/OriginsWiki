@@ -733,6 +733,23 @@ snippet[hidden], a-snippet[hidden] {
 snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 	display: flow-root;
 }
+a-drop {
+	display: block;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+a-drop > a-drop::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 4px;
+	border-radius: 100px;
+	background: var(--article-text-color);  vertical-align: middle;
+	margin-right: 5px;
+}
+a-drop > a > img {
+	max-height: 3rem;
+}
 
 .coins ::after {
   content: '';

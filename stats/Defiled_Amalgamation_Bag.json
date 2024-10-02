@@ -8,14 +8,43 @@
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
   "Drops": [
-    "`[link Lost Ore | $fromStats | $default | ]` - (140‒330) 100%",
-    "`[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
-    "`[link Low Signal | $fromStats | $default | ]` - 50%",
-    "`[link Return To Sender | $fromStats | $default | ]` - 50%",
-    "`[link Defiled Amalgamation Trophy | $fromStats | $default | ]` - 10%",
-    "`[link Defiled Amalgamation Mask | $fromStats | $default | ]` - 10%",
-    "`[link Refactoring Pieces | $fromStats | $default | ]` - 100%",
-    "`[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+    {
+      "Name": "Refactoring Pieces",
+      "Chance": "100%"
+    },
+    {
+      "Name": "Lost_Ore",
+      "Amount": "140‒330",
+      "Chance": "100%"
+    },
+    {
+      "Name": "Undead_Chunk",
+      "Amount": "40‒100",
+      "Chance": "100%"
+    },
+    {
+      "Name": "Low_Signal",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Return To Sender",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Defiled Amalgamation Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "DA Mask",
+      "Chance": "10%"
+    },
+    {
+      "Name": "<a-coin>Gold</a-coin>Gold Coin",
+      "Amount": "15",
+      "Chance": "100%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    }
   ],
   "SpriteWidth": 32,
   "InternalName": "Defiled_Amalgamation_Bag"

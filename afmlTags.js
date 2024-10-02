@@ -12,6 +12,21 @@ if (document.location.protocol === 'https:' && document.location.hostname !== '1
 function processImagePath(path) {
 	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '.png';
 }
+class AsyncLock {
+	constructor () {
+		this.disable = () => {}
+		this.promise = Promise.resolve()
+	}
+
+	enable () {
+		this.promise = new Promise(resolve => this.disable = resolve)
+	}
+	static createLock() {
+		let lock = new AsyncLock();
+		lock.enable();
+		return lock;
+	}
+}
 let pageRequests = {};
 let pageRequestLock = {};
 async function getPageText(url) {
@@ -19,15 +34,15 @@ async function getPageText(url) {
 		pageRequests[url] ??= fetch(url);
 	}
 	if (pageRequests[url] instanceof Promise) {
-		while(pageRequestLock[url]);
-		pageRequestLock[url] = true;
-		try {
-			pageRequests[url] = await (await pageRequests[url]).text();
-		} finally {
-			pageRequestLock[url] = false;
-		}
+		pageRequests[url] = await pageRequests[url];
 	}
-	return pageRequests[url];
+	if (pageRequestLock[url]) await pageRequestLock[url].promise;
+	else pageRequestLock[url] = AsyncLock.createLock();
+	if (pageRequests[url].text) {
+		pageRequests[url] = await pageRequests[url].text();
+		pageRequestLock[url].disable();
+	}
+	return await pageRequests[url];
 }
 var aStats = {};
 async function getStats(name) {
@@ -244,11 +259,27 @@ class AFMLCoins extends HTMLElement {
 }
 customElements.define("a-coins", AFMLCoins);
 
+class AFMLCoin extends HTMLElement {
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.classList.add('coins');
+		let type = this.textContent.trim().toLowerCase();
+		this.textContent = '';
+		this.createChild('span', '', ['class', type]);
+	}
+}
+customElements.define("a-coin", AFMLCoin);
+
 class AFMLToolStats extends HTMLElement {
+	static observedAttributes = ["pick", "hammer", "axe"];
 	constructor() {
 		// Always call super first in constructor
 		super();
 		this.classList.add('toolstats');
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+		this.textContent = '';
 		this.createTool(this.getAttribute('pick'), 'Pickaxe power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
 		this.createTool(this.getAttribute('hammer'), 'Hammer power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
 		this.createTool(this.getAttribute('axe'), 'Axe power', 'Images/Axe_Icon.png');
@@ -455,9 +486,58 @@ class AFMLStatBlock extends HTMLElement {
 			if (stats.Sell) labeled(`<a-coins>${stats.Sell}</a-coins>`, 'Sell', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Research) labeled(`<abbr class="journey" title="Journey Mode">${stats.Research} required</abbr>`, 'Research', 'https://terraria.wiki.gg/wiki/Journey_Mode#Research');
 		}
+		var normalTabClass = (stats.Expert || stats.Master) ? 'onlytab0' : false;
+		var _expertClass = 'onlytab1';
+		var _masterClass = stats.Expert ? 'onlytab2' : 'onlytab1';
+		const getTabClass = (val) => {
+			return (stats.Expert && stats.Expert[val]) || (stats.Master && stats.Master[val])? normalTabClass : false;
+		};
+		function addStat(area, label, propertyName, dataProcessor = null){
+			let valueClass = getTabClass(propertyName);
+			let value = {label:label};
+			if (valueClass) value.class = valueClass;
+			let propertyValue = stats[propertyName];
+			if (propertyValue) {
+				if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+				value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
+				area.items.push(value);
+			}
+			if (stats.Expert) {
+				value = {label:label, class:_expertClass, valueClass:'expert'};
+				propertyValue = stats.Expert[propertyName];
+				if (propertyValue) {
+					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
+					area.items.push(value);
+				}
+			}
+			if (stats.Master) {
+				value = {label:label, class:_masterClass, valueClass:'master'};
+				propertyValue = stats.Master[propertyName];
+				if (propertyValue) {
+					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
+					area.items.push(value);
+				}
+			}
+		}
+		if (normalTabClass) {
+			statistics.tabs = ['Normal'];
+			if (stats.Expert) statistics.tabs.push({toString:()=>'Expert', class:'expert'});
+			if (stats.Master) statistics.tabs.push({toString:()=>'Master', class:'master'});
+		}
+		if(stats.Types.includes("NPC")){
+			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/Biome">Environment</a>', 'Biome');
+			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/AI">AI Style</a>', 'AIStyle');
+			addStat(statistics, 'Damage', 'Damage');
+			addStat(statistics, 'Max Life', 'MaxLife');
+			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/Defense">Defense</a>', 'Defense');
+			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/Knockback">Knockback</a>', 'KBResist');
+			addStat(statistics, 'Immune to', 'Immunities');
+		}
 
 		if (statistics.items.length) values.push(statistics);
-		if (stats.Debuffs) {
+		if (stats.Buffs) {
 			var buffs = {header: `Grants buff${stats.Buffs.length > 1 ? 's' : ''}`, items:[]};
 			for (let buffIndex = 0; buffIndex < stats.Buffs.length; buffIndex++) {
 				const buff = stats.Buffs[buffIndex];
@@ -490,6 +570,23 @@ class AFMLStatBlock extends HTMLElement {
 				}
 			}
 			if (buffs.items.length > 0) values.push(buffs);
+		}
+		if(stats.Drops || stats.Coins) {
+			var loot = {header:"Drops", items:[]};
+			addStat(loot, '<a is="a-link" href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>', 'Coins', (v) => `<a-coins>${v}</a-coins>`);
+			addStat(loot, 'Items', 'Drops', (v) => {
+				let stat = '';
+				for (let i = 0; i < v.length; i++) {
+					const item = v[i];
+					if (item.Name) {
+						stat += `<a-drop item='${item.Name}' amount='${item.Amount || ''}' chance='${item.Chance || ''}'></a-drop>`;
+					} else {
+						stat += item;
+					}
+				}
+				return stat;
+			});
+			values.push(loot);
 		}
 		for (let i = 0; i < values.length; i++) {
 			this.addContents(values[i]);
@@ -552,3 +649,53 @@ class AFMLStatBlock extends HTMLElement {
 	}
 }
 customElements.define("a-statblock", AFMLStatBlock);
+
+class AFMLDrop extends HTMLElement {
+	static observedAttributes = ["item", "amount", "chance", "conditions"];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	lastAttr;
+	attributeChangedCallback(name, oldValue, newValue) {
+		let attr = '';
+		for (let i = 0; i < this.attributes.length; i++) {
+			attr += `${this.attributes[i].name} ${this.attributes[i].value}`;
+		}
+		if (attr === this.lastAttr) return;
+		this.lastAttr = attr;
+		getStats(this.getAttribute('item').replaceAll(' ', '_')).then((stats) => {
+			let linkTarget = this.getAttribute('linkOverride') || (this.getAttribute('item').replaceAll(' ', '_') + aLinkSuffix);
+
+			let image = stats && (stats.Image || (stats.Images && stats.Images[0]));
+			if (this.hasAttribute('imageOverride')) image = this.getAttribute('imageOverride'); 
+
+			let textContent = (stats && stats.Name) || this.getAttribute('item').replaceAll('_', ' ');
+			//console.log(linkTarget, image, textContent);
+			let text = `<a is="a-link" href="${linkTarget}" ${image ? `image="${image}"` : ''}>${textContent}</a> - `;
+			if (this.getAttribute('amount')) text += `(${this.getAttribute('amount')}) `;
+			text += this.getAttribute('chance') || '100%';
+			//console.log(text);
+			this.innerHTML = text;
+			if (stats && stats.Drops) {
+				for (let i = 0; i < stats.Drops.length; i++) {
+					const item = stats.Drops[i];
+					if (item.Name) {
+						let extraAttributes = [];
+						if (item.hasOwnProperty('LinkOverride')) extraAttributes.push(['linkOverride', item.LinkOverride]);
+						if (item.hasOwnProperty('ImageOverride')) extraAttributes.push(['imageOverride', item.ImageOverride]);
+						this.createChild('a-drop', '', 
+							['item', item.Name],
+							['amount', item.Amount || ''],
+							['chance', item.Chance || ''],
+							...extraAttributes
+						);
+					} else {
+						this.createChild('div', item);
+					}
+				}
+			}
+		});
+	}
+}
+customElements.define("a-drop", AFMLDrop);

@@ -10,12 +10,32 @@
   "KBResist": 1.0,
   "Coins": 50000.0,
   "Drops": [
-    "`[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
-    "`[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
-    "`[link Low Signal | $fromStats | $default | ]` - 50%",
-    "`[link Return To Sender | $fromStats | $default | ]` - 50%",
-    "`[link Defiled Amalgamation Trophy | $fromStats | $default | ]` - 10%",
-    "`[link Defiled Amalgamation Mask | $fromStats | $default | ]` - 10%"
+    {
+      "Name": "Lost_Ore",
+      "Amount": "140‒330",
+      "Chance": "100%"
+    },
+    {
+      "Name": "Undead_Chunk",
+      "Amount": "40‒100",
+      "Chance": "100%"
+    },
+    {
+      "Name": "Low_Signal",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Return To Sender",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Defiled Amalgamation Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "DA Mask",
+      "Chance": "10%"
+    }
   ],
   "DefiledAssimilation": 0.04,
   "Expert": {
@@ -24,15 +44,10 @@
     "Immunities": [],
     "Coins": 125000.0,
     "Drops": [
-      "`[link Treasure Bag (Defiled Amalgamation) | $fromStats | $default | This is an Expert Mode drop rate]` - 100%",
-      "§l§ `[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
-      "§L§ `[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
-      "§L§ `[link Low Signal | $fromStats | $default | ]` - 50%",
-      "§L§ `[link Return To Sender | $fromStats | $default | ]` - 50%",
-      "§L§ `[link Defiled Amalgamation Trophy | $fromStats | $default | ]` - 10%",
-      "§L§ `[link Defiled Amalgamation Mask | $fromStats | $default | ]` - 10%",
-      "§L§ `[link Refactoring Pieces | $fromStats | $default | ]` - 100%",
-      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+      {
+        "Name": "Defiled_Amalgamation_Bag",
+        "Chance": "100%"
+      }
     ],
     "DefiledAssimilation": 0.051999997
   },
@@ -42,18 +57,22 @@
     "Immunities": [],
     "Coins": 125000.0,
     "Drops": [
-      "`[link Treasure Bag (Defiled Amalgamation) | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
-      "§l§ `[link Lost Ore | §ModImage§/Tiles/Defiled/Defiled_Ore_Item.png | $default | ]` - (140‒330) 100%",
-      "§L§ `[link Undead Chunk | $fromStats | $default | ]` - (40‒100) 100%",
-      "§L§ `[link Low Signal | $fromStats | $default | ]` - 50%",
-      "§L§ `[link Return To Sender | $fromStats | $default | ]` - 50%",
-      "§L§ `[link Defiled Amalgamation Trophy | $fromStats | $default | ]` - 10%",
-      "§L§ `[link Defiled Amalgamation Mask | $fromStats | $default | ]` - 10%",
-      "§L§ `[link Refactoring Pieces | $fromStats | $default | ]` - 100%",
-      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%",
-      "`[link Mysterious Spray | $fromStats | $default | This is a Master Mode drop rate]` - 25%",
-      "`[link Defiled Amalgamation Relic | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
-      "`[link Blockus Tube | $fromStats | $default | This is a Master Mode drop rate]` - 25%"
+      {
+        "Name": "Defiled_Amalgamation_Bag",
+        "Chance": "100%"
+      },
+      {
+        "Name": "Mysterious Spray",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Defiled Amalgamation Relic",
+        "Chance": "100%"
+      },
+      {
+        "Name": "Blockus Tube",
+        "Chance": "25%"
+      }
     ],
     "DefiledAssimilation": 0.06
   },
