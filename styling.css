@@ -1,13 +1,13 @@
 :root {
-  --article-bg-color: rgb(255, 255, 255);
-  --article-text-color: rgb(0, 0, 0);
+	--article-bg-color: rgb(255, 255, 255);
+	--article-text-color: rgb(0, 0, 0);
 	--article-link-color-base: rgb(167, 0, 204);
 	--visited-link-color-base: rgb(139, 26, 128);
 	--redlink-color: rgb(238, 0, 0);
-  --header-bg-color: rgba(0, 0, 0, 0.15);
-  --subcontents-bg-color: rgb(0, 0, 0, 0.15);
+	--header-bg-color: rgba(0, 0, 0, 0.15);
+	--subcontents-bg-color: rgb(0, 0, 0, 0.15);
 	--subcontents-border-color: darkslategrey;
-  --box-bg-color: rgb(235, 235, 235);
+	--box-bg-color: rgb(235, 235, 235);
 	--box-border-color:grey;
 	--link-image-max-height: 2rem;
 	--article-link-color: var(--article-link-color-base);
@@ -22,14 +22,14 @@
 }
 
 .theme-dark {
-  --article-bg-color: rgb(10, 9, 10);
-  --article-text-color: rgb(218, 218, 218);
+	--article-bg-color: rgb(10, 9, 10);
+	--article-text-color: rgb(218, 218, 218);
 	--article-link-color-base: #2bb9ff;
 	--visited-link-color-base: rgb(140, 125, 255);
 	--redlink-color: rgb(255, 62, 62);
-  --header-bg-color: rgba(10, 10, 10, 0.15);
-  --subcontents-bg-color: rgb(10, 10, 10, 0.15);
-  --box-bg-color: rgba(102, 102, 102, 0.35);
+	--header-bg-color: rgba(10, 10, 10, 0.15);
+	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
+	--box-bg-color: rgba(102, 102, 102, 0.35);
 	--tool-power-filter: invert(100%);
 }
 
@@ -49,7 +49,7 @@
 	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
   }
 
-  .theme-brine {
+.theme-brine {
 	--article-bg-color: rgb(20, 38, 39);
 	--article-text-color: rgb(45, 171, 74);
 	--article-link-color-base: #421af3;
@@ -62,35 +62,35 @@
 	--tool-power-filter: invert(60%) sepia(100%) saturate(200%) hue-rotate(90deg);
 	--wiki-logo: url(Images/themes/brinelogo.png);
 	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
-  }
+}
 
-  .theme-dawn {
+.theme-dawn {
 	--article-bg-color: rgb(238, 231, 183);
 	--article-text-color: rgb(134, 5, 53);
-	  --article-link-color-base: #0649bc;
-	  --visited-link-color-base: rgb(0, 33, 151);
-	  --redlink-color: rgb(255, 62, 62);
+	--article-link-color-base: #0649bc;
+	--visited-link-color-base: rgb(0, 33, 151);
+	--redlink-color: rgb(255, 62, 62);
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(135, 64, 64, 0.35);
-	  --tool-power-filter: invert(100%);
-	  --wiki-logo: url(Images/themes/dawnlogo.png);
-	  --wiki-logo-mobile: url(Images/themes/dawnlogo.png);
-  }
+	--tool-power-filter: invert(100%);
+	--wiki-logo: url(Images/themes/dawnlogo.png);
+	--wiki-logo-mobile: url(Images/themes/dawnlogo.png);
+}
 
-  .theme-dusk {
+.theme-dusk {
 	--article-bg-color: rgb(18, 3, 20);
 	--article-text-color: rgb(224, 150, 245);
-	  --article-link-color-base: #dfe4af;
-	  --visited-link-color-base: rgb(195, 179, 130);
-	  --redlink-color: rgb(255, 62, 62);
+	--article-link-color-base: #dfe4af;
+	--visited-link-color-base: rgb(195, 179, 130);
+	--redlink-color: rgb(255, 62, 62);
 	--header-bg-color: rgba(10, 10, 10, 0.15);
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(130, 64, 135, 0.35);
-	  --tool-power-filter: invert(100%);
-	  --wiki-logo: url(Images/themes/dusklogo.png);
-	  --wiki-logo-mobile: url(Images/themes/dusklogo.png);
-  }
+	--tool-power-filter: invert(100%);
+	--wiki-logo: url(Images/themes/dusklogo.png);
+	--wiki-logo-mobile: url(Images/themes/dusklogo.png);
+}
 
 .theme-riven {
 	--article-bg-color: rgb(26, 37, 57);
@@ -129,14 +129,14 @@
   image-rendering: smooth;
 }
 .theme-terminal {
-  --article-bg-color: rgb(0, 0, 0);
-  --article-text-color: rgb(0, 255, 0);
+	--article-bg-color: rgb(0, 0, 0);
+	--article-text-color: rgb(0, 255, 0);
 	--article-link-color-base: rgb(0, 0, 255);
 	--visited-link-color-base: rgb(255, 0, 255);
 	--redlink-color: rgb(255, 0, 0);
-  --header-bg-color: rgba(255, 255, 255, 0.15);
-  --subcontents-bg-color: rgb(255, 255, 255, 0.15);
-  --box-bg-color: rgb(255, 255, 255, 0.35);
+	--header-bg-color: rgba(255, 255, 255, 0.15);
+	--subcontents-bg-color: rgb(255, 255, 255, 0.15);
+	--box-bg-color: rgb(255, 255, 255, 0.35);
 	--tool-power-filter: invert(60%) sepia(9001%) saturate(999%) hue-rotate(75deg);
 	--wiki-logo: url(Images/themes/terminal-logo.png);
 	--wiki-logo-mobile: url(Images/themes/terminal-logo.png);
@@ -186,7 +186,7 @@ a.selflink {
 
 /* disable interpolation */
 img {
-  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  	image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
 	image-rendering: -moz-crisp-edges;          /* Firefox                        */
 	image-rendering: -o-crisp-edges;            /* Opera                          */
 	image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
@@ -197,11 +197,11 @@ img {
 
 #wikilogo {
 	display: inline-block;
-  height: 2.5em;
-  width: 2.5em;
-  position: fixed;
-  left: calc(-100vw + 100%);
-  top: 0rem;
+	height: 2.5em;
+	width: 2.5em;
+	position: fixed;
+	left: calc(-100vw + 100%);
+	top: 0rem;
 	content: var(--wiki-logo);
 	margin-left: calc(100vw - 100%);
 }
@@ -340,8 +340,8 @@ details > summary {
 	display: flex;
 }
 .statimagecontainer > img {
-  margin-left: auto;
-  margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding-left: 5%;
 	padding-right: 5%;
 }
@@ -353,9 +353,9 @@ details > summary {
 	margin-bottom: 0em;
 	padding-top: 0em;
 	width: calc(100% + 1rem);
-  margin: 0.2em auto 0.2em auto;
-  left: -0.5rem;
-  position: relative;
+	margin: 0.2em auto 0.2em auto;
+	left: -0.5rem;
+	position: relative;
 }
 
 .internalname {
@@ -421,13 +421,13 @@ details > summary {
 }
 
 .statblock > img, .inlinestatblock > img, a-statblock > img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .statblock > .stat, .inlinestatblock > .stat, a-statblock > .stat {
-  margin-left: 0.5em;
+  	margin-left: 0.5em;
 }
 
 .stat > .statvalues {
@@ -466,8 +466,8 @@ details > summary {
 	--link-image-max-height: 3rem;
 }
 .recipetable > thead > tr > th {
-  padding: 2px;
-  background-color: var(--subcontents-bg-color);
+	padding: 2px;
+	background-color: var(--subcontents-bg-color);
 	border-bottom: 1px solid var(--box-border-color);
 }
 
@@ -482,9 +482,9 @@ details > summary {
 }
 
 .recipetable > tbody > tr > td > .or {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
 }
 
 .recipetable > tbody > tr > td.middle {
@@ -501,8 +501,8 @@ details > summary {
 	--link-image-max-height: 3rem;
 }
 .sortablelist > thead > tr > th {
-  padding: 2px;
-  background-color: var(--subcontents-bg-color);
+	padding: 2px;
+	background-color: var(--subcontents-bg-color);
 	border-bottom: 1px solid var(--box-border-color);
 }
 
@@ -511,7 +511,7 @@ details > summary {
 }
 
 .sortablelist > tbody > tr > td {
-  padding: 10px;
+	padding: 10px;
 	border-bottom: 1px solid var(--box-border-color);
 }
 
@@ -560,6 +560,7 @@ details > summary {
 
 .link > img {
 	vertical-align: middle;
+	max-height: var(--link-image-max-height);
 }
 
 .linkandnote {
@@ -595,8 +596,8 @@ details > summary {
 
 #toolbar {
 	position: fixed;
-  right: 0.6rem;
-  top: 0.55rem;
+	right: 0.6rem;
+	top: 0.55rem;
 	z-index: 1;
 	width: fit-content;
 	border-radius: 5px;
@@ -701,10 +702,10 @@ details > summary {
 	background: var(--box-bg-color);
 }
 .sortedby ::after{
-  content: '▾';
+ 	content: '▾';
 }
 .revsortedby ::after{
-  content: '▴';
+  	content: '▴';
 }
 
 snippet, a-snippet {
@@ -747,22 +748,19 @@ a-drop > a-drop::before {
 	background: var(--article-text-color);  vertical-align: middle;
 	margin-right: 5px;
 }
-a-drop > a > img {
-	max-height: 3rem;
-}
 
 .coins ::after {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 16px;
-  margin: -3px 2px auto;
-  vertical-align: middle;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAQCAMAAACBWcfHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURQAAAJN9IW+Nn1xnakwsDMu1R1xCEjI3SiE1P1QdCo+cnWBtj4iksOF1S/Hy6npbGUVMUKGsrbZXG/z4tpmsuFJXbe3Zeey3oOzw89XF45VDFq+h03o3Ea7CxDpXvFYAAAABdFJOUwBA5thmAAAAwUlEQVQoz43SSxKDIBREUXyCQVBRUBQ1+99m4MVQJf5yq3p4Zk2I74WRX4WPPHenuO/c9L1zTbO5omDMmOh2qvT9oTjvummKLqpgAKoKAB2ljGVZdDtVlnU9jujuFOdC5Hl0O1X5miYsKmOsTVUw86w1uifVtsEdFYCU7zeAc6iyTClrGaM0VVqv6zzX9aPK89YnxFFJOQxhyxKVUkdF0KEht4qg28xOfR0AmlBwm0lU8o1rdf2ow3spjeb6vffqtA8gqhYRvoCL8AAAAABJRU5ErkJggg==);
-  background-repeat: no-repeat;
-  background-size: auto 16px;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+	content: '';
+	display: inline-block;
+	width: 12px;
+	height: 16px;
+	margin: -3px 2px auto;
+	vertical-align: middle;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAAQCAMAAACBWcfHAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAABaUExURQAAAJN9IW+Nn1xnakwsDMu1R1xCEjI3SiE1P1QdCo+cnWBtj4iksOF1S/Hy6npbGUVMUKGsrbZXG/z4tpmsuFJXbe3Zeey3oOzw89XF45VDFq+h03o3Ea7CxDpXvFYAAAABdFJOUwBA5thmAAAAwUlEQVQoz43SSxKDIBREUXyCQVBRUBQ1+99m4MVQJf5yq3p4Zk2I74WRX4WPPHenuO/c9L1zTbO5omDMmOh2qvT9oTjvummKLqpgAKoKAB2ljGVZdDtVlnU9jujuFOdC5Hl0O1X5miYsKmOsTVUw86w1uifVtsEdFYCU7zeAc6iyTClrGaM0VVqv6zzX9aPK89YnxFFJOQxhyxKVUkdF0KEht4qg28xOfR0AmlBwm0lU8o1rdf2ow3spjeb6vffqtA8gqhYRvoCL8AAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+	background-size: auto 16px;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
 }
 
 .coins .platinum::after {
@@ -771,7 +769,7 @@ a-drop > a > img {
 }
 
 .coins .gold::after {
-  background-position: -15px 50%;
+  	background-position: -15px 50%;
 }
 
 

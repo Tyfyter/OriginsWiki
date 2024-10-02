@@ -175,7 +175,13 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			path = this.href.replaceAll('.html', '').split('/');
 			path = path[path.length - 1];
 			getStats(path).then((v) => {
-				this.setImage(v.Image);
+				if (v) {
+					if (v.Image) {
+						this.setImage(v.Image);
+					} else if (v.Images) {
+						this.setImage(v.Images[0]);
+					}
+				}
 			});
 		} else {
 			this.image.src = processImagePath(path);
@@ -712,3 +718,121 @@ class AFMLDrop extends HTMLElement {
 	}
 }
 customElements.define("a-drop", AFMLDrop);
+
+class AFMLSortableList extends HTMLElement {
+	static observedAttributes = ["src"];
+	table;
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.table = this.createChild('table', '', ['class', 'sortablelist']);
+		if (!this.hasAttribute('src')) {
+			try {
+				let value = new Function(`return ${this.innerHTML};`)();
+				this.setContents(value);
+			} catch (error) {
+				console.error(error, this.innerHTML);
+			}
+		}
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+		getStats('statLists/'+newValue.replace(' ', '_')).then((v) => { this.doAutoSetup(v) });
+	}
+	doAutoSetup(data) {
+		if (!data) {
+			table.innerHTML = `could not find statList ${this.getAttribute('src')}`;
+			return;
+		}
+		getCategories().then((cats) => {
+			if (!(data.items instanceof Array)) data.items = [];
+			var currentCat;
+		
+			if (data.intersection) {
+				currentCat = cats[data.categories[0]];
+				for (var i = 0; i < currentCat.items.length; i++) {
+					data.items.push(currentCat.items[i]);
+				}
+				for (var i = 1; i < data.categories.length; i++) {
+					currentCat = cats[data.categories[i]];
+					for (var j = 0; j < data.items.length; j++) {
+						currentCat.items.includes(data.items[j]) || data.items.splice(j--,1);
+					}
+				}
+			} else {
+				for (var i = 0; i < data.categories.length; i++) {
+					currentCat = cats[data.categories[i]];
+					for (var j = 0; j < currentCat.items.length; j++) {
+						data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
+					}
+				}
+			}
+			this.setContents(data);
+		});
+	}
+	async setContents(data) {
+		console.log(`processing sortable list:`, data);
+		if (!defaultStats) defaultStats = await getStats("Defaults");
+
+		var result = '<thead><tr>';
+		let head = this.table.createChild('thead');
+		let row = head.createChild('tr');
+		if(data.headers[0] === 'Name'){
+			data.headers[0] = {name:'Name', expr:"`<a is=\"a-link\" ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=\"$fromStats\">${item.Name}</a>`", sortIndex:'item.Name', noAbbr:true};
+		}
+		for(var j = 0; j < data.headers.length; j++){
+			let attributes = [
+				['onclick', `clickSortableList(event, ${j})`]
+			];
+			if (j>0&&j<data.headers.length) attributes.push(['class', 'notleft']);
+			let th = row.createChild('th', '', ...attributes);
+			let text = data.headers[j].expr ? data.headers[j].name : data.headers[j];
+			if (data.headers[j].expr && !data.headers[j].noAbbr) {
+				th.createChild('abbr', text, ['title', data.headers[j].expr.replaceAll('item.','')]);
+			} else {
+				th.createChild('span', text);
+			}
+		}
+		let body = this.table.createChild('tbody');
+		var keys = new Set();
+		for(var i = 0; i < data.items.length; i++){
+			row = head.createChild('tr');
+			var item;
+			if(data.items[i] instanceof Object){
+				item = data.items[i];
+			}else{
+				let stats = await requestStats(data.items[i]);
+				if (stats) {
+					item = JSON.parse(stats);
+					item.WikiName = data.items[i];
+				}
+			}
+			if(!item.Name && !(data.items[i] instanceof Object)){
+				item.Name = data.items[i];
+			}
+			for(let key in defaultStats){
+				if(!item.hasOwnProperty(key)){
+					item[key] = defaultStats[key];
+				}
+			}
+			evalItem = {};
+			for(let key in item){
+				keys.add(key);
+			}
+			keys.forEach((key)=>{evalItem[key] = item[key];});
+			for(var j = 0; j < data.headers.length; j++){
+				var displayValue = item[data.headers[j]];
+				if (data.headers[j].expr){
+					displayValue = await new Function('item', 'return '+data.headers[j].expr+';')(item);
+				}
+				if (Array.isArray(displayValue)) {
+					displayValue = displayValue.join('<br>');
+				}
+				let attributes = [];
+				if (j>0&&j<data.headers.length) attributes.push(['class', 'notleft']);
+				row.createChild('td', displayValue, ...attributes);
+				if (data.headers[j].sortIndex) row.createChild('span', await new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
+			}
+		}
+	}
+}
+customElements.define("a-sortablelist", AFMLSortableList);
