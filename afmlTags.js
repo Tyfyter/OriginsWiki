@@ -371,8 +371,29 @@ class AFMLStat extends HTMLElement {
 			for(var i = 1; i < stat.length; i++){
 				v = v[stat[i]];
 			}
-			this.innerHTML = v;
+			this.innerHTML = AFMLStat.formatStat(stat[stat.length - 1], v);
 		});
+	}
+	static formatStat(name, stat) {
+		switch (name) {
+			case 'Coins':
+			return `<a-coins>${stat}</a-coins>`;
+			case 'Drops':
+			let drops = '';
+			for (let i = 0; i < stat.length; i++) {
+				const item = stat[i];
+				if (item.Name) {
+					let extraAttributes = '';
+					if (item.hasOwnProperty('LinkOverride')) extraAttributes += ' linkOverride="' + item.LinkOverride + '"';
+					if (item.hasOwnProperty('ImageOverride')) extraAttributes += ' imageOverride="' + item.ImageOverride + '"';
+					drops += `<a-drop item='${item.Name}' amount='${item.Amount || ''}' chance='${item.Chance || ''}'${extraAttributes}></a-drop>`;
+				} else {
+					drops += item;
+				}
+			}
+			return drops;
+		}
+		return stat;
 	}
 }
 customElements.define("a-stat", AFMLStat);
@@ -498,7 +519,8 @@ class AFMLStatBlock extends HTMLElement {
 			if (valueClass) value.class = valueClass;
 			let propertyValue = stats[propertyName];
 			if (propertyValue) {
-				if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+				propertyValue = AFMLStat.formatStat(propertyName, propertyValue);
+				//if (dataProcessor) propertyValue = dataProcessor(propertyValue);
 				value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
 				area.items.push(value);
 			}
@@ -506,7 +528,8 @@ class AFMLStatBlock extends HTMLElement {
 				value = {label:label, class:_expertClass, valueClass:'expert'};
 				propertyValue = stats.Expert[propertyName];
 				if (propertyValue) {
-					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+					propertyValue = AFMLStat.formatStat(propertyName, propertyValue);
+					//if (dataProcessor) propertyValue = dataProcessor(propertyValue);
 					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
 					area.items.push(value);
 				}
@@ -515,7 +538,8 @@ class AFMLStatBlock extends HTMLElement {
 				value = {label:label, class:_masterClass, valueClass:'master'};
 				propertyValue = stats.Master[propertyName];
 				if (propertyValue) {
-					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
+					propertyValue = AFMLStat.formatStat(propertyName, propertyValue);
+					//if (dataProcessor) propertyValue = dataProcessor(propertyValue);
 					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
 					area.items.push(value);
 				}
@@ -573,19 +597,8 @@ class AFMLStatBlock extends HTMLElement {
 		}
 		if(stats.Drops || stats.Coins) {
 			var loot = {header:"Drops", items:[]};
-			addStat(loot, '<a is="a-link" href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>', 'Coins', (v) => `<a-coins>${v}</a-coins>`);
-			addStat(loot, 'Items', 'Drops', (v) => {
-				let stat = '';
-				for (let i = 0; i < v.length; i++) {
-					const item = v[i];
-					if (item.Name) {
-						stat += `<a-drop item='${item.Name}' amount='${item.Amount || ''}' chance='${item.Chance || ''}'></a-drop>`;
-					} else {
-						stat += item;
-					}
-				}
-				return stat;
-			});
+			addStat(loot, '<a is="a-link" href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>', 'Coins');
+			addStat(loot, 'Items', 'Drops');
 			values.push(loot);
 		}
 		for (let i = 0; i < values.length; i++) {
