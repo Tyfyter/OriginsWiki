@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,7 @@
 			[statblock Nuclear_Arm]
 
 			<p>
-				The <b>Nuclear Arm</b> is a [link Demolitionist Weapon | | Demolitionist_Weapons.html] that is craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>.
+				The <b>Nuclear Arm</b> is a <a is="a-link" href="Demolitionist_Weapons.html">Demolitionist Weapon</a> that is craftable using materials dropped by the <a href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>.
 				It replaces the player's active arm with a custom sprite resembling the Nuclear Arm. The Arm will track wherever the cursor is on the screen and will fire a slow explosive projectile whenever clicked.
 				The arm can fire prematurely before it is aimed at where the player wants to shoot, so the player will have to wait before shooting for most accuracy. That paired with the slower projectile velocity are drawbacks of using this weapon limitlessly.
 			</p>
@@ -25,15 +26,15 @@
 				<recipes>
 				{
 				stations:[
-				'[link Fabricator | Images/Tiles/Fabricator.gif]'
+				'<a is="a-link" image="Images/Tiles/Fabricator.gif" href="">Fabricator</a>'
 				]
 				items:[
 				{
-				result:'[link Nuclear Arm | $fromStats]'
+				result:'<a is="a-link" image="$fromStats" href="">Nuclear Arm</a>'
 				ingredients:[
-				'[link Explosive Powder | | https://terraria.wiki.gg/wiki/Explosive_Powder](10)'
-				'[link Busted Servo | $fromStats](20)'
-				'[link Power Core | $fromStats](2)'
+				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Explosive_Powder">Explosive Powder</a>(10)'
+				'<a is="a-link" image="$fromStats" href="">Busted Servo</a>(20)'
+				'<a is="a-link" image="$fromStats" href="">Power Core</a>(2)'
 				]
 				}
 				]

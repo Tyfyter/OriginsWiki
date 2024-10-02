@@ -8,14 +8,14 @@
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
   "Drops": [
-    "`[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
-    "`[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
-    "`[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
-    "`[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
-    "`[link Entangled Energy | $fromStats | $default | ]` - 100%",
-    "`[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
   ],
   "SpriteWidth": 32,
   "InternalName": "Fiberglass_Weaver_Bag"

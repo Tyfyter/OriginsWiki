@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,8 @@
 			<span id="error-log"></span>
 
 			<p>
-				The <b>Haggard Artery</b> is a [link pre-Hardmode | | https://terraria.wiki.gg/wiki/Pre-Hardmode] [link accessory | | Accessories.html] combining an [link Explosive Artery] with a [link Messy Leech].
-				While equipped, enemies inflicted with [link Bleeding | | https://terraria.wiki.gg/wiki/Bleeding] within 24 tiles of the player have an 1/30 (3.33%) chance to explode every second.
+				The <b>Haggard Artery</b> is a <a is="a-link" href="https://terraria.wiki.gg/wiki/Pre-Hardmode">pre-Hardmode</a> <a is="a-link" href="Accessories.html">accessory</a> combining an <a is="a-link">Explosive Artery</a> with a <a is="a-link">Messy Leech</a>.
+				While equipped, enemies inflicted with <a is="a-link" href="https://terraria.wiki.gg/wiki/Bleeding">Bleeding</a> within 24 tiles of the player have an 1/30 (3.33%) chance to explode every second.
 				Additionally, all enemies attacked by the player are inflicted Bleeding (including explosions from this item).
 			</p>
 
@@ -30,14 +31,14 @@
 					<recipes>
 					{
 					stations:[
-					`[link Tinkerer's Workshop | | https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop]`
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
 					]
 					items:[
 					{
-					result:'[link Haggard Artery | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Haggard Artery</a>'
 					ingredients:[
-					'[link Explosive Artery | $fromStats]'
-					'[link Messy Leech | $fromStats]'
+					'<a is="a-link" image="$fromStats" href="">Explosive Artery</a>'
+					'<a is="a-link" image="$fromStats" href="">Messy Leech</a>'
 					]
 					}
 					]

@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,9 +14,9 @@
 			[statblock Shaped_Glass]
 
 			<p>
-				The <b>Shaped Glass</b> is a boss-summoning [link consumable | | Consumables.html] item that is crafted from [link Fiberglass Blocks | | Fiberglass_Block.html].
-				Upon use, it will summon the [link Fiberglass Weaver].
-				If not used in the [link Fiberglass Caverns], it will do nothing and will not be consumed.
+				The <b>Shaped Glass</b> is a boss-summoning <a is="a-link" href="Consumables.html">consumable</a> item that is crafted from <a is="a-link" href="Fiberglass_Block.html">Fiberglass Blocks</a>.
+				Upon use, it will summon the <a is="a-link">Fiberglass Weaver</a>.
+				If not used in the <a is="a-link">Fiberglass Caverns</a>, it will do nothing and will not be consumed.
 			</p>
 
 			<div>
@@ -26,13 +27,13 @@
 					<recipes>
 					{
 					stations:[
-					'[link Work Benches]'
+					'<a is="a-link">Work Benches</a>'
 					]
 					items:[
 					{
-					result:'[link Shaped Glass | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Shaped Glass</a>'
 					ingredients:[
-					'[link Fiberglass Block | §ModImage§/Tiles/Other/Fiberglass_Item.png](18)'
+					'<a is="a-link" image="§ModImage§/Tiles/Other/Fiberglass_Item.png" href="">Fiberglass Block</a>(18)'
 					]
 					}
 					]

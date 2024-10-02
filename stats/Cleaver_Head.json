@@ -8,20 +8,20 @@
   "Defense": 7,
   "KBResist": 1.0,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 70.0,
   "Drops": [
-    "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
   ],
   "RivenAssimilation": 0.04,
   "Expert": {
     "MaxLife": 100,
     "Coins": 175.0,
     "Drops": [
-      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
     ],
     "RivenAssimilation": 0.051999997
   },
@@ -29,7 +29,7 @@
     "MaxLife": 150,
     "Coins": 175.0,
     "Drops": [
-      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
     ],
     "RivenAssimilation": 0.06
   },

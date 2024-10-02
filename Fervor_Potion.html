@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,8 @@
 			[statblock Fervor_Potion]
 
 			<p>
-				The <b>Fervor Potion</b> is a [link buff potion | | Buff_Potions.html] that can be crafted using [link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water], a [link Bilemouth] and any [link evil herb | | Recipes.html].
-				When consumed, it provides the <b>Fervor</b> [link buff | | Buffs.html], which increases weapon speed by 10%.
+				The <b>Fervor Potion</b> is a <a is="a-link" href="Buff_Potions.html">buff potion</a> that can be crafted using <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>, a <a is="a-link">Bilemouth</a> and any <a is="a-link" href="Recipes.html">evil herb</a>.
+				When consumed, it provides the <b>Fervor</b> <a is="a-link" href="Buffs.html">buff</a>, which increases weapon speed by 10%.
 				This effect will last for 4 minutes, but can be canceled anytime by right-clicking the icon.
 			</p>
 
@@ -26,16 +27,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Alchemy Table | $default | https://terraria.wiki.gg/wiki/Alchemy_Table]'
-					'[link Placed Bottle | $default | https://terraria.wiki.gg/wiki/Bottle_(crafting_station)]'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Alchemy_Table">Alchemy Table</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bottle_(crafting_station)">Placed Bottle</a>'
 					]
 					items:[
 					{
-					result:'[link Fervor Potion | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Fervor Potion</a>'
 					ingredients:[
-					'[link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water]'
-					'[link Bilemouth | $fromStats]'
-					'[link Any Evil Herb | Images/Animations/Cycling_Herbs.gif | Recipes.html]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>'
+					'<a is="a-link" image="$fromStats" href="">Bilemouth</a>'
+					'<a is="a-link" image="Images/Animations/Cycling_Herbs.gif" href="Recipes.html">Any Evil Herb</a>'
 					]
 					}
 					]

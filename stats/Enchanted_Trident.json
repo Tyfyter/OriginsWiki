@@ -8,25 +8,25 @@
   "Defense": 16,
   "KBResist": 0.65,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link On Fire! | $default | $default]`",
-    "`[link Confused | $default | $default]`",
-    "`[link Hellfire | $default | $default]`",
-    "`[link Incandescent Burn | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
+    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 1000.0,
   "Drops": [
-    "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
-    "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Meat_Grinder">Meat Grinder</a>` - 0.5%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nazar">Nazar</a>` - 1%"
   ],
   "Expert": {
     "MaxLife": 350,
     "KBResist": 0.685,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
-      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Meat_Grinder">Meat Grinder</a>` - 0.5%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nazar">Nazar</a>` - 1.99%"
     ]
   },
   "Master": {
@@ -34,8 +34,8 @@
     "KBResist": 0.72,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Meat Grinder | $default | https://terraria.wiki.gg/wiki/Meat_Grinder]` - 0.5%",
-      "`[link Nazar | $default | https://terraria.wiki.gg/wiki/Nazar]` - 1.99%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Meat_Grinder">Meat Grinder</a>` - 0.5%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nazar">Nazar</a>` - 1.99%"
     ]
   },
   "SpriteWidth": 76,

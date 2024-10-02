@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,10 +14,10 @@
 			[statblock Focus_Potion]
 
 			<p>
-				The <b>Focus Potion</b> is a [link buff potion | | Buff_Potions.html] that can be crafted using [link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water], [link Fallen Star | | https://terraria.wiki.gg/wiki/Fallen_Star] and [link Brineglow].
-				When consumed, it provides the <b>Mana Channeling</b> [link buff | | Buffs.html], which causes the player to consume [link mana | | https://terraria.wiki.gg/wiki/Mana] to boost weapon damage.
+				The <b>Focus Potion</b> is a <a is="a-link" href="Buff_Potions.html">buff potion</a> that can be crafted using <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>, <a is="a-link" href="https://terraria.wiki.gg/wiki/Fallen_Star">Fallen Star</a> and <a is="a-link">Brineglow</a>.
+				When consumed, it provides the <b>Mana Channeling</b> <a is="a-link" href="Buffs.html">buff</a>, which causes the player to consume <a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">mana</a> to boost weapon damage.
 				This effect will last for 4 minutes, but can be canceled anytime by right-clicking the icon.
-				The effect still works with [link magic weapons] and just consumes more mana.
+				The effect still works with <a is="a-link">magic weapons</a> and just consumes more mana.
 			</p>
 
 			<div>
@@ -27,16 +28,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Alchemy Table | $default | https://terraria.wiki.gg/wiki/Alchemy_Table]'
-					'[link Placed Bottle | $default | https://terraria.wiki.gg/wiki/Bottle_(crafting_station)]'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Alchemy_Table">Alchemy Table</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bottle_(crafting_station)">Placed Bottle</a>'
 					]
 					items:[
 					{
-					result:'[link Focus Potion | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Focus Potion</a>'
 					ingredients:[
-					'[link Bottled Water | | https://terraria.wiki.gg/wiki/Bottled_Water]'
-					'[link Fallen Star | | https://terraria.wiki.gg/wiki/Fallen_Star]'
-					'[link Brineglow | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Fallen_Star">Fallen Star</a>'
+					'<a is="a-link" image="$fromStats" href="">Brineglow</a>'
 					]
 					}
 					]

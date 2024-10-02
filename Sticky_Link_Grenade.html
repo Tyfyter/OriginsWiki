@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,7 @@
 			[statblock Link_Grenade]
 
 			<p>
-				The <b>Sticky Link Grenade</b> is an [link explosive | | Demolitionist_Weapons.html] that can be crafted using [link Gel | | https://terraria.wiki.gg/wiki/Gel] and [link Link Grenades].
+				The <b>Sticky Link Grenade</b> is an <a is="a-link" href="Demolitionist_Weapons.html">explosive</a> that can be crafted using <a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a> and <a is="a-link">Link Grenades</a>.
 				It is functionally identical to standard Link Grenades, but now it can stick to tiles and enemies.
 			</p>
 
@@ -25,10 +26,10 @@
 				{
 				items:[
 				{
-				result:'[link Sticky Link Grenade | $fromStats](5)'
+				result:'<a is="a-link" image="$fromStats" href="">Sticky Link Grenade</a>(5)'
 				ingredients:[
-				'[link Gel | | https://terraria.wiki.gg/wiki/Gel]'
-				'[link Link Grenade | $fromStats](5)'
+				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>'
+				'<a is="a-link" image="$fromStats" href="">Link Grenade</a>(5)'
 				]
 				}
 				]

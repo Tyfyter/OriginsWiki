@@ -7,8 +7,8 @@
   "MaxLife": 110,
   "Defense": 7,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 500.0,
   "Drops": [],

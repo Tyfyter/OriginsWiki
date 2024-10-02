@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
 			<span id="error-log"></span>
 
 			<p>
-				The <b>Locket Necklace</b> is a [link pre-Hardmode | | https://terraria.wiki.gg/wiki/Pre-Hardmode] [link accessory | | Accessories.html] crafted using a [link Panic Necklace | | https://terraria.wiki.gg/wiki/Panic_Necklace] and [link Comb].
+				The <b>Locket Necklace</b> is a <a is="a-link" href="https://terraria.wiki.gg/wiki/Pre-Hardmode">pre-Hardmode</a> <a is="a-link" href="Accessories.html">accessory</a> crafted using a <a is="a-link" href="https://terraria.wiki.gg/wiki/Panic_Necklace">Panic Necklace</a> and <a is="a-link">Comb</a>.
 				When equipped, the player will have a 20% increase in damage and a 50% increase in movement speed after receiving damage.
 			</p>
 
@@ -29,14 +30,14 @@
 					<recipes>
 					{
 					stations:[
-					`[link Tinkerer's Workshop | | https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop]`
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
 					]
 					items:[
 					{
-					result:'[link Locket Necklace | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Locket Necklace</a>'
 					ingredients:[
-					'[link Panic Necklace | | https://terraria.wiki.gg/wiki/Panic_Necklace]'
-					'[link Comb | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Panic_Necklace">Panic Necklace</a>'
+					'<a is="a-link" image="$fromStats" href="">Comb</a>'
 					]
 					}
 					]
@@ -48,21 +49,21 @@
 					<recipes>
 					{
 					stations:[
-					`[link Tinkerer's Workshop | | https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop]`
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
 					]
 					items:[
 					{
-					result:'[link Last Descendant | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Last Descendant</a>'
 					ingredients:[
-					'[link Star Veil | | https://terraria.wiki.gg/wiki/Star_Veil]'
-					'[link Locket Necklace | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Star_Veil">Star Veil</a>'
+					'<a is="a-link" image="$fromStats" href="">Locket Necklace</a>'
 					]
 					}
 					{
-					result:`[link Lover's Leap | §ModImage§/Items/Accessories/Lovers_Leap.png | Lovers_Leap.html]`
+					result:`<a is="a-link" image="§ModImage§/Items/Accessories/Lovers_Leap.png" href="Lovers_Leap.html">Lover's Leap</a>`
 					ingredients:[
-					'[link Spectre Boots | | https://terraria.wiki.gg/wiki/Spectre_Boots]'
-					'[link Locket Necklace | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Spectre_Boots">Spectre Boots</a>'
+					'<a is="a-link" image="$fromStats" href="">Locket Necklace</a>'
 					]
 					}
 					]

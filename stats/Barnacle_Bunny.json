@@ -7,7 +7,7 @@
   "MaxLife": 75,
   "Defense": 5,
   "Immunities": [
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 500.0,
   "Drops": [],

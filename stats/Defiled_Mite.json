@@ -7,23 +7,23 @@
   "MaxLife": 44,
   "Defense": 12,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 20.0,
   "Drops": [
-    "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
-    "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
-    "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
   ],
   "Expert": {
     "MaxLife": 88,
     "KBResist": 0.100000024,
     "Coins": 50.0,
     "Drops": [
-      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
     ]
   },
   "Master": {
@@ -31,9 +31,9 @@
     "KBResist": 0.19999999,
     "Coins": 50.0,
     "Drops": [
-      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 0.19%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
     ]
   },
   "SpriteWidth": 34,

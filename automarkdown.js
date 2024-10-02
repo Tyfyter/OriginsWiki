@@ -41,13 +41,13 @@ function parseXMLSitemap(sitemapContent) {
 	var xmlDoc = parser.parseFromString(sitemapContent, 'text/xml');
 	return xmlDoc;
 }
-var _categories = requestPageText('categories.hjson');
-var _generated_categories = requestPageText('generated_categories.json');
-var _siteMap = requestPageText('sitemap.xml');
-var _aliases = requestPageText('aliases.json');
-var defaultStats;
+//var _categories = requestPageText('categories.hjson');
+//var _generated_categories = requestPageText('generated_categories.json');
+//var _siteMap = requestPageText('sitemap.xml');
+//var _aliases = requestPageText('aliases.json');
+//var defaultStats;
 
-var aliases = false;
+//var aliases = false;
 var _stats = {};
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 pageName = decodeURI(pageName);

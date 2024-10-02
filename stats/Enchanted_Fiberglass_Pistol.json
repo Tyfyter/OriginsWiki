@@ -8,21 +8,21 @@
   "Defense": 10,
   "KBResist": 0.6,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link On Fire! | $default | $default]`",
-    "`[link Hellfire | $default | $default]`",
-    "`[link Incandescent Burn | $default | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
+    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
+    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+    "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
   ],
   "Expert": {
     "MaxLife": 114,
     "KBResist": 0.676,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
     ]
   },
   "Master": {
@@ -30,7 +30,7 @@
     "KBResist": 0.74399996,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Shaped Glass | $fromStats | $default | ]` - 4%"
+      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
     ]
   },
   "SpriteWidth": 38,

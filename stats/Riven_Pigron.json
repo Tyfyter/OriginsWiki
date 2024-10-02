@@ -8,24 +8,24 @@
   "Defense": 16,
   "KBResist": 0.5,
   "Immunities": [
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 2000.0,
   "Drops": [
-    "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
-    "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
-    "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
-    "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
   ],
   "Expert": {
     "MaxLife": 840,
     "KBResist": 0.595,
     "Coins": 12500.0,
     "Drops": [
-      "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
-      "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
-      "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
-      "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
     ]
   },
   "Master": {
@@ -33,10 +33,10 @@
     "KBResist": 0.67999995,
     "Coins": 12500.0,
     "Drops": [
-      "`[link Bacon | $default | https://terraria.wiki.gg/wiki/Bacon]` - 6.667%",
-      "`[link Pigron Minecart | $default | https://terraria.wiki.gg/wiki/Pigron_Minecart]` - 1%",
-      "`[link Pigron Kite | $default | https://terraria.wiki.gg/wiki/Pigron_Kite]` - 4%",
-      "`[link Ham Bat | $default | https://terraria.wiki.gg/wiki/Ham_Bat]` - 4%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
     ]
   },
   "SpriteWidth": 90,

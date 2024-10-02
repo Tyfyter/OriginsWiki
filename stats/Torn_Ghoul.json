@@ -8,22 +8,22 @@
   "Defense": 24,
   "KBResist": 0.39999998,
   "Immunities": [
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 650.0,
   "Drops": [
-    "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-    "`[link Alkahest | $fromStats | $default | ]` - 33.333%",
-    "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+    "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
   ],
   "Expert": {
     "MaxLife": 480,
     "KBResist": 0.45999998,
     "Coins": 1625.0,
     "Drops": [
-      "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-      "`[link Alkahest | $fromStats | $default | ]` - 33.333%",
-      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "Master": {
@@ -31,9 +31,9 @@
     "KBResist": 0.52,
     "Coins": 1625.0,
     "Drops": [
-      "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-      "`[link Alkahest | $fromStats | $default | ]` - 33.333%",
-      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "SpriteWidth": 36,

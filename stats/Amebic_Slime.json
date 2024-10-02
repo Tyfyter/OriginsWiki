@@ -7,13 +7,13 @@
   "MaxLife": 60,
   "Defense": 5,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 40.0,
   "Drops": [
-    "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
-    "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
   ],
   "RivenAssimilation": 0.04,
   "Expert": {
@@ -21,8 +21,8 @@
     "KBResist": 0.19000006,
     "Coins": 100.0,
     "Drops": [
-      "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
-      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
     ],
     "RivenAssimilation": 0.051999997
   },
@@ -31,8 +31,8 @@
     "KBResist": 0.35999995,
     "Coins": 100.0,
     "Drops": [
-      "`[link Gel | $default | https://terraria.wiki.gg/wiki/Gel]` - (2‒4) 100%",
-      "`[link Ameballoon | $fromStats | $default | ]` - (3‒6) 100%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
     ],
     "RivenAssimilation": 0.06
   },

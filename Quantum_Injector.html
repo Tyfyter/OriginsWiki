@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,8 @@
 			[statblock Quantum_Injector]
 
 			<p>
-				The <b>Quantum Injector</b> is a [link consumable | | Consumables.html] item that is crafted a [link Mana Crystal | | https://terraria.wiki.gg/wiki/Mana_Crystal] and [link Qubes | | Qube.html].
-				When used, it will permanently increase the player's [link mana | | https://terraria.wiki.gg/wiki/Mana] capacity by 40, up to a maximum of 400 total.
+				The <b>Quantum Injector</b> is a <a is="a-link" href="Consumables.html">consumable</a> item that is crafted a <a is="a-link" href="https://terraria.wiki.gg/wiki/Mana_Crystal">Mana Crystal</a> and <a is="a-link" href="Qube.html">Qubes</a>.
+				When used, it will permanently increase the player's <a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">mana</a> capacity by 40, up to a maximum of 400 total.
 				It takes 5 injections to reach this maximum.
 				It also restores 40 mana when used, but only as long as the character's maximum mana is below 400.
 			</p>
@@ -27,14 +28,14 @@
 					<recipes>
 					{
 					stations:[
-					`[link Ancient Manipulator | | https://terraria.wiki.gg/wiki/Ancient_Manipulator.html]`
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Manipulator.html">Ancient Manipulator</a>`
 					]
 					items:[
 					{
-					result:`[link Quantum Injector | $fromStats]`
+					result:`<a is="a-link" image="$fromStats" href="">Quantum Injector</a>`
 					ingredients:[
-					`[link Mana Crystal | | https://terraria.wiki.gg/wiki/Mana_Crystal]`
-					`[link Qube | §ModImage§/Tiles/Cubekon/Qube_Item.png](50)`
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana_Crystal">Mana Crystal</a>`
+					`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item.png" href="">Qube</a>(50)`
 					]
 					}
 					]

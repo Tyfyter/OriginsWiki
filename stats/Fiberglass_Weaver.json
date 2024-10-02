@@ -9,35 +9,35 @@
   "Defense": 26,
   "KBResist": 0.9,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link On Fire! | $default | $default]`",
-    "`[link Hellfire | $default | $default]`",
-    "`[link Incandescent Burn | $default | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
+    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
+    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`"
   ],
   "Coins": 150000.0,
   "Drops": [
-    "`[link Fiberglass Helmet | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Pauldrons | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Boots | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
-    "`[link Fiberglass Weaver Head | $fromStats | $default | ]` - 10%"
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Weaver Head<note> </note></a>` - 10%"
   ],
   "Expert": {
     "MaxLife": 2800,
     "KBResist": 0.91,
     "Coins": 375000.0,
     "Drops": [
-      "`[link Treasure Bag (Fiberglass Weaver) | $fromStats | $default | This is an Expert Mode drop rate]` - 100%",
-      "§l§ `[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Entangled Energy | $fromStats | $default | ]` - 100%",
-      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (Fiberglass Weaver)<note>This is an Expert Mode drop rate</note></a>` - 100%",
+      "§l§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
+      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
     ]
   },
   "Master": {
@@ -45,16 +45,16 @@
     "KBResist": 0.92,
     "Coins": 375000.0,
     "Drops": [
-      "`[link Treasure Bag (Fiberglass Weaver) | $fromStats | $default | This is a Master Mode drop rate]` - 100%",
-      "§l§ `[link Fiberglass Helmet | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Pauldrons | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Boots | $fromStats | $default | ]` - 66.667%",
-      "§L§ `[link Fiberglass Bow | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Fiberglass Sword | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Fiberglass Pistol | $fromStats | $default | ]` - 33.333%",
-      "§L§ `[link Entangled Energy | $fromStats | $default | ]` - 100%",
-      "§L§ `[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%",
-      "`[link Fiberglass Dagger | $fromStats | $default | This is a Master Mode drop rate]` - 25%"
+      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (Fiberglass Weaver)<note>This is a Master Mode drop rate</note></a>` - 100%",
+      "§l§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
+      "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
+      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Dagger<note>This is a Master Mode drop rate</note></a>` - 25%"
     ]
   },
   "SpriteWidth": 68,

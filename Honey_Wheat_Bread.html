@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,8 @@
 			[statblock Honey_Bread]
 
 			<p>
-				<b>Honey Wheat Bread</b> is a [link food] item that is crafted using [link Bottled Honey | | https://terraria.wiki.gg/wiki/Bottled_Honey] and [link Bread].
-				When consumed, it provides the <b>[link Exquisitely Stuffed | | https://terraria.wiki.gg/wiki/Well_Fed]</b> and <b>[link Honey | | https://terraria.wiki.gg/wiki/Honey_(buff)]</b> [link buffs | | Buffs.html], which lasts for 4 minutes.
+				<b>Honey Wheat Bread</b> is a <a is="a-link">food</a> item that is crafted using <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Honey">Bottled Honey</a> and <a is="a-link">Bread</a>.
+				When consumed, it provides the <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Well_Fed">Exquisitely Stuffed</a></b> and <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Honey_(buff)">Honey</a></b> <a is="a-link" href="Buffs.html">buffs</a>, which lasts for 4 minutes.
 			</p>
 
 			<div>
@@ -26,15 +27,15 @@
 					<recipes>
 					{
 					stations:[
-					'[link Cauldron | | https://terraria.wiki.gg/wiki/Cooking_Pots]'
-					'[link Cooking Pot | $default | https://terraria.wiki.gg/wiki/Cooking_Pots]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cauldron</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cooking Pot</a>'
 					]
 					items:[
 					{
-					result:'[link Honey Wheat Bread | §ModImage§/Items/Other/Consumables/Food/Honey_Bread.png]'
+					result:'<a is="a-link" image="§ModImage§/Items/Other/Consumables/Food/Honey_Bread.png" href="">Honey Wheat Bread</a>'
 					ingredients:[
-					'[link Bottled Honey | | https://terraria.wiki.gg/wiki/Bottled_Honey]'
-					'[link Bread | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Honey">Bottled Honey</a>'
+					'<a is="a-link" image="$fromStats" href="">Bread</a>'
 					]
 					}
 					]

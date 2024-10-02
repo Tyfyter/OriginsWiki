@@ -9,11 +9,11 @@
   "KBResist": 0.5,
   "Coins": 10000.0,
   "Drops": [
-    "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-    "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
-    "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
-    "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
-    "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+    "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Kruncher<note> </note></a>` - 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 7.143%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 7.143%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 7.143%"
   ],
   "Expert": {
     "MaxLife": 600,
@@ -21,11 +21,11 @@
     "Immunities": [],
     "Coins": 25000.0,
     "Drops": [
-      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-      "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
-      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
-      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
-      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Kruncher<note> </note></a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 7.143%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 7.143%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 7.143%"
     ]
   },
   "Master": {
@@ -34,11 +34,11 @@
     "Immunities": [],
     "Coins": 25000.0,
     "Drops": [
-      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-      "`[link Ancient Kruncher | $fromStats | $default | ]` - 100%",
-      "`[link Ancient Defiled Helmet | $fromStats | $default | ]` - 7.143%",
-      "`[link Ancient Defiled Breastplate | $fromStats | $default | ]` - 7.143%",
-      "`[link Ancient Defiled Greaves | $fromStats | $default | ]` - 7.143%"
+      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Kruncher<note> </note></a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 7.143%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 7.143%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 7.143%"
     ]
   },
   "SpriteWidth": 96,

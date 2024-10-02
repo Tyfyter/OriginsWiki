@@ -9,9 +9,9 @@
   "KBResist": 0.5,
   "Coins": 650.0,
   "Drops": [
-    "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-    "`[link Black Bile | $fromStats | $default | ]` - 33.333%",
-    "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+    "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
   ],
   "Expert": {
     "MaxLife": 560,
@@ -19,9 +19,9 @@
     "Immunities": [],
     "Coins": 1625.0,
     "Drops": [
-      "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-      "`[link Black Bile | $fromStats | $default | ]` - 33.333%",
-      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "Master": {
@@ -30,9 +30,9 @@
     "Immunities": [],
     "Coins": 1625.0,
     "Drops": [
-      "`[link Ancient Cloth | $default | https://terraria.wiki.gg/wiki/Ancient_Cloth]` - 10%",
-      "`[link Black Bile | $fromStats | $default | ]` - 33.333%",
-      "`[link Dark Shard | $default | https://terraria.wiki.gg/wiki/Dark_Shard]` - 6.667%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "SpriteWidth": 36,

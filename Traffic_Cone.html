@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +16,9 @@
 			[statblock Traffic_Cone]
 
 			<p>
-				The <b>Traffic Cone</b> is a small [link furniture] item that has a 1/10 (10%) chance to be dropped by [link Conehead Zombies | | Conehead_Zombie.html].
-				It can also be crafted using [link Rubber] at a [link Heavy Work Bench | | https://terraria.wiki.gg/wiki/Heavy_Work_Bench].
-				When placed, any players or [link enemies] within a 30-tile radius of the cone will be constantly inflicted with the [link Slow | | https://terraria.wiki.gg/wiki/Slow] debuff.
+				The <b>Traffic Cone</b> is a small <a is="a-link">furniture</a> item that has a 1/10 (10%) chance to be dropped by <a is="a-link" href="Conehead_Zombie.html">Conehead Zombies</a>.
+				It can also be crafted using <a is="a-link">Rubber</a> at a <a is="a-link" href="https://terraria.wiki.gg/wiki/Heavy_Work_Bench">Heavy Work Bench</a>.
+				When placed, any players or <a is="a-link">enemies</a> within a 30-tile radius of the cone will be constantly inflicted with the <a is="a-link" href="https://terraria.wiki.gg/wiki/Slow">Slow</a> debuff.
 			</p>
 
 			<details class="section" id="Crafting" open>
@@ -27,13 +28,13 @@
 				<recipes>
 				{
 				stations:[
-				'[link Heavy Work Bench | | https://terraria.wiki.gg/wiki/Heavy_Work_Bench]'
+				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Heavy_Work_Bench">Heavy Work Bench</a>'
 				]
 				items:[
 				{
-				result:'[link Traffic Cone | §ModImage§/Tiles/Other/Traffic_Cone_Item.png]'
+				result:'<a is="a-link" image="§ModImage§/Tiles/Other/Traffic_Cone_Item.png" href="">Traffic Cone</a>'
 				ingredients:[
-				'[link Rubber | $fromStats](6)'
+				'<a is="a-link" image="$fromStats" href="">Rubber</a>(6)'
 				]
 				}
 				]

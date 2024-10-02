@@ -8,37 +8,37 @@
   "Defense": 34,
   "KBResist": 0.9,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link On Fire! | $default | $default]`",
-    "`[link Confused | $default | $default]`",
-    "`[link Hellfire | $default | $default]`",
-    "`[link Incandescent Burn | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
+    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 30000.0,
   "Drops": [
-    "`[link Communion | $fromStats | $default | ]` - 20%",
-    "`[link Incision | $fromStats | $default | ]` - 20%",
-    "`[link Ziptie | $fromStats | $default | ]` - 20%",
-    "`[link Ravel | $fromStats | $default | ]` - 20%",
-    "`[link Chunky Hook | $fromStats | $default | ]` - 20%",
-    "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
-    "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
-    "`[link Defiled Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+    "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
+    "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
+    "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
   ],
   "Expert": {
     "MaxLife": 7000,
     "KBResist": 0.91,
     "Coins": 75000.0,
     "Drops": [
-      "`[link Communion | $fromStats | $default | ]` - 20%",
-      "`[link Incision | $fromStats | $default | ]` - 20%",
-      "`[link Ziptie | $fromStats | $default | ]` - 20%",
-      "`[link Ravel | $fromStats | $default | ]` - 20%",
-      "`[link Chunky Hook | $fromStats | $default | ]` - 20%",
-      "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
-      "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
-      "`[link Defiled Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+      "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
     ]
   },
   "Master": {
@@ -46,14 +46,14 @@
     "KBResist": 0.92,
     "Coins": 75000.0,
     "Drops": [
-      "`[link Communion | $fromStats | $default | ]` - 20%",
-      "`[link Incision | $fromStats | $default | ]` - 20%",
-      "`[link Ziptie | $fromStats | $default | ]` - 20%",
-      "`[link Ravel | $fromStats | $default | ]` - 20%",
-      "`[link Chunky Hook | $fromStats | $default | ]` - 20%",
-      "`[link Greater Healing Potion | $default | https://terraria.wiki.gg/wiki/Greater_Healing_Potion]` - (5‒10) 100%",
-      "`[link Greater Mana Potion | $default | https://terraria.wiki.gg/wiki/Greater_Mana_Potion]` - (5‒15) 100%",
-      "`[link Defiled Key | $fromStats | $default | With the \"Rare biome enemies drop Biome keys\" option enabled]` - 2%"
+      "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
     ]
   },
   "SpriteWidth": 60,

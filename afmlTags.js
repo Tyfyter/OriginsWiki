@@ -44,6 +44,24 @@ async function getPageText(url) {
 	}
 	return await pageRequests[url];
 }
+var _categories = getPageText('categories.hjson');
+var _generated_categories = getPageText('generated_categories.json');
+var _siteMap = getPageText('sitemap.xml');
+var _aliases = getPageText('aliases.json');
+var defaultStats;
+
+var aliases = false;
+async function getAliases(){
+	if (!aliases) {
+		try {
+			aliases = JSON.parse(await _aliases);
+		} catch (error) {
+			aliases = {};
+		}
+	}
+	return aliases;
+}
+getAliases();
 var aStats = {};
 async function getStats(name) {
 	var value = await aStats[name];
@@ -123,6 +141,8 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	image;
 	constructor() {
 		super();
+		this.image = document.createElement('img');
+		this.insertBefore(this.image, this.firstChild);
 	}
 	connectedCallback(){
 		this.classList.add('link');
@@ -133,23 +153,21 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			notes.push(element);
 			element.parentNode.removeChild(element);
 		}
-		if (!this.hasAttribute('href')) {
+		let target = this.getAttribute('href');
+		if (!target) {
 			let targetPage = this.textContent.replaceAll(' ', '_');
 			if (aliases[targetPage]) {
 				targetPage = aliases[targetPage];
 			}
 			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '') + aLinkSuffix;
-			this.setAttribute('href', targetPage);
+			target = targetPage;
 		}
-		if (new URL(this.getAttribute('href'), document.baseURI).href == document.location) {//self link
+		if (new URL(target, document.baseURI).href == document.location) {//self link
 			this.classList.add('selflink');
 			this.removeAttribute('href');
+		} else if (target != this.getAttribute('href')) {
+			this.setAttribute('href', target);
 		}
-		if (this.hasAttribute('notext')) {
-			this.textContent = '';
-		}
-		this.image = document.createElement('img');
-		this.insertBefore(this.image, this.firstChild);
 		if (notes.length) {
 			let noteContainer = document.createElement('span');
 			noteContainer.classList.add('linkandnote');
@@ -171,6 +189,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {
+		//console.log(this, name, newValue);
 		switch (name) {
 			case 'href': {
 				requestHead(newValue).then((v) => {
@@ -186,8 +205,10 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		}
 	}
 	setImage(path) {
-		if (path === '$fromStats') {
-			path = this.href.replaceAll('.html', '').split('/');
+		if(!path){
+			this.image.style.display = 'none';
+		} else if (path === '$fromStats') {
+			path = (this.href || this.textContent.replaceAll(' ', '_')).replaceAll('.html', '').split('/');
 			path = path[path.length - 1];
 			getStats(path).then((v) => {
 				if (v) {
@@ -200,6 +221,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			});
 		} else {
 			this.image.src = processImagePath(path);
+			this.image.style.display = '';
 		}
 	}
 }
@@ -342,9 +364,9 @@ class AFMLRecipes extends HTMLElement {
 		super();
 	}
 	connectedCallback(){
-		if (!this.innerHTML.startsWith('{') && !this.innerHTML.startsWith('[')) return;
-		//console.log('['+this.textContent+']');
-		let sections = eval('['+this.innerHTML+']');
+		let contents = this.innerHTML.trim();
+		if (!contents.startsWith('{') && !contents.startsWith('[')) return;
+		let sections = eval('['+contents+']');
 		this.textContent = '';
 		let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
 		let head = table.createChild('thead');
@@ -355,14 +377,12 @@ class AFMLRecipes extends HTMLElement {
 
 		let body = table.createChild('tbody');
 		for(let j = 0; j < sections.length; j++){
-			console.log(sections[j]);
 			this.processRecipeBlock(sections[j], body);
 		}
 	}
 	processRecipeBlock(data, body){
 		let stations = '<a href="https://terraria.wiki.gg/wiki/By_Hand">By Hand</a>';
 		if(data.stations){
-			console.log(data.stations);
 			if(Array.isArray(data.stations)){
 				stations = '';
 				for(var j = 0; j < data.stations.length; j++){
@@ -507,7 +527,7 @@ class AFMLStatBlock extends HTMLElement {
 				items: [{images: images}]
 			});
     	}
-		if (stats.Types.includes("Item")) {
+		if (stats.Types && stats.Types.includes("Item")) {
 			var setSuffix = stats.Types.includes("ArmorSet") ? '(set)' : '';
 			if (stats.PickPower || stats.HammerPower || stats.AxePower) {
 				statistics.items.push({
@@ -600,7 +620,7 @@ class AFMLStatBlock extends HTMLElement {
 			if (stats.Expert) statistics.tabs.push({toString:()=>'Expert', class:'expert'});
 			if (stats.Master) statistics.tabs.push({toString:()=>'Master', class:'master'});
 		}
-		if(stats.Types.includes("NPC")){
+		if(stats.Types && stats.Types.includes("NPC")){
 			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/Biome">Environment</a>', 'Biome');
 			addStat(statistics, '<a is="a-link" href="https://terraria.wiki.gg/wiki/AI">AI Style</a>', 'AIStyle');
 			addStat(statistics, 'Damage', 'Damage');
@@ -654,7 +674,7 @@ class AFMLStatBlock extends HTMLElement {
 		for (let i = 0; i < values.length; i++) {
 			this.addContents(values[i]);
 		}
-		if (data.InternalName) this.createChild('div', 'Internal Name: ' + data.InternalName, ['class', "internalname"]);
+		if (stats.InternalName) this.createChild('div', 'Internal Name: ' + stats.InternalName, ['class', "internalname"]);
 	}
 	
 	addContents(data) {

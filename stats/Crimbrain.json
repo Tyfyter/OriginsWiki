@@ -9,8 +9,8 @@
   "KBResist": 0.14999998,
   "Coins": 75.0,
   "Drops": [
-    "`[link Vertebra | $default | https://terraria.wiki.gg/wiki/Vertebra]` - 100%",
-    "`[link Brainy Staff | $fromStats | $default | ]` - 5.882%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
   ],
   "CrimsonAssimilation": 0.07,
   "Expert": {
@@ -19,8 +19,8 @@
     "Immunities": [],
     "Coins": 467.0,
     "Drops": [
-      "`[link Vertebra | $default | https://terraria.wiki.gg/wiki/Vertebra]` - 100%",
-      "`[link Brainy Staff | $fromStats | $default | ]` - 5.882%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
     ],
     "CrimsonAssimilation": 0.091
   },
@@ -30,8 +30,8 @@
     "Immunities": [],
     "Coins": 467.0,
     "Drops": [
-      "`[link Vertebra | $default | https://terraria.wiki.gg/wiki/Vertebra]` - 100%",
-      "`[link Brainy Staff | $fromStats | $default | ]` - 5.882%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
     ],
     "CrimsonAssimilation": 0.105000004
   },

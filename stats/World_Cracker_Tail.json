@@ -8,9 +8,9 @@
   "Defense": 20,
   "KBResist": 1.0,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 300.0,
   "Drops": [],

@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +16,9 @@
 			[statblock Laser_Tag_Console]
 
 			<p>
-				The <b>Laser Tag Console</b> is a functional [link furniture] item used to initiate and customize the [link Laser Tag] [link event | | Events.html].
+				The <b>Laser Tag Console</b> is a functional <a is="a-link">furniture</a> item used to initiate and customize the <a is="a-link">Laser Tag</a> <a is="a-link" href="Events.html">event</a>.
 				When the player presses the <b>Open/Activate</b> button on the console a menu will appear where the player can modify the players involved and time of the event, and can toggle between starting and ending it using the same key.
-				Upon starting the event, any players with a [link Laser Tag Vest] will be able to participate.
+				Upon starting the event, any players with a <a is="a-link">Laser Tag Vest</a> will be able to participate.
 			</p>
 
 			<div>
@@ -28,16 +29,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Fabricator | Images/Tiles/Fabricator.gif]'
+					'<a is="a-link" image="Images/Tiles/Fabricator.gif" href="">Fabricator</a>'
 					]
 					items:[
 					{
-					result:'[link Laser Tag Console | §ModImage§/Tiles/Other/Laser_Tag_Console_Item.png]'
+					result:'<a is="a-link" image="§ModImage§/Tiles/Other/Laser_Tag_Console_Item.png" href="">Laser Tag Console</a>'
 					ingredients:[
-					'[link Copper Bar | | https://terraria.wiki.gg/wiki/Copper_Bar](2)'
-					'[link Busted Servo | $fromStats](5)'
-					'[link Power Core | $fromStats]'
-					'[link Silicon | §ModImage§/Tiles/Other/Silicon_Item.png](8)'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Copper_Bar">Copper Bar</a>(2)'
+					'<a is="a-link" image="$fromStats" href="">Busted Servo</a>(5)'
+					'<a is="a-link" image="$fromStats" href="">Power Core</a>'
+					'<a is="a-link" image="§ModImage§/Tiles/Other/Silicon_Item.png" href="">Silicon</a>(8)'
 					]
 					}
 					]

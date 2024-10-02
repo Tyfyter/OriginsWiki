@@ -8,31 +8,31 @@
   "Defense": 22,
   "KBResist": 1.0,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 100.0,
   "Drops": [
-    "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
-    "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-    "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Black_Ink">Black Ink</a>` - 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - (1‒3) 100%"
   ],
   "Expert": {
     "MaxLife": 330,
     "Coins": 625.0,
     "Drops": [
-      "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
-      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-      "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Black_Ink">Black Ink</a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - (1‒3) 100%"
     ]
   },
   "Master": {
     "MaxLife": 495,
     "Coins": 625.0,
     "Drops": [
-      "`[link Black Ink | $default | https://terraria.wiki.gg/wiki/Black_Ink]` - 100%",
-      "`[link Strange String | $fromStats | $default | ]` - (1‒3) 100%",
-      "`[link Black Bile | $fromStats | $default | ]` - (1‒3) 100%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Black_Ink">Black Ink</a>` - 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
+      "`<a is="a-link" image="$fromStats" href="$default">Black Bile<note> </note></a>` - (1‒3) 100%"
     ]
   },
   "SpriteWidth": 30,

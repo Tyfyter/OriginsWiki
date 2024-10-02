@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,8 @@
 			</span>
 
 			<p>
-				<b>Soul Spaghetti</b> is a [link food] item that is crafted using a [link Bowl of Soup | | https://terraria.wiki.gg/wiki/Bowl_of_Soup] and [link Strange String].
-				When consumed, it provides the <b>[link Plenty Satisfied | | https://terraria.wiki.gg/wiki/Well_Fed]</b> [link buffs | | Buffs.html], which lasts for 8 minutes.
+				<b>Soul Spaghetti</b> is a <a is="a-link">food</a> item that is crafted using a <a is="a-link" href="https://terraria.wiki.gg/wiki/Bowl_of_Soup">Bowl of Soup</a> and <a is="a-link">Strange String</a>.
+				When consumed, it provides the <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Well_Fed">Plenty Satisfied</a></b> <a is="a-link" href="Buffs.html">buffs</a>, which lasts for 8 minutes.
 			</p>
 
 			<div>
@@ -29,15 +30,15 @@
 					<recipes>
 					{
 					stations:[
-					'[link Cauldron | | https://terraria.wiki.gg/wiki/Cooking_Pots]'
-					'[link Cooking Pot | $default | https://terraria.wiki.gg/wiki/Cooking_Pots]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cauldron</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cooking Pot</a>'
 					]
 					items:[
 					{
-					result:'[link Soul Spaghetti | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Soul Spaghetti</a>'
 					ingredients:[
-					'[link Bowl of Soup | | https://terraria.wiki.gg/wiki/Bowl_of_Soup]'
-					'[link Strange String | $fromStats](10)'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bowl_of_Soup">Bowl of Soup</a>'
+					'<a is="a-link" image="$fromStats" href="">Strange String</a>(10)'
 					]
 					}
 					]

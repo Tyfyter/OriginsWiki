@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
 			<span id="error-log"></span>
 
 			<p>
-				<b>Living Bile Block</b> is a type of [link Living Fire Block | | Living_Fire_Blocks.html] that illuminates and emits a faint straw-colored light when placed.
+				<b>Living Bile Block</b> is a type of <a is="a-link" href="Living_Fire_Blocks.html">Living Fire Block</a> that illuminates and emits a faint straw-colored light when placed.
 				It deals no damage on contact and can be mined like other tiles.
 			</p>
 
@@ -29,14 +30,14 @@
 					<recipes>
 					{
 					stations:[
-					'[link Crystal Ball | | https://terraria.wiki.gg/wiki/Crystal_Ball]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Crystal_Ball">Crystal Ball</a>'
 					]
 					items:[
 					{
-					result:'[link Living Bile Block | §ModImage§/Tiles/Other/Living_Bile_Item.png]'
+					result:'<a is="a-link" image="§ModImage§/Tiles/Other/Living_Bile_Item.png" href="">Living Bile Block</a>'
 					ingredients:[
-					'[link Living Fire Block | | https://terraria.wiki.gg/wiki/Living_Fire_Blocks](20)'
-					'[link Black Bile | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Living_Fire_Blocks">Living Fire Block</a>(20)'
+					'<a is="a-link" image="$fromStats" href="">Black Bile</a>'
 					]
 					}
 					]

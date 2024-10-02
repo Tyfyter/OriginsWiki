@@ -7,13 +7,13 @@
   "MaxLife": 20,
   "Defense": 8,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Drops": [
-    "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
-    "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
-    "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+    "`<a is="a-link" image="$fromStats" href="$default">Undead Chunk<note> </note></a>` - (2‒4) 50%",
+    "`<a is="a-link" image="$fromStats" href="$default">Lost Ore<note> </note></a>` - (2‒4) 50%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Heart">Heart</a>` - 50%"
   ],
   "DefiledAssimilation": 0.02,
   "Expert": {
@@ -21,9 +21,9 @@
     "KBResist": 0.100000024,
     "Coins": 0.0,
     "Drops": [
-      "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
-      "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
-      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+      "`<a is="a-link" image="$fromStats" href="$default">Undead Chunk<note> </note></a>` - (2‒4) 50%",
+      "`<a is="a-link" image="$fromStats" href="$default">Lost Ore<note> </note></a>` - (2‒4) 50%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Heart">Heart</a>` - 50%"
     ],
     "DefiledAssimilation": 0.025999999
   },
@@ -32,9 +32,9 @@
     "KBResist": 0.19999999,
     "Coins": 0.0,
     "Drops": [
-      "`[link Undead Chunk | $fromStats | $default | ]` - (2‒4) 50%",
-      "`[link Lost Ore | $fromStats | $default | ]` - (2‒4) 50%",
-      "`[link Heart | $default | https://terraria.wiki.gg/wiki/Heart]` - 50%"
+      "`<a is="a-link" image="$fromStats" href="$default">Undead Chunk<note> </note></a>` - (2‒4) 50%",
+      "`<a is="a-link" image="$fromStats" href="$default">Lost Ore<note> </note></a>` - (2‒4) 50%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Heart">Heart</a>` - 50%"
     ],
     "DefiledAssimilation": 0.03
   },

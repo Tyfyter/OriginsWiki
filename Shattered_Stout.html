@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,8 @@
 			[statblock Shattered_Stout]
 
 			<p>
-				The <b>Shattered Stout</b> is a [link food] item that is crafted from [link Bottles | | https://terraria.wiki.gg/wiki/Bottle], [link Bileberry] and [link Prickly Pear].
-				When consumed, it provides the <b>[link Well Fed | | https://terraria.wiki.gg/wiki/Well_Fed]</b> [link buff | | Buffs.html], which lasts for 20 minutes.
+				The <b>Shattered Stout</b> is a <a is="a-link">food</a> item that is crafted from <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottle">Bottles</a>, <a is="a-link">Bileberry</a> and <a is="a-link">Prickly Pear</a>.
+				When consumed, it provides the <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Well_Fed">Well Fed</a></b> <a is="a-link" href="Buffs.html">buff</a>, which lasts for 20 minutes.
 			</p>
 
 			<div>
@@ -26,16 +27,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Cauldron | | https://terraria.wiki.gg/wiki/Cooking_Pots]'
-					'[link Cooking Pot | $default | https://terraria.wiki.gg/wiki/Cooking_Pots]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cauldron</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cooking Pot</a>'
 					]
 					items:[
 					{
-					result:'[link Shattered Stout | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Shattered Stout</a>'
 					ingredients:[
-					'[link Bottle | | https://terraria.wiki.gg/wiki/Bottle]'
-					'[link Bileberry | $fromStats]'
-					'[link Prickly Pear | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottle">Bottle</a>'
+					'<a is="a-link" image="$fromStats" href="">Bileberry</a>'
+					'<a is="a-link" image="$fromStats" href="">Prickly Pear</a>'
 					]
 					}
 					]

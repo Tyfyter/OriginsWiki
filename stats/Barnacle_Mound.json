@@ -8,22 +8,22 @@
   "Defense": 18,
   "KBResist": 1.0,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 100.0,
   "Drops": [
-    "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
   ],
   "Expert": {
     "Drops": [
-      "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
     ]
   },
   "Master": {
     "Drops": [
-      "`[link Bud Barnacle | $fromStats | $default | ]` - (3‒8) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
     ]
   },
   "SpriteWidth": 34,

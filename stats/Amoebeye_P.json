@@ -7,9 +7,9 @@
   "MaxLife": 90,
   "KBResist": 0.99,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link Ichor | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">Ichor</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Drops": [],
   "Expert": {

@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +18,7 @@
 			<span id="error-log"></span>
 
 			<p>
-				<b>Amoeba Fluid</b> is a [link block | | Blocks.html] type found in the [link Riven Hive].
+				<b>Amoeba Fluid</b> is a <a is="a-link" href="Blocks.html">block</a> type found in the <a is="a-link">Riven Hive</a>.
 				It is often used to block passages and arc across from floating structures within the Hive to block the player.
 				Amoeba Fluid is translucent and glows in sync with the rest of the Hive.
 				It allows the player to bounce off of it when jumped on.
@@ -31,13 +32,13 @@
 					<recipes>
 					{
 					stations:[
-					'[link Heavy Work Bench | | https://terraria.wiki.gg/wiki/Heavy_Work_Bench]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Heavy_Work_Bench">Heavy Work Bench</a>'
 					]
 					items:[
 					{
-					result:'[link Amoeba Fluid | §ModImage§/Tiles/Riven/Amoeba_Fluid_Item.png](10)'
+					result:'<a is="a-link" image="§ModImage§/Tiles/Riven/Amoeba_Fluid_Item.png" href="">Amoeba Fluid</a>(10)'
 					ingredients:[
-					'[link Gooey Water | $fromStats]'
+					'<a is="a-link" image="$fromStats" href="">Gooey Water</a>'
 					]
 					}
 					]

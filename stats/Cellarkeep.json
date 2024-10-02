@@ -9,7 +9,7 @@
   "KBResist": 0.5,
   "Coins": 90.0,
   "Drops": [
-    "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+    "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
   ],
   "Expert": {
     "MaxLife": 162,
@@ -17,7 +17,7 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+      "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
     ]
   },
   "Master": {
@@ -26,7 +26,7 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`[link Joint Pop | $fromStats | $default | ]` - 6.667%"
+      "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
     ]
   },
   "SpriteWidth": 40,

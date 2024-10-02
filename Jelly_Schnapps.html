@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,8 +14,8 @@
 			[statblock Jelly_Schnapps]
 
 			<p>
-				The <b>Jelly Schnapps</b> is a [link food] item that is crafted from [link Bottles | | https://terraria.wiki.gg/wiki/Bottle], [link Pawpaw] and [link Periven].
-				When consumed, it provides the <b>[link Well Fed | | https://terraria.wiki.gg/wiki/Well_Fed]</b> [link buff | | Buffs.html], which lasts for 20 minutes.
+				The <b>Jelly Schnapps</b> is a <a is="a-link">food</a> item that is crafted from <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottle">Bottles</a>, <a is="a-link">Pawpaw</a> and <a is="a-link">Periven</a>.
+				When consumed, it provides the <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Well_Fed">Well Fed</a></b> <a is="a-link" href="Buffs.html">buff</a>, which lasts for 20 minutes.
 			</p>
 
 			<div>
@@ -26,16 +27,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Cauldron | | https://terraria.wiki.gg/wiki/Cooking_Pots]'
-					'[link Cooking Pot | $default | https://terraria.wiki.gg/wiki/Cooking_Pots]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cauldron</a>'
+					'<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cooking Pot</a>'
 					]
 					items:[
 					{
-					result:'[link Jelly Schnapps | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Jelly Schnapps</a>'
 					ingredients:[
-					'[link Bottle | | https://terraria.wiki.gg/wiki/Bottle]'
-					'[link Pawpaw | $fromStats]'
-					'[link Periven | $fromStats]'
+					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottle">Bottle</a>'
+					'<a is="a-link" image="$fromStats" href="">Pawpaw</a>'
+					'<a is="a-link" image="$fromStats" href="">Periven</a>'
 					]
 					}
 					]

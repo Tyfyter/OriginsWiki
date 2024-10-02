@@ -8,14 +8,14 @@
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
   "Drops": [
-    "`[link Encrusted Ore | $fromStats | $default | ]` - (20‒330) 100%",
-    "`[link Riven Carapace | $fromStats | $default | ]` - (1‒134) 100%",
-    "`[link Teardown | $fromStats | $default | ]` - 50%",
-    "`[link Vorpal Sword | $fromStats | $default | ]` - 50%",
-    "`[link World Cracker Trophy | $fromStats | $default | ]` - 10%",
-    "`[link World Cracker Mask | $fromStats | $default | ]` - 10%",
-    "`[link Protozoa Food | $fromStats | $default | ]` - 100%",
-    "`[link Gold Coin | $default | https://terraria.wiki.gg/wiki/Gold_Coin]` - (15‒15) 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Encrusted Ore<note> </note></a>` - (20‒330) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Riven Carapace<note> </note></a>` - (1‒134) 100%",
+    "`<a is="a-link" image="$fromStats" href="$default">Teardown<note> </note></a>` - 50%",
+    "`<a is="a-link" image="$fromStats" href="$default">Vorpal Sword<note> </note></a>` - 50%",
+    "`<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
+    "`<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
+    "`<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
   ],
   "SpriteWidth": 32,
   "InternalName": "World_Cracker_Bag"

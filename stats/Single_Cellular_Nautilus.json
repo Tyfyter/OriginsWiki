@@ -7,24 +7,24 @@
   "MaxLife": 110,
   "Defense": 31,
   "Immunities": [
-    "`[link Confused | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`",
-    "`[link Stunned | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 450.0,
   "Drops": [
-    "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
-    "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
-    "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
+    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
   ],
   "Expert": {
     "MaxLife": 220,
     "KBResist": 0.100000024,
     "Coins": 1125.0,
     "Drops": [
-      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
     ]
   },
   "Master": {
@@ -32,9 +32,9 @@
     "KBResist": 0.19999999,
     "Coins": 1125.0,
     "Drops": [
-      "`[link Ancient Riven Mask | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Riven Coat | $fromStats | $default | ]` - 0.19%",
-      "`[link Ancient Riven Pants | $fromStats | $default | ]` - 0.19%"
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
+      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
     ]
   },
   "SpriteWidth": 38,

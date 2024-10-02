@@ -9,7 +9,7 @@
   "KBResist": 0.19999999,
   "Coins": 56.0,
   "Drops": [
-    "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 33.333%"
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Rotten_Chunk">Rotten Chunk</a>` - 33.333%"
   ],
   "CorruptionAssimilation": 0.03,
   "Expert": {
@@ -18,7 +18,7 @@
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
-      "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 33.333%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Rotten_Chunk">Rotten Chunk</a>` - 33.333%"
     ],
     "CorruptionAssimilation": 0.038999997
   },
@@ -28,7 +28,7 @@
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
-      "`[link Rotten Chunk | $default | https://terraria.wiki.gg/wiki/Rotten_Chunk]` - 33.333%"
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Rotten_Chunk">Rotten Chunk</a>` - 33.333%"
     ],
     "CorruptionAssimilation": 0.044999998
   },

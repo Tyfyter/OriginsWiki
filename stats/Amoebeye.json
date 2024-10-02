@@ -8,22 +8,22 @@
   "Defense": 60,
   "KBResist": 0.25,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link Ichor | $default | $default]`",
-    "`[link Torn | $fromStats | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">Ichor</a>`",
+    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 76.0,
   "Drops": [
-    "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
-    "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - 33.333%",
+    "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (2‒5) 100%"
   ],
   "Expert": {
     "MaxLife": 600,
     "KBResist": 0.32500005,
     "Coins": 190.0,
     "Drops": [
-      "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
-      "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (2‒5) 100%"
     ]
   },
   "Master": {
@@ -31,8 +31,8 @@
     "KBResist": 0.39999998,
     "Coins": 190.0,
     "Drops": [
-      "`[link Bud Barnacle | $fromStats | $default | ]` - 33.333%",
-      "`[link Alkahest | $fromStats | $default | ]` - (2‒5) 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - 33.333%",
+      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (2‒5) 100%"
     ]
   },
   "SpriteWidth": 72,

@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +18,8 @@
 			<span id="error-log"></span>
 
 			<p>
-				The <b>Headphones</b> are a [link Hardmode | | https://terraria.wiki.gg/wiki/Hardmode] [link accessory | | Accessories.html] crafted using mech components dropped by the [link mechanical bosses | | https://terraria.wiki.gg/wiki/Mechanical_bosses].
-				While equipped, [link tagging | | https://terraria.wiki.gg/wiki/Whips] an enemy with a whip increases the [link critical strike | | https://terraria.wiki.gg/wiki/Critical_hit] chance of any weapon that attacks that enemy next by 25%.
+				The <b>Headphones</b> are a <a is="a-link" href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> <a is="a-link" href="Accessories.html">accessory</a> crafted using mech components dropped by the <a is="a-link" href="https://terraria.wiki.gg/wiki/Mechanical_bosses">mechanical bosses</a>.
+				While equipped, <a is="a-link" href="https://terraria.wiki.gg/wiki/Whips">tagging</a> an enemy with a whip increases the <a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">critical strike</a> chance of any weapon that attacks that enemy next by 25%.
 			</p>
 
 			<div>
@@ -29,16 +30,16 @@
 					<recipes>
 					{
 					stations:[
-					'[link Fabricator | Images/Tiles/Fabricator.gif]'
+					'<a is="a-link" image="Images/Tiles/Fabricator.gif" href="">Fabricator</a>'
 					]
 					items:[
 					{
-					result:'[link Headphones | $fromStats]'
+					result:'<a is="a-link" image="$fromStats" href="">Headphones</a>'
 					ingredients:[
-					'[link Busted Servo | $fromStats](8)'
-					'[link Fiberglass Block | §ModImage§/Tiles/Other/Fiberglass_Item.png](6)'
-					'[link Power Core | $fromStats]'
-					'[link Rubber | $fromStats](5)'
+					'<a is="a-link" image="$fromStats" href="">Busted Servo</a>(8)'
+					'<a is="a-link" image="§ModImage§/Tiles/Other/Fiberglass_Item.png" href="">Fiberglass Block</a>(6)'
+					'<a is="a-link" image="$fromStats" href="">Power Core</a>'
+					'<a is="a-link" image="$fromStats" href="">Rubber</a>(5)'
 					]
 					}
 					]

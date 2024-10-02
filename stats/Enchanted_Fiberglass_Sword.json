@@ -8,25 +8,25 @@
   "Defense": 28,
   "KBResist": 0.9,
   "Immunities": [
-    "`[link Poisoned | $default | $default]`",
-    "`[link On Fire! | $default | $default]`",
-    "`[link Hellfire | $default | $default]`",
-    "`[link Incandescent Burn | $default | $default]`"
+    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
+    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
+    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`[link Broken Fiberglass Sword | $fromStats | $default | ]` - 10%",
-    "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
-    "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+    "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
+    "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
+    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
   ],
   "Expert": {
     "MaxLife": 220,
     "KBResist": 0.919,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Broken Fiberglass Sword | $fromStats | $default | ]` - 10%",
-      "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
-      "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
     ]
   },
   "Master": {
@@ -34,9 +34,9 @@
     "KBResist": 0.936,
     "Coins": 2500.0,
     "Drops": [
-      "`[link Broken Fiberglass Sword | $fromStats | $default | ]` - 10%",
-      "`[link Shaped Glass | $fromStats | $default | ]` - 4%",
-      "`[link Silver Coin | $default | https://terraria.wiki.gg/wiki/Silver_Coin]` - 100%"
+      "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
+      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
+      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
     ]
   },
   "SpriteWidth": 42,

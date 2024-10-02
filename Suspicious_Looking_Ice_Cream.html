@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,9 +14,9 @@
 			[statblock Suspicious_Looking_Ice_Cream]
 
 			<p>
-				The <b>Suspicious Looking Ice Cream</b> is a boss-summoning [link consumable | | Consumables.html] item crafted using [link Sentient Powder] and [link Bud Barnacle].
-				Upon use, it will summon the [link World Cracker].
-				If not used in the [link Riven Hive], it will do nothing and will not be consumed.
+				The <b>Suspicious Looking Ice Cream</b> is a boss-summoning <a is="a-link" href="Consumables.html">consumable</a> item crafted using <a is="a-link">Sentient Powder</a> and <a is="a-link">Bud Barnacle</a>.
+				Upon use, it will summon the <a is="a-link">World Cracker</a>.
+				If not used in the <a is="a-link">Riven Hive</a>, it will do nothing and will not be consumed.
 			</p>
 
 			<div>
@@ -26,14 +27,14 @@
 					<recipes>
 					{
 					stations:[
-					`[link Any Altar | $default | https://terraria.wiki.gg/wiki/Altars]`
+					`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Altars">Any Altar</a>`
 					]
 					items:[
 					{
-					result:`[link Suspicious Looking Ice Cream | §ModImage§/Items/Other/Consumables/Sus_Ice_Cream.png]`
+					result:`<a is="a-link" image="§ModImage§/Items/Other/Consumables/Sus_Ice_Cream.png" href="">Suspicious Looking Ice Cream</a>`
 					ingredients:[
-					`[link Bud Barnacle | $fromStats](15)`
-					`[link Sentient Powder | $fromStats](30)`
+					`<a is="a-link" image="$fromStats" href="">Bud Barnacle</a>(15)`
+					`<a is="a-link" image="$fromStats" href="">Sentient Powder</a>(30)`
 					]
 					}
 					]

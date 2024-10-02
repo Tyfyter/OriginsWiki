@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
+        <script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css"></link>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +14,7 @@
 			[statblock Starfuze]
 
 			<p>
-				The <b>Starfuze</b> is a type of [link Hardmode | | https://terraria.wiki.gg/wiki/Hardmode] post-<a href="https://terraria.wiki.gg/wiki/Moon_Lord">Moon Lord</a> [link canister] used as fuel for the [link Starburst].
+				The <b>Starfuze</b> is a type of <a is="a-link" href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> post-<a href="https://terraria.wiki.gg/wiki/Moon_Lord">Moon Lord</a> <a is="a-link">canister</a> used as fuel for the <a is="a-link">Starburst</a>.
 				Starfuze currently have no other use.
 			</p>
 
@@ -24,14 +25,14 @@
 				<recipes>
 				{
 				stations:[
-				'[link Interstellar Sampler | Images/Interstellar_Sampler.png]'
+				'<a is="a-link" image="Images/Interstellar_Sampler.png" href="">Interstellar Sampler</a>'
 				]
 				items:[
 				{
-				result:'[link Starfuze | $fromStats](10)'
+				result:'<a is="a-link" image="$fromStats" href="">Starfuze</a>(10)'
 				ingredients:[
-				'[link Formium Bar | $fromStats]'
-				'[link Nova Fragment | $fromStats]'
+				'<a is="a-link" image="$fromStats" href="">Formium Bar</a>'
+				'<a is="a-link" image="$fromStats" href="">Nova Fragment</a>'
 				]
 				}
 				]
