@@ -154,14 +154,15 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			element.parentNode.removeChild(element);
 		}
 		let target = this.getAttribute('href');
-		if (!target) {
+		if (!target && !this.classList.contains('selflink')) {
 			let targetPage = this.textContent.replaceAll(' ', '_');
 			if (aliases[targetPage]) {
 				targetPage = aliases[targetPage];
 			}
 			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '') + aLinkSuffix;
+			if (targetPage === 'Abysswalker\'s_Cloak' + aLinkSuffix) console.log(this);
 			target = targetPage;
-		}
+		} else if (target) target = target.replaceAll('.html', '') + aLinkSuffix;
 		if (new URL(target, document.baseURI).href == document.location) {//self link
 			this.classList.add('selflink');
 			this.removeAttribute('href');
@@ -185,6 +186,12 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 				noteContainer.appendChild(notes[i]);
 			}
 			this.appendChild(noteContainer);
+		}
+		for (let i = this.childNodes.length - 1; i > 0; i--) {
+			let child = this.childNodes[i];
+			if (child.nodeName === 'IMG' && child != this.image) {
+				this.removeChild(child);
+			}
 		}
 	}
 
@@ -572,7 +579,7 @@ class AFMLStatBlock extends HTMLElement {
 			if (stats.Tooltip && !stats.Defense) {
 				if (stats.Tooltip) valueOrValues(stats.Tooltip, 'Tooltip', 'https://terraria.wiki.gg/wiki/Tooltips');
 			}
-			if (stats.Rarity) labeled(`<a is="a-link" href="https://terraria.wiki.gg/wiki/Rarity" image="Rare${stats.Rarity}" notext>${stats.Rarity}</a>`, 'Rarity', 'https://terraria.wiki.gg/wiki/Rarity');
+			if (stats.Rarity) labeled(`<a is="a-link" href="https://terraria.wiki.gg/wiki/Rarity" image="Rare${stats.Rarity}"></a>`, 'Rarity', 'https://terraria.wiki.gg/wiki/Rarity');
 			if (stats.Buy) labeled(`<a-coins>${stats.Buy}</a-coins>`, 'Buy', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Sell) labeled(`<a-coins>${stats.Sell}</a-coins>`, 'Sell', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Research) labeled(`<abbr class="journey" title="Journey Mode">${stats.Research} required</abbr>`, 'Research', 'https://terraria.wiki.gg/wiki/Journey_Mode#Research');
@@ -842,11 +849,10 @@ class AFMLSortableList extends HTMLElement {
 			data.headers[0] = {name:'Name', expr:"`<a is=\"a-link\" ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=\"$fromStats\">${item.Name}</a>`", sortIndex:'item.Name', noAbbr:true};
 		}
 		for(var j = 0; j < data.headers.length; j++){
-			let attributes = [
-				['onclick', `clickSortableList(event, ${j})`]
-			];
-			if (j>0&&j<data.headers.length) attributes.push(['class', 'notleft']);
-			let th = row.createChild('th', '', ...attributes);
+			let th = row.createChild('th');
+			if (j>0&&j<data.headers.length) th.classList.add('notleft');
+			let index = j;
+			th.onclick = (event) => clickSortableList(event, index);
 			let text = data.headers[j].expr ? data.headers[j].name : data.headers[j];
 			if (data.headers[j].expr && !data.headers[j].noAbbr) {
 				th.createChild('abbr', text, ['title', data.headers[j].expr.replaceAll('item.','')]);
@@ -857,7 +863,7 @@ class AFMLSortableList extends HTMLElement {
 		let body = this.table.createChild('tbody');
 		var keys = new Set();
 		for(var i = 0; i < data.items.length; i++){
-			row = head.createChild('tr');
+			row = body.createChild('tr');
 			var item;
 			if(data.items[i] instanceof Object){
 				item = data.items[i];
@@ -891,8 +897,8 @@ class AFMLSortableList extends HTMLElement {
 				}
 				let attributes = [];
 				if (j>0&&j<data.headers.length) attributes.push(['class', 'notleft']);
-				row.createChild('td', displayValue, ...attributes);
-				if (data.headers[j].sortIndex) row.createChild('span', await new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
+				let tableItem = row.createChild('td', displayValue, ...attributes);
+				if (data.headers[j].sortIndex) tableItem.createChild('span', await new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
 			}
 		}
 	}

@@ -41,13 +41,13 @@ function parseXMLSitemap(sitemapContent) {
 	var xmlDoc = parser.parseFromString(sitemapContent, 'text/xml');
 	return xmlDoc;
 }
-//var _categories = requestPageText('categories.hjson');
-//var _generated_categories = requestPageText('generated_categories.json');
-//var _siteMap = requestPageText('sitemap.xml');
-//var _aliases = requestPageText('aliases.json');
-//var defaultStats;
+var _categories = requestPageText('categories.hjson');
+var _generated_categories = requestPageText('generated_categories.json');
+var _siteMap = requestPageText('sitemap.xml');
+var _aliases = requestPageText('aliases.json');
+var defaultStats;
 
-//var aliases = false;
+var aliases = false;
 var _stats = {};
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 pageName = decodeURI(pageName);
@@ -262,6 +262,8 @@ function refreshSiteSettings(){
 		body.classList.add('nobackground');
 		bgTogglePath.setAttribute('d', 'm 3 16 l 5 -9 l 3 5 l 4 -8 l 5 12 m 1 -11 l -20 10');
 	}
+	html.classList.remove('devmode');
+	if (!(siteSettings.devMode || false)) html.classList.add('devmode');
 }
 function refreshThemeIcon(){
 	let favicon = document.getElementById('favicon');
@@ -1022,7 +1024,7 @@ async function processSortableList(data){
 	return result;
 }
 function clickSortableList(event, index){
-	var target = event.target.parentElement;
+	var target = event.target;
 	while(target.tagName !== 'TH'){
 		target = target.parentElement;
 	}
@@ -1050,6 +1052,7 @@ function sortSortableList(target, index){
 	target.classList.add('sortedby');
 	var table = tableHead.parentElement.parentElement;
 	var tableBody = table.getElementsByTagName('tbody')[0];
+	console.log(tableBody.children[0].children);
 	tableBody.replaceChildren(...Array.from(tableBody.children).sort((a,b)=>{
 		var av = a.children[index];
 		var bv = b.children[index];
@@ -1063,45 +1066,6 @@ function sortSortableList(target, index){
 			return av.localeCompare(bv);
 		}
 	}));
-}
-
-async function substituteAutoSortableList(list){
-	console.log(`deferred processing of sortable list ${list}`);
-	return `<table class="sortablelist deferred listsource-${list}"></table>`;
-}
-
-async function processAutoSortableList(table, list){
-	console.log(`processing automatic sortable list "${list}"`);
-	list = requestStats("statLists/" + list);
-	if (!list) {
-		table.innerHTML = `could not find statList ${list}`;
-		return;
-	}
-	var cats = await getCategories();
-	var data = JSON.parse(await list);
-	if (!(data.items instanceof Array)) data.items = [];
-	var currentCat;
-
-	if (data.intersection) {
-		currentCat = cats[data.categories[0]];
-		for (var i = 0; i < currentCat.items.length; i++) {
-			data.items.push(currentCat.items[i]);
-		}
-		for (var i = 1; i < data.categories.length; i++) {
-			currentCat = cats[data.categories[i]];
-			for (var j = 0; j < data.items.length; j++) {
-				currentCat.items.includes(data.items[j]) || data.items.splice(j--,1);
-			}
-		}
-	} else {
-		for (var i = 0; i < data.categories.length; i++) {
-			currentCat = cats[data.categories[i]];
-			for (var j = 0; j < currentCat.items.length; j++) {
-				data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
-			}
-		}
-	}
-	return await processSortableList(data);
 }
 
 async function createCategorySegment(){
@@ -1153,95 +1117,28 @@ async function createCategorySegment(){
 				//catsIn+=`<a class="category" href="${thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i])}">${thisCat.name}</a>`;
 			}
 		}
+		if (getSiteSettings().devMode) {
+			let siteMap = await getSiteMap();
+			let index = siteMap.indexOf(pageName);
+			if (index > 0) {
+				let button = document.createElement('a', {is: 'a-link'});
+				button.textContent = '<==';
+				button.href = siteMap[index - 1] + linkSuffix;
+				categoriesElement.insertBefore(button, categoriesElement.firstChild);
+			}
+			if (index < siteMap.length) {
+				let button = document.createElement('a', {is: 'a-link'});
+				button.textContent = '==>';
+				button.style.float = 'right';
+				button.href = siteMap[index + 1] + linkSuffix;
+				categoriesElement.appendChild(button);
+			}
+		}
 		return categoriesElement;//'<div class="categories">categories: '+catsIn+'</div>';
 	} catch (error) {
 		console.log(error);
 		return document.createElement('div');
 	}
-}
-
-function jsonifyPseudoHjson(item, history){
-	const uneggedCurlyBracketRegex = /{([^{]*?)}/;
-	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
-	const spaceDeleterRegex = /(?<!(§|\\),)(?<!a>)(?<!\w|§|%)\s|\s(?!\w|§|\()(?!<a)/g;
-	const commaDeleterRegex = /(?<=[\]}])(?<!\\),(?=[\]}])/g;
-	const jsonKeySpaceRemoverRegex = /(?<!\\)"\s*(\w+)\s*":/g;
-
-	var time = 1;
-	item = item.replaceAll(commaInserterRegex, ',');//1
-	history[time++] = item;
-
-	item = item.replace(spaceDeleterRegex, '');//2
-	history[time++] = item;
-	
-
-	item = item.replace(commaDeleterRegex, '');//3
-	history[time++] = item;
-	
-	item = item.replaceAll(/['"]?header['"]:?/g, '"header":');//4
-	history[time++] = item;
-	
-	item = item.replaceAll(/(?<="header":)([^,"']+)/g, '"$1"');//5
-	history[time++] = item;
-	
-	/*(item = [...item];//spread string into chars
-	var repr = [];
-	var depth = 0;
-	for(var i = 0; i < item.length; i++){
-		if(item[i] === ']'){
-			repr[i] = '<b style="color:blue">'+depth+'</b>';
-			if(depth === 1){
-				item[i] = '}';
-			}
-			depth--;
-		}else if(item[i] === '['){
-			repr[i] = '<b style="color:red">'+depth+'</b>';
-			if(depth === 0){
-				item[i] = '{';
-			}
-			depth++;
-		} else {
-			repr[i] = depth;
-		}
-	}
-	item = item.join('');//reassemble string// +'<br>'+repr.join('');*/
-	
-	//console.log('before aPHAOR'+item);
-	//item = item.replaceAll(allPropertyHaversAreObjectsRegex, '{$1"items":[$3]}');
-	//console.log('after aPHAOR'+item);
-	
-	item = item.replaceAll(/\]\[/g, "],[");
-	item = item.replaceAll(/\}\{/g, "},{");//6
-	history[time++] = item;
-	
-	item = item.replaceAll(/(?<=((?<!https)(?<!\\):)|((?<!\\),)|[{[])(?!['"[\],{])/g, '"');//7
-	history[time++] = item;
-	
-	item = item.replaceAll(/(?<!['"[\],}])(?=((?<!https)(?<!\\):)|((?<!\\),)|[\]}])/g, '"');
-	item = item.replaceAll(/(?<!")\\'(?!")/g, '\\\'\"');//8
-	history[time++] = item;
-	
-	item = item.replaceAll(/\\,/g, ',');
-	item = item.replaceAll(/\\'/g, '\'',);
-	item = item.replaceAll(/\\:/g, ':');
-	history[time++] = item;
-	
-	item = item.replaceAll(jsonKeySpaceRemoverRegex, '"$1":');
-	history[time++] = item;
-	return item;
-}
-function jsonifyPseudoJson(item, history){
-	const commaInserterRegex = /(?<=[^[{\s,])\s*\n\s*(?=[^\]}\s,])/g;
-
-	var time = 1;
-	item = item.replaceAll(commaInserterRegex, ',');//1
-	history[time++] = item;
-	
-	item = item.replaceAll(/\]\[/g, "],[");
-	item = item.replaceAll(/\}\{/g, "},{");//2
-	history[time++] = item;
-	
-	return item;
 }
 function getScrollTop() {
     if (typeof window.pageYOffset !== "undefined" ) {
@@ -1296,6 +1193,10 @@ function parsingLocked(element) {
 	}
 	return false;
 }
+if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
+	linkSuffix = '';
+	linkPrefix = '/OriginsWiki';
+}
 async function parseAFML(throwErrors = false, elementID = "content"){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
@@ -1313,359 +1214,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 			contents += '<div style="margin-left: '+0.2*i.length+'em"><a class="toc-link"  href="#'+v.id+'">'+i+'. '+getSummaryOrId(v)+'</a></div>'
 		}, (v) => v.className == 'section', (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
 		toc.innerHTML += contents+'</details>';
-	}
-	let subsIndex = 0;
-	let substitutions = [];
-
-	const statRegex = /\[(stat) ([^\[]*?)]/i;
-	const autoStatRegex = /\[(statblock) ([^\[]*?)]/i;
-	const inlineAutoStatRegex = /\[(inlinestatblock) ([^\[]*?)]/i;
-	const linkRegex = /\[link ([^\[]*?)]/i;
-	const coinRegex = /\[(coins|coin|price|value) ([^\[]*?)]/i;
-	const toolPowerRegex = /\[toolpower ([^\[]*?)]/i;
-	const autoSortableListRegex = /\[(sortablelist) ([^\[]*?)]/i;
-	
-	const biomeContentRegex = /\{(?<tag>biomecontent|bc)((.|\n)*?)\k<tag>}/gi;
-	const statBlockRegex = /\{(?<tag>statblock|sb)((.|\n)*?)\k<tag>}/gi;
-	const inlineStatBlockRegex = /\{(?<tag>inlinestatblock|isb)((.|\n)*?)\k<tag>}/gi;
-	const recipeRegex = /\{(?<tag>recipes)((.|\n)*?)\k<tag>}/gi;
-	const sortableListRegex = /\{(?<tag>sortablelist)((.|\n)*?)\k<tag>}/gi;
-
-	//original space deleter regex:/(?<!(§|\\),)(?<!a>)(?<!\w|§)\s|\s(?!\w|§)(?!<a)/g;
-	//allHeaderHaversAreObjectsRegex: /\[("header":"[^((?<!\)")]*",)([^\[\]]*(?=]))\]/g;
-	//const allPropertyHaversAreObjectsRegex = /\[(("style":"[^((?<!\)")]*",|"header":"[^((?<!\)")]*",)+)([^\[\]]*(?=]))\]/g;
-	//const allNonPropertiesAreNameless = /,("[^[\]"]+?"(,"[^[\]"]+?")*)(?![:\]])/g;
-	//const getItemsRegex = /(?<={)("header":".*?","items":)(\[.*?\])(?=})/g;
-	const htmlTagRegex = /<(?<tag>[^\/ ]+?)(.*?)>.*?<\/\k<tag>>/;
-	
-	var item;
-
-	try{
-		item = content.innerHTML.match(statRegex);
-		while(item){
-			console.log(item);
-			content.innerHTML = content.innerHTML.replace(item[0], await processStat(...item[2].split('|')));
-			item = content.innerHTML.match(statRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	try{
-		item = content.innerHTML.match(autoStatRegex);
-		while(item){
-			console.log(item);
-			console.log(['before',content.innerHTML]);
-			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim()));
-			console.log(['after',content.innerHTML]);
-			item = content.innerHTML.match(autoStatRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	try{
-		item = content.innerHTML.match(inlineAutoStatRegex);
-		while(item){
-			console.log(item);
-			console.log(['before',content.innerHTML]);
-			content.innerHTML = content.innerHTML.replace(item[0], await processAutoStats(item[2].trim(), true));
-			console.log(['after',content.innerHTML]);
-			item = content.innerHTML.match(inlineAutoStatRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-	
-	try{
-		item = content.innerHTML.match(autoSortableListRegex);
-		//console.log('first', item);
-		while(item){
-			console.log(item);
-			console.log(['before',content.innerHTML]);
-			content.innerHTML = content.innerHTML.replace(item[0], await substituteAutoSortableList(item[2].trim()));
-			console.log(['after',content.innerHTML]);
-			item = content.innerHTML.match(autoSortableListRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	try{
-		/*for (let item of content.innerHTML.matchAll(linkRegex)) {
-			let current = pruneLinkArgs(item[1].split('|'));
-			let result = processLink(...current);
-			substitutions[subsIndex] = result;
-			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
-			subsIndex++;
-		}*/
-		item = content.innerHTML.match(linkRegex);
-		while(item != null){
-			//console.log(item);
-			let current = pruneLinkArgs(item[1].split('|'));
-			//let result = await processLink(...current);
-			const currentIndex = linkIndex++;
-			content.innerHTML = content.innerHTML.replace(item[0], `<span id=link${currentIndex}>${current[0]}</span>`);//'§'+subsIndex+'§'
-			console.log(`making link ${current} at index ${currentIndex}`);
-			processLink(currentIndex, ...current).then(async (value) => {
-				//console.log(`link ${currentIndex}: ${value}`);
-				let element = document.getElementById('link' + currentIndex);
-				if (element) {
-					element.outerHTML = replaceBasicSubstitutions(value);
-				}
-			}, null);
-			/*processLinkWithID(`link${currentIndex}`, ...current).then(async (value) => {
-				//console.log(`link ${currentIndex}: ${value}`);
-				let element = document.getElementById('link' + currentIndex);
-				if (element) {
-					element.outerHTML = replaceBasicSubstitutions(value);
-					element = document.getElementById('link' + currentIndex)[0];
-					const hrefMatch = /[^\/]+(?!.*[^\/]+)/.exec(/href="([^"]*)"/.exec(value)[1].replaceAll('.html',''))[0];
-					const nonMetaMatch = /(?<!.*[^?#]+)[^?#]+/.exec(hrefMatch)[0];
-					if(nonMetaMatch && !(await pageExists(nonMetaMatch))){
-						element.classList.add('redlink');
-					}
-				}
-			}, null);*/
-			linkIndex++;
-			item = content.innerHTML.match(linkRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	try{
-		item = content.innerHTML.match(coinRegex);
-		while(item){
-			console.log(item);
-			let current = pruneLinkArgs(item[2].split('|').reverse());
-			let result = processCoins(...current);
-			substitutions[subsIndex] = result;
-			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
-			subsIndex++;
-			item = content.innerHTML.match(coinRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	try{
-		item = content.innerHTML.match(toolPowerRegex);
-		while(item){
-			console.log(item);
-			let current = pruneLinkArgs(item[1].split('|'));
-			let result = processToolStats(...current);
-			substitutions[subsIndex] = result;
-			content.innerHTML = content.innerHTML.replace(item[0], '§'+subsIndex+'§');
-			subsIndex++;
-			item = content.innerHTML.match(toolPowerRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
-	}
-
-	let snindex = 0;
-	let customTags = [
-		{name: 'recipes', func:async (item) => {
-				var history = [item.innerHTML];//0
-				let data = jsonifyPseudoJson(item.innerHTML, history);
-				item.innerHTML = '';
-				console.log('['+data+']');
-				sections = eval('['+data+']');
-				lastErrObject = sections;
-				let result = '';
-				for(let j = 0; j < sections.length; j++){
-					result += processRecipeBlock(sections[j]);
-				}
-				item.appendChild(withChildren(createElementWithAttributes('table', ['class', 'recipetable'], ['cellspacing', '0']),
-					withChildren(createElementWithAttributes('thead'), withChildren(createElementWithAttributes('tr'),
-						createElementWithTextAndAttributes('th', 'Result'),
-						createElementWithTextAndAttributes('th', 'Ingredients', ['class', 'middle']),
-						createElementWithTextAndAttributes('th', '<a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a>')
-					)),
-					createElementWithTextAndAttributes('tbody', result)
-				));
-				//withChildren(item, document.createElement('table'));
-			}
-		},
-		{name: 'aimg', func:async (item) => {
-			item.classList.add('picturebox');
-			let attributes = [['src', item.attributes['src'].value], ['style', 'width: inherit;']];
-			if (item.attributes['alt']) attributes.push(['alt', item.attributes['alt'].value]);
-			item.appendChild(createElementWithAttributes('img', ...attributes));
-		}},
-		{name: 'snippet', func:async (item) => {
-			let currentIndex = snindex++;
-			item.id = `snindex${currentIndex}`;
-			let currentButton = `snindexButton${currentIndex}`;
-			let currentContent = `snindexContent${currentIndex}`;
-			item.innerHTML = `<a id="${currentButton}" class="snippetButton">${item.innerHTML}</a>`;
-			item.appendChild(createElementWith('span', ['id', currentContent], ['className', "snippetContent"]));
-			if (!item.hasAttribute('href')) {
-				item.setAttribute('open', '');
-				document.getElementById(currentContent).textContent = "snippet is missing href attribute";
-				return;
-			}
-			if (item.hasAttribute('hidden')) {
-				item.setAttribute('open', '');
-			}
-			let pageText = await requestPageText(item.getAttribute('href'));
-			let content = document.getElementById(currentContent);
-			content.innerHTML = pageText;
-			let pluckSelector = item.getAttribute('pluck')
-			//console.debug('pluck: ', pluckSelector, ' from ', content.children);
-			if (pluckSelector) {
-				let children = content.querySelectorAll(pluckSelector);
-				content.innerHTML = "";
-				for (var i = 0; i < children.length; i++) {
-					content.appendChild(children[i]);
-				}
-			}
-			await parseAFML(false, currentContent);
-			let button = document.getElementById(currentButton);
-			button.href = 'javascript:void(0)';
-			button.onclick = () => {
-				let snippet = document.getElementById(`snindex${currentIndex}`);
-				if (snippet.hasAttribute('open')) {
-					snippet.removeAttribute('open');
-				} else {
-					snippet.setAttribute('open', '');
-				}
-			}
-		}}
-	];
-	let anyUnparsed = false;
-	do{
-		anyUnparsed = false;
-		for (let t = 0; t < customTags.length; t++) {
-			const customTag = customTags[t];
-			var rec = document.getElementsByTagName(customTag.name);
-			var rec2 = [];
-			for(let i = 0; i < rec.length; i++) {
-				rec2.push(rec[i]);
-			}
-			rec = rec2;
-			for(let i = 0; i < rec.length; i++) {
-				if(rec[i].attributes['parsed']) continue;
-				anyUnparsed = true;
-				let oldLength = rec.length;
-				//console.debug(rec[i], await customTag.func(rec[i]));
-				//console.debug(rec);
-				customTag.func(rec[i]);
-				/*rec[i].innerHTML = customTag.opener + ()) + customTag.closer;*/
-				//console.debug(rec);
-				rec[i].setAttribute('parsed', '');
-			}
-		}
-	} while (anyUnparsed);
-	let blockRegexes = [
-		{regex: biomeContentRegex, class: "biomecontents", tag: "div", func: processBiomeContents},
-		{regex: statBlockRegex, class: "statblock ontab0", tag: "div", func: processStatBlock},
-		{regex: inlineStatBlockRegex, class: "inlinestatblock", tag: "div", func: processStatBlock},
-		{regex: sortableListRegex, class: "sortablelist", tag: "table", func: processSortableList},
-		{regex: recipeRegex, class: 'recipetable" cellspacing="0', first:'<thead><tr><th>Result</th><th class="middle">Ingredients</th><th><a href="https://terraria.wiki.gg/wiki/Crafting_stations">Crafting Station</a></th></tr></thead>', tag: "table", func: processRecipeBlock}
-		
-		//{regex: altTabRegex, class: "alttabs", tag: "div", func: processAltTabs, first: 'tabHeader', finish: finishAltTabs}
-	];
-	for(var cycle = 0; cycle < blockRegexes.length; cycle++)try{
-		let currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
-		if (currentMatch !== null) console.log(blockRegexes[cycle].class);
-		while(currentMatch !== null){
-			console.log("an item");
-			let result = "<"+blockRegexes[cycle].tag+" class=\""+blockRegexes[cycle].class+"\">";
-			let item = currentMatch[2];
-
-			//console.log("match: "+item);
-
-			let currentTag = htmlTagRegex.exec(item);
-			while(currentTag !== null){
-				item = item.replace(currentTag[0], "§"+subsIndex+"§");
-				substitutions[subsIndex++] = currentTag[0];
-				currentTag = htmlTagRegex.exec(item);
-			}
-			var history = [item];//0
-			//item = jsonifyPseudoHjson(item, history);
-			item = jsonifyPseudoJson(item, history);
-			
-			//console.log('before aNPANR'+item);
-			//item = item.replaceAll(allNonPropertiesAreNameless, ',"items":[$1]');
-			//history[time++] = item;
-			
-			//console.log('after aNPANR'+item);
-			
-			//result += item;
-			var sections;
-			try{
-				//sections = JSON.parse('['+item+']');
-				sections = eval('['+item+']');
-				lastErrObject = sections;
-				if(blockRegexes[cycle].first) result += blockRegexes[cycle].first;
-				for(var i = 0; i < sections.length; i++){
-					result += await blockRegexes[cycle].func(sections[i]);
-				}
-				if(blockRegexes[cycle].finish)result = blockRegexes[cycle].finish(result);
-			}catch(e){
-				console.error(history);
-				console.error(e);
-				console.error("while parsing");
-				console.error('['+item+']');
-				console.error("on cycle "+cycle);
-				if(throwErrors) throw {sourceError:e, data:'['+item+']', cycle:cycle};
-			}
-			result += "</"+blockRegexes[cycle].tag+">";
-			substitutions[subsIndex] = result;
-			content.innerHTML = content.innerHTML.replace(currentMatch[0], '§'+subsIndex+'§');
-			subsIndex++;
-			//content.innerHTML = content.innerHTML.replace(currentMatch[0], result);
-			blockRegexes[cycle].regex.lastIndex = 0;
-			currentMatch = blockRegexes[cycle].regex.exec(content.innerHTML);
-		}
-	}catch(error){
-		console.error(error);
-		if(throwErrors) throw error;
-	}
-	console.log(subsIndex+" substitutions: ");
-	var subsObj = {};
-	var subStringLength = (substitutions.length-1).toString().length;
-	var firstSub = true;
-	var subbedCount = 0
-	do{
-		subbedCount = 0;
-		for(var i = 0; i < substitutions.length; i++){
-			//console.log(substitutions[i]);
-			try {
-				var iString = i.toString();
-				while(iString.length < subStringLength)iString = "0"+iString;
-				eval("subsObj.sub"+iString+"='"+substitutions[i].replace("'","\\'")+"'");
-			} catch (error) {
-				console.log("could not add "+substitutions[i]+" at substitution index "+i);
-			}
-			if(content.innerHTML.includes("§"+i+"§")){
-				subbedCount++;
-				content.innerHTML = content.innerHTML.replaceAll("§"+i+"§", substitutions[i]);
-			}
-		}
-		firstSub = false;
-	}while(subbedCount > 0);
-	console.log(subsObj);
-	const internalNameRegex = /\[(internalname) ([^\[]*?)]/i;
-	try{
-		item = content.innerHTML.match(internalNameRegex);
-		while(item){
-			console.log(item);
-			content.innerHTML = content.innerHTML.replace(item[0], `<div class="internalname">Internal Name: ${item[2]}</div>`);
-			item = content.innerHTML.match(internalNameRegex);
-		}
-	}catch(e){
-		console.error(e);
-		if(throwErrors) throw {sourceError:e, data:item};
 	}
 	var walker = document.createTreeWalker(
 		content,
@@ -1687,35 +1235,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 				null,
 				false
 			);
-		}
-	}
-
-	var deferred = document.getElementsByClassName("deferred");
-	console.log('deferred processing:', deferred);
-	let processedLists = [];
-	for (let index = 0; index < deferred.length; index++) {
-		const element = deferred[index];
-		if (element.classList.contains('sortablelist')) {
-			var list;
-			for (let index = 0; index < element.classList.length; index++) {
-				list = element.classList[index];
-				if (list.startsWith('listsource-')) {
-					list = list.replace('listsource-', '');
-					break;
-				}
-				list = null;
-			}
-			if (processedLists.includes(list)) continue;
-			processedLists.push(list);
-			console.log(element);
-			processAutoSortableList(element, list).then(function name(params) {
-				console.log(list);
-				params = replaceBasicSubstitutions(params);
-				var tables = document.getElementsByClassName('listsource-' + list);
-				for (let index = 0; index < tables.length; index++) {
-					tables[index].innerHTML = params;
-				}
-			});
 		}
 	}
 	content.removeAttribute(parsingLockAttr);

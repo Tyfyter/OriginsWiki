@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="styling.css"></link>
 		<script>
 			window.addEventListener("load", function () {
-				document.getElementsByTagName("body")[0].innerHTML = getSearchLinks('', null);
+				getSearchLinks('', null).then(v => {document.getElementsByTagName("body")[0].innerHTML = v;});
 			});
 		</script>
     </head>
