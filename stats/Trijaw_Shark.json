@@ -8,13 +8,13 @@
   "Defense": 23,
   "KBResist": 0.19999999,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" href="$default">Confused</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
     "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
     "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
     "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",
@@ -25,8 +25,8 @@
     "KBResist": 0.35200006,
     "Coins": 1000.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
       "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
       "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
       "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",
@@ -38,8 +38,8 @@
     "KBResist": 0.48799998,
     "Coins": 1000.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
       "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
       "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
       "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",

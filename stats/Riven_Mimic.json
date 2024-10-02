@@ -8,11 +8,11 @@
   "Defense": 34,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
-    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
-    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
-    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`",
+    "`<a is="a-link" href="$default">Poisoned</a>`",
+    "`<a is="a-link" href="$default">On Fire!</a>`",
+    "`<a is="a-link" href="$default">Confused</a>`",
+    "`<a is="a-link" href="$default">Hellfire</a>`",
+    "`<a is="a-link" href="$default">Incandescent Burn</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
@@ -23,8 +23,8 @@
     "`<a is="a-link" image="$fromStats" href="$default">Amoebash<note> </note></a>` - 20%",
     "`<a is="a-link" image="$fromStats" href="$default">Tainted Flesh<note> </note></a>` - 20%",
     "`<a is="a-link" image="$fromStats" href="$default">Amoeba Hook<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
     "`<a is="a-link" image="$fromStats" href="$default">Riven Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
   ],
   "Expert": {
@@ -37,8 +37,8 @@
       "`<a is="a-link" image="$fromStats" href="$default">Amoebash<note> </note></a>` - 20%",
       "`<a is="a-link" image="$fromStats" href="$default">Tainted Flesh<note> </note></a>` - 20%",
       "`<a is="a-link" image="$fromStats" href="$default">Amoeba Hook<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Riven Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
     ]
   },
@@ -52,8 +52,8 @@
       "`<a is="a-link" image="$fromStats" href="$default">Amoebash<note> </note></a>` - 20%",
       "`<a is="a-link" image="$fromStats" href="$default">Tainted Flesh<note> </note></a>` - 20%",
       "`<a is="a-link" image="$fromStats" href="$default">Amoeba Hook<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Riven Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
     ]
   },

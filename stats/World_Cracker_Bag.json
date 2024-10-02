@@ -15,7 +15,7 @@
     "`<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
     "`<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
     "`<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
   ],
   "SpriteWidth": 32,
   "InternalName": "World_Cracker_Bag"

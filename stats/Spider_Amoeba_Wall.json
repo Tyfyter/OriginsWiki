@@ -8,7 +8,7 @@
   "Defense": 10,
   "KBResist": 0.75,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
+    "`<a is="a-link" href="$default">Poisoned</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 90.0,

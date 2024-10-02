@@ -9,7 +9,7 @@
   "Defense": 100,
   "KBResist": 1.0,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" href="$default">Confused</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
@@ -34,7 +34,7 @@
       "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
     ]
   },
   "Master": {
@@ -49,7 +49,7 @@
       "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
+      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Amebic Vial<note>This is a Master Mode drop rate</note></a>` - 25%",
       "`<a is="a-link" image="$fromStats" href="$default">World Cracker Relic<note>This is a Master Mode drop rate</note></a>` - 100%"
     ]

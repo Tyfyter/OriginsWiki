@@ -9,12 +9,12 @@
   "KBResist": 0.5,
   "Coins": 700.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
   ],
   "Expert": {
     "MaxLife": 360,
@@ -22,12 +22,12 @@
     "Immunities": [],
     "Coins": 1750.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
     ]
   },
   "Master": {
@@ -36,12 +36,12 @@
     "Immunities": [],
     "Coins": 1750.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
     ]
   },
   "SpriteWidth": 40,

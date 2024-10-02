@@ -15,7 +15,7 @@
     "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
     "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
     "`<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
   ],
   "SpriteWidth": 32,
   "InternalName": "Fiberglass_Weaver_Bag"

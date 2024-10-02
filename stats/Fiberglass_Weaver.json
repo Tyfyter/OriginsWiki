@@ -9,10 +9,10 @@
   "Defense": 26,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
-    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
-    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
-    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`"
+    "`<a is="a-link" href="$default">Poisoned</a>`",
+    "`<a is="a-link" href="$default">On Fire!</a>`",
+    "`<a is="a-link" href="$default">Hellfire</a>`",
+    "`<a is="a-link" href="$default">Incandescent Burn</a>`"
   ],
   "Coins": 150000.0,
   "Drops": [
@@ -37,7 +37,7 @@
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
     ]
   },
   "Master": {
@@ -53,7 +53,7 @@
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
       "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
+      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Dagger<note>This is a Master Mode drop rate</note></a>` - 25%"
     ]
   },

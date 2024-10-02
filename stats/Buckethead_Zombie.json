@@ -9,8 +9,8 @@
   "KBResist": 0.5,
   "Coins": 60.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
   ],
   "Expert": {
     "MaxLife": 90,
@@ -18,8 +18,8 @@
     "Immunities": [],
     "Coins": 375.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
     ]
   },
   "Master": {
@@ -28,8 +28,8 @@
     "Immunities": [],
     "Coins": 375.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Empty_Bucket">Empty Bucket</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%"
     ]
   },
   "SpriteWidth": 34,

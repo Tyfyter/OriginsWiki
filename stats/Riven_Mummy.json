@@ -12,12 +12,12 @@
   ],
   "Coins": 7.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
   ],
   "RivenAssimilation": 0.07,
   "Expert": {
@@ -25,12 +25,12 @@
     "KBResist": 0.595,
     "Coins": 17.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
     ],
     "RivenAssimilation": 0.091
   },
@@ -39,12 +39,12 @@
     "KBResist": 0.67999995,
     "Coins": 17.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Megaphone">Megaphone</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Blindfold">Blindfold</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Mask">Mummy Mask</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Shirt">Mummy Shirt</a>` - 1.333%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mummy_Pants">Mummy Pants</a>` - 1.333%"
     ],
     "RivenAssimilation": 0.105000004
   },

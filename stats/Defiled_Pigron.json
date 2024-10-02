@@ -9,10 +9,10 @@
   "KBResist": 0.5,
   "Coins": 2000.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
   ],
   "Expert": {
     "MaxLife": 840,
@@ -20,10 +20,10 @@
     "Immunities": [],
     "Coins": 12500.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
     ]
   },
   "Master": {
@@ -32,10 +32,10 @@
     "Immunities": [],
     "Coins": 12500.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
     ]
   },
   "SpriteWidth": 90,

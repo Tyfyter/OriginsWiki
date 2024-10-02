@@ -8,7 +8,7 @@
   "Rarity": "Blue",
   "Drops": [
     "`<a is="a-link" image="$fromStats" href="$default">Neural Network<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Musket_Ball">Musket Ball</a>` - (100‒100) 20%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Musket_Ball">Musket Ball</a>` - (100‒100) 20%",
     "`<a is="a-link" image="$fromStats" href="$default">Ace Shrapnel<note> </note></a>` - 20%",
     "`<a is="a-link" image="$fromStats" href="$default">Scrap<note> </note></a>` - (200‒200) 20%",
     "`<a is="a-link" image="$fromStats" href="$default">Area Denial<note> </note></a>` - 20%",

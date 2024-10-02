@@ -8,13 +8,13 @@
   "Defense": 18,
   "KBResist": 1.0,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Confused</a>`",
+    "`<a is="a-link" href="$default">Confused</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
   ],
   "Coins": 1000.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1%",
     "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (1‒3) 100%",
     "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (38‒72) 100%",
     "`<a is="a-link" image="$fromStats" href="$default">Seam Beam<note> </note></a>` - 2.5%"
@@ -24,7 +24,7 @@
     "MaxLife": 1268,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1.99%",
       "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (1‒3) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (38‒72) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Seam Beam<note> </note></a>` - 2.5%"
@@ -35,7 +35,7 @@
     "MaxLife": 1902,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1.99%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vitamins">Vitamins</a>` - 1.99%",
       "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - (1‒3) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (38‒72) 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Seam Beam<note> </note></a>` - 2.5%"

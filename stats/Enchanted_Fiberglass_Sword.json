@@ -8,16 +8,16 @@
   "Defense": 28,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
-    "`<a is="a-link" image="$default" href="$default">On Fire!</a>`",
-    "`<a is="a-link" image="$default" href="$default">Hellfire</a>`",
-    "`<a is="a-link" image="$default" href="$default">Incandescent Burn</a>`"
+    "`<a is="a-link" href="$default">Poisoned</a>`",
+    "`<a is="a-link" href="$default">On Fire!</a>`",
+    "`<a is="a-link" href="$default">Hellfire</a>`",
+    "`<a is="a-link" href="$default">Incandescent Burn</a>`"
   ],
   "Coins": 400.0,
   "Drops": [
     "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
     "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
   ],
   "Expert": {
     "MaxLife": 220,
@@ -26,7 +26,7 @@
     "Drops": [
       "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
       "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
     ]
   },
   "Master": {
@@ -36,7 +36,7 @@
     "Drops": [
       "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
       "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
     ]
   },
   "SpriteWidth": 42,

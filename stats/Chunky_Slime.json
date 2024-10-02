@@ -7,11 +7,11 @@
   "MaxLife": 60,
   "Defense": 6,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`"
+    "`<a is="a-link" href="$default">Poisoned</a>`"
   ],
   "Coins": 40.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
   ],
   "DefiledAssimilation": 0.05,
   "Expert": {
@@ -19,7 +19,7 @@
     "KBResist": 0.19000006,
     "Coins": 100.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
     ],
     "DefiledAssimilation": 0.065
   },
@@ -28,7 +28,7 @@
     "KBResist": 0.35999995,
     "Coins": 100.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%"
     ],
     "DefiledAssimilation": 0.075
   },

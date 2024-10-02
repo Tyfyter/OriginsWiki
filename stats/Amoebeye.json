@@ -8,8 +8,8 @@
   "Defense": 60,
   "KBResist": 0.25,
   "Immunities": [
-    "`<a is="a-link" image="$default" href="$default">Poisoned</a>`",
-    "`<a is="a-link" image="$default" href="$default">Ichor</a>`",
+    "`<a is="a-link" href="$default">Poisoned</a>`",
+    "`<a is="a-link" href="$default">Ichor</a>`",
     "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
   ],
   "Coins": 76.0,

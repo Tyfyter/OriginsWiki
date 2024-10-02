@@ -9,7 +9,7 @@
   "KBResist": 0.14999998,
   "Coins": 75.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
     "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
   ],
   "CrimsonAssimilation": 0.07,
@@ -19,7 +19,7 @@
     "Immunities": [],
     "Coins": 467.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
     ],
     "CrimsonAssimilation": 0.091
@@ -30,7 +30,7 @@
     "Immunities": [],
     "Coins": 467.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Vertebra">Vertebra</a>` - 100%",
       "`<a is="a-link" image="$fromStats" href="$default">Brainy Staff<note> </note></a>` - 5.882%"
     ],
     "CrimsonAssimilation": 0.105000004

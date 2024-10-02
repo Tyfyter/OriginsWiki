@@ -15,6 +15,6 @@
 
   "Source": [
     "<a is="a-link" href="https://terraria.wiki.gg/wiki/Undead_Miner">Undead Miner</a>",
-    "<a is="a-link" href="https://terraria.wiki.gg/wiki/Demolitionist">Demolitionist</a> ([price 5|0|0] after selling 35 <a is="a-link" image="$fromStats" href="">Peat Moss</a>)"
+    "<a is="a-link" href="https://terraria.wiki.gg/wiki/Demolitionist">Demolitionist</a> ([price 5|0|0] after selling 35 <a is="a-link" image="$fromStats">Peat Moss</a>)"
   ]
 }

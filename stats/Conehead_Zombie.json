@@ -9,7 +9,7 @@
   "KBResist": 0.5,
   "Coins": 60.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
     "`<a is="a-link" image="$fromStats" href="$default">Traffic Cone<note> </note></a>` - 10%"
   ],
   "Expert": {
@@ -18,7 +18,7 @@
     "Immunities": [],
     "Coins": 375.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
       "`<a is="a-link" image="$fromStats" href="$default">Traffic Cone<note> </note></a>` - 10%"
     ]
   },
@@ -28,7 +28,7 @@
     "Immunities": [],
     "Coins": 375.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Diamond">Diamond</a>` - 5%",
       "`<a is="a-link" image="$fromStats" href="$default">Traffic Cone<note> </note></a>` - 10%"
     ]
   },

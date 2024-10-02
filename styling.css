@@ -419,6 +419,7 @@ details > summary {
 .inlinestatblock, a-statblock[inline] {
 	display: inline-block;
 	float: none;
+	width: fit-content;
 }
 
 .statblock > img, .inlinestatblock > img, a-statblock > img {
@@ -428,7 +429,8 @@ details > summary {
 }
 
 .statblock > .stat, .inlinestatblock > .stat, a-statblock > .stat {
-  	margin-left: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
 }
 
 .stat > .statvalues {

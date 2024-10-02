@@ -12,18 +12,18 @@
   ],
   "Coins": 650.0,
   "Drops": [
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
     "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
   ],
   "Expert": {
     "MaxLife": 480,
     "KBResist": 0.45999998,
     "Coins": 1625.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
       "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "Master": {
@@ -31,9 +31,9 @@
     "KBResist": 0.52,
     "Coins": 1625.0,
     "Drops": [
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
       "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-      "`<a is="a-link" image="$default" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
     ]
   },
   "SpriteWidth": 36,
