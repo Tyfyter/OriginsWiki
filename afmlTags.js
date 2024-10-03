@@ -67,7 +67,11 @@ async function getStats(name) {
 	var value = await aStats[name];
 	if(value === undefined){
 		var v = await (aStats[name] = getPageText('stats/'+name + '.json'));
-		value = aStats[name] = JSON.parse(v.startsWith('<!DOCTYPE html>') ? null : v);
+		try {
+			value = aStats[name] = JSON.parse(v.startsWith('<!DOCTYPE html>') ? null : v);
+		} catch (error) {
+			console.error(error, v);
+		}
 	}
 	return value;
 }
@@ -235,7 +239,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 customElements.define("a-link", AFMLLink, { extends: "a" });
 
 class AFMLSnippet extends HTMLElement {
-	static observedAttributes = ["href", "pluck"];
+	static observedAttributes = ["src", "pluck"];
 	button;
 	content;
 	constructor() {
@@ -276,10 +280,10 @@ class AFMLSnippet extends HTMLElement {
 	}
 	attributeChangedCallback(name, oldValue, newValue) {
 		this.setup();
-		let contentID = 'snippetContent' + this.getAttribute('href') + this.getAttribute('pluck');
+		let contentID = 'snippetContent' + this.getAttribute('src') + this.getAttribute('pluck');
 		if (this.content.id === contentID) return;
 		this.content.id = contentID;
-		getPageText(this.getAttribute('href')).then(async (v) => {
+		getPageText(this.getAttribute('src').replaceAll('.html', '') + aLinkSuffix).then(async (v) => {
 			this.content.innerHTML = v;
 			let pluckSelector = this.getAttribute('pluck');
 			//console.debug('pluck: ', pluckSelector, ' from ', content.children);
@@ -493,6 +497,10 @@ class AFMLStatBlock extends HTMLElement {
 		getStats(newValue.replace(' ', '_')).then((v) => { this.doAutoStats(v) });
 	}
 	doAutoStats(stats) {
+		if (!stats) {
+			this.textContent = `Could not find stats for ${this.getAttribute('src')}`;
+			return;
+		}
 		this.textContent = '';
 		var values = [];
 		var statistics = {header:"Statistics", items:[]};
@@ -797,10 +805,16 @@ class AFMLSortableList extends HTMLElement {
 	connectedCallback(){
 		if (!this.hasAttribute('src')) {
 			try {
-				let value = new Function(`return ${this.innerHTML};`)();
+				let value = new Function(`return ${this.innerHTML.substring(0, this.innerHTML.length - this.table.outerHTML.length).trim()};`)();
+				for (let i = this.childNodes.length - 1; i >= 0; i--) {
+					let child = this.childNodes[i];
+					if (child != this.table) {
+						this.removeChild(child);
+					}
+				}
 				this.setContents(value);
 			} catch (error) {
-				console.error(error, this.innerHTML);
+				console.error(error, `return ${this.innerHTML.substring(0, this.innerHTML.length - this.table.outerHTML.length).trim()};`);
 			}
 		}
 	}
@@ -809,7 +823,7 @@ class AFMLSortableList extends HTMLElement {
 	}
 	doAutoSetup(data) {
 		if (!data) {
-			table.innerHTML = `could not find statList ${this.getAttribute('src')}`;
+			this.table.innerHTML = `could not find statList ${this.getAttribute('src')}`;
 			return;
 		}
 		getCategories().then((cats) => {
@@ -842,7 +856,6 @@ class AFMLSortableList extends HTMLElement {
 		console.log(`processing sortable list:`, data);
 		if (!defaultStats) defaultStats = await getStats("Defaults");
 
-		var result = '<thead><tr>';
 		let head = this.table.createChild('thead');
 		let row = head.createChild('tr');
 		if(data.headers[0] === 'Name'){
@@ -954,7 +967,7 @@ class AFMLBiomeContents extends HTMLElement {
 				}else{
 					let classes = "subcontents";
 					let attributes = [];
-					if(data.items && data.items[i]){
+					if(data.items[i]) {
 						if(data.items[i].class) {
 							classes = ' '+data.items[i].class;
 						}
