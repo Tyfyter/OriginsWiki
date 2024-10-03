@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<article id="content">
-			<img src="Images/BiomeBannerCubekonTemple.png">
+			<img src="BiomeBannerCubekonTemple">
 			<h1>Cubekon Temple</h1>
 			<div class="divider"></div>
 			<p><i>"Usually I'm the one who likes to put up a show, but man, the Cubekons had one in for me that day..."</i> - <a is="a-link">Cubekon Tinkerer</a></p>
@@ -21,82 +21,82 @@
 			durable and ancient rocky material. Traversal through the temple will prove to be very difficult with the numerous enemies that are housed within as well as the
 			ambient conditions that are present without proper equipment.</p>
 
-			<img src="Images/CTemple1.png" alt="Cubekon Temple interior" style="float:right;width:250px;height:137px;">
+			<img src="CTemple1" alt="Cubekon Temple interior" style="float:right;width:250px;height:137px;">
 
 			<details class="section" id="Contents" open>
 				<summary>Contents<span class="divider"></span></summary>
-				{biomecontent
+				<a-biomecontents>
 					{
-						header:NPCs
+						header:'NPCs',
 						items:[
 							{
 								items:[
-									[Cubix, Images/Cubix.png]
-									[Blox, Images/Blox.png]
-									[Tetrix, Images/Tetrix.png]
-									[Quantux, Images/Quantux.png]
+									['Cubix'],
+									['Blox'],
+									['Tetrix'],
+									['Quantux']
 								]
 							}
 						]
 					},
 					{
-						header:Unique Drops,
+						header:'Unique Drops',
 						items:[
 							{
-								header:From <a is="a-link">Cubix</a>\:,
-								class:miniheader inlineblock,
+								header:'From <a is="a-link">Cubix</a>:',
+								class:'miniheader inlineblock',
 								items:[
-									[Gigastar, Images/Gigastar.png]
+									['Gigastar']
 								]
-							}
+							},
 							{
-								header:From <a is="a-link">Tetrix</a>\:,
-								class:miniheader inlineblock,
+								header:'From <a is="a-link">Tetrix</a>:',
+								class:'miniheader inlineblock',
 								items:[
-									[Quantum Hook, Images/Quantum_Hook.png]
-									[Sonic Radar, Images/Sonic_Radar.png, $default, in Expert Mode]
+									['Quantum Hook'],
+									['Sonic Radar', 'Sonic_Radar', '', 'in Expert Mode']
 								]
-							}
+							},
 							{
-								header:From <a is="a-link">Cubix</a>\, <a is="a-link">Blox</a>\, <a is="a-link">Tetrix</a>\, and <a is="a-link">Quantux</a>\:,
-								class:miniheader inlineblock,
+								header:'From <a is="a-link">Cubix</a>, <a is="a-link">Blox</a>, <a is="a-link">Tetrix</a>, and <a is="a-link">Quantux</a>:',
+								class:'miniheader inlineblock',
 								items:[
-									[Formium Scrap, Images/Formium_Scrap.png]
-									[Quantium, Images/Quantium.png]
+									['Formium Scrap'],
+									['Quantium']
 								]
-							}
+							},
 							{
-								header:From <a is="a-link">Quantux</a>\:,
-								class:miniheader,
+								header:'From <a is="a-link">Quantux</a>:',
+								class:'miniheader',
 								items:[
-									[Undying Energy, Images/Undying_Energy.png]
-									[Quantux Trophy, Images/Quantux_Trophy.png]
-									[Quantux Mask, Images/Quantux_Mask.png]
-									[Treasure Bag, Images/Q_Treasure_Bag.png, Treasure_Bags#Quantux]
-									[Quantux Relic, Images/Quantux_Relic.png]
-									[Warp Drive, Images/Warp_Drive.png, $default, in Expert Mode]
-									[Parallax, Images/Parallax.png, $default, in Master Mode]
+									['Undying Energy'],
+									['Quantux Trophy'],
+									['Quantux Mask'],
+									['Treasure Bag', 'Treasure_Bags#Quantux'],
+									['Quantux Relic'],
+									['Warp Drive', 'Warp_Drive', '', 'in Expert Mode'],
+									['Parallax', 'Parallax', '', 'in Master Mode']
 								]
-							}
+							},
 							{
-								header:From terrain\:,
-								class:miniheader,
+								header:'From terrain:',
+								class:'miniheader',
 								items:[
-									[Batholith, Images/Batholith.png]
-									[Cubekon Altar, Images/Cubekon_Altar.png]
-									[Cubekon Chest, Images/Cubekon_Chest.png]
-									[Cubekon Node, Images/Cubekon_Node.png]
+									['Batholith'],
+									['Cubekon Altar'],
+									['Cubekon Chest'],
+									['Cubekon Node']
 								]
 							}
 						]
 					},
 					{
-						header:Music,
+						header:'Music',
 						items:[
-							[Music Box (Cubekon Temple), Images/Music_Box_CT.png, Music_Boxes#Cubekon_Temple]
+							['Music Box (Cubekon Temple)', 'Music_Box_CT', 'Music_Boxes#Cubekon_Temple']
 						]
 					}
-				biomecontent}
+				</a-biomecontents>
 			</details>
 
 			<details class="section" id="Notes" open>

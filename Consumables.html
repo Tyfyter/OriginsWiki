@@ -27,40 +27,40 @@
 				Some consumables don't necessarily disappear from the players inventory and can be replenished. 
 			</p>
 
-			[sortableList ExpendableWeapon]
+			<a-sortablelist src=ExpendableWeapon></a-sortablelist>
 
-			[sortableList ExpendableTool]
+			<a-sortablelist src=ExpendableTool></a-sortablelist>
 
-			[sortableList PermaBoost]
+			<a-sortablelist src=PermaBoost></a-sortablelist>
 
-			[sortableList BossSummon]
+			<a-sortablelist src=BossSummon></a-sortablelist>
 
-			[sortableList Potion]
+			<a-sortablelist src=Potion></a-sortablelist>
 
-			[sortableList Food]
+			<a-sortablelist src=Food></a-sortablelist>
 
-			[sortableList GrabBag]
+			<a-sortablelist src=GrabBag></a-sortablelist>
 
-			{biomecontent
+			<a-biomecontents>
 			{
-			header:'<b>Others</b>'
+			header:'<b>Others</b>',
 			items:[
 			{
 			items:[
-			[Magic Brine Dropper, $fromStats]
-			[Dawn Key, $fromStats]
-			[Defiled Key, $fromStats]
-			[Dusk Key, $fromStats]
-			[Hell Key, $fromStats]
-			[Holidary Hair Dye, $fromStats]
-			[Mushroom Key, $fromStats]
-			[Ocean Key, $fromStats]
-			[Riven Key, $fromStats]
+			['Magic Brine Dropper', '$fromStats'],
+			['Dawn Key', '$fromStats'],
+			['Defiled Key', '$fromStats'],
+			['Dusk Key', '$fromStats'],
+			['Hell Key', '$fromStats'],
+			['Holidary Hair Dye', '$fromStats'],
+			['Mushroom Key', '$fromStats'],
+			['Ocean Key', '$fromStats'],
+			['Riven Key', '$fromStats']
 			]
 			}
 			]
 			}
-			biomecontent}
+			</a-biomecontents>
 		</article>
 	</body>
 </html>

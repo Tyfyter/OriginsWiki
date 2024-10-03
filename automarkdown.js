@@ -1123,12 +1123,14 @@ async function createCategorySegment(){
 			if (index > 0) {
 				let button = document.createElement('a', {is: 'a-link'});
 				button.textContent = '<==';
+				button.id = 'DevBackButton'
 				button.href = siteMap[index - 1] + linkSuffix;
 				categoriesElement.insertBefore(button, categoriesElement.firstChild);
 			}
 			if (index < siteMap.length) {
 				let button = document.createElement('a', {is: 'a-link'});
 				button.textContent = '==>';
+				button.id = 'DevNextButton'
 				button.style.float = 'right';
 				button.href = siteMap[index + 1] + linkSuffix;
 				categoriesElement.appendChild(button);
