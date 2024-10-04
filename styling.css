@@ -385,12 +385,14 @@ details > summary {
 	--article-link-color:var(--expert-color);
 	--visited-link-color:var(--expert-color);
 	font-weight: bold;
+	cursor: alias;
 }
 .rmaster {
 	color:var(--master-color);
 	--article-link-color:var(--master-color);
 	--visited-link-color:var(--master-color);
 	font-weight: bold;
+	cursor: alias;
 }
 
 .statblock, a-statblock {

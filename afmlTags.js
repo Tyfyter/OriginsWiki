@@ -39,7 +39,9 @@ async function getPageText(url) {
 	}
 	if (pageRequests[url] instanceof Promise) {
 		pageRequests[url] = await pageRequests[url];
+		if (pageRequests[url].status === 404) pageRequests[url] = null;
 	}
+	if (pageRequests[url] === null) return null;
 	if (pageRequestLock[url]) await pageRequestLock[url].promise;
 	else pageRequestLock[url] = AsyncLock.createLock();
 	if (pageRequests[url].text) {
@@ -48,9 +50,6 @@ async function getPageText(url) {
 	}
 	return await pageRequests[url];
 }
-var _categories = getPageText('categories.hjson');
-var _generated_categories = getPageText('generated_categories.json');
-var _siteMap = getPageText('sitemap.xml');
 var _aliases = getPageText('aliases.json');
 var defaultStats;
 
@@ -72,7 +71,12 @@ async function getStats(name) {
 	if(value === undefined){
 		var v = await (aStats[name] = getPageText('stats/'+name + '.json'));
 		try {
-			value = aStats[name] = JSON.parse(v.startsWith('<!DOCTYPE html>') ? null : v);
+			if (!v || v.startsWith('<!DOCTYPE html>')) {
+				aStats[name] = {};
+			} else {
+				aStats[name] = JSON.parse(v);
+			}
+			value = aStats[name] = JSON.parse(v);
 		} catch (error) {
 			console.error(error, v);
 		}
@@ -153,6 +157,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		this.insertBefore(this.image, this.firstChild);
 	}
 	connectedCallback(){
+		if (this.image.parentNode === null) this.insertBefore(this.image, this.firstChild);
 		this.classList.add('link');
 		let _notes = this.getElementsByTagName('note');
 		let notes = [];
@@ -206,6 +211,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {
+		if (this.image.parentNode === null) this.insertBefore(this.image, this.firstChild);
 		//console.log(this, name, newValue);
 		switch (name) {
 			case 'href': {
@@ -963,20 +969,17 @@ class AFMLBiomeContents extends HTMLElement {
 					}
 				}else if(data.items[i] instanceof Array){
 					let span = parent.createChild('span');
-					let attributes = [];
-					const pass = (index, name) => (data.items[i].length > index) && attributes.push([name, data.items[i][index]]);
-					pass(1, 'image');
-					pass(2, 'href');
 					let text = data.items[i][0];
 					if (data.items[i].length > 3) text += `<note>${data.items[i][3]}</note>`;
-					span.createChild('a-link', text, ...attributes);
+					let link = span.createChild('a-link', text);
+					const pass = (index, name) => (data.items[i].length > index && data.items[i][index]) && link.setAttribute(name, data.items[i][index]);
+					pass(1, 'image');
+					pass(2, 'href');
 				}else{
 					let classes = "subcontents";
 					let attributes = [];
 					if(data.items[i]) {
-						if(data.items[i].class) {
-							classes = ' '+data.items[i].class;
-						}
+						if(data.items[i].class) classes = ' '+data.items[i].class;
 						if (data.items[i].style) attributes.push(['style', data.items[i].style]);
 					}
 					let div = parent.createChild('div', '', ['class', classes], ...attributes);
@@ -987,3 +990,35 @@ class AFMLBiomeContents extends HTMLElement {
 	}
 }
 customElements.define("a-biomecontents", AFMLBiomeContents);
+
+class AFMLExpert extends HTMLAnchorElement {
+	lastClicked = 0;
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.classList.add('rexpert');
+		this.href = 'https://terraria.wiki.gg/wiki/Expert_Mode';
+		this.onclick = event => {
+			if(Date.now() - this.lastClicked > 500) event.preventDefault();
+			this.lastClicked = Date.now();
+		 };
+		 this.innerHTML = '<abbr title="double-click to open" style="text-decoration-line: none;">Expert</abbr>'
+	}
+}
+customElements.define("a-expert", AFMLExpert, { extends: "a" });
+
+class AFMLMaster extends HTMLAnchorElement {
+	lastClicked = 0;
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.classList.add('rmaster');
+		this.href = 'https://terraria.wiki.gg/wiki/Master_Mode';
+		this.onclick = event => {
+			if(Date.now() - this.lastClicked > 500) event.preventDefault();
+			this.lastClicked = Date.now();
+		 };
+		this.innerHTML = '<abbr title="double-click to open" style="text-decoration-line: none;">Master</abbr>'
+	}
+}
+customElements.define("a-master", AFMLMaster, { extends: "a" });

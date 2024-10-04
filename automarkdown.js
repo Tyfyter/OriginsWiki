@@ -1169,15 +1169,6 @@ onresize = () => {
 	logo.style.top = 0;
 	applyScrollToLogo();
 };
-function replaceBasicSubstitutions(text) {
-	text = text.replaceAll("§l§", '<div class="l-connector"></div>');
-	text = text.replaceAll("§L§", '<div class="L-connector"></div>');
-	text = text.replaceAll("§Expert§", '<a href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert</a>');
-	text = text.replaceAll("§Master§", '<a href="https://terraria.wiki.gg/wiki/Master_Mode">Master</a>');
-	text = text.replaceAll("§RExpert§", '<span class="rexpert" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Expert_Mode\', \'_self\');">Expert</span>');
-	text = text.replaceAll("§RMaster§", '<span class="rmaster" onClick="if(event.shiftKey)window.open(\'https://terraria.wiki.gg/wiki/Master_Mode\', \'_self\');">Master</span>');
-	return text;
-}
 function logItToo(value, text = "") {
 	if (text) {
 		console.log(text, value);
@@ -1187,27 +1178,15 @@ function logItToo(value, text = "") {
 	return value;
 }
 let linkIndex = 0;
-const parsingLockAttr = 'parsingLock';
-function parsingLocked(element) {
-	while (element) {
-		if (element.hasAttribute(parsingLockAttr)) return true;
-		element = element.parentElement;
-	}
-	return false;
-}
 if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 	linkSuffix = '';
 	linkPrefix = '/OriginsWiki';
 }
-async function parseAFML(throwErrors = false, elementID = "content"){
+async function parseAFML(content){
 	if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 		linkSuffix = '';
 		linkPrefix = '/OriginsWiki';
 	}
-	var content = document.getElementById(elementID);
-	while(parsingLocked());
-	content.setAttribute(parsingLockAttr, '');
-	//content.innerHTML += getSearchLinks("pa");//example code
 	var toc = document.getElementById("table-of-contents");
 	if(toc){
 		toc.innerHTML = '';//"<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
@@ -1217,29 +1196,6 @@ async function parseAFML(throwErrors = false, elementID = "content"){
 		}, (v) => v.className == 'section', (pIndex, indexNumber) => (pIndex?pIndex+".":"")+(indexNumber+1), "");
 		toc.innerHTML += contents+'</details>';
 	}
-	var walker = document.createTreeWalker(
-		content,
-		NodeFilter.SHOW_TEXT,
-		null,
-		false
-	);
-	
-	var node;
-	while(node = walker.nextNode()) {
-		let value = replaceBasicSubstitutions(node.textContent);
-		if (value != node.textContent) {
-			var span = document.createElement('span');
-			span.innerHTML = value;
-			node.replaceWith(span);
-			walker = document.createTreeWalker(
-				content,
-				NodeFilter.SHOW_TEXT,
-				null,
-				false
-			);
-		}
-	}
-	content.removeAttribute(parsingLockAttr);
 }
 var onSearchbarInput = async (e)=>{
 	var searchbar = document.getElementById("searchbar");
@@ -1317,7 +1273,7 @@ function withChildren(parent) {
 }
 var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
-	await parseAFML();
+	await parseAFML(document.getElementById("content"));
 	var content = document.getElementById("content");
 	console.log('1');
 	

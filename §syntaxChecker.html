@@ -31,7 +31,7 @@
             } else {
                 try{
                     document.getElementById('output').innerHTML = document.getElementById('terminal').textContent;
-                    parseAFML(true);
+                    parseAFML(document.getElementById("content"));
                 }catch(e){
                     document.getElementById('output').innerHTML = JSON.stringify(e);
                 }
