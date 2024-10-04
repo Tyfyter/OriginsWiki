@@ -9,6 +9,10 @@ pageName = decodeURI(pageName);
 if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 	aLinkSuffix = '';
 }
+function getLinkSuffix(url) {
+	if (new URL(url, document.baseURI).origin !== document.location.origin) return '';
+	return aLinkSuffix
+}
 function processImagePath(path) {
 	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '.png';
 }
@@ -163,15 +167,17 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			if (aliases[targetPage]) {
 				targetPage = aliases[targetPage];
 			}
-			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '') + aLinkSuffix;
-			if (targetPage === 'Abysswalker\'s_Cloak' + aLinkSuffix) console.log(this);
+			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '');
 			target = targetPage;
-		} else if (target) target = target.replaceAll('.html', '') + aLinkSuffix;
+		} else if (target) target = target.replaceAll('.html', '');
 		if (new URL(target, document.baseURI).href == document.location) {//self link
 			this.classList.add('selflink');
 			this.removeAttribute('href');
-		} else if (target != this.getAttribute('href')) {
-			this.setAttribute('href', target);
+		} else if (target) {
+			target += getLinkSuffix(target);
+			if (target != this.getAttribute('href')) {
+				this.setAttribute('href', target);
+			}
 		}
 		if (notes.length) {
 			let noteContainer = document.createElement('span');
