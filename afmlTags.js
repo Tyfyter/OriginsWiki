@@ -806,6 +806,7 @@ class AFMLDrop extends HTMLElement {
 }
 customElements.define("a-drop", AFMLDrop);
 
+let evalItem;
 class AFMLSortableList extends HTMLElement {
 	static observedAttributes = ["src"];
 	table;
@@ -893,9 +894,9 @@ class AFMLSortableList extends HTMLElement {
 			if(data.items[i] instanceof Object){
 				item = data.items[i];
 			}else{
-				let stats = await requestStats(data.items[i]);
+				let stats = await getStats(data.items[i]);
 				if (stats) {
-					item = JSON.parse(stats);
+					item = stats;
 					item.WikiName = data.items[i];
 				}
 			}

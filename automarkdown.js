@@ -44,32 +44,10 @@ function parseXMLSitemap(sitemapContent) {
 var _categories = requestPageText('categories.hjson');
 var _generated_categories = requestPageText('generated_categories.json');
 var _siteMap = requestPageText('sitemap.xml');
-var _aliases = requestPageText('aliases.json');
-var defaultStats;
 
-var aliases = false;
-var _stats = {};
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 pageName = decodeURI(pageName);
-_stats[pageName] = new Promise((resolve, reject) => {
-		requestPageText('stats/'+pageName + '.json').then((v) => {
-			_stats[pageName] = v.startsWith('<!DOCTYPE html>') ? null : v;
-			_stats[pageName] ? resolve(_stats[pageName]) : reject(404);
-		});
-	}
-);
 
-async function getAliases(){
-	if (!aliases) {
-		try {
-			aliases = JSON.parse(await _aliases);
-		} catch (error) {
-			aliases = {};
-		}
-	}
-	return aliases;
-}
-getAliases();
 async function getCategories(){
 	if(typeof await _categories === 'string'){
 		var catText = await _categories;
@@ -123,50 +101,6 @@ async function getSiteMap(){
 	return await _siteMap;
 }
 
-async function pageExists(page){
-	return (await getSiteMap()).includes(page)
-}
-
-function createFilteredResponseHandler(filter, action, includeExtension){
-	function getResponse() {
-		// `this` will refer to the `XMLHTTPRequest` object that executes this function
-		var responseObj = JSON.parse(this.responseText);
-		var values = [];
-		for(var i = 0; i < responseObj.tree.length; i++){
-			var match = responseObj.tree[i].path.match(/\.[^.]+/g);
-			var addition = responseObj.tree[i].path.replace(match, "");
-			if(addition && (!filter || match==filter) && addition != 'index'){
-				if(includeExtension){
-					values.push(addition+match);
-				}else{
-					values.push(addition);
-				}
-			}
-		}
-		action(values);
-	}
-	return getResponse;
-}
-
-function appendAllToContent(values){
-	values = values.map(function(v){
-		return "<a href="+v+">"+v+"</a>";
-	});
-	document.getElementById("content").innerHTML += "<div>"+values.join("<br>")+"</div>";
-}
-
-function requestAndProcessPageList(action, filter, sync){
-	if(!filter){
-		filter = ".html";
-	}
-	var request = new XMLHttpRequest();
-	request.onload = createFilteredResponseHandler(filter, action, true);
-	request.open('get', 'https://api.github.com/repos/Tyfyter/OriginsWiki/git/trees/main', !sync);
-	//request.open('get', 'https://api.github.com/repos/Tyfyter/OriginsWiki/commits/main', true);
-	//request.open('get', 'https://api.github.com/users/Tyfyter/repos/OriginsWiki', true);
-	request.send();
-}
-
 async function getSearchLinks(query, filter = ".html"){
     query = query.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
 	var regexQuery = new RegExp("("+query+")","i");
@@ -174,12 +108,6 @@ async function getSearchLinks(query, filter = ".html"){
 	results = (await getSiteMap()).filter(function(v){
 		return v.match(regexQuery) && (v.includes(section) == query.includes(section));
 	})
-	/*requestAndProcessPageList(function(re){
-		results = re.filter(function(v){
-			return v.match(regexQuery) && (v.includes(section) == query.includes(section));
-		});
-	}, filter, true);*/
-	//console.log(results);
 	results = results.sort(function(a, b) {
 		try{
 			var aIndex = a.indexOf(regexQuery.exec(a)[0]);
@@ -195,7 +123,6 @@ async function getSearchLinks(query, filter = ".html"){
 	}).join("<br>");
 }
 
-//requestAndProcessPageList(appendAllToContent);
 function forDescendants(element, action, actionFilter, indexer, index){
 	var iFiltered = 0;
 	for(var i = 0; i < element.children.length; i++){
@@ -342,136 +269,6 @@ function waitForElement(selector) {
         });
     });
 }
-async function processLinkWithID(id, targetName, image, targetPage, note) {
-	const currentIndex = linkIndex++;
-	return (await processLink(currentIndex, targetName, image, targetPage, note)).replace('class="link"', `class="link" id="${id}"`);
-}
-async function processLink(index, targetName, image, targetPage, note, extraClass){
-	if (aliases[targetPage]) {
-		targetPage = aliases[targetPage];
-	}
-	if(extraClass === '$default' || extraClass === undefined){
-		extraClass = '';
-	}
-	if(note === '$default'){
-		note = undefined;
-	}
-	if(image === '$default'){
-		image = undefined;
-	}
-	if(targetPage === undefined || targetPage === '$default'){
-		targetPage = targetName.replaceAll(' ', '_');
-		if (aliases[targetPage]) {
-			targetPage = aliases[targetPage];
-		}
-	}
-	if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '') + linkSuffix;
-	if(image === '$fromStats'){
-		try {
-			image = imagePathPrefix(JSON.parse(await requestStats(targetPage.replaceAll('.html', ''))).Image + ".png");
-		} catch (error) {}
-	}
-	let tag = 'a';
-	if (new URL(targetPage, document.baseURI).href == document.location) {
-		tag = 'b';
-	}
-	const linkIndex = index;
-	console.log(`link to ${targetPage} at index ${linkIndex}`);
-	var result = `<${tag} class="link ${extraClass}" id="link${linkIndex}" href="${targetPage}">`;
-	waitForElement(`${tag}#link${linkIndex}`).then(element => {
-		//console.log(element);
-		if (!element.href) {
-			//console.log(`link ${element.outerHTML} has no HREF`);
-			return;
-		}
-		//console.log(`link ${element.outerHTML} at index ${element.id}`);
-		if (new URL(element.href).origin == new URL(window.location).origin) {
-			fetch(element.href, {method: 'HEAD'}).then(response => {
-				//console.log(response);
-				if (response.status == 404) {
-					let el = document.getElementById(element.id);
-					if (el) el.classList.add('redlink');
-				}
-			});
-		}
-	});
-	/*fetch(targetPage, { method:"HEAD"}).then((response) => {
-		if (response.status == 404) {
-			let linkElement;
-			linkElement = document.getElementById("link"+linkIndex);
-			while (!linkElement) {
-				setTimeout
-				linkElement = document.getElementById("link"+linkIndex);
-			}
-			console.log
-		}
-	});*/
-	
-	if(image){
-		result += `<img src=${image}>`;
-	}
-	if(!targetPage){
-		return targetName + `</${tag}>`;
-	}
-	if(note){
-		result += '<span class="linkandnote">';
-		result += targetName;
-		result += '<br><span class="linknote">'+note+'</span>';
-		result += '</span>';
-	}else{
-		result += targetName;
-	}
-	return result + `</${tag}>`;
-}
-function generateCoinsTag(value){
-	return `[coins ${Math.floor(value / 1000000) % 100} | ${Math.floor(value / 10000) % 100} | ${Math.floor(value / 100) % 100} | ${(value) % 100}]`;
-}
-function processCoins(copper = 0, silver = 0, gold = 0, platinum = 0){
-	var result = '<span class="coins">';
-	if(platinum != 0){
-		result += '<span class="platinum">'+platinum+'</span>';
-	}
-	if(gold != 0){
-		result += '<span class="gold">'+gold+'</span>';
-	}
-	if(silver != 0){
-		result += '<span class="silver">'+silver+'</span>';
-	}
-	if(copper != 0){
-		result += '<span class="copper">'+copper+'</span>';
-	}
-	return result + '</span>';
-}
-function processToolStats(pick = 0, hammer = 0, axe = 0){
-	var result = '<div class="toolstats">';
-	if(pick){
-		result += '<span class="toolstat">'+
-		'<img title="Pickaxe power" src="https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png" decoding="async" loading="lazy">'+
-		pick+
-		'%</span>';
-	}
-	if(hammer){
-		result += '<span class="toolstat">'+
-		'<img title="Hammer power" src="https://terraria.wiki.gg/images/thumb/5/57/Hammer_icon.png/16px-Hammer_icon.png" decoding="async" loading="lazy">'+
-		hammer+
-		'%</span>';
-	}
-	if(axe){
-		result += '<span class="toolstat">'+
-		'<img title="Axe power" src="Images/Axe_Icon.png" decoding="async" loading="lazy">'+
-		axe+
-		'%</span>';
-	}
-	return result + '</div>';
-}
-async function requestStats(name){
-	var value = await _stats[name];
-	if(value === undefined){
-		var v = await (_stats[name] = requestPageText('stats/'+name + '.json'));
-		value = (_stats[name] = v.startsWith('<!DOCTYPE html>') ? null : v);
-	}
-	return value;
-}
 function GetSpeedName(useTime) {
 	if (useTime <= 8) return "Insanely fast";
 	if (useTime <= 20) return "Very fast";
@@ -482,479 +279,6 @@ function GetSpeedName(useTime) {
 	if (useTime <= 55) return "Extremely slow";
 	return "Snail";
 }
-function imagePathPrefix(path){
-	return `${path.startsWith("§")?"":"Images/"}${path}`;
-}
-function setValueOrValues(obj, value){
-	if(Array.isArray(value)){
-		obj.values = value;
-	}else{
-		obj.value = value;
-	}
-	return obj;
-}
-async function processAutoStats(name = pageName, inline){
-	var data = await requestStats(name);
-	if(data === null){
-		return null;
-	}
-	data = JSON.parse(data);
-	
-    var values = [];
-	if(data.Types.includes("Item")){
-		var setSuffix = data.Types.includes("ArmorSet") ? '(set)' : '';
-    	if(data.Image){
-			var widthStr = data.SpriteWidth ? `, spriteWidth:${data.SpriteWidth}`: false;
-        	values.push({
-				header: data.Name || name.replaceAll('_',' '),
-				items:[{image:`${imagePathPrefix(data.Image)}.png`, spriteWidth:widthStr}]
-			});
-    	} else if(data.Images){
-			var widthStr = data.SpriteWidth ? `, spriteWidth:${data.SpriteWidth}`: false;
-			var images = data.Images;
-			for (let i = 0; i < images.length; i++) {
-				const image = images[i];
-				if (Array.isArray(image)) {
-					for (let j = 0; j < image.length; j++) {
-						image[j] = `${imagePathPrefix(image[j])}.png`;
-					}
-				} else {
-					images[i] = `${imagePathPrefix(image)}.png`;
-				}
-			}
-        	values.push({
-				header: data.Name || name.replaceAll('_',' '),
-				items: [{images: images}]
-			});
-    	}
-		var statistics = {header:"Statistics", items:[]};
-		if (data.PickPower || data.HammerPower || data.AxePower) {
-			statistics.items.push({
-				literalvalue: `[toolpower ${data.PickPower || ''} | ${data.HammerPower || ''} | ${data.AxePower || ''}]`
-			});
-		}
-		if(data.FishPower){
-			statistics.items.push({
-				label:'[link Fishing power | | https://terraria.wiki.gg/wiki/Fishing]',
-				value:data.FishPower+'%'
-			});
-		}
-		if(data.BaitPower){
-			statistics.items.push({
-				label:'[link Bait power | | https://terraria.wiki.gg/wiki/Bait]',
-				value:data.BaitPower+'%'
-			});
-		}
-		if (data.PickReq || data.HammerReq) {
-			statistics.items.push({
-				literalvalue: `[toolpower ${data.PickReq || ''} | ${data.HammerReq || ''}]`
-			});
-		}
-		if(data.LightIntensity){
-			var torchIcon = '';
-			var torchIntensity = data.LightIntensity;
-			if (data.LightColor) {
-				torchIcon = `<img src="Images/Torch_Icon.png" style="mix-blend-mode: screen;background-color: ${
-					`rgb(${(data.LightColor[0]) * 255}, ${(data.LightColor[1]) * 255}, ${(data.LightColor[2]) * 255})`
-				};">`;
-			}
-			statistics.items.push({
-				label:'Light',
-				value: torchIcon + torchIntensity
-			});
-		}
-		if(data.PlacementSize){
-			statistics.items.push({
-				label:'[link Placeable | | https://terraria.wiki.gg/wiki/Placement]',
-				value:`yes (${data.PlacementSize[0]}x${data.PlacementSize[1]})`
-			});
-		}
-		if(data.Defense){
-			statistics.items.push({
-				label:'[link Defense | | https://terraria.wiki.gg/wiki/Defense]',
-				value:data.Defense + setSuffix
-			});
-			if(data.Tooltip){
-				statistics.items.push(setValueOrValues({
-					label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]'
-				}, data.Tooltip));
-			}
-		}
-		if(data.SetBonus){
-			statistics.items.push({
-				label:'[link Set Bonus | | https://terraria.wiki.gg/wiki/Armor]',
-				value:data.SetBonus
-			});
-		}
-		if(data.ArmorSlot){
-			statistics.items.push({
-				label:'Armor slot',
-				value:data.ArmorSlot
-			});
-		}
-		if(data.Damage){
-			var classStr = data.DamageClass ? ` (${data.DamageClass})`: '';
-			statistics.items.push({label:'Damage',value:`${data.Damage}${classStr}`});
-		}
-		if(data.ArmorPenetration){
-			statistics.items.push({label:'[link Armor Penetration | | https://terraria.wiki.gg/wiki/Defense#Armor_penetration]', value:`${data.ArmorPenetration}`});
-		}
-		if(data.Knockback){
-			statistics.items.push({
-				label:'[link Knockback | | https://terraria.wiki.gg/wiki/Knockback]',
-				value:data.Knockback
-			});
-		}
-		if(data.ManaCost){
-			statistics.items.push({label:'[link Mana cost | | https://terraria.wiki.gg/wiki/Mana]',value:data.ManaCost});
-		}
-		if(data.HealLife){
-			statistics.items.push({label:'[link Heals Health | | https://terraria.wiki.gg/wiki/Health]',value:data.HealLife});
-		}
-		if(data.HealMana){
-			statistics.items.push({label:'[link Heals mana | | https://terraria.wiki.gg/wiki/Mana]',value:data.HealMana});
-		}
-		if(data.Crit){
-			statistics.items.push({label:'[link Critical chance | | https://terraria.wiki.gg/wiki/Critical_hit]',value:data.Crit});
-		}
-		if(data.UseTime){
-			statistics.items.push({label:'[link Use time | | https://terraria.wiki.gg/wiki/Use_Time]',value:`${data.UseTime} (${GetSpeedName(data.UseTime)})`});
-		}
-		if(data.Velocity){
-			statistics.items.push({label:'[link Velocity | | https://terraria.wiki.gg/wiki/Velocity]',value:data.Velocity});
-		}
-		if(data.Tooltip && !data.Defense){
-			statistics.items.push(setValueOrValues({
-				label:'[link Tooltip | | https://terraria.wiki.gg/wiki/Tooltips]'
-			}, data.Tooltip));
-		}
-		if(data.Rarity){
-			statistics.items.push({
-				label:'[link Rarity | | https://terraria.wiki.gg/wiki/Rarity]',
-				value:`[link | Images/Rare${data.Rarity}.png | https://terraria.wiki.gg/wiki/Rarity]`
-			});
-		}
-		if(data.Buy){
-			statistics.items.push({
-				label:'[link Buy | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(data.Buy) + setSuffix
-			});
-		}
-		if(data.Sell){
-			statistics.items.push({
-				label:'[link Sell | | https://terraria.wiki.gg/wiki/Value]',
-				value:generateCoinsTag(data.Sell) + setSuffix
-			});
-		}
-		if(data.Research){
-			statistics.items.push({
-				label:'[link Research | | https://terraria.wiki.gg/wiki/Journey_Mode#Research]',
-				value:`<abbr class="journey" title="Journey Mode">${data.Research||1} required</abbr>`
-			});
-		}
-		values.push(statistics);
-	}
-	if(data.Types.includes("NPC")){
-		var _class = (data.Expert || data.Master) ? 'onlytab0' : false;
-		var _expertClass = 'onlytab1';
-		var _masterClass = data.Expert ? 'onlytab2' : 'onlytab1';
-		var addComma = false;
-		const getClass = (val) => {
-			return (data.Expert && data.Expert[val]) || (data.Master && data.Master[val])? _class : false;
-		};
-		if(data.Image){
-			var widthStr = data.SpriteWidth ? `, spriteWidth:${data.SpriteWidth}`: false;
-        	values.push({
-				header: data.Name || name.replaceAll('_',' '),
-				items:[{image:`Images/${data.Image}.png`, spriteWidth:widthStr}]
-			});
-		}
-		var statistics = {header:"Statistics", items:[]};
-		if (_class) {
-			statistics.tabs = ['Normal'];
-			if (data.Expert) statistics.tabs.push({toString:()=>'Expert', class:'expert'});
-			if (data.Master) statistics.tabs.push({toString:()=>'Master', class:'master'});
-		}
-		function addStat(area, label, propertyName, dataProcessor = null){
-			let valueClass = getClass(propertyName);
-			let value = {label:label};
-			if (valueClass) value.class = valueClass;
-			let propertyValue = data[propertyName];
-			if (propertyValue) {
-				if (dataProcessor) propertyValue = dataProcessor(propertyValue);
-				value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
-				area.items.push(value);
-			}
-			if (data.Expert) {
-				value = {label:label, class:_expertClass, valueClass:'expert'};
-				propertyValue = data.Expert[propertyName];
-				if (propertyValue) {
-					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
-					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
-					area.items.push(value);
-				}
-			}
-			if (data.Master) {
-				value = {label:label, class:_masterClass, valueClass:'master'};
-				propertyValue = data.Master[propertyName];
-				if (propertyValue) {
-					if (dataProcessor) propertyValue = dataProcessor(propertyValue);
-					value[`value${Array.isArray(propertyValue)?'s':''}`] = propertyValue;
-					area.items.push(value);
-				}
-			}
-		}
-		result += (addComma ? ',{' : '{') + `header:Statistics, ${_class?`tabs:,`:''} items:[`;
-		addStat(statistics, '[link Environment | | https://terraria.wiki.gg/wiki/Biome]', 'Biome');
-		addStat(statistics, '[link AI Style | | https://terraria.wiki.gg/wiki/AI]', 'AIStyle');
-		addStat(statistics, 'Damage', 'Damage');
-		addStat(statistics, 'Max Life', 'MaxLife');
-		addStat(statistics, '[link Defense | | https://terraria.wiki.gg/wiki/Defense]', 'Defense');
-		addStat(statistics, '[link Knockback | | https://terraria.wiki.gg/wiki/Knockback] Resistance', 'KBResist');
-		addStat(statistics, 'Immune to', 'Immunities');
-		values.push(statistics);
-		if(data.Drops || data.Coins) {
-			var loot = {header:"Drops", items:[]};
-			result += ',{header:Drops, items:['
-			addStat(loot, '[link Coins | | https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops]', 'Coins', generateCoinsTag);
-			addStat(loot, 'Items', 'Drops');
-			values.push(loot);
-		}
-	}
-	if(data.Buffs){
-		var buffs = {header: `Grants buff${data.Buffs.length > 1 ? 's' : ''}`, items:[]};
-		for (let buffIndex = 0; buffIndex < data.Buffs.length; buffIndex++) {
-			const buff = data.Buffs[buffIndex];
-			buffs.items.push({label:'Buff', value:`[link ${buff.Name} | ${buff.Image ? `${imagePathPrefix(buff.Image)}.png` : '$default'}]`});
-			if(buff.Tooltip){
-				buffs.items.push({label:'Buff tooltip',value:buff.Tooltip});
-			}
-			if(buff.Chance){
-				buffs.items.push({label:'Chance',value:buff.Chance});
-			}
-			if(buff.Duration){
-				buffs.items.push({label:'Duration',value:buff.Duration});
-			}
-		}
-		if (buffs.items.length > 0) values.push(buffs);
-	}
-	if(data.Debuffs){
-		var buffs = {header: `Inflicts debuff${data.Debuffs.length > 1 ? 's' : ''}`, items:[]};
-		for (let buffIndex = 0; buffIndex < data.Debuffs.length; buffIndex++) {
-			const buff = data.Debuffs[buffIndex];
-			buffs.items.push({label:'Debuff', value:`[link ${buff.Name} | ${buff.Image ? `${imagePathPrefix(buff.Image)}.png` : '$default'}]`});
-			if(buff.Tooltip){
-				buffs.items.push({label:'Debuff tooltip',value:buff.Tooltip});
-			}
-			if(buff.Chance){
-				buffs.items.push({label:'Chance',value:buff.Chance});
-			}
-			if(buff.Duration){
-				buffs.items.push({label:'Duration',value:buff.Duration});
-			}
-		}
-		if (buffs.items.length > 0) values.push(buffs);
-	}
-	console.log('autostatblock:');
-	console.log(values);
-	var result = `<div class="${inline ? 'inlinestatblock': 'statblock'} ontab0">`;
-	for (let i = 0; i < values.length; i++) {
-		result += processStatBlock(values[i]);
-	}
-	if(data.InternalName){
-		result += `<div class="internalname">Internal Name: ${data.InternalName}</div>`;//
-	}
-	return result + "</div>";
-}
-
-async function processStat(...stat){
-	var value = await requestStats((stat[0] + '').trim());
-	if(value === null){
-		return null;
-	}
-	value = JSON.parse(value);
-	for(var i = 1; i < stat.length; i++){
-		value = value[(stat[i]+'').trim()];
-	}
-	return value;
-}
-
-function makeHeader(text){
-	return '<div class="header"><span class="padding" style="padding-left: 7.5px;"></span><span class="text">'+text+'</span><span class="padding" style="flex-grow: 1;"></span></div>';
-}
-
-function makeTabs(tabs){
-	var text = '<div class="tabnames">';
-	for(var i = 0; i < tabs.length; i++){
-		text+=`<span class="tabname ${tabs[i].class || ''}" onClick=selectTab(event.srcElement,${i})>${tabs[i]}</span>`;
-	}
-	return text+'</div>';
-}
-
-function pruneLinkArgs(array){
-	for(var i = 0; i < array.length; i++){
-		array[i] = array[i].trim();
-	}
-	return array;
-}
-
-async function processBiomeContents(data, depth){
-	if(!depth){
-		depth = 0;
-	}
-	var result = '';
-	if(data.header){
-		result += makeHeader(data.header);
-	}
-	if(data.items){
-		var classes = "";
-		var style = "";
-
-		for(var i = 0; i < data.items.length; i++){
-			if(typeof data.items[i] === 'string' || data.items[i] instanceof String){
-				result += '<span>';
-				if(data.items[i].startsWith('&amp;')){
-					result += data.items[i].substring('&amp;'.length);
-				}else{
-					const currentIndex = linkIndex++;
-					result += await processLink(currentIndex, data.items[i]);
-				}
-				result += '</span>';
-			}else if(data.items[i] instanceof Array){
-				const currentIndex = linkIndex++;
-				result += '<span>'+(await processLink(currentIndex, ...data.items[i]))+'</span>';
-			}else{
-				classes = "";
-				style = "";
-				if(data.items && data.items[i]){
-					if(data.items[i].class){
-						classes = ' '+data.items[i].class;
-					}
-					if(data.items[i].style){
-						style = 'style="'+data.items[i].style+'"';
-					}
-				}
-				result += '<div class="subcontents'+classes+'"'+style+'>';
-				result += await processBiomeContents(data.items[i], depth + 1);
-				result += '</div>';
-			}
-		}
-	}
-	return result;
-}
-function processStatBlock(data, depth){
-	console.log("stat bvlock: ", data);
-	var result = '';
-	if(data.literalvalue){
-		console.log("literal value: "+data.literalvalue);
-		result += data.literalvalue;
-	}else{
-		if(data.header){
-			result += makeHeader(data.header);
-		}
-		if(data.tabs){
-			result += makeTabs(data.tabs);
-		}
-		if(data.items){
-			for(var i = 0; i < data.items.length; i++){
-				if(data.items[i].images){
-					result += '<div class="statimagecontainer">';
-					for (let j = 0; j < data.items[i].images.length; j++) {
-						const image = data.items[i].images[j];
-						if (Array.isArray(image)) {
-							if (j > 0) {
-								result += '<div class="statimagedivider"></div>';
-							}
-							result += '<div class="statimagecontainer">';
-							for (let k = 0; k < image.length; k++) {
-								let title = (image.endsWith && image[k].endsWith('_Female.png')) ? ' title="female sprite"' : '';
-								var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j][k] * 0.5}%"`: '';
-								result += `<img src=${image[k]} ${widthStr} ${title}>`;
-							}
-							result += '</div>';
-						} else {
-							let title = (image.endsWith && image.endsWith('_Female.png')) ? ' title="female sprite"' : '';
-							var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth[j] * 0.5}%"`: '';
-							result += `<img src=${image} ${widthStr} ${title}>`;
-						}
-					}
-					result += '</div>';
-				} else if(data.items[i].image){
-					var widthStr = data.items[i].spriteWidth ? `style="max-width:${data.items[i].spriteWidth * 0.5}%"`: '';
-					result += `<img src=${data.items[i].image} ${widthStr}>`;
-				} else {
-					var klasse = '';
-					if(data.items[i].class){
-						klasse = ' '+data.items[i].class;
-					}
-					if (data.items[i].literalvalue) {
-						console.log("literal value: "+data.literalvalue);
-						result += '<div class="stat'+klasse+'">' +
-						data.items[i].literalvalue +
-						'</div>';
-					} else if(data.items[i].label){
-						if(data.items[i].value){
-							result += '<div class="stat'+klasse+'">' +
-							data.items[i].label +
-							': ' +
-							`<span class=${data.items[i].valueClass || ''}>` + data.items[i].value + '</span>' +
-							'</div>';
-						}else if(data.items[i].values){
-							result += '<div class="stat'+klasse+'">' +
-							data.items[i].label + `: <div class="statvalues ${data.items[i].valueClass || ''}">`;
-							for(var j = 0; j < data.items[i].values.length; j++){
-								if(j>0){
-									result += '<br>';
-								}
-								result += data.items[i].values[j];
-							}
-							result += '</div></div>';
-						}
-					}
-				}
-			}
-		}
-	}
-	console.log("stat bvlock: ", result);
-	return result;
-}
-function processRecipeBlock(data, depth){
-	var result = '';
-	let stations = '<a href="https://terraria.wiki.gg/wiki/By_Hand">By Hand</a>';
-	if(data.stations){
-		if(Array.isArray(data.stations)){
-			stations = '';
-			for(var j = 0; j < data.stations.length; j++){
-				if(j>0){
-					stations += '<br><div class="or">or</div><br>';
-				}
-				stations += data.stations[j];
-			}
-		}else{
-			stations = data.stations;
-		}
-	}
-	for(var i = 0; i < data.items.length; i++){
-	  lastErrObject = data.items[i];
-		if(i > 0) result += '</tr>';
-		result += '<tr><td>' +
-		data.items[i].result +
-		'</td><td class="middle">';
-		for(var j = 0; j < data.items[i].ingredients.length; j++){
-			if(j>0){
-				result += '<br>';
-			}
-			result += data.items[i].ingredients[j];
-		}
-		result += '</td>'
-		if(i <= 0) {
-			result += '<td rowspan="'+data.items.length+'">'+stations+'</td></tr>';
-		}
-	}
-	result += '</tr>';
-	console.log(result);
-	return result;
-}
 
 function selectTab(container, tabNumber){
 	var statBlock = container.parentElement.parentElement;
@@ -964,64 +288,6 @@ function selectTab(container, tabNumber){
 		}
 	}
 	statBlock.classList.add('ontab'+tabNumber);
-}
-var evalItem;
-async function processSortableList(data){
-	console.log(`processing sortable list "${JSON.stringify(data)}"`);
-	if (!defaultStats) defaultStats = JSON.parse(await requestStats("Defaults"));
-	var result = '<thead><tr>';
-	if(data.headers[0] === 'Name'){
-		data.headers[0] = {name:'Name', expr:'processLinkWithID(item.Name, item.Name, "$fromStats", item.WikiName)', sortIndex:'item.Name', noAbbr:true};
-	}
-	for(var j = 0; j < data.headers.length; j++){
-		result += `<th ${j>0&&j<data.headers.length?'class="notleft"':''} onclick="clickSortableList(event, ${j})">${data.headers[j].expr&&!data.headers[j].noAbbr?`<abbr title="${data.headers[j].expr.replaceAll('item.','')}">`:'<span>'}${data.headers[j].expr?data.headers[j].name:data.headers[j]}</${data.headers[j].expr&&!data.headers[j].noAbbr?'abbr':'span'}></th>`;
-	}
-	result += '</tr></thead><tbody>';
-	var keys = new Set();
-	for(var i = 0; i < data.items.length; i++){
-		result += '<tr>';
-		var item;
-		if(data.items[i] instanceof Object){
-			item = data.items[i];
-		}else{
-			let stats = await requestStats(data.items[i]);
-			if (stats) {
-				item = JSON.parse(stats);
-				item.WikiName = data.items[i];
-			}
-		}
-		if(!item.Name && !(data.items[i] instanceof Object)){
-			item.Name = data.items[i];
-		}
-		for(let key in defaultStats){
-			if(!item.hasOwnProperty(key)){
-				item[key] = defaultStats[key];
-			}
-		}
-		evalItem = {};
-		for(let key in item){
-			keys.add(key);
-		}
-		keys.forEach((key)=>{evalItem[key] = item[key];});
-		for(var j = 0; j < data.headers.length; j++){
-			var displayValue = item[data.headers[j]];
-			if (data.headers[j].expr){
-				//console.log(data.headers[j].expr+';');
-				displayValue = await new Function('item', 'return '+data.headers[j].expr+';')(item);
-			}
-			if (Array.isArray(displayValue)) {
-				displayValue = displayValue.join('<br>');
-			}
-			result += `<td ${j>0&&j<data.headers.length?'class="notleft"':''}>
-			${displayValue}
-			${data.headers[j].sortIndex?`<span class="sortindex">${await new Function('item', 'return '+data.headers[j].sortIndex+';')(item)}</span>`:''}</td>`;
-		}
-		result += '</tr>';
-	}
-	result += '</tbody>';
-	//console.log(result);
-	console.log(`processed sortable list "${result}"`);
-	return result;
 }
 function clickSortableList(event, index){
 	var target = event.target;
@@ -1070,7 +336,7 @@ function sortSortableList(target, index){
 
 async function createCategorySegment(){
 	try {
-		if(pageName == 'Category'){
+		if(pageName == 'Category' && !getSiteSettings().devMode){
 			return "";
 		}
 		var cats0 = await getCategories();
@@ -1114,7 +380,6 @@ async function createCategorySegment(){
 				newLink.classList.add('category');
 				newLink.href = thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i]);
 				categoriesElement.append(newLink);
-				//catsIn+=`<a class="category" href="${thisCat.page ? (thisCat.page + linkSuffix) : ('Category'+linkSuffix+'?'+cats[i])}">${thisCat.name}</a>`;
 			}
 		}
 		if (getSiteSettings().devMode) {
@@ -1169,14 +434,6 @@ onresize = () => {
 	logo.style.top = 0;
 	applyScrollToLogo();
 };
-function logItToo(value, text = "") {
-	if (text) {
-		console.log(text, value);
-	} else {
-		console.log(value);
-	}
-	return value;
-}
 let linkIndex = 0;
 if (document.location.protocol === 'https:' && document.location.hostname !== '127.0.0.1'){
 	linkSuffix = '';
@@ -1295,27 +552,12 @@ var parse = async ()=>{
 		),
 	content.childNodes[0]);
 	document.getElementById('bgtoggle').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>';
-	//document.getElementById('bgtoggle').onclick = () => setBackground(!getBackground());
 	document.getElementById('lighttoggle').outerHTML = '<img id="lighttoggle" onclick="toggleThemeSelector()">';
 	document.getElementById('searchbar').outerHTML = '<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">';
 	document.getElementById('searchIcon').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
 	'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
 	'</svg>';
 	refreshSiteSettings();
-	//document.getElementById('searchSymbol').onclick = search;
-	/*content.innerHTML = '<div id="toolbar">'+
-		'<div id="toolbar-container">'+
-			'<a href="." style="height: 0;"><img id="wikilogo"></a>'+
-			'<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>'+
-			'<img id="lighttoggle" onclick="toggleThemeSelector()">'+
-			'<span id="themeContainer"></span>'+
-			'<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">'+
-			'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
-			'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
-			'</svg>'+
-		'</div>'+
-		'<div id="searchlinks"></div>'+
-	'</div>'+content.innerHTML;*/
 	var head = document.getElementsByTagName("head");
 	if(head && head[0]){
 		var favicon = document.createElement('link');
@@ -1324,25 +566,10 @@ var parse = async ()=>{
 		favicon.type = 'image/icon type';
 		favicon.id = 'favicon';
 		head[0].appendChild(favicon);
-		//head[0].innerHTML += '<link rel="icon" href="favicon.ico" type="image/icon type">';
 	}
 	refreshThemeIcon();
 	let catSegPromise = createCategorySegment().then(function(v){content.append(v);});
-	/*let redableLinks = content.getElementsByTagName("A");
-	console.log(redableLinks.length + 'links');
-	let redLinkPromise = (async () => {
-		for (let i = 0; i < redableLinks.length; i++) {
-			const element = redableLinks[i];
-			if(element.classList.contains('linkimage') || element.href.startsWith('https://terraria.wiki.gg'))continue;
-			const hrefMatch = /[^\/]+(?!.*[^\/]+)/.exec(element.href.replaceAll('.html',''))[0];
-			const nonMetaMatch = /(?<!.*[^?#]+)[^?#]+/.exec(hrefMatch)[0];
-			if(nonMetaMatch && !(await pageExists(nonMetaMatch))){
-				element.classList.add("redlink");
-			}
-		}
-	})();*/
 	await catSegPromise;
-	//await redLinkPromise;
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 };
 parse();
