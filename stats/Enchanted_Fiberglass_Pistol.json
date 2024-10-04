@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Fiberglass/Enchanted_Fiberglass_Pistol",
+  "Image": "Images/Enchanted_Fiberglass_Pistol",
   "Name": "Enchanted Fiberglass Pistol",
   "Types": [
     "NPC"
@@ -8,21 +8,27 @@
   "Defense": 10,
   "KBResist": 0.6,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" href="$default">On Fire!</a>`",
-    "`<a is="a-link" href="$default">Hellfire</a>`",
-    "`<a is="a-link" href="$default">Incandescent Burn</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
+    {
+      "Name": "Shaped Glass",
+      "Chance": "4%"
+    }
   ],
   "Expert": {
     "MaxLife": 114,
     "KBResist": 0.676,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      }
     ]
   },
   "Master": {
@@ -30,7 +36,10 @@
     "KBResist": 0.74399996,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%"
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      }
     ]
   },
   "SpriteWidth": 38,

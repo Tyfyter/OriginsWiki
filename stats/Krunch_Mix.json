@@ -1,8 +1,9 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Krunch_Mix",
+  "Image": "Images/Krunch_Mix",
   "Name": "Krunch Mix",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": [

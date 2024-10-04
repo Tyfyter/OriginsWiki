@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Defiled/Defiled_Pigron",
+  "Image": "Images/Defiled_Pigron",
   "Name": "Pigron",
   "Types": [
     "NPC"
@@ -9,10 +9,30 @@
   "KBResist": 0.5,
   "Coins": 2000.0,
   "Drops": [
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+    {
+      "Name": "Bacon",
+      "Chance": "6.667%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Minecart",
+      "Chance": "1%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Kite",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Ham Bat",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+      "ImageOverride": ""
+    }
   ],
   "Expert": {
     "MaxLife": 840,
@@ -20,10 +40,30 @@
     "Immunities": [],
     "Coins": 12500.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
     ]
   },
   "Master": {
@@ -32,10 +72,30 @@
     "Immunities": [],
     "Coins": 12500.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Bacon">Bacon</a>` - 6.667%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Minecart">Pigron Minecart</a>` - 1%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Pigron_Kite">Pigron Kite</a>` - 4%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ham_Bat">Ham Bat</a>` - 4%"
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
     ]
   },
   "SpriteWidth": 90,

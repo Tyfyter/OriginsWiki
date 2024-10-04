@@ -1,0 +1,23 @@
+{
+  "Name": "Fabricator",
+  "Types": [
+    "Item",
+    "Tile",
+    "Furniture",
+    "CraftingStation"
+  ],
+  "PlacementSize": [
+    4,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Used to craft high-tech items from mech components",
+  "Rarity": "LightPurple",
+  "Sell": 200000,
+  "SpriteWidth": 22,
+  "InternalName": "Fabricator_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Fabricator_Item",
+    "Tiles/Fabricator"
+  ]
+}

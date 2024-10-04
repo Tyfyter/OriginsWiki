@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Master",
     "MasterAcc"
   ],
@@ -14,7 +15,7 @@
     "Transform into a miniature wall of flesh during a dash",
     "'You're made of meat'"
   ],
-  "Rarity": "Master",
+  "Rarity": "LightRed",
   "Sell": 60000,
   "SpriteWidth": 22,
   "InternalName": "Scribe_of_the_Meat_God"

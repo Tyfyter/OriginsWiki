@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Amoebeye_P",
+  "Image": "Images/Amoebeye_P",
   "Name": "Amoebeye Bubble",
   "Types": [
     "NPC"
@@ -7,9 +7,9 @@
   "MaxLife": 90,
   "KBResist": 0.99,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" href="$default">Ichor</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Ichor>Ichor</a>",
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Drops": [],
   "Expert": {

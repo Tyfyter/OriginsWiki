@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Barnacle_Mound",
+  "Image": "Images/Barnacle_Mound",
   "Name": "Barnacle Mound",
   "Types": [
     "NPC"
@@ -8,22 +8,31 @@
   "Defense": 18,
   "KBResist": 1.0,
   "Immunities": [
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Torn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 100.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
+    {
+      "Name": "Bud Barnacle",
+      "Amount": "3‒8"
+    }
   ],
   "Expert": {
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
+      {
+        "Name": "Bud Barnacle",
+        "Amount": "3‒8"
+      }
     ]
   },
   "Master": {
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (3‒8) 100%"
+      {
+        "Name": "Bud Barnacle",
+        "Amount": "3‒8"
+      }
     ]
   },
   "SpriteWidth": 34,

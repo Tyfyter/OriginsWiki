@@ -6,22 +6,20 @@
     "Boss"
   ],
   "MaxLife": 3100,
-  "Defense": 12,
+  "Defense": 14,
   "KBResist": 1.0,
   "Coins": 50000.0,
   "Drops": [
     {
-      "Name": "Lost_Ore",
-      "Amount": "140‒330",
-      "Chance": "100%"
+      "Name": "Lost Ore",
+      "Amount": "140‒330"
     },
     {
-      "Name": "Undead_Chunk",
-      "Amount": "40‒100",
-      "Chance": "100%"
+      "Name": "Undead Chunk",
+      "Amount": "40‒100"
     },
     {
-      "Name": "Low_Signal",
+      "Name": "Low Signal",
       "Chance": "50%"
     },
     {
@@ -33,7 +31,7 @@
       "Chance": "10%"
     },
     {
-      "Name": "DA Mask",
+      "Name": "Defiled Amalgamation Mask",
       "Chance": "10%"
     }
   ],
@@ -45,8 +43,7 @@
     "Coins": 125000.0,
     "Drops": [
       {
-        "Name": "Defiled_Amalgamation_Bag",
-        "Chance": "100%"
+        "Name": "Treasure Bag (Defiled Amalgamation)"
       }
     ],
     "DefiledAssimilation": 0.051999997
@@ -58,16 +55,14 @@
     "Coins": 125000.0,
     "Drops": [
       {
-        "Name": "Defiled_Amalgamation_Bag",
-        "Chance": "100%"
+        "Name": "Treasure Bag (Defiled Amalgamation)"
       },
       {
         "Name": "Mysterious Spray",
         "Chance": "25%"
       },
       {
-        "Name": "Defiled Amalgamation Relic",
-        "Chance": "100%"
+        "Name": "Defiled Amalgamation Relic"
       },
       {
         "Name": "Blockus Tube",

@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Dungeon/Cellarkeep",
+  "Image": "Images/Cellarkeep",
   "Name": "Cellarkeep",
   "Types": [
     "NPC"
@@ -9,7 +9,47 @@
   "KBResist": 0.5,
   "Coins": 90.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
+    {
+      "Name": "Joint Pop",
+      "Chance": "6.667%"
+    },
+    {
+      "Name": "Ancient Necro Helmet",
+      "Chance": "0.222%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Necro_Helmet",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Clothier Voodoo Doll",
+      "Chance": "0.333%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Clothier_Voodoo_Doll",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Bone Wand",
+      "Chance": "0.4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Bone_Wand",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Tally Counter",
+      "Chance": "0.996%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Tally_Counter",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Golden Key",
+      "Chance": "1.517%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Golden_Key",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Bone",
+      "Chance": "97.087%",
+      "Amount": "1‒3",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Bone",
+      "ImageOverride": ""
+    }
   ],
   "Expert": {
     "MaxLife": 162,
@@ -17,7 +57,46 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
+      {
+        "Name": "Joint Pop",
+        "Chance": "6.667%"
+      },
+      {
+        "Name": "Ancient Necro Helmet",
+        "Chance": "0.222%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Necro_Helmet",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Clothier Voodoo Doll",
+        "Chance": "0.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Clothier_Voodoo_Doll",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Bone Wand",
+        "Chance": "0.4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bone_Wand",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Tally Counter",
+        "Chance": "0.996%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Tally_Counter",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Golden Key",
+        "Chance": "1.517%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Golden_Key",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Bone",
+        "Amount": "2‒6",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bone",
+        "ImageOverride": ""
+      }
     ]
   },
   "Master": {
@@ -26,7 +105,46 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Joint Pop<note> </note></a>` - 6.667%"
+      {
+        "Name": "Joint Pop",
+        "Chance": "6.667%"
+      },
+      {
+        "Name": "Ancient Necro Helmet",
+        "Chance": "0.222%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Necro_Helmet",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Clothier Voodoo Doll",
+        "Chance": "0.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Clothier_Voodoo_Doll",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Bone Wand",
+        "Chance": "0.4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bone_Wand",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Tally Counter",
+        "Chance": "0.996%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Tally_Counter",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Golden Key",
+        "Chance": "1.517%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Golden_Key",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Bone",
+        "Amount": "2‒6",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bone",
+        "ImageOverride": ""
+      }
     ]
   },
   "SpriteWidth": 40,

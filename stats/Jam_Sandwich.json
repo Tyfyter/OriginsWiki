@@ -1,8 +1,9 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Jam_Sandwich",
+  "Image": "Images/Jam_Sandwich",
   "Name": "Jam Sandwich",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": [

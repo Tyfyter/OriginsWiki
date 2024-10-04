@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Matrix",
+  "Name": "Matrix",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Launcher"
+  ],
+  "Damage": 14,
+  "ArmorPenetration": 1,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 50,
+  "Velocity": 8.0,
+  "Tooltip": "Fires an array of explosive nodes that explode simultaneously when one of the links are broken",
+  "Rarity": "Blue",
+  "Sell": 2400,
+  "SpriteWidth": 46,
+  "InternalName": "Matrix"
+}

@@ -1,8 +1,9 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Brine_Cheese",
+  "Image": "Images/Brine_Cheese",
   "Name": "Brine Cheese",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": [
@@ -11,6 +12,6 @@
   ],
   "Rarity": "Gray",
   "Sell": 1,
-  "SpriteWidth": 24,
+  "SpriteWidth": 36,
   "InternalName": "Brine_Cheese"
 }

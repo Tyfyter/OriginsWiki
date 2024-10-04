@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/World_Cracker/World_Cracker_Head",
+  "Image": "Images/World_Cracker_Head",
   "Name": "World Cracker",
   "Types": [
     "NPC",
@@ -9,49 +9,64 @@
   "Defense": 100,
   "KBResist": 1.0,
   "Immunities": [
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Torn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 50000.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Encrusted Ore<note> </note></a>` - (20‒330) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Riven Carapace<note> </note></a>` - (1‒134) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Teardown<note> </note></a>` - 50%",
-    "`<a is="a-link" image="$fromStats" href="$default">Vorpal Sword<note> </note></a>` - 50%",
-    "`<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
-    "`<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%"
+    {
+      "Name": "Encrusted Ore",
+      "Amount": "20‒330"
+    },
+    {
+      "Name": "Riven Carapace",
+      "Amount": "1‒134"
+    },
+    {
+      "Name": "Teardown",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Vorpal Sword",
+      "Chance": "50%"
+    },
+    {
+      "Name": "World Cracker Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "World Cracker Mask",
+      "Chance": "10%"
+    }
   ],
   "Expert": {
     "MaxLife": 8000,
     "Coins": 125000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (World Cracker)<note>This is an Expert Mode drop rate</note></a>` - 100%",
-      "§l§ `<a is="a-link" image="$fromStats" href="$default">Encrusted Ore<note> </note></a>` - (20‒330) 100%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Riven Carapace<note> </note></a>` - (1‒134) 100%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Teardown<note> </note></a>` - 50%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Vorpal Sword<note> </note></a>` - 50%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+      {
+        "Name": "Treasure Bag (World Cracker)"
+      }
     ]
   },
   "Master": {
     "MaxLife": 12000,
     "Coins": 125000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (World Cracker)<note>This is a Master Mode drop rate</note></a>` - 100%",
-      "§l§ `<a is="a-link" image="$fromStats" href="$default">Encrusted Ore<note> </note></a>` - (20‒330) 100%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Riven Carapace<note> </note></a>` - (1‒134) 100%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Teardown<note> </note></a>` - 50%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Vorpal Sword<note> </note></a>` - 50%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Trophy<note> </note></a>` - 10%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">World Cracker Mask<note> </note></a>` - 10%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Protozoa Food<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Amebic Vial<note>This is a Master Mode drop rate</note></a>` - 25%",
-      "`<a is="a-link" image="$fromStats" href="$default">World Cracker Relic<note>This is a Master Mode drop rate</note></a>` - 100%"
+      {
+        "Name": "Treasure Bag (World Cracker)"
+      },
+      {
+        "Name": "Fleshy Globe",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Amebic Vial",
+        "Chance": "25%"
+      },
+      {
+        "Name": "World Cracker Relic"
+      }
     ]
   },
   "SpriteWidth": 98,

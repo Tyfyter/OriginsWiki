@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Defiled/Defiled_Cyclops",
+  "Image": "Images/Defiled_Cyclops",
   "Name": "Defiled Cyclops",
   "Types": [
     "NPC"
@@ -9,11 +9,26 @@
   "KBResist": 0.5,
   "Coins": 90.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Bone Latcher<note> </note></a>` - 2.632%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Bone Latcher",
+      "Chance": "2.632%"
+    },
+    {
+      "Name": "Ancient Defiled Helmet",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Defiled Breastplate",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Defiled Greaves",
+      "Chance": "0.19%"
+    }
   ],
   "DefiledAssimilation": 0.08,
   "Expert": {
@@ -22,11 +37,26 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Bone Latcher<note> </note></a>` - 2.632%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Bone Latcher",
+        "Chance": "2.632%"
+      },
+      {
+        "Name": "Ancient Defiled Helmet",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Defiled Breastplate",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Defiled Greaves",
+        "Chance": "0.19%"
+      }
     ],
     "DefiledAssimilation": 0.103999995
   },
@@ -36,11 +66,26 @@
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Strange String<note> </note></a>` - (1‒3) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Bone Latcher<note> </note></a>` - 2.632%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Helmet<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Breastplate<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Defiled Greaves<note> </note></a>` - 0.19%"
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Bone Latcher",
+        "Chance": "2.632%"
+      },
+      {
+        "Name": "Ancient Defiled Helmet",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Defiled Breastplate",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Defiled Greaves",
+        "Chance": "0.19%"
+      }
     ],
     "DefiledAssimilation": 0.12
   },

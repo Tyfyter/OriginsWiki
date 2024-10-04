@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Desert_Crown",
+  "Name": "Desert Crown",
+  "Types": [
+    "Item",
+    "Weapon",
+    "MinionWeapon",
+    "Minion"
+  ],
+  "ManaCost": 12,
+  "Damage": 6,
+  "DamageClass": "Summon",
+  "Knockback": 4.0,
+  "UseTime": 36,
+  "Tooltip": "Summons a sand elemental to fight for you",
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 22,
+  "InternalName": "Desert_Crown"
+}

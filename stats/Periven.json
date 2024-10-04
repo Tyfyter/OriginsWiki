@@ -1,13 +1,14 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Periven",
+  "Image": "Images/Periven",
   "Name": "Periven",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
-  "Sell": 2000,
+  "Sell": 400,
   "SpriteWidth": 26,
   "InternalName": "Periven"
 }

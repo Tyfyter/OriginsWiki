@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Dungeon/Cellarkeep_Barrel",
+  "Image": "Images/Cellarkeep_Barrel",
   "Name": "Explosive Barrel",
   "Types": [
     "NPC"

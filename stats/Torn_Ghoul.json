@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Torn_Ghoul",
+  "Image": "Images/Torn_Ghoul",
   "Name": "Torn Ghoul",
   "Types": [
     "NPC"
@@ -8,22 +8,48 @@
   "Defense": 24,
   "KBResist": 0.39999998,
   "Immunities": [
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 650.0,
   "Drops": [
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
-    "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+    {
+      "Name": "Ancient Cloth",
+      "Chance": "10%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Alkahest",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Dark Shard",
+      "Chance": "6.667%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+      "ImageOverride": ""
+    }
   ],
   "Expert": {
     "MaxLife": 480,
     "KBResist": 0.45999998,
     "Coins": 1625.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
-      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+      {
+        "Name": "Ancient Cloth",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Alkahest",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Dark Shard",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      }
     ]
   },
   "Master": {
@@ -31,9 +57,22 @@
     "KBResist": 0.52,
     "Coins": 1625.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Cloth">Ancient Cloth</a>` - 10%",
-      "`<a is="a-link" image="$fromStats" href="$default">Alkahest<note> </note></a>` - 33.333%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Dark_Shard">Dark Shard</a>` - 6.667%"
+      {
+        "Name": "Ancient Cloth",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Alkahest",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Dark Shard",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      }
     ]
   },
   "SpriteWidth": 36,

@@ -8,14 +8,63 @@
   "Tooltip": "Right Click to open",
   "Rarity": "Yellow",
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+    {
+      "Name": "Fiberglass Helmet",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Pauldrons",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Boots",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Bow",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Sword",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Pistol",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Entangled Energy"
+    },
+    {
+      "Name": "Gold Coin",
+      "Amount": 15,
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Plague Texan's Visage",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Plague Texan's Surprisingly Affordable Style",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Plague Texan's Jeans",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Plague Texan's Gift",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Chromatic Scale",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Chew Toy",
+      "Chance": "3.125%"
+    }
   ],
   "SpriteWidth": 32,
   "InternalName": "Fiberglass_Weaver_Bag"

@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Cinder_Seal",
+  "Name": "Seal of Cinders",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat"
+  ],
+  "Damage": 24,
+  "ArmorPenetration": 6,
+  "DamageClass": "",
+  "Knockback": 6.0,
+  "UseTime": 15,
+  "Tooltip": "Motes of dust will combust after taking damage",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 20,
+  "InternalName": "Cinder_Seal"
+}

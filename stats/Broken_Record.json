@@ -7,13 +7,38 @@
   "Tooltip": "Right Click to open",
   "Rarity": "Blue",
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Neural Network<note> </note></a>` - 20%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Musket_Ball">Musket Ball</a>` - (100‒100) 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ace Shrapnel<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Scrap<note> </note></a>` - (200‒200) 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Area Denial<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Smith's Hammer<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Seal of Cinders<note> </note></a>` - 20%"
+    {
+      "Name": "Neural Network",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Musket Ball",
+      "Chance": "20%",
+      "Amount": 100,
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Musket_Ball",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Ace Shrapnel",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Scrap",
+      "Chance": "20%",
+      "Amount": 200
+    },
+    {
+      "Name": "Area Denial",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Smith's Hammer",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Seal of Cinders",
+      "Chance": "20%"
+    }
   ],
   "SpriteWidth": 24,
   "InternalName": "Broken_Record"

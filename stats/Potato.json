@@ -1,8 +1,9 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Potato",
+  "Image": "Images/Potato",
   "Name": "Potato",
   "Types": [
     "Item",
+    "Food",
     "Ammo"
   ],
   "UseTime": 17,

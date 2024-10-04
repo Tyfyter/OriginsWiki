@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Fiberglass/Fiberglass_Weaver",
+  "Image": "Images/Fiberglass_Weaver",
   "Name": "Fiberglass Weaver",
   "Types": [
     "NPC",
@@ -9,35 +9,50 @@
   "Defense": 26,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" href="$default">On Fire!</a>`",
-    "`<a is="a-link" href="$default">Hellfire</a>`",
-    "`<a is="a-link" href="$default">Incandescent Burn</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>"
   ],
   "Coins": 150000.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Weaver Head<note> </note></a>` - 10%"
+    {
+      "Name": "Fiberglass Helmet",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Pauldrons",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Boots",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Bow",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Sword",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Pistol",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Weaver Head",
+      "Chance": "10%"
+    }
   ],
   "Expert": {
     "MaxLife": 2800,
     "KBResist": 0.91,
     "Coins": 375000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (Fiberglass Weaver)<note>This is an Expert Mode drop rate</note></a>` - 100%",
-      "§l§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%"
+      {
+        "Name": "Treasure Bag (Fiberglass Weaver)"
+      }
     ]
   },
   "Master": {
@@ -45,16 +60,13 @@
     "KBResist": 0.92,
     "Coins": 375000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Treasure Bag (Fiberglass Weaver)<note>This is a Master Mode drop rate</note></a>` - 100%",
-      "§l§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Helmet<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pauldrons<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Boots<note> </note></a>` - 66.667%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Bow<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Sword<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Fiberglass Pistol<note> </note></a>` - 33.333%",
-      "§L§ `<a is="a-link" image="$fromStats" href="$default">Entangled Energy<note> </note></a>` - 100%",
-      "§L§ `<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (15‒15) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Fiberglass Dagger<note>This is a Master Mode drop rate</note></a>` - 25%"
+      {
+        "Name": "Treasure Bag (Fiberglass Weaver)"
+      },
+      {
+        "Name": "Fiberglass Dagger",
+        "Chance": "25%"
+      }
     ]
   },
   "SpriteWidth": 68,

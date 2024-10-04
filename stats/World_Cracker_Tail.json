@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/World_Cracker/World_Cracker_Tail",
+  "Image": "Images/World_Cracker_Tail",
   "Name": "World Cracker",
   "Types": [
     "NPC"
@@ -8,9 +8,9 @@
   "Defense": 20,
   "KBResist": 1.0,
   "Immunities": [
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Torn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 300.0,
   "Drops": [],

@@ -13,7 +13,7 @@
     "The player can move freely through honey",
     "'In case of emergency, break glass for bees'"
   ],
-  "Rarity": "Master",
+  "Rarity": "Orange",
   "Sell": 20000,
   "SpriteWidth": 24,
   "InternalName": "Emergency_Bee_Canister"

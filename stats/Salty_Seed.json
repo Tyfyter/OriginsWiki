@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Tools/Salty_Seed",
+  "Name": "Salty Seed",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "UseTime": 5,
+  "Velocity": 5.0,
+  "Tooltip": [
+    "Takes the place of a hook, using the same hotkey",
+    "The seed promotes rapid growth of the parasite, duplicating projectiles that pass through"
+  ],
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "SpriteWidth": 24,
+  "InternalName": "Salty_Seed"
+}

@@ -1,13 +1,14 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Shattered_Stout",
+  "Image": "Images/Shattered_Stout",
   "Name": "Shattered Stout",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": "Minor improvements to all stats",
-  "Rarity": "Green",
-  "Sell": 4000,
+  "Rarity": "Blue",
+  "Sell": 400,
   "SpriteWidth": 12,
   "InternalName": "Shattered_Stout"
 }

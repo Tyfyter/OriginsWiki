@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Scrap_Compactor",
+  "Name": "Scrap Compactor",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Expert",
+    "Combat"
+  ],
+  "Tooltip": [
+    "Your explosives will explode into frenzied shrapnel",
+    "Nearby enemies below 40% and bosses below 10% of their max life whilst inflicted with Impeding Shrapnel will rapidly lose life"
+  ],
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 48,
+  "InternalName": "Scrap_Compactor"
+}

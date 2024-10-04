@@ -12,7 +12,7 @@
   "DamageClass": "Summon",
   "UseTime": 36,
   "Tooltip": "Summons a woodsprite to fight for you",
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 5000,
   "SpriteWidth": 50,
   "InternalName": "Woodsprite_Staff"

@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Defiled/Defiled_Mimic",
+  "Image": "Images/Defiled_Mimic",
   "Name": "Defiled Mimic",
   "Types": [
     "NPC"
@@ -8,37 +8,93 @@
   "Defense": 34,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" href="$default">On Fire!</a>`",
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" href="$default">Hellfire</a>`",
-    "`<a is="a-link" href="$default">Incandescent Burn</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 30000.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
-    "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
+    {
+      "Name": "Communion",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Incision",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Ziptie",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Ravel",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Chunky Hook",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Greater Healing Potion",
+      "Amount": "5‒10",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Greater Mana Potion",
+      "Amount": "5‒15",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Defiled Key",
+      "Chance": "2%"
+    }
   ],
   "Expert": {
     "MaxLife": 7000,
     "KBResist": 0.91,
     "Coins": 75000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
+      {
+        "Name": "Communion",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Incision",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Ziptie",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Ravel",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Chunky Hook",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Greater Healing Potion",
+        "Amount": "5‒10",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Greater Mana Potion",
+        "Amount": "5‒15",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Defiled Key",
+        "Chance": "2%"
+      }
     ]
   },
   "Master": {
@@ -46,14 +102,42 @@
     "KBResist": 0.92,
     "Coins": 75000.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Communion<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Incision<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ziptie<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ravel<note> </note></a>` - 20%",
-      "`<a is="a-link" image="$fromStats" href="$default">Chunky Hook<note> </note></a>` - 20%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Healing_Potion">Greater Healing Potion</a>` - (5‒10) 100%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Greater_Mana_Potion">Greater Mana Potion</a>` - (5‒15) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Defiled Key<note>With the \"Rare biome enemies drop Biome keys\" option enabled</note></a>` - 2%"
+      {
+        "Name": "Communion",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Incision",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Ziptie",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Ravel",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Chunky Hook",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Greater Healing Potion",
+        "Amount": "5‒10",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Greater Mana Potion",
+        "Amount": "5‒15",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Defiled Key",
+        "Chance": "2%"
+      }
     ]
   },
   "SpriteWidth": 60,

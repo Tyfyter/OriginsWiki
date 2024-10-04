@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Defiled/Shattered_Mummy",
+  "Image": "Images/Shattered_Mummy",
   "Name": "Shattered Mummy",
   "Types": [
     "NPC"
@@ -9,12 +9,42 @@
   "KBResist": 0.5,
   "Coins": 700.0,
   "Drops": [
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Dark_Shard>Dark Shard</a>` - 10%",
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Megaphone>Megaphone</a>` - 1%",
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Blindfold>Blindfold</a>` - 1%",
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Mask>Mummy Mask</a>` - 1.333%",
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Shirt>Mummy Shirt</a>` - 1.333%",
-    "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Pants>Mummy Pants</a>` - 1.333%"
+    {
+      "Name": "Dark Shard",
+      "Chance": "10%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Megaphone",
+      "Chance": "1%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Blindfold",
+      "Chance": "1%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Mummy Mask",
+      "Chance": "1.333%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Mask",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Mummy Shirt",
+      "Chance": "1.333%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Shirt",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Mummy Pants",
+      "Chance": "1.333%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Pants",
+      "ImageOverride": ""
+    }
   ],
   "Expert": {
     "MaxLife": 360,
@@ -22,12 +52,42 @@
     "Immunities": [],
     "Coins": 1750.0,
     "Drops": [
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Dark_Shard>Dark Shard</a>` - 10%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Megaphone>Megaphone</a>` - 1.99%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Blindfold>Blindfold</a>` - 1.99%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Mask>Mummy Mask</a>` - 1.333%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Shirt>Mummy Shirt</a>` - 1.333%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Pants>Mummy Pants</a>` - 1.333%"
+      {
+        "Name": "Dark Shard",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Megaphone",
+        "Chance": "1.99%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Blindfold",
+        "Chance": "1.99%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Mask",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Mask",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Shirt",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Shirt",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Pants",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Pants",
+        "ImageOverride": ""
+      }
     ]
   },
   "Master": {
@@ -36,12 +96,42 @@
     "Immunities": [],
     "Coins": 1750.0,
     "Drops": [
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Dark_Shard>Dark Shard</a>` - 10%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Megaphone>Megaphone</a>` - 1.99%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Blindfold>Blindfold</a>` - 1.99%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Mask>Mummy Mask</a>` - 1.333%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Shirt>Mummy Shirt</a>` - 1.333%",
-      "`<a is=a-link href=https://terraria.wiki.gg/wiki/Mummy_Pants>Mummy Pants</a>` - 1.333%"
+      {
+        "Name": "Dark Shard",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Megaphone",
+        "Chance": "1.99%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Blindfold",
+        "Chance": "1.99%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Mask",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Mask",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Shirt",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Shirt",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Mummy Pants",
+        "Chance": "1.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Pants",
+        "ImageOverride": ""
+      }
     ]
   },
   "SpriteWidth": 40,

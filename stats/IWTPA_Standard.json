@@ -11,10 +11,5 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 28,
-  "InternalName": "IWTPA_Standard",
-
-  "Source": [
-    "<a is="a-link" href="https://terraria.wiki.gg/wiki/Undead_Miner">Undead Miner</a>",
-    "<a is="a-link" href="https://terraria.wiki.gg/wiki/Demolitionist">Demolitionist</a> ([price 5|0|0] after selling 35 <a is="a-link" image="$fromStats">Peat Moss</a>)"
-  ]
+  "InternalName": "IWTPA_Standard"
 }

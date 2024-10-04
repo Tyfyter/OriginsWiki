@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Riven_Fighter",
+  "Image": "Images/Riven_Fighter",
   "Name": "Riven Protoform",
   "Types": [
     "NPC"
@@ -8,16 +8,34 @@
   "Defense": 10,
   "KBResist": 0.5,
   "Immunities": [
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 90.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (1‒3) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-    "`<a is="a-link" image="$fromStats" href="$default">Symbiote Skull<note> </note></a>` - 2.5%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
+    {
+      "Name": "Bud Barnacle",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Jam Sandwich",
+      "Chance": "6.25%"
+    },
+    {
+      "Name": "Symbiote Skull",
+      "Chance": "2.5%"
+    },
+    {
+      "Name": "Ancient Riven Mask",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Riven Coat",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Riven Pants",
+      "Chance": "0.19%"
+    }
   ],
   "RivenAssimilation": 0.09,
   "Expert": {
@@ -25,12 +43,30 @@
     "KBResist": 0.595,
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (1‒3) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-      "`<a is="a-link" image="$fromStats" href="$default">Symbiote Skull<note> </note></a>` - 2.5%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
+      {
+        "Name": "Bud Barnacle",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Jam Sandwich",
+        "Chance": "6.25%"
+      },
+      {
+        "Name": "Symbiote Skull",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "0.19%"
+      }
     ],
     "RivenAssimilation": 0.117
   },
@@ -39,12 +75,30 @@
     "KBResist": 0.67999995,
     "Coins": 225.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Bud Barnacle<note> </note></a>` - (1‒3) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-      "`<a is="a-link" image="$fromStats" href="$default">Symbiote Skull<note> </note></a>` - 2.5%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 0.19%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 0.19%"
+      {
+        "Name": "Bud Barnacle",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Jam Sandwich",
+        "Chance": "6.25%"
+      },
+      {
+        "Name": "Symbiote Skull",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "0.19%"
+      }
     ],
     "RivenAssimilation": 0.135
   },

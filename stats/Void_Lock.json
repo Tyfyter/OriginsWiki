@@ -2,8 +2,10 @@
   "Image": "§ModImage§/Items/Other/Consumables/Void_Lock",
   "Name": "Void Lock",
   "Types": [
-    "Item"
+    "Item",
+    "ExpendableTool"
   ],
+  "UseTime": 10,
   "Tooltip": "Can be used to lock some chests only unlockable by you",
   "Rarity": "Orange",
   "SpriteWidth": 20,

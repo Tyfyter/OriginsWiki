@@ -1,0 +1,20 @@
+{
+  "Name": "Wilting Rose Planter Box",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 28,
+  "InternalName": "Wilting_Rose_Planter_Box_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Wilting_Rose_Planter_Box_Item",
+    "Tiles/Wilting_Rose_Planter_Box"
+  ]
+}

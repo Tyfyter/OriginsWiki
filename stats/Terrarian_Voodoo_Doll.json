@@ -4,9 +4,10 @@
   "Types": [
     "Item",
     "Accessory",
+    "Master",
     "MasterAcc"
   ],
-  "Rarity": "Master",
+  "Rarity": "Green",
   "SpriteWidth": 16,
   "InternalName": "Terrarian_Voodoo_Doll"
 }

@@ -17,38 +17,210 @@
   "Rarity": "Green",
   "Sell": 10000,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Riven Splitter<note> </note></a>` - 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Harpoon<note> </note></a>` - (99‒99) 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Amebolize Incantation<note> </note></a>` - 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Splitsplash<note> </note></a>` - 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Riverang<note> </note></a>` - 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Amoeba Toy<note> </note></a>` - 16.667%",
-    "`<a is="a-link" image="$fromStats" href="$default">Primordial Soup<note> </note></a>` - 16.667%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Coin">Gold Coin</a>` - (5‒13) 25%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Copper_Ore">Copper Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tin_Ore">Tin Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Iron_Ore">Iron Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Lead_Ore">Lead Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Ore">Silver Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tungsten_Ore">Tungsten Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Ore">Gold Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Platinum_Ore">Platinum Ore</a>` - (30‒49) 2.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Iron_Bar">Iron Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Lead_Bar">Lead Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Bar">Silver Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tungsten_Bar">Tungsten Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gold_Bar">Gold Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Platinum_Bar">Platinum Bar</a>` - (10‒20) 8.889%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Obsidian_Skin_Potion">Obsidian Skin Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Spelunker_Potion">Spelunker Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Hunter_Potion">Hunter Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gravitation_Potion">Gravitation Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mining_Potion">Mining Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Heartreach_Potion">Heartreach Potion</a>` - (2‒4) 5.556%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Healing_Potion">Healing Potion</a>` - (5‒17) 25%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana_Potion">Mana Potion</a>` - (5‒17) 25%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Master_Bait">Master Bait</a>` - (2‒6) 16.667%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Journeyman_Bait">Journeyman Bait</a>` - (2‒6) 33.333%"
+    {
+      "Name": "Riven Splitter",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Harpoon",
+      "Chance": "16.667%",
+      "Amount": 99
+    },
+    {
+      "Name": "Amebolize Incantation",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Splitsplash",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Riverang",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Amoeba Toy",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Primordial Soup",
+      "Chance": "16.667%"
+    },
+    {
+      "Name": "Gold Coin",
+      "Chance": "25%",
+      "Amount": "5‒13",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Copper Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Copper_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Tin Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Tin_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Iron Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Iron_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Lead Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Lead_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Silver Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Tungsten Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Tungsten_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Gold Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Platinum Ore",
+      "Chance": "2.5%",
+      "Amount": "30‒49",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Platinum_Ore",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Iron Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Iron_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Lead Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Lead_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Silver Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Tungsten Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Tungsten_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Gold Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Platinum Bar",
+      "Chance": "8.889%",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Platinum_Bar",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Obsidian Skin Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Obsidian_Skin_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Spelunker Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Spelunker_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Hunter Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Hunter_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Gravitation Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gravitation_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Mining Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Mining_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Heartreach Potion",
+      "Chance": "5.556%",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Heartreach_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Healing Potion",
+      "Chance": "25%",
+      "Amount": "5‒17",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Healing_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Mana Potion",
+      "Chance": "25%",
+      "Amount": "5‒17",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Mana_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Master Bait",
+      "Chance": "16.667%",
+      "Amount": "2‒6",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Master_Bait",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Journeyman Bait",
+      "Chance": "33.333%",
+      "Amount": "2‒6",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Journeyman_Bait",
+      "ImageOverride": ""
+    }
   ],
   "SpriteWidth": 34,
   "InternalName": "Crusty_Crate",

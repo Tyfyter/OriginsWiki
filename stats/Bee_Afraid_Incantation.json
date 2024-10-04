@@ -11,7 +11,10 @@
   "DamageClass": "Summon",
   "Knockback": 0.8,
   "UseTime": 26,
-  "Tooltip": "Summons a swarm of bees to your cursor",
+  "Tooltip": [
+    "Summons a swarm of bees to your cursor",
+    "6 summon tag damage"
+  ],
   "Rarity": "Orange",
   "Sell": 15000,
   "SpriteWidth": 22,

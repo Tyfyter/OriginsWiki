@@ -17,7 +17,7 @@
     "Inflicts frostburn to struck enemies",
     "Uses canisters as ordinance"
   ],
-  "Rarity": "Orange",
+  "Rarity": "Blue",
   "Sell": 5000,
   "SpriteWidth": 50,
   "InternalName": "Cold_Snap"

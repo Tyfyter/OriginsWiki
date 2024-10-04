@@ -7,10 +7,10 @@
     "Gun",
     "Gun"
   ],
-  "Damage": 9,
+  "Damage": 6,
   "DamageClass": "Ranged",
   "Knockback": 1.5,
-  "UseTime": 38,
+  "UseTime": 20,
   "Velocity": 6.5,
   "Rarity": "Green",
   "Sell": 20000,

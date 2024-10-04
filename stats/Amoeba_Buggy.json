@@ -1,27 +1,12 @@
 {
-  "Image": "§ModImage§/NPCs/Critters/Amoeba_Buggy",
+  "Image": "§ModImage§/Items/Other/Fish/Amoeba_Buggy_Item",
   "Name": "Amoeba Buggy",
   "Types": [
-    "NPC"
+    "Item"
   ],
-  "MaxLife": 5,
-  "Immunities": [
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
-  ],
-  "Drops": [],
-  "Expert": {
-    "Defense": 0,
-    "KBResist": 0.0,
-    "Coins": 0.0,
-    "Drops": []
-  },
-  "Master": {
-    "Defense": 0,
-    "KBResist": 0.0,
-    "Coins": 0.0,
-    "Drops": []
-  },
-  "SpriteWidth": 18,
-  "InternalName": "Amoeba_Buggy"
+  "UseTime": 10,
+  "Tooltip": "Amoeba very buggy",
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Amoeba_Buggy_Item"
 }

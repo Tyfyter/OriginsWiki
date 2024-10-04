@@ -16,7 +16,7 @@
     "Uses sunflowers as ammo",
     "25% chance not to consume ammo"
   ],
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 4000,
   "SpriteWidth": 36,
   "InternalName": "Sunflower_Seed_Shooter"

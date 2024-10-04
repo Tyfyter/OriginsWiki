@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Fiberglass/Enchanted_Fiberglass_Sword",
+  "Image": "Images/Enchanted_Fiberglass_Sword",
   "Name": "Enchanted Fiberglass Sword",
   "Types": [
     "NPC"
@@ -8,25 +8,45 @@
   "Defense": 28,
   "KBResist": 0.9,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" href="$default">On Fire!</a>`",
-    "`<a is="a-link" href="$default">Hellfire</a>`",
-    "`<a is="a-link" href="$default">Incandescent Burn</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
-    "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+    {
+      "Name": "Broken Fiberglass Sword",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Shaped Glass",
+      "Chance": "4%"
+    },
+    {
+      "Name": "Silver Coin",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+      "ImageOverride": ""
+    }
   ],
   "Expert": {
     "MaxLife": 220,
     "KBResist": 0.919,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
-      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+      {
+        "Name": "Broken Fiberglass Sword",
+        "Chance": "10%"
+      },
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Silver Coin",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "ImageOverride": ""
+      }
     ]
   },
   "Master": {
@@ -34,9 +54,19 @@
     "KBResist": 0.936,
     "Coins": 2500.0,
     "Drops": [
-      "`<a is="a-link" image="$fromStats" href="$default">Broken Fiberglass Sword<note> </note></a>` - 10%",
-      "`<a is="a-link" image="$fromStats" href="$default">Shaped Glass<note> </note></a>` - 4%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Silver_Coin">Silver Coin</a>` - 100%"
+      {
+        "Name": "Broken Fiberglass Sword",
+        "Chance": "10%"
+      },
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Silver Coin",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "ImageOverride": ""
+      }
     ]
   },
   "SpriteWidth": 42,

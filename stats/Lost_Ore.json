@@ -14,9 +14,9 @@
   "Rarity": "Blue",
   "Sell": 1000,
   "SpriteWidth": 16,
-  "InternalName": "Defiled_Ore_Item",
+  "InternalName": "Lost_Ore_Item",
   "Images": [
-    "§ModImage§/Tiles/Defiled/Defiled_Ore_Item",
-    "Tiles/Defiled_Ore"
+    "§ModImage§/Tiles/Defiled/Lost_Ore_Item",
+    "Tiles/Lost_Ore"
   ]
 }

@@ -13,7 +13,7 @@
     "Duplicates have a chance to deal damage equal to your ammo conservation chance",
     "8% chance to save ammo"
   ],
-  "Rarity": "Master",
+  "Rarity": "Orange",
   "Sell": 20000,
   "SpriteWidth": 42,
   "InternalName": "Weakpoint_Analyzer"

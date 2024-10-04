@@ -2,7 +2,8 @@
   "Name": "Riven Water Fountain",
   "Types": [
     "Item",
-    "Tile"
+    "Tile",
+    "WaterFountain"
   ],
   "PlacementSize": [
     2,
@@ -10,6 +11,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Sell": 8000,
   "SpriteWidth": 22,
   "InternalName": "Riven_Fountain_Item",
   "Images": [

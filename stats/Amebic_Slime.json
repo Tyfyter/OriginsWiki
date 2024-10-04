@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Amebic_Slime",
+  "Image": "Images/Amebic_Slime",
   "Name": "Amoebic Slime",
   "Types": [
     "NPC"
@@ -7,13 +7,21 @@
   "MaxLife": 60,
   "Defense": 5,
   "Immunities": [
-    "`<a is="a-link" href="$default">Poisoned</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Torn</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 40.0,
   "Drops": [
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
+    {
+      "Name": "Gel",
+      "Amount": "2‒4",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gel",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Ameballoon",
+      "Amount": "3‒6"
+    }
   ],
   "RivenAssimilation": 0.04,
   "Expert": {
@@ -21,8 +29,16 @@
     "KBResist": 0.19000006,
     "Coins": 100.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
+      {
+        "Name": "Gel",
+        "Amount": "2‒4",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Gel",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ameballoon",
+        "Amount": "3‒6"
+      }
     ],
     "RivenAssimilation": 0.051999997
   },
@@ -31,8 +47,16 @@
     "KBResist": 0.35999995,
     "Coins": 100.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Gel">Gel</a>` - (2‒4) 100%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ameballoon<note> </note></a>` - (3‒6) 100%"
+      {
+        "Name": "Gel",
+        "Amount": "2‒4",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Gel",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ameballoon",
+        "Amount": "3‒6"
+      }
     ],
     "RivenAssimilation": 0.06
   },

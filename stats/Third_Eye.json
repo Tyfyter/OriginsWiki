@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
+    "Hardmode",
     "Master",
     "MasterAcc"
   ],
@@ -15,7 +16,7 @@
     "Your third eye will fire a phantasmal death ray when enemies are nearby",
     "'I am the cosmos'"
   ],
-  "Rarity": "Master",
+  "Rarity": "Cyan",
   "Sell": 60000,
   "SpriteWidth": 18,
   "InternalName": "Third_Eye"

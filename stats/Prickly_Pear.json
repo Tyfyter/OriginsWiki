@@ -1,13 +1,14 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Prickly_Pear",
+  "Image": "Images/Prickly_Pear",
   "Name": "Prickly Pear",
   "Types": [
-    "Item"
+    "Item",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
-  "Sell": 2000,
+  "Sell": 400,
   "SpriteWidth": 28,
   "InternalName": "Prickly_Pear"
 }

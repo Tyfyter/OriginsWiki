@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Accessories/ASH_Attack_Relay",
+  "Name": "A.S.H. Attack Relay",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat"
+  ],
+  "Damage": 24,
+  "ArmorPenetration": 6,
+  "DamageClass": "",
+  "Knockback": 6.0,
+  "UseTime": 12,
+  "Tooltip": "Releases explosive ashes that home towards your aggressors upon taking damage",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 46,
+  "InternalName": "ASH_Attack_Relay"
+}

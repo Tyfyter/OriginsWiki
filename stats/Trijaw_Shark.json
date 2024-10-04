@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/NPCs/Riven/Trijaw_Shark",
+  "Image": "Images/Trijaw_Shark",
   "Name": "Trijaw Shark",
   "Types": [
     "NPC"
@@ -8,29 +8,73 @@
   "Defense": 23,
   "KBResist": 0.19999999,
   "Immunities": [
-    "`<a is="a-link" href="$default">Confused</a>`",
-    "`<a is="a-link" image="$fromStats" href="$default">Stunned</a>`"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 400.0,
   "Drops": [
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-    "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
-    "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",
-    "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 4%"
+    {
+      "Name": "Shark Fin",
+      "Chance": "12.5%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Shark_Fin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Nachos",
+      "Chance": "3.333%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Nachos",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Jam Sandwich",
+      "Chance": "6.25%"
+    },
+    {
+      "Name": "Ancient Riven Mask",
+      "Chance": "4%"
+    },
+    {
+      "Name": "Ancient Riven Coat",
+      "Chance": "4%"
+    },
+    {
+      "Name": "Ancient Riven Pants",
+      "Chance": "4%"
+    }
   ],
   "Expert": {
     "MaxLife": 900,
     "KBResist": 0.35200006,
     "Coins": 1000.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
-      "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 4%"
+      {
+        "Name": "Shark Fin",
+        "Chance": "12.5%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Shark_Fin",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Nachos",
+        "Chance": "3.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Nachos",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Jam Sandwich",
+        "Chance": "6.25%"
+      },
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "4%"
+      }
     ]
   },
   "Master": {
@@ -38,12 +82,34 @@
     "KBResist": 0.48799998,
     "Coins": 1000.0,
     "Drops": [
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Shark_Fin">Shark Fin</a>` - 12.5%",
-      "`<a is="a-link" href="https://terraria.wiki.gg/wiki/Nachos">Nachos</a>` - 3.333%",
-      "`<a is="a-link" image="$fromStats" href="$default">Jam Sandwich<note> </note></a>` - 6.25%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Mask<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Coat<note> </note></a>` - 4%",
-      "`<a is="a-link" image="$fromStats" href="$default">Ancient Riven Pants<note> </note></a>` - 4%"
+      {
+        "Name": "Shark Fin",
+        "Chance": "12.5%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Shark_Fin",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Nachos",
+        "Chance": "3.333%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Nachos",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Jam Sandwich",
+        "Chance": "6.25%"
+      },
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "4%"
+      }
     ]
   },
   "SpriteWidth": 96,

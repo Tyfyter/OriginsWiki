@@ -1,9 +1,9 @@
 {
-  "Image": "§ModImage§/Items/Other/Consumables/Food/Vanilla_Shake",
+  "Image": "Images/Vanilla_Shake",
   "Name": "Vanilla Shake",
   "Types": [
     "Item",
-    "Ammo"
+    "Food"
   ],
   "UseTime": 17,
   "Rarity": "LightRed",
