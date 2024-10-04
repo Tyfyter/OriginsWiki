@@ -466,7 +466,7 @@ class AFMLStat extends HTMLElement {
 					let extraAttributes = '';
 					if (item.hasOwnProperty('LinkOverride')) extraAttributes += ' linkOverride="' + item.LinkOverride + '"';
 					if (item.hasOwnProperty('ImageOverride')) extraAttributes += ' imageOverride="' + item.ImageOverride + '"';
-					drops += `<a-drop item='${item.Name}' amount='${item.Amount || ''}' chance='${item.Chance || ''}'${extraAttributes}></a-drop>`;
+					drops += `<a-drop item="${item.Name}" amount="${item.Amount || ''}" chance="${item.Chance || ''}"${extraAttributes}></a-drop>`;
 				} else {
 					drops += item;
 				}

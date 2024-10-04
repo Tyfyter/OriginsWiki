@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Armor/Vanity/Dev/PlagueTexan/Plague_Texan_Mask",
+  "Name": "Plague Texan Set",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 28,
+  "InternalName": "Plague_Texan_Set"
+}
