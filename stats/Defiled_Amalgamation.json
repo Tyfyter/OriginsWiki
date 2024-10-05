@@ -43,7 +43,7 @@
     "Coins": 125000.0,
     "Drops": [
       {
-        "Name": "Treasure Bag (Defiled Amalgamation)"
+        "Name": "Defiled_Amalgamation_Bag"
       }
     ],
     "DefiledAssimilation": 0.051999997
@@ -55,7 +55,7 @@
     "Coins": 125000.0,
     "Drops": [
       {
-        "Name": "Treasure Bag (Defiled Amalgamation)"
+        "Name": "Defiled_Amalgamation_Bag"
       },
       {
         "Name": "Mysterious Spray",

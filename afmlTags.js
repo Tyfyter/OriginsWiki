@@ -104,7 +104,7 @@ function createHeader(parent, text) {
 Object.defineProperty(HTMLElement.prototype, "createChild", {
     value: function createChild(tag, contents) {
 		let element = document.createElement(tag);
-		if (customElements.get(tag)) element = document.createElement('a', { is: tag });
+		if (tag === 'a-link') element = document.createElement('a', { is: tag });
 		if (contents) element.innerHTML = contents;
 		this.appendChild(element);
 		for (let index = 2; index < arguments.length; index++) {
