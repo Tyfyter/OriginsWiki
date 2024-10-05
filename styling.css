@@ -155,6 +155,11 @@ body.background {
 	color: var(--article-text-color);
 	width: 90vw;
 }
+body.nobackground {
+	background-color: var(--article-bg-color);
+	color: var(--article-text-color);
+	width: 90vw;
+}
 
 .redlink {
 	--article-link-color: var(--redlink-color);
