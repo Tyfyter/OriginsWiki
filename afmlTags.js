@@ -1,3 +1,8 @@
+let errors = [];
+window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
+    errors.push({mesage: errorMsg, line: lineNumber, url: url});
+    return false;
+}
 let headRequests = {};
 function requestHead(url) {
 	if (new URL(url, document.baseURI).origin !== document.location.origin) return new Promise((resolve) => resolve({ status: 0 }));
@@ -84,6 +89,7 @@ async function getStats(name) {
 	return value;
 }
 getStats(pageName);
+const delay = ms => new Promise(res => setTimeout(res, ms));
 
 function createElementWithTextAndAttributes(tag, text) {
 	let element = document.createElement(tag);

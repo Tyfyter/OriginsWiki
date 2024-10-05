@@ -392,7 +392,7 @@ async function createCategorySegment(){
 				button.href = siteMap[index - 1] + linkSuffix;
 				categoriesElement.insertBefore(button, categoriesElement.firstChild);
 			}
-			if (index < siteMap.length) {
+			if (index < siteMap.length - 1) {
 				let button = document.createElement('a', {is: 'a-link'});
 				button.textContent = '==>';
 				button.id = 'DevNextButton'
@@ -528,11 +528,16 @@ function withChildren(parent) {
 	}
 	return parent;
 }
+var pressedKeys = {};
+window.onkeyup = function(e) { pressedKeys[e.keyCode] = false; }
+window.onkeydown = function(e) { pressedKeys[e.keyCode] = true; }
+function callDevScript() {
+	eval(getSiteSettings().devScript);
+}
 var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
 	await parseAFML(document.getElementById("content"));
 	var content = document.getElementById("content");
-	console.log('1');
 	
 	content.insertBefore(
 		withChildren(createElementWith('div', ['id', 'toolbar']),
@@ -571,5 +576,6 @@ var parse = async ()=>{
 	let catSegPromise = createCategorySegment().then(function(v){content.append(v);});
 	await catSegPromise;
 	typeof postParseCallback !== 'undefined' && postParseCallback();
+	if (getSiteSettings().autoCallDevScript) callDevScript();
 };
 parse();

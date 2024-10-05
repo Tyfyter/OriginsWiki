@@ -6,10 +6,13 @@
 		<link rel="stylesheet" href="styling.css"></link>
 		<script>
 			window.addEventListener("load", function () {
-				getSearchLinks('', null).then(v => {document.getElementsByTagName("body")[0].innerHTML = v;});
+				getSearchLinks('', null).then(v => {document.getElementById("links").innerHTML = v;});
 			});
 		</script>
     </head>
     <body>
+		<article id="content">
+		<div id="links"></div>
+		</article>
     </body>
 </html>
