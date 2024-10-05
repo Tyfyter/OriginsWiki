@@ -158,7 +158,6 @@ body.background {
 body.nobackground {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
-	width: 90vw;
 }
 
 .redlink {
