@@ -13,13 +13,11 @@
 			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				[statblock §Name§]
+				</a-statblock src="§Name§"></a-statblock>
 			</span>
 			<span id="error-log"></span>
 #if PageTextMain
-			<p>
 			§PageTextMain§
-			</p>
 #endif
 			<div>
 #if Crafting
@@ -35,6 +33,42 @@
 					<div class="divider"></div>
 					§UsedIn§
 #endif
+				</details>
+#endif
+#if Behavior
+				<details class="section" id="Behavior" open>
+					<summary>Behavior<span class="divider"></span></summary>
+					§Behavior§
+				</details>
+#endif
+#if DifficultyChanges
+				<details class="section" id="Difficulty Changes" open>
+					<summary>Difficulty Changes<span class="divider"></span></summary>
+					§DifficultyChanges§
+				</details>
+#endif
+#if Notes
+				<details class="section" id="Notes" open>
+					<summary>Notes<span class="divider"></span></summary>
+					§Notes§
+				</details>
+#endif
+#if Tips
+				<details class="section" id="Tips" open>
+					<summary>Tips<span class="divider"></span></summary>
+					§Tips§
+				</details>
+#endif
+#if Trivia
+				<details class="section" id="Trivia" open>
+					<summary>Trivia<span class="divider"></span></summary>
+					§Trivia§
+				</details>
+#endif
+#if Lore
+				<details class="section" id="Lore" open>
+					<summary>Lore<span class="divider"></span></summary>
+					§Lore§
 				</details>
 #endif
 			</div>

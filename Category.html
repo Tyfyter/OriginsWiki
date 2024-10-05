@@ -63,7 +63,7 @@
 				console.log(category.items);
 				for (var i = 0; i < siteMap.length; i++) {
 					if(allCats.every(category => category.items.includes(siteMap[i]) ^ category.blacklist)){
-						catContents += `<div class="catitem"><a href="${siteMap[i]+linkSuffix}">${siteMap[i].replaceAll('_', ', ')}</a></div>`;
+						catContents += `<div class="catitem"><a href="${siteMap[i]+linkSuffix}">${siteMap[i].replaceAll('_', ' ')}</a></div>`;
 					}
 				}
 				content.innerHTML += catContents;
