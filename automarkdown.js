@@ -3,7 +3,7 @@
 var jsLoaded = true;
 var linkSuffix = '.html';
 var linkPrefix = '';
-const lightSettingSuffix = '';
+const lightSettingSuffix = '.png';
 const section = '§'.substring('§'.length-1);
 
 const catCommaRegex = /(?<!\[|{|\s)([\s]*\n[\s]*)(?!]|}|\s)/g;
@@ -221,7 +221,7 @@ function toggleThemeSelector(){
 				closeThemeSelector();
 				setSiteSettings('theme', themeName);
 			}
-			child.src = `Images/themes/theme-${themeName}`;
+			child.src = `Images/themes/theme-${themeName}.png`;
 			themeContainer.appendChild(child);
 		}
 	}

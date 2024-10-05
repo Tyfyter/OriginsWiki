@@ -19,7 +19,7 @@ function getLinkSuffix(url) {
 	return aLinkSuffix
 }
 function processImagePath(path) {
-	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '';
+	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '.png';
 }
 class AsyncLock {
 	constructor () {
@@ -370,9 +370,9 @@ class AFMLToolStats extends HTMLElement {
 	attributeChangedCallback(name, oldValue, newValue) {
 		this.setup();
 		this.textContent = '';
-		this.createTool(this.getAttribute('pick'), 'Pickaxe power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon/16px-Pickaxe_icon');
-		this.createTool(this.getAttribute('hammer'), 'Hammer power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon/16px-Pickaxe_icon');
-		this.createTool(this.getAttribute('axe'), 'Axe power', 'Images/Axe_Icon');
+		this.createTool(this.getAttribute('pick'), 'Pickaxe power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
+		this.createTool(this.getAttribute('hammer'), 'Hammer power', 'https://terraria.wiki.gg/images/thumb/0/05/Pickaxe_icon.png/16px-Pickaxe_icon.png');
+		this.createTool(this.getAttribute('axe'), 'Axe power', 'Images/Axe_Icon.png');
 	}
 	createTool(amount, name, src) {
 		if (!amount) return;
@@ -578,7 +578,7 @@ class AFMLStatBlock extends HTMLElement {
 				var torchIcon = '';
 				var torchIntensity = stats.LightIntensity || '';
 				if (stats.LightColor) {
-					torchIcon = `<img src="Images/Torch_Icon" style="mix-blend-mode: screen;background-color: ${
+					torchIcon = `<img src="Images/Torch_Icon.png" style="mix-blend-mode: screen;background-color: ${
 						`rgb(${(stats.LightColor[0]) * 255}, ${(stats.LightColor[1]) * 255}, ${(stats.LightColor[2]) * 255})`
 					};">`;
 				}
@@ -757,7 +757,7 @@ class AFMLStatBlock extends HTMLElement {
 	createImage(src, width, container) {
 		let image = container.createChild('img', '', ['src', src]);
 		if (width) image.style.maxWidth = width + 'px';
-		if (src.endsWith && src.endsWith('_Female')) image.title = 'female sprite';
+		if (src.endsWith && src.endsWith('_Female.png')) image.title = 'female sprite';
 	}
 }
 customElements.define("a-statblock", AFMLStatBlock);

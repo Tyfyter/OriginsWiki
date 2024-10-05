@@ -17,8 +17,8 @@
 	--toolbar-scale: 100%;
 	--tool-power-filter: none;
 	--themes-offset: 0em;
-	--wiki-logo: url(Images/themes/light-logo-small);
-	--wiki-logo-mobile: url(Images/themes/light-logo-small);
+	--wiki-logo: url(Images/themes/light-logo-small.png);
+	--wiki-logo-mobile: url(Images/themes/light-logo-small.png);
 }
 
 .theme-dark {
@@ -45,8 +45,8 @@
 	--box-border-color: rgb(184, 96, 29);
 	--tool-power-filter: invert(50%) sepia(100%) saturate(200%);
 	--master-color: #f30698;
-	--wiki-logo: url(Images/themes/ashenlogo);
-	--wiki-logo-mobile: url(Images/themes/ashenlogo);
+	--wiki-logo: url(Images/themes/ashenlogo.png);
+	--wiki-logo-mobile: url(Images/themes/ashenlogo.png);
   }
 
 .theme-brine {
@@ -60,8 +60,8 @@
 	--box-bg-color: rgba(62, 76, 182, 0.35);
 	--box-border-color: rgb(30, 116, 107);
 	--tool-power-filter: invert(60%) sepia(100%) saturate(200%) hue-rotate(90deg);
-	--wiki-logo: url(Images/themes/brinelogo);
-	--wiki-logo-mobile: url(Images/themes/brinelogo);
+	--wiki-logo: url(Images/themes/brinelogo.png);
+	--wiki-logo-mobile: url(Images/themes/brinelogo.png);
 }
 
 .theme-dawn {
@@ -74,8 +74,8 @@
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(135, 64, 64, 0.35);
 	--tool-power-filter: invert(100%);
-	--wiki-logo: url(Images/themes/dawnlogo);
-	--wiki-logo-mobile: url(Images/themes/dawnlogo);
+	--wiki-logo: url(Images/themes/dawnlogo.png);
+	--wiki-logo-mobile: url(Images/themes/dawnlogo.png);
 }
 
 .theme-dusk {
@@ -88,8 +88,8 @@
 	--subcontents-bg-color: rgb(10, 10, 10, 0.15);
 	--box-bg-color: rgba(130, 64, 135, 0.35);
 	--tool-power-filter: invert(100%);
-	--wiki-logo: url(Images/themes/dusklogo);
-	--wiki-logo-mobile: url(Images/themes/dusklogo);
+	--wiki-logo: url(Images/themes/dusklogo.png);
+	--wiki-logo-mobile: url(Images/themes/dusklogo.png);
 }
 
 .theme-riven {
@@ -103,8 +103,8 @@
 	--box-bg-color: rgba(152, 188, 255, 0.119);
 	--box-border-color: rgb(0, 129, 101);
 	--tool-power-filter: invert(55%) sepia(100%) saturate(200%) hue-rotate(135deg);
-	--wiki-logo: url(Images/themes/rivenlogo);
-	--wiki-logo-mobile: url(Images/themes/rivenlogo);
+	--wiki-logo: url(Images/themes/rivenlogo.png);
+	--wiki-logo-mobile: url(Images/themes/rivenlogo.png);
 }
 
 .theme-nightsky {
@@ -121,8 +121,8 @@
 	--expert-color: #FFF17F;
 	--master-color: #E71D00;
 	--tool-power-filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
-	--wiki-logo: url(Images/themes/nightskylogo);
-	--wiki-logo-mobile: url(Images/themes/nightskylogo);
+	--wiki-logo: url(Images/themes/nightskylogo.png);
+	--wiki-logo-mobile: url(Images/themes/nightskylogo.png);
 }
 
 .themeOption-terminal {
@@ -138,8 +138,8 @@
 	--subcontents-bg-color: rgb(255, 255, 255, 0.15);
 	--box-bg-color: rgb(255, 255, 255, 0.35);
 	--tool-power-filter: invert(60%) sepia(9001%) saturate(999%) hue-rotate(75deg);
-	--wiki-logo: url(Images/themes/terminal-logo);
-	--wiki-logo-mobile: url(Images/themes/terminal-logo);
+	--wiki-logo: url(Images/themes/terminal-logo.png);
+	--wiki-logo-mobile: url(Images/themes/terminal-logo.png);
 }
 
 html.background {
