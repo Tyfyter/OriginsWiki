@@ -17,7 +17,10 @@
 				If you are looking for the official page of vanilla torches, click <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Torches">here</a></b>.
 			</p>
 
-			<a-statblock src=Torches></a-statblock>
+			<span id="toc-and-stats">
+				<div id="table-of-contents"></div>
+				<a-statblock src=Torches></a-statblock>
+			</span>
 
 			<p>
 				<b>Torches</b> are <a is="a-link">furniture</a> items that produce light when <a is="a-link" href="https://terraria.wiki.gg/wiki/Placement">placed</a>, held or dropped, and are crucial at all stages of gameplay as primary <a is="a-link" href="https://terraria.wiki.gg/wiki/Light_sources">light sources</a>.
@@ -33,124 +36,128 @@
 				The Shadow Torch uniquely reduces the visibility around it unlike most torches.
 			</p>
 
-			<summary>Crafting<span class="divider"></span></summary>
-				<p><b>Recipes</b></p>
-				<div class="divider"></div>
-				<a-recipes>
-				{
-				items:[
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Alkahest_Torch" href="Torches.html">Alkahest Torch</a>(33)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(33)`,
-				`<a is="a-link" image="$fromStats">Alkahest</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Bile_Torch" href="Torches.html">Bile Torch</a>(33)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(33)`,
-				`<a is="a-link" image="$fromStats">Black Bile</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Stone_Item">Defiled Stone</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Defiled/Hardened_Defiled_Sand_Item">Hardened Defiled Sand Block</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Ice_Item">Gray Ice Block</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" href="Torches.html">Ice Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Riven/Primordial_Permafrost_Item">Primordial Permafrost</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" href="Torches.html">Ice Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Ice_Item">Gray Ice Block</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Flesh_Item">Spug Flesh</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Riven/Quartz_Item">Quartz</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(3)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Riven/Primordial_Permafrost_Item">Primordial Permafrost</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Other/Shadow_Torch_Item" href="Torches.html">Shadow Torch</a>(3)`,
-				ingredients:[
-				`<a is="a-link" href="Torches.html">Torch</a>(10)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Item">Chambersite</a>`
-				]
-				}
-				]
-				}
-				</a-recipes>
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					<a-recipes>
+					{
+					items:[
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Alkahest_Torch" href="Torches.html">Alkahest Torch</a>(33)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(33)`,
+					`<a is="a-link" image="$fromStats">Alkahest</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Bile_Torch" href="Torches.html">Bile Torch</a>(33)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(33)`,
+					`<a is="a-link" image="$fromStats">Black Bile</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Stone_Item">Defiled Stone</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Defiled/Hardened_Defiled_Sand_Item">Hardened Defiled Sand Block</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Ice_Item">Gray Ice Block</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" href="Torches.html">Ice Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Riven/Primordial_Permafrost_Item">Primordial Permafrost</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" href="Torches.html">Ice Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Ice_Item">Gray Ice Block</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Flesh_Item">Spug Flesh</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Riven/Quartz_Item">Quartz</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(3)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Riven/Primordial_Permafrost_Item">Primordial Permafrost</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Other/Shadow_Torch_Item" href="Torches.html">Shadow Torch</a>(3)`,
+					ingredients:[
+					`<a is="a-link" href="Torches.html">Torch</a>(10)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Item">Chambersite</a>`
+					]
+					}
+					]
+					}
+					</a-recipes>
 
-				<p><b>Used In</b></p>
-				<div class="divider"></div>
-				<h4>Defiled Torch</h4>
-				<a-recipes>
-				{
-				items:[
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Campfire_Item" href="Campfires.html">Defiled Campfire</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Alternative_crafting_ingredients#Any_Wood">Any Wood</a>(10)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(5)`
-				]
-				}
-				]
-				}
-				</a-recipes>
-				
-				<h4>Riven Torch</h4>
-				<a-recipes>
-				{
-				items:[
-				{
-				result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Campfire_Item" href="Campfires.html">Riven Campfire</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Alternative_crafting_ingredients#Any_Wood">Any Wood</a>(10)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(5)`
-				]
-				}
-				]
-				}
-				</a-recipes>
+					<p><b>Used In</b></p>
+					<div class="divider"></div>
+					<h4>Defiled Torch</h4>
+					<a-recipes>
+					{
+					items:[
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Campfire_Item" href="Campfires.html">Defiled Campfire</a>`,
+					ingredients:[
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Alternative_crafting_ingredients#Any_Wood">Any Wood</a>(10)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Defiled/Defiled_Torch" href="Torches.html">Defiled Torch</a>(5)`
+					]
+					}
+					]
+					}
+					</a-recipes>
+					
+					<h4>Riven Torch</h4>
+					<a-recipes>
+					{
+					items:[
+					{
+					result:`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Campfire_Item" href="Campfires.html">Riven Campfire</a>`,
+					ingredients:[
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Alternative_crafting_ingredients#Any_Wood">Any Wood</a>(10)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Riven/Riven_Torch" href="Torches.html">Riven Torch</a>(5)`
+					]
+					}
+					]
+					}
+					</a-recipes>
+				</details>
+			</div>
 		</article>
 	</body>
 </html>

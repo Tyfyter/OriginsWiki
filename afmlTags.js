@@ -872,7 +872,7 @@ class AFMLSortableList extends HTMLElement {
 		});
 	}
 	async setContents(data) {
-		console.log(`processing sortable list:`, data);
+		//console.log(`processing sortable list:`, data);
 		if (!defaultStats) defaultStats = await getStats("Defaults");
 
 		let head = this.table.createChild('thead');

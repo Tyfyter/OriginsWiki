@@ -11,55 +11,61 @@
 			<h1>Qube</h1>
 			<div class="divider"></div>
 
-			<a-statblock src=Qube></a-statblock>
+			<span id="toc-and-stats">
+				<div id="table-of-contents"></div>
+				<a-statblock src=Qube></a-statblock>
+			</span>
 
 			<p>
 				<b>Qubes</b> are post-<a is="a-link" href="https://terraria.wiki.gg/wiki/Moon_Lord">Moon Lord</a> <a is="a-link">materials</a> that are generated and extracted from the <a is="a-link">Qube Generator</a> in the <a is="a-link">Cubekon Temple</a>.
 				They are used to craft end-game equipment and weapons.
 			</p>
 
-			<details open>
-				<p><b>Used In</b></p>
-				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Manipulator">Ancient Manipulator</a>`
-				],
-				items:[
-				{
-				result:`<a is="a-link" image="§ModImage§/Items/Materials/Formium_Bar">Formium Bar</a>`,
-				ingredients:[
-				`<a is="a-link" image="$fromStats">Formium Scrap</a>(7)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>`
-				]
-				},
-				{
-				result:`<a is="a-link" image="$fromStats">Quantum Injector</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana_Crystal">Mana Crystal</a>`,
-				`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>(50)`
-				]
-				}
-				]
-				},
+			<div>
+				<details class="section" id="Crafting" open>
+					<summary>Crafting<span class="divider"></span></summary>
+					<p><b>Used In</b></p>
+					<div class="divider"></div>
+					<a-recipes>
+					{
+					stations:[
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Ancient_Manipulator">Ancient Manipulator</a>`
+					],
+					items:[
+					{
+					result:`<a is="a-link" image="§ModImage§/Items/Materials/Formium_Bar">Formium Bar</a>`,
+					ingredients:[
+					`<a is="a-link" image="$fromStats">Formium Scrap</a>(7)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>`
+					]
+					},
+					{
+					result:`<a is="a-link" image="$fromStats">Quantum Injector</a>`,
+					ingredients:[
+					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana_Crystal">Mana Crystal</a>`,
+					`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>(50)`
+					]
+					}
+					]
+					},
 
-				{
-				stations:[
-				`<a is="a-link" image="Images/Interstellar_Sampler">Interstellar Sampler</a>`
-				],
-				items:[
-				{
-				result:`<a is="a-link" image="$fromStats">Flakjack</a>`,
-				ingredients:[
-				`<a is="a-link" image="$fromStats">Fibron Plating</a>(24)`,
-				`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>(48)`
-				]
-				}
-				]
-				}
-				</a-recipes>
-			</details>
+					{
+					stations:[
+					`<a is="a-link" image="Images/Interstellar_Sampler">Interstellar Sampler</a>`
+					],
+					items:[
+					{
+					result:`<a is="a-link" image="$fromStats">Flakjack</a>`,
+					ingredients:[
+					`<a is="a-link" image="$fromStats">Fibron Plating</a>(24)`,
+					`<a is="a-link" image="§ModImage§/Tiles/Cubekon/Qube_Item">Qube</a>(48)`
+					]
+					}
+					]
+					}
+					</a-recipes>
+				</details>
+			</div>
 		</article>
 	</body>
 </html>
