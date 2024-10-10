@@ -10,6 +10,7 @@
   "Tooltip": "Amebic tentacles will protect you from projectiles",
   "Rarity": "Orange",
   "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>World Cracker</a>",
   "SpriteWidth": 24,
   "InternalName": "Amebic_Vial"
 }

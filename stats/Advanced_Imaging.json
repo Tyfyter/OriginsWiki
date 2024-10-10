@@ -14,6 +14,7 @@
   ],
   "Rarity": "Yellow",
   "Sell": 50000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Cyborg>Cyborg</a> (<a-coins>250000</a>)",
   "SpriteWidth": 32,
   "InternalName": "Advanced_Imaging"
 }

@@ -13,6 +13,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 60000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Putrid_Scent>Putrid Scent</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 24,
   "InternalName": "Stealth_Ravel"
 }

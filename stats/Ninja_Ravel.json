@@ -14,6 +14,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 120000,
+  "Source": "<a is=a-link image=$fromStats>Spider Ravel</a> + <a is=a-link image=$fromStats>Stealth Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 24,
   "InternalName": "Ninja_Ravel"
 }

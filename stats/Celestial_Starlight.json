@@ -14,6 +14,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 33000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Magnet>Celestial Magnet</a> + <a is=a-link image=$fromStats>Dim Starlight</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 30,
   "InternalName": "Celestial_Starlight"
 }

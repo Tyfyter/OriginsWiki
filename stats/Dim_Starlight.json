@@ -10,6 +10,7 @@
   "Tooltip": "Chance for mana stars to fall from critical hits",
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Fissure</a>",
   "SpriteWidth": 30,
   "InternalName": "Dim_Starlight"
 }

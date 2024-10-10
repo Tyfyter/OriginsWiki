@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Plasma_Phial",
+  "Image": "§ModImage§/Items/Accessories/Plasma_Bag",
   "Name": "Plasma Bag",
   "Types": [
     "Item",
@@ -14,5 +14,5 @@
   "Rarity": "Blue",
   "Sell": 6000,
   "SpriteWidth": 24,
-  "InternalName": "Plasma_Phial"
+  "InternalName": "Plasma_Bag"
 }
