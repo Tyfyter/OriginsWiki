@@ -389,11 +389,11 @@
   },
   "expertacc":{
     "name":"Expert Accessories",
-    "items":"Types<ExpertAcc"
+    "items":"Types<Accessory Types<Expert"
   },
   "masteracc":{
     "name":"Master Accessories",
-    "items":"Types<MasterAcc"
+    "items":"Types<Accessory Types<Master"
   },
   "arrow":{
     "name":"Arrows",
