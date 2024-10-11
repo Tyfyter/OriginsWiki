@@ -812,7 +812,6 @@ class AFMLDrop extends HTMLElement {
 }
 customElements.define("a-drop", AFMLDrop);
 
-let evalItem;
 class AFMLSortableList extends HTMLElement {
 	static observedAttributes = ["src"];
 	table;
@@ -893,7 +892,6 @@ class AFMLSortableList extends HTMLElement {
 			}
 		}
 		let body = this.table.createChild('tbody');
-		var keys = new Set();
 		for(var i = 0; i < data.items.length; i++){
 			row = body.createChild('tr');
 			var item;
@@ -902,7 +900,7 @@ class AFMLSortableList extends HTMLElement {
 			}else{
 				let stats = await getStats(data.items[i]);
 				if (stats) {
-					item = stats;
+					item = Object.assign({}, stats);
 					item.WikiName = data.items[i];
 				}
 			}
@@ -914,11 +912,6 @@ class AFMLSortableList extends HTMLElement {
 					item[key] = defaultStats[key];
 				}
 			}
-			evalItem = {};
-			for(let key in item){
-				keys.add(key);
-			}
-			keys.forEach((key)=>{evalItem[key] = item[key];});
 			for(var j = 0; j < data.headers.length; j++){
 				var displayValue = item[data.headers[j]];
 				if (data.headers[j].expr){
