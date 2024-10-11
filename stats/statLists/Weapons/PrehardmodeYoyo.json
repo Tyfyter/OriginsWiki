@@ -1,0 +1,14 @@
+{
+  "categories": [
+	"prehardmode",
+	"yoyo"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	"Range",
+	"Source",
+	"Notes"
+  ]
+}

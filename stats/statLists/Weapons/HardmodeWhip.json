@@ -1,0 +1,14 @@
+{
+  "categories": [
+	"hardmode",
+	"whip"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	{ "name":"Use Time", "expr":"item.UseTime" },
+	"Source",
+	"Notes"
+  ]
+}

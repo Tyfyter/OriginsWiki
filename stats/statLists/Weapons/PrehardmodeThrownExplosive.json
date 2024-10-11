@@ -1,0 +1,14 @@
+{
+  "categories": [
+	"prehardmode",
+	"thrownexplosive"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	{ "name":"Use Time", "expr":"item.UseTime" },
+	"Source",
+	"Notes"
+  ]
+}

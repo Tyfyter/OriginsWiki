@@ -32,13 +32,13 @@
     "name":"Armor sets",
     "items":"Types<ArmorSet"
   },
-  "prehardmodearmor":{
-    "name":"Prehardmode Armor sets",
-    "items":"Types<ArmorSet -Types<Hardmode"
+  "prehardmode":{
+    "name":"Prehardmode Content",
+    "items":"-Types<Hardmode"
   },
-  "hardmodearmor":{
-    "name":"Hardmode Armor sets",
-    "items":"Types<ArmorSet Types<Hardmode"
+  "hardmode":{
+    "name":"Hardmode Content",
+    "items":"Types<Hardmode"
   },
   "tile":{
     "name":"tile",
@@ -52,313 +52,105 @@
     "name":"Bows",
     "items":"Types<Bow"
   },
-  "prehardmodebow":{
-    "name":"Prehardmode Bows",
-    "items":"Types<Bow -Types<Hardmode"
-  },
-  "hardmodebow":{
-    "name":"Hardmode Bows",
-    "items":"Types<Bow Types<Hardmode"
-  },
   "sword":{
     "name":"Swords",
     "items":"Types<Sword"
-  },
-  "prehardmodesword":{
-    "name":"Prehardmode Swords",
-    "items":"Types<Sword -Types<Hardmode"
-  },
-  "hardmodesword":{
-    "name":"Hardmode Swords",
-    "items":"Types<Sword Types<Hardmode"
   },
   "spear":{
     "name":"Spears",
     "items":"Types<Spear"
   },
-  "prehardmodespear":{
-    "name":"Prehardmode Spears",
-    "items":"Types<Spear -Types<Hardmode"
-  },
-  "hardmodespear":{
-    "name":"Hardmode Spears",
-    "items":"Types<Spear Types<Hardmode"
-  },
   "boomerang":{
     "name":"Boomerangs",
     "items":"Types<Boomerang"
-  },
-  "prehardmodeboomerang":{
-    "name":"Prehardmode Boomerangs",
-    "items":"Types<Boomerang -Types<Hardmode"
-  },
-  "hardmodeboomerang":{
-    "name":"Hardmode Boomerangs",
-    "items":"Types<Boomerang Types<Hardmode"
   },
   "flail":{
     "name":"Flails",
     "items":"Types<Flail"
   },
-  "prehardmodeflail":{
-    "name":"Prehardmode Flails",
-    "items":"Types<Flail -Types<Hardmode"
-  },
-  "hardmodeflail":{
-    "name":"Hardmode Flails",
-    "items":"Types<Flail Types<Hardmode"
-  },
   "yoyo":{
     "name":"Yoyos",
     "items":"Types<Yoyo"
-  },
-  "prehardmodeyoyo":{
-    "name":"Prehardmode Yoyos",
-    "items":"Types<Yoyo -Types<Hardmode"
-  },
-  "hardmodeyoyo":{
-    "name":"Hardmode Yoyos",
-    "items":"Types<Yoyo Types<Hardmode"
   },
   "othermelee":{
     "name":"Other melee",
     "items":"Types<OtherMelee"
   },
-  "prehardmodeothermelee":{
-    "name":"Prehardmode other melee",
-    "items":"Types<OtherMelee -Types<Hardmode"
-  },
-  "hardmodeothermelee":{
-    "name":"Hardmode other melee",
-    "items":"Types<OtherMelee Types<Hardmode"
-  },
   "gun":{
     "name":"Guns",
     "items":"Types<Gun"
-  },
-  "prehardmodegun":{
-    "name":"Prehardmode Guns",
-    "items":"Types<Gun -Types<Hardmode"
-  },
-  "hardmodegun":{
-    "name":"Hardmode Guns",
-    "items":"Types<Gun Types<Hardmode"
   },
   "repeater":{
     "name":"Repeaters",
     "items":"Types<Repeater"
   },
-  "prehardmoderepeater":{
-    "name":"Prehardmode Repeaters",
-    "items":"Types<Repeater -Types<Hardmode"
-  },
-  "hardmoderepeater":{
-    "name":"Hardmode Repeaters",
-    "items":"Types<Repeater Types<Hardmode"
-  },
   "dartlauncher":{
     "name":"Dart Launchers",
     "items":"Types<DartLauncher"
-  },
-  "prehardmodedartlauncher":{
-    "name":"Prehardmode Dart Launchers",
-    "items":"Types<DartLauncher -Types<Hardmode"
-  },
-  "hardmodedartlauncher":{
-    "name":"Hardmode Dart Launchers",
-    "items":"Types<DartLauncher Types<Hardmode"
   },
   "harpoongun":{
     "name":"Harpoon Guns",
     "items":"Types<HarpoonGun"
   },
-  "prehardmodeharpoongun":{
-    "name":"Prehardmode Harpoon Guns",
-    "items":"Types<HarpoonGun -Types<Hardmode"
-  },
-  "hardmodeharpoongun":{
-    "name":"Hardmode Harpoon Guns",
-    "items":"Types<HarpoonGun Types<Hardmode"
-  },
   "otherranged":{
     "name":"Other ranged",
     "items":"Types<OtherRanged"
-  },
-  "prehardmodeotherranged":{
-    "name":"Prehardmode other ranged",
-    "items":"Types<OtherRanged -Types<Hardmode"
-  },
-  "hardmodeotherranged":{
-    "name":"Hardmode other ranged",
-    "items":"Types<OtherRanged Types<Hardmode"
   },
   "wand":{
     "name":"Wands",
     "items":"Types<Wand"
   },
-  "prehardmodewand":{
-    "name":"Prehardmode Wands",
-    "items":"Types<Wand -Types<Hardmode"
-  },
-  "hardmodewand":{
-    "name":"Hardmode Wands",
-    "items":"Types<Wand Types<Hardmode"
-  },
   "magicgun":{
     "name":"Magic Guns",
     "items":"Types<MagicGun"
-  },
-  "prehardmodemagicgun":{
-    "name":"Prehardmode Magic Guns",
-    "items":"Types<MagicGun -Types<Hardmode"
-  },
-  "hardmodemagicgun":{
-    "name":"Hardmode Magic Guns",
-    "items":"Types<MagicGun Types<Hardmode"
   },
   "spellbook":{
     "name":"Spell Books",
     "items":"Types<SpellBook"
   },
-  "prehardmodespellbook":{
-    "name":"Prehardmode Spell Books",
-    "items":"Types<SpellBook -Types<Hardmode"
-  },
-  "hardmodespellbook":{
-    "name":"Hardmode Spell Books",
-    "items":"Types<SpellBook Types<Hardmode"
-  },
   "othermagic":{
     "name":"Other magic",
     "items":"Types<OtherMagic"
-  },
-  "prehardmodeothermagic":{
-    "name":"Prehardmode other magic",
-    "items":"Types<OtherMagic -Types<Hardmode"
-  },
-  "hardmodeothermagic":{
-    "name":"Hardmode other magic",
-    "items":"Types<OtherMagic Types<Hardmode"
   },
   "minionweapon":{
     "name":"Minion weapons",
     "items":"Types<MinionWeapon"
   },
-  "prehardmodeminionweapon":{
-    "name":"Prehardmode Minion weapons",
-    "items":"Types<MinionWeapon -Types<Hardmode"
-  },
-  "hardmodeminionweapon":{
-    "name":"Hardmode Minion weapons",
-    "items":"Types<MinionWeapon Types<Hardmode"
-  },
   "sentryweapon":{
     "name":"Sentry weapons",
     "items":"Types<SentryWeapon"
-  },
-  "prehardmodesentryweapon":{
-    "name":"Prehardmode Sentry weapons",
-    "items":"Types<SentryWeapon -Types<Hardmode"
-  },
-  "hardmodesentryweapon":{
-    "name":"Hardmode Sentry weapons",
-    "items":"Types<SentryWeapon Types<Hardmode"
   },
   "whip":{
     "name":"Whips",
     "items":"Types<Whip"
   },
-  "prehardmodewhip":{
-    "name":"Prehardmode Whips",
-    "items":"Types<Whip -Types<Hardmode"
-  },
-  "hardmodewhip":{
-    "name":"Hardmode Whips",
-    "items":"Types<Whip Types<Hardmode"
-  },
   "artifact":{
     "name":"Artifacts",
     "items":"Types<Artifact"
-  },
-  "prehardmodeartifact":{
-    "name":"Prehardmode Artifacts",
-    "items":"Types<Artifact -Types<Hardmode"
-  },
-  "hardmodeartifact":{
-    "name":"Hardmode Artifacts",
-    "items":"Types<Artifact Types<Hardmode"
   },
   "incantation":{
     "name":"Incantations",
     "items":"Types<Incantation"
   },
-  "prehardmodeincantation":{
-    "name":"Prehardmode Incantations",
-    "items":"Types<Incantation -Types<Hardmode"
-  },
-  "hardmodeincantation":{
-    "name":"Hardmode Incantations",
-    "items":"Types<Incantation Types<Hardmode"
-  },
   "othersummoner":{
     "name":"Other summoner",
     "items":"Types<OtherSummoner"
-  },
-  "prehardmodeothersummoner":{
-    "name":"Prehardmode other summoner",
-    "items":"Types<OtherSummoner -Types<Hardmode"
-  },
-  "hardmodeothersummoner":{
-    "name":"Hardmode other summoner",
-    "items":"Types<OtherSummoner Types<Hardmode"
   },
   "launcher":{
     "name":"Launchers",
     "items":"Types<Launcher"
   },
-  "prehardmodelauncher":{
-    "name":"Prehardmode Launchers",
-    "items":"Types<Launcher -Types<Hardmode"
-  },
-  "hardmodelauncher":{
-    "name":"Hardmode Launchers",
-    "items":"Types<Launcher Types<Hardmode"
-  },
   "handcannon":{
     "name":"Handcannons",
     "items":"Types<Handcannon"
-  },
-  "prehardmodehandcannon":{
-    "name":"Prehardmode Handcannons",
-    "items":"Types<Handcannon -Types<Hardmode"
-  },
-  "hardmodehandcannon":{
-    "name":"Hardmode Handcannons",
-    "items":"Types<Handcannon Types<Hardmode"
   },
   "thrownexplosive":{
     "name":"Thrown explosives",
     "items":"Types<ThrownExplosive"
   },
-  "prehardmodethrownexplosive":{
-    "name":"Prehardmode thrown explosives",
-    "items":"Types<ThrownExplosive -Types<Hardmode"
-  },
-  "hardmodethrownexplosive":{
-    "name":"Hardmode thrown explosives",
-    "items":"Types<ThrownExplosive Types<Hardmode"
-  },
   "otherexplosive":{
     "name":"Other explosives",
     "items":"Types<OtherExplosive"
-  },
-  "prehardmodeotherexplosive":{
-    "name":"Prehardmode other explosives",
-    "items":"Types<OtherExplosive -Types<Hardmode"
-  },
-  "hardmodeotherexplosive":{
-    "name":"Hardmode other explosives",
-    "items":"Types<OtherExplosive Types<Hardmode"
   },
   "implimented":{
     "name":"implimented"
@@ -386,14 +178,6 @@
   "musicboxes":{
     "name":"Music Boxes",
     "items":"Types<MusicBox"
-  },
-  "expertacc":{
-    "name":"Expert Accessories",
-    "items":"Types<Accessory Types<Expert"
-  },
-  "masteracc":{
-    "name":"Master Accessories",
-    "items":"Types<Accessory Types<Master"
   },
   "arrow":{
     "name":"Arrows",

@@ -1,0 +1,13 @@
+{
+  "categories": [
+	"prehardmode",
+	"boomerang"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	"Source",
+	"Notes"
+  ]
+}

@@ -70,7 +70,8 @@ async function getCategories(){
 			if (genCat.hasOwnProperty(key)) {
 				if (_categories.hasOwnProperty(key)) {
 					for(var i = 0; i < genCat[key].items.length; i++){
-						_categories[key].items.push(genCat[key].items[i].replace('\\:', ':'));
+						let value = genCat[key].items[i].replace('\\:', ':');
+						if (!_categories[key].items.includes(value)) _categories[key].items.push(value);
 					}
 				} else {
 					_categories[key] = genCat[key];

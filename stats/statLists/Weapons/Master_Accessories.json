@@ -1,7 +1,9 @@
 {
   "categories": [
-    "expertacc"
+    "accessories",
+    "master"
   ],
+  "intersection": true,
   "headers": [
     "Name",
     "Source",
