@@ -1,0 +1,21 @@
+{
+  "Name": "Twilith",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Tile"
+  ],
+  "PickReq": 220,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Dusk_Stone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dusk/Dusk_Stone_Item",
+    "Tiles/Twilith"
+  ]
+}

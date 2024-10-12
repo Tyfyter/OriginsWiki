@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Tooltip": [
     "All bees become friendly",

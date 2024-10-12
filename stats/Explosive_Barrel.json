@@ -1,0 +1,26 @@
+{
+  "Image": "Explosive_Barrel",
+  "Name": "Explosive Barrel",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 40,
+  "KBResist": 1.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 80,
+    "Defense": 0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 120,
+    "Defense": 0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 26,
+  "InternalName": "Cellarkeep_Barrel"
+}

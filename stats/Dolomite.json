@@ -1,0 +1,21 @@
+{
+  "Name": "Dolomite",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Tile"
+  ],
+  "PickReq": 200,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Sulphur_Stone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Sulphur_Stone_Item",
+    "Tiles/Dolomite"
+  ]
+}

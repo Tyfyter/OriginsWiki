@@ -1,0 +1,104 @@
+{
+  "Image": "Pigron",
+  "Name": "Pigron",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 210,
+  "Defense": 16,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Coins": 2000.0,
+  "Drops": [
+    {
+      "Name": "Bacon",
+      "Chance": "6.667%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Minecart",
+      "Chance": "1%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Kite",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Ham Bat",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+      "ImageOverride": ""
+    }
+  ],
+  "Expert": {
+    "MaxLife": 840,
+    "KBResist": 0.595,
+    "Coins": 12500.0,
+    "Drops": [
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 1890,
+    "KBResist": 0.67999995,
+    "Coins": 12500.0,
+    "Drops": [
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "SpriteWidth": 90,
+  "InternalName": "Riven_Pigron"
+}

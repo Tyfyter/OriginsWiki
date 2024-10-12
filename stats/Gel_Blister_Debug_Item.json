@@ -1,0 +1,20 @@
+{
+  "Name": "Gel Blister Debug Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 36,
+  "InternalName": "Gel_Blister_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Gel_Blister",
+    "Tiles/Gel_Blister_Debug_Item"
+  ]
+}

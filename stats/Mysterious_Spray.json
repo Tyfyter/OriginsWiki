@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Tooltip": [
     "Increases life regeneration at low health",

@@ -1,0 +1,19 @@
+{
+  "Name": "Living Bile Block",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 18,
+  "InternalName": "Living_Bile_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Living_Bile_Item",
+    "Tiles/Living_Bile_Block"
+  ]
+}

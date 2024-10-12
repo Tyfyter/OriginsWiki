@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Tooltip": [
     "The player adopts the consistency of a slime",

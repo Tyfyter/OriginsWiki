@@ -1,13 +1,14 @@
 {
-  "Image": "Images/Spider_Amoeba",
+  "Image": "Spider_Amoeba",
   "Name": "Spider Amoeba",
   "Types": [
     "NPC"
   ],
   "MaxLife": 81,
   "Defense": 10,
-  "KBResist": 0.5,
+  "KBResist": 0.75,
   "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
     "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 90.0,
@@ -35,7 +36,7 @@
   ],
   "Expert": {
     "MaxLife": 162,
-    "KBResist": 0.595,
+    "KBResist": 0.7975,
     "Coins": 225.0,
     "Drops": [
       {
@@ -62,7 +63,7 @@
   },
   "Master": {
     "MaxLife": 243,
-    "KBResist": 0.67999995,
+    "KBResist": 0.84,
     "Coins": 225.0,
     "Drops": [
       {
@@ -87,6 +88,6 @@
       }
     ]
   },
-  "SpriteWidth": 72,
-  "InternalName": "Spider_Amoeba"
+  "SpriteWidth": 68,
+  "InternalName": "Spider_Amoeba_Wall"
 }

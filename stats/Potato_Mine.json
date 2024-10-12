@@ -3,7 +3,6 @@
   "Types": [
     "Item",
     "Weapon",
-    "Sword",
     "Ammo",
     "Tile",
     "OtherExplosive",
@@ -13,8 +12,7 @@
     1,
     1
   ],
-  "Damage": 85,
-  "ArmorPenetration": 6,
+  "Damage": 50,
   "DamageClass": "",
   "UseTime": 10,
   "Tooltip": [

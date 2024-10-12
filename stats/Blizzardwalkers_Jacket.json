@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Tooltip": "Become immune after some time away from enemies",
   "Rarity": "Blue",

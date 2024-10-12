@@ -3,15 +3,11 @@
   "Name": "Scrap Barrier",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode"
+    "Accessory"
   ],
-  "Tooltip": [
-    "50% damage reduction while above 90% of total life",
-    "All life regeneration has a 3-second buffer period before it is applied after getting hit while above half life"
-  ],
-  "Rarity": "Cursed",
+  "Tooltip": "5% damage reduction and slightly increased life regeneration",
+  "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 28,
-  "InternalName": "Scrap_Barrier"
+  "InternalName": "Scrap_Barrier_Uncursed"
 }

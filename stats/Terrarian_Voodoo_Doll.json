@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Rarity": "Green",
   "SpriteWidth": 16,

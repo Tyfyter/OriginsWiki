@@ -5,8 +5,7 @@
     "Item",
     "Accessory",
     "Hardmode",
-    "Master",
-    "MasterAcc"
+    "Master"
   ],
   "Damage": 65,
   "DamageClass": "",

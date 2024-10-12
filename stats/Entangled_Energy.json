@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Accessory",
-    "Expert",
-    "ExpertAcc"
+    "Expert"
   ],
   "Tooltip": [
     "Fiberglass weapons gain damage based on defense",

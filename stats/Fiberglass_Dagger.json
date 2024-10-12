@@ -5,7 +5,6 @@
     "Item",
     "Accessory",
     "Master",
-    "MasterAcc",
     "GenericBoostAcc"
   ],
   "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",

@@ -4,18 +4,17 @@
   "Types": [
     "Item",
     "Accessory",
-    "Hardmode",
-    "MasterAcc"
+    "Master"
   ],
-  "ManaCost": 20,
-  "Damage": 50,
+  "ManaCost": 10,
+  "Damage": 35,
   "DamageClass": "",
-  "Knockback": 7.0,
+  "Knockback": 4.0,
   "UseTime": 48,
   "Velocity": 4.0,
-  "Tooltip": "You are Silenced, but the mouth will attack for you",
-  "Rarity": "Cursed",
+  "Tooltip": "The mouth will spit at nearby enemies",
+  "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 38,
-  "InternalName": "Forbidden_Voice"
+  "InternalName": "Forbidden_Voice_Uncursed"
 }

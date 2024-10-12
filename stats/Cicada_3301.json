@@ -1,12 +1,27 @@
 {
-  "Image": "§ModImage§/Items/Other/Fish/Cicada_3301_Item",
+  "Image": "Cicada_3301",
   "Name": "Cicada 3301",
   "Types": [
-    "Item"
+    "NPC"
   ],
-  "UseTime": 10,
-  "Tooltip": "Very cryptic. What does this mean?",
-  "Rarity": "White",
-  "SpriteWidth": 12,
-  "InternalName": "Cicada_3301_Item"
+  "MaxLife": 5,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 20,
+  "InternalName": "Cicada_3301"
 }
