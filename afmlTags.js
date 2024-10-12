@@ -589,7 +589,7 @@ class AFMLStatBlock extends HTMLElement {
 			}
 			if (stats.PlacementSize) labeled(`yes (${stats.PlacementSize[0]}x${stats.PlacementSize[1]})`, 'Placeable', 'https://terraria.wiki.gg/wiki/Placement');
 			if (stats.Defense) {
-				labeled(stats.Defense, stats.Defense + setSuffix);
+				labeled(stats.Defense + setSuffix, 'Defense', 'https://terraria.wiki.gg/wiki/Defense');
 				if (stats.Tooltip) valueOrValues(stats.Tooltip, 'Tooltip', 'https://terraria.wiki.gg/wiki/Tooltips');
 			}
 			if (stats.SetBonus) labeled(stats.SetBonus, 'Set Bonus', 'https://terraria.wiki.gg/wiki/Armor');
