@@ -1,7 +1,7 @@
 {
   "categories": [
-	"prehardmode",
-	"explosive"
+	"hardmode",
+	"thrownexplosive"
   ],
   "intersection": true,
   "headers": [
