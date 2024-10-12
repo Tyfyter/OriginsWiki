@@ -10,6 +10,7 @@
   "Tooltip": "Reduces explosive fuse time",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Undead_Miner>Undead Miner</a>",
   "SpriteWidth": 28,
   "InternalName": "IWTPA_Standard"
 }

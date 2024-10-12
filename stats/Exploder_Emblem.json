@@ -11,6 +11,7 @@
   "Tooltip": "+5% explosive damage",
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Wall_of_Flesh>Wall of Flesh</a>",
   "SpriteWidth": 28,
   "InternalName": "Exploder_Emblem"
 }

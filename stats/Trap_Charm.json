@@ -9,6 +9,7 @@
   "Tooltip": "Reduces damage received from traps",
   "Rarity": "Green",
   "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Dead_Man%27s_Chest>Dead Man's Chest</a>",
   "SpriteWidth": 30,
   "InternalName": "Trap_Charm"
 }

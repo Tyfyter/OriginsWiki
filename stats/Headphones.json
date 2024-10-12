@@ -15,6 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "(8) <a is=a-link image=$fromStats>Busted Servo</a> (6) <a is=a-link image=$fromStats>Fiberglass Block</a> + <a is=a-link image=$fromStats>Power Core</a> + (5) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
   "SpriteWidth": 20,
   "InternalName": "Headphones"
 }

@@ -14,6 +14,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Bomb Handling Device</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest#Dungeon>Locked Gold Chest</a>",
   "SpriteWidth": 30,
   "InternalName": "Asylum_Whistle"
 }

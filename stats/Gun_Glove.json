@@ -16,6 +16,7 @@
   ],
   "Rarity": "Green",
   "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a quest",
   "SpriteWidth": 24,
   "InternalName": "Gun_Glove"
 }

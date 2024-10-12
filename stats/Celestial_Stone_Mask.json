@@ -14,6 +14,7 @@
   ],
   "Rarity": "Yellow",
   "Sell": 180000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Stone>Celestial Stone</a> + <a is=a-link image=$fromStats>Stone Mask</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 22,
   "InternalName": "Celestial_Stone_Mask"
 }

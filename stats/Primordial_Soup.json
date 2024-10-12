@@ -9,6 +9,7 @@
   "Tooltip": "Increased life regeneration based on the torn severity you're affected by",
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Gel Blister</a>",
   "SpriteWidth": 32,
   "InternalName": "Primordial_Soup"
 }

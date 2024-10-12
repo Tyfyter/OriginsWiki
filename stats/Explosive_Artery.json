@@ -16,6 +16,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Blood_Crawler>Blood Crawler</a> or <a is=a-link href=https://terraria.wiki.gg/wiki/Face_Monster>Face Monster</a>",
   "SpriteWidth": 24,
   "InternalName": "Explosive_Artery"
 }

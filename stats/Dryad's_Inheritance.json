@@ -14,6 +14,7 @@
   ],
   "Rarity": "Lime",
   "Sell": 80000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Spore_Sac>Spore Sac</a> + <a is=a-link image=$fromStats>Last Descendant</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 28,
   "InternalName": "Dryads_Inheritance"
 }

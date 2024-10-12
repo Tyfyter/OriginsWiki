@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Slag_Bucket",
+  "Name": "Slag Bucket",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 6,
+  "Tooltip": [
+    "5% damage reduction and slightly increased life regeneration",
+    "Grants immunity to knockback, fire blocks, and impeding shrapnel",
+    "67% of damage received is redirected to 3 enemies",
+    "You regenerate life while on fire"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 36,
+  "InternalName": "Slag_Bucket_Uncursed"
+}

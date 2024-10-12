@@ -9,10 +9,8 @@
   ],
   "Defense": 3,
   "Tooltip": [
-    "Grants immunity to knockback",
-    "Grants immunity to fire blocks",
-    "67% of damage received is redirected to 3 enemies",
-    "Enemies are less likely to target you"
+    "Grants immunity to knockback and fire blocks",
+    "67% of damage received is redirected to 3 enemies"
   ],
   "Rarity": "Pink",
   "Sell": 30000,

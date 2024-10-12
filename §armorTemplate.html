@@ -13,7 +13,7 @@
 			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				[statblock §Name§]
+				<a-statblock src="§Name§"></a-statblock>
 			</span>
 			<span id="error-log"></span>
 #if PageTextMain
@@ -25,7 +25,7 @@
 				<details class="section" id="Crafting" open>
 					<summary>Pieces<span class="divider"></span></summary>
 #for PieceNames
-[inlinestatblock §iteratorValue§]
+<a-statblock src="§iteratorValue§" inline></a-statblock>
 #endfor
 				</details>
 #if Crafting

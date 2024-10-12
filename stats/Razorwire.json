@@ -6,10 +6,7 @@
     "Accessory",
     "Combat"
   ],
-  "Tooltip": [
-    "67% of damage received is split across 3 enemies",
-    "Enemies are less likely to target you"
-  ],
+  "Tooltip": "67% of damage received is split across 3 enemies",
   "Rarity": "Green",
   "Sell": 10000,
   "SpriteWidth": 28,
