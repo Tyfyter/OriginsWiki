@@ -222,6 +222,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		switch (name) {
 			case 'href': {
 				requestHead(newValue).then((v) => {
+					if (this.getAttribute('href') != newValue) return;
 					if (v.status == 404) this.classList.add('redlink');
 					else this.classList.remove('redlink');
 				});
