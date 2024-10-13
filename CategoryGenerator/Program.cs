@@ -1,19 +1,25 @@
 ﻿using System;using System.Collections.Generic;using System.IO;using System.Linq;
-using System.Text;using Newtonsoft.Json;using Newtonsoft.Json.Bson;using Newtonsoft.Json.Linq;
+using System.Text;using System.Xml.Linq;using Newtonsoft.Json;using Newtonsoft.Json.Bson;using Newtonsoft.Json.Linq;
 using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGenerator.CategoryCast>;using OutputCategory = System.Collections.Generic.Dictionary<string, CategoryGenerator.CategoryObject>;namespace CategoryGenerator {	class Program {
 		static void Main(string[] args) {			if (Directory.Exists(args[0])) {				InputCategory catsToGen = JsonConvert.DeserializeObject<InputCategory>(File.ReadAllText(args[1]));				(string name, JObject data)[] stats = Directory.GetFiles(args[0]).Select(f => (Path.GetFileNameWithoutExtension(f), JObject.Parse(File.ReadAllText(f)))).ToArray();				JObject categories = new();				foreach (var cat in catsToGen) {
 					JObject newCat = new() {
 						["name"] = cat.Value.name
 					};
 					if (cat.Value.page is not null) newCat.Add("page", cat.Value.page);
+					Filter hiddenFilter = new HiddenFilter();
+					if (cat.Value.name != "Hidden") hiddenFilter = new NotFilter(hiddenFilter);
 					if (cat.Value.items is not null) {
 						Filter filter = CreateFilter(cat.Value.items);
 						newCat.Add("items", new JArray(stats
 							.Where(s => filter.Matches(s.data))
+							.Where(s => hiddenFilter.Matches(s.data))
 							.Select(s => s.name)
 						));
 					} else {
-						newCat.Add("items", new JArray(stats.Select(s => s.name)));
+						newCat.Add("items", new JArray(stats
+							.Where(s => hiddenFilter.Matches(s.data))
+							.Select(s => s.name)
+						));
 					}
 					categories.Add(cat.Key, newCat);
 				}				File.WriteAllText(args[2], JsonConvert.SerializeObject(categories, Formatting.Indented, new JsonSerializerSettings() {					DefaultValueHandling = DefaultValueHandling.Ignore,					NullValueHandling = NullValueHandling.Ignore				}));			}		}
@@ -161,6 +167,9 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 		public Filter B => b;
 		public override bool Matches(JToken data) => a.Matches(data) || b.Matches(data);
 		public override string ToString() => $"{a} | {b}";
+	}	public class HiddenFilter : Filter {
+		public override bool Matches(JToken data) => data is JObject obj && obj.TryGetValue("Types", out JToken child) && child is JArray array && array.Any(v => v.ToString() == "Hidden");
+		public override string ToString() => $"hidden";
 	}	public class CategoryCast {
 		public string name;
 		public string page;

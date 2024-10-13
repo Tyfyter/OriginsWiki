@@ -6,7 +6,8 @@
     "Accessory",
     "Hardmode",
     "Info",
-    "LoreItem"
+    "LoreItem",
+	"Hidden"
   ],
   "Tooltip": [
     "This tooltip is a message... and part of a system of messages... pay attention to it!",
