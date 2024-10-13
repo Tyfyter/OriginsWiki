@@ -530,6 +530,12 @@ details > summary {
 
 .stat-table-indicator {
 	text-align: center;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
 }
 
 .sortindex {

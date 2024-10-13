@@ -71,22 +71,28 @@ async function getAliases(){
 }
 getAliases();
 var aStats = {};
+let statRequestLock = {};
 async function getStats(name) {
-	var value = await aStats[name];
-	if(value === undefined){
-		var v = await (aStats[name] = getPageText('stats/'+name + '.json'));
+	if(aStats[name] === undefined){
+		aStats[name] = getPageText('stats/'+name + '.json');
+	}
+	if (aStats[name] === null) return null;
+	if (statRequestLock[name]) await statRequestLock[name].promise;
+	else statRequestLock[name] = AsyncLock.createLock();
+	if (aStats[name] instanceof Promise) {
+		let v = await aStats[name];
 		try {
 			if (!v || v.startsWith('<!DOCTYPE html>')) {
-				aStats[name] = {};
+				aStats[name] = null;
 			} else {
 				aStats[name] = JSON.parse(v);
 			}
-			value = aStats[name] = JSON.parse(v);
 		} catch (error) {
 			console.error(error, v);
 		}
 	}
-	return value;
+	statRequestLock[name].disable();
+	return await aStats[name];
 }
 getStats(pageName);
 const delay = ms => new Promise(res => setTimeout(res, ms));
@@ -840,15 +846,54 @@ class AFMLSortableList extends HTMLElement {
 	attributeChangedCallback(name, oldValue, newValue) {
 		getStats('statLists/'+newValue.replace(' ', '_')).then((v) => { this.doAutoSetup(v) });
 	}
+	async processExtension(data, name) {
+		if (data.extends) {
+			let parent = await this.processExtension(await getStats('statLists/' + data.extends.name), data.extends.name);
+			try {
+				data.headers = [];
+				for (let index = 0; index < parent.headers.length; index++) {
+					data.headers.push(parent.headers[index]);
+				}
+				if (data.extends.changes) {
+					for (let index = 0; index < data.extends.changes.length; index++) {
+						const change = data.extends.changes[index];
+						let j = 0;
+						for (j = 0; j < data.headers.length; j++) {
+							if (data.headers[j] === change.name || (data.headers[j].name && data.headers[j].name === change.name)) {
+								break;
+							}
+						}
+						switch (change.type) {
+							case 'remove':
+							data.headers.splice(j, 1);
+							break;
+							case 'insertAfter':
+							data.headers.splice(j + 1, 0, change.value);
+							break;
+						}
+					}
+				}
+			} catch (error) {
+				console.error(data.extends.name, error);
+			}
+		}
+		return data;
+	}
 	doAutoSetup(data) {
 		if (!data) {
 			this.table.innerHTML = `could not find statList ${this.getAttribute('src')}`;
 			return;
 		}
-		getCategories().then((cats) => {
+		let processedData = this.processExtension(data, this.getAttribute('src'));
+		getCategories().then(async (cats) => {
+			await processedData;
 			if (!(data.items instanceof Array)) data.items = [];
 			var currentCat;
 		
+			if (!data.categories) {
+				console.error(`stat list "${this.getAttribute('src')}" is missing categories`, data);
+				return;
+			}
 			if (data.intersection) {
 				currentCat = cats[data.categories[0]];
 				for (var i = 0; i < currentCat.items.length; i++) {
@@ -863,6 +908,10 @@ class AFMLSortableList extends HTMLElement {
 			} else {
 				for (var i = 0; i < data.categories.length; i++) {
 					currentCat = cats[data.categories[i]];
+					if (!currentCat) {
+						console.error(`could not find category "${data.categories[i]}"`);
+						continue;
+					}
 					for (var j = 0; j < currentCat.items.length; j++) {
 						data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
 					}
@@ -880,6 +929,7 @@ class AFMLSortableList extends HTMLElement {
 		if(data.headers[0] === 'Name'){
 			data.headers[0] = {name:'Name', expr:"`<a is=\"a-link\" ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=\"$fromStats\">${item.Name}</a>`", sortIndex:'item.Name', noAbbr:true};
 		}
+		if (this.getAttribute('src').startsWith('Music')) console.log(Object.assign({}, data.headers));
 		for(var j = 0; j < data.headers.length; j++){
 			let th = row.createChild('th');
 			if (j>0&&j<data.headers.length) th.classList.add('notleft');
@@ -895,37 +945,50 @@ class AFMLSortableList extends HTMLElement {
 		let body = this.table.createChild('tbody');
 		for(var i = 0; i < data.items.length; i++){
 			row = body.createChild('tr');
-			var item;
-			if(data.items[i] instanceof Object){
-				item = data.items[i];
-			}else{
-				let stats = await getStats(data.items[i]);
-				if (stats) {
-					item = Object.assign({}, stats);
-					item.WikiName = data.items[i];
-				}
-			}
-			if(!item.Name && !(data.items[i] instanceof Object)){
-				item.Name = data.items[i];
-			}
-			for(let key in defaultStats){
-				if(!item.hasOwnProperty(key)){
-					item[key] = defaultStats[key];
-				}
-			}
-			for(var j = 0; j < data.headers.length; j++){
-				var displayValue = item[data.headers[j]];
-				if (data.headers[j].expr){
-					displayValue = await new Function('item', 'return '+data.headers[j].expr+';')(item);
-				}
-				if (Array.isArray(displayValue)) {
-					displayValue = displayValue.join('<br>');
-				}
+			let promise = data.items[i] instanceof Object ? Promise.resolve({ isManualValue: true, value: data.items[i] }) : getStats(data.items[i]);
+			let tableItems = [];
+			for(var j = 0; j < data.headers.length; j++) {
 				let attributes = [];
 				if (j>0&&j<data.headers.length) attributes.push(['class', 'notleft']);
-				let tableItem = row.createChild('td', displayValue, ...attributes);
-				if (data.headers[j].sortIndex) tableItem.createChild('span', await new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
+				tableItems.push(row.createChild('td', '', ...attributes));
 			}
+			let actualI = i;
+			promise.then((v) => {
+				try {
+					var item;
+					if(v.isManualValue){
+						item = v.value;
+					}else{
+						item = Object.assign({}, v);
+						item.WikiName = data.items[actualI];
+					}
+					if(!item.Name && !(data.items[actualI] instanceof Object)){
+						item.Name = data.items[actualI];
+					}
+					for(let key in defaultStats){
+						if(!item.hasOwnProperty(key)){
+							item[key] = defaultStats[key];
+						}
+					}
+					for(var j = 0; j < data.headers.length; j++){
+						var displayValue = item[data.headers[j]];
+						if (data.headers[j].expr){
+							try {
+								displayValue = new Function('item', 'return '+data.headers[j].expr+';')(item);
+							} catch (error) {
+								console.error(`error while evaluating ${data.headers[j].expr} for ${v}`, item, error);
+							}
+						}
+						if (Array.isArray(displayValue)) {
+							displayValue = displayValue.join('<br>');
+						}
+						tableItems[j].innerHTML = displayValue;
+						if (data.headers[j].sortIndex) tableItems[j].createChild('span', new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
+					}
+				} catch (error) {
+					console.error(error, actualI, data, data.items[actualI]);
+				}
+			});
 		}
 	}
 }
