@@ -12,6 +12,6 @@
   "Rarity": "LightRed",
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-  "SpriteWidth": 26,
+  "SpriteWidth": 28,
   "InternalName": "Lousy_Liver"
 }

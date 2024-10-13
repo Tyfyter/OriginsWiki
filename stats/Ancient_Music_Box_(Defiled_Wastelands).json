@@ -4,7 +4,8 @@
     "Item",
     "Accessory",
     "Tile",
-    "MusicBox"
+    "MusicBox",
+    "Hardmode"
   ],
   "PlacementSize": [
     2,

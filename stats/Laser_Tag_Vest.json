@@ -10,6 +10,6 @@
   "Rarity": "LightPurple",
   "Sell": 40000,
   "Source": "<a is=a-link image=$fromStats>Power Core</a> + (6) <a is=a-link image=$fromStats>Rotor</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
-  "SpriteWidth": 22,
+  "SpriteWidth": 30,
   "InternalName": "Laser_Tag_Vest"
 }
