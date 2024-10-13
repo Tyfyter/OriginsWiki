@@ -9,6 +9,7 @@
   "Tooltip": "Attackers receive all damage inflicted on the user",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
   "SpriteWidth": 20,
   "InternalName": "Return_To_Sender"
 }

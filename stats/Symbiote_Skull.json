@@ -11,6 +11,7 @@
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Riven Protoform</a>",
   "SpriteWidth": 22,
   "InternalName": "Symbiote_Skull"
 }

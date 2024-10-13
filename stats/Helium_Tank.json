@@ -14,6 +14,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Whoopie_Cushion>Whoopie Cushion</a> + <a is=a-link image=$fromStats>Air Tank</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 20,
   "InternalName": "Helium_Tank"
 }

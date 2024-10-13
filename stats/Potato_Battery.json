@@ -15,6 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Copper_Bar>Copper Bar</a> + <a is=a-link image=$fromStats>Potato</a> + <a is=a-link image=$fromStats>Power Core</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
   "SpriteWidth": 22,
   "InternalName": "Potato_Battery"
 }

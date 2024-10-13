@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Blizzardwalkers_Jacket",
-  "Name": "Blizzardwalkers' Jacket",
+  "Name": "Blizzardwalker's Jacket",
   "Types": [
     "Item",
     "Accessory",
@@ -9,6 +9,7 @@
   "Tooltip": "Become immune after some time away from enemies",
   "Rarity": "Blue",
   "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Deerclops>Deerclops</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "SpriteWidth": 30,
   "InternalName": "Blizzardwalkers_Jacket"
 }

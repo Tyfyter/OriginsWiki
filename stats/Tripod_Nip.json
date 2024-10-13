@@ -11,6 +11,7 @@
   "Tooltip": "Reduces enemy aggression and spawn rates",
   "Rarity": "LightRed",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Tripod Nip</a>",
   "SpriteWidth": 24,
   "InternalName": "Tripod_Nip"
 }

@@ -12,6 +12,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 60000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "SpriteWidth": 16,
   "InternalName": "Mysterious_Spray"
 }

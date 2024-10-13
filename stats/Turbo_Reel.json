@@ -10,6 +10,7 @@
   "Tooltip": "Increased return speed for harpoon guns",
   "Rarity": "Green",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a <a is=a-link href=NPC_Quests.html>quest</a>",
   "SpriteWidth": 28,
   "InternalName": "Turbo_Reel"
 }

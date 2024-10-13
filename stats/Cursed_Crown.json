@@ -14,6 +14,7 @@
   ],
   "Rarity": "Green",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/King_Slime>King Slime</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "SpriteWidth": 24,
   "InternalName": "Cursed_Crown"
 }

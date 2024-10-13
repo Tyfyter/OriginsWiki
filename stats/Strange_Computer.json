@@ -21,6 +21,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "(5) <a is=a-link href=https://terraria.wiki.gg/wiki/Glass>Glass</a> + (10) <a is=a-link image=$fromStats>Busted Servo</a> + <a is=a-link image=$fromStats>Power Core</a> + (6) <a is=a-link image=$fromStats>Rotor</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
   "SpriteWidth": 32,
   "InternalName": "Strange_Computer"
 }

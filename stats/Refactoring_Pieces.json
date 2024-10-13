@@ -13,6 +13,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
   "SpriteWidth": 30,
   "InternalName": "Refactoring_Pieces"
 }

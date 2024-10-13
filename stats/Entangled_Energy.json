@@ -12,6 +12,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
   "SpriteWidth": 18,
   "InternalName": "Entangled_Energy"
 }

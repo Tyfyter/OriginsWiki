@@ -10,6 +10,7 @@
   "Tooltip": "Increases explosive blast radius by 40%",
   "Rarity": "Green",
   "Sell": 16000,
-  "SpriteWidth": 22,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a>",
+  "SpriteWidth": 34,
   "InternalName": "Nitro_Crate"
 }

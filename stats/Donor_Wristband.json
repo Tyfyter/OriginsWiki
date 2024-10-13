@@ -13,6 +13,6 @@
   "Rarity": "Blue",
   "Sell": 6000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Charm_of_Myths>Charm of Myths</a> + <a is=a-link image=$fromStats>Plasma Bag</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
-  "SpriteWidth": 20,
+  "SpriteWidth": 28,
   "InternalName": "Donor_Wristband"
 }
