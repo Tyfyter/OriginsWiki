@@ -2,7 +2,6 @@
   "Name": "Brineglow Debug Item",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

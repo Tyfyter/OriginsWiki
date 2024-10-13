@@ -2,7 +2,6 @@
   "Name": "Quartz",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

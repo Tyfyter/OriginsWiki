@@ -2,7 +2,6 @@
   "Name": "Felnum Ore",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PickReq": 65,

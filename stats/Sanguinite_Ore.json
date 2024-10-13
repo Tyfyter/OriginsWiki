@@ -2,7 +2,6 @@
   "Name": "Sanguinite Ore",
   "Types": [
     "Item",
-    "Ammo",
     "Tile"
   ],
   "PlacementSize": [

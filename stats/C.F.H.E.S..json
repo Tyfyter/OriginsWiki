@@ -15,7 +15,6 @@
   ],
   "Rarity": "LightRed",
   "Sell": 42000,
-  "Source": "<a is=a-link image=$fromStats>ACME Crate</a> + <a is=a-link image=$fromStats>Danger Barrel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 34,
   "InternalName": "CFHES"
 }
