@@ -6,7 +6,9 @@
     "name": "Accessories",
     "changes":[
       { "type": "remove", "name": "Visible on character" },
-      { "type": "insertAfter", "name": "Name", "value": { "name":"Song", "expr":"item.Music", "noAbbr": true }}
+      { "type": "remove", "name": "Source" },
+      { "type": "remove", "name": "Tooltip" },
+      { "type": "insertAfter", "name": "Name", "value": { "name":"Song", "expr":"`<audio src=https://github.com/Tyfyter/OriginsMusic/raw/refs/heads/main/Sounds/Music/${item.Music} width=400 style=\"max-width: 100%; width: 400px;\" controls></audio>`", "noAbbr": true }}
     ]
   }
 }

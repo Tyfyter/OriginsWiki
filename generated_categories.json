@@ -729,6 +729,7 @@
       "Sticky_Link_Grenade",
       "Stone_Mask",
       "Strainer",
+      "Strange_Computer",
       "Strange_Power-Up",
       "Strange_String",
       "Strange_Tooth",
@@ -2178,6 +2179,7 @@
       "Splashid",
       "Startillery",
       "Stealth_Ravel",
+      "Strange_Computer",
       "Strange_Power-Up",
       "Superjump_Cape",
       "Tainted_Flesh",
@@ -2485,6 +2487,7 @@
       "Stack_of_Shraps",
       "Stealth_Ravel",
       "Stone_Mask",
+      "Strange_Computer",
       "Strange_Tooth",
       "Superjump_Cape",
       "Super_Turbo_Reel",
@@ -3607,6 +3610,7 @@
       "Sticky_Link_Grenade",
       "Stone_Mask",
       "Strainer",
+      "Strange_Computer",
       "Strange_Power-Up",
       "Strange_String",
       "Strange_Tooth",
@@ -3708,7 +3712,8 @@
   "info": {
     "name": "Informational",
     "items": [
-      "Sonic_Radar"
+      "Sonic_Radar",
+      "Strange_Computer"
     ]
   },
   "vitality": {
@@ -3824,7 +3829,13 @@
   },
   "musicboxes": {
     "name": "Music Boxes",
-    "items": []
+    "items": [
+      "Ancient_Music_Box_(Defiled_Wastelands)",
+      "Ancient_Music_Box_(Riven_Hive)",
+      "Music_Box_(Defiled_Caverns)",
+      "Music_Box_(Defiled_Wastelands)",
+      "Music_Box_(Riven_Hive)"
+    ]
   },
   "arrow": {
     "name": "Arrows",

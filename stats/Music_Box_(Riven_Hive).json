@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Tile"
+    "Tile",
+    "MusicBox"
   ],
   "PlacementSize": [
     2,
@@ -12,6 +13,7 @@
   "UseTime": 10,
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Music": "Pereunt_Unum_Scindendum.ogg",
   "SpriteWidth": 32,
   "InternalName": "Music_Box_RH_Item",
   "Images": [

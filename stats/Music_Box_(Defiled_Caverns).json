@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Tile"
+    "Tile",
+    "MusicBox"
   ],
   "PlacementSize": [
     2,
@@ -13,6 +14,7 @@
   "Rarity": "LightRed",
   "Sell": 20000,
   "SpriteWidth": 32,
+  "Music": "Heart_Of_The_Beast.ogg",
   "InternalName": "Music_Box_DC_Item",
   "Images": [
     "§ModImage§/Tiles/MusicBoxes/Music_Box_DC_Item",

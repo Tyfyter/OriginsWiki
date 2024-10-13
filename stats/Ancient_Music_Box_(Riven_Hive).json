@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Tile"
+    "Tile",
+    "MusicBox"
   ],
   "PlacementSize": [
     2,

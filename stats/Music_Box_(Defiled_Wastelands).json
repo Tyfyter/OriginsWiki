@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Accessory",
-    "Tile"
+    "Tile",
+    "MusicBox"
   ],
   "PlacementSize": [
     2,
@@ -12,6 +13,7 @@
   "UseTime": 10,
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Music": "Stolen_Memories.ogg",
   "SpriteWidth": 32,
   "InternalName": "Music_Box_DW_Item",
   "Images": [
