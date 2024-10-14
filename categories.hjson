@@ -36,6 +36,7 @@
   }
   dev:{
     name:dev
+    dev:true
     items:[
       §example
       §page2
@@ -45,9 +46,16 @@
       §armorTemplate
     ]
   }
+  implimented:{
+    name:implimented
+    dev:true
+    items:[
+    ]
+  }
   unimplimented:{
     name:unimplimented
     blacklist:true
+    dev:true
     items:[
       cat\\:special
       cat\\:dev

@@ -371,7 +371,7 @@ async function createCategorySegment(){
 					}
 				}
 			}
-			if((thisCat.items.includes(pageName) ^ thisCat.blacklist) && !thisCat.hidden){
+			if((thisCat.items.includes(pageName) ^ thisCat.blacklist) && !thisCat.hidden && (getSiteSettings().devMode || !thisCat.dev)){
 				if(catsIn){
 					categoriesElement.append(document.createTextNode(', '));
 				}
