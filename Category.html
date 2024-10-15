@@ -15,6 +15,7 @@
 						for(var key in categories){
 							console.log('cat: '+key);
 							var cat = categories[key];
+							if (cat.hidden || (cat.dev && !getSiteSettings().devMode)) continue;
 							console.log(cat.page || key);
 							var count = cat.items.length;
 							var catCount = 0;
@@ -23,7 +24,7 @@
 									catCount++;
 								}
 							}
-							catContents += `<div class="catitem"><a href="${(cat.page + (cat.page && linkSuffix)) || '?'+key}">${(cat.name||key).replaceAll('_', ', ')}</a> (${catCount < count ? `${count - catCount} pages ${catCount > 0?', ':''}` : ''} ${catCount ? `${catCount} categories` : ''} )</div>`;
+							catContents += `<div class="catitem"><a href="${(cat.page + (cat.page && linkSuffix)) || '?'+key}">${(cat.name||key).replaceAll('_', ', ')}</a> (${(catCount < count || catCount === 0) ? `${count - catCount} pages${catCount > 0?', ':''}` : ''}${catCount ? ` ${catCount} categories` : ''})</div>`;
 						}
 						content.innerHTML += catContents;
 					};

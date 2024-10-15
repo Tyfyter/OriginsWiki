@@ -43,7 +43,7 @@ function parseXMLSitemap(sitemapContent) {
 }
 var _categories = requestPageText('categories.hjson');
 var _generated_categories = requestPageText('generated_categories.json');
-var _siteMap = requestPageText('sitemap.xml');
+var _siteMap = requestPageText('https://tyfyter.github.io/OriginsWiki/sitemap.xml');
 
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 pageName = decodeURI(pageName);
@@ -103,11 +103,10 @@ async function getSiteMap(){
 }
 
 async function getSearchLinks(query, filter = ".html"){
-    query = query.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
-	var regexQuery = new RegExp("("+query+")","i");
+	var regexQuery = new RegExp("("+query.replace(/(?<=.)(?=.)/g, '.?').replaceAll('.', '\\.')+")","i");
 	var results = [];
 	results = (await getSiteMap()).filter(function(v){
-		return v.match(regexQuery) && (v.includes(section) == query.includes(section));
+		return v.match(regexQuery) && (v.includes(section) == query.includes(section)) && (getSiteSettings().devMode || _categories.implimented.items.includes(v));
 	})
 	results = results.sort(function(a, b) {
 		try{
@@ -120,7 +119,7 @@ async function getSearchLinks(query, filter = ".html"){
 	});
 	//window.alert(results);
 	return results.map(function(v){
-		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(/\.[^.]+/g, "").replace(regexQuery, "<b>\$1</b>").replaceAll('_', ' ')+"</a>";
+		return '<a href='+v+linkSuffix+' class="searchLink">'+v.replace(regexQuery, "<b>\$1</b>").replaceAll('_', ' ')+"</a>";
 	}).join("<br>");
 }
 
@@ -360,7 +359,7 @@ async function createCategorySegment(){
 			while (!noCats) {
 				noCats = true;
 				for (var i1 = 0; i1 < thisCat.items.length; i1++) {
-					if(thisCat.items[i1].slice(0, 4) === 'cat:'){
+					if(thisCat.items[i1].slice(0, 4) === 'cat:') {
 						noCats = false;
 						try{
 							thisCat.items.push(...cats0[thisCat.items[i1].slice(4)].items);

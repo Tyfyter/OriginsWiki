@@ -640,6 +640,7 @@ details > summary {
 	clear:both;
 	overflow-y: auto;
 	max-height: calc(100vh - 1.25em - 0.55rem - 10px);
+	margin-top: 0.1rem;
 }
 .selectedSearch {
 	background-color: var(--box-bg-color);
