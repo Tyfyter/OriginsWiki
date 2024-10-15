@@ -35,6 +35,9 @@ jobs:
         uses: actions/configure-pages@v5
       - name: generate-sitemap
         uses: cicirello/generate-sitemap@v1.10.0
+        with:
+          # Upload entire repository
+          base-url-path: 'https://tyfyter.github.io/OriginsWiki'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
