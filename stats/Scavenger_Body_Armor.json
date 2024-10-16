@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Scavenger/Scavenger_Breastplate",
+  "Name": "Scavenger Body Armor",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "-25% self-damage",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 34,
+  "InternalName": "Scavenger_Breastplate"
+}

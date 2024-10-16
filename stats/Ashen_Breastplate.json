@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Ashen/Ashen_Breastplate",
+  "Name": "Ashen Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 7,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+8% weapon speed",
+  "Rarity": "Blue",
+  "Sell": 8000,
+  "SpriteWidth": 38,
+  "InternalName": "Ashen_Breastplate"
+}

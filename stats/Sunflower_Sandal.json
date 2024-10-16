@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Sunflower_Sandal",
+  "Images": [
+    "ArmorSets/Sunflower_Sandal"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Green",
+  "Sell": 0
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Candelabra",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 26,
+  "InternalName": "Marrowick_Candelabra_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Candelabra_Item",
+    "Tiles/Marrowick_Candelabra"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Toilet",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 16,
+  "InternalName": "Marrowick_Toilet_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Toilet_Item",
+    "Tiles/Marrowick_Toilet"
+  ]
+}

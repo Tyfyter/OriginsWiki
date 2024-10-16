@@ -1,0 +1,13 @@
+{
+  "categories": [
+	"hardmode",
+	"minionweapon"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	"Source",
+	"Notes"
+  ]
+}

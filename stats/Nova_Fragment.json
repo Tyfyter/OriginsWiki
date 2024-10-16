@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Materials/Nova_Fragment",
+  "Name": "Nova Fragment",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Cyan",
+  "Sell": 2000,
+  "SpriteWidth": 18,
+  "InternalName": "Nova_Fragment"
+}

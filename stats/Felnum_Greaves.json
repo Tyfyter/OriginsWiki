@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Felnum/Felnum_Greaves",
+  "Name": "Felnum Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 5,
+  "ArmorSlot": "Pants",
+  "Tooltip": "5% increased movement speed",
+  "Rarity": "Green",
+  "Sell": 6000,
+  "SpriteWidth": 22,
+  "InternalName": "Felnum_Greaves"
+}

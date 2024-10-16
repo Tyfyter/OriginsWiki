@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Personal_Laser_Blade",
+  "Name": "Personal Laser Blade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Sword"
+  ],
+  "Damage": 185,
+  "DamageClass": "Melee",
+  "Knockback": 1.0,
+  "Crit": 14,
+  "UseTime": 30,
+  "Velocity": 1.0,
+  "Tooltip": [
+    "Charge your swings for more powerful blows",
+    "'Be careful, it's hot'"
+  ],
+  "Rarity": "Pink",
+  "SpriteWidth": 20,
+  "InternalName": "Personal_Laser_Blade"
+}

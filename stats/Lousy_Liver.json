@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Lousy_Liver",
+  "Name": "Lousy Liver",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "RasterSource"
+  ],
+  "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
+  "SpriteWidth": 28,
+  "InternalName": "Lousy_Liver"
+}

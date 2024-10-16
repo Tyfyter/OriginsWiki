@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Mushroom_Key",
+  "Name": "Mushroom Key",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Yellow",
+  "SpriteWidth": 18,
+  "InternalName": "Mushroom_Key"
+}

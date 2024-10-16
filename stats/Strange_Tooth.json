@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Strange_Tooth",
+  "Name": "Strange Tooth",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master"
+  ],
+  "Damage": 13,
+  "DamageClass": "Summon",
+  "Knockback": 2.0,
+  "UseTime": 45,
+  "Tooltip": [
+    "Summons miniature servants to chase after enemies for every minion slot you have",
+    "Servants have a chance to drop hearts when the player is low on health"
+  ],
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Eye_of_Cthulhu>Eye of Cthulhu</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "SpriteWidth": 20,
+  "InternalName": "Strange_Tooth"
+}

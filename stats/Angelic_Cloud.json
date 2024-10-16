@@ -1,0 +1,19 @@
+{
+  "Name": "Angelic Cloud",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Angelic_Cloud_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dawn/Angelic_Cloud_Item",
+    "Tiles/Angelic_Cloud"
+  ]
+}

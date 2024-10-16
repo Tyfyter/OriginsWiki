@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Flare_Launcher",
+  "Name": "Flare Launcher",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Launcher",
+    "CanistahUser"
+  ],
+  "Damage": 14,
+  "ArmorPenetration": 4,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 2.0,
+  "UseTime": 32,
+  "Velocity": 14.0,
+  "Tooltip": "Can fire flares and canisters",
+  "Rarity": "Orange",
+  "Sell": 5000,
+  "SpriteWidth": 44,
+  "InternalName": "Flare_Launcher"
+}

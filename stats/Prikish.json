@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Prikish",
+  "Name": "Prikish",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Quest",
+  "SpriteWidth": 26,
+  "InternalName": "Prikish"
+}

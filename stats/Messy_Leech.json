@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Messy_Leech",
+  "Name": "Messy Leech",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat"
+  ],
+  "Tooltip": [
+    "All attacks inflict Bleeding",
+    "Prevents Defiled enemies from regenerating"
+  ],
+  "Rarity": "Blue",
+  "Sell": 6000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Fishing>Fishing</a> in the <a is=a-link href=https://terraria.wiki.gg/wiki/Jungle>Jungle</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Messy_Leech"
+}

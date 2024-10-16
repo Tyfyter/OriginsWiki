@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Endowood_Armor",
+  "Images": [
+    "ArmorSets/Endowood_Armor",
+    "ArmorSets/Endowood_Armor_Female"
+  ],
+  "Defense": 5,
+  "SetBonus": "1 defense",
+  "Rarity": "White",
+  "Sell": 0
+}

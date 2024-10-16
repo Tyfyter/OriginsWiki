@@ -1,0 +1,69 @@
+{
+  "Image": "Single-Cellular_Nautilus",
+  "Name": "Single-Cellular Nautilus",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 110,
+  "Defense": 31,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Torn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
+  ],
+  "Coins": 450.0,
+  "Drops": [
+    {
+      "Name": "Ancient Riven Mask",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Riven Coat",
+      "Chance": "0.19%"
+    },
+    {
+      "Name": "Ancient Riven Pants",
+      "Chance": "0.19%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 220,
+    "KBResist": 0.100000024,
+    "Coins": 1125.0,
+    "Drops": [
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "0.19%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 330,
+    "KBResist": 0.19999999,
+    "Coins": 1125.0,
+    "Drops": [
+      {
+        "Name": "Ancient Riven Mask",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Coat",
+        "Chance": "0.19%"
+      },
+      {
+        "Name": "Ancient Riven Pants",
+        "Chance": "0.19%"
+      }
+    ]
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Single_Cellular_Nautilus"
+}

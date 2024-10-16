@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Resin_Shield",
+  "Name": "Resin Shield",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Vitality",
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "Grants immunity to knockback and fire blocks",
+    "Blocks all self-damage on next hit",
+    "5 second cooldown",
+    "'A shield to withstand the test of time'"
+  ],
+  "Rarity": "Pink",
+  "Sell": 40000,
+  "Source": "(6) <a is=a-link href=https://terraria.wiki.gg/wiki/Amber>Amber</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Obsidian_Shield>Obsidian Shield</a> + (12) <a is=a-link image=$fromStats>Carburite</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 28,
+  "InternalName": "Resin_Shield"
+}

@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Sus_Ice_Cream",
+  "Name": "Suspicious Looking Ice Cream",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 45,
+  "Tooltip": [
+    "Summons the Primordial Amoeba",
+    "'This ice cream will eat YOU'"
+  ],
+  "Rarity": "Blue",
+  "SpriteWidth": 16,
+  "InternalName": "Sus_Ice_Cream"
+}

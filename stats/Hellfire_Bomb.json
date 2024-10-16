@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Hellfire_Bomb",
+  "Name": "Hellfire Bomb",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "ExpendableWeapon"
+  ],
+  "Damage": 48,
+  "ArmorPenetration": 1,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 25,
+  "Velocity": 5.0,
+  "Tooltip": "Explodes into a lingering fire",
+  "Rarity": "Orange",
+  "Sell": 540,
+  "SpriteWidth": 22,
+  "InternalName": "Hellfire_Bomb"
+}

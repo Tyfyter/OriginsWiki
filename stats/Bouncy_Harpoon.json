@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Bouncy_Harpoon",
+  "Name": "Bouncy Harpoon",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Harpoon"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "Tooltip": "Used as ammo for harpoon guns",
+  "Rarity": "Blue",
+  "Sell": 400,
+  "SpriteWidth": 26,
+  "InternalName": "Bouncy_Harpoon"
+}

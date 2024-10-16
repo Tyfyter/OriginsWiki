@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Pets/Smiths_Hammer",
+  "Name": "Smith's Hammer",
+  "Types": [
+    "Item"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": [
+    "Summons a Walking Furnace to light your way",
+    "'He must be worried sick!'"
+  ],
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 32,
+  "InternalName": "Smiths_Hammer"
+}

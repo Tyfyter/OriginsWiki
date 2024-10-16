@@ -1,0 +1,27 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Magic_Pain_Glove",
+  "Name": "Magic Pain Glove",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "MagicBoostAcc"
+  ],
+  "ManaCost": 3,
+  "Damage": -9,
+  "UseTime": 5,
+  "Velocity": 1.0,
+  "Tooltip": [
+    "12% increased melee speed",
+    "8% reduced mana usage",
+    "Enables auto swing for melee weapons",
+    "Automatically use mana potions when needed",
+    "Shoots random magic as you swing"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Feral_Claws>Feral Claws</a> + <a is=a-link image=$fromStats>Magic Glove</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Magic_Pain_Glove"
+}

@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Abysswalker_Armor",
+  "Images": [
+    "ArmorSets/Abysswalker_Armor",
+    "ArmorSets/Abysswalker_Armor_Female"
+  ],
+  "Defense": 24,
+  "SetBonus": "Not yet fully implemented\nIncreases max assimilation by 50%\nGain different abilities depending on accrued assimilation amounts from each evil",
+  "Rarity": "LightRed",
+  "Sell": 28000
+}

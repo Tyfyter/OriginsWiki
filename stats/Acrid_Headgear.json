@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Armor/Acrid/Acrid_Headgear",
+  "Name": "Acrid Headgear",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "10% increased magic damage and 25% reduced mana cost",
+    "Effect stronger when submerged",
+    "Emit a small aura of light"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 30000,
+  "SpriteWidth": 26,
+  "InternalName": "Acrid_Headgear"
+}

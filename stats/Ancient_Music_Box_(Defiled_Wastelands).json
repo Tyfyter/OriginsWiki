@@ -1,0 +1,23 @@
+{
+  "Name": "Ancient Music Box (Defiled Wastelands)",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Tile",
+    "MusicBox",
+    "Hardmode"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 32,
+  "InternalName": "Ancient_Music_Box_DW_Item",
+  "Images": [
+    "§ModImage§/Tiles/MusicBoxes/Ancient_Music_Box_DW_Item",
+    "Tiles/Ancient_Music_Box_(Defiled_Wastelands)"
+  ]
+}

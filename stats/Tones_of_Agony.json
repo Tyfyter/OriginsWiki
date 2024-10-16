@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Tones_Of_Agony",
+  "Name": "Tones of Agony",
+  "Types": [
+    "Item",
+    "Weapon",
+    "SpellBook"
+  ],
+  "ManaCost": 15,
+  "Damage": 40,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 28,
+  "Velocity": 9.0,
+  "Tooltip": "'Cries of the suffering'",
+  "Rarity": "Green",
+  "Sell": 15000,
+  "SpriteWidth": 28,
+  "InternalName": "Tones_Of_Agony"
+}

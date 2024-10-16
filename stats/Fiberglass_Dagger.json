@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Fiberglass_Dagger",
+  "Name": "Fiberglass Dagger",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "GenericBoostAcc"
+  ],
+  "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "SpriteWidth": 20,
+  "InternalName": "Fiberglass_Dagger"
+}

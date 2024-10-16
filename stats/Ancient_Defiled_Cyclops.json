@@ -1,0 +1,88 @@
+{
+  "Image": "Ancient_Defiled_Cyclops",
+  "Name": "Ancient Defiled Cyclops",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 12,
+  "KBResist": 0.5,
+  "Coins": 10000.0,
+  "Drops": [
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Ancient Kruncher"
+    },
+    {
+      "Name": "Ancient Defiled Helmet",
+      "Chance": "7.143%"
+    },
+    {
+      "Name": "Ancient Defiled Breastplate",
+      "Chance": "7.143%"
+    },
+    {
+      "Name": "Ancient Defiled Greaves",
+      "Chance": "7.143%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 600,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 25000.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Ancient Kruncher"
+      },
+      {
+        "Name": "Ancient Defiled Helmet",
+        "Chance": "7.143%"
+      },
+      {
+        "Name": "Ancient Defiled Breastplate",
+        "Chance": "7.143%"
+      },
+      {
+        "Name": "Ancient Defiled Greaves",
+        "Chance": "7.143%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 900,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 25000.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Ancient Kruncher"
+      },
+      {
+        "Name": "Ancient Defiled Helmet",
+        "Chance": "7.143%"
+      },
+      {
+        "Name": "Ancient Defiled Breastplate",
+        "Chance": "7.143%"
+      },
+      {
+        "Name": "Ancient Defiled Greaves",
+        "Chance": "7.143%"
+      }
+    ]
+  },
+  "SpriteWidth": 96,
+  "InternalName": "Ancient_Defiled_Cyclops"
+}

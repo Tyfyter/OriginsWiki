@@ -1,0 +1,12 @@
+{
+  "categories": [
+    "accessories"
+  ],
+  "headers": [
+    "Name",
+    "Source",
+    "Tooltip",
+    { "name":"Obtainable pre-Hardmode", "expr":"item.Types.includes('Hardmode') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not available pre-hardmode\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'available pre-hardmode\\'>✔️</abbr>'", "noAbbr": true},
+    { "name":"Visible on character", "expr":"item.VisualImage || '<div class=\\'stat-table-indicator\\'>❌</div>'", "noAbbr": true }
+  ]
+}

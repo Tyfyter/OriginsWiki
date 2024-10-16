@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Acrid_Handcannon",
+  "Name": "Acrid Handcannon",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Handcannon",
+    "Hardmode",
+    "Handcannon",
+    "ToxicSource"
+  ],
+  "Damage": 72,
+  "ArmorPenetration": 6,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
+  "Crit": 11,
+  "UseTime": 57,
+  "Velocity": 12.0,
+  "Tooltip": "Releases brine droplets upon slug detonation",
+  "Rarity": "LightRed",
+  "Sell": 100000,
+  "SpriteWidth": 56,
+  "InternalName": "Acrid_Handcannon"
+}

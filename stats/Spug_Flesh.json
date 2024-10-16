@@ -1,0 +1,20 @@
+{
+  "Name": "Spug Flesh",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 65,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Riven_Flesh_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Riven_Flesh_Item",
+    "Tiles/Spug_Flesh"
+  ]
+}

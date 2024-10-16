@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Manasynk_Pickup",
+  "Name": "Mana",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 18,
+  "InternalName": "Manasynk_Pickup"
+}

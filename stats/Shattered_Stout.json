@@ -1,0 +1,14 @@
+{
+  "Image": "Shattered_Stout",
+  "Name": "Shattered Stout",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Minor improvements to all stats",
+  "Rarity": "Blue",
+  "Sell": 400,
+  "SpriteWidth": 12,
+  "InternalName": "Shattered_Stout"
+}

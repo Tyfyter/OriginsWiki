@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Chemical_Laser",
+  "Name": "Chemical Laser",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "MagicGun",
+    "ToxicSource"
+  ],
+  "ManaCost": 8,
+  "Damage": 30,
+  "DamageClass": "Explosive Magic",
+  "UseTime": 12,
+  "Velocity": 32.0,
+  "Tooltip": "Splits into brine droplets on impact",
+  "Rarity": "LightRed",
+  "Sell": 5000,
+  "SpriteWidth": 50,
+  "InternalName": "Chemical_Laser"
+}

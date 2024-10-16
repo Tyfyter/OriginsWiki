@@ -1,0 +1,20 @@
+{
+  "Name": "Defiled Amalgamation Trophy",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    3
+  ],
+  "UseTime": 10,
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Amalgamation_Trophy_Item",
+  "Images": [
+    "§ModImage§/Tiles/BossDrops/Defiled_Amalgamation_Trophy_Item",
+    "Tiles/Defiled_Amalgamation_Trophy"
+  ]
+}

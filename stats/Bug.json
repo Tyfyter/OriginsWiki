@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Bug_Item",
+  "Name": "Bug",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Don't try to smash it, it'll make more problems'",
+  "Rarity": "Lime",
+  "SpriteWidth": 26,
+  "InternalName": "Bug_Item"
+}

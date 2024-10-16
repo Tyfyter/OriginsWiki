@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Bonehead_Jellyfish",
+  "Name": "Bonehead Jellyfish",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Quest",
+  "SpriteWidth": 38,
+  "InternalName": "Bonehead_Jellyfish"
+}

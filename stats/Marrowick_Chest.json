@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Chest",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 32,
+  "InternalName": "Marrowick_Chest_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Chest_Item",
+    "Tiles/Marrowick_Chest"
+  ]
+}

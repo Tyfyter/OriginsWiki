@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Spider_Ravel",
+  "Name": "Spider Ravel",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Movement"
+  ],
+  "Tooltip": [
+    "Double tap down to transform into a small, rolling ball",
+    "You may cling to walls and ceilings when raveled"
+  ],
+  "Rarity": "Pink",
+  "Sell": 60000,
+  "Source": "(270) <a is=a-link href=https://terraria.wiki.gg/wiki/Cobweb>Cobweb</a> + (50) <a is=a-link href=https://terraria.wiki.gg/wiki/Spider_Fang>Spider Fang</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Spider_Ravel"
+}

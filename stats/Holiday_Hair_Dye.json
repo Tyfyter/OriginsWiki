@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Holiday_Hair_Dye",
+  "Name": "Holiday Hair Dye",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Hair appearance changes depending on the current holiday",
+  "Rarity": "Green",
+  "Sell": 60000,
+  "SpriteWidth": 18,
+  "InternalName": "Holiday_Hair_Dye"
+}

@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Orbital_Saw",
+  "Name": "Orbital Saw",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Boomerang"
+  ],
+  "Damage": 14,
+  "DamageClass": "Melee",
+  "Knockback": 2.0,
+  "UseTime": 13,
+  "Velocity": 10.75,
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 28,
+  "InternalName": "Orbital_Saw"
+}

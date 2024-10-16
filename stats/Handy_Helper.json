@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Handy_Helper",
+  "Name": "Handy Helper",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Knockback": 8.0,
+  "Tooltip": [
+    "Amebic tentacles will protect you from projectiles and enemies",
+    "Increases melee knockback",
+    "12% increased melee speed",
+    "Enables auto swing for melee weapons",
+    "Increases the size of melee weapons"
+  ],
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Power_Glove>Power Glove</a> + <a is=a-link image=$fromStats>Amebic Vial</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 26,
+  "InternalName": "Handy_Helper"
+}

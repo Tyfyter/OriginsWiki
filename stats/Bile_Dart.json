@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Bile_Dart",
+  "Name": "Bile Dart",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Dart",
+    "RasterSource"
+  ],
+  "Damage": 11,
+  "DamageClass": "Ranged",
+  "Knockback": 2.2,
+  "Velocity": 3.0,
+  "Tooltip": "Stuns the target",
+  "Rarity": "Orange",
+  "Sell": 6,
+  "SpriteWidth": 14,
+  "InternalName": "Bile_Dart"
+}

@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Gun_Glove",
+  "Name": "Gun Glove",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "UseTime": 5,
+  "Velocity": 5.0,
+  "Tooltip": [
+    "Shoots as you swing",
+    "'Ammo not included'"
+  ],
+  "Rarity": "Green",
+  "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a <a is=a-link href=NPC_Quests.html>quest</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Gun_Glove"
+}

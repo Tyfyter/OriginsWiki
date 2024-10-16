@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Tiles/Defiled/Defiled_Torch",
+  "Name": "Defiled Torch",
+  "Types": [
+    "Item",
+    "Tile",
+    "Torch"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 10,
+  "LightIntensity": "70%",
+  "LightColor": [
+    0.7,
+    0.7,
+    0.7
+  ],
+  "SpriteWidth": 14,
+  "InternalName": "Defiled_Torch"
+}

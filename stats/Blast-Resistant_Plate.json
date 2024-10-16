@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Blast_Resistant_Plate",
+  "Name": "Blast-Resistant Plate",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Vitality",
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek"
+  ],
+  "Defense": 3,
+  "Tooltip": "Reduces explosive self-damage by 10%",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 34,
+  "InternalName": "Blast_Resistant_Plate"
+}

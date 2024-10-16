@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Decimator",
+  "Name": "Decimator",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Spear"
+  ],
+  "Damage": 22,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 28,
+  "Velocity": 3.75,
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 66,
+  "InternalName": "Decimator"
+}

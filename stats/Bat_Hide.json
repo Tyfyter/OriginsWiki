@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Materials/Bat_Hide",
+  "Name": "Bat Hide",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 24,
+  "InternalName": "Bat_Hide"
+}

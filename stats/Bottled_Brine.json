@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Bottled_Brine",
+  "Name": "Bottled Brine",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 40,
+  "SpriteWidth": 20,
+  "InternalName": "Bottled_Brine"
+}

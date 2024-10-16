@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Keepsake_Remains",
+  "Name": "Keepsake Remains",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "Torn",
+    "TornSource",
+    "GenericBoostAcc"
+  ],
+  "Tooltip": "Increases armor penetration by 5 and attacks tenderize targets",
+  "Rarity": "Green",
+  "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace>Shark Tooth Necklace</a> + <a is=a-link image=$fromStats>Symbiote Skull</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Keepsake_Remains"
+}

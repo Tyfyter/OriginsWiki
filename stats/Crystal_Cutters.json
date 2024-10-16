@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Crystal_Cutters",
+  "Name": "Crystal Cutters",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Sword"
+  ],
+  "Damage": 44,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 39,
+  "Velocity": 7.0,
+  "Rarity": "LightRed",
+  "Sell": 2000,
+  "SpriteWidth": 34,
+  "InternalName": "Crystal_Cutters"
+}

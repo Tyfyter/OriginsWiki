@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Sunflower_Seed_Shooter",
+  "Name": "Sunflower Seed Shooter",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "Knockback": 1.0,
+  "Crit": 7,
+  "UseTime": 8,
+  "Velocity": 9.0,
+  "Tooltip": [
+    "Uses sunflowers as ammo",
+    "25% chance not to consume ammo"
+  ],
+  "Rarity": "Blue",
+  "Sell": 4000,
+  "SpriteWidth": 36,
+  "InternalName": "Sunflower_Seed_Shooter"
+}

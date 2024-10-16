@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Materials/Power_Core",
+  "Name": "Power Core",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Pink",
+  "Sell": 2000,
+  "SpriteWidth": 10,
+  "InternalName": "Power_Core"
+}

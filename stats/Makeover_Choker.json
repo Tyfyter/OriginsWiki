@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Makeover_Choker",
+  "Name": "Makeover Choker",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Vitality"
+  ],
+  "Tooltip": [
+    "Increases life regeneration at low health",
+    "Increases length of invincibility after taking damage",
+    "'You look like a mess, let's get that taken care of'"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 100000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Cross_Necklace>Cross Necklace</a> + <a is=a-link image=$fromStats>Mysterious Spray</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 22,
+  "InternalName": "Makeover_Choker"
+}

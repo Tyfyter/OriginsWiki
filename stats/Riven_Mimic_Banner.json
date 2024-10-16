@@ -1,0 +1,20 @@
+{
+  "Name": "Riven Mimic Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Riven Mimic",
+  "Rarity": "White",
+  "SpriteWidth": 12,
+  "InternalName": "Riven_Mimic_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Riven_Mimic_Banner_Item",
+    "Tiles/Riven_Mimic_Banner"
+  ]
+}

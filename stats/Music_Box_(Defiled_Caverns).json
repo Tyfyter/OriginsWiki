@@ -1,0 +1,23 @@
+{
+  "Name": "Music Box (Defiled Caverns)",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Tile",
+    "MusicBox"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "Music": "Heart_Of_The_Beast.ogg",
+  "SpriteWidth": 32,
+  "InternalName": "Music_Box_DC_Item",
+  "Images": [
+    "§ModImage§/Tiles/MusicBoxes/Music_Box_DC_Item",
+    "Tiles/Music_Box_(Defiled_Caverns)"
+  ]
+}

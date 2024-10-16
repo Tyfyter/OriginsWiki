@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Newsboy_Cap",
+  "Images": [
+    "ArmorSets/Newsboy_Cap"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Green",
+  "Sell": 0
+}

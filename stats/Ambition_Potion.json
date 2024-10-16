@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Ambition_Potion",
+  "Name": "Ambition Potion",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "2.5% increased damage, crit chance, weapon speed",
+    "12.5% stat share "
+  ],
+  "Rarity": "Blue",
+  "Sell": 200,
+  "SpriteWidth": 20,
+  "InternalName": "Ambition_Potion"
+}

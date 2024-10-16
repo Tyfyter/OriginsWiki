@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Duskarp",
+  "Name": "Duskarp",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Quest",
+  "SpriteWidth": 38,
+  "InternalName": "Duskarp"
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Dusklight",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Dusk_Light_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dusk/Dusk_Light_Item",
+    "Tiles/Dusklight"
+  ]
+}

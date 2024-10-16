@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Armor/Riptide/Riptide_Helmet",
+  "Name": "Riptide Helm",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "5% increased magic damage",
+    "Greatly extends underwater breathing"
+  ],
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 20,
+  "InternalName": "Riptide_Helmet"
+}

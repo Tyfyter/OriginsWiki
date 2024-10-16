@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Ace_Shrapnel_Old",
+  "Name": "Ancient Fragthrower",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 85,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 28,
+  "Velocity": 6.0,
+  "Tooltip": "What do we do with it?",
+  "Rarity": "Lime",
+  "Sell": 100000,
+  "SpriteWidth": 72,
+  "InternalName": "Ace_Shrapnel_Old"
+}

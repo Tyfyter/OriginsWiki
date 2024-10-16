@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Amber_Armor",
+  "Images": [
+    "ArmorSets/Amber_Armor",
+    "ArmorSets/Amber_Armor_Female"
+  ],
+  "Defense": 21,
+  "SetBonus": "-38% explosive blast radius.\nAll explosives are preserved in amber and release amber shards upon detonation\nAmber shards slow enemies, heal the player of any self-damage received, and decrease the defense of struck enemies by half",
+  "Rarity": "LightRed",
+  "Sell": 60000
+}

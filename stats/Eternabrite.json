@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Eternabrite",
+  "Name": "Eternabrite",
+  "Types": [
+    "Item",
+    "Weapon",
+    "UsesBookcase",
+    "SpellBook"
+  ],
+  "ManaCost": 14,
+  "Damage": 28,
+  "DamageClass": "Magic",
+  "Knockback": 8.0,
+  "UseTime": 20,
+  "Velocity": 14.0,
+  "Tooltip": "Casts a forceful flame",
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "SpriteWidth": 28,
+  "InternalName": "Eternabrite"
+}

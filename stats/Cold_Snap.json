@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Cold_Snap",
+  "Name": "Cold Snap",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Launcher",
+    "CanistahUser"
+  ],
+  "Damage": 15,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 3.0,
+  "UseTime": 32,
+  "Velocity": 16.0,
+  "Tooltip": [
+    "Inflicts frostburn to struck enemies",
+    "Uses canisters as ordinance"
+  ],
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 50,
+  "InternalName": "Cold_Snap"
+}

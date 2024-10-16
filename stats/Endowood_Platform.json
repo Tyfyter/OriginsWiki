@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Platform",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 24,
+  "InternalName": "Endowood_Platform_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Platform_Item",
+    "Tiles/Endowood_Platform"
+  ]
+}

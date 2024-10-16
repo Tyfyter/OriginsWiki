@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Bang_Snap",
+  "Name": "Bang Snap",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "ExpendableWeapon"
+  ],
+  "Damage": 10,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 19,
+  "Velocity": 12.0,
+  "Tooltip": "The Party Girl loves these",
+  "Rarity": "White",
+  "Sell": 1,
+  "SpriteWidth": 16,
+  "InternalName": "Bang_Snap"
+}

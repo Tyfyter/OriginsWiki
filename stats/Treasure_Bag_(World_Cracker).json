@@ -1,0 +1,55 @@
+{
+  "Image": "§ModImage§/Items/Other/LootBags/World_Cracker_Bag",
+  "Name": "Treasure Bag (World Cracker)",
+  "Types": [
+    "Item",
+    "Expert"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Yellow",
+  "Drops": [
+    {
+      "Name": "Encrusted Ore",
+      "Amount": "20‒330"
+    },
+    {
+      "Name": "Riven Carapace",
+      "Amount": "1‒134"
+    },
+    {
+      "Name": "Teardown",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Vorpal Sword",
+      "Chance": "50%"
+    },
+    {
+      "Name": "World Cracker Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "World Cracker Mask",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Protozoa Food"
+    },
+    {
+      "Name": "Gold Coin",
+      "Amount": 15,
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Plague Texan Set",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Chee Set",
+      "Chance": "3.125%"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "World_Cracker_Bag"
+}

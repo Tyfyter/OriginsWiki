@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Adhesive_Wrap",
+  "Name": "Adhesive Wrap",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 18,
+  "SpriteWidth": 24,
+  "InternalName": "Adhesive_Wrap"
+}

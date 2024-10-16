@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Riven/Riven_Pants",
+  "Name": "Riven Pants",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Pants",
+  "Tooltip": "6% increased weapon speed",
+  "Rarity": "Blue",
+  "Sell": 6000,
+  "SpriteWidth": 22,
+  "InternalName": "Riven_Pants"
+}

@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Dismay",
+  "Name": "Dismay",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "UsesBookcase",
+    "SpellBook"
+  ],
+  "ManaCost": 14,
+  "Damage": 50,
+  "DamageClass": "Magic",
+  "Knockback": 5.0,
+  "Crit": 10,
+  "UseTime": 5,
+  "Velocity": 12.0,
+  "Tooltip": "'Very pointy for a book'",
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "SpriteWidth": 40,
+  "InternalName": "Dismay"
+}

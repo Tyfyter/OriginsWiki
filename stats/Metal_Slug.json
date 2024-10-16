@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Metal_Slug",
+  "Name": "Metal Slug",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 25,
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 2.0,
+  "Tooltip": "'Great ammo for a really BIG gun'",
+  "Rarity": "White",
+  "Sell": 300,
+  "SpriteWidth": 16,
+  "InternalName": "Metal_Slug"
+}

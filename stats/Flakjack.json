@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Flakjack",
+  "Name": "Flakjack",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Handcannon",
+    "Hardmode",
+    "Handcannon"
+  ],
+  "Damage": 192,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 8.0,
+  "Crit": 18,
+  "UseTime": 17,
+  "Velocity": 12.0,
+  "Tooltip": "Uses metal slugs as ammo",
+  "Rarity": "Crimson",
+  "Sell": 150000,
+  "SpriteWidth": 72,
+  "InternalName": "Flakjack"
+}

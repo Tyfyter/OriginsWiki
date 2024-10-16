@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Rotting_Worm_Staff",
+  "Name": "Rotting Worm Staff",
+  "Types": [
+    "Item",
+    "Weapon",
+    "MinionWeapon",
+    "Minion"
+  ],
+  "ManaCost": 14,
+  "Damage": 4,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": "Summons a mini Eater of Worlds to fight for you",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 54,
+  "InternalName": "Rotting_Worm_Staff"
+}

@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Strange_String",
+  "Name": "Strange String",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2,
+  "SpriteWidth": 24,
+  "InternalName": "Strange_String"
+}

@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Pets/Blockus_Tube",
+  "Name": "Blockus Tube",
+  "Types": [
+    "Item",
+    "Master"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a Juvenile Amalgamation to watch over your nasal cavity",
+  "Rarity": "Master",
+  "Sell": 50000,
+  "SpriteWidth": 32,
+  "InternalName": "Blockus_Tube"
+}

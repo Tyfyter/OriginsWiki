@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Nova_Armor",
+  "Images": [
+    "ArmorSets/Nova_Armor",
+    "ArmorSets/Nova_Armor_Female"
+  ],
+  "Defense": 48,
+  "SetBonus": "Massively increased explosive blast radius\nExplosive projectiles have a chance to be duplicated\nExplosives home towards nearby enemies",
+  "Rarity": "Red",
+  "Sell": 315000
+}

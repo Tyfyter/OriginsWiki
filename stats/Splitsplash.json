@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Splitsplash",
+  "Name": "Splitsplash",
+  "Types": [
+    "Item",
+    "Weapon",
+    "SpellBook"
+  ],
+  "ManaCost": 16,
+  "Damage": 16,
+  "DamageClass": "Magic",
+  "UseTime": 8,
+  "Velocity": 8.75,
+  "Tooltip": "Casts amoeba bubbles that split on contact",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 28,
+  "InternalName": "Splitsplash"
+}

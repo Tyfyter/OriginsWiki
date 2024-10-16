@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Armor/Marrowick/Marrowick_Helmet",
+  "Name": "Marrowick Cove",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 1,
+  "ArmorSlot": "Helmet",
+  "Rarity": "White",
+  "SpriteWidth": 28,
+  "InternalName": "Marrowick_Helmet"
+}

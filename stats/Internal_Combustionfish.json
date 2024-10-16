@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Internal_Combustionfish",
+  "Name": "Internal Combustionfish",
+  "Types": [
+    "Item",
+    "Weapon",
+    "ThrownExplosive",
+    "ExpendableWeapon"
+  ],
+  "Damage": 35,
+  "ArmorPenetration": 7,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 10.0,
+  "UseTime": 30,
+  "Velocity": 6.0,
+  "Tooltip": "Remains attached to the target until multiple enemies are nearby",
+  "Rarity": "Blue",
+  "Sell": 3500,
+  "SpriteWidth": 52,
+  "InternalName": "Internal_Combustionfish"
+}

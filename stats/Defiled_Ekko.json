@@ -1,0 +1,46 @@
+{
+  "Image": "Defiled_Ekko",
+  "Name": "Defiled Ekko",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 26,
+  "KBResist": 0.65,
+  "Coins": 1500.0,
+  "Drops": [
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    }
+  ],
+  "DefiledAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 400,
+    "KBResist": 0.71650004,
+    "Immunities": [],
+    "Coins": 9375.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      }
+    ],
+    "DefiledAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 600,
+    "KBResist": 0.776,
+    "Immunities": [],
+    "Coins": 9375.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      }
+    ],
+    "DefiledAssimilation": 0.06
+  },
+  "SpriteWidth": 28,
+  "InternalName": "Defiled_Ekko"
+}

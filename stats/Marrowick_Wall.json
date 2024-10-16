@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Walls/Marrowick_Wall_Item",
+  "Name": "Marrowick Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Tooltip": "Feels waxy to the touch.",
+  "Rarity": "White",
+  "SpriteWidth": 28,
+  "InternalName": "Marrowick_Wall_Item"
+}

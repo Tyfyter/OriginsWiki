@@ -1,0 +1,20 @@
+{
+  "Name": "Marrowick Bathtub",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    4,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 30,
+  "InternalName": "Marrowick_Bathtub_Item",
+  "Images": [
+    "§ModImage§/Tiles/Marrowick/Marrowick_Bathtub_Item",
+    "Tiles/Marrowick_Bathtub"
+  ]
+}

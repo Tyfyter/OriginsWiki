@@ -1,0 +1,58 @@
+{
+  "Image": "Amoebeye",
+  "Name": "Amoebeye",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 60,
+  "KBResist": 0.25,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Ichor>Ichor</a>",
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Coins": 5000.0,
+  "Drops": [
+    {
+      "Name": "Bud Barnacle",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Alkahest",
+      "Amount": "2‒5"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 600,
+    "KBResist": 0.32500005,
+    "Coins": 12500.0,
+    "Drops": [
+      {
+        "Name": "Bud Barnacle",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Alkahest",
+        "Amount": "2‒5"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 900,
+    "KBResist": 0.39999998,
+    "Coins": 12500.0,
+    "Drops": [
+      {
+        "Name": "Bud Barnacle",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Alkahest",
+        "Amount": "2‒5"
+      }
+    ]
+  },
+  "SpriteWidth": 72,
+  "InternalName": "Amoebeye"
+}

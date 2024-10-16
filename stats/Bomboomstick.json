@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Bomboomstick",
+  "Name": "Bomboomstick",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Launcher"
+  ],
+  "Damage": 43,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 5.75,
+  "UseTime": 40,
+  "Velocity": 5.35,
+  "Tooltip": "Fires a cluster of three to five grenades",
+  "Rarity": "Lime",
+  "Sell": 43200,
+  "SpriteWidth": 70,
+  "InternalName": "Bomboomstick"
+}

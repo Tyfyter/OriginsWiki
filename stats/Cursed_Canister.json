@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Cursed_Canister",
+  "Name": "Cursed Canister",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 27,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Tooltip": "Releases a lingering cursed inferno in its wake",
+  "Rarity": "LightRed",
+  "Sell": 302,
+  "SpriteWidth": 16,
+  "InternalName": "Cursed_Canister"
+}

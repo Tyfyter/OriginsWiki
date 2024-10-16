@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Materials/Bleeding_Obsidian_Shard",
+  "Name": "Bleeding Obsidian Shard",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "LightRed",
+  "SpriteWidth": 16,
+  "InternalName": "Bleeding_Obsidian_Shard"
+}

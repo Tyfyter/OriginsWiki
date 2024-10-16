@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Defiled/Defiled_Greaves",
+  "Name": "Defiled Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Pants",
+  "Tooltip": "3% increased damage",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 22,
+  "InternalName": "Defiled_Greaves"
+}

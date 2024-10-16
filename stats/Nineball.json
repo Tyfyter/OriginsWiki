@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Nineball",
+  "Name": "Nineball",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Yoyo"
+  ],
+  "Damage": 18,
+  "DamageClass": "Melee",
+  "Knockback": 4.5,
+  "Crit": 9,
+  "UseTime": 25,
+  "Velocity": 16.0,
+  "Tooltip": "'Target verified, commencing hostilities!'",
+  "Rarity": "Blue",
+  "Sell": 9999,
+  "SpriteWidth": 30,
+  "InternalName": "Nineball"
+}

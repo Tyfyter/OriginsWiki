@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/The_Button",
+  "Name": "The Button",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 45,
+  "Tooltip": "Summons an I.C.A.R.U.S. unit",
+  "Rarity": "Crimson",
+  "SpriteWidth": 20,
+  "InternalName": "The_Button"
+}

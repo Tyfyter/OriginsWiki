@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Tiles/Riven/Acetabularia_Item",
+  "Name": "Acetabularia",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Acetabularia_Item"
+}

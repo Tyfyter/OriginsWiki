@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Pets/Chromatic_Scale",
+  "Name": "Chromatic Scale",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a rainbow pangolin",
+  "Rarity": "Cyan",
+  "Sell": 200000,
+  "SpriteWidth": 22,
+  "InternalName": "Chromatic_Scale"
+}

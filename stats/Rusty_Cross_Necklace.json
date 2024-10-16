@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Pets/Rusty_Cross_Necklace",
+  "Name": "Rusty Cross Necklace",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Summons a Guardian Angel to watch after you",
+    "'Be not afraid'"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 10000,
+  "SpriteWidth": 26,
+  "InternalName": "Rusty_Cross_Necklace"
+}

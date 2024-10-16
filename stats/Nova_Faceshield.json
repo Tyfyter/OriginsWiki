@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Armor/Nova/Nova_Helmet",
+  "Name": "Nova Faceshield",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 8,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "4% increased explosive damage and critical strike chance",
+    "50% increased explosive velocity"
+  ],
+  "Rarity": "Red",
+  "Sell": 70000,
+  "SpriteWidth": 22,
+  "InternalName": "Nova_Helmet"
+}

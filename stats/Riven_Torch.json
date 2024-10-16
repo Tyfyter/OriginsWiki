@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Tiles/Riven/Riven_Torch",
+  "Name": "Riven Torch",
+  "Types": [
+    "Item",
+    "Tile",
+    "Torch"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 10,
+  "LightIntensity": "52.5%-157.5%",
+  "LightColor": [
+    0.14285715,
+    1.0,
+    0.9047619
+  ],
+  "SpriteWidth": 14,
+  "InternalName": "Riven_Torch"
+}

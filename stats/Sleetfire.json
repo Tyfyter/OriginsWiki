@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Sleetfire",
+  "Name": "Sleetfire",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun"
+  ],
+  "Damage": 9,
+  "ArmorPenetration": 5,
+  "DamageClass": "Ranged",
+  "Knockback": 0.425,
+  "UseTime": 4,
+  "Velocity": 7.0,
+  "Tooltip": "Uses gel as ammo",
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 36,
+  "InternalName": "Sleetfire"
+}

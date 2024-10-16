@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Binding_Book",
+  "Name": "Binding Book",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "ManaShielding",
+    "MagicBoostAcc"
+  ],
+  "Tooltip": [
+    "Increases pickup range for mana stars",
+    "Increases maximum mana by 20",
+    "Restores mana when damaged",
+    "Increases mana shielding by 10%",
+    "Reduces damage taken by 5% if Lost Armor is not equipped"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 52000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Cuffs>Celestial Cuffs</a> + <a is=a-link image=$fromStats>Refactoring Pieces</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 38,
+  "InternalName": "Binding_Book"
+}

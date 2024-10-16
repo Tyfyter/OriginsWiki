@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Bile_Flask",
+  "Name": "Flask of Black Bile",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Melee and Whip attacks stun enemies",
+  "Rarity": "LightRed",
+  "Sell": 500,
+  "SpriteWidth": 22,
+  "InternalName": "Bile_Flask"
+}

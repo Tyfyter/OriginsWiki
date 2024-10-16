@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Innermost_Manifest",
+  "Name": "Innermost Manifest",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Torn",
+    "TornSource",
+    "UsesBookcase",
+    "SpellBook"
+  ],
+  "ManaCost": 8,
+  "Damage": 8,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 15,
+  "Velocity": 9.0,
+  "Rarity": "Orange",
+  "Sell": 3000,
+  "SpriteWidth": 28,
+  "InternalName": "Innermost_Manifest"
+}

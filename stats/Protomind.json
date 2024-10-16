@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Protomind",
+  "Name": "Protomind",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat"
+  ],
+  "Tooltip": [
+    "Has a chance to create illusions and dodge an attack",
+    "Temporarily increase critical chance after a dodge",
+    "May confuse nearby enemies after being struck",
+    "Magic projectiles slightly home towards targets"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Brain_of_Confusion>Brain of Confusion</a> + <a is=a-link image=$fromStats>Potato Battery</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>",
+  "SpriteWidth": 26,
+  "InternalName": "Protomind"
+}

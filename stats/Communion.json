@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Communion",
+  "Name": "Communion",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Wand"
+  ],
+  "ManaCost": 18,
+  "Damage": 52,
+  "DamageClass": "Magic",
+  "Knockback": 8.0,
+  "Crit": 12,
+  "UseTime": 26,
+  "Velocity": 10.0,
+  "Tooltip": "Fires a spark that bounces from enemies and pulls them towards you",
+  "Rarity": "Pink",
+  "Sell": 80000,
+  "SpriteWidth": 102,
+  "InternalName": "Communion"
+}

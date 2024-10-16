@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Two",
+  "Name": "Resizable Mine Mk. II",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 22,
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 3.0,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Green",
+  "Sell": 465,
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Two"
+}

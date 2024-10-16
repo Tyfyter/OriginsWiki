@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Manasynk",
+  "Name": "Manasynk",
+  "Types": [
+    "Item",
+    "Weapon",
+    "OtherMagic"
+  ],
+  "ManaCost": 7,
+  "Damage": 8,
+  "DamageClass": "Magic",
+  "Knockback": 5.75,
+  "UseTime": 15,
+  "Velocity": 7.0,
+  "Rarity": "Orange",
+  "Sell": 3000,
+  "SpriteWidth": 32,
+  "InternalName": "Manasynk"
+}

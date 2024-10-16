@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Blizzardwalkers_Jacket",
+  "Name": "Blizzardwalkers Jacket",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master"
+  ],
+  "Tooltip": "Become immune after some time away from enemies",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 30,
+  "InternalName": "Blizzardwalkers_Jacket"
+}

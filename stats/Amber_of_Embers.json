@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Amber_Of_Embers",
+  "Name": "Amber of Embers",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "Wand"
+  ],
+  "ManaCost": 7,
+  "Damage": 70,
+  "DamageClass": "Magic",
+  "Knockback": 6.5,
+  "UseTime": 11,
+  "Velocity": 8.0,
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 48,
+  "InternalName": "Amber_Of_Embers"
+}

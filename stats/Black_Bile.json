@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Materials/Black_Bile",
+  "Name": "Black Bile",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Orange",
+  "Sell": 1000,
+  "SpriteWidth": 16,
+  "InternalName": "Black_Bile"
+}

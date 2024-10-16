@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Lovers_Leap",
+  "Name": "Lover's Leap",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "GenericBoostAcc"
+  ],
+  "Damage": 30,
+  "DamageClass": "",
+  "Knockback": 2.0,
+  "Tooltip": [
+    "The wearer can run super fast and even faster after taking damage",
+    "Allows the player to dash into the enemy",
+    "Double tap a direction"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Spectre_Boots>Spectre Boots</a> + <a is=a-link image=$fromStats>Locket Necklace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 16,
+  "InternalName": "Lovers_Leap"
+}

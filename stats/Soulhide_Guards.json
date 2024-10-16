@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Soulhide/Soulhide_Guards",
+  "Name": "Soulhide Guards",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Pants",
+  "Tooltip": "+14% weapon knockback",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 22,
+  "InternalName": "Soulhide_Guards"
+}

@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Fiberglass_Wall_Item",
+  "Name": "Fiberglass Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 32,
+  "InternalName": "Fiberglass_Wall_Item"
+}

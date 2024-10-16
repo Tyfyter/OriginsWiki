@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Armor/Acrid/Acrid_Dome",
+  "Name": "Acrid Dome",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 2,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "10% increased explosive critical chance and throwing velocity",
+    "Effect stronger when submerged",
+    "Emit a small aura of light"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 30000,
+  "SpriteWidth": 22,
+  "InternalName": "Acrid_Dome"
+}

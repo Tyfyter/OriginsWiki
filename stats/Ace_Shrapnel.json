@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Ace_Shrapnel",
+  "Name": "Ace Shrapnel",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Launcher"
+  ],
+  "Damage": 18,
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 1,
+  "Velocity": 2.0,
+  "Tooltip": "Uses scrap as ammo",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 54,
+  "InternalName": "Ace_Shrapnel"
+}

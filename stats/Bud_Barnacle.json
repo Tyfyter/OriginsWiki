@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Bud_Barnacle",
+  "Name": "Bud Barnacle",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 2,
+  "SpriteWidth": 22,
+  "InternalName": "Bud_Barnacle"
+}

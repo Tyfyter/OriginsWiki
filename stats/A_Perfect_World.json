@@ -1,0 +1,21 @@
+{
+  "Name": "A Perfect World",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Tooltip": "'The Defiled'",
+  "Rarity": "White",
+  "Sell": 20000,
+  "SpriteWidth": 38,
+  "InternalName": "A_Perfect_World_Item",
+  "Images": [
+    "§ModImage§/Tiles/Decoration/A_Perfect_World_Item",
+    "Tiles/A_Perfect_World"
+  ]
+}

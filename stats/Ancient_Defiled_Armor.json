@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Ancient_Defiled_Armor",
+  "Images": [
+    "ArmorSets/Ancient_Defiled_Armor",
+    "ArmorSets/Ancient_Defiled_Armor_Female"
+  ],
+  "Defense": 19,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 30000
+}

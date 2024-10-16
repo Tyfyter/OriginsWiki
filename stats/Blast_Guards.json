@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Armor/Blast/Blast_Greaves",
+  "Name": "Blast Guards",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 13,
+  "ArmorSlot": "Pants",
+  "Tooltip": [
+    "+25% movement speed",
+    "+2% acceleration",
+    "Increased jump speed",
+    "-5% self-damage"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 45000,
+  "SpriteWidth": 22,
+  "InternalName": "Blast_Greaves"
+}

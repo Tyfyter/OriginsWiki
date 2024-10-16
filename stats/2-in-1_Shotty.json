@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/2_In_1_Shotty",
+  "Name": "2-in-1 Shotty",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Gun",
+    "Gun"
+  ],
+  "Damage": 14,
+  "DamageClass": "Ranged",
+  "Knockback": 5.75,
+  "UseTime": 40,
+  "Velocity": 5.35,
+  "Rarity": "Green",
+  "Sell": 40000,
+  "SpriteWidth": 52,
+  "InternalName": "Shotty_x2"
+}

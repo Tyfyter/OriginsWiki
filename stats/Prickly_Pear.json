@@ -1,0 +1,14 @@
+{
+  "Image": "Prickly_Pear",
+  "Name": "Prickly Pear",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Minor improvements to all stats",
+  "Rarity": "Blue",
+  "Sell": 400,
+  "SpriteWidth": 28,
+  "InternalName": "Prickly_Pear"
+}

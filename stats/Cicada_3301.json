@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Cicada_3301_Item",
+  "Name": "Cicada 3301",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Tooltip": "Very cryptic. What does this mean?",
+  "Rarity": "White",
+  "SpriteWidth": 12,
+  "InternalName": "Cicada_3301_Item"
+}

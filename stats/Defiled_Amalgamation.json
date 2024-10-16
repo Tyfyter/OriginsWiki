@@ -1,0 +1,76 @@
+{
+  "Image": "DefiledAmalg",
+  "Name": "Defiled Amalgamation",
+  "Types": [
+    "NPC",
+    "Boss"
+  ],
+  "MaxLife": 3100,
+  "Defense": 14,
+  "KBResist": 1.0,
+  "Coins": 50000.0,
+  "Drops": [
+    {
+      "Name": "Lost Ore",
+      "Amount": "140‒330"
+    },
+    {
+      "Name": "Undead Chunk",
+      "Amount": "40‒100"
+    },
+    {
+      "Name": "Low Signal",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Return To Sender",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Defiled Amalgamation Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Defiled Amalgamation Mask",
+      "Chance": "10%"
+    }
+  ],
+  "DefiledAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 4960,
+    "Defense": 13,
+    "Immunities": [],
+    "Coins": 125000.0,
+    "Drops": [
+      {
+        "Name": "Treasure Bag (Defiled Amalgamation)"
+      }
+    ],
+    "DefiledAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 7936,
+    "Defense": 15,
+    "Immunities": [],
+    "Coins": 125000.0,
+    "Drops": [
+      {
+        "Name": "Treasure Bag (Defiled Amalgamation)"
+      },
+      {
+        "Name": "Mysterious Spray",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Defiled Amalgamation Relic"
+      },
+      {
+        "Name": "Blockus Tube",
+        "Chance": "25%"
+      }
+    ],
+    "DefiledAssimilation": 0.06
+  },
+  "SpriteWidth": 122,
+  "InternalName": "Defiled_Amalgamation"
+}

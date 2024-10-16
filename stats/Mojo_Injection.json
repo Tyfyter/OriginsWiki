@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Mojo_Injection",
+  "Name": "Mojo Injection",
+  "Types": [
+    "Item",
+    "PermaBoost"
+  ],
+  "UseTime": 30,
+  "Tooltip": "Slowly reduces assimilation",
+  "Rarity": "LightRed",
+  "Sell": 800,
+  "SpriteWidth": 24,
+  "InternalName": "Mojo_Injection"
+}

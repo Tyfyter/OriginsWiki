@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Magic_Tripwire",
+  "Name": "Magic Tripwire",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "ExplosiveBoostAcc"
+  ],
+  "Tooltip": [
+    "Explosives will detonate near enemies",
+    "'Uses Bluetooth'"
+  ],
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Dead_Man%27s_Chest>Dead Man's Chest</a>",
+  "SpriteWidth": 30,
+  "InternalName": "Magic_Tripwire"
+}

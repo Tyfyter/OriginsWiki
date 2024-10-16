@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Tools/Trash_Lid",
+  "Name": "Impenetrable Trashcan Lid",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Movement",
+    "Mount"
+  ],
+  "UseTime": 20,
+  "Tooltip": "Knocks you back from your explosions instead of taking damage",
+  "Rarity": "Pink",
+  "Sell": 200000,
+  "SpriteWidth": 26,
+  "InternalName": "Trash_Lid"
+}

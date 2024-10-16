@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Alkahest_Canister",
+  "Name": "Alkahest Canister",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 30,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Tooltip": "Releases alkahest drops upon impact",
+  "Rarity": "LightRed",
+  "Sell": 302,
+  "SpriteWidth": 16,
+  "InternalName": "Alkahest_Canister"
+}

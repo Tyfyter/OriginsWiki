@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Materials/Sentient_Powder",
+  "Name": "Sentient Powder",
+  "Types": [
+    "Item"
+  ],
+  "Damage": 0,
+  "UseTime": 15,
+  "Velocity": 4.0,
+  "Tooltip": "Spreads the Riven",
+  "Rarity": "White",
+  "Sell": 20,
+  "SpriteWidth": 32,
+  "InternalName": "Sentient_Powder"
+}

@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Felnum/Felnum_Helmet",
+  "Name": "Felnum Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 5,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "4% increased damage",
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 24,
+  "InternalName": "Felnum_Helmet"
+}

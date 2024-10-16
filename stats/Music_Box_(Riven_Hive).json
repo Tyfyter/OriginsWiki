@@ -1,0 +1,23 @@
+{
+  "Name": "Music Box (Riven Hive)",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Tile",
+    "MusicBox"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "Music": "Pereunt_Unum_Scindendum.ogg",
+  "SpriteWidth": 32,
+  "InternalName": "Music_Box_RH_Item",
+  "Images": [
+    "§ModImage§/Tiles/MusicBoxes/Music_Box_RH_Item",
+    "Tiles/Music_Box_(Riven_Hive)"
+  ]
+}

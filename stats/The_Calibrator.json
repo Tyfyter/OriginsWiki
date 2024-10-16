@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/The_Calibrator",
+  "Name": "The Calibrator",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "MagicGun"
+  ],
+  "ManaCost": 16,
+  "Damage": 48,
+  "DamageClass": "Magic",
+  "Knockback": 4.75,
+  "UseTime": 6,
+  "Velocity": 9.0,
+  "Tooltip": "Fires trackers that prompt a laser to fire upon colliding",
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 58,
+  "InternalName": "The_Calibrator"
+}

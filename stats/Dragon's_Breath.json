@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Dragons_Breath",
+  "Name": "Dragon's Breath",
+  "Types": [
+    "Item",
+    "Weapon",
+    "ReworkExpected"
+  ],
+  "Damage": 40,
+  "DamageClass": "Ranged",
+  "Knockback": 2.5,
+  "Crit": 15,
+  "UseTime": 43,
+  "Velocity": 10.0,
+  "Tooltip": [
+    "Uses fireblossoms as ammo",
+    "Desperately needs rework"
+  ],
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "SpriteWidth": 68,
+  "InternalName": "Dragons_Breath"
+}

@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Dark_Spiral",
+  "Name": "Dark Spiral",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Boomerang"
+  ],
+  "Damage": 30,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 17,
+  "Velocity": 11.75,
+  "Tooltip": "Releases shadow scales when thrown",
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "SpriteWidth": 34,
+  "InternalName": "Dark_Spiral"
+}

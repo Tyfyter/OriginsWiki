@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Bone_Latcher",
+  "Name": "Bone Latcher",
+  "Types": [
+    "Item",
+    "Weapon",
+    "OtherMelee"
+  ],
+  "Damage": 20,
+  "DamageClass": "Melee",
+  "Knockback": 2.0,
+  "UseTime": 35,
+  "Velocity": 4.0,
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 46,
+  "InternalName": "Bone_Latcher"
+}

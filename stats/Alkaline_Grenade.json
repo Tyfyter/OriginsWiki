@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Alkaline_Grenade",
+  "Name": "Alkaline Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsBomb",
+    "ExpendableWeapon",
+    "ToxicSource"
+  ],
+  "Damage": 60,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 45,
+  "Velocity": 5.5,
+  "Tooltip": "Explodes into brine droplets",
+  "Rarity": "LightRed",
+  "Sell": 100,
+  "SpriteWidth": 14,
+  "InternalName": "Alkaline_Grenade"
+}

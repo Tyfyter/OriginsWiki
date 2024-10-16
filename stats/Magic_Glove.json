@@ -1,0 +1,27 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Magic_Glove",
+  "Name": "Magic Glove",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "MagicBoostAcc"
+  ],
+  "ManaCost": 3,
+  "Damage": 8,
+  "DamageClass": "Magic",
+  "UseTime": 5,
+  "Velocity": 3.0,
+  "Tooltip": [
+    "8% reduced mana usage",
+    "Automatically use mana potions when needed",
+    "Shoots random magic as you swing",
+    "'May require a prowess in magicks'"
+  ],
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Mana_Cloak>Mana Cloak</a> + <a is=a-link image=$fromStats>Gun Glove</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 22,
+  "InternalName": "Magic_Glove"
+}

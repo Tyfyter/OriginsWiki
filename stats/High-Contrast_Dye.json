@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Dyes/High_Contrast_Dye",
+  "Name": "High-Contrast Dye",
+  "Types": [
+    "Item",
+    "SpecialEffectDye"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 16,
+  "InternalName": "High_Contrast_Dye"
+}

@@ -1,0 +1,22 @@
+{
+  "Name": "Chambersite",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Tile"
+  ],
+  "PickReq": 35,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "Blue",
+  "Sell": 1300,
+  "SpriteWidth": 18,
+  "InternalName": "Chambersite_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Chambersite_Item",
+    "Tiles/Chambersite"
+  ]
+}

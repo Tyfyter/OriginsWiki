@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Messy_Magma_Leech",
+  "Name": "Messy Magma Leech",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat"
+  ],
+  "Tooltip": [
+    "All attacks inflict Bleeding and set enemies ablaze",
+    "Prevents Defiled enemies from regenerating"
+  ],
+  "Rarity": "Orange",
+  "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Magma_Stone>Magma Stone</a> + <a is=a-link image=$fromStats>Messy Leech</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Messy_Magma_Leech"
+}

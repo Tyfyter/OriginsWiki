@@ -1,0 +1,55 @@
+{
+  "Image": "§ModImage§/Items/Other/LootBags/Fiberglass_Weaver_Bag",
+  "Name": "Treasure Bag (Fiberglass Weaver)",
+  "Types": [
+    "Item",
+    "Expert"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Yellow",
+  "Drops": [
+    {
+      "Name": "Fiberglass Helmet",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Pauldrons",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Boots",
+      "Chance": "66.667%"
+    },
+    {
+      "Name": "Fiberglass Bow",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Sword",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Pistol",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Entangled Energy"
+    },
+    {
+      "Name": "Gold Coin",
+      "Amount": 15,
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Plague Texan Set",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Chee Set",
+      "Chance": "3.125%"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Fiberglass_Weaver_Bag"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Materials/Valkyrum_Bar",
+  "Name": "Valkyrum Bar",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 10000,
+  "SpriteWidth": 30,
+  "InternalName": "Valkyrum_Bar"
+}

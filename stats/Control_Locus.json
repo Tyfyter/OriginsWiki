@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Control_Locus",
+  "Name": "Control Locus",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master",
+    "Combat",
+    "RangedBoostAcc",
+    "ExplosiveBoostAcc"
+  ],
+  "Tooltip": [
+    "Ranged projectiles are duplicated 5 times",
+    "Explosive projectiles are duplicated twice",
+    "20% chance not to consume ammo"
+  ],
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Stack of Shraps</a> + <a is=a-link image=$fromStats>Weakpoint Analyzer</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 30,
+  "InternalName": "Control_Locus"
+}

@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Scrap",
+  "Name": "Scrap",
+  "Types": [
+    "Item",
+    "Ammo"
+  ],
+  "Damage": 0,
+  "Rarity": "Pink",
+  "Sell": 65,
+  "SpriteWidth": 24,
+  "InternalName": "Scrap"
+}

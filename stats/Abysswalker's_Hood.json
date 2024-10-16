@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Armor/Abysswalker/Abysswalker_Hood",
+  "Name": "Abysswalker's Hood",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 5,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "+20 max life",
+  "Rarity": "LightRed",
+  "Sell": 4000,
+  "SpriteWidth": 20,
+  "InternalName": "Abysswalker_Hood"
+}

@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Impact_Grenade",
+  "Name": "Impact Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "ExpendableWeapon"
+  ],
+  "Damage": 35,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 10.0,
+  "UseTime": 33,
+  "Velocity": 9.625,
+  "Tooltip": "'Be careful, it's not a book'",
+  "Rarity": "Green",
+  "Sell": 35,
+  "SpriteWidth": 14,
+  "InternalName": "Impact_Grenade"
+}

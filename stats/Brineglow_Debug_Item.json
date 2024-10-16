@@ -1,0 +1,20 @@
+{
+  "Name": "Brineglow Debug Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "Orange",
+  "Sell": 1700,
+  "SpriteWidth": 26,
+  "InternalName": "Brineglow_Debug_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Brineglow_Item",
+    "Tiles/Brineglow_Debug_Item"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Ashen/Ashen_Helmet",
+  "Name": "Ashen Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "8% increased damage",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 24,
+  "InternalName": "Ashen_Helmet"
+}

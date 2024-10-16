@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Armor/Blast/Blast_Helmet",
+  "Name": "Blast Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 8,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "+10% generic critical strike chance",
+    "-5% self-damage"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 75000,
+  "SpriteWidth": 28,
+  "InternalName": "Blast_Helmet"
+}

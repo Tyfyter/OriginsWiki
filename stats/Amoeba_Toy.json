@@ -1,0 +1,14 @@
+{
+  "Image": "§ModImage§/Items/Pets/Amoeba_Toy",
+  "Name": "Amoeba Toy",
+  "Types": [
+    "Item"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a Meberoid to light up the day",
+  "Rarity": "Blue",
+  "Sell": 75000,
+  "SpriteWidth": 28,
+  "InternalName": "Amoeba_Toy"
+}

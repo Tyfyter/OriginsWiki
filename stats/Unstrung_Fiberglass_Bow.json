@@ -1,0 +1,24 @@
+{
+  "Image": "Broken_Fiberglass_Bow",
+  "Name": "Unstrung Fiberglass Bow",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Bow",
+    "Bow"
+  ],
+  "Damage": 17,
+  "DamageClass": "Ranged",
+  "Knockback": 1.0,
+  "UseTime": 20,
+  "Velocity": 9.0,
+  "Tooltip": [
+    "Not very useful without a bowstring",
+    "Maybe you could find something to replace it",
+    "Right Click to string it with vines"
+  ],
+  "Rarity": "Green",
+  "Sell": 3000,
+  "SpriteWidth": 36,
+  "InternalName": "Broken_Fiberglass_Bow"
+}

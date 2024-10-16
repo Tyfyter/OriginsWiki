@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Headphones",
+  "Name": "Headphones",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "SummonBoostGear"
+  ],
+  "Tooltip": [
+    "Tagging an enemy increases the chance of a critical strike by 25% on next hit",
+    "Applies to teammates",
+    "'Callouts guys!'"
+  ],
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "Source": "(8) <a is=a-link image=$fromStats>Busted Servo</a> (6) <a is=a-link image=$fromStats>Fiberglass Block</a> + <a is=a-link image=$fromStats>Power Core</a> + (5) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
+  "SpriteWidth": 30,
+  "InternalName": "Headphones"
+}

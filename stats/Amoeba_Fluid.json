@@ -1,0 +1,20 @@
+{
+  "Name": "Amoeba Fluid",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 10,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Amoeba_Fluid_Item",
+  "Images": [
+    "§ModImage§/Tiles/Riven/Amoeba_Fluid_Item",
+    "Tiles/Amoeba_Fluid"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Tools/Lightning_Rod",
+  "Name": "Lightning Rod",
+  "Types": [
+    "Item",
+    "Tool"
+  ],
+  "FishPower": 37,
+  "Damage": 0,
+  "UseTime": 8,
+  "Velocity": 13.7,
+  "Rarity": "Green",
+  "Sell": 40000,
+  "SpriteWidth": 48,
+  "InternalName": "Lightning_Rod"
+}

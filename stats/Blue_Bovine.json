@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Blue_Bovine",
+  "Name": "Blue Bovine",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "'Blue Bovine allows flight and slow fall!'",
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "SpriteWidth": 14,
+  "InternalName": "Blue_Bovine"
+}

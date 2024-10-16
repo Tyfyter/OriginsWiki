@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Fiberglass_Weaver_Head",
+  "Images": [
+    "ArmorSets/Fiberglass_Weaver_Head"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 0
+}

@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Outreach",
+  "Name": "Outreach",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Spear"
+  ],
+  "Damage": 26,
+  "DamageClass": "Melee",
+  "Knockback": 5.0,
+  "UseTime": 32,
+  "Velocity": 3.75,
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 46,
+  "InternalName": "Outreach"
+}

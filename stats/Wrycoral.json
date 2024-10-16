@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Tiles/Riven/Wrycoral_Item",
+  "Name": "Wrycoral",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "Sell": 20,
+  "SpriteWidth": 22,
+  "InternalName": "Wrycoral_Item"
+}

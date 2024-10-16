@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Mana_Drive",
+  "Name": "Mana Drive",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Mana regenerates faster with higher speeds",
+  "Rarity": "Butterscotch",
+  "Sell": 100000,
+  "Source": "<a is=a-link image=$fromStats>Quantux</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "SpriteWidth": 32,
+  "InternalName": "Mana_Drive"
+}

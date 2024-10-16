@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Bile_Bullet",
+  "Name": "Bile Bullet",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Bullet",
+    "RasterSource"
+  ],
+  "Damage": 11,
+  "DamageClass": "Ranged",
+  "Knockback": 4.0,
+  "Velocity": 5.0,
+  "Tooltip": "Stuns the target",
+  "Rarity": "Orange",
+  "Sell": 8,
+  "SpriteWidth": 8,
+  "InternalName": "Bile_Bullet"
+}

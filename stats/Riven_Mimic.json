@@ -1,0 +1,146 @@
+{
+  "Image": "Riven_Mimic",
+  "Name": "Riven Mimic",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 3500,
+  "Defense": 34,
+  "KBResist": 0.9,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>",
+    "<a is=a-link image=$fromStats>Torn</a>",
+    "<a is=a-link image=$fromStats>Stunned</a>"
+  ],
+  "Coins": 30000.0,
+  "Drops": [
+    {
+      "Name": "Dew Justice",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Dart Crossbow",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Amoebash",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Tainted Flesh",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Amoeba Hook",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Greater Healing Potion",
+      "Amount": "5‒10",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Greater Mana Potion",
+      "Amount": "5‒15",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Riven Key",
+      "Chance": "2%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 7000,
+    "KBResist": 0.91,
+    "Coins": 75000.0,
+    "Drops": [
+      {
+        "Name": "Dew Justice",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Dart Crossbow",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Amoebash",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Tainted Flesh",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Amoeba Hook",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Greater Healing Potion",
+        "Amount": "5‒10",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Greater Mana Potion",
+        "Amount": "5‒15",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Riven Key",
+        "Chance": "2%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 10500,
+    "KBResist": 0.92,
+    "Coins": 75000.0,
+    "Drops": [
+      {
+        "Name": "Dew Justice",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Dart Crossbow",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Amoebash",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Tainted Flesh",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Amoeba Hook",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Greater Healing Potion",
+        "Amount": "5‒10",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Healing_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Greater Mana Potion",
+        "Amount": "5‒15",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Greater_Mana_Potion",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Riven Key",
+        "Chance": "2%"
+      }
+    ]
+  },
+  "SpriteWidth": 60,
+  "InternalName": "Riven_Mimic"
+}

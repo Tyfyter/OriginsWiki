@@ -1,0 +1,20 @@
+{
+  "Name": "Endowood Chair",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 30,
+  "SpriteWidth": 16,
+  "InternalName": "Endowood_Chair_Item",
+  "Images": [
+    "§ModImage§/Tiles/Endowood/Endowood_Chair_Item",
+    "Tiles/Endowood_Chair"
+  ]
+}

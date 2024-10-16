@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Snipers_Mark",
+  "Name": "Sniper's Mark",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "RangedBoostAcc"
+  ],
+  "Tooltip": [
+    "+15% ranged damage",
+    "Increased critical strike chance by 15% of the weapon's base damage"
+  ],
+  "Rarity": "Pink",
+  "Sell": 60000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Ranger_Emblem>Ranger Emblem</a> + <a is=a-link image=$fromStats>Ruby Reticle</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 34,
+  "InternalName": "Snipers_Mark"
+}

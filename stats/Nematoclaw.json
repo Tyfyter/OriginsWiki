@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Nematoclaw",
+  "Name": "Nematoclaw",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sword",
+    "Hardmode",
+    "OtherMelee",
+    "ToxicSource"
+  ],
+  "Damage": 48,
+  "DamageClass": "Melee",
+  "Knockback": 6.0,
+  "UseTime": 5,
+  "Tooltip": "Inflicts toxic shock",
+  "Rarity": "LightRed",
+  "Sell": 8000,
+  "SpriteWidth": 32,
+  "InternalName": "Nematoclaw"
+}

@@ -1,0 +1,21 @@
+{
+  "Name": "Eitrite Bar",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "Orange",
+  "Sell": 8100,
+  "SpriteWidth": 30,
+  "InternalName": "Eitrite_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Eitrite_Bar",
+    "Tiles/Eitrite_Bar"
+  ]
+}

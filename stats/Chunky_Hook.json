@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Tools/Chunky_Hook",
+  "Name": "Chunky Hook",
+  "Types": [
+    "Item"
+  ],
+  "Damage": 0,
+  "Knockback": 7.0,
+  "UseTime": 0,
+  "Velocity": 16.0,
+  "Rarity": "Blue",
+  "Sell": 800,
+  "SpriteWidth": 24,
+  "InternalName": "Chunky_Hook"
+}

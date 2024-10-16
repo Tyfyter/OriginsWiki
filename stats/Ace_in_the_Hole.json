@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Clubs_Ace",
+  "Name": "Ace in the Hole",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 30,
+  "Tooltip": [
+    "Developer item",
+    "'It's my ace in the hole!'"
+  ],
+  "Rarity": "Cyan",
+  "Sell": 2500,
+  "SpriteWidth": 16,
+  "InternalName": "Clubs_Ace"
+}

@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Bomb_Charm",
+  "Name": "Bomb Charm",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Vitality",
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek"
+  ],
+  "Tooltip": "Reduces explosive self-damage by 15%",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Band_of_Regeneration>Band of Regeneration</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a>",
+  "SpriteWidth": 28,
+  "InternalName": "Bomb_Charm"
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Defiled Sandstone",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Sandstone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Sandstone_Item",
+    "Tiles/Defiled_Sandstone"
+  ]
+}

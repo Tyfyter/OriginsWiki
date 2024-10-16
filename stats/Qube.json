@@ -1,0 +1,21 @@
+{
+  "Name": "Qube",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 235,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Physical information, like everything else in the world'",
+  "Rarity": "Butterscotch",
+  "SpriteWidth": 24,
+  "InternalName": "Qube_Item",
+  "Images": [
+    "§ModImage§/Tiles/Cubekon/Qube_Item",
+    "Tiles/Qube"
+  ]
+}

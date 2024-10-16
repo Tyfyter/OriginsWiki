@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Tendon/Tendon_Shirt",
+  "Name": "Tendon Shirt",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+6% critical strike chance",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 34,
+  "InternalName": "Tendon_Shirt"
+}

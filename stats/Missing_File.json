@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Missing_File",
+  "Name": "Missing File",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "OtherMagic"
+  ],
+  "ManaCost": 18,
+  "Damage": 250,
+  "DamageClass": "Explosive Magic",
+  "UseTime": 30,
+  "Tooltip": [
+    "Click on the portrait of the targeted enemy for a damage bonus",
+    "'Let's demake some code...'"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 20000,
+  "SpriteWidth": 24,
+  "InternalName": "Missing_File"
+}

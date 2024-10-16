@@ -1,0 +1,25 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Protozoa_Food",
+  "Name": "Protozoa Food",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Expert",
+    "Combat",
+    "SummonBoostAcc"
+  ],
+  "ManaCost": 10,
+  "Damage": 13,
+  "DamageClass": "Explosive Summon",
+  "Knockback": 3.0,
+  "UseTime": 45,
+  "Tooltip": [
+    "+1 minion slot",
+    "Summons an amoeba pellet to chase after enemies and slow them down for every minion slot you have"
+  ],
+  "Rarity": "Blue",
+  "Sell": 60000,
+  "Source": "<a is=a-link image=$fromStats>World Cracker</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "SpriteWidth": 24,
+  "InternalName": "Protozoa_Food"
+}

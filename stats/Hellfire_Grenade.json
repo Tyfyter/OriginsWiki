@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Hellfire_Grenade",
+  "Name": "Hellfire Grenade",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Ammo",
+    "ThrownExplosive",
+    "IsGrenade",
+    "ExpendableWeapon"
+  ],
+  "Damage": 36,
+  "ArmorPenetration": 1,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 45,
+  "Velocity": 5.5,
+  "Tooltip": "Explodes into a lingering fire",
+  "Rarity": "Orange",
+  "Sell": 135,
+  "SpriteWidth": 18,
+  "InternalName": "Hellfire_Grenade"
+}

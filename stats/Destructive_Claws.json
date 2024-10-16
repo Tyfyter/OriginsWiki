@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Destructive_Claws",
+  "Name": "Destructive Claws",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "ExplosiveBoostAcc"
+  ],
+  "Tooltip": [
+    "25% increased explosive throwing velocity",
+    "Increases attack speed of thrown explosives",
+    "Enables autouse for all explosive weapons"
+  ],
+  "Rarity": "Orange",
+  "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Feral_Claws>Feral Claws</a> + <a is=a-link image=$fromStats>Bomb Handling Device</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 38,
+  "InternalName": "Destructive_Claws"
+}

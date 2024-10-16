@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Items/Materials/Riven_Carapace",
+  "Name": "Riven Carapace",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Blue",
+  "Sell": 150,
+  "SpriteWidth": 34,
+  "InternalName": "Riven_Carapace"
+}

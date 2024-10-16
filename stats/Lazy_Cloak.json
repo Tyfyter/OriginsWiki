@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Lazy_Cloak",
+  "Name": "Lazy Cloak",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master"
+  ],
+  "Damage": 30,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": [
+    "Chases after marked enemies",
+    "'It just doesn't want to do all the work'"
+  ],
+  "Rarity": "Master",
+  "Sell": 60000,
+  "Source": "<a is=a-link image=$fromStats href=Severus.html>Severus, the Dark One</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "SpriteWidth": 32,
+  "InternalName": "Lazy_Cloak"
+}

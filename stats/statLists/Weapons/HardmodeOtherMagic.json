@@ -1,0 +1,15 @@
+{
+  "categories": [
+	"hardmode",
+	"othermagic"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	{ "name":"Use Time", "expr":"item.UseTime" },
+	"ManaCost",
+	"Source",
+	"Notes"
+  ]
+}

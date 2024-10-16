@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Krakram",
+  "Name": "Krakram",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Boomerang"
+  ],
+  "Damage": 25,
+  "DamageClass": "Melee",
+  "Knockback": 8.0,
+  "UseTime": 18,
+  "Velocity": 9.75,
+  "Tooltip": "'Very pointy'",
+  "Rarity": "Blue",
+  "Sell": 4000,
+  "SpriteWidth": 34,
+  "InternalName": "Krakram"
+}

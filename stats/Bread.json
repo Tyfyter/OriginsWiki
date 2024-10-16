@@ -1,0 +1,17 @@
+{
+  "Image": "Bread",
+  "Name": "Bread",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "Minor improvements to all stats",
+    "'Let's get this bread!'"
+  ],
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 20,
+  "InternalName": "Bread"
+}

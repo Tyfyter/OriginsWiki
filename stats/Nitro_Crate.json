@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Nitro_Crate",
+  "Name": "Nitro Crate",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "ExplosiveBoostAcc"
+  ],
+  "Tooltip": "Increases explosive blast radius by 40%",
+  "Rarity": "Green",
+  "Sell": 16000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a>",
+  "SpriteWidth": 34,
+  "InternalName": "Nitro_Crate"
+}

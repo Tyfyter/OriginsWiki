@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Eyeball_Staff",
+  "Name": "Eyeball Staff",
+  "Types": [
+    "Item",
+    "Weapon",
+    "MinionWeapon",
+    "Minion"
+  ],
+  "ManaCost": 11,
+  "Damage": 8,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": "Summons a demon eye to fight for you",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 54,
+  "InternalName": "Eyeball_Staff"
+}

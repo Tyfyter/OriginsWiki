@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Sonar_Visor",
+  "Name": "Sonar Visor",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "GenericBoostAcc"
+  ],
+  "Tooltip": [
+    "Increased projectile speed",
+    "Immunity to Confusion",
+    "Highlights the outermost layer of tiles"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 70000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Ultrabright_Helmet>Ultrabright Helmet</a> + <a is=a-link image=$fromStats>Advanced Imaging</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 28,
+  "InternalName": "Sonar_Visor"
+}

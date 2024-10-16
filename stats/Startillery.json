@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Startillery",
+  "Name": "Startillery",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "SpellBook"
+  ],
+  "ManaCost": 12,
+  "Damage": 48,
+  "DamageClass": "Explosive Magic",
+  "Knockback": 6.0,
+  "UseTime": 20,
+  "Velocity": 16.0,
+  "Tooltip": "Fires an arcing star-shot that explodes on impact",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 28,
+  "InternalName": "Startillery"
+}

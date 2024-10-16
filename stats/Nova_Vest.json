@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Armor/Nova/Nova_Breastplate",
+  "Name": "Nova Vest",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 22,
+  "ArmorSlot": "Shirt",
+  "Tooltip": [
+    "4% increased explosive damage and critical strike chance",
+    "-60% explosive self-damage"
+  ],
+  "Rarity": "Red",
+  "Sell": 140000,
+  "SpriteWidth": 34,
+  "InternalName": "Nova_Breastplate"
+}

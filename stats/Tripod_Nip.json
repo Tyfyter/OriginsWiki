@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Tripod_Nip",
+  "Name": "Tripod Nip",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Misc",
+    "LoreItem"
+  ],
+  "Tooltip": "Reduces enemy aggression and spawn rates",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Tripod Nip</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Tripod_Nip"
+}

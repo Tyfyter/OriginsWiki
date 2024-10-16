@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/SMART_Wrench",
+  "Name": "SMART Wrench",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode",
+    "MinionWeapon",
+    "Minion"
+  ],
+  "ManaCost": 18,
+  "Damage": 11,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": "Summons a SMART Turret to rip apart your enemies",
+  "Rarity": "Pink",
+  "Sell": 50000,
+  "SpriteWidth": 36,
+  "InternalName": "SMART_Wrench"
+}

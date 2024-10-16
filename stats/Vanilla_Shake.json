@@ -1,0 +1,13 @@
+{
+  "Image": "Vanilla_Shake",
+  "Name": "Vanilla Shake",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 20,
+  "InternalName": "Vanilla_Shake"
+}

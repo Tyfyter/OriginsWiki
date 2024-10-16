@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Alkahest_Bullet",
+  "Name": "Alkahest Bullet",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Torn",
+    "TornSource",
+    "Bullet"
+  ],
+  "Damage": 12,
+  "DamageClass": "Ranged",
+  "Knockback": 4.0,
+  "Velocity": 5.0,
+  "Tooltip": "Tenderizes the target",
+  "Rarity": "Orange",
+  "Sell": 7,
+  "SpriteWidth": 8,
+  "InternalName": "Alkahest_Bullet"
+}

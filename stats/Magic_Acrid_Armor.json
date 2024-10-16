@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Magic_Acrid_Armor",
+  "Images": [
+    "ArmorSets/Magic_Acrid_Armor",
+    "ArmorSets/Magic_Acrid_Armor_Female"
+  ],
+  "Defense": 36,
+  "SetBonus": "All attacks inflict Toxic Shock\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
+  "Rarity": "LightRed",
+  "Sell": 72000
+}

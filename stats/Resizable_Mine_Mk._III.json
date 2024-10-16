@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Three",
+  "Name": "Resizable Mine Mk. III",
+  "Types": [
+    "Item",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 35,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 3.6,
+  "Velocity": 0.2,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Pink",
+  "Sell": 880,
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Three"
+}

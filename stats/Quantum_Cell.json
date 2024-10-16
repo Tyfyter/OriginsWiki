@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Quantum_Cell",
+  "Name": "Quantum Cell",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": "Used at the Cubekon Altar",
+  "Rarity": "White",
+  "Sell": 10000,
+  "SpriteWidth": 22,
+  "InternalName": "Quantum_Cell"
+}

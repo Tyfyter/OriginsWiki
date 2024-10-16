@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Soulhide/Soulhide_Coat",
+  "Name": "Soulhide Coat",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+12% melee weapon speed",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "SpriteWidth": 30,
+  "InternalName": "Soulhide_Coat"
+}

@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Pets/Chew_Toy",
+  "Name": "Chee Set",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "White",
+  "SpriteWidth": 22,
+  "InternalName": "Chee_Set"
+}

@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Maelstrom_Incantation",
+  "Name": "Maelstrom Incantation",
+  "Types": [
+    "Item",
+    "Weapon"
+  ],
+  "ManaCost": 16,
+  "Damage": 19,
+  "DamageClass": "Summon",
+  "Knockback": 4.0,
+  "UseTime": 26,
+  "Velocity": 16.0,
+  "Tooltip": [
+    "5 summon tag damage",
+    "Directly struck enemies will shock nearby enemies when hit by minions",
+    "Your summons will focus struck enemies",
+    "Receives 50% higher damage bonuses"
+  ],
+  "Rarity": "Green",
+  "Sell": 6000,
+  "SpriteWidth": 22,
+  "InternalName": "Maelstrom_Incantation"
+}

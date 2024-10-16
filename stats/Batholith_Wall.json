@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Batholith_Wall_Item",
+  "Name": "Batholith Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 32,
+  "InternalName": "Batholith_Wall_Safe_Item"
+}

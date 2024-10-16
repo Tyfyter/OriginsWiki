@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Chlorodynamite",
+  "Name": "Chlorodynamite",
+  "Types": [
+    "Item",
+    "Weapon",
+    "ThrownExplosive",
+    "IsDynamite",
+    "ExpendableWeapon"
+  ],
+  "Damage": 186,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 40,
+  "Velocity": 6.0,
+  "Tooltip": "Will pull in and stun any nearby enemies",
+  "Rarity": "Lime",
+  "Sell": 2200,
+  "SpriteWidth": 18,
+  "InternalName": "Chlorodynamite"
+}

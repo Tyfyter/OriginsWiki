@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Lottery_Ticket",
+  "Name": "Lottery Ticket",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": [
+    "Randomly provides incredible luck while in your inventory",
+    "Gets consumed when it works"
+  ],
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 22,
+  "InternalName": "Lottery_Ticket"
+}

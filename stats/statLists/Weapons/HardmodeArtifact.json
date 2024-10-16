@@ -1,0 +1,14 @@
+{
+  "categories": [
+	"hardmode",
+	"artifact"
+  ],
+  "intersection": true,
+  "headers": [
+	"Name",
+	"Damage",
+	"ManaCost",
+	"Source",
+	"Notes"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Super_Turbo_Reel",
+  "Name": "Super Turbo Reel",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Combat",
+    "RangedBoostAcc"
+  ],
+  "Tooltip": "Greatly increased movement speed and return speed for harpoon guns",
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Magiluminescence>Magiluminescence</a> + <a is=a-link image=$fromStats>Turbo Reel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 28,
+  "InternalName": "Super_Turbo_Reel"
+}

@@ -1,0 +1,80 @@
+{
+  "Image": "Torn_Ghoul",
+  "Name": "Torn Ghoul",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 240,
+  "Defense": 24,
+  "KBResist": 0.39999998,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Coins": 650.0,
+  "Drops": [
+    {
+      "Name": "Ancient Cloth",
+      "Chance": "10%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Alkahest",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Dark Shard",
+      "Chance": "6.667%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+      "ImageOverride": ""
+    }
+  ],
+  "Expert": {
+    "MaxLife": 480,
+    "KBResist": 0.45999998,
+    "Coins": 1625.0,
+    "Drops": [
+      {
+        "Name": "Ancient Cloth",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Alkahest",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Dark Shard",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 720,
+    "KBResist": 0.52,
+    "Coins": 1625.0,
+    "Drops": [
+      {
+        "Name": "Ancient Cloth",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ancient_Cloth",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Alkahest",
+        "Chance": "33.333%"
+      },
+      {
+        "Name": "Dark Shard",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Torn_Ghoul"
+}

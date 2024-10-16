@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Coolant_Canister",
+  "Name": "Coolant Canister",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Ammo",
+    "Canistah"
+  ],
+  "Damage": 33,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 3.6,
+  "Velocity": 0.3,
+  "Tooltip": "Inflicts frostburn to anything nearby upon impact",
+  "Rarity": "Pink",
+  "Sell": 880,
+  "SpriteWidth": 16,
+  "InternalName": "Coolant_Canister"
+}

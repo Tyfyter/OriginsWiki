@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Decaying_Scale",
+  "Name": "Decaying Scale",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "ToxicSource"
+  ],
+  "Tooltip": [
+    "Attacks inflict 'Toxic Shock' on enemies",
+    "Effects are stronger while Acrid Armor is equipped"
+  ],
+  "Rarity": "Pink",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Carpalfish</a>",
+  "SpriteWidth": 18,
+  "InternalName": "Decaying_Scale"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Materials/Busted_Servo",
+  "Name": "Busted Servo",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Pink",
+  "Sell": 200,
+  "SpriteWidth": 16,
+  "InternalName": "Busted_Servo"
+}

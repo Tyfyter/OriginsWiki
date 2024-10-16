@@ -1,0 +1,21 @@
+{
+  "Name": "Cleansing Station",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Tooltip": "Use to cleanse all assimilation",
+  "Rarity": "White",
+  "Sell": 10000,
+  "SpriteWidth": 26,
+  "InternalName": "Cleansing_Station_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Cleansing_Station_Item",
+    "Tiles/Cleansing_Station"
+  ]
+}

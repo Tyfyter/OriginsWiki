@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Celestial_Starlight",
+  "Name": "Celestial Starlight",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Vitality",
+    "MagicBoostAcc"
+  ],
+  "Tooltip": [
+    "Increases pickup range for mana stars",
+    "Chance for mana stars to fall from critical hits"
+  ],
+  "Rarity": "Pink",
+  "Sell": 33000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Magnet>Celestial Magnet</a> + <a is=a-link image=$fromStats>Dim Starlight</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 30,
+  "InternalName": "Celestial_Starlight"
+}

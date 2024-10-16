@@ -1,0 +1,20 @@
+{
+  "Name": "Defiled Stone",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 65,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Stone_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
+    "Tiles/Defiled_Stone"
+  ]
+}

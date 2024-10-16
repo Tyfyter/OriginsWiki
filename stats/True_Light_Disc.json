@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/True_Light_Disc",
+  "Name": "True Light Disc",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Boomerang",
+    "Hardmode",
+    "Boomerang"
+  ],
+  "Damage": 70,
+  "DamageClass": "Melee",
+  "Knockback": 8.0,
+  "UseTime": 13,
+  "Velocity": 15.0,
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 36,
+  "InternalName": "True_Light_Disc"
+}

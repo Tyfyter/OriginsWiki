@@ -1,0 +1,13 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Eccentric_Stone",
+  "Name": "Eccentric Stone",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Misc",
+    "LoreItem"
+  ],
+  "Rarity": "Blue",
+  "SpriteWidth": 18,
+  "InternalName": "Eccentric_Stone"
+}

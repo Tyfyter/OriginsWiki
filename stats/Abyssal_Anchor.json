@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Abyssal_Anchor",
+  "Name": "Abyssal Anchor",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode",
+    "Combat",
+    "ManaShielding",
+    "MagicBoostAcc"
+  ],
+  "Tooltip": [
+    "+15% melee speed",
+    "+10% generic damage",
+    "+5% magic damage",
+    "+4% critical strike chance",
+    "+4 HP/s life regeneration",
+    "+20 mana",
+    "+8 defense",
+    "+5% damage reduction",
+    "+25% mana shielding",
+    "+25% mining speed",
+    "+1 minion knockback",
+    "Increased pick-up range for stars",
+    "-25% movement speed",
+    "-40% jump speed"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 120000,
+  "Source": "<a is=a-link image=$fromStats>Binding Book</a> + <a is=a-link image=$fromStats>Celestial Stone Mask</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 42,
+  "InternalName": "Abyssal_Anchor"
+}

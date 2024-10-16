@@ -1,0 +1,15 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Cranivore_Beanie",
+  "Images": [
+    "ArmorSets/Cranivore_Beanie"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 0
+}

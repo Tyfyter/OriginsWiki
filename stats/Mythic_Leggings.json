@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Myth/Mythic_Leggings",
+  "Name": "Mythic Leggings",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Pants",
+  "Tooltip": "Greatly increased movement speed",
+  "Rarity": "Green",
+  "Sell": 6000,
+  "SpriteWidth": 22,
+  "InternalName": "Mythic_Leggings"
+}

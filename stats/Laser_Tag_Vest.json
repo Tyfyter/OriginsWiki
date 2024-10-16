@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Laser_Tag_Vest",
+  "Name": "Laser Tag Vest",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Allows you to participate in Laser Tag events",
+  "Rarity": "LightPurple",
+  "Sell": 40000,
+  "Source": "<a is=a-link image=$fromStats>Power Core</a> + (6) <a is=a-link image=$fromStats>Rotor</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
+  "SpriteWidth": 30,
+  "InternalName": "Laser_Tag_Vest"
+}

@@ -1,0 +1,17 @@
+{
+  "Image": "Terraria/Images/Item_4242",
+  "Name": "Impact Golf Ball",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Weapon"
+  ],
+  "Damage": 80,
+  "DamageClass": "Explosive",
+  "UseTime": 15,
+  "Velocity": 12.0,
+  "Rarity": "Green",
+  "Sell": 10000,
+  "SpriteWidth": 24,
+  "InternalName": "Impact_Golf_Ball"
+}

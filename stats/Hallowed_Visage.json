@@ -1,0 +1,16 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Hallowed_Visage",
+  "Images": [
+    "ArmorSets/Hallowed_Visage",
+    "ArmorSets/Hallowed_Visage_Female"
+  ],
+  "Defense": 29,
+  "SetBonus": "Become immune after striking an enemy",
+  "Rarity": "Pink",
+  "Sell": 120000
+}
