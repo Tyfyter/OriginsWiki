@@ -40,7 +40,7 @@ let pageRequests = {};
 let pageRequestLock = {};
 async function getPageText(url) {
 	if (pageRequests[url] === undefined) {
-		pageRequests[url] ??= fetch(url);
+		pageRequests[url] ??= fetch(encodeURI(url));
 	}
 	if (pageRequests[url] instanceof Promise) {
 		pageRequests[url] = await pageRequests[url];
