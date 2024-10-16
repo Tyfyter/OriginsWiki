@@ -48,8 +48,10 @@ var _siteMap = requestPageText('https://tyfyter.github.io/OriginsWiki/sitemap.xm
 var pageName = document.location.pathname.split('/').pop().replaceAll('.html', '') || 'index';
 pageName = decodeURI(pageName);
 
+let catLock;
 async function getCategories(){
 	if(typeof await _categories === 'string'){
+		catLock = AsyncLock.createLock();
 		var catText = await _categories;
 		catText = catText.replace(/(")/gm, '\\$1').
 		replace(catLeftQuoteRegex, '$1$2"$3').
@@ -78,7 +80,8 @@ async function getCategories(){
 				}
 			}
 		}
-	}
+		catLock.disable();
+	} else await catLock();
 	return await _categories;
 }
 
