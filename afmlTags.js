@@ -982,7 +982,7 @@ class AFMLSortableList extends HTMLElement {
 						if (Array.isArray(displayValue)) {
 							displayValue = displayValue.join('<br>');
 						}
-						tableItems[j].innerHTML = displayValue;
+						if (displayValue !== undefined) tableItems[j].innerHTML = displayValue;
 						if (data.headers[j].sortIndex) tableItems[j].createChild('span', new Function('item', 'return '+data.headers[j].sortIndex+';')(item), ['class', 'sortindex']);
 					}
 				} catch (error) {
