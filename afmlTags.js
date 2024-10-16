@@ -907,7 +907,7 @@ class AFMLSortableList extends HTMLElement {
 						}
 					}
 				} catch (error) {
-					console.error(error, data.categories);
+					console.error(error, data.categories, cats, 'intersection');
 				}
 			} else {
 				try {
@@ -922,7 +922,7 @@ class AFMLSortableList extends HTMLElement {
 						}
 					}
 				} catch (error) {
-					console.error(error, data.categories);
+					console.error(error, data.categories, cats, 'all');
 				}
 			}
 			this.setContents(data);
