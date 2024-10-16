@@ -896,25 +896,33 @@ class AFMLSortableList extends HTMLElement {
 			}
 			if (data.intersection) {
 				currentCat = cats[data.categories[0]];
-				for (var i = 0; i < currentCat.items.length; i++) {
-					data.items.push(currentCat.items[i]);
-				}
-				for (var i = 1; i < data.categories.length; i++) {
-					currentCat = cats[data.categories[i]];
-					for (var j = 0; j < data.items.length; j++) {
-						currentCat.items.includes(data.items[j]) || data.items.splice(j--,1);
+				try {
+					for (var i = 0; i < currentCat.items.length; i++) {
+						data.items.push(currentCat.items[i]);
 					}
+					for (var i = 1; i < data.categories.length; i++) {
+						currentCat = cats[data.categories[i]];
+						for (var j = 0; j < data.items.length; j++) {
+							currentCat.items.includes(data.items[j]) || data.items.splice(j--,1);
+						}
+					}
+				} catch (error) {
+					console.error(error, data.categories);
 				}
 			} else {
-				for (var i = 0; i < data.categories.length; i++) {
-					currentCat = cats[data.categories[i]];
-					if (!currentCat) {
-						console.error(`could not find category "${data.categories[i]}"`);
-						continue;
+				try {
+					for (var i = 0; i < data.categories.length; i++) {
+						currentCat = cats[data.categories[i]];
+						if (!currentCat) {
+							console.error(`could not find category "${data.categories[i]}"`);
+							continue;
+						}
+						for (var j = 0; j < currentCat.items.length; j++) {
+							data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
+						}
 					}
-					for (var j = 0; j < currentCat.items.length; j++) {
-						data.items.includes(currentCat.items[j]) || data.items.push(currentCat.items[j]);
-					}
+				} catch (error) {
+					console.error(error, data.categories);
 				}
 			}
 			this.setContents(data);
