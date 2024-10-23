@@ -81,7 +81,7 @@ async function getCategories(){
 			}
 		}
 		catLock.disable();
-	} else await catLock();
+	} else await catLock;
 	return await _categories;
 }
 
