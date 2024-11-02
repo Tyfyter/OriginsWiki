@@ -1,0 +1,28 @@
+{
+  "Image": "Graveshield_Zombie",
+  "Name": "Graveshield Zombie",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 55,
+  "Defense": 14,
+  "KBResist": 0.5,
+  "Coins": 60.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 110,
+    "KBResist": 0.595,
+    "Immunities": [],
+    "Coins": 375.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 165,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 375.0,
+    "Drops": []
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Graveshield_Zombie"
+}

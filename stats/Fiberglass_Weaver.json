@@ -11,8 +11,7 @@
   "Immunities": [
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Incandescent_Burn>Incandescent Burn</a>"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
   ],
   "Coins": 150000.0,
   "Drops": [
