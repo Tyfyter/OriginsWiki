@@ -112,13 +112,13 @@
     "name":"Other magic",
     "items":"Types<OtherMagic"
   },
-  "minionweapon":{
-    "name":"Minion weapons",
-    "items":"Types<MinionWeapon"
+  "minion":{
+    "name":"Minions",
+    "items":"Types<Minion"
   },
   "sentryweapon":{
-    "name":"Sentry weapons",
-    "items":"Types<SentryWeapon"
+    "name":"Sentries",
+    "items":"Types<Sentry"
   },
   "whip":{
     "name":"Whips",
@@ -235,29 +235,9 @@
     "name":"Special Effect Dyes",
     "items":"Types<SpecialEffectDye"
   },
-  "minion":{
-    "name":"Minions",
-    "items":"Types<Minion"
-  },
-  "prehardmodeminion":{
-    "name":"Prehardmode Minions",
-    "items":"Types<Minion -Types<Hardmode"
-  },
-  "hardmodeminion":{
-    "name":"Hardmode Minions",
-    "items":"Types<Minion Types<Hardmode"
-  },
   "mount":{
     "name":"Mounts",
     "items":"Types<Mount"
-  },
-  "prehardmodemount":{
-    "name":"Prehardmode Mounts",
-    "items":"Types<Mount -Types<Hardmode"
-  },
-  "hardmodemount":{
-    "name":"Hardmode Mounts",
-    "items":"Types<Mount Types<Hardmode"
   },
   "rastersource":{
     "name":"Raster source",
