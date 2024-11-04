@@ -541,6 +541,10 @@ window.onkeydown = function(e) { pressedKeys[e.keyCode] = true; }
 function callDevScript() {
 	eval(getSiteSettings().devScript);
 }
+function ignoreWebkitNotice(event) {
+	setSiteSettings("ignoreWebkitWarning", true);
+	document.getElementById('webkit-notice').remove();
+}
 var parse = async ()=>{
 	typeof preParseCallback !== 'undefined' && preParseCallback();
 	await parseAFML(document.getElementById("content"));
@@ -563,6 +567,21 @@ var parse = async ()=>{
 			createElementWith('div', ['id', 'searchlinks'])
 		),
 	content.childNodes[0]);
+	if (!getSiteSettings().ignoreWebkitWarning) {
+		let afterHeader = content.getElementsByTagName("h1");
+		if (afterHeader.length) {
+			afterHeader = afterHeader[0].nextSibling;
+			if (afterHeader.tagName == "div" && afterHeader.classList.contains("divider")) afterHeader = afterHeader.nextSibling;
+			content.insertBefore(
+				createElementWithTextAndAttributes('span', `<div is="a-webkit-notice" style="font-size: small;color: var(--redlink-color);">It looks like you're using a browser based on Apple's "WebKit" browser engine;<br>
+				Unfortunately, WebKit does not support the HTML standard;<br>
+				As a result, some webpages may not display correctly;<br>
+				If you live in the EU the Digital Markets Act requires Apple to allow you to install a browser which does,<br>
+				otherwise you cannot install such a browser without jailbreaking your device</div><a href="javascript:void(0);" onClick=ignoreWebkitNotice(event)>dismiss</a>`, ['id', 'webkit-notice']),
+				afterHeader
+			);
+		}
+	}
 	document.getElementById('bgtoggle').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>';
 	document.getElementById('lighttoggle').outerHTML = '<img id="lighttoggle" onclick="toggleThemeSelector()">';
 	document.getElementById('searchbar').outerHTML = '<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">';

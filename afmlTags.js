@@ -1094,3 +1094,17 @@ class AFMLMaster extends HTMLAnchorElement {
 	}
 }
 customElements.define("a-master", AFMLMaster, { extends: "a" });
+
+class WebkitNoticeElement extends HTMLDivElement {
+	lastClicked = 0;
+	constructor() {
+		// Always call super first in constructor
+		super();
+		this.innerHTML = '';
+		//https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is
+	}
+	connectedCallback(){
+		this.remove();
+	}
+}
+customElements.define("a-webkit-notice", WebkitNoticeElement, { extends: "div" });
