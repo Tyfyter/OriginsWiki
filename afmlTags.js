@@ -1051,7 +1051,7 @@ class AFMLBiomeContents extends HTMLElement {
 					let classes = "subcontents";
 					let attributes = [];
 					if(data.items[i]) {
-						if(data.items[i].class) classes = ' '+data.items[i].class;
+						if(data.items[i].class) classes += ' '+data.items[i].class;
 						if (data.items[i].style) attributes.push(['style', data.items[i].style]);
 					}
 					let div = parent.createChild('div', '', ['class', classes], ...attributes);
