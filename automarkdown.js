@@ -577,7 +577,7 @@ var parse = async ()=>{
 				Unfortunately, WebKit does not support the HTML standard;<br>
 				As a result, some webpages may not display correctly;<br>
 				If you live in the EU the Digital Markets Act requires Apple to allow you to install a browser which does,<br>
-				otherwise you cannot install such a browser without jailbreaking your device</div><a href="javascript:void(0);" onClick=ignoreWebkitNotice(event)>dismiss</a>`, ['id', 'webkit-notice']),
+				otherwise you cannot install such a browser without jailbreaking your device<br><a href="javascript:void(0);" onClick=ignoreWebkitNotice(event) style="font-size: initial;">dismiss</a></div>`, ['id', 'webkit-notice']),
 				afterHeader
 			);
 		}

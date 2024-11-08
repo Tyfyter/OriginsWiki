@@ -937,7 +937,6 @@ class AFMLSortableList extends HTMLElement {
 		if(data.headers[0] === 'Name'){
 			data.headers[0] = {name:'Name', expr:"`<a is=\"a-link\" ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=\"$fromStats\">${item.Name}</a>`", sortIndex:'item.Name', noAbbr:true};
 		}
-		if (this.getAttribute('src').startsWith('Music')) console.log(Object.assign({}, data.headers));
 		for(var j = 0; j < data.headers.length; j++){
 			let th = row.createChild('th');
 			if (j>0&&j<data.headers.length) th.classList.add('notleft');

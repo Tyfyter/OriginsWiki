@@ -32,6 +32,20 @@
       Summoner
       Stun
       searchPage
+      Modifiers
+      Aggro
+      Assimilation
+      Brine_Pool
+      Cross_Mod_Content
+      Defiled_Wastelands
+      Developers
+      Evil_Biomes
+      Fuse_Time
+      Item_Synergies
+      Mana_Shielding
+      Riven_Hive
+      Self_Damage
+      Underground_Riven_Hive
     ]
   }
   dev:{
@@ -44,12 +58,67 @@
       §syntaxChecker
       §template
       §armorTemplate
+      §specialTemplate
     ]
   }
   implimented:{
     name:implimented
     dev:true
     items:[
+      Arrows
+      Banners
+      Bathtubs
+      Beds
+      Bookcases
+      Boomerangs
+      Bows
+      Bullets
+      Campfires
+      Candelabras
+      Candles
+      Canisters
+      Chairs
+      Chandeliers
+      Chests
+      Consumables
+      Crates
+      Dart_Launchers
+      Darts
+      Defiled_Grass
+      Demolitionist_Weapons
+      Doors
+      Dressers
+      Dyes
+      Exoskeletal_Tree
+      Furniture
+      Grab_Bags
+      Grandfather_Clocks
+      Guns
+      Harpoon_Guns
+      Lamps
+      Lanterns
+      Launchers
+      Materials
+      Minions
+      Music_Boxes
+      Paintings
+      Petrified_Tree
+      Pianos
+      Platforms
+      Riven_Grass
+      Relics
+      Rasterized
+      Sinks
+      Sofas
+      Tables
+      Toilets
+      Torches
+      Torn
+      Toxic_Shock
+      Treasure_Bag
+      Trophies
+      Weapons
+      Work+Benches
     ]
   }
   unimplimented:{
