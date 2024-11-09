@@ -60,11 +60,16 @@ async function getCategories(){
 		replace(/\r|\n/g, ' ').
 		replace(/"(true|false)"/gm, '$1');
 		_categories = JSON.parse(catText);
+		function includes(pageName) {
+			return this.items.includes(pageName) ^ this.blacklist;
+		}
 		for (let key in _categories) {
 			if (_categories.hasOwnProperty(key)) {
 				for(var i = 0; i < _categories[key].items.length; i++){
 					_categories[key].items[i] = _categories[key].items[i].replace('\\:', ':');
 				}
+				_categories[key].includes = includes.bind(_categories[key]);
+				console.log(key, _categories[key], _categories[key].includes);
 			}
 		}
 		var genCat = JSON.parse(await _generated_categories);
@@ -78,6 +83,7 @@ async function getCategories(){
 				} else {
 					_categories[key] = genCat[key];
 				}
+				_categories[key].includes = includes.bind(_categories[key]);
 			}
 		}
 		catLock.disable();
@@ -109,7 +115,8 @@ async function getSearchLinks(query, filter = ".html"){
 	var regexQuery = new RegExp("("+query.replace(/(?<=.)(?=.)/g, '.?').replaceAll('.', '\\.')+")","i");
 	var results = [];
 	results = (await getSiteMap()).filter(function(v){
-		return v.match(regexQuery) && (v.includes(section) == query.includes(section)) && (getSiteSettings().devMode || _categories.implimented.items.includes(v));
+		console.log(_categories.unimplimented.includes);
+		return v.match(regexQuery) && (v.includes(section) == query.includes(section)) && (getSiteSettings().devMode || !_categories.unimplimented.includes(v));
 	})
 	results = results.sort(function(a, b) {
 		try{
@@ -373,7 +380,7 @@ async function createCategorySegment(){
 					}
 				}
 			}
-			if((thisCat.items.includes(pageName) ^ thisCat.blacklist) && !thisCat.hidden && (getSiteSettings().devMode || !thisCat.dev)){
+			if(thisCat.includes(pageName) && !thisCat.hidden && (getSiteSettings().devMode || !thisCat.dev)){
 				if(catsIn){
 					categoriesElement.append(document.createTextNode(', '));
 				}
