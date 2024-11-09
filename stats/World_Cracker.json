@@ -4,7 +4,7 @@
   "Types": [
     "NPC"
   ],
-  "MaxLife": 200,
+  "MaxLife": 2890, 
   "Defense": 20,
   "KBResist": 1.0,
   "Immunities": [
@@ -12,16 +12,42 @@
     "<a is=a-link image=$fromStats>Torn</a>",
     "<a is=a-link image=$fromStats>Stunned</a>"
   ],
-  "Coins": 300.0,
-  "Drops": [],
+  "Coins": 50000.0,
+  "Drops": [
+    {
+      "Name": "Encrusted Ore",
+      "Amount": "140‒330"
+    },
+    {
+      "Name": "Riven Carapace",
+      "Amount": "1‒1134"
+    },
+    {
+      "Name": "Teardown",
+      "Chance": "50%"
+    },
+    {
+      "Name": "Vorpal Sword",
+      "Chance": "50%"
+    },
+    {
+      "Name": "World Cracker Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "World Cracker Mask",
+      "Chance": "10%"
+    }
+  ],
+  "RivenAssimilation": 0.08,
   "Expert": {
-    "MaxLife": 800,
-    "Coins": 1875.0,
+    "MaxLife": 5780,
+    "Coins": 125000.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 1800,
-    "Coins": 1875.0,
+    "MaxLife": 8670,
+    "Coins": 125000.0,
     "Drops": []
   },
   "SpriteWidth": 84,
