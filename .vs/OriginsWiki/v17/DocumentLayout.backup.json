@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Water_Fountains.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Water_Fountains.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Absorption_Potion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Absorption_Potion.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -23,25 +19,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Water_Fountains.html",
-              "DocumentMoniker": "C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Water_Fountains.html",
-              "RelativeDocumentMoniker": "Water_Fountains.html",
-              "ToolTip": "C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Water_Fountains.html",
-              "RelativeToolTip": "Water_Fountains.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAClAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-27T21:24:32.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Absorption_Potion.html",
               "DocumentMoniker": "C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Absorption_Potion.html",
               "RelativeDocumentMoniker": "Absorption_Potion.html",
               "ToolTip": "C:\\Users\\hijin\\OneDrive\\Documents\\GitHub\\OriginsWiki\\Absorption_Potion.html",
               "RelativeToolTip": "Absorption_Potion.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-03-27T23:22:13.536Z",
               "EditorCaption": ""
