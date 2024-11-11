@@ -69,7 +69,6 @@ async function getCategories(){
 					_categories[key].items[i] = _categories[key].items[i].replace('\\:', ':');
 				}
 				_categories[key].includes = includes.bind(_categories[key]);
-				console.log(key, _categories[key], _categories[key].includes);
 			}
 		}
 		var genCat = JSON.parse(await _generated_categories);
@@ -115,7 +114,6 @@ async function getSearchLinks(query, filter = ".html"){
 	var regexQuery = new RegExp("("+query.replace(/(?<=.)(?=.)/g, '.?').replaceAll('.', '\\.')+")","i");
 	var results = [];
 	results = (await getSiteMap()).filter(function(v){
-		console.log(_categories.unimplimented.includes);
 		return v.match(regexQuery) && (v.includes(section) == query.includes(section)) && (getSiteSettings().devMode || !_categories.unimplimented.includes(v));
 	})
 	results = results.sort(function(a, b) {
