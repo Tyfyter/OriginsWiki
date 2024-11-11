@@ -3,6 +3,7 @@
   "Types": [
     "Item",
     "Ore",
+    "Hardmode",
     "Tile"
   ],
   "PickReq": 190,
