@@ -12,6 +12,8 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 1300,
+  "Tier": 5,
+  "PickReq": 55,
   "SpriteWidth": 16,
   "InternalName": "Encrusted_Ore_Item",
   "Images": [

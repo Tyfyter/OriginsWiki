@@ -13,6 +13,7 @@
   "UseTime": 10,
   "Rarity": "Green",
   "Sell": 1000,
+  "Tier": 8,
   "SpriteWidth": 16,
   "InternalName": "Felnum_Ore_Item",
   "Images": [

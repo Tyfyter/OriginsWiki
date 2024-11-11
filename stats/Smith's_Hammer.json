@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Pets/Smiths_Hammer",
   "Name": "Smith's Hammer",
   "Types": [
-    "Item"
+    "Item",
+    "LightPet"
   ],
   "Damage": 0,
   "UseTime": 20,

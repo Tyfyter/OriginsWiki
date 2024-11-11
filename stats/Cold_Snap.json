@@ -5,8 +5,7 @@
     "Item",
     "Launcher",
     "CanistahUser",
-    "Weapon",
-    "OtherRanged"
+    "Weapon"
   ],
   "Damage": 15,
   "ArmorPenetration": 3,

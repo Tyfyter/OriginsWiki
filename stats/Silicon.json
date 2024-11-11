@@ -5,7 +5,6 @@
     "Ore",
     "Tile"
   ],
-  "PickReq": 35,
   "PlacementSize": [
     1,
     1
@@ -13,6 +12,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 44,
+  "Tier": 4,
   "SpriteWidth": 16,
   "InternalName": "Silicon_Item",
   "Images": [

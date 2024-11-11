@@ -3,6 +3,7 @@
   "Name": "Blockus Tube",
   "Types": [
     "Item",
+    "Pet",
     "Master"
   ],
   "Damage": 0,

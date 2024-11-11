@@ -3,6 +3,7 @@
   "Name": "Rusty Cross Necklace",
   "Types": [
     "Item",
+    "Pet",
     "Hardmode"
   ],
   "Tooltip": [

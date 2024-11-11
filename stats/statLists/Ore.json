@@ -5,7 +5,7 @@
   "headers": [
     "Tier",
     "Name",
-    {"name":"Minimum to mine", "expr":"item.MineReq"},
+    {"name":"Minimum to mine", "expr":"item.PickReq"},
     "Crafting",
     "Source",
     { "name":"Obtainable pre-Hardmode", "expr":"item.Types.includes('Hardmode') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not available pre-hardmode\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'available pre-hardmode\\'>✔️</abbr>'", "noAbbr": true}

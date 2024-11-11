@@ -6,7 +6,7 @@
     "Hardmode",
     "Tile"
   ],
-  "PickReq": 150,
+  "PickReq": 180,
   "PlacementSize": [
     1,
     1
@@ -15,6 +15,7 @@
   "Tooltip": "'So alkaline-concentrated it could be used as a power source'",
   "Rarity": "Orange",
   "Sell": 1700,
+  "Tier": 11.5,
   "SpriteWidth": 16,
   "InternalName": "Eitrite_Ore_Item",
   "Images": [

@@ -2,10 +2,11 @@
   "Image": "World_Cracker",
   "Name": "World Cracker",
   "Types": [
-    "NPC"
+    "NPC",
+    "Boss"
   ],
-  "MaxLife": 2890, 
-  "Defense": 20,
+  "MaxLife": 3800,
+  "Defense": 100,
   "KBResist": 1.0,
   "Immunities": [
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
@@ -20,7 +21,7 @@
     },
     {
       "Name": "Riven Carapace",
-      "Amount": "1‒1134"
+      "Amount": "1‒134"
     },
     {
       "Name": "Teardown",
@@ -43,13 +44,34 @@
   "Expert": {
     "MaxLife": 5780,
     "Coins": 125000.0,
-    "Drops": []
+    "Drops": [
+      {
+        "Name": "Treasure Bag (World Cracker)"
+      }
+    ],
+    "RivenAssimilation": 0.103999995
   },
   "Master": {
-    "MaxLife": 8670,
+    "MaxLife": 8250,
     "Coins": 125000.0,
-    "Drops": []
+    "Drops": [
+      {
+        "Name": "Treasure Bag (World Cracker)"
+      },
+      {
+        "Name": "Fleshy Globe",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Amebic Vial",
+        "Chance": "25%"
+      },
+      {
+        "Name": "World Cracker Relic"
+      }
+    ],
+    "RivenAssimilation": 0.12
   },
-  "SpriteWidth": 84,
-  "InternalName": "World_Cracker_Tail"
+  "SpriteWidth": 98,
+  "InternalName": "World_Cracker_Head"
 }

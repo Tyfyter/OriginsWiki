@@ -3,8 +3,7 @@
   "Name": "chrersis",
   "Nicknames": [
     "Chee",
-    "Cher",
-    "Combat"
+    "Cher"
   ],
   "Socials": [
     "<a is=a-link href=https://www.youtube.com/channel/UCBRbwvOzTuiSYj2uq-hQdIg>@cheezpuffs</a>",
@@ -14,6 +13,5 @@
     "<a is=a-link image=Images/ArmorSets/Ancient_Defiled_Armor.png>Ancient Defiled Armor</a>",
     "<a is=a-link image=$fromStats>Seam Beam</a>",
     "<a is=a-link image=§ModImage§/Items/Pets/Strange_Power_Up.png href=Strange_Power_Up.html>Strange Power-Up</a>"
-  ],
-  "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time"
+  ]
 }

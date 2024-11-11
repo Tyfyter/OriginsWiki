@@ -3,6 +3,8 @@
   "Name": "Strange Power-Up",
   "Types": [
     "Item",
+    "Pet",
+    "DeveloperItem",
     "Hardmode"
   ],
   "Damage": 0,

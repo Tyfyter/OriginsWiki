@@ -1,0 +1,11 @@
+{
+  "categories": [
+    "pet"
+  ],
+  "headers": [
+    "Buff",
+    "Pet",
+    "Item",
+    "Source"
+  ]
+}

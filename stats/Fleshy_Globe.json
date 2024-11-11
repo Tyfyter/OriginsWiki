@@ -3,6 +3,7 @@
   "Name": "Fleshy Globe",
   "Types": [
     "Item",
+    "LightPet",
     "Master"
   ],
   "Damage": 0,

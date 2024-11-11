@@ -1422,7 +1422,6 @@
       "Biocomponent_10",
       "Black_Hole_Bomb",
       "Blast_Armor",
-      "Bleeding_Obsidian",
       "Bleeding_Obsidian_Armor",
       "Bleeding_Obsidian_Shard",
       "Blizzardwalker's_Jacket",
@@ -1569,7 +1568,6 @@
       "Eccentric_Stone",
       "Edenwood",
       "Eden_Wood_Wall",
-      "Eitrite_Ore",
       "Emergency_Bee_Canister",
       "Enchanted_Fiberglass_Bow",
       "Enchanted_Fiberglass_Pistol",
@@ -2043,6 +2041,7 @@
       "Blast_Helmet",
       "Blast_Plate",
       "Bled_Out_Staff",
+      "Bleeding_Obsidian",
       "Bleeding_Obsidian_Chaps",
       "Bleeding_Obsidian_Hardee",
       "Bleeding_Obsidian_Kunai",
@@ -2090,6 +2089,7 @@
       "Dusk_Key",
       "Eaterboros",
       "Eitrite_Bar",
+      "Eitrite_Ore",
       "Exploder_Emblem",
       "Eyndum_Greaves",
       "Eyndum_Helmet",
@@ -2667,9 +2667,7 @@
   "otherranged": {
     "name": "Other ranged",
     "items": [
-      "Ancient_Fragthrower",
       "Bleeding_Obsidian_Kunai",
-      "Cold_Snap",
       "Dart_Crossbow",
       "Dragon's_Breath",
       "Fiberglass_Shard",
@@ -2854,6 +2852,7 @@
   "otherexplosive": {
     "name": "Other explosives",
     "items": [
+      "Ancient_Fragthrower",
       "Caustica",
       "Dreikan",
       "Omni-directional_Claymore",

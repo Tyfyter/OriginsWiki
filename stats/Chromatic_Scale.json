@@ -3,6 +3,8 @@
   "Name": "Chromatic Scale",
   "Types": [
     "Item",
+    "Pet",
+    "DeveloperItem",
     "Hardmode"
   ],
   "Damage": 0,

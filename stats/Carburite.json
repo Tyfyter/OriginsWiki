@@ -14,6 +14,7 @@
   "Tooltip": "'An organic mineral that reacts to compounds'",
   "Rarity": "Blue",
   "Sell": 100,
+  "Tier": 5,
   "SpriteWidth": 24,
   "InternalName": "Carburite_Item",
   "Images": [

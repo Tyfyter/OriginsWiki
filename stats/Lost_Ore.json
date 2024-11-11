@@ -13,6 +13,8 @@
   "Tooltip": "A strange metal warped to the curiosity of the Defiled",
   "Rarity": "Blue",
   "Sell": 1000,
+  "Tier": 5,
+  "PickReq": 55,
   "SpriteWidth": 16,
   "InternalName": "Lost_Ore_Item",
   "Images": [

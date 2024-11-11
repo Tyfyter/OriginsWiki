@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Pets/Suspicious_Looking_Pebble",
   "Name": "Suspicious Looking Pebble",
   "Types": [
-    "Item"
+    "Item",
+    "LightPet"
   ],
   "Damage": 0,
   "UseTime": 20,
