@@ -3,8 +3,8 @@
   "Name": "Marrowick Sword",
   "Types": [
     "Item",
-    "Weapon",
     "Sword",
+    "Weapon",
     "Sword"
   ],
   "Damage": 12,

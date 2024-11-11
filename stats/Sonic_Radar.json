@@ -3,9 +3,9 @@
   "Name": "Sonic Radar",
   "Types": [
     "Item",
+    "Info",
     "Accessory",
-    "Hardmode",
-    "Info"
+    "Hardmode"
   ],
   "Tooltip": [
     "Allows the detection of traps, enemies, and valuables",

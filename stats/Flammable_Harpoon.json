@@ -3,8 +3,9 @@
   "Name": "Flammable Harpoon",
   "Types": [
     "Item",
-    "Ammo",
-    "Harpoon"
+    "Harpoon",
+    "Harpoon",
+    "Ammo"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",

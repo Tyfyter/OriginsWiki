@@ -3,8 +3,8 @@
   "Name": "Haggard Artery",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Damage": 45,
   "DamageClass": "Explosive",

@@ -3,10 +3,10 @@
   "Name": "Dryad's Inheritance",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases damage, movement speed, and length of invincibility after taking damage",

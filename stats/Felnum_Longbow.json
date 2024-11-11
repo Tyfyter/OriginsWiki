@@ -3,8 +3,8 @@
   "Name": "Felnum Longbow",
   "Types": [
     "Item",
-    "Weapon",
     "Bow",
+    "Weapon",
     "Bow"
   ],
   "Damage": 19,

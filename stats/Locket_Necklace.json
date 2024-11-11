@@ -3,9 +3,9 @@
   "Name": "Locket Necklace",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Increases damage and movement speed after taking damage",
   "Rarity": "Orange",

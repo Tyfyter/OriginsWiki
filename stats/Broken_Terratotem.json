@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Broken_Terratotem",
+  "Name": "Broken Terratotem",
+  "Types": [
+    "Item",
+    "Artifact",
+    "Minion",
+    "Weapon",
+    "Artifact",
+    "Minion"
+  ],
+  "ManaCost": 38,
+  "Damage": 28,
+  "DamageClass": "Summon",
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "Summons a lost soul to fight for you",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 26,
+  "InternalName": "Broken_Terratotem"
+}

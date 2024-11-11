@@ -3,9 +3,9 @@
   "Name": "Dim Starlight",
   "Types": [
     "Item",
-    "Accessory",
     "Vitality",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Chance for mana stars to fall from critical hits",
   "Rarity": "Blue",

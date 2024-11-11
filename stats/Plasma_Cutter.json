@@ -3,9 +3,9 @@
   "Name": "Plasma Cutter",
   "Types": [
     "Item",
+    "MagicGun",
     "Weapon",
-    "Hardmode",
-    "MagicGun"
+    "Hardmode"
   ],
   "ManaCost": 28,
   "Damage": 27,

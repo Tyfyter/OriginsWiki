@@ -3,10 +3,10 @@
   "Name": "Ameballoon",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 25,
   "ArmorPenetration": 1,

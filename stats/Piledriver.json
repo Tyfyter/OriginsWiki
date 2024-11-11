@@ -3,7 +3,9 @@
   "Name": "Piledriver",
   "Types": [
     "Item",
-    "Weapon"
+    "ToolWeapon",
+    "Weapon",
+    "OtherMelee"
   ],
   "Damage": 46,
   "DamageClass": "Melee",

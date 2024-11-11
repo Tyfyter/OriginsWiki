@@ -3,9 +3,9 @@
   "Name": "Eternabrite",
   "Types": [
     "Item",
-    "Weapon",
     "UsesBookcase",
-    "SpellBook"
+    "SpellBook",
+    "Weapon"
   ],
   "ManaCost": 14,
   "Damage": 28,

@@ -3,8 +3,8 @@
   "Name": "The Kruncher",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 6,

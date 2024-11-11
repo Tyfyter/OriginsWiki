@@ -2,10 +2,10 @@
   "Name": "Stone Mask",
   "Types": [
     "Item",
-    "Accessory",
-    "Tile",
     "Vitality",
-    "LoreItem"
+    "LoreItem",
+    "Accessory",
+    "Tile"
   ],
   "PlacementSize": [
     2,

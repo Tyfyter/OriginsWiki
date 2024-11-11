@@ -3,11 +3,11 @@
   "Name": "Strange Computer",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Info",
     "LoreItem",
-    "Hidden"
+    "Hidden",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "This tooltip is a message... and part of a system of messages... pay attention to it!",
@@ -18,9 +18,10 @@
     "The danger is still present, in your time, as it was in ours.",
     "The danger is to the game, and it can crash.",
     "The form of the danger is an emanation of projectiles.",
-    "The danger is unleashed only if you substantially disturb this item physically. This item is best shunned and left unequipped."
+    "The danger is unleashed only if you substantially disturb this item physically. This item is best shunned and left unequipped.",
+    "Side effects include universal instability, eternalism, sticky fingers, hallucination, and premature ejaculation"
   ],
-  "Rarity": "Pink",
+  "Rarity": "Cursed",
   "Sell": 20000,
   "Source": "(5) <a is=a-link href=https://terraria.wiki.gg/wiki/Glass>Glass</a> + (10) <a is=a-link image=$fromStats>Busted Servo</a> + <a is=a-link image=$fromStats>Power Core</a> + (6) <a is=a-link image=$fromStats>Rotor</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
   "SpriteWidth": 32,

@@ -3,8 +3,8 @@
   "Name": "Donor Wristband",
   "Types": [
     "Item",
-    "Accessory",
-    "Vitality"
+    "Vitality",
+    "Accessory"
   ],
   "Tooltip": [
     "Increased life regeneration",

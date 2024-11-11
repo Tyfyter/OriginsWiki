@@ -3,9 +3,10 @@
   "Name": "Laser Tag Gun",
   "Types": [
     "Item",
+    "MagicGun",
     "Weapon",
-    "Hardmode",
-    "MagicGun"
+    "OtherRanged",
+    "Hardmode"
   ],
   "ManaCost": 10,
   "Damage": 1,

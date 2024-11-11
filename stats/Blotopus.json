@@ -3,8 +3,8 @@
   "Name": "Blotopus",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 4,

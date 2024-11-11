@@ -3,11 +3,11 @@
   "Name": "Counter Offensive Scarf",
   "Types": [
     "Item",
-    "Accessory",
-    "Expert",
     "Vitality",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory",
+    "Expert"
   ],
   "Tooltip": [
     "Reduces damage you take by up to 20% when enemies gain distance from you",

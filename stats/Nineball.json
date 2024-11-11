@@ -3,6 +3,7 @@
   "Name": "Nineball",
   "Types": [
     "Item",
+    "Yoyo",
     "Weapon",
     "Yoyo"
   ],

@@ -3,9 +3,9 @@
   "Name": "Bled Out Staff",
   "Types": [
     "Item",
+    "Wand",
     "Weapon",
-    "Hardmode",
-    "Wand"
+    "Hardmode"
   ],
   "ManaCost": 16,
   "Damage": 45,

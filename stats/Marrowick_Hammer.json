@@ -3,8 +3,6 @@
   "Name": "Marrowick Hammer",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "HammerPower": 45,

@@ -3,12 +3,12 @@
   "Name": "Exploder Emblem",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
-  "Tooltip": "+5% explosive damage",
+  "Tooltip": "5% increased explosive damage",
   "Rarity": "LightRed",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Wall_of_Flesh>Wall of Flesh</a>",

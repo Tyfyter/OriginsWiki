@@ -3,8 +3,8 @@
   "Name": "Fiberglass Pistol",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 11,

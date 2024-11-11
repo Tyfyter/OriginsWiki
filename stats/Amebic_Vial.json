@@ -3,9 +3,9 @@
   "Name": "Amebic Vial",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Master",
-    "Combat"
+    "Master"
   ],
   "Tooltip": "Amebic tentacles will protect you from projectiles",
   "Rarity": "Orange",

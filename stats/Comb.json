@@ -3,9 +3,9 @@
   "Name": "Comb",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "3% increased damage",
   "Rarity": "Green",

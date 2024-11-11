@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Item_4409",
+  "Name": "Tile Entity Debugger",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Rarity": "Green",
+  "Sell": 411065408,
+  "SpriteWidth": 28,
+  "InternalName": "TileEntityDebugger"
+}

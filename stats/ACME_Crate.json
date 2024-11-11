@@ -3,9 +3,9 @@
   "Name": "ACME Crate",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": [
     "Greatly increased explosive blast radius",

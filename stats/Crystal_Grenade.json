@@ -3,11 +3,11 @@
   "Name": "Crystal Grenade",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsGrenade",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 56,
   "ArmorPenetration": 3,

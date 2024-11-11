@@ -3,8 +3,8 @@
   "Name": "Neural Network",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 9,

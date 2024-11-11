@@ -3,10 +3,10 @@
   "Name": "Sonar Visor",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increased projectile speed",

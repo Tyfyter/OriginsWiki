@@ -3,10 +3,10 @@
   "Name": "Telephone Pole",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
     "Sword",
-    "Hardmode",
-    "Sword"
+    "Hardmode"
   ],
   "Damage": 110,
   "DamageClass": "Melee",

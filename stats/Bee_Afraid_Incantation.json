@@ -3,14 +3,15 @@
   "Name": "Bee Afraid Incantation",
   "Types": [
     "Item",
+    "Incantation",
     "Weapon",
-    "Incantation"
+    "OtherMagic"
   ],
-  "ManaCost": 14,
-  "Damage": 19,
+  "ManaCost": 18,
+  "Damage": 12,
   "DamageClass": "Summon",
   "Knockback": 0.8,
-  "UseTime": 26,
+  "UseTime": 36,
   "Tooltip": [
     "Summons a swarm of bees to your cursor",
     "6 summon tag damage"

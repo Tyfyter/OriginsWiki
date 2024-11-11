@@ -3,9 +3,9 @@
   "Name": "Rebreather",
   "Types": [
     "Item",
+    "Misc",
     "Accessory",
-    "Hardmode",
-    "Misc"
+    "Hardmode"
   ],
   "Tooltip": "Gain more breath as you move in water",
   "Rarity": "LightRed",

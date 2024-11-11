@@ -3,11 +3,10 @@
   "Name": "Nematoclaw",
   "Types": [
     "Item",
+    "ToxicSource",
     "Weapon",
     "Sword",
-    "Hardmode",
-    "OtherMelee",
-    "ToxicSource"
+    "Hardmode"
   ],
   "Damage": 48,
   "DamageClass": "Melee",

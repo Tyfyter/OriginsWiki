@@ -3,9 +3,9 @@
   "Name": "Makeover Choker",
   "Types": [
     "Item",
+    "Vitality",
     "Accessory",
-    "Hardmode",
-    "Vitality"
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases life regeneration at low health",

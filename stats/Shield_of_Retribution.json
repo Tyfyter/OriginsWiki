@@ -3,9 +3,9 @@
   "Name": "Shield of Retribution",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Defense": 3,
   "Tooltip": [

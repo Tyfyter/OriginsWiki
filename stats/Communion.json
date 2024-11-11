@@ -3,9 +3,9 @@
   "Name": "Communion",
   "Types": [
     "Item",
+    "Wand",
     "Weapon",
-    "Hardmode",
-    "Wand"
+    "Hardmode"
   ],
   "ManaCost": 18,
   "Damage": 52,

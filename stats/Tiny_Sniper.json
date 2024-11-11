@@ -3,10 +3,10 @@
   "Name": "Tiny Sniper",
   "Types": [
     "Item",
+    "Gun",
     "Weapon",
     "Gun",
-    "Hardmode",
-    "Gun"
+    "Hardmode"
   ],
   "Damage": 96,
   "DamageClass": "Ranged",

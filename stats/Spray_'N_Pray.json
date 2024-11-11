@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Spray_N_Pray",
+  "Name": "Spray 'N Pray",
+  "Types": [
+    "Item",
+    "Gun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 20,
+  "DamageClass": "Ranged",
+  "Crit": 0,
+  "UseTime": 4,
+  "Velocity": 10.0,
+  "Tooltip": "Uses paint as ammo",
+  "Rarity": "LightPurple",
+  "SpriteWidth": 40,
+  "InternalName": "Spray_N_Pray"
+}

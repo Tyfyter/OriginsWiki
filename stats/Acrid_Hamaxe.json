@@ -3,10 +3,8 @@
   "Name": "Acrid Hamaxe",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
-    "Hardmode",
-    "Tool"
+    "Tool",
+    "Hardmode"
   ],
   "AxePower": 22,
   "HammerPower": 65,

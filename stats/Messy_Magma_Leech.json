@@ -3,8 +3,8 @@
   "Name": "Messy Magma Leech",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Tooltip": [
     "All attacks inflict Bleeding and set enemies ablaze",

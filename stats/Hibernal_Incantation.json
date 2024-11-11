@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Hibernal_Incantation",
+  "Name": "Hibernal Incantation",
+  "Types": [
+    "Item",
+    "Incantation",
+    "Weapon",
+    "OtherMagic"
+  ],
+  "ManaCost": 14,
+  "Damage": 15,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 26,
+  "Velocity": 9.75,
+  "Tooltip": [
+    "4 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 22,
+  "InternalName": "Hibernal_Incantation"
+}

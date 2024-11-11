@@ -3,10 +3,10 @@
   "Name": "Pneumatic Bomb Thrower",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "50% increased explosive throwing velocity",

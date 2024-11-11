@@ -3,8 +3,8 @@
   "Name": "Sleetfire",
   "Types": [
     "Item",
-    "Weapon",
-    "Gun"
+    "Gun",
+    "Weapon"
   ],
   "Damage": 9,
   "ArmorPenetration": 5,

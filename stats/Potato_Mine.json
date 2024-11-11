@@ -2,11 +2,11 @@
   "Name": "Potato Mine",
   "Types": [
     "Item",
+    "OtherExplosive",
+    "ExpendableWeapon",
     "Weapon",
     "Ammo",
-    "Tile",
-    "OtherExplosive",
-    "ExpendableWeapon"
+    "Tile"
   ],
   "PlacementSize": [
     1,

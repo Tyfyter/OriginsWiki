@@ -3,9 +3,9 @@
   "Name": "Fiberglass Dagger",
   "Types": [
     "Item",
+    "GenericBoostAcc",
     "Accessory",
-    "Master",
-    "GenericBoostAcc"
+    "Master"
   ],
   "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",
   "Rarity": "Blue",

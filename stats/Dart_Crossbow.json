@@ -3,9 +3,10 @@
   "Name": "Dart Crossbow",
   "Types": [
     "Item",
+    "DartLauncher",
     "Weapon",
-    "Hardmode",
-    "DartLauncher"
+    "OtherRanged",
+    "Hardmode"
   ],
   "Damage": 62,
   "DamageClass": "Ranged",

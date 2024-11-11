@@ -3,8 +3,6 @@
   "Name": "Brick Breaker",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "HammerPower": 60,

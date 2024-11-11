@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
+    "OtherRanged",
     "Hardmode"
   ],
   "Damage": 85,

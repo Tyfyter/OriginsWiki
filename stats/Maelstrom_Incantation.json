@@ -3,7 +3,9 @@
   "Name": "Maelstrom Incantation",
   "Types": [
     "Item",
-    "Weapon"
+    "Weapon",
+    "OtherSummon",
+    "OtherMagic"
   ],
   "ManaCost": 16,
   "Damage": 19,

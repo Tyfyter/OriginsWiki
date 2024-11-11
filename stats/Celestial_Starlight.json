@@ -3,10 +3,10 @@
   "Name": "Celestial Starlight",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Vitality",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases pickup range for mana stars",

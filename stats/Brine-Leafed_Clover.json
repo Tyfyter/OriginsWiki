@@ -3,9 +3,9 @@
   "Name": "Brine-Leafed Clover",
   "Types": [
     "Item",
+    "Misc",
     "Accessory",
-    "Hardmode",
-    "Misc"
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases the likelihood of favorable outcomes based on how many leaves it has",

@@ -3,8 +3,8 @@
   "Name": "Tones of Agony",
   "Types": [
     "Item",
-    "Weapon",
-    "SpellBook"
+    "SpellBook",
+    "Weapon"
   ],
   "ManaCost": 15,
   "Damage": 40,

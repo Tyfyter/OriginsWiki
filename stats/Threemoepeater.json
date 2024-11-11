@@ -3,9 +3,9 @@
   "Name": "Threemoepeater",
   "Types": [
     "Item",
+    "Repeater",
     "Weapon",
-    "Bow",
-    "Repeater"
+    "Bow"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",

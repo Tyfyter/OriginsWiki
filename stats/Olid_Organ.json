@@ -3,11 +3,11 @@
   "Name": "Olid Organ",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "GenericBoostAcc",
-    "ToxicSource"
+    "ToxicSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "5% increased damage and critical strike chance",

@@ -3,11 +3,11 @@
   "Name": "Abyssal Anchor",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "ManaShielding",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "+15% melee speed",

@@ -3,8 +3,8 @@
   "Name": "Bolt Gun",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 26,

@@ -3,9 +3,9 @@
   "Name": "Ichor Canister",
   "Types": [
     "Item",
+    "Canistah",
     "Hardmode",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 35,
   "ArmorPenetration": 3,

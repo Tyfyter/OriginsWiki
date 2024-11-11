@@ -3,9 +3,9 @@
   "Name": "The Calibrator",
   "Types": [
     "Item",
+    "MagicGun",
     "Weapon",
-    "Hardmode",
-    "MagicGun"
+    "Hardmode"
   ],
   "ManaCost": 16,
   "Damage": 48,

@@ -3,9 +3,9 @@
   "Name": "Internal Combustionfish",
   "Types": [
     "Item",
-    "Weapon",
     "ThrownExplosive",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon"
   ],
   "Damage": 35,
   "ArmorPenetration": 7,

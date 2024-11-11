@@ -3,10 +3,10 @@
   "Name": "Peatball",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 12,
   "DamageClass": "Explosive (thrown)",

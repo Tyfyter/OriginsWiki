@@ -3,10 +3,10 @@
   "Name": "Astoxo",
   "Types": [
     "Item",
+    "Bow",
     "Weapon",
     "Bow",
-    "Hardmode",
-    "Bow"
+    "Hardmode"
   ],
   "Damage": 78,
   "DamageClass": "Ranged",

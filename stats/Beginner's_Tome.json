@@ -3,9 +3,9 @@
   "Name": "Beginner's Tome",
   "Types": [
     "Item",
-    "Weapon",
     "UsesBookcase",
-    "SpellBook"
+    "SpellBook",
+    "Weapon"
   ],
   "ManaCost": 8,
   "Damage": 16,

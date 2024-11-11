@@ -3,8 +3,8 @@
   "Name": "Dark Spiral",
   "Types": [
     "Item",
-    "Weapon",
     "Boomerang",
+    "Weapon",
     "Boomerang"
   ],
   "Damage": 30,

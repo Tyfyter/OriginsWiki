@@ -3,10 +3,10 @@
   "Name": "C.F.H.E.S.",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "All explosives inflict 'On Fire!' and have a reduced fuse time",

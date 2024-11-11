@@ -3,8 +3,8 @@
   "Name": "Phantom Fury",
   "Types": [
     "Item",
-    "Weapon",
-    "Wand"
+    "Wand",
+    "Weapon"
   ],
   "ManaCost": 9,
   "Damage": 40,

@@ -3,8 +3,8 @@
   "Name": "Petrified Prickly Pear",
   "Types": [
     "Item",
-    "Food",
-    "ManaShielding"
+    "ManaShielding",
+    "Food"
   ],
   "UseTime": 17,
   "Tooltip": "Minor improvements to all stats and 25% increased mana shielding",

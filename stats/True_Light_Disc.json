@@ -3,10 +3,10 @@
   "Name": "True Light Disc",
   "Types": [
     "Item",
+    "Boomerang",
     "Weapon",
     "Boomerang",
-    "Hardmode",
-    "Boomerang"
+    "Hardmode"
   ],
   "Damage": 70,
   "DamageClass": "Melee",

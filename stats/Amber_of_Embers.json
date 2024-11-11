@@ -3,9 +3,9 @@
   "Name": "Amber of Embers",
   "Types": [
     "Item",
+    "Wand",
     "Weapon",
-    "Hardmode",
-    "Wand"
+    "Hardmode"
   ],
   "ManaCost": 7,
   "Damage": 70,

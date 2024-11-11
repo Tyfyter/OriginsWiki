@@ -3,10 +3,10 @@
   "Name": "Decaying Scale",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "ToxicSource"
+    "ToxicSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Attacks inflict 'Toxic Shock' on enemies",

@@ -3,10 +3,11 @@
   "Name": "Amenonuhoko",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Spear",
-    "ToxicSource"
+    "ToxicSource",
+    "Weapon",
+    "Spear",
+    "Hardmode"
   ],
   "Damage": 64,
   "DamageClass": "Melee",

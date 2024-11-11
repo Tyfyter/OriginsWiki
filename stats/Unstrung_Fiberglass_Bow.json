@@ -3,8 +3,8 @@
   "Name": "Unstrung Fiberglass Bow",
   "Types": [
     "Item",
-    "Weapon",
     "Bow",
+    "Weapon",
     "Bow"
   ],
   "Damage": 17,

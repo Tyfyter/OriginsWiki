@@ -4,10 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode",
-    "Torn",
-    "TornSource",
-    "SentryWeapon"
+    "Sentry",
+    "Hardmode"
   ],
   "ManaCost": 24,
   "Damage": 48,

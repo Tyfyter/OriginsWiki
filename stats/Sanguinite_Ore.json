@@ -2,8 +2,8 @@
   "Name": "Sanguinite Ore",
   "Types": [
     "Item",
-    "Tile",
-    "Ore"
+    "Ore",
+    "Tile"
   ],
   "PlacementSize": [
     1,
@@ -13,10 +13,6 @@
   "Tooltip": "A rare mineral that grows more powerful with heat",
   "Rarity": "Blue",
   "Sell": 1000,
-  "Tier": "<b>5</b>",
-  "MineReq": "<a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Pickaxe>Gold Pickaxe</a>, <a is=a-link href=https://terraria.wiki.gg/wiki/Platinum_Pickaxe>Platinum Pickaxe</a>, <a is=a-link href=https://terraria.wiki.gg/wiki/Reaver_Shark>Reaver Shark</a>",
-  "Crafting": "3 <a is=a-link image=$fromStats>Sanguinite Ore</a> = <a is=a-link image=$fromStats>Sanguinite Bar</a>",
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Underground>Underground</a>, <a is=a-link href=https://terraria.wiki.gg/wiki/Cavern>Cavern</a>, <a is=a-link href=https://terraria.wiki.gg/wiki/Eye_of_Cthulhu>Eye of Cthulhu</a>, <a is=a-link>Scrapper</a>",
   "SpriteWidth": 16,
   "InternalName": "Sanguinite_Ore_Item",
   "Images": [

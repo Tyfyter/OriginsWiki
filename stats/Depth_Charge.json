@@ -3,9 +3,10 @@
   "Name": "Depth Charge",
   "Types": [
     "Item",
+    "Flail",
     "Weapon",
-    "Hardmode",
-    "Flail"
+    "OtherMelee",
+    "Hardmode"
   ],
   "Damage": 55,
   "DamageClass": "Explosive Melee",

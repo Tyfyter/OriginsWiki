@@ -3,10 +3,10 @@
   "Name": "Missile Armcannon",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Damage": 10,
   "DamageClass": "Explosive",

@@ -23,6 +23,7 @@
       "Amount": "2‒5"
     }
   ],
+  "RivenAssimilation": 0.04,
   "Expert": {
     "MaxLife": 600,
     "KBResist": 0.32500005,
@@ -36,7 +37,8 @@
         "Name": "Alkahest",
         "Amount": "2‒5"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 900,
@@ -51,7 +53,8 @@
         "Name": "Alkahest",
         "Amount": "2‒5"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.06
   },
   "SpriteWidth": 72,
   "InternalName": "Amoebeye"

@@ -3,9 +3,9 @@
   "Name": "Eccentric Stone",
   "Types": [
     "Item",
-    "Accessory",
     "Misc",
-    "LoreItem"
+    "LoreItem",
+    "Accessory"
   ],
   "Rarity": "Blue",
   "SpriteWidth": 18,

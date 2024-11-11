@@ -3,11 +3,11 @@
   "Name": "Hellfire Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 48,
   "ArmorPenetration": 1,

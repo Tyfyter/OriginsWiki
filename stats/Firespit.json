@@ -3,8 +3,8 @@
   "Name": "Firespit",
   "Types": [
     "Item",
-    "Weapon",
-    "Gun"
+    "Gun",
+    "Weapon"
   ],
   "Damage": 36,
   "DamageClass": "",

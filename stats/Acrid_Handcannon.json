@@ -3,11 +3,11 @@
   "Name": "Acrid Handcannon",
   "Types": [
     "Item",
+    "Handcannon",
+    "ToxicSource",
     "Weapon",
     "Handcannon",
-    "Hardmode",
-    "Handcannon",
-    "ToxicSource"
+    "Hardmode"
   ],
   "Damage": 72,
   "ArmorPenetration": 6,

@@ -3,10 +3,10 @@
   "Name": "Hazard Charm",
   "Types": [
     "Item",
-    "Accessory",
     "Misc",
     "ExplosiveBoostAcc",
-    "SelfDamageProtek"
+    "SelfDamageProtek",
+    "Accessory"
   ],
   "Tooltip": [
     "Reduces explosive self-damage by 15%",

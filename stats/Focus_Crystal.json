@@ -3,9 +3,9 @@
   "Name": "Focus Crystal",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": [
     "Life regeneration is boosted from dealing damage",

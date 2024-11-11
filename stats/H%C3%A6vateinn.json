@@ -3,9 +3,9 @@
   "Name": "Hævateinn",
   "Types": [
     "Item",
+    "Wand",
     "Weapon",
-    "Hardmode",
-    "Wand"
+    "Hardmode"
   ],
   "ManaCost": 17,
   "Damage": 78,

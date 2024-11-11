@@ -3,8 +3,10 @@
   "Name": "C6 Jackhammer",
   "Types": [
     "Item",
+    "ToolWeapon",
+    "Tool",
     "Weapon",
-    "Tool"
+    "OtherMelee"
   ],
   "HammerPower": 55,
   "Damage": 18,

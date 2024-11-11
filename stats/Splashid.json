@@ -4,6 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
+    "OtherMagic",
     "Hardmode"
   ],
   "ManaCost": 18,

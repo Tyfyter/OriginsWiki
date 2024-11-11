@@ -3,10 +3,12 @@
   "Name": "Bomb Artifact",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Artifact",
-    "Minion"
+    "Minion",
+    "Weapon",
+    "Artifact",
+    "Minion",
+    "Hardmode"
   ],
   "ManaCost": 40,
   "Damage": 80,

@@ -3,10 +3,10 @@
   "Name": "Fragarach",
   "Types": [
     "Item",
+    "DoesntBelongInOrigins",
     "Weapon",
     "Sword",
-    "Hardmode",
-    "DoesntBelongInOrigins"
+    "Hardmode"
   ],
   "Damage": 62,
   "DamageClass": "Melee",

@@ -3,9 +3,10 @@
   "Name": "Nuclear Arm",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Hardmode",
-    "Launcher"
+    "OtherMelee",
+    "Hardmode"
   ],
   "Damage": 120,
   "ArmorPenetration": 3,

@@ -3,9 +3,9 @@
   "Name": "Gelled Knife",
   "Types": [
     "Item",
-    "Weapon",
     "Torn",
     "TornSource",
+    "Weapon",
     "OtherRanged"
   ],
   "Damage": 12,

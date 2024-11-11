@@ -3,9 +3,9 @@
   "Name": "No U Card",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": [
     "Attackers receive 50% of incoming damage and debuffs regardless of immunity",

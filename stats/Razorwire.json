@@ -3,8 +3,8 @@
   "Name": "Razorwire",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Tooltip": "67% of damage received is split across 3 enemies",
   "Rarity": "Green",

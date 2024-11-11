@@ -3,8 +3,8 @@
   "Name": "A.S.H. Attack Relay",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Damage": 24,
   "ArmorPenetration": 6,

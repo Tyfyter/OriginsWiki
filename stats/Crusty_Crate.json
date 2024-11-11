@@ -2,8 +2,8 @@
   "Name": "Crusty Crate",
   "Types": [
     "Item",
-    "Tile",
-    "GrabBag"
+    "GrabBag",
+    "Tile"
   ],
   "PlacementSize": [
     2,

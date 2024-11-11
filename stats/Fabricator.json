@@ -2,9 +2,9 @@
   "Name": "Fabricator",
   "Types": [
     "Item",
-    "Tile",
     "Furniture",
-    "CraftingStation"
+    "CraftingStation",
+    "Tile"
   ],
   "PlacementSize": [
     4,

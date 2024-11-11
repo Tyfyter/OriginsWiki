@@ -3,12 +3,12 @@
   "Name": "The Bird",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
-    "Hardmode",
     "Sword",
     "DeveloperItem",
-    "ReworkExpected"
+    "ReworkExpected",
+    "Weapon",
+    "Sword",
+    "Hardmode"
   ],
   "Damage": 99,
   "DamageClass": "Melee",

@@ -3,8 +3,8 @@
   "Name": "Napalm Canister",
   "Types": [
     "Item",
-    "Ammo",
-    "Canistah"
+    "Canistah",
+    "Ammo"
   ],
   "Damage": 30,
   "ArmorPenetration": 3,

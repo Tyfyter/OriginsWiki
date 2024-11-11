@@ -3,8 +3,8 @@
   "Name": "Cyah Nara",
   "Types": [
     "Item",
-    "Weapon",
     "Sword",
+    "Weapon",
     "Sword"
   ],
   "Damage": 18,

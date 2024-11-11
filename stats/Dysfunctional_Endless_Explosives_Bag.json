@@ -3,9 +3,9 @@
   "Name": "Dysfunctional Endless Explosives Bag",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
   "Rarity": "Gray",

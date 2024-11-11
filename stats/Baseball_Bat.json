@@ -3,8 +3,8 @@
   "Name": "Baseball Bat",
   "Types": [
     "Item",
-    "Weapon",
     "Sword",
+    "Weapon",
     "Sword"
   ],
   "Damage": 5,

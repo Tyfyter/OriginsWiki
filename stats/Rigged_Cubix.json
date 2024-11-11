@@ -3,9 +3,9 @@
   "Name": "Rigged Cubix",
   "Types": [
     "Item",
+    "MagicGun",
     "Weapon",
-    "Hardmode",
-    "MagicGun"
+    "Hardmode"
   ],
   "ManaCost": 4,
   "Damage": 88,

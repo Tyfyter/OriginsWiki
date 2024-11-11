@@ -3,9 +3,10 @@
   "Name": "Cold Snap",
   "Types": [
     "Item",
-    "Weapon",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "OtherRanged"
   ],
   "Damage": 15,
   "ArmorPenetration": 3,

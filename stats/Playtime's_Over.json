@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Playtimes_Over",
+  "Name": "Playtime's Over",
+  "Types": [
+    "Item",
+    "Vitality",
+    "Torn",
+    "TornSource",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Attacks tenderize targets",
+    "+13% applied torn severity",
+    "Increased life regeneration, defense and applied torn severity based on the severity you're affected by"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Bug Trapper</a> + <a is=a-link image=$fromStats>Fleshy Figurine</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "SpriteWidth": 24,
+  "InternalName": "Playtimes_Over"
+}

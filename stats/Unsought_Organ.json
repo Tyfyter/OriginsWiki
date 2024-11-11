@@ -3,11 +3,11 @@
   "Name": "Unsought Organ",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "GenericBoostAcc",
-    "ToxicSource"
+    "ToxicSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Half of damage received is split across 3 enemies, inflicting 'Toxic Shock'",

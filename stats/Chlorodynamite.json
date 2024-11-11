@@ -3,10 +3,10 @@
   "Name": "Chlorodynamite",
   "Types": [
     "Item",
-    "Weapon",
     "ThrownExplosive",
     "IsDynamite",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon"
   ],
   "Damage": 186,
   "DamageClass": "Explosive (thrown)",

@@ -3,8 +3,8 @@
   "Name": "Hot Potato",
   "Types": [
     "Item",
-    "Weapon",
-    "OtherMagic"
+    "OtherMagic",
+    "Weapon"
   ],
   "ManaCost": 8,
   "Damage": 16,

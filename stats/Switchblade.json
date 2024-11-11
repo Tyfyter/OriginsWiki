@@ -3,8 +3,8 @@
   "Name": "Switchblade",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword"
+    "Sword",
+    "Weapon"
   ],
   "Damage": 23,
   "DamageClass": "Melee",

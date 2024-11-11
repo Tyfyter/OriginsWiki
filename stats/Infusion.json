@@ -3,8 +3,8 @@
   "Name": "Infusion",
   "Types": [
     "Item",
-    "Weapon",
-    "MagicGun"
+    "MagicGun",
+    "Weapon"
   ],
   "ManaCost": 3,
   "Damage": 4,

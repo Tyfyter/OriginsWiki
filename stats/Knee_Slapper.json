@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode",
-    "OtherMelee"
+    "OtherMelee",
+    "Hardmode"
   ],
   "Damage": 45,
   "DamageClass": "Melee",

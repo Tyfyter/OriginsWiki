@@ -3,6 +3,7 @@
   "Name": "Chromtain Helmet",
   "Types": [
     "Item",
+    "PostMLArmorSet",
     "Hardmode",
     "Armor"
   ],

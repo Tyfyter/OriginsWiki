@@ -3,13 +3,13 @@
   "Name": "Futurephones",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": [
-    "All attacks other than from your minion can tag enemies",
-    "5% increased damage and 10% critical strike chance against tagged enemies"
+    "All non-minion attacks can tag enemies",
+    "Non-minion attacks deal 5% increased damage and 10% critical strike chance against tagged enemies"
   ],
   "Rarity": "Pink",
   "Sell": 80000,

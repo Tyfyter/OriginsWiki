@@ -3,9 +3,9 @@
   "Name": "Turbo Reel",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Increased return speed for harpoon guns",
   "Rarity": "Green",

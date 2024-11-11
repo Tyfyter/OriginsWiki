@@ -3,9 +3,10 @@
   "Name": "Eaterboros",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
-    "Hardmode",
-    "Sword"
+    "OtherMagic",
+    "Hardmode"
   ],
   "ManaCost": 6,
   "Damage": 27,

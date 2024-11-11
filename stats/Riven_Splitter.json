@@ -3,8 +3,8 @@
   "Name": "Riven Splitter",
   "Types": [
     "Item",
-    "Weapon",
     "HarpoonGun",
+    "Weapon",
     "HarpoonGun"
   ],
   "Damage": 30,

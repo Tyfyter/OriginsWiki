@@ -3,10 +3,10 @@
   "Name": "Tyrfing",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
     "Sword",
-    "Hardmode",
-    "Sword"
+    "Hardmode"
   ],
   "Damage": 88,
   "DamageClass": "Melee",

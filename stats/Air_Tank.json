@@ -3,9 +3,9 @@
   "Name": "Air Tank",
   "Types": [
     "Item",
+    "Misc",
     "Accessory",
-    "Hardmode",
-    "Misc"
+    "Hardmode"
   ],
   "Tooltip": [
     "Extends underwater breathing",

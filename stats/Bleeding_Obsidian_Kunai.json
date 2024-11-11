@@ -3,19 +3,22 @@
   "Name": "Bleeding Obsidian Kunai",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Torn",
     "TornSource",
+    "ExpendableWeapon",
+    "Weapon",
     "OtherRanged",
-    "ExpendableWeapon"
+    "Hardmode"
   ],
   "Damage": 38,
   "DamageClass": "Ranged",
   "Knockback": 2.0,
   "UseTime": 7,
   "Velocity": 13.0,
-  "Tooltip": "'Be careful, it's sharp'",
+  "Tooltip": [
+    "Inflicts bleeding, cursed flames, ichor and torn",
+    "'Be careful, it's sharp'"
+  ],
   "Rarity": "Pink",
   "Sell": 10000,
   "SpriteWidth": 32,

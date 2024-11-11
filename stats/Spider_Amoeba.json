@@ -34,6 +34,7 @@
       "Chance": "0.19%"
     }
   ],
+  "RivenAssimilation": 0.04,
   "Expert": {
     "MaxLife": 162,
     "KBResist": 0.7975,
@@ -59,7 +60,8 @@
         "Name": "Ancient Riven Pants",
         "Chance": "0.19%"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 243,
@@ -86,7 +88,8 @@
         "Name": "Ancient Riven Pants",
         "Chance": "0.19%"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.06
   },
   "SpriteWidth": 68,
   "InternalName": "Spider_Amoeba_Wall"

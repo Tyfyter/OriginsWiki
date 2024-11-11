@@ -3,14 +3,17 @@
   "Name": "Alkahest Canister",
   "Types": [
     "Item",
+    "Canistah",
     "Hardmode",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 30,
   "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
-  "Tooltip": "Releases alkahest drops upon impact",
+  "Tooltip": [
+    "Releases alkahest drops upon impact",
+    "Tenderizes the target"
+  ],
   "Rarity": "LightRed",
   "Sell": 302,
   "SpriteWidth": 16,

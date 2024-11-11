@@ -3,9 +3,9 @@
   "Name": "Grave Danger",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Defense": 5,
   "Tooltip": "Temporarily increases defense by 25% after death",

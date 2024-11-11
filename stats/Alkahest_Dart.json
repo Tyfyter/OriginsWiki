@@ -3,15 +3,18 @@
   "Name": "Alkahest Dart",
   "Types": [
     "Item",
-    "Ammo",
     "Dart",
-    "TornSource"
+    "TornSource",
+    "Ammo"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",
   "Knockback": 2.2,
   "Velocity": 3.0,
-  "Tooltip": "Leaves a trail of alkahest behind it",
+  "Tooltip": [
+    "Leaves a trail of alkahest behind it",
+    "Tenderizes the target"
+  ],
   "Rarity": "Orange",
   "Sell": 6,
   "SpriteWidth": 14,

@@ -3,9 +3,9 @@
   "Name": "Cursed Canister",
   "Types": [
     "Item",
+    "Canistah",
     "Hardmode",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 27,
   "ArmorPenetration": 3,

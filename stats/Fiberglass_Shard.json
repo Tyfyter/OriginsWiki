@@ -3,9 +3,9 @@
   "Name": "Fiberglass Shard",
   "Types": [
     "Item",
+    "ExpendableWeapon",
     "Weapon",
-    "OtherRanged",
-    "ExpendableWeapon"
+    "OtherRanged"
   ],
   "Damage": 12,
   "DamageClass": "Ranged",

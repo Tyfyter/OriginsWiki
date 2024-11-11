@@ -3,9 +3,9 @@
   "Name": "Bile Dart",
   "Types": [
     "Item",
-    "Ammo",
     "Dart",
-    "RasterSource"
+    "RasterSource",
+    "Ammo"
   ],
   "Damage": 11,
   "DamageClass": "Ranged",

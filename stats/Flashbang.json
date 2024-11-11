@@ -3,11 +3,11 @@
   "Name": "Flashbang",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsGrenade",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 26,
   "ArmorPenetration": 2,

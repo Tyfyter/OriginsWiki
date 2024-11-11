@@ -3,8 +3,6 @@
   "Name": "Felnum Hamaxe",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "AxePower": 22,

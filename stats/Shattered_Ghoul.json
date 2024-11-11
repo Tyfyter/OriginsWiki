@@ -26,6 +26,7 @@
       "ImageOverride": ""
     }
   ],
+  "DefiledAssimilation": 0.1,
   "Expert": {
     "MaxLife": 560,
     "KBResist": 0.55,
@@ -48,7 +49,8 @@
         "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
         "ImageOverride": ""
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.13
   },
   "Master": {
     "MaxLife": 840,
@@ -72,7 +74,8 @@
         "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
         "ImageOverride": ""
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.15
   },
   "SpriteWidth": 36,
   "InternalName": "Shattered_Ghoul"

@@ -3,9 +3,9 @@
   "Name": "Celestial Stone Mask",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": [
     "Increase to damage, melee speed, critical strike chance,",

@@ -3,9 +3,9 @@
   "Name": "Scrap Compactor",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Expert",
-    "Combat"
+    "Expert"
   ],
   "Tooltip": [
     "Your explosives will explode into frenzied shrapnel",

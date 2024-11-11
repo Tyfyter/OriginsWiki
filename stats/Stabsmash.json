@@ -3,8 +3,6 @@
   "Name": "Stabsmash",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "AxePower": 21,

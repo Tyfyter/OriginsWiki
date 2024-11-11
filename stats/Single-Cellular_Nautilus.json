@@ -26,6 +26,7 @@
       "Chance": "0.19%"
     }
   ],
+  "RivenAssimilation": 0.03,
   "Expert": {
     "MaxLife": 220,
     "KBResist": 0.100000024,
@@ -43,7 +44,8 @@
         "Name": "Ancient Riven Pants",
         "Chance": "0.19%"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.038999997
   },
   "Master": {
     "MaxLife": 330,
@@ -62,7 +64,8 @@
         "Name": "Ancient Riven Pants",
         "Chance": "0.19%"
       }
-    ]
+    ],
+    "RivenAssimilation": 0.044999998
   },
   "SpriteWidth": 38,
   "InternalName": "Single_Cellular_Nautilus"

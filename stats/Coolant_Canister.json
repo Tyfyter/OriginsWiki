@@ -3,9 +3,9 @@
   "Name": "Coolant Canister",
   "Types": [
     "Item",
+    "Canistah",
     "Hardmode",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 33,
   "ArmorPenetration": 3,

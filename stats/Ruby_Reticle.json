@@ -3,9 +3,9 @@
   "Name": "Ruby Reticle",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": "Critical strike chance is increased by 15% of weapon damage",
   "Rarity": "LightRed",

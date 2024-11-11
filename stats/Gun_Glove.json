@@ -3,8 +3,8 @@
   "Name": "Gun Glove",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Damage": 10,
   "DamageClass": "Ranged",

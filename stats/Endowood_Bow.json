@@ -3,8 +3,8 @@
   "Name": "Endowood Bow",
   "Types": [
     "Item",
-    "Weapon",
     "Bow",
+    "Weapon",
     "Bow"
   ],
   "Damage": 8,

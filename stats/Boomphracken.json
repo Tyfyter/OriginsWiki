@@ -3,10 +3,10 @@
   "Name": "Boomphracken",
   "Types": [
     "Item",
+    "Handcannon",
     "Weapon",
     "Handcannon",
-    "Hardmode",
-    "Handcannon"
+    "Hardmode"
   ],
   "Damage": 80,
   "ArmorPenetration": 8,

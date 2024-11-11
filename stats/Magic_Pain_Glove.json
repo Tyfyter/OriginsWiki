@@ -3,10 +3,10 @@
   "Name": "Magic Pain Glove",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "ManaCost": 3,
   "Damage": -9,

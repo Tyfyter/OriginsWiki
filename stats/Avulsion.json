@@ -3,10 +3,10 @@
   "Name": "Avulsion",
   "Types": [
     "Item",
-    "Weapon",
     "Torn",
     "TornSource",
-    "Wand"
+    "Wand",
+    "Weapon"
   ],
   "ManaCost": 13,
   "Damage": 28,
@@ -14,7 +14,10 @@
   "Knockback": 3.0,
   "UseTime": 37,
   "Velocity": 0.1,
-  "Tooltip": "Fires medium-range pulses",
+  "Tooltip": [
+    "Fires medium-range pulses",
+    "Attacks tenderize targets"
+  ],
   "Rarity": "Blue",
   "Sell": 10000,
   "SpriteWidth": 44,

@@ -3,9 +3,9 @@
   "Name": "Shimmer Rod",
   "Types": [
     "Item",
+    "OtherMagic",
     "Weapon",
-    "Hardmode",
-    "OtherMagic"
+    "Hardmode"
   ],
   "ManaCost": 30,
   "Damage": 30,

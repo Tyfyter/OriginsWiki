@@ -3,8 +3,9 @@
   "Name": "Dragon's Breath",
   "Types": [
     "Item",
+    "ReworkExpected",
     "Weapon",
-    "ReworkExpected"
+    "OtherRanged"
   ],
   "Damage": 40,
   "DamageClass": "Ranged",

@@ -3,11 +3,11 @@
   "Name": "Potato Battery",
   "Types": [
     "Item",
+    "Combat",
+    "MagicBoostAcc",
     "Accessory",
     "Hardmode",
-    "Ammo",
-    "Combat",
-    "MagicBoostAcc"
+    "Ammo"
   ],
   "Tooltip": [
     "Magic projectiles slightly home towards targets",

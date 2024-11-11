@@ -3,8 +3,8 @@
   "Name": "Broken Fiberglass Sword",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword"
+    "Sword",
+    "Weapon"
   ],
   "Damage": 18,
   "DamageClass": "Melee",

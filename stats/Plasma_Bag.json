@@ -3,8 +3,8 @@
   "Name": "Plasma Bag",
   "Types": [
     "Item",
-    "Accessory",
-    "Vitality"
+    "Vitality",
+    "Accessory"
   ],
   "Tooltip": [
     "Slightly increased regeneration",

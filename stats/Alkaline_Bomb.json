@@ -3,12 +3,12 @@
   "Name": "Alkaline Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
     "ExpendableWeapon",
-    "ToxicSource"
+    "ToxicSource",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 81,
   "DamageClass": "Explosive (thrown)",

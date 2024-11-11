@@ -3,10 +3,10 @@
   "Name": "Indestructible Saddle",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Movement",
-    "Mount"
+    "Mount",
+    "Weapon",
+    "Hardmode"
   ],
   "Damage": 150,
   "DamageClass": "Explosive",

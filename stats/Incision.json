@@ -3,9 +3,10 @@
   "Name": "Incision",
   "Types": [
     "Item",
+    "DartLauncher",
     "Weapon",
-    "Hardmode",
-    "DartLauncher"
+    "OtherRanged",
+    "Hardmode"
   ],
   "Damage": 34,
   "DamageClass": "Ranged",

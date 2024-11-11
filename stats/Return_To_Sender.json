@@ -3,8 +3,8 @@
   "Name": "Return To Sender",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Tooltip": "Attackers receive all damage inflicted on the user",
   "Rarity": "Blue",

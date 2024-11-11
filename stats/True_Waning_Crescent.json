@@ -3,10 +3,10 @@
   "Name": "True Waning Crescent",
   "Types": [
     "Item",
+    "Boomerang",
     "Weapon",
     "Boomerang",
-    "Hardmode",
-    "Boomerang"
+    "Hardmode"
   ],
   "Damage": 73,
   "DamageClass": "Melee",

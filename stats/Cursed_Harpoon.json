@@ -3,8 +3,9 @@
   "Name": "Cursed Harpoon",
   "Types": [
     "Item",
-    "Ammo",
-    "Harpoon"
+    "Harpoon",
+    "Harpoon",
+    "Ammo"
   ],
   "Damage": 20,
   "DamageClass": "Ranged",

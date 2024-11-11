@@ -3,11 +3,11 @@
   "Name": "Binding Book",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "ManaShielding",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases pickup range for mana stars",

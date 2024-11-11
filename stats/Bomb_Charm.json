@@ -3,10 +3,10 @@
   "Name": "Bomb Charm",
   "Types": [
     "Item",
-    "Accessory",
     "Vitality",
     "ExplosiveBoostAcc",
-    "SelfDamageProtek"
+    "SelfDamageProtek",
+    "Accessory"
   ],
   "Tooltip": "Reduces explosive self-damage by 15%",
   "Rarity": "Blue",

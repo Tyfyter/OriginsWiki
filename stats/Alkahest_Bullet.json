@@ -3,10 +3,11 @@
   "Name": "Alkahest Bullet",
   "Types": [
     "Item",
-    "Ammo",
     "Torn",
     "TornSource",
-    "Bullet"
+    "Bullet",
+    "Bullet",
+    "Ammo"
   ],
   "Damage": 12,
   "DamageClass": "Ranged",

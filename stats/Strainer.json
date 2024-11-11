@@ -3,7 +3,6 @@
   "Name": "Strainer",
   "Types": [
     "Item",
-    "Weapon",
     "Tool"
   ],
   "PickPower": 75,

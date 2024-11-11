@@ -3,8 +3,8 @@
   "Name": "Ancient Kruncher",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 13,

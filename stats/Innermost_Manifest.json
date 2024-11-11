@@ -3,11 +3,11 @@
   "Name": "Innermost Manifest",
   "Types": [
     "Item",
-    "Weapon",
     "Torn",
     "TornSource",
     "UsesBookcase",
-    "SpellBook"
+    "SpellBook",
+    "Weapon"
   ],
   "ManaCost": 8,
   "Damage": 8,
@@ -15,6 +15,7 @@
   "Knockback": 4.75,
   "UseTime": 15,
   "Velocity": 9.0,
+  "Tooltip": "Attacks tenderize targets",
   "Rarity": "Orange",
   "Sell": 3000,
   "SpriteWidth": 28,

@@ -3,10 +3,10 @@
   "Name": "Symbiote Skull",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "Accessory"
   ],
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Blue",

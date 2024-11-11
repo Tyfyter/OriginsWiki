@@ -3,15 +3,15 @@
   "Name": "Fleshy Figurine",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "Torn",
-    "TornSource"
+    "TornSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Attacks tenderize targets",
-    "+8% torn severity"
+    "+8% applied torn severity"
   ],
   "Rarity": "Pink",
   "Sell": 50000,

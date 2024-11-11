@@ -3,17 +3,18 @@
   "Name": "Seam Beam",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Torn",
     "TornSource",
-    "MagicGun"
+    "MagicGun",
+    "Weapon",
+    "Hardmode"
   ],
   "ManaCost": 19,
   "Damage": 42,
   "DamageClass": "Magic",
   "UseTime": 20,
   "Velocity": 8.0,
+  "Tooltip": "Attacks tenderize targets",
   "Rarity": "Pink",
   "Sell": 20000,
   "SpriteWidth": 32,

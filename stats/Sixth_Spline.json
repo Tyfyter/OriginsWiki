@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Sixth_Spline",
+  "Name": "Sixth Spline",
+  "Types": [
+    "Item",
+    "Gun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 40,
+  "DamageClass": "Ranged",
+  "Crit": 0,
+  "UseTime": 12,
+  "Velocity": 6.0,
+  "Tooltip": "Go nuts! This thing is really nutty firing all those nuts and bolts",
+  "Rarity": "LightRed",
+  "SpriteWidth": 52,
+  "InternalName": "Sixth_Spline"
+}

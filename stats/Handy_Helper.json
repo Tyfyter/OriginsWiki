@@ -3,9 +3,9 @@
   "Name": "Handy Helper",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Knockback": 8.0,
   "Tooltip": [

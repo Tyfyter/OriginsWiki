@@ -2,6 +2,7 @@
   "Name": "Silicon",
   "Types": [
     "Item",
+    "Ore",
     "Tile"
   ],
   "PickReq": 35,

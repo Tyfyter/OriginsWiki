@@ -3,9 +3,9 @@
   "Name": "Personal Laser Blade",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
-    "Hardmode",
-    "Sword"
+    "Hardmode"
   ],
   "Damage": 185,
   "DamageClass": "Melee",

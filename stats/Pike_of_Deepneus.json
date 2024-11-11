@@ -3,9 +3,9 @@
   "Name": "Pike of Deepneus",
   "Types": [
     "Item",
+    "OtherMagic",
     "Weapon",
-    "Hardmode",
-    "OtherMagic"
+    "Hardmode"
   ],
   "ManaCost": 34,
   "Damage": 160,

@@ -3,8 +3,8 @@
   "Name": "Trap Charm",
   "Types": [
     "Item",
-    "Accessory",
-    "Vitality"
+    "Vitality",
+    "Accessory"
   ],
   "Tooltip": "Reduces damage received from traps",
   "Rarity": "Green",

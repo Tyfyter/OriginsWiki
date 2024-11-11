@@ -3,9 +3,9 @@
   "Name": "Impenetrable Trashcan Lid",
   "Types": [
     "Item",
-    "Hardmode",
     "Movement",
-    "Mount"
+    "Mount",
+    "Hardmode"
   ],
   "UseTime": 20,
   "Tooltip": "Knocks you back from your explosions instead of taking damage",

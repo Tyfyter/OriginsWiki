@@ -3,9 +3,9 @@
   "Name": "Depth Ravel",
   "Types": [
     "Item",
+    "Movement",
     "Accessory",
-    "Hardmode",
-    "Movement"
+    "Hardmode"
   ],
   "Tooltip": [
     "Double tap down to transform into a small, rolling ball",

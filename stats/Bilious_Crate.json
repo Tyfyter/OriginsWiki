@@ -2,8 +2,8 @@
   "Name": "Bilious Crate",
   "Types": [
     "Item",
-    "Tile",
-    "GrabBag"
+    "GrabBag",
+    "Tile"
   ],
   "PlacementSize": [
     2,

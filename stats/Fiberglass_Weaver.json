@@ -13,7 +13,7 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
   ],
-  "Coins": 150000.0,
+  "Coins": 40000.0,
   "Drops": [
     {
       "Name": "Fiberglass Helmet",
@@ -47,7 +47,7 @@
   "Expert": {
     "MaxLife": 2800,
     "KBResist": 0.91,
-    "Coins": 375000.0,
+    "Coins": 100000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Fiberglass Weaver)"
@@ -57,7 +57,7 @@
   "Master": {
     "MaxLife": 4200,
     "KBResist": 0.92,
-    "Coins": 375000.0,
+    "Coins": 100000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Fiberglass Weaver)"

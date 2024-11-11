@@ -3,10 +3,10 @@
   "Name": "Lousy Liver",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "RasterSource"
+    "RasterSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
   "Rarity": "LightRed",

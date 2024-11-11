@@ -3,8 +3,8 @@
   "Name": "Messy Leech",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Tooltip": [
     "All attacks inflict Bleeding",

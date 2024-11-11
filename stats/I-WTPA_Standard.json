@@ -3,9 +3,9 @@
   "Name": "I-WTPA Standard",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Reduces explosive fuse time",
   "Rarity": "Blue",

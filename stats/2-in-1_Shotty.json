@@ -3,8 +3,8 @@
   "Name": "2-in-1 Shotty",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 14,

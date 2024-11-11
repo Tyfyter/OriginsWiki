@@ -3,12 +3,12 @@
   "Name": "Alkaline Grenade",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
     "ExpendableWeapon",
-    "ToxicSource"
+    "ToxicSource",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 60,
   "DamageClass": "Explosive (thrown)",

@@ -2,6 +2,7 @@
   "Name": "Eitrite Ore",
   "Types": [
     "Item",
+    "Ore",
     "Tile"
   ],
   "PickReq": 150,

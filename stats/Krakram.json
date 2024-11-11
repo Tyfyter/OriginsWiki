@@ -3,8 +3,8 @@
   "Name": "Krakram",
   "Types": [
     "Item",
-    "Weapon",
     "Boomerang",
+    "Weapon",
     "Boomerang"
   ],
   "Damage": 25,

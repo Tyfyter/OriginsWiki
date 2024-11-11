@@ -3,9 +3,9 @@
   "Name": "Magic Tripwire",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": [
     "Explosives will detonate near enemies",

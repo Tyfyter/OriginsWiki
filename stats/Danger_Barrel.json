@@ -3,9 +3,9 @@
   "Name": "Danger Barrel",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time",
   "Rarity": "Orange",

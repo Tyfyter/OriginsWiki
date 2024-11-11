@@ -3,9 +3,9 @@
   "Name": "Bile Canister",
   "Types": [
     "Item",
+    "Canistah",
     "Hardmode",
-    "Ammo",
-    "Canistah"
+    "Ammo"
   ],
   "Damage": 30,
   "ArmorPenetration": 3,

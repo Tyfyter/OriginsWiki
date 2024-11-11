@@ -3,9 +3,9 @@
   "Name": "Solar Panel",
   "Types": [
     "Item",
+    "Vitality",
     "Accessory",
-    "Hardmode",
-    "Vitality"
+    "Hardmode"
   ],
   "Tooltip": [
     "Sunlight exposure increases mana regeneration",

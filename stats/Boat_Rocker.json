@@ -3,10 +3,10 @@
   "Name": "Boat Rocker",
   "Types": [
     "Item",
+    "HarpoonGun",
     "Weapon",
     "HarpoonGun",
-    "Hardmode",
-    "HarpoonGun"
+    "Hardmode"
   ],
   "Damage": 48,
   "DamageClass": "Ranged",

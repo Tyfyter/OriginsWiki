@@ -3,10 +3,10 @@
   "Name": "Stack of Shraps",
   "Types": [
     "Item",
-    "Accessory",
-    "Expert",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Expert"
   ],
   "Tooltip": "Double the gunpowder, double the fun.",
   "Rarity": "Blue",

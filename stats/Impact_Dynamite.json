@@ -3,10 +3,10 @@
   "Name": "Impact Dynamite",
   "Types": [
     "Item",
-    "Weapon",
     "ThrownExplosive",
     "IsDynamite",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon"
   ],
   "Damage": 75,
   "ArmorPenetration": 3,

@@ -3,8 +3,8 @@
   "Name": "Seal of Cinders",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Damage": 24,
   "ArmorPenetration": 6,

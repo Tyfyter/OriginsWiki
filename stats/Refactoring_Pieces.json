@@ -3,9 +3,9 @@
   "Name": "Refactoring Pieces",
   "Types": [
     "Item",
+    "ManaShielding",
     "Accessory",
-    "Expert",
-    "ManaShielding"
+    "Expert"
   ],
   "Tooltip": [
     "Increases mana shielding by 10%",

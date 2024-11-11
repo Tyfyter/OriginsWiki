@@ -3,9 +3,9 @@
   "Name": "Dew Justice",
   "Types": [
     "Item",
+    "SpellBook",
     "Weapon",
-    "Hardmode",
-    "SpellBook"
+    "Hardmode"
   ],
   "ManaCost": 15,
   "Damage": 41,

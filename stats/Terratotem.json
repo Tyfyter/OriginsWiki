@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Terratotem",
+  "Name": "Terratotem",
+  "Types": [
+    "Item",
+    "Artifact",
+    "Minion",
+    "Weapon",
+    "Artifact",
+    "Minion",
+    "Hardmode"
+  ],
+  "ManaCost": 48,
+  "Damage": 70,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "Summons a reformed soul to fight for you",
+  "Rarity": "Yellow",
+  "Sell": 200000,
+  "SpriteWidth": 26,
+  "InternalName": "Terratotem"
+}

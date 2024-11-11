@@ -3,9 +3,9 @@
   "Name": "Nitro Crate",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Increases explosive blast radius by 40%",
   "Rarity": "Green",

@@ -3,8 +3,8 @@
   "Name": "Cryostrike",
   "Types": [
     "Item",
-    "Weapon",
-    "Wand"
+    "Wand",
+    "Weapon"
   ],
   "ManaCost": 10,
   "Damage": 16,

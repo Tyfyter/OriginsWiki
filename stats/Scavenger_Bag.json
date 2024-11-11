@@ -3,13 +3,13 @@
   "Name": "Scavenger Bag",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
     "Torn",
     "TornSource",
     "SummonBoostAcc",
-    "GenericBoostAcc"
+    "GenericBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increases armor penetration by 5 and attacks tenderize targets",

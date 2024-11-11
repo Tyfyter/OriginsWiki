@@ -3,10 +3,10 @@
   "Name": "Protozoa Food",
   "Types": [
     "Item",
-    "Accessory",
-    "Expert",
     "Combat",
-    "SummonBoostAcc"
+    "SummonBoostAcc",
+    "Accessory",
+    "Expert"
   ],
   "ManaCost": 10,
   "Damage": 13,

@@ -3,11 +3,11 @@
   "Name": "Impact Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 45,
   "ArmorPenetration": 3,

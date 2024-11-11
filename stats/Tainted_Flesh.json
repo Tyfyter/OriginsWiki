@@ -3,12 +3,12 @@
   "Name": "Tainted Flesh",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "Torn"
+    "Torn",
+    "Accessory",
+    "Hardmode"
   ],
-  "Tooltip": "+5% torn severity",
+  "Tooltip": "+5% applied torn severity",
   "Rarity": "LightRed",
   "Sell": 40000,
   "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",

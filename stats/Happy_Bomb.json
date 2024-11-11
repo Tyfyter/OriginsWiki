@@ -3,11 +3,11 @@
   "Name": "Happy Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 100,
   "DamageClass": "Explosive (thrown)",

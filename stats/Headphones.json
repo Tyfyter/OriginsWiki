@@ -3,10 +3,10 @@
   "Name": "Headphones",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "SummonBoostGear"
+    "SummonBoostGear",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Tagging an enemy increases the chance of a critical strike by 25% on next hit",

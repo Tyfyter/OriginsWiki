@@ -3,8 +3,10 @@
   "Name": "Impactaxe",
   "Types": [
     "Item",
+    "Tool",
+    "ToolWeapon",
     "Weapon",
-    "Tool"
+    "OtherMelee"
   ],
   "Damage": 32,
   "DamageClass": "Explosive Melee",
@@ -15,7 +17,7 @@
     "Explodes when struck, destroying tiles nearby",
     "'Self-damage resistance not included!'"
   ],
-  "Rarity": "Blue",
+  "Rarity": "Green",
   "Sell": 80000,
   "SpriteWidth": 50,
   "InternalName": "Impactaxe"

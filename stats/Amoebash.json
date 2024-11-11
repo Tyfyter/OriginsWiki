@@ -3,9 +3,9 @@
   "Name": "Amoebash",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
-    "Hardmode",
-    "Sword"
+    "Hardmode"
   ],
   "Damage": 87,
   "DamageClass": "Melee",

@@ -3,9 +3,9 @@
   "Name": "Self-Destruct",
   "Types": [
     "Item",
+    "OtherExplosive",
     "Weapon",
-    "Hardmode",
-    "OtherExplosive"
+    "Hardmode"
   ],
   "Damage": 125,
   "ArmorPenetration": 6,

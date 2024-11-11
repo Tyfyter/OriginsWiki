@@ -3,9 +3,9 @@
   "Name": "Caustica",
   "Types": [
     "Item",
+    "OtherExplosive",
     "Weapon",
-    "Hardmode",
-    "OtherExplosive"
+    "Hardmode"
   ],
   "ManaCost": 16,
   "Damage": 270,

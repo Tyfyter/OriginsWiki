@@ -3,8 +3,8 @@
   "Name": "Bug Trapper",
   "Types": [
     "Item",
-    "Accessory",
-    "Vitality"
+    "Vitality",
+    "Accessory"
   ],
   "Tooltip": "Increased life regeneration and defense based on the torn severity you're affected by",
   "Rarity": "Blue",

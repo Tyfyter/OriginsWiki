@@ -3,9 +3,9 @@
   "Name": "Destructive Claws",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory"
   ],
   "Tooltip": [
     "25% increased explosive throwing velocity",

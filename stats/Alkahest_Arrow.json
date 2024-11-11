@@ -3,10 +3,11 @@
   "Name": "Alkahest Arrow",
   "Types": [
     "Item",
-    "Ammo",
     "Torn",
     "TornSource",
-    "Arrow"
+    "Arrow",
+    "Arrow",
+    "Ammo"
   ],
   "Damage": 17,
   "DamageClass": "Ranged",

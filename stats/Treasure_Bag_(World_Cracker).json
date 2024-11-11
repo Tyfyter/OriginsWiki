@@ -10,7 +10,7 @@
   "Drops": [
     {
       "Name": "Encrusted Ore",
-      "Amount": "20‒330"
+      "Amount": "140‒330"
     },
     {
       "Name": "Riven Carapace",
@@ -39,6 +39,21 @@
       "Name": "Gold Coin",
       "Amount": 15,
       "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fox Mask",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Fox_Mask",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fox Shirt",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Fox_Shirt",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fox Pants",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Fox_Pants",
       "ImageOverride": ""
     },
     {

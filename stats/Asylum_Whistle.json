@@ -3,10 +3,10 @@
   "Name": "Asylum Whistle",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
     "SummonBoostAcc",
-    "LoreItem"
+    "LoreItem",
+    "Accessory"
   ],
   "Tooltip": [
     "Summons can target two enemies at once",

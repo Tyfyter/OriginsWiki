@@ -3,10 +3,10 @@
   "Name": "Sniper's Mark",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "+15% ranged damage",

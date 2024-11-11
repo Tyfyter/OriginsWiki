@@ -3,11 +3,11 @@
   "Name": "Link Grenade",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsGrenade",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 35,
   "ArmorPenetration": 3,

@@ -3,9 +3,9 @@
   "Name": "Protomind",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
-    "Hardmode",
-    "Combat"
+    "Hardmode"
   ],
   "Tooltip": [
     "Has a chance to create illusions and dodge an attack",

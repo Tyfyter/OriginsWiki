@@ -3,9 +3,9 @@
   "Name": "Startillery",
   "Types": [
     "Item",
+    "SpellBook",
     "Weapon",
-    "Hardmode",
-    "SpellBook"
+    "Hardmode"
   ],
   "ManaCost": 12,
   "Damage": 48,

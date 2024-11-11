@@ -3,10 +3,10 @@
   "Name": "Terrarang",
   "Types": [
     "Item",
+    "Boomerang",
     "Weapon",
     "Boomerang",
-    "Hardmode",
-    "Boomerang"
+    "Hardmode"
   ],
   "Damage": 80,
   "DamageClass": "Melee",

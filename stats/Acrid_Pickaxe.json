@@ -3,10 +3,8 @@
   "Name": "Acrid Pickaxe",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
-    "Hardmode",
-    "Tool"
+    "Tool",
+    "Hardmode"
   ],
   "PickPower": 195,
   "Damage": 28,

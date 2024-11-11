@@ -3,8 +3,8 @@
   "Name": "Splitsplash",
   "Types": [
     "Item",
-    "Weapon",
-    "SpellBook"
+    "SpellBook",
+    "Weapon"
   ],
   "ManaCost": 16,
   "Damage": 16,

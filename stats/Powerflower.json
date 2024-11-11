@@ -3,10 +3,10 @@
   "Name": "Powerflower",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Vitality",
-    "MagicBoostAcc"
+    "MagicBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Chance for mana stars to fall from critical hits",

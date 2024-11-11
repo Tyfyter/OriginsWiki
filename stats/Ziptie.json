@@ -4,8 +4,8 @@
   "Types": [
     "Item",
     "Weapon",
-    "Hardmode",
-    "Whip"
+    "Whip",
+    "Hardmode"
   ],
   "Damage": 47,
   "DamageClass": "Summon",

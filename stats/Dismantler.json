@@ -3,8 +3,6 @@
   "Name": "Dismantler",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "PickPower": 75,

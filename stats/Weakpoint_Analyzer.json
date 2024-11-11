@@ -3,10 +3,10 @@
   "Name": "Weakpoint Analyzer",
   "Types": [
     "Item",
-    "Accessory",
-    "Master",
     "Combat",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory",
+    "Master"
   ],
   "Tooltip": [
     "Ranged projectiles are duplicated twice",

@@ -3,8 +3,6 @@
   "Name": "Endowood Hammer",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "HammerPower": 40,

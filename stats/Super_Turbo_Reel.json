@@ -3,9 +3,9 @@
   "Name": "Super Turbo Reel",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory"
   ],
   "Tooltip": "Greatly increased movement speed and return speed for harpoon guns",
   "Rarity": "Orange",

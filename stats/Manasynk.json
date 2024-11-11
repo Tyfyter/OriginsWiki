@@ -3,8 +3,8 @@
   "Name": "Manasynk",
   "Types": [
     "Item",
-    "Weapon",
-    "OtherMagic"
+    "OtherMagic",
+    "Weapon"
   ],
   "ManaCost": 7,
   "Damage": 8,

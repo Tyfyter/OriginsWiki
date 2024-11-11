@@ -2,6 +2,7 @@
   "Name": "Encrusted Ore",
   "Types": [
     "Item",
+    "Ore",
     "Tile"
   ],
   "PlacementSize": [

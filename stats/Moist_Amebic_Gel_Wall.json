@@ -1,0 +1,11 @@
+{
+  "Image": "§ModImage§/Walls/Amebic_Gel_Wall_Item",
+  "Name": "Moist Amebic Gel Wall",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 32,
+  "InternalName": "Amebic_Gel_Wall_Placed_Unsafe_Item"
+}

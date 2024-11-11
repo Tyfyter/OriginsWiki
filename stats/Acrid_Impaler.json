@@ -3,11 +3,11 @@
   "Name": "Acrid Impaler",
   "Types": [
     "Item",
+    "HarpoonGun",
+    "ToxicSource",
     "Weapon",
     "HarpoonGun",
-    "Hardmode",
-    "HarpoonGun",
-    "ToxicSource"
+    "Hardmode"
   ],
   "Damage": 48,
   "DamageClass": "Ranged",

@@ -3,8 +3,8 @@
   "Name": "Shardcannon",
   "Types": [
     "Item",
-    "Weapon",
     "Gun",
+    "Weapon",
     "Gun"
   ],
   "Damage": 6,

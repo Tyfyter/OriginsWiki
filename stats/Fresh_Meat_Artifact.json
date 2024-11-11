@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Fresh_Meat_Artifact",
+  "Name": "Fresh Meat Artifact",
+  "Types": [
+    "Item",
+    "Artifact",
+    "Minion",
+    "Weapon",
+    "Artifact",
+    "Minion"
+  ],
+  "ManaCost": 17,
+  "Damage": 25,
+  "DamageClass": "Summon",
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "The Meat Dog will viciously protect its food",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "SpriteWidth": 24,
+  "InternalName": "Fresh_Meat_Artifact"
+}

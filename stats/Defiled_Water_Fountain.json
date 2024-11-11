@@ -2,8 +2,8 @@
   "Name": "Defiled Water Fountain",
   "Types": [
     "Item",
-    "Tile",
-    "WaterFountain"
+    "WaterFountain",
+    "Tile"
   ],
   "PlacementSize": [
     2,

@@ -2,6 +2,7 @@
   "Name": "Lost Ore",
   "Types": [
     "Item",
+    "Ore",
     "Tile"
   ],
   "PlacementSize": [

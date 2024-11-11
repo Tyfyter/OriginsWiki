@@ -46,6 +46,7 @@
       "ImageOverride": ""
     }
   ],
+  "DefiledAssimilation": 0.07,
   "Expert": {
     "MaxLife": 360,
     "KBResist": 0.55,
@@ -88,7 +89,8 @@
         "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Pants",
         "ImageOverride": ""
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.091
   },
   "Master": {
     "MaxLife": 540,
@@ -132,7 +134,8 @@
         "LinkOverride": "https://terraria.wiki.gg/wiki/Mummy_Pants",
         "ImageOverride": ""
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.105000004
   },
   "SpriteWidth": 40,
   "InternalName": "Shattered_Mummy"

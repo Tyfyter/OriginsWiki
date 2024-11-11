@@ -3,9 +3,9 @@
   "Name": "Missing File",
   "Types": [
     "Item",
+    "OtherMagic",
     "Weapon",
-    "Hardmode",
-    "OtherMagic"
+    "Hardmode"
   ],
   "ManaCost": 18,
   "Damage": 250,

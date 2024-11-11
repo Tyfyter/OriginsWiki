@@ -3,9 +3,8 @@
   "Name": "Acrid Drill",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
-    "Tool"
+    "Tool",
+    "Hardmode"
   ],
   "PickPower": 195,
   "Damage": 28,

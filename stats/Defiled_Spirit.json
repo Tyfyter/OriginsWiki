@@ -3,10 +3,10 @@
   "Name": "Defiled Spirit",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 16,
   "ArmorPenetration": 1,

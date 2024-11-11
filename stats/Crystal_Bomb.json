@@ -3,11 +3,11 @@
   "Name": "Crystal Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 69,
   "ArmorPenetration": 2,

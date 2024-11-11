@@ -3,9 +3,9 @@
   "Name": "Breach",
   "Types": [
     "Item",
+    "OtherMagic",
     "Weapon",
-    "Hardmode",
-    "OtherMagic"
+    "Hardmode"
   ],
   "ManaCost": 26,
   "Damage": 57,

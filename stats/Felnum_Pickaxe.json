@@ -3,8 +3,6 @@
   "Name": "Felnum Pickaxe",
   "Types": [
     "Item",
-    "Weapon",
-    "Sword",
     "Tool"
   ],
   "PickPower": 75,

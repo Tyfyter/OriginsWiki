@@ -3,8 +3,8 @@
   "Name": "Area Denial",
   "Types": [
     "Item",
-    "Weapon",
-    "OtherMagic"
+    "OtherMagic",
+    "Weapon"
   ],
   "ManaCost": 13,
   "Damage": 20,

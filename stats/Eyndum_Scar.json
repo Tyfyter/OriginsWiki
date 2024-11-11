@@ -3,11 +3,11 @@
   "Name": "Eyndum Scar",
   "Types": [
     "Item",
+    "Sword",
+    "ReworkExpected",
     "Weapon",
     "Sword",
-    "Hardmode",
-    "Sword",
-    "ReworkExpected"
+    "Hardmode"
   ],
   "Damage": 407,
   "DamageClass": "Melee",

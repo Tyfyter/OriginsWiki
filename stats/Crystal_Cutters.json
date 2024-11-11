@@ -3,9 +3,9 @@
   "Name": "Crystal Cutters",
   "Types": [
     "Item",
+    "Sword",
     "Weapon",
-    "Hardmode",
-    "Sword"
+    "Hardmode"
   ],
   "Damage": 44,
   "DamageClass": "Melee",

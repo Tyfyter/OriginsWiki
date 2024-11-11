@@ -5,6 +5,7 @@
     "Item"
   ],
   "Rarity": "White",
+  "Sell": 30,
   "SpriteWidth": 26,
   "InternalName": "Brineglow_Item"
 }

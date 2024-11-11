@@ -3,10 +3,10 @@
   "Name": "Flakjack",
   "Types": [
     "Item",
+    "Handcannon",
     "Weapon",
     "Handcannon",
-    "Hardmode",
-    "Handcannon"
+    "Hardmode"
   ],
   "Damage": 192,
   "DamageClass": "Explosive Ranged",

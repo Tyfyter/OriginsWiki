@@ -3,10 +3,10 @@
   "Name": "Cirrhosis' Abhorrence",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Combat",
-    "RasterSource"
+    "RasterSource",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": "The five nearest enemies will be afflicted with Bleeding, On Fire, and Rasterized",
   "Rarity": "LightRed",

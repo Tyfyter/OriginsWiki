@@ -3,17 +3,21 @@
   "Name": "Vorpal Sword",
   "Types": [
     "Item",
-    "Weapon",
     "Torn",
     "TornSource",
     "Sword",
-    "Cursed"
+    "Cursed",
+    "Weapon"
   ],
   "Damage": 32,
   "ArmorPenetration": 9999,
   "DamageClass": "Melee",
   "UseTime": 17,
   "Velocity": 12.0,
+  "Tooltip": [
+    "Attacks tenderize targets",
+    "Will attack for you if in your inventory"
+  ],
   "Rarity": "Cursed",
   "Sell": 15000,
   "SpriteWidth": 58,

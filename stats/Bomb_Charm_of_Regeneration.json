@@ -3,10 +3,10 @@
   "Name": "Bomb Charm of Regeneration",
   "Types": [
     "Item",
-    "Accessory",
     "Vitality",
     "ExplosiveBoostAcc",
-    "SelfDamageProtek"
+    "SelfDamageProtek",
+    "Accessory"
   ],
   "Tooltip": [
     "-15% self-damage",

@@ -3,8 +3,8 @@
   "Name": "Explosive Artery",
   "Types": [
     "Item",
-    "Accessory",
-    "Combat"
+    "Combat",
+    "Accessory"
   ],
   "Damage": 31,
   "DamageClass": "Explosive",

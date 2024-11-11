@@ -3,10 +3,10 @@
   "Name": "Automated Returns Handler",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Movement",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Allows the ability to climb walls and dash",

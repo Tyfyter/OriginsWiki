@@ -2,10 +2,10 @@
   "Name": "Omni-directional Claymore",
   "Types": [
     "Item",
-    "Weapon",
-    "Tile",
     "OtherExplosive",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Tile"
   ],
   "PlacementSize": [
     1,

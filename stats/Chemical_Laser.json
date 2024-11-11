@@ -3,16 +3,16 @@
   "Name": "Chemical Laser",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "MagicGun",
-    "ToxicSource"
+    "ToxicSource",
+    "Weapon",
+    "Hardmode"
   ],
   "ManaCost": 8,
   "Damage": 30,
   "DamageClass": "Explosive Magic",
   "UseTime": 12,
-  "Velocity": 32.0,
+  "Velocity": 8.0,
   "Tooltip": "Splits into brine droplets on impact",
   "Rarity": "LightRed",
   "Sell": 5000,

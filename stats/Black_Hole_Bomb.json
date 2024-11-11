@@ -3,11 +3,11 @@
   "Name": "Black Hole Bomb",
   "Types": [
     "Item",
-    "Weapon",
-    "Ammo",
     "ThrownExplosive",
     "IsBomb",
-    "ExpendableWeapon"
+    "ExpendableWeapon",
+    "Weapon",
+    "Ammo"
   ],
   "Damage": 455,
   "DamageClass": "Explosive (thrown)",

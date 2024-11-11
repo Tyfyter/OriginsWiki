@@ -3,11 +3,11 @@
   "Name": "Resin Shield",
   "Types": [
     "Item",
-    "Accessory",
-    "Hardmode",
     "Vitality",
     "ExplosiveBoostAcc",
-    "SelfDamageProtek"
+    "SelfDamageProtek",
+    "Accessory",
+    "Hardmode"
   ],
   "Defense": 3,
   "Tooltip": [

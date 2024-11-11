@@ -3,15 +3,16 @@
   "Name": "Control Locus",
   "Types": [
     "Item",
-    "Accessory",
-    "Master",
     "Combat",
     "RangedBoostAcc",
-    "ExplosiveBoostAcc"
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Master"
   ],
   "Tooltip": [
     "Ranged projectiles are duplicated 5 times",
     "Explosive projectiles are duplicated twice",
+    "All duplicated projectiles actually deal damage based on whether or not ammo was consumed",
     "20% chance not to consume ammo"
   ],
   "Rarity": "Orange",

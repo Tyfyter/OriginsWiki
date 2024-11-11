@@ -3,8 +3,8 @@
   "Name": "Orbital Saw",
   "Types": [
     "Item",
-    "Weapon",
     "Boomerang",
+    "Weapon",
     "Boomerang"
   ],
   "Damage": 14,

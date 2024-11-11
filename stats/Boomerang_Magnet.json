@@ -3,10 +3,10 @@
   "Name": "Boomerang Magnet",
   "Types": [
     "Item",
-    "Accessory",
     "Combat",
     "MeleeBoostAcc",
-    "RangedBoostAcc"
+    "RangedBoostAcc",
+    "Accessory"
   ],
   "Tooltip": [
     "Increased return speed for boomerangs and harpoons",

@@ -3,10 +3,10 @@
   "Name": "Dismay",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "UsesBookcase",
-    "SpellBook"
+    "SpellBook",
+    "Weapon",
+    "Hardmode"
   ],
   "ManaCost": 14,
   "Damage": 50,

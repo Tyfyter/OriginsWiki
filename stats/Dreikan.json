@@ -3,10 +3,10 @@
   "Name": "Dreikan",
   "Types": [
     "Item",
+    "OtherExplosive",
     "Weapon",
     "Gun",
-    "Hardmode",
-    "OtherExplosive"
+    "Hardmode"
   ],
   "Damage": 66,
   "DamageClass": "Explosive Ranged",
