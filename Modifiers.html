@@ -20,7 +20,7 @@
 			<p>
 				A <b>Modifier</b>, also known as a <b>Prefix</b>, applies permanent changes to an item's statistics.
 				It changes the name of an item by adding a prefix to the item's name.
-				Origins adds new tooltips with the new <a is="a-link" href="Demolitionist_Weapons.html">explosives</a> added and some post-<a is="a-link" href="https://terraria.wiki.gg/wiki/Moon_Lord">Moon Lord</a> modifiers, which can be selectively reforged by the <a is="a-link">Cubekon Tinkerer</a> <a is="a-link" href="NPCs.html">NPC</a>.
+				Origins adds new modifiers with the new <a is="a-link" href="Demolitionist_Weapons.html">explosives</a> added, some <a is="a-link" href="Summon_Weapons.html">Summoner</a>-specific modifiers and some post-<a is="a-link" href="https://terraria.wiki.gg/wiki/Moon_Lord">Moon Lord</a> modifiers, which can be selectively reforged by the <a is="a-link">Cubekon Tinkerer</a> <a is="a-link" href="NPCs.html">NPC</a>.
 				Modifiers added by Origins can be normally obtained with the exception of the aforementioned post-Moon Lord modifiers.
 			</p>
 
@@ -32,31 +32,30 @@
 				</p>
 			</details>
 
-			<details class="section" id="Post-Moon Lord Modifiers" open>
-				<summary><h3>Post-Moon Lord modifiers</h3><span class="divider"></span></summary>
+			<details class="section" id="Explosive Modifiers" open>
+				<summary><h3>Summoner modifiers</h3><span class="divider"></span></summary>
 				<p>
-					The Cubekon Tinkerer offers additional <a is="a-link" href="Accessories.html">accessory</a> modifiers, which provide stronger boosts than the vanilla modifiers.
+					Due to the addition of <a is="a-link" href="Artifacts.html">artifacts</a> and <a is="a-link" href="Incantations.html">incantations</a> new summoner-dedicated modifiers were implemented in order to add a larger diversity of playstyles.
+					See the chart below for each modifier and how they affect weapon attributes.
 				</p>
 
 				<a-sortablelist>
 				{
 				headers:[
-				'Effect',
 				'Modifier',
-				{'name':'Stat change', 'expr':'item.StatChange', 'noAbbr':true},
+				'Damage',
+				'Speed',
+				{'name':'Critical strike chance', 'expr':'item.Crit', 'noAbbr':true},
+				'Velocity',
+				'Knockback',
+				{'name':'Artifact health', 'expr':'item.Health', 'noAbbr':true},
+				{'name':'Special', 'expr':'item.Spec', 'noAbbr':true},
+				{'name':'Weapon type', 'expr':'item.Type', 'noAbbr':true},
 				'Tier',
 				'Value'
 				],
 				items:[
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Defense">Defense</a>', Modifier: 'Assuring', StatChange: '+7', Tier: '+2', Value: '+67%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">Critical strike chance</a>', Modifier: 'Consistent', StatChange: '+8%', Tier: '+2', Value: '+67%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Damage">Damage</a>', Modifier: 'Sullen', StatChange: '+5%', Tier: '+2', Value: '+67%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Damage">Damage</a>', Modifier: 'Malicious', StatChange: '+6%', Tier: '+2', Value: '+75%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed">Movement speed</a>', Modifier: 'Sudden', StatChange: '+6%', Tier: '+2', Value: '+67%'},
-				{Effect: 'Melee speed', Modifier: 'Spastic', StatChange: '+5%', Tier: '+2', Value: '+67%'},
-				{Effect: 'Melee speed', Modifier: 'Vicious', StatChange: '+6%', Tier: '+2', Value: '+75%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">Mana</a>', Modifier: 'Esoteric', StatChange: '+30', Tier: '+2', Value: '+49.82%'},
-				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">Mana</a>', Modifier: 'Mystical', StatChange: '+40', Tier: '+2', Value: '+75%'}
+				{Modifier:'Firestarter\'s', Damage:'', Speed:'', Crit:'', Velocity:'', Knockback:'', Health:'', Spec:'- Minions inflict <a is="a-link" href="https://terraria.wiki.gg/wiki/On_Fire!">On Fire!</a><br> - Minions explode into hellfire upon death<br> - Minions take damage over time', Type:'Artifacts', Tier:'+1', Value:'+20%'}
 				]
 				}
 				</a-sortablelist>
@@ -70,8 +69,8 @@
 				</p>
 
 				<p>
-					The best modifier for any explosive weapons is <b>Guileless</b>, however there are some exceptions where a specific statistic may be valuable over the other such as blast radius or self-damage.
-					See the chart below for each statistic.
+					The best modifier for any explosive weapon is <b>Guileless</b>, however there are some exceptions where a specific attribute is more valuable over the others such as blast radius or self-damage.
+					See the chart below for each modifier and how they affect weapon attributes.
 				</p>
 
 				<a-sortablelist>
@@ -102,6 +101,36 @@
 				{Modifier:'Heavy-duty', Damage:'+8%', Speed:'-20%', Crit:'', Velocity:'-10%', Knockback:'+15%', Blast:'+25%', Self:'', Tier:'+2', Value:'+75.38%'},
 				{Modifier:'Safe', Damage:'', Speed:'', Crit:'-5%', Velocity:'', Knockback:'-10%', Blast:'', Self:'-40%', Tier:'-1', Value:'-4.45%'},
 				{Modifier:'Guileless', Damage:'+4%', Speed:'+10%', Crit:'+5%', Velocity:'+15%', Knockback:'+15%', Blast:'+25%', Self:'', Tier:'+2', Value:'+209.85%'}
+				]
+				}
+				</a-sortablelist>
+			</details>
+
+			<details class="section" id="Post-Moon Lord Modifiers" open>
+				<summary><h3>Post-Moon Lord modifiers</h3><span class="divider"></span></summary>
+				<p>
+					The Cubekon Tinkerer offers additional <a is="a-link" href="Accessories.html">accessory</a> modifiers, which provide stronger boosts than the vanilla modifiers.
+				</p>
+
+				<a-sortablelist>
+				{
+				headers:[
+				'Effect',
+				'Modifier',
+				{'name':'Stat change', 'expr':'item.StatChange', 'noAbbr':true},
+				'Tier',
+				'Value'
+				],
+				items:[
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Defense">Defense</a>', Modifier: 'Assuring', StatChange: '+7', Tier: '+2', Value: '+67%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">Critical strike chance</a>', Modifier: 'Consistent', StatChange: '+8%', Tier: '+2', Value: '+67%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Damage">Damage</a>', Modifier: 'Sullen', StatChange: '+5%', Tier: '+2', Value: '+67%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Damage">Damage</a>', Modifier: 'Malicious', StatChange: '+6%', Tier: '+2', Value: '+75%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed">Movement speed</a>', Modifier: 'Sudden', StatChange: '+6%', Tier: '+2', Value: '+67%'},
+				{Effect: 'Melee speed', Modifier: 'Spastic', StatChange: '+5%', Tier: '+2', Value: '+67%'},
+				{Effect: 'Melee speed', Modifier: 'Vicious', StatChange: '+6%', Tier: '+2', Value: '+75%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">Mana</a>', Modifier: 'Esoteric', StatChange: '+30', Tier: '+2', Value: '+49.82%'},
+				{Effect: '<a is="a-link" href="https://terraria.wiki.gg/wiki/Mana">Mana</a>', Modifier: 'Mystical', StatChange: '+40', Tier: '+2', Value: '+75%'}
 				]
 				}
 				</a-sortablelist>
