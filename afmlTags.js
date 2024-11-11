@@ -542,13 +542,13 @@ class AFMLStatBlock extends HTMLElement {
 			statistics.items.push(obj);
 		}
     	if(stats.Image){
-			var widthStr = stats.SpriteWidth ? `, spriteWidth:${stats.SpriteWidth}`: false;
+			var widthVal = stats.SpriteWidth ? stats.SpriteWidth: false;
         	values.push({
 				header: stats.Name || this.getAttribute('src').replaceAll('_',' '),
-				items:[{image: processImagePath(stats.Image), spriteWidth:widthStr}]
+				items:[{image: processImagePath(stats.Image), spriteWidth:widthVal}]
 			});
     	} else if(stats.Images){
-			var widthStr = stats.SpriteWidth ? `, spriteWidth:${stats.SpriteWidth}`: false;
+			var widthVal = stats.SpriteWidth ? stats.SpriteWidth: false;
 			var images = [];
 			let is2D = Array.isArray(stats.Images[0]);
 			for (let i = 0; i < stats.Images.length; i++) {
@@ -564,7 +564,7 @@ class AFMLStatBlock extends HTMLElement {
 			}
         	values.push({
 				header: stats.Name || this.getAttribute('src').replaceAll('_',' '),
-				items: [{images: images}]
+				items: [{images: images, spriteWidth:widthVal}]
 			});
     	}
 		if (stats.Types && stats.Types.includes("Item")) {
@@ -763,7 +763,8 @@ class AFMLStatBlock extends HTMLElement {
 	}
 	createImage(src, width, container) {
 		let image = container.createChild('img', '', ['src', src]);
-		if (width) image.style.maxWidth = width + 'px';
+		console.log(width);
+		if (width) image.style.maxWidth = `min(${width}px, 90%)`;
 		if (src.endsWith && src.endsWith('_Female.png')) image.title = 'female sprite';
 	}
 }
