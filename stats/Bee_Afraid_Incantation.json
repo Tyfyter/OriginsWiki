@@ -3,9 +3,8 @@
   "Name": "Bee Afraid Incantation",
   "Types": [
     "Item",
-    "Incantation",
     "Weapon",
-    "OtherMagic"
+    "Incantation"
   ],
   "ManaCost": 18,
   "Damage": 12,

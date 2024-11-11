@@ -3,9 +3,10 @@
   "Name": "Nova Swarm",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Hardmode",
-    "Launcher"
+    "OtherExplosive",
+    "Hardmode"
   ],
   "Damage": 110,
   "DamageClass": "Explosive Ranged",

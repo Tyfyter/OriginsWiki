@@ -3,8 +3,9 @@
   "Name": "Abrasion Blaster",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Launcher"
+    "OtherExplosive"
   ],
   "Damage": 23,
   "ArmorPenetration": 2,

@@ -4,7 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
-    "Whip"
+    "OtherExplosive"
   ],
   "Damage": 33,
   "DamageClass": "Explosive Summon",

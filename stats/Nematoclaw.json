@@ -5,7 +5,7 @@
     "Item",
     "ToxicSource",
     "Weapon",
-    "Sword",
+    "OtherMelee",
     "Hardmode"
   ],
   "Damage": 48,

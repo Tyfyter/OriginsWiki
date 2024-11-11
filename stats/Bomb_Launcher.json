@@ -3,8 +3,9 @@
   "Name": "Bomb Launcher",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Launcher"
+    "OtherExplosive"
   ],
   "Damage": 2,
   "DamageClass": "Explosive Ranged",

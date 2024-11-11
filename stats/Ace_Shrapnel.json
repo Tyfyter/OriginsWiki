@@ -3,8 +3,9 @@
   "Name": "Ace Shrapnel",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Launcher"
+    "OtherExplosive"
   ],
   "Damage": 18,
   "ArmorPenetration": 2,

@@ -3,10 +3,11 @@
   "Name": "Mine Flayer",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
   ],
   "Damage": 48,
   "ArmorPenetration": 2,

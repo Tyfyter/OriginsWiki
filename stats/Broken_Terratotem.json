@@ -5,9 +5,7 @@
     "Item",
     "Artifact",
     "Minion",
-    "Weapon",
-    "Artifact",
-    "Minion"
+    "Weapon"
   ],
   "ManaCost": 38,
   "Damage": 28,

@@ -3,9 +3,10 @@
   "Name": "Meteor",
   "Types": [
     "Item",
-    "Weapon",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "CanisterLauncher"
   ],
   "Damage": 18,
   "DamageClass": "Explosive Ranged",

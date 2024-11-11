@@ -4,7 +4,6 @@
   "Types": [
     "Item",
     "Weapon",
-    "Artifact",
     "Minion"
   ],
   "ManaCost": 38,

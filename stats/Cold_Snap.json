@@ -5,7 +5,8 @@
     "Item",
     "Launcher",
     "CanistahUser",
-    "Weapon"
+    "Weapon",
+    "CanisterLauncher"
   ],
   "Damage": 15,
   "ArmorPenetration": 3,

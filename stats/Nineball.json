@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Yoyo",
-    "Weapon",
-    "Yoyo"
+    "Weapon"
   ],
   "Damage": 18,
   "DamageClass": "Melee",

@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Weapon",
-    "OtherSummon",
-    "OtherMagic"
+    "Incantation"
   ],
   "ManaCost": 16,
   "Damage": 19,

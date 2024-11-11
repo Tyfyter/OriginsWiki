@@ -3,8 +3,9 @@
   "Name": "Matrix",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Launcher"
+    "CanisterLauncher"
   ],
   "Damage": 14,
   "ArmorPenetration": 1,

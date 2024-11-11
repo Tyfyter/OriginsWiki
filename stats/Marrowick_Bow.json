@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Bow",
-    "Weapon",
-    "Bow"
+    "Weapon"
   ],
   "Damage": 9,
   "DamageClass": "Ranged",

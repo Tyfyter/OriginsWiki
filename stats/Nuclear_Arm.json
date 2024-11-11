@@ -5,7 +5,7 @@
     "Item",
     "Launcher",
     "Weapon",
-    "OtherMelee",
+    "OtherExplosive",
     "Hardmode"
   ],
   "Damage": 120,

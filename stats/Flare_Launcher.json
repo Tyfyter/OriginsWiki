@@ -3,9 +3,10 @@
   "Name": "Flare Launcher",
   "Types": [
     "Item",
-    "Weapon",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "CanisterLauncher"
   ],
   "Damage": 14,
   "ArmorPenetration": 4,

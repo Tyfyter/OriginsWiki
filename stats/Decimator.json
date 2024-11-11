@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Spear",
-    "Weapon",
-    "Spear"
+    "Weapon"
   ],
   "Damage": 22,
   "DamageClass": "Melee",

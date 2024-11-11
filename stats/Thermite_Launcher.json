@@ -3,10 +3,11 @@
   "Name": "Thermite Launcher",
   "Types": [
     "Item",
-    "Weapon",
-    "Hardmode",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
   ],
   "Damage": 35,
   "ArmorPenetration": 15,

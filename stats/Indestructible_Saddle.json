@@ -6,6 +6,7 @@
     "Movement",
     "Mount",
     "Weapon",
+    "OtherExplosive",
     "Hardmode"
   ],
   "Damage": 150,

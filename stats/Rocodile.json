@@ -3,9 +3,10 @@
   "Name": "Rocodile",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Hardmode",
-    "Launcher"
+    "OtherExplosive",
+    "Hardmode"
   ],
   "Damage": 100,
   "ArmorPenetration": 1,

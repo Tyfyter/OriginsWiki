@@ -6,7 +6,7 @@
     "Tool",
     "ToolWeapon",
     "Weapon",
-    "OtherMelee"
+    "OtherExplosive"
   ],
   "Damage": 32,
   "DamageClass": "Explosive Melee",

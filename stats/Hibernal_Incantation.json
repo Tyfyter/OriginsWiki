@@ -3,9 +3,8 @@
   "Name": "Hibernal Incantation",
   "Types": [
     "Item",
-    "Incantation",
     "Weapon",
-    "OtherMagic"
+    "Incantation"
   ],
   "ManaCost": 14,
   "Damage": 15,

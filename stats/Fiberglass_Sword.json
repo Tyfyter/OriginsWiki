@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Sword",
-    "Weapon",
-    "Sword"
+    "Weapon"
   ],
   "Damage": 18,
   "DamageClass": "Melee",

@@ -166,6 +166,7 @@
       "Broken_Record",
       "Broken_Terratotem",
       "Bud_Barnacle",
+      "Bug",
       "Bug_Trapper",
       "Busted_Servo",
       "C.F.H.E.S.",
@@ -711,6 +712,7 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
+      "Sonorous_Shredder",
       "Soulhide_Armor",
       "Soulhide_Coat",
       "Soulhide_Guards",
@@ -988,6 +990,7 @@
       "Sixth_Spline",
       "Sleetfire",
       "Snapthrow",
+      "Sonorous_Shredder",
       "Spiker_Sword",
       "Splashid",
       "Splitsplash",
@@ -2194,6 +2197,7 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
+      "Sonorous_Shredder",
       "Speed_Booster",
       "Spider_Ravel",
       "Splashid",
@@ -2553,7 +2557,6 @@
       "Fiberglass_Sword",
       "Fragarach",
       "Marrowick_Sword",
-      "Nematoclaw",
       "Personal_Laser_Blade",
       "Spiker_Sword",
       "Switchblade",
@@ -2606,11 +2609,9 @@
     "items": [
       "Bone_Latcher",
       "C6_Jackhammer",
-      "Depth_Charge",
-      "Impactaxe",
       "Knee_Slapper",
       "Miter_Saw",
-      "Nuclear_Arm",
+      "Nematoclaw",
       "Piledriver"
     ]
   },
@@ -2623,7 +2624,6 @@
       "Blotopus",
       "Boiler",
       "Bolt_Gun",
-      "Dreikan",
       "Fiberglass_Pistol",
       "Firespit",
       "Hallowed_Cleaver",
@@ -2672,8 +2672,7 @@
       "Dragon's_Breath",
       "Fiberglass_Shard",
       "Gelled_Knife",
-      "Incision",
-      "Laser_Tag_Gun"
+      "Incision"
     ]
   },
   "wand": {
@@ -2718,15 +2717,10 @@
   "othermagic": {
     "name": "Other magic",
     "items": [
-      "Amebolize_Incantation",
       "Area_Denial",
-      "Bee_Afraid_Incantation",
       "Breach",
-      "Eaterboros",
       "Haunted_Vase",
-      "Hibernal_Incantation",
       "Hot_Potato",
-      "Maelstrom_Incantation",
       "Manasynk",
       "Missing_File",
       "Pike_of_Deepneus",
@@ -2761,7 +2755,6 @@
     "name": "Whips",
     "items": [
       "Flagellash",
-      "Joint_Pop",
       "Ziptie"
     ]
   },
@@ -2771,7 +2764,6 @@
       "Bomb_Artifact",
       "Broken_Terratotem",
       "Fresh_Meat_Artifact",
-      "Inanimate_Zombie_Hand",
       "Terratotem"
     ]
   },
@@ -2780,7 +2772,8 @@
     "items": [
       "Amebolize_Incantation",
       "Bee_Afraid_Incantation",
-      "Hibernal_Incantation"
+      "Hibernal_Incantation",
+      "Maelstrom_Incantation"
     ]
   },
   "othersummoner": {
@@ -2852,11 +2845,27 @@
   "otherexplosive": {
     "name": "Other explosives",
     "items": [
+      "Abrasion_Blaster",
+      "Ace_Shrapnel",
       "Ancient_Fragthrower",
+      "Bomboomstick",
+      "Bomb_Launcher",
+      "Bouncy_Explosive_Golf_Ball",
       "Caustica",
+      "Depth_Charge",
       "Dreikan",
+      "Explosive_Golf_Ball",
+      "Hand_Grenade_Launcher",
+      "Impactaxe",
+      "Impact_Golf_Ball",
+      "Indestructible_Saddle",
+      "Joint_Pop",
+      "Nova_Swarm",
+      "Nuclear_Arm",
       "Omni-directional_Claymore",
       "Potato_Mine",
+      "Remote_Golf_Ball",
+      "Rocodile",
       "Self-Destruct"
     ]
   },
@@ -3636,6 +3645,7 @@
       "Solar_Panel",
       "Sonar_Visor",
       "Sonic_Radar",
+      "Sonorous_Shredder",
       "Soulhide_Armor",
       "Soulhide_Coat",
       "Soulhide_Guards",
@@ -3875,7 +3885,6 @@
       "Eccentric_Stone",
       "Hazard_Charm",
       "Helium_Tank",
-      "Pincushion",
       "Rebreather",
       "Tripod_Nip"
     ]

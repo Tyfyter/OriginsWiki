@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Boomerang",
-    "Weapon",
-    "Boomerang"
+    "Weapon"
   ],
   "Damage": 14,
   "DamageClass": "Melee",

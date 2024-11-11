@@ -3,9 +3,10 @@
   "Name": "Bomboomstick",
   "Types": [
     "Item",
+    "Launcher",
     "Weapon",
-    "Hardmode",
-    "Launcher"
+    "OtherExplosive",
+    "Hardmode"
   ],
   "Damage": 43,
   "DamageClass": "Explosive Ranged",

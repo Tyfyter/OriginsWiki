@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Sonorous_Shredder",
+  "Name": "Sonorous Shredder",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 54,
+  "DamageClass": "Symphonic",
+  "Knockback": 1.0,
+  "UseTime": 16,
+  "Velocity": 18.0,
+  "Tooltip": "'Split apart, lost one'",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "SpriteWidth": 26,
+  "InternalName": "Sonorous_Shredder"
+}

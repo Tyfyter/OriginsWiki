@@ -3,9 +3,10 @@
   "Name": "Eruption",
   "Types": [
     "Item",
-    "Weapon",
     "Launcher",
-    "CanistahUser"
+    "CanistahUser",
+    "Weapon",
+    "CanisterLauncher"
   ],
   "Damage": 27,
   "ArmorPenetration": 3,

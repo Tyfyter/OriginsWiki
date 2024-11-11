@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "HarpoonGun",
-    "Weapon",
-    "HarpoonGun"
+    "Weapon"
   ],
   "Damage": 24,
   "DamageClass": "Ranged",

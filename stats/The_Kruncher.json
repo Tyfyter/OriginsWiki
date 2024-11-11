@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Gun",
-    "Weapon",
-    "Gun"
+    "Weapon"
   ],
   "Damage": 6,
   "DamageClass": "Ranged",
