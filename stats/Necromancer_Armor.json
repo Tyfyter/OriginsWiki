@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Necromancer_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Necromancer_Armor.DisplayName",
   "Images": [
     "ArmorSets/Necromancer_Armor",
     "ArmorSets/Necromancer_Armor_Female"

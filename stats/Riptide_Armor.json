@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Riptide_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Riptide_Armor.DisplayName",
   "Images": [
     "ArmorSets/Riptide_Armor",
     "ArmorSets/Riptide_Armor_Female"

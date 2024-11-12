@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Endowood_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Endowood_Armor.DisplayName",
   "Images": [
     "ArmorSets/Endowood_Armor",
     "ArmorSets/Endowood_Armor_Female"

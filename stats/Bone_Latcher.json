@@ -11,6 +11,7 @@
   "Knockback": 2.0,
   "UseTime": 35,
   "Velocity": 4.0,
+  "Tooltip": "Beckons enemies toward you",
   "Rarity": "Blue",
   "Sell": 20000,
   "SpriteWidth": 46,

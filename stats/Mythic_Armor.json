@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Mythic_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Mythic_Armor.DisplayName",
   "Images": [
     "ArmorSets/Mythic_Armor",
     "ArmorSets/Mythic_Armor_Female"

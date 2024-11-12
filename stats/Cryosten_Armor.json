@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Cryosten_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Cryosten_Armor.DisplayName",
   "Images": [
     "ArmorSets/Cryosten_Armor",
     "ArmorSets/Cryosten_Armor_Female"

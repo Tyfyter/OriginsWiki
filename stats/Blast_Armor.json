@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Blast_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Blast_Armor.DisplayName",
   "Images": [
     "ArmorSets/Blast_Armor",
     "ArmorSets/Blast_Armor_Female"

@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Hallowed_Visage",
+  "DisplayName": "WikiGenerator.Stats.Origins.Hallowed_Visage.DisplayName",
   "Images": [
     "ArmorSets/Hallowed_Visage",
     "ArmorSets/Hallowed_Visage_Female"

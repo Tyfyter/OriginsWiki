@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Sapphire_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Sapphire_Armor.DisplayName",
   "Images": [
     "ArmorSets/Sapphire_Armor",
     "ArmorSets/Sapphire_Armor_Female"

@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Lost_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Lost_Armor.DisplayName",
   "Images": [
     "ArmorSets/Lost_Armor",
     "ArmorSets/Lost_Armor_Female"

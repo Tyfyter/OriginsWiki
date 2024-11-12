@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Defiled_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Defiled_Armor.DisplayName",
   "Images": [
     "ArmorSets/Defiled_Armor",
     "ArmorSets/Defiled_Armor_Female"

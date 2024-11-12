@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Ashen_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Ashen_Armor.DisplayName",
   "Images": [
     "ArmorSets/Ashen_Armor",
     "ArmorSets/Ashen_Armor_Female"

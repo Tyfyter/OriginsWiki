@@ -5,7 +5,7 @@
     "Item",
     "DoesntBelongInOrigins",
     "Weapon",
-    "Sword",
+    "OtherMelee",
     "Hardmode"
   ],
   "Damage": 62,

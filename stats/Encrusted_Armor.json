@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Encrusted_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Encrusted_Armor.DisplayName",
   "Images": [
     "ArmorSets/Encrusted_Armor",
     "ArmorSets/Encrusted_Armor_Female"

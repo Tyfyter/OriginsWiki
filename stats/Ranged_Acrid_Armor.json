@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Ranged_Acrid_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Ranged_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Ranged_Acrid_Armor",
     "ArmorSets/Ranged_Acrid_Armor_Female"

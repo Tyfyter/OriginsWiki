@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Scavenger_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Scavenger_Armor.DisplayName",
   "Images": [
     "ArmorSets/Scavenger_Armor",
     "ArmorSets/Scavenger_Armor_Female"

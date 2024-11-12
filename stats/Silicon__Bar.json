@@ -1,0 +1,20 @@
+{
+  "Name": "Silicon_ Bar",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 132,
+  "SpriteWidth": 30,
+  "InternalName": "Silicon_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Silicon_Bar",
+    "Tiles/Silicon__Bar"
+  ]
+}

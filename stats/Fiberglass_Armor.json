@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Fiberglass_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Fiberglass_Armor.DisplayName",
   "Images": [
     "ArmorSets/Fiberglass_Armor",
     "ArmorSets/Fiberglass_Armor_Female"

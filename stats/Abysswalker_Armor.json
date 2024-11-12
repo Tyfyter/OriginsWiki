@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Abysswalker_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Abysswalker_Armor.DisplayName",
   "Images": [
     "ArmorSets/Abysswalker_Armor",
     "ArmorSets/Abysswalker_Armor_Female"

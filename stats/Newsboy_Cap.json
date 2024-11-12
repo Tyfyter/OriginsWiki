@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Newsboy_Cap",
+  "DisplayName": "WikiGenerator.Stats.Origins.Newsboy_Cap.DisplayName",
   "Images": [
     "ArmorSets/Newsboy_Cap"
   ],

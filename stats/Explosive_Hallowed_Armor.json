@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Explosive_Hallowed_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Hallowed_Visage.DisplayName",
   "SetBonus": "Become immune after striking an enemy",
   "Images": [
     [
@@ -16,5 +17,5 @@
       "ArmorSets/Ancient_Hallowed_Visage_Female"
     ]
   ],
-  "Defense": "<img src=§ModImage§/Items/Armor/Other/Hallowed_Visage.png>29<img src=§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage.png>29"
+  "Defense": "<a is=a-link image=§ModImage§/Items/Armor/Other/Hallowed_Visage></a>29<a is=a-link image=§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage></a>29"
 }

@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Eyndum_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Eyndum_Armor.DisplayName",
   "Images": [
     "ArmorSets/Eyndum_Armor",
     "ArmorSets/Eyndum_Armor_Female"

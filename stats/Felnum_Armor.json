@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Felnum_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Felnum_Armor.DisplayName",
   "Images": [
     "ArmorSets/Felnum_Armor",
     "ArmorSets/Felnum_Armor_Female"

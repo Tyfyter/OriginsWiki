@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Summon_Acrid_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Summon_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Summon_Acrid_Armor",
     "ArmorSets/Summon_Acrid_Armor_Female"

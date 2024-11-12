@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Explosive_Acrid_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Explosive_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Explosive_Acrid_Armor",
     "ArmorSets/Explosive_Acrid_Armor_Female"

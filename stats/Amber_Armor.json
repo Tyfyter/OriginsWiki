@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Amber_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Amber_Armor.DisplayName",
   "Images": [
     "ArmorSets/Amber_Armor",
     "ArmorSets/Amber_Armor_Female"

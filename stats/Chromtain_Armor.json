@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Chromtain_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Chromtain_Armor.DisplayName",
   "Images": [
     "ArmorSets/Chromtain_Armor",
     "ArmorSets/Chromtain_Armor_Female"

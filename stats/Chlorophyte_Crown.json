@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Chlorophyte_Crown",
+  "DisplayName": "WikiGenerator.Stats.Origins.Chlorophyte_Crown.DisplayName",
   "Images": [
     "ArmorSets/Chlorophyte_Crown",
     "ArmorSets/Chlorophyte_Crown_Female"

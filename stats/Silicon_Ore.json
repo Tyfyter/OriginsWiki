@@ -1,5 +1,5 @@
 {
-  "Name": "Silicon",
+  "Name": "Silicon Ore",
   "Types": [
     "Item",
     "Ore",
@@ -14,9 +14,9 @@
   "Sell": 44,
   "Tier": 4,
   "SpriteWidth": 16,
-  "InternalName": "Silicon_Item",
+  "InternalName": "Silicon_Ore_Item",
   "Images": [
-    "§ModImage§/Tiles/Other/Silicon_Item",
-    "Tiles/Silicon"
+    "§ModImage§/Tiles/Other/Silicon_Ore_Item",
+    "Tiles/Silicon_Ore"
   ]
 }

@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Soulhide_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Soulhide_Armor.DisplayName",
   "Images": [
     "ArmorSets/Soulhide_Armor",
     "ArmorSets/Soulhide_Armor_Female"

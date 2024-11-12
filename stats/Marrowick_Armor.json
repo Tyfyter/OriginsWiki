@@ -5,6 +5,7 @@
     "ArmorSet"
   ],
   "SetName": "Marrowick_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Marrowick_Armor.DisplayName",
   "Images": [
     "ArmorSets/Marrowick_Armor",
     "ArmorSets/Marrowick_Armor_Female"
