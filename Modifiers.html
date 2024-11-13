@@ -44,9 +44,9 @@
 				headers:[
 				'Modifier',
 				'Damage',
+				{'name':'Attack speed', 'expr':'item.ASpd', 'noAbbr':'true'},
 				'Speed',
 				{'name':'Critical strike chance', 'expr':'item.Crit', 'noAbbr':true},
-				'Velocity',
 				'Knockback',
 				{'name':'Artifact health', 'expr':'item.Health', 'noAbbr':true},
 				{'name':'Special', 'expr':'item.Spec', 'noAbbr':true},
@@ -55,7 +55,12 @@
 				'Value'
 				],
 				items:[
-				{Modifier:'Firestarter\'s', Damage:'', Speed:'', Crit:'', Velocity:'', Knockback:'', Health:'', Spec:'- Minions inflict <a is="a-link" href="https://terraria.wiki.gg/wiki/On_Fire!">On Fire!</a><br> - Minions explode into hellfire upon death<br> - Minions take damage over time', Type:'Artifacts', Tier:'+1', Value:'+20%'}
+				{Modifier:'Firestarter\'s', Damage:'', ASpd:'', Speed:'', Crit:'', Knockback:'', Health:'', Spec:'- Minions inflict <a is="a-link" href="https://terraria.wiki.gg/wiki/On_Fire!">On Fire!</a><br> - Minions explode into hellfire upon death<br> - Minions take damage over time', Type:'Artifacts', Tier:'+1', Value:'+20%'},
+				{Modifier:'Bloated', Damage:'+15%', ASpd:'-8%', Speed:'-15%', Crit:'', Knockback:'', Health:'+20%', Spec:'', Type:'Artifacts and Summons', Tier:'+1', Value:'+20%'},
+				{Modifier:'Speedy', Damage:'-15%', ASpd:'+10%', Speed:'+20%', Crit:'', Knockback:'', Health:'-10%', Spec:'', Type:'Artifacts and Summons', Tier:'+1', Value:'+20%'},
+				{Modifier:'Vampire', Damage:'', ASpd:'', Speed:'', Crit:'', Knockback:'', Health:'-25%', Spec:'- Minions inflict <a is="a-link" href="https://terraria.wiki.gg/wiki/Bleeding">Bleeding</a><br> - Minions can <a is="a-link" href="https://terraria.wiki.gg/wiki/Lifesteal">lifesteal</a>', Type:'Artifacts and Summons', Tier:'+2', Value:'+209.85%'},
+				{Modifier:'Wholesome', Damage:'+5%', ASpd:'+5%', Speed:'+5%', Crit:'+5%', Knockback:'+5%', Health:'+5%', Spec:'- Minions slightly increase the <a is="a-link" href="https://terraria.wiki.gg/wiki/Health_regeneration">life regen</a> of all nearby allies<br> - Minions drop <a is="a-link" href="https://terraria.wiki.gg/wiki/Heart">Hearts</a> upon death', Type:'Artifacts and Summons', Tier:'+2', Value:'+209.85%'},
+				{Modifier:'Defileded', Damage:'-10%', ASpd:'', Speed:'', Crit:'+8%', Knockback:'+15%', Health:'', Spec:'- Minions inflict <a is="a-link">Rasterized</a><br>', Type:'Artifacts and Summons', Tier:'+2', Value:'+209.85%'}
 				]
 				}
 				</a-sortablelist>
