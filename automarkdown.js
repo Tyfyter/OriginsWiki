@@ -90,26 +90,6 @@ async function getCategories(){
 	return await _categories;
 }
 
-async function getSiteMap(){
-	if(typeof await _siteMap === 'string'){
-		var siteMap = parseXMLSitemap(await _siteMap);
-		var allPages = [];
-		for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
-			var child = siteMap.children[0].children[i0];
-			for(var i1 = 0; i1 < child.children.length; i1++){
-				if(child.children[i1].tagName === 'loc'){
-					var pageName = child.children[i1].firstChild.nodeValue.split('/');
-					pageName = pageName[pageName.length - 1].replaceAll('.html', '') || 'index';
-					allPages.push(pageName.replaceAll('.html', ''));
-					break;
-				}
-			}
-		}
-		_siteMap = allPages;
-	}
-	return await _siteMap;
-}
-
 async function getSearchLinks(query, filter = ".html"){
 	var regexQuery = new RegExp("("+query.replace(/(?<=.)(?=.)/g, '.?').replaceAll('.', '\\.')+")","i");
 	var results = [];

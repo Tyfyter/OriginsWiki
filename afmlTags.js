@@ -95,6 +95,31 @@ async function getStats(name) {
 	return await aStats[name];
 }
 getStats(pageName);
+
+let mapLock;
+
+async function getSiteMap(){
+	if(typeof await _siteMap === 'string'){
+		mapLock = AsyncLock.createLock();
+		var siteMap = parseXMLSitemap(await _siteMap);
+		var allPages = [];
+		for(var i0 = 0; i0 < siteMap.children[0].children.length; i0++){
+			var child = siteMap.children[0].children[i0];
+			for(var i1 = 0; i1 < child.children.length; i1++){
+				if(child.children[i1].tagName === 'loc'){
+					var pageName = child.children[i1].firstChild.nodeValue.split('/');
+					pageName = pageName[pageName.length - 1].replaceAll('.html', '') || 'index';
+					allPages.push(pageName.replaceAll('.html', ''));
+					break;
+				}
+			}
+		}
+		_siteMap = allPages;
+		mapLock.disable();
+	} else await mapLock;
+	return await _siteMap;
+}
+getSiteMap();
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 function createElementWithTextAndAttributes(tag, text) {
@@ -184,7 +209,10 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			if (aliases[targetPage]) {
 				targetPage = aliases[targetPage];
 			}
-			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) targetPage = targetPage.replaceAll('.html', '');
+			if (new URL(targetPage, document.baseURI).origin === new URL(document.location).origin) {
+				targetPage = targetPage.replaceAll('.html', '');
+				getSiteMap().then(this.matchCapitalsToPage.bind(this));
+			}
 			target = targetPage;
 		} else if (target) target = target.replaceAll('.html', '');
 		if (new URL(target, document.baseURI).href == document.location) {//self link
@@ -223,6 +251,7 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {
+		if (newValue === oldValue) return;
 		if (this.image.parentNode === null) this.insertBefore(this.image, this.firstChild);
 		//console.log(this, name, newValue);
 		switch (name) {
@@ -259,6 +288,10 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			this.image.src = processImagePath(path);
 			this.image.style.display = '';
 		}
+	}
+	matchCapitalsToPage(result) {
+		let targetPage = this.getAttribute('href').replaceAll('.html', '');
+		this.setAttribute('href', result.find(e => !e.localeCompare(targetPage, 'en', { sensitivity: 'base' })) + getLinkSuffix(targetPage));
 	}
 }
 customElements.define("a-link", AFMLLink, { extends: "a" });
