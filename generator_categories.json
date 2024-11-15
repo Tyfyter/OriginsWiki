@@ -254,5 +254,13 @@
   "ore":{
     "name":"Ores",
     "items":"Types<Ore"
+  },
+  "expert":{
+    "name":"Expert Mode Exclusive",
+    "items":"Types<Expert"
+  },
+  "master":{
+    "name":"Master Mode Exclusive",
+    "items":"Types<Master"
   }
 }
