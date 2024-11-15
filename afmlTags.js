@@ -574,13 +574,7 @@ class AFMLStatBlock extends HTMLElement {
 			}
 			statistics.items.push(obj);
 		}
-    	if(stats.Image){
-			var widthVal = stats.SpriteWidth ? stats.SpriteWidth: false;
-        	values.push({
-				header: stats.Name || this.getAttribute('src').replaceAll('_',' '),
-				items:[{image: processImagePath(stats.Image), spriteWidth:widthVal}]
-			});
-    	} else if(stats.Images){
+    	if(stats.Images){
 			var widthVal = stats.SpriteWidth ? stats.SpriteWidth: false;
 			var images = [];
 			let is2D = Array.isArray(stats.Images[0]);
@@ -598,6 +592,12 @@ class AFMLStatBlock extends HTMLElement {
         	values.push({
 				header: stats.Name || this.getAttribute('src').replaceAll('_',' '),
 				items: [{images: images, spriteWidth:widthVal}]
+			});
+    	} else if(stats.Image){
+			var widthVal = stats.SpriteWidth ? stats.SpriteWidth: false;
+        	values.push({
+				header: stats.Name || this.getAttribute('src').replaceAll('_',' '),
+				items:[{image: processImagePath(stats.Image), spriteWidth:widthVal}]
 			});
     	}
 		if (stats.Types && stats.Types.includes("Item")) {
