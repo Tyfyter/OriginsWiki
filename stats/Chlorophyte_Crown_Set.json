@@ -1,0 +1,17 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Chlorophyte_Crown_Set",
+  "DisplayName": "WikiGenerator.Stats.Origins.Chlorophyte_Crown_Set.DisplayName",
+  "Images": [
+    "ArmorSets/Chlorophyte_Crown_Set",
+    "ArmorSets/Chlorophyte_Crown_Set_Female"
+  ],
+  "Defense": 33,
+  "SetBonus": "Summons a powerful leaf crystal to shoot at nearby enemies\nIncreases your max number of minions by 2",
+  "Rarity": "Lime",
+  "Sell": 144000
+}

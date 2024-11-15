@@ -1,0 +1,17 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "SetName": "Chlorophyte_Visage_Set",
+  "DisplayName": "WikiGenerator.Stats.Origins.Chlorophyte_Visage_Set.DisplayName",
+  "Images": [
+    "ArmorSets/Chlorophyte_Visage_Set",
+    "ArmorSets/Chlorophyte_Visage_Set_Female"
+  ],
+  "Defense": 36,
+  "SetBonus": "Summons a powerful leaf crystal to shoot at nearby enemies",
+  "Rarity": "Lime",
+  "Sell": 144000
+}
