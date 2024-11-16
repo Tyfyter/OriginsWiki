@@ -603,7 +603,6 @@ details > summary {
 	width: 15em;
 	margin: 2px;
 	padding: 4px;
-	line-height: 0;
 	border: 1px solid var(--box-border-color);
 	border-radius: 5px;
 	background-color: var(--box-bg-color);
