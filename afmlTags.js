@@ -456,7 +456,7 @@ class AFMLRecipes extends HTMLElement {
 				stations = '';
 				for(var j = 0; j < data.stations.length; j++){
 					if(j>0){
-						stations += '<br><div class="or">or</div><br>';
+						stations += '<strong> and </strong>';
 					}
 					stations += data.stations[j];
 				}
