@@ -456,7 +456,7 @@ class AFMLRecipes extends HTMLElement {
 				stations = '';
 				for(var j = 0; j < data.stations.length; j++){
 					if(j>0){
-						stations += '<strong> and </strong>';
+						stations += ' <strong>and</strong> ';
 					}
 					stations += data.stations[j];
 				}
@@ -475,7 +475,7 @@ class AFMLRecipes extends HTMLElement {
 				this.parse(data.items[i].ingredients[j], ingredientList);
 			}
 			if(i <= 0) {
-				row.createChild('td', stations, ['rowspan', data.items.length]);
+				row.createChild('td', `<span>${stations}</span>`, ['rowspan', data.items.length]);
 			}
 			body.append(row);
 		}
