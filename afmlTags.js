@@ -256,11 +256,17 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		//console.log(this, name, newValue);
 		switch (name) {
 			case 'href': {
-				requestHead(newValue).then((v) => {
-					if (this.getAttribute('href') != newValue) return;
-					if (v.status == 404) this.classList.add('redlink');
-					else this.classList.remove('redlink');
-				});
+				if (new URL(newValue, document.baseURI).href == document.location) {//self link
+					this.classList.add('selflink');
+					this.removeAttribute('href');
+				} else if (newValue) {
+					this.classList.remove('selflink');
+					requestHead(newValue).then((v) => {
+						if (this.getAttribute('href') != newValue) return;
+						if (v.status == 404) this.classList.add('redlink');
+						else this.classList.remove('redlink');
+					});
+				}
 				break;
 			}
 			case 'image': {
