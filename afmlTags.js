@@ -638,7 +638,7 @@ class AFMLStatBlock extends HTMLElement {
 				if (stats.Tooltip) valueOrValues(stats.Tooltip, 'Tooltip', 'https://terraria.wiki.gg/wiki/Tooltips');
 			}
 			if (stats.SetBonus) labeled(stats.SetBonus, 'Set Bonus', 'https://terraria.wiki.gg/wiki/Armor');
-			if (stats.ArmorSlot) labeled(stats.armorSlot, 'Armor Slot');
+			if (stats.ArmorSlot) labeled(stats.ArmorSlot, 'Armor Slot');
 			if (stats.Damage) labeled(stats.Damage + (stats.DamageClass ? ` (${stats.DamageClass})`: ''), 'Damage');
 			if (stats.ArmorPenetration) labeled(stats.ArmorPenetration, 'Armor Penetration', 'https://terraria.wiki.gg/wiki/Defense#Armor_penetration');
 			if (stats.Knockback) labeled(stats.Knockback, 'Knockback', 'https://terraria.wiki.gg/wiki/Knockback');
