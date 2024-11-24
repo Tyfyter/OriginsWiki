@@ -1,0 +1,46 @@
+{
+  "Image": "Enchanted_Fiberglass_Cannon",
+  "Name": "Enchanted Fiberglass Cannon",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 57,
+  "Defense": 10,
+  "KBResist": 0.6,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
+  ],
+  "Coins": 400.0,
+  "Drops": [
+    {
+      "Name": "Shaped Glass",
+      "Chance": "4%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 114,
+    "KBResist": 0.676,
+    "Coins": 2500.0,
+    "Drops": [
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 171,
+    "KBResist": 0.74399996,
+    "Coins": 2500.0,
+    "Drops": [
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      }
+    ]
+  },
+  "SpriteWidth": 52,
+  "InternalName": "Enchanted_Fiberglass_Cannon"
+}

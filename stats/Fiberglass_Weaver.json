@@ -13,7 +13,7 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
   ],
-  "Coins": 40000.0,
+  "Coins": 50000.0,
   "Drops": [
     {
       "Name": "Fiberglass Helmet",
@@ -29,15 +29,23 @@
     },
     {
       "Name": "Fiberglass Bow",
-      "Chance": "33.333%"
+      "Chance": "20%"
     },
     {
       "Name": "Fiberglass Sword",
-      "Chance": "33.333%"
+      "Chance": "20%"
     },
     {
       "Name": "Fiberglass Pistol",
-      "Chance": "33.333%"
+      "Chance": "20%"
+    },
+    {
+      "Name": "Glass Cannon",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Thread Rod",
+      "Chance": "20%"
     },
     {
       "Name": "Fiberglass Weaver Head",
@@ -47,7 +55,7 @@
   "Expert": {
     "MaxLife": 2800,
     "KBResist": 0.91,
-    "Coins": 100000.0,
+    "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Fiberglass Weaver)"
@@ -57,7 +65,7 @@
   "Master": {
     "MaxLife": 4200,
     "KBResist": 0.92,
-    "Coins": 100000.0,
+    "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Fiberglass Weaver)"
@@ -65,6 +73,26 @@
       {
         "Name": "Fiberglass Dagger",
         "Chance": "25%"
+      },
+      {
+        "Name": "Fiberglass Bow",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Fiberglass Sword",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Fiberglass Pistol",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Glass Cannon",
+        "Chance": "20%"
+      },
+      {
+        "Name": "Thread Rod",
+        "Chance": "20%"
       }
     ]
   },

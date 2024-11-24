@@ -11,7 +11,7 @@
   "Drops": [
     {
       "Name": "Empty Bucket",
-      "Chance": "10%",
+      "Chance": "6.667%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Empty_Bucket",
       "ImageOverride": ""
     },
@@ -30,7 +30,7 @@
     "Drops": [
       {
         "Name": "Empty Bucket",
-        "Chance": "10%",
+        "Chance": "6.667%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Empty_Bucket",
         "ImageOverride": ""
       },
@@ -50,7 +50,7 @@
     "Drops": [
       {
         "Name": "Empty Bucket",
-        "Chance": "10%",
+        "Chance": "6.667%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Empty_Bucket",
         "ImageOverride": ""
       },
