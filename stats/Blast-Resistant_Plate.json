@@ -13,6 +13,6 @@
   "Tooltip": "Reduces explosive self-damage by 10%",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "SpriteWidth": 34,
+  "SpriteWidth": 28,
   "InternalName": "Blast_Resistant_Plate"
 }

@@ -20,6 +20,7 @@
   ],
   "Rarity": "Cyan",
   "Sell": 20,
+  "Source": "<a is=a-link image=$fromStats>Alien Conduit</a> + (23) <a is=a-link image=$fromStats>Baseball Bat</a> + <a is=a-link image=$fromStats>Razorwire</a> @ <a is=a-link image=Elderforge_Smol>Elderforge</a>",
   "SpriteWidth": 36,
   "InternalName": "The_Bird"
 }

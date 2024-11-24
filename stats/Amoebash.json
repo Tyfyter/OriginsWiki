@@ -15,6 +15,7 @@
   "Tooltip": "Slamming into the ground releases damaging amebic droplets",
   "Rarity": "Pink",
   "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
   "SpriteWidth": 74,
   "InternalName": "Amoebash"
 }

@@ -15,6 +15,7 @@
   "Tooltip": "Wh3re did you f!nd this?",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
   "SpriteWidth": 56,
   "InternalName": "Ancient_Kruncher"
 }

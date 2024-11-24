@@ -15,6 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
   "SpriteWidth": 24,
   "InternalName": "Salty_Seed"
 }

@@ -12,6 +12,7 @@
   "UseTime": 16,
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "Green",
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
   "SpriteWidth": 42,
   "InternalName": "Fiberglass_Sword"
 }

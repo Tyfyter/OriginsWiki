@@ -3,6 +3,7 @@
   "Name": "Scrap Barrier",
   "Types": [
     "Item",
+    "Combat",
     "Accessory"
   ],
   "Tooltip": "5% damage reduction and slightly increased life regeneration",

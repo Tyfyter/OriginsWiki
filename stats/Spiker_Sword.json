@@ -13,6 +13,7 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 4000,
+  "Source": "(10) <a is=a-link image=$fromStats>Defiled Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
   "SpriteWidth": 52,
   "InternalName": "Spiker_Sword"
 }

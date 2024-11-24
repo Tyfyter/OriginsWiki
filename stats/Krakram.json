@@ -14,6 +14,7 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 4000,
+  "Source": "(9) <a is=a-link image=$fromStats>Defiled Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
   "SpriteWidth": 34,
   "InternalName": "Krakram"
 }

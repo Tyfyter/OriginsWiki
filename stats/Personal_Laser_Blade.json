@@ -18,6 +18,7 @@
     "'Be careful, it's hot'"
   ],
   "Rarity": "Pink",
+  "Source": "(13) <a is=a-link image=$fromStats>Busted Servo</a> + <a is=a-link image=$fromStats>Power Core</a> + (2) <a is=a-link image=$fromStats>Rotor</a> + (8) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
   "SpriteWidth": 20,
   "InternalName": "Personal_Laser_Blade"
 }

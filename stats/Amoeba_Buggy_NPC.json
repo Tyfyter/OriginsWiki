@@ -1,0 +1,26 @@
+{
+  "Image": "Amoeba_Buggy",
+  "Name": "",
+  "Types": [
+    "NPC"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 18,
+  "InternalName": "Amoeba_Buggy"
+}

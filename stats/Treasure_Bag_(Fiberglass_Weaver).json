@@ -22,15 +22,23 @@
     },
     {
       "Name": "Fiberglass Bow",
-      "Chance": "33.333%"
+      "Chance": "20%"
     },
     {
       "Name": "Fiberglass Sword",
-      "Chance": "33.333%"
+      "Chance": "20%"
     },
     {
       "Name": "Fiberglass Pistol",
-      "Chance": "33.333%"
+      "Chance": "20%"
+    },
+    {
+      "Name": "Glass Cannon",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Thread Rod",
+      "Chance": "20%"
     },
     {
       "Name": "Entangled Energy"

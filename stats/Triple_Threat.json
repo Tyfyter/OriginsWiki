@@ -13,6 +13,7 @@
   "Velocity": 16.0,
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "(12) <a is=a-link image=$fromStats>Encrusted Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
   "SpriteWidth": 30,
   "InternalName": "Triple_Threat"
 }

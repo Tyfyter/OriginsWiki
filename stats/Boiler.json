@@ -14,6 +14,7 @@
   "Tooltip": "Uses fireblossoms as ammo",
   "Rarity": "Orange",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Shadow_Chest>Locked Shadow Chests</a>",
   "SpriteWidth": 38,
   "InternalName": "Boiler"
 }

@@ -15,6 +15,7 @@
   "Velocity": 8.0,
   "Rarity": "LightRed",
   "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Lost Diver</a>",
   "SpriteWidth": 36,
   "InternalName": "Depth_Charge"
 }

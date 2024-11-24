@@ -14,6 +14,7 @@
   "Velocity": 11.0,
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "(12) <a is=a-link image=$fromStats>Encrusted Bar</a> + (5) <a is=a-link image=$fromStats>Riven Carapace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
   "SpriteWidth": 50,
   "InternalName": "Threemoepeater"
 }

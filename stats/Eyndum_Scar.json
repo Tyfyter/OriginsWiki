@@ -16,6 +16,7 @@
   "Tooltip": "A very lame end-game sword",
   "Rarity": "Crimson",
   "Sell": 200000,
+  "Source": "(4) <a is=a-link image=$fromStats>Alien Conduit</a> + (23) <a is=a-link image=$fromStats>Endyean Ceramic</a> + <a is=a-link image=$fromStats>Weapon Blueprint</a> @ <a is=a-link image=Elderforge_Smol>Elderforge</a>",
   "SpriteWidth": 70,
   "InternalName": "Eyndum_Scar"
 }

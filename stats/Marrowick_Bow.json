@@ -12,6 +12,7 @@
   "Velocity": 6.6,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "(10) <a is=a-link image=$fromStats>Marrowick</a> @ <a is=a-link>Work Benches</a>",
   "SpriteWidth": 26,
   "InternalName": "Marrowick_Bow"
 }

@@ -12,6 +12,7 @@
   "Velocity": 6.6,
   "Rarity": "White",
   "Sell": 20,
+  "Source": "(10) <a is=a-link image=$fromStats>Endowood</a> @ <a is=a-link>Work Benches</a>",
   "SpriteWidth": 24,
   "InternalName": "Endowood_Bow"
 }

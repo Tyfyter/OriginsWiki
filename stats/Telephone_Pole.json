@@ -15,6 +15,7 @@
   "Tooltip": "'We already have Cellphones'",
   "Rarity": "Yellow",
   "Sell": 50000,
+  "Source": "(50) <a is=a-link href=https://terraria.wiki.gg/wiki/Woods>Wood</a> + (7) <a is=a-link image=$fromStats>Valkyrum Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
   "SpriteWidth": 104,
   "InternalName": "Telephone_Pole"
 }

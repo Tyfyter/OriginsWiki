@@ -3,6 +3,7 @@
   "Types": [
     "Item",
     "GrabBag",
+    "Hardmode",
     "Tile"
   ],
   "PlacementSize": [
@@ -10,7 +11,7 @@
     2
   ],
   "UseTime": 15,
-  "Rarity": "Green",
+  "Rarity": "LightRed",
   "Sell": 10000,
   "Drops": [
     {

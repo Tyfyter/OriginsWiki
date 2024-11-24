@@ -12,6 +12,7 @@
   "UseTime": 19,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "(7) <a is=a-link image=$fromStats>Marrowick</a> @ <a is=a-link>Work Benches</a>",
   "SpriteWidth": 32,
   "InternalName": "Marrowick_Sword"
 }

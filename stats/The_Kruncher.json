@@ -7,6 +7,7 @@
     "Weapon"
   ],
   "Damage": 6,
+  "ArmorPenetration": 6,
   "DamageClass": "Ranged",
   "Knockback": 5.0,
   "Crit": 3,

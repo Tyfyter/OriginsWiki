@@ -12,7 +12,7 @@
   "UseTime": 19,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "<a is=a-link image=$fromStats>Endowood</a> @ <a is=a-link>Work Benches</a>",
+  "Source": "(7) <a is=a-link image=$fromStats>Endowood</a> @ <a is=a-link>Work Benches</a>",
   "SpriteWidth": 32,
   "InternalName": "Endowood_Sword"
 }

@@ -6,14 +6,15 @@
     "Weapon",
     "Spear"
   ],
-  "Damage": 24,
+  "Damage": 20,
   "DamageClass": "Melee",
   "Knockback": 5.0,
-  "UseTime": 32,
+  "UseTime": 35,
   "Velocity": 3.75,
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "(9) <a is=a-link image=$fromStats>Defiled Bar</a> + (5) <a is=a-link image=$fromStats>Undead Chunk</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
   "SpriteWidth": 56,
   "InternalName": "Ripper_Lance"
 }

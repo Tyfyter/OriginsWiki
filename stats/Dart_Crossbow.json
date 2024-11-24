@@ -16,6 +16,7 @@
   "Velocity": 20.0,
   "Rarity": "Pink",
   "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
   "SpriteWidth": 52,
   "InternalName": "Dart_Crossbow"
 }

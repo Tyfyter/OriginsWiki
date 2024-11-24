@@ -15,6 +15,7 @@
   "Velocity": 5.0,
   "Rarity": "LightRed",
   "Sell": 30000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Gungnir>Gungnir</a> + (5) <a is=a-link image=$fromStats>Bottled Brine</a> + (15) <a is=a-link image=$fromStats>Eitrite Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
   "SpriteWidth": 46,
   "InternalName": "Amenonuhoko"
 }

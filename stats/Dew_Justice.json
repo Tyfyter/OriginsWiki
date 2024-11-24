@@ -16,6 +16,7 @@
   "Tooltip": "Amebic gel particulates rise from nearby surfaces to bombard your target",
   "Rarity": "Pink",
   "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
   "SpriteWidth": 28,
   "InternalName": "Dew_Justice"
 }

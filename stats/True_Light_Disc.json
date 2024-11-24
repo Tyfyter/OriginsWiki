@@ -14,6 +14,7 @@
   "Velocity": 15.0,
   "Rarity": "Yellow",
   "Sell": 200000,
+  "Source": "(24) <a is=a-link href=https://terraria.wiki.gg/wiki/Chlorophyte_Bar>Chlorophyte Bar</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Light_Disc>Light Disc</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
   "SpriteWidth": 36,
   "InternalName": "True_Light_Disc"
 }

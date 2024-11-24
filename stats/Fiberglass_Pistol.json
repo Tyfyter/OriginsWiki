@@ -14,6 +14,7 @@
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "Green",
   "Sell": 3000,
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
   "SpriteWidth": 38,
   "InternalName": "Fiberglass_Pistol"
 }

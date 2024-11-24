@@ -17,6 +17,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Fishing>Fishing</a> in the <a is=a-link href=https://terraria.wiki.gg/wiki/The_Crimson>Crimson</a> <a is=a-link href=https://terraria.wiki.gg/wiki/Ocean>Ocean</a>",
   "SpriteWidth": 64,
   "InternalName": "Blotopus"
 }

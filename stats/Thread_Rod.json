@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Thread_Rod",
+  "Name": "Thread Rod",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Sentry"
+  ],
+  "ManaCost": 13,
+  "Damage": 5,
+  "DamageClass": "Summon",
+  "Knockback": 0.1,
+  "UseTime": 37,
+  "Velocity": 12.0,
+  "Tooltip": [
+    "Summons fiberglass threads that cut enemies that cross them",
+    "Works best in enclosed spaces"
+  ],
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 50,
+  "InternalName": "Thread_Rod"
+}

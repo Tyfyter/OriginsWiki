@@ -3,6 +3,7 @@
   "Name": "Slag Bucket",
   "Types": [
     "Item",
+    "Combat",
     "Accessory",
     "Hardmode"
   ],
