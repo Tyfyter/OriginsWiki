@@ -11,6 +11,11 @@
     page: Weapons
     items:[]
   }
+  accessories: {
+    name: accessories
+    page: Accessories
+    items:[]
+  }
   special:{
     name:special
     items:[
