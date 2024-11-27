@@ -1,25 +1,19 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Melee/Vorpal_Sword_Cursed",
+  "Image": "§ModImage§/Items/Weapons/Melee/Vorpal_Sword",
   "Name": "Vorpal Sword",
   "Types": [
     "Item",
-    "Torn",
-    "TornSource",
     "Sword",
-    "Cursed",
     "Weapon"
   ],
-  "Damage": 32,
-  "ArmorPenetration": 9999,
+  "Damage": 17,
+  "ArmorPenetration": 150,
   "DamageClass": "Melee",
   "UseTime": 17,
   "Velocity": 12.0,
-  "Tooltip": [
-    "Attacks tenderize targets",
-    "Will attack for you if in your inventory"
-  ],
-  "Rarity": "Cursed",
+  "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "(10) <a is=a-link image=$fromStats>Encrusted Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a> OR (Cursed) Vorpal Sword @ <a is=a-link href=https://terraria.wiki.gg/wiki/Bewitching_Table>Bewitching Table</a> and <a is=a-link image=$fromStats>World Cracker</a>",
   "SpriteWidth": 58,
-  "InternalName": "Vorpal_Sword_Cursed"
+  "InternalName": "Vorpal_Sword"
 }
