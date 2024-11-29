@@ -8,7 +8,7 @@
     "Hardmode"
   ],
   "ManaCost": 24,
-  "Damage": 48,
+  "Damage": 37,
   "DamageClass": "Summon",
   "UseTime": 36,
   "Velocity": 1.0,

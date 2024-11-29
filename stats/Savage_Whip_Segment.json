@@ -1,6 +1,6 @@
 {
-  "Image": "Savage_Whip",
-  "Name": "Savage Whip",
+  "Image": "Savage_Whip_Segment",
+  "Name": "Savage Whip Segment",
   "Types": [
     "NPC"
   ],
@@ -16,40 +16,19 @@
     "<a is=a-link image=$fromStats>Stunned</a>"
   ],
   "Coins": 1000.0,
-  "Drops": [
-    {
-      "Name": "Nazar",
-      "Chance": "1%",
-      "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
-      "ImageOverride": ""
-    }
-  ],
+  "Drops": [],
   "Expert": {
     "MaxLife": 400,
     "KBResist": 0.45999998,
     "Coins": 2500.0,
-    "Drops": [
-      {
-        "Name": "Nazar",
-        "Chance": "1.99%",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
-        "ImageOverride": ""
-      }
-    ]
+    "Drops": []
   },
   "Master": {
     "MaxLife": 600,
     "KBResist": 0.52,
     "Coins": 2500.0,
-    "Drops": [
-      {
-        "Name": "Nazar",
-        "Chance": "1.99%",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
-        "ImageOverride": ""
-      }
-    ]
+    "Drops": []
   },
   "SpriteWidth": 48,
-  "InternalName": "Savage_Whip"
+  "InternalName": "Savage_Whip_Segment"
 }

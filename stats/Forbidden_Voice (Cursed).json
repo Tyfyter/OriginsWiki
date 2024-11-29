@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Forbidden_Voice",
+  "Name": "Forbidden Voice",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "ManaCost": 20,
+  "Damage": 50,
+  "DamageClass": "",
+  "Knockback": 7.0,
+  "UseTime": 48,
+  "Velocity": 4.0,
+  "Tooltip": "You are Silenced, but the mouth will attack for you",
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Eater_of_Worlds>Eater of Worlds</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "SpriteWidth": 36,
+  "InternalName": "Forbidden_Voice"
+}

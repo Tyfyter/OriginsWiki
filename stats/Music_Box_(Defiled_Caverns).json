@@ -2,9 +2,9 @@
   "Name": "Music Box (Defiled Caverns)",
   "Types": [
     "Item",
+    "MusicBox",
     "Accessory",
-    "Tile",
-    "MusicBox"
+    "Tile"
   ],
   "PlacementSize": [
     2,

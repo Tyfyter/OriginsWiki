@@ -2,10 +2,10 @@
   "Name": "Ancient Music Box (Defiled Wastelands)",
   "Types": [
     "Item",
-    "Accessory",
-    "Tile",
     "MusicBox",
-    "Hardmode"
+    "Hardmode",
+    "Accessory",
+    "Tile"
   ],
   "PlacementSize": [
     2,
@@ -14,6 +14,7 @@
   "UseTime": 10,
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Music": "Shattered_Topography_Old.ogg",
   "SpriteWidth": 32,
   "InternalName": "Ancient_Music_Box_DW_Item",
   "Images": [

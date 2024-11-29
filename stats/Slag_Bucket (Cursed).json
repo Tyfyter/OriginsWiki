@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Slag_Bucket",
+  "Name": "Slag Bucket",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "40% damage reduction while above 80% of maximum life",
+    "All life regeneration has a 4-second buffer period before it is applied after getting hit while above half life",
+    "Grants immunity to knockback, fire blocks, and impeding shrapnel",
+    "67% of damage received is redirected to 3 enemies",
+    "You regenerate life while on fire"
+  ],
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "SpriteWidth": 36,
+  "InternalName": "Slag_Bucket"
+}

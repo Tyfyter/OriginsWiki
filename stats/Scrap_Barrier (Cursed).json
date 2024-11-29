@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Scrap_Barrier",
+  "Name": "Scrap Barrier",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "50% damage reduction while above 90% of maximum life",
+    "All life regeneration has a 3-second buffer period before it is applied after getting hit while above half life"
+  ],
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "SpriteWidth": 28,
+  "InternalName": "Scrap_Barrier"
+}
