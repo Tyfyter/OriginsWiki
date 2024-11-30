@@ -255,6 +255,18 @@
     "name":"Ores",
     "items":"Types<Ore"
   },
+  "pickaxes":{
+    "name":"Pickaxes",
+    "items":"PickPower=*"
+  },
+  "axes":{
+    "name":"Axes",
+    "items":"AxePower=*"
+  },
+  "hammers":{
+    "name":"Hammers",
+    "items":"HammerPower=*"
+  },
   "expert":{
     "name":"Expert Mode Exclusive",
     "items":"Types<Expert"

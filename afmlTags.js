@@ -21,6 +21,28 @@ function getLinkSuffix(url) {
 function processImagePath(path) {
 	return `${path.startsWith("§")?"":"Images/"}${path}`.replaceAll('§ModImage§', 'https://raw.githubusercontent.com/Tyfyter/Origins/master') + '.png';
 }
+let rarityOrder = {
+	Master: -13,
+	Expert: -12,
+	Quest: -11,
+	Gray: -1,
+	White: 0,
+	Blue: 1,
+	Green: 2,
+	Orange: 3,
+	LightRed: 4,
+	Pink: 5,
+	LightPurple: 6,
+	Lime: 7,
+	Yellow: 8,
+	Cyan: 9,
+	AltCyan: 9,
+	Red: 10,
+	Purple: 11,
+	Butterscotch: 12,
+	Crimson: 13,
+	RoyalBlue: 14
+}
 class AsyncLock {
 	constructor () {
 		this.disable = () => {}
@@ -686,7 +708,7 @@ class AFMLStatBlock extends HTMLElement {
 			if (stats.Tooltip && !stats.Defense) {
 				if (stats.Tooltip) valueOrValues(stats.Tooltip, 'Tooltip', 'https://terraria.wiki.gg/wiki/Tooltips');
 			}
-			if (stats.Rarity) labeled(`<a is="a-link" href="https://terraria.wiki.gg/wiki/Rarity" image="Rare${stats.Rarity}"></a>`, 'Rarity', 'https://terraria.wiki.gg/wiki/Rarity');
+			if (stats.Rarity) labeled(`<a-rarity>${stats.Rarity}</a-rarity>`, 'Rarity', 'https://terraria.wiki.gg/wiki/Rarity');
 			if (stats.Buy) labeled(`<a-coins>${stats.Buy}</a-coins>`, 'Buy', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Sell) labeled(`<a-coins>${stats.Sell}</a-coins>`, 'Sell', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Research) labeled(`<abbr class="journey" title="Journey Mode">${stats.Research} required</abbr>`, 'Research', 'https://terraria.wiki.gg/wiki/Journey_Mode#Research');
@@ -1013,6 +1035,9 @@ class AFMLSortableList extends HTMLElement {
 			data.headers[0] = {name:'Name', expr:"`<a is=\"a-link\" ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=\"$fromStats\">${item.Name}</a>`", sortIndex:'item.Name', noAbbr:true};
 		}
 		for(var j = 0; j < data.headers.length; j++){
+			if(data.headers[j] === 'Rarity'){
+				data.headers[j] = {name:'Rarity', expr:"`<a-rarity>${item.Rarity}</a-rarity>`", sortIndex:'rarityOrder[item.Rarity]', noAbbr:true};
+			}
 			let th = row.createChild('th');
 			if (j>0&&j<data.headers.length) th.classList.add('notleft');
 			let index = j;
@@ -1183,3 +1208,12 @@ class WebkitNoticeElement extends HTMLDivElement {
 	}
 }
 customElements.define("a-webkit-notice", WebkitNoticeElement, { extends: "div" });
+
+class AFMLRarity extends HTMLElement {
+	constructor() {
+		// Always call super first in constructor
+		super();
+		if (!this.innerHTML.startsWith('<')) this.innerHTML = `<a is="a-link" href="https://terraria.wiki.gg/wiki/Rarity" image="Rare${this.innerHTML}"></a>`;
+	}
+}
+customElements.define("a-rarity", AFMLRarity);

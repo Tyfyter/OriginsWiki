@@ -10,7 +10,11 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 					if (cat.Value.name != "Hidden") hiddenFilter = new NotFilter(hiddenFilter);
 					if (cat.Value.items is not null) {
 						Filter filter = CreateFilter(cat.Value.items);
+						if (cat.Value.name == "Pickaxes") {
+
+						}
 						newCat.Add("items", new JArray(stats
+							.Where(s => s.name is not "Defaults" or "Example")
 							.Where(s => filter.Matches(s.data))
 							.Where(s => hiddenFilter.Matches(s.data))
 							.Select(s => s.name)
@@ -137,7 +141,7 @@ using InputCategory = System.Collections.Generic.Dictionary<string, CategoryGene
 		public override string ToString() => $"{name}.{filter}";
 	}	public class IsFilter(string value) : Filter {
 		public string Value => value;
-		public override bool Matches(JToken data) => data.ToString() == value;
+		public override bool Matches(JToken data) => value == "*" || data.ToString() == value;
 		public override string ToString() => $"={value}";
 	}	public class HasFilter(params Filter[] filters) : Filter {
 		public Filter[] Filters => filters;
