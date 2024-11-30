@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Nova_Armor",
+  "Name": "Nova Armor",
+  "WikiName": "Nova_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Nova_Armor.DisplayName",
   "Images": [
     "ArmorSets/Nova_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Eyndum_Armor",
+  "Name": "Eyndum Armor",
+  "WikiName": "Eyndum_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Eyndum_Armor.DisplayName",
   "Images": [
     "ArmorSets/Eyndum_Armor",

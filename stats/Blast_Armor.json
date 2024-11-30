@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Blast_Armor",
+  "Name": "Blast Armor",
+  "WikiName": "Blast_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Blast_Armor.DisplayName",
   "Images": [
     "ArmorSets/Blast_Armor",

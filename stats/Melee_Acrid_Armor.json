@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Melee_Acrid_Armor",
+  "Name": "Melee Acrid Armor",
+  "WikiName": "Melee_Acrid_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Melee_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Melee_Acrid_Armor",

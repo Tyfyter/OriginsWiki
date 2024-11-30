@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Tendon_Armor",
+  "Name": "Tendon Armor",
+  "WikiName": "Tendon_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Tendon_Armor.DisplayName",
   "Images": [
     "ArmorSets/Tendon_Armor",

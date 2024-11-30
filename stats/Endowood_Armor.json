@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Endowood_Armor",
+  "Name": "Endowood Armor",
+  "WikiName": "Endowood_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Endowood_Armor.DisplayName",
   "Images": [
     "ArmorSets/Endowood_Armor",

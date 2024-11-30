@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Bleeding_Obsidian_Armor",
+  "Name": "Bleeding Obsidian Armor",
+  "WikiName": "Bleeding_Obsidian_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Bleeding_Obsidian_Armor.DisplayName",
   "Images": [
     "ArmorSets/Bleeding_Obsidian_Armor",

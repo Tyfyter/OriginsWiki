@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Sapphire_Armor",
+  "Name": "Sapphire Armor",
+  "WikiName": "Sapphire_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Sapphire_Armor.DisplayName",
   "Images": [
     "ArmorSets/Sapphire_Armor",

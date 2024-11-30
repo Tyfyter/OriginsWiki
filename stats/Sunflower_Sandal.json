@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Sunflower_Sandal",
+  "Name": "Sunflower Sandal",
+  "WikiName": "Sunflower_Sandal",
   "DisplayName": "WikiGenerator.Stats.Origins.Sunflower_Sandal.DisplayName",
   "Images": [
     "ArmorSets/Sunflower_Sandal"

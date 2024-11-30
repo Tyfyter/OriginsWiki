@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Ashen_Armor",
+  "Name": "Ashen Armor",
+  "WikiName": "Ashen_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Ashen_Armor.DisplayName",
   "Images": [
     "ArmorSets/Ashen_Armor",

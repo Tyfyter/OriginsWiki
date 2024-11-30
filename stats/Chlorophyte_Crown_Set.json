@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Chlorophyte_Crown_Set",
+  "Name": "Chlorophyte Crown Set",
+  "WikiName": "Chlorophyte_Crown_Set",
   "DisplayName": "WikiGenerator.Stats.Origins.Chlorophyte_Crown_Set.DisplayName",
   "Images": [
     "ArmorSets/Chlorophyte_Crown_Set",

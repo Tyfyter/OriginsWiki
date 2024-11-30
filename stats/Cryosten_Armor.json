@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Cryosten_Armor",
+  "Name": "Cryosten Armor",
+  "WikiName": "Cryosten_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Cryosten_Armor.DisplayName",
   "Images": [
     "ArmorSets/Cryosten_Armor",

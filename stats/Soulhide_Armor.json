@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Soulhide_Armor",
+  "Name": "Soulhide Armor",
+  "WikiName": "Soulhide_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Soulhide_Armor.DisplayName",
   "Images": [
     "ArmorSets/Soulhide_Armor",

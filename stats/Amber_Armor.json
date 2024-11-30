@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Amber_Armor",
+  "Name": "Amber Armor",
+  "WikiName": "Amber_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Amber_Armor.DisplayName",
   "Images": [
     "ArmorSets/Amber_Armor",

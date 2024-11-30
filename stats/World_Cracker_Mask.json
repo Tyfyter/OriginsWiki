@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "World_Cracker_Mask",
+  "Name": "World Cracker Mask",
+  "WikiName": "World_Cracker_Mask",
   "DisplayName": "WikiGenerator.Stats.Origins.World_Cracker_Mask.DisplayName",
   "Images": [
     "ArmorSets/World_Cracker_Mask"

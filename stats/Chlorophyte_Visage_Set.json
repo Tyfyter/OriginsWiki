@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Chlorophyte_Visage_Set",
+  "Name": "Chlorophyte Visage Set",
+  "WikiName": "Chlorophyte_Visage_Set",
   "DisplayName": "WikiGenerator.Stats.Origins.Chlorophyte_Visage_Set.DisplayName",
   "Images": [
     "ArmorSets/Chlorophyte_Visage_Set",

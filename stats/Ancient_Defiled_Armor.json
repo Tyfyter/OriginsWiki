@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Ancient_Defiled_Armor",
+  "Name": "Ancient Defiled Armor",
+  "WikiName": "Ancient_Defiled_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Ancient_Defiled_Armor.DisplayName",
   "Images": [
     "ArmorSets/Ancient_Defiled_Armor",

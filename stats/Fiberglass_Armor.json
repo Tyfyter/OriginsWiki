@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Fiberglass_Armor",
+  "Name": "Fiberglass Armor",
+  "WikiName": "Fiberglass_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Fiberglass_Armor.DisplayName",
   "Images": [
     "ArmorSets/Fiberglass_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Ancient_Hallowed_Visage",
+  "Name": "Ancient Hallowed Visage",
+  "WikiName": "Ancient_Hallowed_Visage",
   "DisplayName": "WikiGenerator.Stats.Origins.Ancient_Hallowed_Visage.DisplayName",
   "Images": [
     "ArmorSets/Ancient_Hallowed_Visage",

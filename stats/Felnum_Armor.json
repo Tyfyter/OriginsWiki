@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Felnum_Armor",
+  "Name": "Felnum Armor",
+  "WikiName": "Felnum_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Felnum_Armor.DisplayName",
   "Images": [
     "ArmorSets/Felnum_Armor",

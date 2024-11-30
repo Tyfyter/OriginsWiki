@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Explosive_Acrid_Armor",
+  "Name": "Explosive Acrid Armor",
+  "WikiName": "Explosive_Acrid_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Explosive_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Explosive_Acrid_Armor",

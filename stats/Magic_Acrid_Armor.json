@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Magic_Acrid_Armor",
+  "Name": "Magic Acrid Armor",
+  "WikiName": "Magic_Acrid_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Magic_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Magic_Acrid_Armor",

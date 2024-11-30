@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Lost_Armor",
+  "Name": "Lost Armor",
+  "WikiName": "Lost_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Lost_Armor.DisplayName",
   "Images": [
     "ArmorSets/Lost_Armor",

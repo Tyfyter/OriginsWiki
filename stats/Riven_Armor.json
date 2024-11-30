@@ -6,7 +6,8 @@
     "Torn",
     "TornSource"
   ],
-  "SetName": "Riven_Armor",
+  "Name": "Riven Armor",
+  "WikiName": "Riven_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Riven_Armor.DisplayName",
   "Images": [
     "ArmorSets/Riven_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Marrowick_Armor",
+  "Name": "Marrowick Armor",
+  "WikiName": "Marrowick_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Marrowick_Armor.DisplayName",
   "Images": [
     "ArmorSets/Marrowick_Armor",

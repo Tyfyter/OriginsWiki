@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Ranged_Acrid_Armor",
+  "Name": "Ranged Acrid Armor",
+  "WikiName": "Ranged_Acrid_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Ranged_Acrid_Armor.DisplayName",
   "Images": [
     "ArmorSets/Ranged_Acrid_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Acrid_Armor",
+  "Name": "Explosive Acrid Armor",
+  "WikiName": "Acrid_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Explosive_Acrid_Armor.DisplayName",
   "SetBonus": "All attacks inflict Toxic Shock\nImmunity to acid venom, poisoned and toxic shock\nExtends underwater breathing",
   "Images": [

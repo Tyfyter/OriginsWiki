@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Riptide_Armor",
+  "Name": "Riptide Armor",
+  "WikiName": "Riptide_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Riptide_Armor.DisplayName",
   "Images": [
     "ArmorSets/Riptide_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Scavenger_Armor",
+  "Name": "Scavenger Armor",
+  "WikiName": "Scavenger_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Scavenger_Armor.DisplayName",
   "Images": [
     "ArmorSets/Scavenger_Armor",

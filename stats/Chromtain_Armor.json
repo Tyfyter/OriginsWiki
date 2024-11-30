@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Chromtain_Armor",
+  "Name": "Chromtain Armor",
+  "WikiName": "Chromtain_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Chromtain_Armor.DisplayName",
   "Images": [
     "ArmorSets/Chromtain_Armor",

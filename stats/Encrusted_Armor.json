@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Encrusted_Armor",
+  "Name": "Encrusted Armor",
+  "WikiName": "Encrusted_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Encrusted_Armor.DisplayName",
   "Images": [
     "ArmorSets/Encrusted_Armor",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Explosive_Hallowed_Armor",
+  "Name": "Hallowed Visage",
+  "WikiName": "Explosive_Hallowed_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Hallowed_Visage.DisplayName",
   "SetBonus": "Become immune after striking an enemy",
   "Images": [

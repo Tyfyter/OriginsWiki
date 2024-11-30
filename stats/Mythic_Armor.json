@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Mythic_Armor",
+  "Name": "Mythic Armor",
+  "WikiName": "Mythic_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Mythic_Armor.DisplayName",
   "Images": [
     "ArmorSets/Mythic_Armor",

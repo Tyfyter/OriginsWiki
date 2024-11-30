@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Plague_Texan_Vanity",
+  "Name": "Plague Texan Vanity",
+  "WikiName": "Plague_Texan_Vanity",
   "DisplayName": "WikiGenerator.Stats.Origins.Plague_Texan_Vanity.DisplayName",
   "Images": [
     "ArmorSets/Plague_Texan_Vanity",

@@ -4,7 +4,8 @@
     "Armor",
     "ArmorSet"
   ],
-  "SetName": "Abysswalker_Armor",
+  "Name": "Abysswalker Armor",
+  "WikiName": "Abysswalker_Armor",
   "DisplayName": "WikiGenerator.Stats.Origins.Abysswalker_Armor.DisplayName",
   "Images": [
     "ArmorSets/Abysswalker_Armor",
