@@ -19,6 +19,7 @@
 	--themes-offset: 0em;
 	--wiki-logo: url(Images/themes/light-logo-small.png);
 	--wiki-logo-mobile: url(Images/themes/light-logo-small.png);
+	--stat-image-padding: 5%
 }
 
 .theme-dark {
@@ -336,6 +337,10 @@ details > summary {
 	--tabvis-1:none;
 	--tabvis-2:none;
 }
+a-stat > .statimagecontainer {
+	width: fit-content;
+	--stat-image-padding: 0;
+}
 .statimagecontainer {
 	margin: auto;
 	width: fit-content;
@@ -347,8 +352,8 @@ details > summary {
 .statimagecontainer > img {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: var(--stat-image-padding);
+	padding-right: var(--stat-image-padding);
 }
 .statimagedivider {
 	height: 0px;

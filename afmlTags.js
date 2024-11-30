@@ -98,6 +98,7 @@ getStats(pageName);
 
 let mapLock;
 
+var _siteMap = getPageText('https://tyfyter.github.io/OriginsWiki/sitemap.xml');
 async function getSiteMap(){
 	if(typeof await _siteMap === 'string'){
 		mapLock = AsyncLock.createLock();
@@ -499,6 +500,7 @@ class AFMLRecipes extends HTMLElement {
 customElements.define("a-recipes", AFMLRecipes);
 
 class AFMLStat extends HTMLElement {
+	stats;
 	constructor() {
 		// Always call super first in constructor
 		super();
@@ -507,13 +509,14 @@ class AFMLStat extends HTMLElement {
 		this.classList.add('stat');
 		let stat = this.textContent.replace(' ', '_').split('.');
 		getStats(stat[0]).then((v) => {
+			this.stats = v;
 			for(var i = 1; i < stat.length; i++){
 				v = v[stat[i]];
 			}
-			this.innerHTML = AFMLStat.formatStat(stat[stat.length - 1], v);
+			this.innerHTML = AFMLStat.formatStat(stat[stat.length - 1], v, this);
 		});
 	}
-	static formatStat(name, stat) {
+	static formatStat(name, stat, self) {
 		switch (name) {
 			case 'Coins':
 			return `<a-coins>${stat}</a-coins>`;
@@ -531,6 +534,37 @@ class AFMLStat extends HTMLElement {
 				}
 			}
 			return drops;
+			case 'Images':
+			var widthVal = self.stats.SpriteWidth ? self.stats.SpriteWidth : false;
+			var images = [];
+			let is2D = Array.isArray(self.stats.Images[0]);
+			for (let i = 0; i < self.stats.Images.length; i++) {
+				const image = self.stats.Images[i];
+				if (is2D) {
+					images[i] = [];
+					for (let j = 0; j < image.length; j++) {
+						images[i][j] = processImagePath(image[j]);
+					}
+				} else {
+					images[i] = processImagePath(image);
+				}
+			}
+			let container = self.createChild('div', '', ['class', 'statimagecontainer']);
+			for (let j = 0; j < images.length; j++) {
+				const element = images[j];
+				if (is2D) {
+					if (j > 0) {
+						container.createChild('div', '', ['class', 'statimagedivider']);
+					}
+					let container2 = container.createChild('div', '', ['class', 'statimagecontainer']);
+					for (let k = 0; k < element.length; k++) {
+						AFMLStatBlock.createImage(element[k], widthVal && widthVal[j][k], container2);
+					}
+				} else {
+					AFMLStatBlock.createImage(element, widthVal && widthVal[j], container);
+				}
+			}
+			return container.outerHTML;
 		}
 		return stat;
 	}
@@ -779,14 +813,14 @@ class AFMLStatBlock extends HTMLElement {
 							}
 							let container2 = container.createChild('div', '', ['class', 'statimagecontainer']);
 							for (let k = 0; k < element.length; k++) {
-								this.createImage(element[k], item.spriteWidth && item.spriteWidth[j][k], container2);
+								AFMLStatBlock.createImage(element[k], item.spriteWidth && item.spriteWidth[j][k], container2);
 							}
 						} else {
-							this.createImage(element, item.spriteWidth && item.spriteWidth[j], container);
+							AFMLStatBlock.createImage(element, item.spriteWidth && item.spriteWidth[j], container);
 						}
 					}
 				} else if(item.image) {
-					this.createImage(item.image, item.spriteWidth, this);
+					AFMLStatBlock.createImage(item.image, item.spriteWidth, this);
 				} else {
 					let element = this.createChild('div', item.literalvalue || (item.label && `${item.label}: `));
 					element.className = 'stat ' + (item.class || '');
@@ -801,7 +835,7 @@ class AFMLStatBlock extends HTMLElement {
 			}
 		}
 	}
-	createImage(src, width, container) {
+	static createImage(src, width, container) {
 		let image = container.createChild('img', '', ['src', src]);
 		console.log(width);
 		if (width) image.style.maxWidth = `min(${width}px, 90%)`;

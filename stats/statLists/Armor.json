@@ -3,10 +3,10 @@
     "armor"
   ],
   "headers": [
-    "Appearance",
+    { "name": "Appearance", "expr": "'<a-stat>' + item.Name + '.Images</a-stat>'", "noAbbr": true},
     "Name",
     "Defense",
-    { "name":"Bonuses / Effects / Notes", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.effects)+'</div>'" },
+    { "name": "Bonuses / Effects / Notes", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.effects)+'</div>'" },
     "Source"
   ]
 }
