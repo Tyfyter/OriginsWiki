@@ -433,7 +433,7 @@ async function parseAFML(content){
 		linkPrefix = '/OriginsWiki';
 	}
 	var toc = document.getElementById("table-of-contents");
-	if(toc){
+	if(toc && content){
 		toc.innerHTML = '';//"<div style = \"border: 1px solid grey; padding: 10px;\">Contents</div>"
 		if (document.getElementsByClassName('section').length > 0) {
 			var contents = '<details id="table-of-contents-details" open><summary>Contents<span class="divider"></span></summary>'

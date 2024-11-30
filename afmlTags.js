@@ -297,7 +297,8 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 	}
 	matchCapitalsToPage(result) {
 		let targetPage = this.getAttribute('href').replaceAll('.html', '');
-		this.setAttribute('href', result.find(e => !e.localeCompare(targetPage, 'en', { sensitivity: 'base' })) + getLinkSuffix(targetPage));
+		let target = result.find(e => !e.localeCompare(targetPage, 'en', { sensitivity: 'base' }));
+		if (target) this.setAttribute('href', target + getLinkSuffix(targetPage));
 	}
 }
 customElements.define("a-link", AFMLLink, { extends: "a" });
@@ -1049,6 +1050,7 @@ class AFMLBiomeContents extends HTMLElement {
 	}
 	connectedCallback(){
 		if (!this.hasAttribute('src')) {
+			if (!this.innerHTML.trim().startsWith('{')) return;
 			try {
 				let value = new Function(`return [${this.innerHTML}];`)();
 				this.textContent = '';
@@ -1075,7 +1077,7 @@ class AFMLBiomeContents extends HTMLElement {
 					let span = parent.createChild('span');
 					if(data.items[i].startsWith('&amp;')){
 						span.appendChild(document.createTextNode(data.items[i].substring('&amp;'.length)));
-					}else{
+					} else {
 						span.createChild('a-link', data.items[i]);
 					}
 				}else if(data.items[i] instanceof Array){
