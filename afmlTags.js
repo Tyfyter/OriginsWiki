@@ -108,6 +108,34 @@ async function getStats(name) {
 				aStats[name] = null;
 			} else {
 				aStats[name] = JSON.parse(v);
+				let buffTasks = [];
+				if (aStats[name].Buffs) {
+					for (let i = 0; i < aStats[name].Buffs.length; i++) {
+						let buff = aStats[name].Buffs[i];
+						if (buff.src) {
+							let index = i;
+							let task = getStats(buff.src);
+							task.then(v => {
+								aStats[name].Buffs[index] = Object.assign(buff, v)
+							});
+							buffTasks.push(task);
+						}
+					}
+				}
+				if (aStats[name].Debuffs) {
+					for (let i = 0; i < aStats[name].Debuffs.length; i++) {
+						let buff = aStats[name].Debuffs[i];
+						if (buff.src) {
+							let index = i;
+							let task = getStats(buff.src);
+							task.then(v => {
+								aStats[name].Debuffs[index] = Object.assign(buff, v)
+							});
+							buffTasks.push(task);
+						}
+					}
+				}
+				await Promise.all(buffTasks);
 			}
 		} catch (error) {
 			console.error(error, v);

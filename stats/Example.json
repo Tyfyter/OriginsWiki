@@ -1,0 +1,66 @@
+{
+    "Image":"§ModImage§/Items/Weapons/Melee/Krakram",
+    "Types":[
+        "Item",
+        "Weapon"
+    ],
+    "PickPower":15,
+    "HammerPower":15,
+    "AxePower":15,
+    "FishPower":15,
+    "BaitPower":15,
+    "PickReq":15,
+    "HammerReq":15,
+    "LightColor":[
+        1,
+        0,
+        0.5
+    ],
+    "PlacementSize":[1,17],
+    "Defense":34,
+    "ArmorSlot":"Helmet",
+    "SetBonus":"Helmet",
+    "ManaCost":4,
+    "HealLife":4,
+    "HealMana":4,
+    "Damage":25,
+    "DamageClass":"Melee",
+    "Knockback":8,
+    "Crit":4,
+    "UseTime":18,
+    "Velocity":9.75,
+    "Tooltip":[
+        "This will be really long, but I want to put all of the possible stat block values here", 
+        "remember that you don't have to escape commas in text for auto-stats"
+    ],
+    "Rarity":"Blue",
+    "Buy":25000,
+    "Sell":5000,
+    "Research": 1,
+    "Buffs":[
+        {
+            "Name":"Example Buff",
+            "Image":"Krakram",
+            "Chance":"39%",
+            "Tooltip":"Example Buff",
+            "Duration":"two hundred and four seconds"
+        }
+    ],
+    "Debuffs":[
+        {
+            "Name":"Example Buff",
+            "Image":"Krakram",
+            "Chance":"39%",
+            "Tooltip":"Example Buff",
+            "Duration":"seven seconds"
+        },
+        {
+            "Name":"Example Buff",
+            "Image":"Krakram",
+            "Chance":"39%",
+            "Tooltip":"Example Buff",
+            "Duration":"four hundred and two seconds"
+        }
+    ],
+    "SpriteWidth":34
+}

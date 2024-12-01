@@ -15,6 +15,12 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 8,
+  "Debuffs": [
+    {
+      "src": "Rasterized",
+      "Duration": "0.25 seconds"
+    }
+  ],
   "SpriteWidth": 8,
   "InternalName": "Bile_Bullet"
 }
