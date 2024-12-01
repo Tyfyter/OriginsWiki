@@ -6,6 +6,7 @@
     "Tool"
   ],
   "PickPower": 75,
+  "ReachBonus": 7,
   "Damage": 13,
   "DamageClass": "Melee",
   "Knockback": 4.0,

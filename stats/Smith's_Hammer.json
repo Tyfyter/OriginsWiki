@@ -14,5 +14,10 @@
   "Rarity": "Blue",
   "Sell": 15000,
   "SpriteWidth": 32,
-  "InternalName": "Smiths_Hammer"
+  "InternalName": "Smiths_Hammer",
+  "Pet": {
+    "Name": "Walking Furnace",
+    "Image": "Smith's_Hammer_Pet",
+    "LightPet": true
+  }
 }

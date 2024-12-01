@@ -12,5 +12,10 @@
   "Rarity": "Master",
   "Sell": 50000,
   "SpriteWidth": 32,
-  "InternalName": "Blockus_Tube"
+  "InternalName": "Blockus_Tube",
+  "Pet": {
+    "Name": "Juvenile Amalgamation",
+    "Image": "Blockus_Tube_Pet",
+    "LightPet": false
+  }
 }

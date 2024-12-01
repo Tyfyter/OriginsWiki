@@ -2,9 +2,7 @@
   "Image": "§ModImage§/Items/Pets/Chew_Toy",
   "Name": "Chee Set",
   "Types": [
-    "Item",
-    "Pet",
-    "DeveloperItem"
+    "Item"
   ],
   "Rarity": "White",
   "SpriteWidth": 22,

@@ -12,5 +12,10 @@
   "Rarity": "Master",
   "Sell": 50000,
   "SpriteWidth": 20,
-  "InternalName": "Fleshy_Globe"
+  "InternalName": "Fleshy_Globe",
+  "Pet": {
+    "Name": "Self Contained Universe",
+    "Image": "Fleshy_Globe_Pet",
+    "LightPet": true
+  }
 }

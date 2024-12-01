@@ -3,7 +3,8 @@
   "Name": "Chew Toy",
   "Types": [
     "Item",
-    "Hardmode"
+    "Pet",
+    "DeveloperItem"
   ],
   "Damage": 0,
   "UseTime": 20,
@@ -14,6 +15,7 @@
   "InternalName": "Chew_Toy",
   "Pet": {
     "Name": "Chee Toy",
-    "Image": "Chew_Toy_Pet"
+    "Image": "Chew_Toy_Pet",
+    "LightPet": false
   }
 }

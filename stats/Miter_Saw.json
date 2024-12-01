@@ -8,7 +8,7 @@
     "Tool",
     "Weapon"
   ],
-  "AxePower": 10,
+  "AxePower": 50,
   "Damage": 18,
   "DamageClass": "Melee",
   "Knockback": 0.8,

@@ -11,5 +11,10 @@
   "Rarity": "Blue",
   "Sell": 75000,
   "SpriteWidth": 18,
-  "InternalName": "Suspicious_Looking_Pebble"
+  "InternalName": "Suspicious_Looking_Pebble",
+  "Pet": {
+    "Name": "Defiled Blight",
+    "Image": "Suspicious_Looking_Pebble_Pet",
+    "LightPet": true
+  }
 }

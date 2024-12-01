@@ -10,5 +10,10 @@
   "Rarity": "Blue",
   "Sell": 75000,
   "SpriteWidth": 28,
-  "InternalName": "Amoeba_Toy"
+  "InternalName": "Amoeba_Toy",
+  "Pet": {
+    "Name": "Meberoid",
+    "Image": "Amoeba_Toy_Pet",
+    "LightPet": true
+  }
 }

@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Pet",
-    "DeveloperItem",
-    "Hardmode"
+    "DeveloperItem"
   ],
   "Damage": 0,
   "UseTime": 20,
@@ -16,6 +15,7 @@
   "InternalName": "Chromatic_Scale",
   "Pet": {
     "Name": "Chromatic Pangolin",
-    "Image": "Chromatic_Scale_Pet"
+    "Image": "Chromatic_Scale_Pet",
+    "LightPet": false
   }
 }

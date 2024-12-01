@@ -7,6 +7,7 @@
     "Hardmode"
   ],
   "PickPower": 195,
+  "ReachBonus": -1,
   "Damage": 28,
   "DamageClass": "Melee",
   "Knockback": 1.0,
