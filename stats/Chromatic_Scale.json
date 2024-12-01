@@ -13,5 +13,9 @@
   "Rarity": "Cyan",
   "Sell": 200000,
   "SpriteWidth": 22,
-  "InternalName": "Chromatic_Scale"
+  "InternalName": "Chromatic_Scale",
+  "Pet": {
+    "Name": "Chromatic Pangolin",
+    "Image": "Chromatic_Scale_Pet"
+  }
 }

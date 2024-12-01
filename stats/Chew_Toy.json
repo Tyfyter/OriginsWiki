@@ -11,5 +11,9 @@
   "Rarity": "Cyan",
   "Sell": 200000,
   "SpriteWidth": 22,
-  "InternalName": "Chew_Toy"
+  "InternalName": "Chew_Toy",
+  "Pet": {
+    "Name": "Chee Toy",
+    "Image": "Chew_Toy_Pet"
+  }
 }
