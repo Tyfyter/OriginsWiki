@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Friendly_Zombie_Buff",
+  "Name": "Friendly Zombie Buff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The friendly zombie will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Friendly_Zombie_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Wormy_Buff",
+  "Name": "Mini Eater of Worlds",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The Eater of Worlds will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Wormy_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
+  "Name": "Ninja Ravel",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% chance to dodge. Able to climb different surfaces and less likely to be targeted"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Ninja_Ravel_Mount_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Fresh_Meat_Buff",
+  "Name": "Meat Doggin'",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Wut de dog doin'"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Fresh_Meat_Buff"
+}

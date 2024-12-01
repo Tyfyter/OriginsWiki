@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Fervor_Buff",
+  "Name": "Fervor",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% increased attack speed"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Fervor_Buff"
+}

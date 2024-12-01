@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Juvenile_Amalgamation_Buff",
+  "Name": "Juvenile Amalgamation",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The Juvenile Amalgamation is protecting your holes!"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Juvenile_Amalgamation_Buff"
+}

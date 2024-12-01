@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Toxic_Shock_Debuff",
+  "Name": "Toxic Shock",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The agony is getting to you."
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Toxic_Shock_Debuff"
+}

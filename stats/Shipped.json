@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Priority_Mail",
+  "Name": "Shipped",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Deliver it to them"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Priority_Mail_Buff"
+}

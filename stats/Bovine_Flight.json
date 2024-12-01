@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Blue_Bovine_Buff",
+  "Name": "Bovine Flight",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Blue Bovine allowed flight and slow fall"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Blue_Bovine_Buff"
+}

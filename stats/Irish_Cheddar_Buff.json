@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Food/Irish_Cheddar_Buff",
+  "Name": "Irish Cheddar",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Very good"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Irish_Cheddar_Buff"
+}

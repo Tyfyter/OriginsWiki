@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Lazy_Cloak_Buff",
+  "Name": "Lazy Cloak",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Your cloak will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Lazy_Cloak_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
+  "Name": "Ravel",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% chance to dodge"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Ravel_Mount_Buff"
+}

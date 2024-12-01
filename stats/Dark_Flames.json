@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_153",
+  "Name": "Dark Flames",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Losing life (but half as strong as the normal kind since it'd be kinda OP to get full hardmode debuff DPS from a prehardmode set)"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Weak_Shadowflame_Debuff"
+}

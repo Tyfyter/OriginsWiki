@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Platformer_Mech_Buff",
+  "Name": "Platformer Mech",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "It stomps along the ground."
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Platformer_Mech_Buff"
+}

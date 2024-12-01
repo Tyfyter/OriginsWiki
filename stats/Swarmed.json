@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_13",
+  "Name": "Swarmed",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Enemy spawn rates increased"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Swarm_Statue_Buff"
+}

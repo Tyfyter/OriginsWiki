@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ambition_Buff",
+  "Name": "Ambition",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Increased offensive stats and stat share"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Ambition_Buff"
+}

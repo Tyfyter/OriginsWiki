@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Toxic_Shock_Strengthen_Debuff",
+  "Name": "Toxic Shocker",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "How could it get worse?"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Toxic_Shock_Strengthen_Debuff"
+}

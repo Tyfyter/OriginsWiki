@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Terratotem_Buff",
+  "Name": "Terratotem Buff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The reformed soul will protect you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Terratotem_Buff"
+}

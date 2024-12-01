@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
+  "Name": "Depth Ravel",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% chance to dodge. Great underwater capabilities"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Depth_Ravel_Mount_Buff"
+}

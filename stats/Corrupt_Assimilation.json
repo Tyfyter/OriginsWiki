@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Corrupt_Assimilation_Debuff",
+  "Name": "Corrupt Assimilation",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "You're being assimilated by the Corruption"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Corrupt_Assimilation_Debuff"
+}

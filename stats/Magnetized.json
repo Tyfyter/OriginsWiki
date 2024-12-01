@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Magnetized",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.BuffDescription.Mag_Debuff"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mag_Debuff"
+}

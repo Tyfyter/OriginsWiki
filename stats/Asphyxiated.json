@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Asphyxiator_P1",
+  "Name": "Asphyxiated",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "You're drowning out"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Asphyxiator_Debuff_3"
+}

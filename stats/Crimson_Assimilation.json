@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Crimson_Assimilation_Debuff",
+  "Name": "Crimson Assimilation",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "You're being assimilated by the Crimson"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Crimson_Assimilation_Debuff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Headphones_Buff",
+  "Name": "Screaming Teammate",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "You got your target"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Headphones_Buff"
+}

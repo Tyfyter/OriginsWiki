@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
+  "Name": "Spider Ravel",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% chance to dodge. Able to climb different surfaces"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Spider_Ravel_Mount_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
+  "Name": "Dash Ravel",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "10% chance to dodge. Double tap left or right to dash"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Dash_Ravel_Mount_Buff"
+}

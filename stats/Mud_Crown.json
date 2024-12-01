@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Desert_Crown_Buff",
+  "Name": "Mud Crown",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The sand elemental will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Desert_Crown_Buff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Trash_Lid_Buff",
+  "Name": "Impenetrable Trashcan Lid",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "This trashcan lid is impenetrable"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Trash_Lid_Mount_Buff"
+}

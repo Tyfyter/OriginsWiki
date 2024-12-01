@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Weapon_Imbue_Bile",
+  "Name": "Weapon Imbue: Bile",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Melee and whip attacks stun enemies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Weapon_Imbue_Bile"
+}

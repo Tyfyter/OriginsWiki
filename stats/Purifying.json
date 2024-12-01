@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Purifying_Buff",
+  "Name": "Purifying",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "You are being healed of your assimilation"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Purifying_Buff"
+}

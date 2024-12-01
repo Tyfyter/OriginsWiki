@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Purification_Buff",
+  "Name": "Willed",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The evils of the world cannot manipulate you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Purification_Buff"
+}

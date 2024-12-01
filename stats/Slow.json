@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_32",
+  "Name": "Slow",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "This is the enemy version of the debuff, if you get this just tap the movement keys so you move slower or something, ¯\\_(ツ)_/¯"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Slow_Debuff"
+}

@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Mimic_Buff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Increased combat stats"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mimic_Buff"
+}

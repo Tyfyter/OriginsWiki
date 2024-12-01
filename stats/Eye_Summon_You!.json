@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Strange_Tooth_Buff",
+  "Name": "Eye Summon You!",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The Servants will keep an eye on your enemies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Strange_Tooth_Buff"
+}

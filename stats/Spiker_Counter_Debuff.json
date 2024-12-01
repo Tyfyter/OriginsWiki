@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Spiker_Sword",
+  "Name": "Spiker Counter Debuff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Spiker_Counter_Debuff.Description"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Spiker_Counter_Debuff"
+}

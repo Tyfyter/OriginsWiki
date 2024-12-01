@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Mini_EOC_Buff",
+  "Name": "Demon Eye",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The demon eye will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mini_EOC_Buff"
+}

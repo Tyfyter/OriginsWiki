@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Voidsight_Buff",
+  "Name": "Voidsight",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Visibility significantly increased"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Voidsight_Buff"
+}

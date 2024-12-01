@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Woodsprite_Buff",
+  "Name": "Woodsprite",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The woodsprite will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Woodsprite_Buff"
+}

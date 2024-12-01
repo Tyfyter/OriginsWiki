@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Walking_Furnace_Buff",
+  "Name": "Walking Furnace",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The walking furnace will light your way"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Walking_Furnace_Buff"
+}

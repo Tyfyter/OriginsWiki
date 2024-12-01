@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Mojo_Flask_Cooldown",
+  "Name": "Mojo Sickness",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "A little too refreshing..."
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mojo_Flask_Cooldown"
+}
