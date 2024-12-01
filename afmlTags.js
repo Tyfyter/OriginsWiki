@@ -736,7 +736,7 @@ class AFMLStatBlock extends HTMLElement {
 			if (stats.Tooltip && !stats.Defense) {
 				if (stats.Tooltip) valueOrValues(stats.Tooltip, 'Tooltip', 'https://terraria.wiki.gg/wiki/Tooltips');
 			}
-			if (stats.Rarity) labeled(`<a-rarity>${stats.Rarity}</a-rarity>`, 'Rarity', 'https://terraria.wiki.gg/wiki/Rarity');
+			if (stats.Rarity) labeled(`<a-rarity>${stats.Rarity}</a-rarity>`, 'Rarity', 'Rarity');
 			if (stats.Buy) labeled(`<a-coins>${stats.Buy}</a-coins>`, 'Buy', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Sell) labeled(`<a-coins>${stats.Sell}</a-coins>`, 'Sell', 'https://terraria.wiki.gg/wiki/Value');
 			if (stats.Research) labeled(`<abbr class="journey" title="Journey Mode">${stats.Research} required</abbr>`, 'Research', 'https://terraria.wiki.gg/wiki/Journey_Mode#Research');
@@ -1247,7 +1247,7 @@ class AFMLRarity extends HTMLElement {
 	constructor() {
 		// Always call super first in constructor
 		super();
-		if (!this.innerHTML.startsWith('<')) this.innerHTML = `<a is="a-link" href="https://terraria.wiki.gg/wiki/Rarity" image="Rare${this.innerHTML}"></a>`;
+		if (!this.innerHTML.startsWith('<')) this.innerHTML = `<a is="a-link" href="Rarity" image="Rare${this.innerHTML}"></a>`;
 	}
 }
 customElements.define("a-rarity", AFMLRarity);
