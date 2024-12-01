@@ -801,6 +801,12 @@ class AFMLStatBlock extends HTMLElement {
 			}
 			if (buffs.items.length > 0) values.push(buffs);
 		}
+		if (stats.Pet) {
+			values.push({header: `Summons <a href="https://terraria.wiki.gg/wiki/Pets">Pet</a>`, items:[
+				{literalvalue: stats.Pet.Name, class: 'petname'},
+				{image: processImagePath("Pets/" + stats.Pet.Image)}
+			]});
+		}
 		if(stats.Drops || stats.Coins) {
 			var loot = {header:"Drops", items:[]};
 			addStat(loot, '<a is="a-link" href="https://terraria.wiki.gg/wiki/NPC_drops#Coin_drops">Coins</a>', 'Coins');

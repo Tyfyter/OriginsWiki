@@ -448,6 +448,9 @@ a-stat > .statimagecontainer {
 	display: inline-block;
 	vertical-align: middle;
 }
+.stat.petname {
+	text-align: center;
+}
 
 .statvalues > .link {
 	vertical-align: middle;
