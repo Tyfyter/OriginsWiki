@@ -267,6 +267,14 @@
     "name":"Hammers",
     "items":"HammerPower=*"
   },
+  "pets":{
+    "name":"Pets",
+    "items":"Types<Pet"
+  },
+  "lightpets":{
+    "name":"Light Pets",
+    "items":"Types<LightPet"
+  },
   "expert":{
     "name":"Expert Mode Exclusive",
     "items":"Types<Expert"

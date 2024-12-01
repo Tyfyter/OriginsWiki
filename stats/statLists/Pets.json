@@ -1,0 +1,12 @@
+{
+  "categories": [
+    "pets",
+    "lightpets"
+  ],
+  "headers": [
+    "Name",
+    { "name":"Pet", "expr":"`<a is=a-link ${item.WikiName ? `href=\"${item.WikiName + aLinkSuffix}\"` : ''} image=Pets/${item.Pet.Image}>${item.Pet.Name}</a>`", "noAbbr": true},
+    "Source",
+    { "name":"Provides light", "expr":"item.Types.includes('LightPet') ? '<abbr class=\\'stat-table-indicator\\'>✔️</abbr>' : '<abbr class=\\'stat-table-indicator\\'>❌</abbr>'", "noAbbr": true}
+  ]
+}

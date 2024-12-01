@@ -672,7 +672,6 @@
       "Rotting_Worm_Staff",
       "Rubber",
       "Ruby_Reticle",
-      "Rusty_Cross_Necklace",
       "Salty_Seed",
       "Sanguinite_Bar",
       "Sanguinite_Ore",
@@ -1496,11 +1495,13 @@
       "Chambersite_Gemspark_Wall",
       "Chambersite_Stone_Wall",
       "Chee_Set",
+      "Chew_Toy",
       "Chlorodynamite",
       "Chlorophyte_Armor",
       "Chlorophyte_Crown_Set",
       "Chlorophyte_Visage_Set",
       "Chrersis",
+      "Chromatic_Scale",
       "Chromtain_Armor",
       "Chunky_Crate",
       "Chunky_Hook",
@@ -2093,10 +2094,8 @@
       "Celestial_Stone_Mask",
       "Chambersite",
       "Chemical_Laser",
-      "Chew_Toy",
       "Chlorophyte_Crown",
       "Chlorophyte_Visage",
-      "Chromatic_Scale",
       "Chromtain_Bar",
       "Chromtain_Breastplate",
       "Chromtain_Greaves",
@@ -2213,7 +2212,6 @@
       "Rocodile",
       "Rotor",
       "Ruby_Reticle",
-      "Rusty_Cross_Necklace",
       "Salty_Seed",
       "Sapphire_Mediator_Hood",
       "Sapphire_Mediator_Tights",
@@ -3644,7 +3642,6 @@
       "Rotting_Worm_Staff",
       "Rubber",
       "Ruby_Reticle",
-      "Rusty_Cross_Necklace",
       "Salty_Seed",
       "Sanguinite_Bar",
       "Sanguinite_Ore",
@@ -4188,6 +4185,23 @@
       "Felnum_Hamaxe",
       "Marrowick_Hammer",
       "Stabsmash"
+    ]
+  },
+  "pets": {
+    "name": "Pets",
+    "items": [
+      "Blockus_Tube",
+      "Chew_Toy",
+      "Chromatic_Scale",
+      "Strange_Power-Up"
+    ]
+  },
+  "lightpets": {
+    "name": "Light Pets",
+    "items": [
+      "Fleshy_Globe",
+      "Smith's_Hammer",
+      "Suspicious_Looking_Pebble"
     ]
   },
   "expert": {
