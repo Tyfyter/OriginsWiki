@@ -1,6 +1,6 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Decaying_Scale",
-  "Name": "Decaying Scale",
+  "Image": "§ModImage§/Items/Accessories/Venom_Fang",
+  "Name": "Venom Fang",
   "Types": [
     "Item",
     "Combat",
@@ -16,5 +16,5 @@
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Carpalfish</a>",
   "SpriteWidth": 18,
-  "InternalName": "Decaying_Scale"
+  "InternalName": "Venom_Fang"
 }
