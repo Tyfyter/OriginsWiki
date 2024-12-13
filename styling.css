@@ -154,11 +154,16 @@ html.nobackground {
 body.background {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
-	width: 90vw;
+	width: 90vw;/* change to 95 with toolbox release */
+	display: grid;
 }
 body.nobackground {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
+}
+.background > article {
+	grid-column: 2;
+	grid-row: 1;
 }
 
 .redlink {
@@ -788,6 +793,20 @@ a-drop > a-drop::before {
 	border-radius: 100px;
 	background: var(--article-text-color);  vertical-align: middle;
 	margin-right: 5px;
+}
+.background > #toolbox {
+	grid-column: 1;
+	grid-row: 1;
+	width: 12rem;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-rows: 0.3fr 0.3fr 0.3fr;
+	margin-top: 20rem;
+}
+.nobackground > #toolbox {
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-columns: auto auto auto auto auto;
 }
 
 .coins ::after {
