@@ -162,6 +162,9 @@ function refreshSiteSettings(){
 	if(lightToggle){
 		lightToggle.src = "Images/themes/" + "theme-" + theme + lightSettingSuffix;
 		lightToggle.className = 'themeOption-' + theme;
+		if (!siteSettings.theme) {
+			lightToggle.classList.add("pulse");
+		}
 	}
 	refreshThemeIcon();
 
@@ -197,6 +200,7 @@ function toggleThemeSelector(){
 	var themeContainer = document.getElementById("themeContainer");
 	if (themeContainer.children.length > 0) {
 		closeThemeSelector();
+		if (!getSiteSettings().theme) setSiteSettings('theme', themes[0]);
 	} else {
 		const currentTheme = getSiteSettings().theme || themes[0];
 		for (let i = 0; i < themes.length; i++) {
@@ -544,7 +548,7 @@ var parse = async ()=>{
 				withChildren(createElementWith('svg', ["xmlns", "http://www.w3.org/2000/svg"], ["id", "bgtoggle"]),//, [viewBox="0 0 24 18"]
 					createElementWith('path', ['d', ''])
 				),
-				createElementWith('img', ['id', 'lighttoggle']),
+				createElementWith('img', ['id', 'lighttoggle'], ['title', 'themes']),
 				createElementWith('span', ['id', 'themeContainer']),
 				createElementWith('input', ['id', 'searchbar'], ['placeholder', 'Search Origins wiki']),
 				withChildren(createElementWith('svg', ["xmlns", "http://www.w3.org/2000/svg"], ["id", "searchIcon"]),),
@@ -567,8 +571,8 @@ var parse = async ()=>{
 			);
 		}
 	}
-	document.getElementById('bgtoggle').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d=""></path></svg>';
-	document.getElementById('lighttoggle').outerHTML = '<img id="lighttoggle" onclick="toggleThemeSelector()">';
+	document.getElementById('bgtoggle').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" id="bgtoggle" viewBox="0 0 24 18" onclick="setBackground(!getBackground())"><path d="" title="background (coming soon)"></path></svg>';
+	document.getElementById('lighttoggle').outerHTML = '<img id="lighttoggle" onclick="toggleThemeSelector()" title="themes">';
 	document.getElementById('searchbar').outerHTML = '<input id="searchbar" placeholder="Search Origins wiki" oninput="onSearchbarInput(event)" onkeydown="onSearchbarKeyDown(event)">';
 	document.getElementById('searchIcon').outerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="searchSymbol" onclick="search()">'+
 	'<path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>'+
