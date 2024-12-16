@@ -14,7 +14,7 @@
   "SpriteWidth": 16,
   "InternalName": "Sulphur_Stone_Item",
   "Images": [
-    "§ModImage§/Tiles/Brine/Sulphur_Stone_Item",
+    "§ModImage§/Tiles/Brine/Dolomite_Item",
     "Tiles/Dolomite"
   ]
 }
