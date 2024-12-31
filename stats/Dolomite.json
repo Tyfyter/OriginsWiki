@@ -1,5 +1,5 @@
 {
-  "Name": "Dolomite",
+  "Name": "Baryte",
   "Types": [
     "Item",
     "Tile"
@@ -14,7 +14,7 @@
   "SpriteWidth": 16,
   "InternalName": "Sulphur_Stone_Item",
   "Images": [
-    "§ModImage§/Tiles/Brine/Dolomite_Item",
-    "Tiles/Dolomite"
+    "§ModImage§/Tiles/Brine/Baryte_Item",
+    "Tiles/Baryte"
   ]
 }
