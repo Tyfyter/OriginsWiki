@@ -590,10 +590,9 @@ var parse = async ()=>{
 	refreshThemeIcon();
 	let catSegPromise = createCategorySegment().then(function(v){content.append(v);});
 	await catSegPromise;
+	document.body.append(createElementWithTextAndAttributes('div', ``, [ 'id', 'toolbox' ]));
 	if (getSiteSettings().devMode) {
-		document.body.append(createElementWithTextAndAttributes('div', `
-		<div>This is where our toolbox thingy with guides and such would go if we had one.</div>
-		`, [ 'id', 'toolbox' ]));
+		document.getElementById('toolbox').append(createElementWithTextAndAttributes('div', `This is where our toolbox thingy with guides and such would go if we had one.`));
 	}
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 	if (getSiteSettings().autoCallDevScript) callDevScript();
