@@ -1,0 +1,18 @@
+{
+  "Image": "Hearty_Broth",
+  "Name": "Hearty Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "Increases minion speed by 10%",
+    "Increases artifact minion health by 20%"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "SpriteWidth": 30,
+  "InternalName": "Hearty_Broth"
+}
