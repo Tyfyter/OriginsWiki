@@ -1,0 +1,18 @@
+{
+  "Image": "Foul_Broth",
+  "Name": "Foul Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "Increases minion damage by 50%",
+    "Reduces minion speed by 25%"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "SpriteWidth": 30,
+  "InternalName": "Foul_Broth"
+}
