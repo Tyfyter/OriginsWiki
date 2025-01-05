@@ -6,6 +6,7 @@ MultiDictionary<string, string> allLinks = [];
 List<List<string>> needscapMatching = [];
 Dictionary<string, string> pages = new(StringComparer.InvariantCultureIgnoreCase);
 bool errored = false;
+Console.ForegroundColor = ConsoleColor.Red;
 if (Directory.Exists(args[0])) {
 	JObject aliases = JObject.Parse(File.ReadAllText(Path.Combine(args[0], "aliases.json")));
 	CacheDictionary<string, JObject> statCache = new((string key, [MaybeNullWhen(false)] out JObject value) => {
@@ -89,9 +90,7 @@ if (Directory.Exists(args[0])) {
 	errored = true;
 	Console.Error.WriteLine($"Could not find path {args[0]}");
 }
-if (errored) {
-	Console.ReadKey();
-} else {
+if (!errored) {
 	JObject web = [];
 	foreach (KeyValuePair<string, List<string>> set in allLinks) {
 		JArray links = [];
@@ -102,4 +101,7 @@ if (errored) {
 		DefaultValueHandling = DefaultValueHandling.Ignore,
 		NullValueHandling = NullValueHandling.Ignore
 	}));
+	Console.ForegroundColor = ConsoleColor.Green;
+	Console.WriteLine($"Created {Path.Combine(args[0], "linkWeb.json")} successfully");
 }
+Console.ReadKey();
