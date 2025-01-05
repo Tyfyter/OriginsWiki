@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "LinkTracker": {
+      "commandName": "Project",
+      "commandLineArgs": "\"..\"",
+      "workingDirectory": "C:\\Users\\Tyfyter\\Documents\\My Games\\Terraria\\OriginTML\\OriginsWiki\\LinkTracker"
+    }
+  }
+}

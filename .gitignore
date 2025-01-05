@@ -2,4 +2,7 @@
 CategoryGenerator/.vs/*
 CategoryGenerator/bin/Debug
 CategoryGenerator/obj/*
+*/.vs/*
+*/bin/Debug
+*/obj/*
 /.vs
