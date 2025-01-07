@@ -4,8 +4,9 @@
   ],
   "headers": [
     "Tier",
-    "Name",
-    {"name":"Minimum to mine", "expr":"item.PickReq"},
+    {"name": "Appearance", "expr":"'<a-stat>' + item.WikiName + '.Images</a-stat>'", "noAbbr": true},
+    {"name": "Name", "expr":"`<a is=a-link>${item.WikiName}</a-link>`", "noAbbr": true},
+    {"name":"Minimum to mine", "expr":"item.PickReq", "noAbbr": true},
     "Crafting",
     "Source",
     { "name":"Obtainable pre-Hardmode", "expr":"item.Types.includes('Hardmode') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not available pre-hardmode\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'available pre-hardmode\\'>✔️</abbr>'", "noAbbr": true}

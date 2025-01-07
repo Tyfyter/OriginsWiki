@@ -3,10 +3,11 @@
     "armor"
   ],
   "headers": [
-    { "name": "Appearance", "expr": "'<a-stat>' + item.Name + '.Images</a-stat>'", "noAbbr": true},
+    { "name": "Appearance", "expr": "'<a-stat>' + item.WikiName + '.Images</a-stat>'", "noAbbr": true},
+    {"name": "Name", "expr": "`<a is=a-link>${item.WikiName}</a>`", "noAbbr": true},
     "Name",
     "Defense",
-    { "name": "Bonuses / Effects / Notes", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.effects)+'</div>'" },
+    { "name": "Bonuses / Effects / Notes", "expr":"'<div class=\\'effect-table-indicator\\'>'+(item.SetBonus)+'</div>'", "noAbbr": true},
     "Rarity",
     "Source"
   ]
