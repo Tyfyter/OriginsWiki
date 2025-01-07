@@ -28,13 +28,13 @@
 				<a-recipes>
 				{
 				stations:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Furnace">Furnace</a>'
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Furnace">Furnace</a>`
 				],
 				items:[
 				{
-				result:'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>',
+				result:`<a is=a-link image=$fromStats>Silicon Bar</a>`,
 				ingredients:[
-				'<a is="a-link" image="§ModImage§/Tiles/Other/Silicon_Ore_Item">Silicon Ore</a>(3)'
+				`<a is=a-link image=$fromStats>Silicon Ore</a> (3)`
 				]
 				}
 				]
@@ -46,106 +46,104 @@
 				<a-recipes>
 				{
 				stations:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Altars">Any Altar</a>'
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Tinkerer's_Workshop">Tinkerer's Workshop</a>`
 				],
 				items:[
 				{
-				result:'<a is="a-link" image="$fromStats">Bleeding Obsidian Kunai</a>',
+				result:`<a is=a-link image=$fromStats>Solar Panel</a>`,
 				ingredients:[
-				'<a is="a-link" image="§ModImage§/Tiles/Dusk/Bleeding_Obsidian_Item">Bleeding Obsidian</a>(3)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>(5)'
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Band_of_Starpower">Band of Starpower</a>`
+				,`<a is=a-link href="https://terraria.wiki.gg/wiki/Sun_Stone">Sun Stone</a>`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (8)`
 				]
 				}
 				]
-				},
-
-				{
+				}
+				,{
 				stations:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Anvil">Any Anvil</a>'
+				`<a is=a-link href=Work_Benches>Work Bench</a>`
 				],
 				items:[
 				{
-				result:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Magiluminescence">Magiluminescence</a>',
+				result:`<a is=a-link image=$fromStats>Adhesive Wrap</a> (9)`,
 				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Topaz">Topaz</a>(5)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Defiled_Bar">Defiled Bar</a>(12)'
+				`<a is=a-link image=$fromStats>Silicon Bar</a>`
+				,`<a is=a-link image=$fromStats>Tree Sap</a> (9)`
+				]
+				}
+				,{
+				result:`<a is=a-link href="https://terraria.wiki.gg/wiki/Flipper">Flipper</a>`,
+				ingredients:[
+				`<a is=a-link image=$fromStats>Rubber</a> (15)`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (2)`
+				]
+				}
+				,{
+				result:`<a is=a-link href="https://terraria.wiki.gg/wiki/Inner_Tube">Inner Tube</a>`,
+				ingredients:[
+				`<a is=a-link image=$fromStats>Rubber</a> (20)`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (3)`
 				]
 				}
 				]
-				},
-
-				{
+				}
+				,{
 				stations:[
-				'<a is="a-link" image="$fromStats">Fabricator</a>'
+				`<span style="text-align: center;"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>`
 				],
 				items:[
 				{
-				result:'<a is="a-link" image="§ModImage§/Tiles/Other/Laser_Tag_Console_Item">Laser Tag Console</a>',
+				result:`<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)`,
 				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Copper_Bar">Copper Bar</a>(2)',
-				'<a is="a-link" image="$fromStats">Busted Servo</a>(5)',
-				'<a is="a-link" image="$fromStats">Power Core</a>',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>(8)'
-				]
-				},
-				{
-				result:'<a is="a-link" image="$fromStats">Rotor</a>(8)',
-				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Hallowed_Bar">Hallowed Bar</a>(2)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>'
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a> (5)`
+				,`<a is=a-link href="https://terraria.wiki.gg/wiki/Fallen_Star">Fallen Star</a>`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a>`
 				]
 				}
 				]
-				},
-
-				{
+				}
+				,{
 				stations:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer\'s Workshop</a>'
+				`<a is=a-link image=$fromStats>Fabricator</a>`
 				],
 				items:[
 				{
-				result:'<a is="a-link" image="$fromStats">Solar Panel</a>',
+				result:`<a is=a-link image=$fromStats>Rotor</a> (8)`,
 				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Band_of_Starpower">Band of Starpower</a>',
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Sun_Stone">Sun Stone</a>',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>(8)'
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Hallowed_Bar">Hallowed Bar</a> (2)`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a>`
+				]
+				}
+				,{
+				result:`<a is=a-link image=$fromStats>Laser Tag Base Console</a>`,
+				ingredients:[
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Copper_Bar">Copper Bar</a> (2)`
+				,`<a is=a-link image=$fromStats>Busted Servo</a> (5)`
+				,`<a is=a-link image=$fromStats>Power Core</a>`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (8)`
+				]
+				}
+				,{
+				result:`<a is=a-link image=$fromStats>Laser Tag Console</a>`,
+				ingredients:[
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Copper_Bar">Copper Bar</a> (2)`
+				,`<a is=a-link image=$fromStats>Busted Servo</a> (5)`
+				,`<a is=a-link image=$fromStats>Power Core</a>`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (8)`
 				]
 				}
 				]
-				},
-
-				{
+				}
+				,{
 				stations:[
-				`<a is="a-link">Work Benches</a>`
+				`<a is=a-link href="https://terraria.wiki.gg/wiki/Demon_Altar">Demon Altar</a>`
 				],
 				items:[
 				{
-				result:`<a is="a-link" image="$fromStats">Adhesive Wrap</a>(9)`,
+				result:`<a is=a-link image=$fromStats>Bleeding Obsidian Kunai</a>`,
 				ingredients:[
-				`<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>`,
-				`<a is="a-link" image="$fromStats">Tree Sap</a>(9)`
-				]
-				},
-				{
-				result:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Flipper">Flipper</a>',
-				ingredients:[
-				'<a is="a-link" image="$fromStats">Rubber</a>(15)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>(2)'
-				]
-				},
-				{
-				result:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Inner_Tube">Inner Tube</a>',
-				ingredients:[
-				'<a is="a-link" image="$fromStats">Rubber</a>(20)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>(3)'
-				]
-				},
-				{
-				result:'<a is="a-link" image="$fromStats">Magic Hair Spray</a>(5)',
-				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>(5)',
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Fallen_Star">Fallen Star</a>',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>'
+				`<a is=a-link image=$fromStats>Bleeding Obsidian</a> (3)`
+				,`<a is=a-link image=$fromStats>Silicon Bar</a> (5)`
 				]
 				}
 				]
