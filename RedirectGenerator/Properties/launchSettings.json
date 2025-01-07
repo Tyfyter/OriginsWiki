@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "RedirectGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"..\"",
+      "workingDirectory": "C:\\Users\\Tyfyter\\Documents\\My Games\\Terraria\\OriginTML\\OriginsWiki\\RedirectGenerator"
+    }
+  }
+}

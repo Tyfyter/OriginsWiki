@@ -265,7 +265,12 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 				getSiteMap().then(this.matchCapitalsToPage.bind(this));
 			}
 			target = targetPage;
-		} else if (target) target = target.replaceAll('.html', '');
+		} else if (target) {
+			target = target.replaceAll('.html', '');
+			if (aliases[target]) {
+				target = aliases[target];
+			}
+		}
 		if (new URL(target, document.baseURI).href == document.location) {//self link
 			this.classList.add('selflink');
 			this.removeAttribute('href');

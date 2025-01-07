@@ -97,7 +97,7 @@ if (!errored) {
 		for (int i = 0; i < set.Value.Count; i++) links.Add(set.Value[i]);
 		web.Add(set.Key, links);
 	}
-	File.WriteAllText(Path.Combine(args[0], "linkWeb.json"), JsonConvert.SerializeObject(web, Formatting.None, new JsonSerializerSettings() {
+	File.WriteAllText(Path.Combine(args[0], "linkWeb.json"), JsonConvert.SerializeObject(web, Formatting.Indented, new JsonSerializerSettings() {
 		DefaultValueHandling = DefaultValueHandling.Ignore,
 		NullValueHandling = NullValueHandling.Ignore
 	}));
