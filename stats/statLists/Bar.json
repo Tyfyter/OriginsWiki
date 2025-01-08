@@ -1,0 +1,12 @@
+{
+    "categories": [
+      "bar"
+    ],
+    "headers": [
+      "Name",
+      { "name":"Obtainable pre-Hardmode", "expr":"item.Types.includes('Hardmode') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not available pre-hardmode\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'available pre-hardmode\\'>✔️</abbr>'", "noAbbr": true},
+      { "name":"Placeable", "expr":"!item.Types.includes('Tile') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not placeable\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'placeable\\'>✔️</abbr>'", "noAbbr": true},
+      {"name":"Sell", "expr":"`<a-coins>${item.Sell}</a-coins>`", "noAbbr": true},
+      "Rarity"
+    ]
+}

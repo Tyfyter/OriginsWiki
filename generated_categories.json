@@ -2388,6 +2388,34 @@
       "World_Cracker_Trophy"
     ]
   },
+  "wall": {
+    "name": "wall",
+    "items": [
+      "Amebic_Gel_Wall",
+      "Batholith_Firewall",
+      "Batholith_Wall",
+      "Brittle_Quartz_Wall",
+      "Chambersite_Gemspark_Wall",
+      "Chambersite_Stone_Wall",
+      "Defiled_Grass_Wall",
+      "Defiled_Sandstone_Wall",
+      "Defiled_Stone_Wall",
+      "Eden_Wood_Wall",
+      "Endowood_Wall",
+      "Fiberglass_Wall",
+      "Hardened_Defiled_Sand_Wall",
+      "Harmony_Brick_Wall",
+      "Infested_Defiled_Grass_Wall_Placed",
+      "Infested_Riven_Grass_Wall",
+      "Marrowick_Wall",
+      "Moist_Amebic_Gel_Wall",
+      "Offline_Chambersite_Gemspark_Wall",
+      "Quartz_Wall",
+      "Riven_Grass_Wall",
+      "Spug_Flesh_Wall",
+      "Sulphur_Stone_Wall"
+    ]
+  },
   "accessories": {
     "name": "accessories",
     "items": [
@@ -4151,7 +4179,14 @@
   },
   "bar": {
     "name": "Bars",
-    "items": []
+    "items": [
+      "Eitrite_Bar",
+      "Encrusted_Bar",
+      "Felnum_Bar",
+      "Sanguinite_Bar",
+      "Silicon_Bar",
+      "Valkyrum_Bar"
+    ]
   },
   "ore": {
     "name": "Ores",

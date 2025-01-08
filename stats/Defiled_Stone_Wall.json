@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Defiled_Stone_Wall_Item",
   "Name": "Defiled Stone Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

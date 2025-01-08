@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Marrowick_Wall_Item",
   "Name": "Marrowick Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Tooltip": "Feels waxy to the touch.",

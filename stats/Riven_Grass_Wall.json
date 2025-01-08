@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Riven_Grass_Wall_Item",
   "Name": "Riven Grass Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

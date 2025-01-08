@@ -44,6 +44,10 @@
     "name":"tile",
     "items":"Types<Tile"
   },
+  "wall":{
+    "name":"wall",
+    "items":"Types<Wall"
+  },
   "accessories":{
     "name":"accessories",
     "items":"Types<Accessory"

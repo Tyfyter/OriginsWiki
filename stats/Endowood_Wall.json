@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Endowood_Wall_Item",
   "Name": "Endowood Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

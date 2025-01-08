@@ -2,6 +2,7 @@
   "Name": "Silicon Bar",
   "Types": [
     "Item",
+    "Bar",
     "Tile"
   ],
   "PlacementSize": [

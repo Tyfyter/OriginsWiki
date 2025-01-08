@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Hardened_Defiled_Sand_Wall_Item",
   "Name": "Hardened Defiled Sand Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

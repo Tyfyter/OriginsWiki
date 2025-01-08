@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Batholith_Wall_Item",
   "Name": "Batholith Firewall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Brittle_Quartz_Wall_Item",
   "Name": "Brittle Quartz Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Amebic_Gel_Wall_Item",
   "Name": "Moist Amebic Gel Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

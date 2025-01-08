@@ -3,6 +3,7 @@
   "Name": "Valkyrum Bar",
   "Types": [
     "Item",
+    "Bar",
     "Hardmode"
   ],
   "Rarity": "Yellow",

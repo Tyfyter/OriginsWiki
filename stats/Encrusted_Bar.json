@@ -2,6 +2,7 @@
   "Name": "Encrusted Bar",
   "Types": [
     "Item",
+    "Bar",
     "Tile"
   ],
   "PlacementSize": [
