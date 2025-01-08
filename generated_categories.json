@@ -4034,6 +4034,32 @@
       "Void_Lock"
     ]
   },
+  "tools": {
+    "name": "Tools",
+    "items": [
+      "Acrid_Drill",
+      "Acrid_Hamaxe",
+      "Acrid_Pickaxe",
+      "Brick_Breaker",
+      "C6_Jackhammer",
+      "Dismantler",
+      "Dissector",
+      "Endowood_Hammer",
+      "Felnum_Hamaxe",
+      "Felnum_Pickaxe",
+      "Impactaxe",
+      "Lightning_Rod",
+      "Marrowick_Hammer",
+      "Miter_Saw",
+      "Parasitic_Manipulator",
+      "Pincushion",
+      "Rivenator",
+      "Salty_Seed",
+      "Snatcher",
+      "Stabsmash",
+      "Strainer"
+    ]
+  },
   "permaboost": {
     "name": "Permanent Boosters",
     "items": [

@@ -16,13 +16,45 @@
 			</p>
 
 			<p>
-				<b>Tools</b> are an item used to obtain items by interacting with the Terraria world or provide some other utility; as opposed to using <a is="a-link" href="Weapons.html">weapons</a> to slay <a is="a-link" href="Enemies.html">enemies</a>.
+				<b>Tools</b> are items used to obtain other items by interacting with the Terraria world or provide some other utility; as opposed to using <a is="a-link" href="Weapons.html">weapons</a> to slay <a is="a-link" href="Enemies.html">enemies</a>.
 				Tools include <a is="a-link" href="Pickaxes.html">pickaxes</a>, <a is="a-link" href="Axes.html">axes</a> and <a is="a-link" href="Hammers.html">hammers</a> with tile-destructive <a is="a-link" href="Demolitionist_Weapons.html">explosives</a> also counting as tools as well.
 				Other tools can provide other benefits just by being present in the player's <a is="a-link" href="https://terraria.wiki.gg/wiki/Inventory">inventory</a> such as the <a is="a-link">Pincushion</a>.
 			</p>
 
-			<h3>Statues</h3>
-			<a-sortablelist src=Tool></a-sortablelist>
+			<h3><a is=a-link href=Pickaxes.html>Pickaxes</a></h3>
+			<a-sortablelist src=Pickaxe></a-sortablelist>
+
+			<h3><a is=a-link href=Axes.html>Axes</a></h3>
+			<a-sortablelist src=Axe></a-sortablelist>
+
+			<h3><a is=a-link href=Hammers.html>Hammers</a></h3>
+			<a-sortablelist src=Hammer></a-sortablelist>
+			
+			<h3>Other Tools</h3>
+			<a-biomecontents>
+			{
+			header:'<b>Other Tools</b>',
+			items:[
+			{
+			header:'<b>Fishing Rods</b>:',
+			class:'miniheader inlineblock',
+			items:[
+			['Lightning Rod', '$fromStats'],
+			['Parasitic Manipulator', '$fromStats'],
+			['Snatcher', '$fromStats'],
+			]
+			},
+			{
+			header:'<b>Misc</b>:',
+			class:'miniheader inlineblock',
+			items:[
+			['Pincushion', '$fromStats'],
+			['Salty Seed', '$fromStats'],
+			]
+			}
+			]
+			}
+			</a-biomecontents>
 		</article>
 	</body>
 </html>

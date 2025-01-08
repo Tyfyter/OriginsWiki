@@ -211,6 +211,10 @@
     "name":"Expendable tools",
     "items":"Types<ExpendableTool"
   },
+  "tools":{
+    "name":"Tools",
+    "items":"Types<Tool"
+  },
   "permaboost":{
     "name":"Permanent Boosters",
     "items":"Types<PermaBoost"

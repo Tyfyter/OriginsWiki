@@ -6,3 +6,4 @@ CategoryGenerator/obj/*
 */bin/Debug
 */obj/*
 /.vs
+/.vscode
