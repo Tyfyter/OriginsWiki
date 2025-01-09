@@ -10,7 +10,7 @@
     "Hardmode"
   ],
   "Defense": 3,
-  "Tooltip": "Reduces explosive self-damage by 10%",
+  "Tooltip": "Reduces explosive self-damage by 20%",
   "Rarity": "LightRed",
   "Sell": 10000,
   "SpriteWidth": 28,
