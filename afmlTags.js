@@ -1260,3 +1260,41 @@ class AFMLRarity extends HTMLElement {
 	}
 }
 customElements.define("a-rarity", AFMLRarity);
+
+class AFMLSourceBlock extends HTMLElement {
+	static observedAttributes = ["src"];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.child) return;
+		if (this.hasAttribute('src')) {
+			let header = this.createChild('div', 'Obtained from', ['class', 'obtainedFromHeader']);
+			let tabs = this.createChild('div', '', ['class', 'tabnames']);
+			tabs.createChild('span', 'Normal', ['class', 'tabname']).onclick = this.setTab(0);
+			tabs.createChild('span', 'Expert', ['class', 'tabname expert']).onclick = this.setTab(1);
+			tabs.createChild('span', 'Master', ['class', 'tabname master']).onclick = this.setTab(2);
+		} else {
+			this.textContent = "missing src attribute";
+		}
+	}
+	setTab(tab){
+		return () => {
+			console.log(this);
+			this.selectTab(tab);
+		}
+	}
+	selectTab(tabNumber){
+		for(var i = this.classList.length; i --> 0;){
+			if(this.classList[i].startsWith('ontab')){
+				this.classList.remove(this.classList[i]);
+			}
+		}
+		this.classList.add('ontab'+tabNumber);
+	}
+}
+customElements.define("a-source", AFMLSourceBlock);
