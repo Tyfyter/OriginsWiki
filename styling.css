@@ -422,6 +422,15 @@ a-stat > .statimagecontainer {
 .ontab2 {
 	--tabvis-2:block;
 }
+a-source.ontab0 {
+	--tabvis-0: table-row;
+}
+a-source.ontab1 {
+	--tabvis-1: table-row;
+}
+a-source.ontab2 {
+	--tabvis-2: table-row;
+}
 .onlytab0 {
 	display: var(--tabvis-0);
 }
@@ -528,22 +537,22 @@ div.or {
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
 }
-.sortablelist > thead > tr > th {
+.sortablelist > thead > tr > th, a-source > table > thead > tr > th {
 	padding: 2px;
 	background-color: var(--subcontents-bg-color);
 	border-bottom: 1px solid var(--box-border-color);
 }
 
-.sortablelist > thead > tr > th.notleft {
+.sortablelist > thead > tr > th.notleft, a-source > table > thead > tr > th.notleft {
 	border-left: 1px solid var(--box-border-color);
 }
 
-.sortablelist > tbody > tr > td {
+.sortablelist > tbody > tr > td, a-source > table > tbody > tr > td {
 	padding: 10px;
 	border-bottom: 1px solid var(--box-border-color);
 }
 
-.sortablelist > tbody > tr > td.notleft {
+.sortablelist > tbody > tr > td.notleft, a-source > table > tbody > tr > td.notleft {
 	border-left: 1px solid var(--box-border-color);
 }
 
@@ -798,6 +807,12 @@ a-source {
 	--tabvis-0:none;
 	--tabvis-1:none;
 	--tabvis-2:none;
+}
+a-source > table {
+	width: 100%;
+}
+a-source > table > thead > tr > th {
+	text-align: left;
 }
 .obtainedFromHeader {
 	margin: .2rem .2rem .2rem .2rem;

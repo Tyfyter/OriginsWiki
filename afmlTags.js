@@ -1273,18 +1273,47 @@ class AFMLSourceBlock extends HTMLElement {
 	setup(){
 		if (this.child) return;
 		if (this.hasAttribute('src')) {
+			this.classList.add('ontab0');
 			let header = this.createChild('div', 'Obtained from', ['class', 'obtainedFromHeader']);
 			let tabs = this.createChild('div', '', ['class', 'tabnames']);
 			tabs.createChild('span', 'Normal', ['class', 'tabname']).onclick = this.setTab(0);
 			tabs.createChild('span', 'Expert', ['class', 'tabname expert']).onclick = this.setTab(1);
 			tabs.createChild('span', 'Master', ['class', 'tabname master']).onclick = this.setTab(2);
+			let table = this.createChild('table');
+			let tseg = table.createChild('thead');
+			let row = tseg.createChild('tr');
+			row.createChild('th', 'Entity').onclick = (event) => clickSortableList(event, 0);
+			row.createChild('th', 'Quantity', ['class', 'notleft']).onclick = (event) => clickSortableList(event, 1);
+			row.createChild('th', 'Rate', ['class', 'notleft']).onclick = (event) => clickSortableList(event, 2);
+			tseg = table.createChild('tbody');
+			getStats(this.getAttribute('src')).then((stats) => {
+				if (!stats.DropSources) return;
+				for (let i = 0; i < stats.DropSources.length; i++) {
+					let tab = "";
+					switch (stats.DropSources[i].Difficulty) {
+						case "Normal":
+						tab = 'onlytab0';
+						break;
+						case "Expert":
+						tab = 'onlytab1';
+						break;
+						case "Master":
+						tab = 'onlytab2';
+						break;
+					}
+					row = tseg.createChild('tr', '', ['class', tab]);
+					console.log(row);
+					row.createChild('td', stats.DropSources[i].Name);
+					row.createChild('td', (stats.DropSources[i].Min == stats.DropSources[i].Max) ? stats.DropSources[i].Min : `${stats.DropSources[i].Min}-${stats.DropSources[i].Max}`, ['class', 'notleft']);
+					row.createChild('td', (stats.DropSources[i].Rate * 100) + '%', ['class', 'notleft']);
+				}
+			});
 		} else {
 			this.textContent = "missing src attribute";
 		}
 	}
 	setTab(tab){
 		return () => {
-			console.log(this);
 			this.selectTab(tab);
 		}
 	}
