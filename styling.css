@@ -780,6 +780,11 @@ snippet[hidden], a-snippet[hidden] {
 snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 	display: flow-root;
 }
+.hideText {
+	font-size: 0;
+	vertical-align: middle;
+}
+
 a-drop {
 	display: block;
 	margin-top: 3px;

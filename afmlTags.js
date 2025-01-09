@@ -350,6 +350,10 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 			this.image.src = processImagePath(path);
 			this.image.style.display = '';
 		}
+		this.classList.remove('hideText');
+		if (this.hasAttribute('imageOnly') && this.image.src) {
+			this.classList.add('hideText');
+		}
 	}
 	matchCapitalsToPage(result) {
 		let targetPage = this.getAttribute('href').replaceAll('.html', '');
