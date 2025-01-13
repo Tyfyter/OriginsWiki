@@ -3,7 +3,7 @@ async function postParseCallback(){
         return;
     }
     var search = location.search.substring(1).replaceAll(', ', '_').replaceAll('+', '_');
-    document.getElementById("header").innerText += ', ' + search;
+    document.getElementById("header").innerText += ' ' + search;
 
     var siteMap = await getSiteMap();
 

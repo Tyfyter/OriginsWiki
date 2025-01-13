@@ -850,6 +850,21 @@ a-drop > a-drop::before {
 	grid-template-columns: auto auto auto auto auto;
 }
 
+#toolbox > div > * {
+	display: block;
+}
+.background > #toolbox > div {
+	width: 95%;
+	background-color: var(--box-bg-color);
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+	padding-top: 2.5px;
+	padding-bottom: 7.5px;
+	padding-left: 0.5em;
+	margin-left: -0.5em;
+	height: fit-content;
+}
+
 .coins ::after {
 	content: '';
 	display: inline-block;

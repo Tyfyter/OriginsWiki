@@ -592,7 +592,13 @@ var parse = async ()=>{
 	await catSegPromise;
 	document.body.append(createElementWithTextAndAttributes('div', ``, [ 'id', 'toolbox' ]));
 	if (getSiteSettings().devMode) {
-		document.getElementById('toolbox').append(createElementWithTextAndAttributes('div', `This is where our toolbox thingy with guides and such would go if we had one.`));
+		let column = document.getElementById('toolbox').createChild('div');
+		let linkWeb = getPageText('linkWeb.json');
+		linkWeb = JSON.parse(await linkWeb);
+		let currentPage = location.pathname.replaceAll('/','').replaceAll('.html','');
+		if (currentPage && linkWeb[currentPage]) column.createChild('a', 'What links here', ['href', `LinksTo${linkSuffix}?${currentPage}`]);
+		column.createChild('a', 'Wanted pages', ['href', `WantedPages${linkSuffix}`]);
+		column.createChild('a', 'Disconnected pages', ['href', `DisconnectedPages${linkSuffix}`]);
 	}
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 	if (getSiteSettings().autoCallDevScript) callDevScript();
