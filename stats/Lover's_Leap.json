@@ -12,6 +12,7 @@
   "DamageClass": "",
   "Knockback": 2.0,
   "Tooltip": [
+    "+5% damage",
     "The wearer can run super fast and even faster after taking damage",
     "Allows the player to dash into the enemy",
     "Double tap a direction"
