@@ -17,6 +17,53 @@
   ],
   "Rarity": "Orange",
   "Sell": 15000,
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bee_Wax\">Bee Wax</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Queen_Bee)\">Treasure Bag (Queen Bee)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Queen_Bee\">Queen Bee</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Queen_Bee)\">Treasure Bag (Queen Bee)</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Queen_Bee)\">Treasure Bag (Queen Bee)</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Queen_Bee)\">Treasure Bag (Queen Bee)</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Queen_Bee\">Queen Bee</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bee Afraid Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bee_Wax\">Bee Wax</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Bee_Afraid_Incantation"
 }

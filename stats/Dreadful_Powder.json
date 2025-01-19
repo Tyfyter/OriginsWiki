@@ -7,9 +7,65 @@
   "Damage": 0,
   "UseTime": 15,
   "Velocity": 4.0,
-  "Tooltip": "Spreads the Defiled",
+  "Tooltip": "Spreads the Defiled Wastelands",
   "Rarity": "White",
   "Sell": 20,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Soulspore</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>100</a-coins>Not in a Remix world, During a Blood Moon and In worlds with Defiled Wastelands)",
+  "Recipes": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dreadful Powder</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Soulspore</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Poisoned_Knife\">Poisoned Knife</a> (50)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> (50)",
+            "<a is=a-link image=$fromStats>Dreadful Powder</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Impulse Manipulator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dreadful Powder</a> (30)",
+            "<a is=a-link image=$fromStats>Strange String</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Purification_Powder\">Purification Powder</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dreadful Powder</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Dreadful_Powder"
 }

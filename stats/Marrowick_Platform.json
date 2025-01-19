@@ -11,6 +11,31 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Marrowick</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Platform</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick Platform</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Marrowick_Platform_Item",
   "Images": [

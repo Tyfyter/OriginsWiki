@@ -16,6 +16,22 @@
   "Rarity": "Yellow",
   "Sell": 50000,
   "Source": "(50) <a is=a-link href=https://terraria.wiki.gg/wiki/Woods>Wood</a> + (7) <a is=a-link image=$fromStats>Valkyrum Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Telephone Pole</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> (50)",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (7)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 104,
   "InternalName": "Telephone_Pole"
 }

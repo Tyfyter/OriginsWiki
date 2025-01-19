@@ -11,10 +11,48 @@
   "Knockback": 2.0,
   "UseTime": 35,
   "Velocity": 4.0,
-  "Tooltip": "Beckons enemies toward you",
+  "Tooltip": "Beckons distant enemies toward you",
   "Rarity": "Blue",
   "Sell": 20000,
   "Source": "(10) <a is=a-link image=$fromStats>Defiled Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.02631579,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.02631579,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.02631579,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bone Latcher</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 46,
   "InternalName": "Bone_Latcher"
 }

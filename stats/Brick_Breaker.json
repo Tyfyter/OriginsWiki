@@ -13,6 +13,23 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "10<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>+5<a is=a-link image=$fromStats imageOnly>Undead Chunk</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brick Breaker</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Brick_Breaker"
 }

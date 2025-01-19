@@ -7,6 +7,37 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Edenwood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eden Wood Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Edenwood</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Edenwood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eden Wood Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Eden_Wood_Wall_Item"
 }

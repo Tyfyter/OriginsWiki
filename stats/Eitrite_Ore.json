@@ -4,7 +4,8 @@
     "Item",
     "Ore",
     "Hardmode",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
   "PickReq": 180,
   "PlacementSize": [
@@ -14,7 +15,22 @@
   "UseTime": 10,
   "Tooltip": "'So alkaline-concentrated it could be used as a power source'",
   "Rarity": "Orange",
-  "Sell": 1700,
+  "Sell": 1600,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eitrite Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 11.5,
   "SpriteWidth": 16,
   "InternalName": "Eitrite_Ore_Item",

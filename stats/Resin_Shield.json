@@ -19,6 +19,23 @@
   "Rarity": "Pink",
   "Sell": 40000,
   "Source": "(6) <a is=a-link href=https://terraria.wiki.gg/wiki/Amber>Amber</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Obsidian_Shield>Obsidian Shield</a> + (12) <a is=a-link image=$fromStats>Carburite</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resin Shield</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Shield\">Obsidian Shield</a>",
+            "<a is=a-link image=$fromStats>Carburite</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Resin_Shield"
 }

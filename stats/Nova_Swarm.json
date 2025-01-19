@@ -19,6 +19,22 @@
   ],
   "Rarity": "Red",
   "Sell": 200000,
+  "Source": "18<a is=a-link image=$fromStats imageOnly>Nova Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Swarm</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (18)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 60,
   "InternalName": "Nova_Swarm"
 }

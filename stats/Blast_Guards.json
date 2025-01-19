@@ -16,6 +16,25 @@
   ],
   "Rarity": "Yellow",
   "Sell": 45000,
+  "Source": "18<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a>+<a is=a-link image=$fromStats imageOnly>Blast-Resistant Plate</a>+2<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+2<a is=a-link image=$fromStats imageOnly>Rotor</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Guards</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Blast_Greaves"
 }

@@ -17,6 +17,30 @@
   "Tooltip": "Fires a spark that bounces from enemies and pulls them towards you",
   "Rarity": "Pink",
   "Sell": 80000,
-  "SpriteWidth": 102,
+  "Source": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 64,
   "InternalName": "Communion"
 }

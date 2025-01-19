@@ -16,6 +16,36 @@
   "Rarity": "Pink",
   "Sell": 80000,
   "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Salty Seed</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Plasma Cutter</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Plasma Cutter</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Salty Seed</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Salty_Seed"
 }

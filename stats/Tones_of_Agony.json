@@ -15,6 +15,30 @@
   "Tooltip": "'Cries of the suffering'",
   "Rarity": "Green",
   "Sell": 15000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Tones_Of_Agony"
 }

@@ -16,6 +16,53 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "10<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+5<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Teardown</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 58,
   "InternalName": "Teardown"
 }

@@ -12,6 +12,16 @@
   "UseTime": 10,
   "Rarity": "Master",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>World Cracker</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "World_Cracker_Relic_Item",
   "Images": [

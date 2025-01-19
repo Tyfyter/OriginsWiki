@@ -16,6 +16,23 @@
   "Tooltip": "Uses metal slugs as ammo",
   "Rarity": "Butterscotch",
   "Sell": 150000,
+  "Source": "24<a is=a-link image=$fromStats imageOnly>Fibron Plating</a>+48<a is=a-link image=$fromStats imageOnly>Qube</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Flakjack</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fibron Plating</a> (24)",
+            "<a is=a-link image=$fromStats>Qube</a> (48)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 72,
   "InternalName": "Flakjack"
 }

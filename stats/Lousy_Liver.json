@@ -12,6 +12,22 @@
   "Rarity": "LightRed",
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Cirrhosis' Abhorrence</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lousy Liver</a>",
+            "<a is=a-link image=$fromStats>Messy Magma Leech</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Lousy_Liver"
 }

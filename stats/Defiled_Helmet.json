@@ -10,6 +10,51 @@
   "Tooltip": "5% increased critical strike chance",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "15<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>+10<a is=a-link image=$fromStats imageOnly>Undead Chunk</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Helmet</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (15)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ancient Defiled Helmet</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Defiled Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Helmet</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Defiled_Helmet"
 }

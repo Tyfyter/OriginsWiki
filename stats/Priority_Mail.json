@@ -13,6 +13,23 @@
   "Rarity": "Green",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Fallen_Star>Fallen Star</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Paper_Airplane>Paper Airplane</a> + <a is=a-link image=$fromStats>Asylum Whistle</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Work_Benches>Any Work Bench</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Priority Mail</a> (2)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Paper_Airplane\">Paper Airplane</a>",
+            "<a is=a-link image=$fromStats>Asylum Whistle</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Priority_Mail"
 }

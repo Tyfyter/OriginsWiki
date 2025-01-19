@@ -8,6 +8,7 @@
   "Tooltip": "Hair appearance changes depending on the current holiday",
   "Rarity": "Green",
   "Sell": 60000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stylist\">Stylist</a> (<a-coins>300000</a-coins>After completing \"To Be Crystal Clear…\")",
   "SpriteWidth": 18,
   "InternalName": "Holiday_Hair_Dye"
 }

@@ -16,6 +16,22 @@
   "Rarity": "Blue",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Worm_Scarf>Worm Scarf</a> + <a is=a-link image=$fromStats>Comb</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Counter Offensive Scarf</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Comb</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Worm_Scarf\">Worm Scarf</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Counter_Offensive_Scarf"
 }

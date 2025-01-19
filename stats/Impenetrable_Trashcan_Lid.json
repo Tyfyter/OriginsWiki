@@ -11,6 +11,7 @@
   "Tooltip": "Knocks you back from your explosions instead of taking damage",
   "Rarity": "Pink",
   "Sell": 200000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000000</a-coins>After selling 150 peat moss to the Demolitionist)",
   "SpriteWidth": 26,
   "InternalName": "Trash_Lid"
 }

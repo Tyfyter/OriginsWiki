@@ -6,6 +6,235 @@
   ],
   "Rarity": "White",
   "Sell": 2,
+  "Source": "<a is=a-link image=$fromStats>Strange String</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Amoebeye</a><div class=divider></div><a is=a-link image=$fromStats>Barnacle Mound</a><div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Pustule Jellyfish</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacle Mound</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacle Mound</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacle Mound</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Pustule Jellyfish</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Pustule Jellyfish</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Pustule Jellyfish</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bud Barnacle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (28)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (16)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (22)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Unholy_Arrow\">Unholy Arrow</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (5)",
+            "<a is=a-link image=$fromStats>Bud Barnacle</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Suspicious Looking Ice Cream</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sentient Powder</a> (30)",
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Biocomponent 10</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Bud_Barnacle"
 }

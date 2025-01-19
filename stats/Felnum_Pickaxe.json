@@ -16,6 +16,22 @@
   ],
   "Rarity": "Green",
   "Sell": 4000,
+  "Source": "20<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Felnum_Pickaxe"
 }

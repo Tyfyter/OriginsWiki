@@ -6,6 +6,175 @@
   ],
   "Rarity": "Blue",
   "Sell": 150,
+  "Source": "<a is=a-link image=$fromStats>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 134,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 134,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 134,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 1.0,
+      "Max": 134,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Carapace</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Undead Chunk</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (25)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (15)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (20)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rivenator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stabsmash</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Strainer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Flare Launcher</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flare_Gun\">Flare Gun</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Avulsion</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (5)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Decimator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Splitter</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Threemoepeater</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Teardown</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Void Lock</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (7)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>NE8</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Carapace</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Riven_Carapace"
 }

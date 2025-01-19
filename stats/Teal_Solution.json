@@ -5,9 +5,40 @@
     "Item",
     "Ammo"
   ],
-  "Tooltip": "Spreads the Riven",
+  "Tooltip": "Spreads the Riven Hive",
   "Rarity": "Orange",
   "Sell": 300,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Steampunker\">Steampunker</a> (<a-coins>1500</a-coins>During a Blood Moon or Solar Eclipse and In worlds with Riven Hive)<div class=divider></div><a is=a-link image=$fromStats>Gray Solution</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Teal Solution</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gray Solution</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Purple_Solution\">Purple Solution</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Teal Solution</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 12,
   "InternalName": "Teal_Solution"
 }

@@ -7,6 +7,21 @@
   "UseTime": 17,
   "Rarity": "Blue",
   "Sell": 500,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Black_Ink\">Black Ink</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Journal</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Black_Ink\">Black Ink</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Journal_Item"
 }

@@ -19,6 +19,37 @@
   ],
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "<a is=a-link image=$fromStats>Manasynk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ocotoral Bud</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Manasynk</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Internal Combustionfish</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ocotoral Bud</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 40,
   "InternalName": "Ocotoral_Bud"
 }

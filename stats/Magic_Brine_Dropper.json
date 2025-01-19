@@ -6,6 +6,40 @@
   ],
   "Rarity": "Blue",
   "Sell": 40,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Dropper\">Empty Dropper</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>, Mods.Origins.Conditions.Brine)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>",
+        "Mods.Origins.Conditions.Brine"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Brine Dropper</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Dropper\">Empty Dropper</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bottled Brine</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stinger\">Stinger</a> (2)",
+            "<a is=a-link image=$fromStats>Magic Brine Dropper</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Magic_Brine_Dropper"
 }

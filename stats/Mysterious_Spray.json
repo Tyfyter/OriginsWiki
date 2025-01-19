@@ -13,6 +13,38 @@
   "Rarity": "Orange",
   "Sell": 60000,
   "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Coologne</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Turtle_Shell\">Frozen Turtle Shell</a>",
+            "<a is=a-link image=$fromStats>Mysterious Spray</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Makeover Choker</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cross_Necklace\">Cross Necklace</a>",
+            "<a is=a-link image=$fromStats>Mysterious Spray</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Mysterious_Spray"
 }

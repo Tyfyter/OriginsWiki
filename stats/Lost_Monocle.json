@@ -10,6 +10,23 @@
   "Tooltip": "Increased mana regeneration rate",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "8<a is=a-link image=$fromStats imageOnly>Lost Ore</a>+16<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Monocle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (8)",
+            "<a is=a-link image=$fromStats>Strange String</a> (16)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Lost_Helm"
 }

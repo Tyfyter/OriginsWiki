@@ -17,6 +17,130 @@
   "Tooltip": "'Arguably worse than lava balloons'",
   "Rarity": "Blue",
   "Sell": 50,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link href=Work_Benches>Work Bench</a>, <a is=\"a-link\" image=\"Tiles/Riven_Water\">Riven Water</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>250</a-coins>After selling 60 peat moss to the Demolitionist, After defeating the World Cracker)<div class=divider></div><a is=a-link image=$fromStats>Amoebic Slime</a><div class=divider></div><a is=a-link image=$fromStats>Cleaver</a><div class=divider></div><a is=a-link image=$fromStats>Mitoworm</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebic Slime</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebic Slime</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebic Slime</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cleaver</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cleaver</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cleaver</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 72,
+      "Min": 38,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 72,
+      "Min": 38,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 72,
+      "Min": 38,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 3,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>",
+        "<a is=\"a-link\" image=\"Tiles/Riven_Water\">Riven Water</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ameballoon</a> (20)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Ameballoon"
 }

@@ -7,6 +7,7 @@
     "Accessory",
     "Hardmode"
   ],
+  "UseTime": 20,
   "Tooltip": [
     "Double tap down to transform into a small, rolling ball that damages enemies as it moves",
     "Double tap a direction to dash and instantly morph"
@@ -14,6 +15,22 @@
   "Rarity": "Pink",
   "Sell": 60000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Tabi>Tabi</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dash Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tabi\">Tabi</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Dash_Ravel"
 }

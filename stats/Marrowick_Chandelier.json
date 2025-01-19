@@ -11,6 +11,24 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "4<a is=a-link image=$fromStats imageOnly>Marrowick</a>+4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Chandelier</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Marrowick_Chandelier_Item",
   "Images": [

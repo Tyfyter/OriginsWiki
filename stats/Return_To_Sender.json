@@ -10,6 +10,59 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>No U Card</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ankh_Charm\">Ankh Charm</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Razorwire</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Return_To_Sender"
 }

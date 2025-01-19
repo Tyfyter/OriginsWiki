@@ -10,6 +10,23 @@
   "Tooltip": "Increases jump height",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "22<a is=a-link image=$fromStats imageOnly>Bud Barnacle</a>+14<a is=a-link image=$fromStats imageOnly>Encrusted Ore</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (22)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (14)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Encrusted_Pants"
 }

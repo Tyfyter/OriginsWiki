@@ -15,6 +15,22 @@
   "Rarity": "Blue",
   "Sell": 3000,
   "Source": "(9) <a is=a-link image=$fromStats>Defiled Bar</a> + (5) <a is=a-link image=$fromStats>Undead Chunk</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ripper Lance</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (9)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 56,
   "InternalName": "Ripper_Lance"
 }

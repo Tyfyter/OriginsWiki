@@ -12,6 +12,153 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "3<a is=a-link image=$fromStats imageOnly>Encrusted Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (25)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (15)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (20)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Parasitic Manipulator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rivenator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stabsmash</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Strainer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Avulsion</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (5)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Splitsplash</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Decimator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riverang</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Triple Threat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Vorpal Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Splitter</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Threemoepeater</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Amebolize Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Flagellash</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Teardown</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Encrusted_Bar",
   "Images": [

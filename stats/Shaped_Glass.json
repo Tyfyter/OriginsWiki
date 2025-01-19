@@ -7,6 +7,93 @@
   "UseTime": 45,
   "Tooltip": "Summons the Fiberglass Weaver",
   "Rarity": "Blue",
+  "Source": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Shaped_Glass"
 }

@@ -10,8 +10,559 @@
     "Minor improvements to all stats",
     "'Let's get this bread!'"
   ],
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 100,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Artisan_Loaf\">Artisan Loaf</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Armored_Skeleton\">Armored Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Archer\">Skeleton Archer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Sniper\">Skeleton Sniper</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Tactical_Skeleton\">Tactical Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Commando\">Skeleton Commando</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Hoplite\">Hoplite</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Armored_Skeleton\">Armored Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Armored_Skeleton\">Armored Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Armored_Skeleton\">Armored Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Archer\">Skeleton Archer</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Archer\">Skeleton Archer</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Archer\">Skeleton Archer</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Sniper\">Skeleton Sniper</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Sniper\">Skeleton Sniper</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Sniper\">Skeleton Sniper</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tactical_Skeleton\">Tactical Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tactical_Skeleton\">Tactical Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tactical_Skeleton\">Tactical Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Commando\">Skeleton Commando</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Commando\">Skeleton Commando</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Commando\">Skeleton Commando</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton\">Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hoplite\">Hoplite</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hoplite\">Hoplite</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hoplite\">Hoplite</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bread</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Artisan_Loaf\">Artisan Loaf</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Honey Wheat Bread</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Honey\">Bottled Honey</a>",
+            "<a is=a-link image=$fromStats>Bread</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Artisan_Loaf\">Artisan Loaf</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bread</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Bread"
 }

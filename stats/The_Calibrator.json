@@ -16,6 +16,37 @@
   "Tooltip": "Fires trackers that prompt a laser to fire upon colliding",
   "Rarity": "Yellow",
   "Sell": 200000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Gun\">Rainbow Gun</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>The Calibrator</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Gun\">Rainbow Gun</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Gun\">Rainbow Gun</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>The Calibrator</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 58,
   "InternalName": "The_Calibrator"
 }

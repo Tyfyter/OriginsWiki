@@ -16,6 +16,29 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 56,
   "InternalName": "Ancient_Kruncher"
 }

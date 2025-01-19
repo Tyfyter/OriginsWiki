@@ -14,6 +14,45 @@
   "Rarity": "LightRed",
   "Sell": 10000,
   "Source": "(20) <a is=a-link href=https://terraria.wiki.gg/wiki/Adamantite_Bar>Adamantite</a>/<a is=a-link href=https://terraria.wiki.gg/wiki/Titanium_Bar>Titanium Bar</a> + (12) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Air Tank</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a> (20)",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Helium Tank</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Whoopie_Cushion\">Whoopie Cushion</a>",
+            "<a is=a-link image=$fromStats>Air Tank</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Pneumatic Bomb Thrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Air Tank</a>",
+            "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Air_Tank"
 }

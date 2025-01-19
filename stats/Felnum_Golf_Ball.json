@@ -13,6 +13,22 @@
   "Velocity": 12.0,
   "Rarity": "Green",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Golf Ball</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Felnum_Golf_Ball"
 }

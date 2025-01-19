@@ -15,6 +15,22 @@
   "Rarity": "Green",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Band_of_Regeneration>Band of Regeneration</a> + <a is=a-link image=$fromStats>Bomb Charm</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bomb Charm of Regeneration</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Regeneration\">Band of Regeneration</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Bomb_Charm_of_Regeneration"
 }

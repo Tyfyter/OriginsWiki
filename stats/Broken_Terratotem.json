@@ -15,6 +15,27 @@
   "Tooltip": "Summons a lost soul to fight for you",
   "Rarity": "Blue",
   "Sell": 15000,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Terratotem</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Broken Terratotem</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Finch_Staff\">Finch Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imp_Staff\">Imp Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sanguine_Staff\">Sanguine Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blade_Staff\">Blade Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Optic_Staff\">Optic Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tempest_Staff\">Tempest Staff</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Broken_Terratotem"
 }

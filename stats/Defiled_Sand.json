@@ -11,6 +11,69 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats>Defiled Sandstone</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Sand</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sandstone</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>White Water</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Sand</a>",
+            "<a is=a-link image=$fromStats>Defiled Seeds</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link image=$fromStats>Defiled Sand</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sand</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Sandstone</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sand</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Defiled_Sand_Item",
   "Images": [

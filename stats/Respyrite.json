@@ -7,6 +7,83 @@
   ],
   "Rarity": "Orange",
   "Sell": 900,
+  "Source": "<a is=a-link image=$fromStats>Alkahest</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Respyrite</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ruby Reticle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ruby\">Ruby</a> (4)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Greaves</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Crown</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Respyrite</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Respyrite"
 }

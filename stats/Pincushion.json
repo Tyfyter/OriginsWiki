@@ -12,6 +12,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clothier\">Clothier</a> (<a-coins>100000</a-coins>)",
   "SpriteWidth": 30,
   "InternalName": "Pincushion"
 }

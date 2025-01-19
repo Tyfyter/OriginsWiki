@@ -13,6 +13,21 @@
   "Rarity": "White",
   "Sell": 200,
   "Source": "(7) <a is=a-link href=https://terraria.wiki.gg/wiki/Woods>Wood</a> @ <a is=a-link>Work Benches</a> OR <a is=a-link href=https://terraria.wiki.gg/wiki/Golfer>Golfer</a> on <a is=a-link>April Fools</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Baseball Bat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> (7)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Baseball_Bat"
 }

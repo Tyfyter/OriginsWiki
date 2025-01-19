@@ -21,6 +21,37 @@
   ],
   "Rarity": "LightRed",
   "Sell": 15000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Wall_of_Flesh\">Wall of Flesh</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wall_of_Flesh\">Wall of Flesh</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
   "SpriteWidth": 56,
   "InternalName": "Thermite_Launcher"
 }

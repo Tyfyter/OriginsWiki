@@ -9,6 +9,22 @@
   "Tooltip": "Slowly reduces assimilation",
   "Rarity": "LightRed",
   "Sell": 800,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nature's_Gift\">Nature's Gift</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mojo Injection</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nature's_Gift\">Nature's Gift</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Mojo_Injection"
 }

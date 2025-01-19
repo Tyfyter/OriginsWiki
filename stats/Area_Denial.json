@@ -15,6 +15,30 @@
   "Tooltip": "Launches a probe to bombard the targeted area with explosions",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Broken Record</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 42,
   "InternalName": "Area_Denial"
 }

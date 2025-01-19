@@ -14,6 +14,23 @@
   ],
   "Rarity": "Red",
   "Sell": 140000,
+  "Source": "16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a>+20<a is=a-link image=$fromStats imageOnly>Nova Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Vest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a> (16)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Nova_Breastplate"
 }

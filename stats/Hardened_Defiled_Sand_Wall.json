@@ -7,6 +7,37 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hardened Defiled Sand Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Hardened Defiled Sand Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Hardened_Defiled_Sand_Wall_Item"
 }

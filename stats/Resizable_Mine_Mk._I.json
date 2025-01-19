@@ -15,6 +15,23 @@
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Blue",
   "Sell": 233,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine Mk. I</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Resizable_Mine_One"
 }

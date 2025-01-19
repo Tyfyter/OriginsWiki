@@ -16,6 +16,22 @@
   "Rarity": "LightPurple",
   "Sell": 30000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Brain_of_Confusion>Brain of Confusion</a> + <a is=a-link image=$fromStats>Potato Battery</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Protomind</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Confusion\">Brain of Confusion</a>",
+            "<a is=a-link image=$fromStats>Potato Battery</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Protomind"
 }

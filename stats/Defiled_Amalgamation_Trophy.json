@@ -11,6 +11,37 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Defiled_Amalgamation_Trophy_Item",
   "Images": [

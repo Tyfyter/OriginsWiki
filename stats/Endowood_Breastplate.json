@@ -8,6 +8,22 @@
   "Defense": 2,
   "ArmorSlot": "Shirt",
   "Rarity": "White",
+  "Source": "30<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (30)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Endowood_Breastplate"
 }

@@ -18,6 +18,30 @@
   ],
   "Rarity": "Green",
   "Sell": 3000,
+  "Source": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Broken_Fiberglass_Bow"
 }

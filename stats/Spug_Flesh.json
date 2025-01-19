@@ -11,6 +11,19 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Spug Flesh</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Riven_Flesh_Item",
   "Images": [

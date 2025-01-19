@@ -17,6 +17,87 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Blood_Crawler>Blood Crawler</a> or <a is=a-link href=https://terraria.wiki.gg/wiki/Face_Monster>Face Monster</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Face_Monster\">Face Monster</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Face_Monster\">Face Monster</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Face_Monster\">Face Monster</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Haggard Artery</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Explosive Artery</a>",
+            "<a is=a-link image=$fromStats>Messy Leech</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Explosive_Artery"
 }

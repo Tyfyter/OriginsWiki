@@ -16,6 +16,29 @@
   "Rarity": "Pink",
   "Sell": 80000,
   "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 74,
   "InternalName": "Amoebash"
 }

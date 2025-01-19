@@ -16,6 +16,24 @@
   "Tooltip": "Casts a forceful flame",
   "Rarity": "Orange",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wand_of_Sparking\">Wand of Sparking</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eternabrite</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wand_of_Sparking\">Wand of Sparking</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Eternabrite"
 }

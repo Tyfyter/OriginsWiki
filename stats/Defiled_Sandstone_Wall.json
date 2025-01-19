@@ -7,6 +7,37 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Defiled Sandstone</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Sandstone Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sandstone</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Sandstone</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sandstone Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Defiled_Sandstone_Wall_Item"
 }

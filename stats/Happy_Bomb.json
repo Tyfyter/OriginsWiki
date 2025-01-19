@@ -16,6 +16,30 @@
   "Tooltip": "Laughs at downed enemies",
   "Rarity": "Pink",
   "Sell": 7500,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clown\">Clown</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clown\">Clown</a>",
+      "Rate": 1.0,
+      "Max": 69,
+      "Min": 69,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clown\">Clown</a>",
+      "Rate": 1.0,
+      "Max": 69,
+      "Min": 69,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clown\">Clown</a>",
+      "Rate": 1.0,
+      "Max": 69,
+      "Min": 69,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Happy_Bomb"
 }

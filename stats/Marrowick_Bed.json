@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "15<a is=a-link image=$fromStats imageOnly>Marrowick</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Bed</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (15)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Marrowick_Bed_Item",
   "Images": [

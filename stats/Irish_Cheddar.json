@@ -12,6 +12,30 @@
   ],
   "Rarity": "Blue",
   "Sell": 2000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Skeleton\">Spore Skeleton</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Irish_Cheddar"
 }

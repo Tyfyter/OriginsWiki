@@ -13,6 +13,37 @@
   ],
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Jellyfish\">Blue Jellyfish</a>+17<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Green_Jellyfish\">Green Jellyfish</a>+17<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Jellyfish\">Pink Jellyfish</a>+17<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riptide Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Jellyfish\">Blue Jellyfish</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (17)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riptide Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Green_Jellyfish\">Green Jellyfish</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (17)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riptide Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Jellyfish\">Pink Jellyfish</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (17)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Riptide_Breastplate"
 }

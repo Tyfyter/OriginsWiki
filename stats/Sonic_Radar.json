@@ -14,6 +14,24 @@
   "Rarity": "Pink",
   "Sell": 20000,
   "Source": "(5) <a is=a-link href=https://terraria.wiki.gg/wiki/Dangersense_Potion>Dangersense Potion</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Metal_Detector>Metal Detector</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Radar>Radar</a> + (5) <a is=a-link href=https://terraria.wiki.gg/wiki/Spelunker_Potion>Spelunker Potion</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sonic Radar</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dangersense_Potion\">Dangersense Potion</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Metal_Detector\">Metal Detector</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Radar\">Radar</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spelunker_Potion\">Spelunker Potion</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Sonic_Radar"
 }

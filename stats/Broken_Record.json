@@ -40,6 +40,23 @@
       "Chance": "20%"
     }
   ],
+  "Source": "30<a is=a-link image=$fromStats imageOnly>Urn of Ashes</a>+15<a is=a-link image=$fromStats imageOnly>Biocomponent 10</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Broken Record</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Urn of Ashes</a> (30)",
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Broken_Record"
 }

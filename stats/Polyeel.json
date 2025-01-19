@@ -6,6 +6,73 @@
   ],
   "Rarity": "Blue",
   "Sell": 1500,
+  "Source": "<a is=a-link image=$fromStats>Tearracuda</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Polyeel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tearracuda</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ambition Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Polyeel</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Seafood_Dinner\">Seafood Dinner</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Polyeel</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heartreach_Potion\">Heartreach Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daybloom\">Daybloom</a>",
+            "<a is=a-link image=$fromStats>Polyeel</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonkoi\">Ebonkoi</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Polyeel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Polyeel"
 }

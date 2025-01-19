@@ -10,6 +10,51 @@
   "Rarity": "Green",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Dead_Man%27s_Chest>Dead Man's Chest</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Trap Charm</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Magic Tripwire</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hazard Charm</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lava_Charm\">Lava Charm</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm</a>",
+            "<a is=a-link image=$fromStats>Trap Charm</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Tripwire</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Trap Charm</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Trap_Charm"
 }

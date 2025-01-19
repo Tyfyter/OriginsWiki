@@ -7,6 +7,21 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Infested Riven Grass Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Grass Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Riven_Grass_Wall_Safe_Item"
 }

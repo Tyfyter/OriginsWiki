@@ -12,6 +12,22 @@
   "UseTime": 20,
   "Rarity": "White",
   "Sell": 10,
+  "Source": "8<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Hammer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Marrowick_Hammer"
 }

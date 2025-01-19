@@ -18,6 +18,165 @@
   ],
   "Rarity": "Green",
   "Sell": 5400,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpoon\">Harpoon</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpoon\">Harpoon</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bloodletter</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Harpoon Gun</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Magma Grappler</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Harpoon Gun</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpoon\">Harpoon</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Harpoon Gun</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 40,
   "InternalName": "Harpoon_Gun"
 }

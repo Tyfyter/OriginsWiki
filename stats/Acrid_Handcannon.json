@@ -18,6 +18,23 @@
   "Tooltip": "Releases brine droplets upon slug detonation",
   "Rarity": "LightRed",
   "Sell": 100000,
+  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>+18<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Acrid Handcannon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a> (2)",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (18)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 56,
   "InternalName": "Acrid_Handcannon"
 }

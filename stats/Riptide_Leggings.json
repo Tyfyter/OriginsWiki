@@ -13,6 +13,23 @@
   ],
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>+13<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riptide Leggings</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (13)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Riptide_Greaves"
 }

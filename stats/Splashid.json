@@ -16,6 +16,24 @@
   "Tooltip": "Shoots a flurry of brine droplets",
   "Rarity": "LightRed",
   "Sell": 2080,
+  "Source": "8<a is=a-link image=$fromStats imageOnly>Brineglow</a>+15<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>+10<a is=a-link image=$fromStats imageOnly>Dolomite</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Splashid</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brineglow</a> (8)",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (15)",
+            "<a is=a-link image=$fromStats>Dolomite</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Splashid"
 }

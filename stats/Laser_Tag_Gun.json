@@ -17,6 +17,25 @@
   "Tooltip": "‘Defective to some, glory to others’",
   "Rarity": "Lime",
   "Sell": 50000,
+  "Source": "15<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+18<a is=a-link image=$fromStats imageOnly>Fiberglass Block</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>+12<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Gun</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (15)",
+            "<a is=a-link image=$fromStats>Fiberglass Block</a> (18)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Laser_Tag_Gun"
 }

@@ -10,6 +10,186 @@
   "Tooltip": "6% increased weapon speed",
   "Rarity": "Blue",
   "Sell": 8000,
+  "Source": "<a is=a-link image=$fromStats>Riven Coat</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Flagellant</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Single-Cellular Nautilus</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Trijaw Shark</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Single-Cellular Nautilus</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Single-Cellular Nautilus</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Single-Cellular Nautilus</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Riven Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Coat</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ancient Riven Coat</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Riven2_Coat"
 }

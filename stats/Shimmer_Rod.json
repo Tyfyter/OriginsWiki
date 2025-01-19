@@ -18,6 +18,22 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 35000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nimbus_Rod\">Nimbus Rod</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shimmer Rod</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nimbus_Rod\">Nimbus Rod</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Shimmer_Rod"
 }

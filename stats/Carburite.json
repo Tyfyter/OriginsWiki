@@ -3,17 +3,123 @@
   "Types": [
     "Item",
     "Ore",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
-  "PickReq": 55,
+  "PickReq": 100,
   "PlacementSize": [
     1,
     1
   ],
   "UseTime": 10,
   "Tooltip": "'An organic mineral that reacts to compounds'",
-  "Rarity": "Blue",
-  "Sell": 100,
+  "Rarity": "Orange",
+  "Sell": 800,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Assassin_Hood\">Crystal Assassin Hood</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (30)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Light\">Soul of Light</a> (5)",
+            "<a is=a-link image=$fromStats>Carburite</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Assassin_Shirt\">Crystal Assassin Shirt</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (60)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Light\">Soul of Light</a> (7)",
+            "<a is=a-link image=$fromStats>Carburite</a> (30)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Assassin_Pants\">Crystal Assassin Pants</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (45)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Light\">Soul of Light</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (23)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Resin Shield</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Shield\">Obsidian Shield</a>",
+            "<a is=a-link image=$fromStats>Carburite</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ruby Reticle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ruby\">Ruby</a> (4)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Amber Exploder Resin</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (36)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Amber Exploder Guards</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Amber Exploder Goggles</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sapphire Mediator Hood</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sapphire Mediator Tights</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sapphire Mediator Vest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (36)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Amber of Embers</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (8)",
+            "<a is=a-link image=$fromStats>Carburite</a> (18)",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 5,
   "SpriteWidth": 24,
   "InternalName": "Carburite_Item",

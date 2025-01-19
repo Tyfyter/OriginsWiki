@@ -18,6 +18,23 @@
   "Tooltip": "Explodes into seeds",
   "Rarity": "LightRed",
   "Sell": 400,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Seed\">Seed</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>2000</a-coins>After completing \"Clearing the Way\")",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bloombomb</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Seed\">Seed</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Bloombomb"
 }

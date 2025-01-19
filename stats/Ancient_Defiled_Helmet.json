@@ -10,6 +10,186 @@
   "Tooltip": "5% increased critical strike chance",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Helmet</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Digger</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Mite</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.071428575,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Defiled Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Helmet</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ancient Defiled Helmet</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Defiled2_Helmet"
 }

@@ -7,6 +7,138 @@
   ],
   "Rarity": "Cyan",
   "Sell": 2000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Fragment</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Sigil\">Celestial Sigil</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a> (12)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lunar_Hook\">Lunar Hook</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a> (6)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Super_Healing_Potion\">Super Healing Potion</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+            "<a is=a-link image=$fromStats>Nova Fragment</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+            "<a is=a-link image=$fromStats>Nova Fragment</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+            "<a is=a-link image=$fromStats>Nova Fragment</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+            "<a is=a-link image=$fromStats>Nova Fragment</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>",
+            "<a is=a-link image=$fromStats>Nova Fragment</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Vest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a> (16)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Leggings</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Faceshield</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a> (8)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Cascade</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a> (2)",
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (18)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nova Swarm</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Nova Fragment</a> (18)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 18,
   "InternalName": "Nova_Fragment"
 }

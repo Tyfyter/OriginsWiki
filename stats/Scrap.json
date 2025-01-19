@@ -8,6 +8,79 @@
   "Damage": 0,
   "Rarity": "Pink",
   "Sell": 65,
+  "Source": "<a is=a-link image=$fromStats>Broken Record</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 200,
+      "Min": 200,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 200,
+      "Min": 200,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 200,
+      "Min": 200,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
+            "<a is=a-link image=$fromStats>Scrap</a> (20)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Abrasion Blaster</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (35)",
+            "<a is=a-link image=$fromStats>Scrap</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>Scrap</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shrapnel Bomb</a> (4)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> (4)",
+            "<a is=a-link image=$fromStats>Scrap</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Scrap"
 }

@@ -16,6 +16,39 @@
   "Rarity": "Pink",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Copper_Bar>Copper Bar</a> + <a is=a-link image=$fromStats>Potato</a> + <a is=a-link image=$fromStats>Power Core</a> @ <a is=a-link image=$fromStats>Fabricator</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Potato Battery</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a>",
+            "<a is=a-link image=$fromStats>Potato</a>",
+            "<a is=a-link image=$fromStats>Power Core</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Protomind</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Confusion\">Brain of Confusion</a>",
+            "<a is=a-link image=$fromStats>Potato Battery</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Potato_Battery"
 }

@@ -14,6 +14,45 @@
   "Rarity": "Blue",
   "Sell": 20000,
   "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Binding Book</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Cuffs\">Celestial Cuffs</a>",
+            "<a is=a-link image=$fromStats>Refactoring Pieces</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Refactoring_Pieces"
 }

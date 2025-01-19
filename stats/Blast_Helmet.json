@@ -14,6 +14,24 @@
   ],
   "Rarity": "Yellow",
   "Sell": 75000,
+  "Source": "12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a>+<a is=a-link image=$fromStats imageOnly>Blast-Resistant Plate</a>+2<a is=a-link image=$fromStats imageOnly>Busted Servo</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Helmet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Blast_Helmet"
 }

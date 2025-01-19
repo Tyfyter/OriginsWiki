@@ -10,6 +10,23 @@
     "'This ice cream will eat YOU'"
   ],
   "Rarity": "Blue",
+  "Source": "30<a is=a-link image=$fromStats imageOnly>Sentient Powder</a>+15<a is=a-link image=$fromStats imageOnly>Bud Barnacle</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Suspicious Looking Ice Cream</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sentient Powder</a> (30)",
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Sus_Ice_Cream"
 }

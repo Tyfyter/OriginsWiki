@@ -10,6 +10,62 @@
   "Tooltip": "The day of Verdict will come...",
   "Rarity": "White",
   "Sell": 20,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Fungarust</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Urn of Ashes</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fungarust</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Poisoned_Knife\">Poisoned Knife</a> (50)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> (50)",
+            "<a is=a-link image=$fromStats>Urn of Ashes</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Broken Record</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Urn of Ashes</a> (30)",
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Purification_Powder\">Purification Powder</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Urn of Ashes</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Ash_Urn"
 }

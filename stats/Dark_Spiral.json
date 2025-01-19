@@ -15,6 +15,39 @@
   "Rarity": "Blue",
   "Sell": 5000,
   "Source": "(9) <a is=a-link href=https://terraria.wiki.gg/wiki/Demonite_Bar>Demonite Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dark Spiral</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> (9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Waning Crescent</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/DarkSpiral\" href=Recipe_Groups>Any Evil Boomerang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flamarang\">Flamarang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorn_Chakram\">Thorn Chakram</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Trimarang\">Trimarang</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Dark_Spiral"
 }

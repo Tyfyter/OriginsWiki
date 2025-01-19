@@ -13,6 +13,27 @@
   "Rarity": "White",
   "Sell": 30,
   "Source": "(7) <a is=a-link image=$fromStats>Marrowick</a> @ <a is=a-link>Work Benches</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (7)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Marrowick_Sword"
 }

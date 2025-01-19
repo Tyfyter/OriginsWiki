@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Ore",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
   "PlacementSize": [
     1,
@@ -12,7 +13,113 @@
   "UseTime": 10,
   "Tooltip": "A rare mineral that grows more powerful with heat",
   "Rarity": "Blue",
-  "Sell": 1000,
+  "Sell": 1600,
+  "Source": "<a is=a-link image=$fromStats>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Ashen Factory<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Ashen Factory",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": "Drops in worlds with Ashen Factory"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Expert",
+      "Notes": "Drops in worlds with Ashen Factory"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Master",
+      "Notes": "Drops in worlds with Ashen Factory"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": ", Drops in worlds with Ashen Factory"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Body Armor</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (28)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (22)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Goggles</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (16)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Ore\">Demonite Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 5,
   "PickReq": 55,
   "SpriteWidth": 16,

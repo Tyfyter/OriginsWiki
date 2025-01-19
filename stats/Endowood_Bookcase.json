@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "20<a is=a-link image=$fromStats imageOnly>Endowood</a>+10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bookcase</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Endowood_Bookcase_Item",
   "Images": [

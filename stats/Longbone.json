@@ -16,6 +16,92 @@
   "Rarity": "Green",
   "Sell": 3500,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Angry_Bones>Angry Bones</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angry_Bones\">Angry Bones</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Longbone"
 }

@@ -12,6 +12,215 @@
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "White",
   "Sell": 300,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 99,
+      "Min": 99,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Thief\">Goblin Thief</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Warrior\">Goblin Warrior</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Sorcerer\">Goblin Sorcerer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Archer\">Goblin Archer</a>",
+      "Rate": 0.005,
+      "Max": 99,
+      "Min": 15,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Harpoon</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (8)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Harpoon</a> (8)",
+            "<a is=a-link image=$fromStats>Bottled Brine</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bouncy Harpoon</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a>",
+            "<a is=a-link image=$fromStats>Harpoon</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Cursed Harpoon</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Harpoon</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Explosive Harpoon</a> (4)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=$fromStats>Harpoon</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Flammable Harpoon</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gel\">Gel</a>",
+            "<a is=a-link image=$fromStats>Harpoon</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Harpoon"
 }

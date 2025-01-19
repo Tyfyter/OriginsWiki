@@ -7,6 +7,7 @@
     "Accessory",
     "Hardmode"
   ],
+  "UseTime": 20,
   "Tooltip": [
     "Double tap down to transform into a small, rolling ball",
     "Grants extreme underwater capabilities"
@@ -14,6 +15,23 @@
   "Rarity": "Pink",
   "Sell": 60000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Arctic_Diving_Gear>Arctic Diving Gear</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Flipper>Flipper</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Depth Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Arctic_Diving_Gear\">Arctic Diving Gear</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Depth_Ravel"
 }

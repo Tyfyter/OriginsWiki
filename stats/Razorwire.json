@@ -10,6 +10,45 @@
   "Rarity": "Green",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Shackle>Shackle</a> + <a is=a-link image=$fromStats>Return To Sender</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Razorwire</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shield of Retribution</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Shield\">Obsidian Shield</a>",
+            "<a is=a-link image=$fromStats>Razorwire</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Unsought Organ</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Olid Organ</a>",
+            "<a is=a-link image=$fromStats>Razorwire</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Razorwire"
 }

@@ -17,6 +17,15 @@
   "Rarity": "Blue",
   "Sell": 15000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Eye_of_Cthulhu>Eye of Cthulhu</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Strange_Tooth"
 }

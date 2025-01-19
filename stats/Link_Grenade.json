@@ -18,6 +18,39 @@
   "Tooltip": "Only explodes when another explosive detonates nearby or when its fuse runs out",
   "Rarity": "Green",
   "Sell": 35,
+  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>+<a is=a-link image=$fromStats imageOnly>Peat Moss</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>175</a-coins>After selling 85 peat moss to the Demolitionist, In worlds with Ashen Factory)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Link Grenade</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (8)",
+            "<a is=a-link image=$fromStats>Peat Moss</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sticky Link Grenade</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gel\">Gel</a>",
+            "<a is=a-link image=$fromStats>Link Grenade</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Link_Grenade"
 }

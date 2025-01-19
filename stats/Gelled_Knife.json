@@ -16,6 +16,20 @@
   "Tooltip": "Applies progressively higher torn severities after every successful strike",
   "Rarity": "White",
   "Sell": 12,
+  "Source": "50<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a>+<a is=a-link image=$fromStats imageOnly>Sentient Powder</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Gelled Knife</a> (50)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> (50)",
+            "<a is=a-link image=$fromStats>Sentient Powder</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 10,
   "InternalName": "Gelled_Knife"
 }

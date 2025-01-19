@@ -11,6 +11,22 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "16<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Dresser</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (16)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Endowood_Dresser_Item",
   "Images": [

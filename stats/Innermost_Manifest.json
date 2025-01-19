@@ -18,6 +18,24 @@
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Orange",
   "Sell": 3000,
+  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>+20<a is=a-link image=$fromStats imageOnly>Alkahest</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Innermost Manifest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (15)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>",
+            "<a is=a-link image=$fromStats>Alkahest</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Innermost_Manifest"
 }

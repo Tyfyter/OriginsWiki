@@ -11,8 +11,38 @@
     1
   ],
   "UseTime": 10,
+  "Tooltip": "Can be placed in water",
   "Rarity": "White",
   "Sell": 10,
+  "Source": "33<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Black Bile</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bile Torch</a> (33)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (33)",
+            "<a is=a-link image=$fromStats>Black Bile</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Aether_Torch\">Aether Torch</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bile Torch</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "LightIntensity": "105%",
   "LightColor": [
     1.0,

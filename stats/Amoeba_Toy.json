@@ -9,6 +9,51 @@
   "Tooltip": "Summons a Meberoid to light up the day",
   "Rarity": "Blue",
   "Sell": 75000,
+  "Source": "<a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Amoeba_Toy",
   "Pet": {

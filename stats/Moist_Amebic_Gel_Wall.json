@@ -7,6 +7,22 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats>Amebic Gel Wall</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Moist Amebic Gel Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Gel Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Amebic_Gel_Wall_Placed_Unsafe_Item"
 }

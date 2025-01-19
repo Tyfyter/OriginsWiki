@@ -12,6 +12,58 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Band_of_Regeneration>Band of Regeneration</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bomb Charm</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Regeneration\">Band of Regeneration</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bomb Charm of Regeneration</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Regeneration\">Band of Regeneration</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Hazard Charm</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lava_Charm\">Lava Charm</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm</a>",
+            "<a is=a-link image=$fromStats>Trap Charm</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Regeneration\">Band of Regeneration</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bomb Charm</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Bomb_Charm"
 }

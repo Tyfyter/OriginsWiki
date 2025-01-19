@@ -13,6 +13,120 @@
   "UseTime": 10,
   "Rarity": "Green",
   "Sell": 4000,
+  "Source": "3<a is=a-link image=$fromStats imageOnly>Felnum Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellforge\">Hellforge</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellforge\">Hellforge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Hamaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (16)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lightning Rod</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Golf Ball</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Magnus</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (20)",
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Boar Spear</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (13)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Longbow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (12)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Valkyrum Bar</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ectoplasm\">Ectoplasm</a>",
+            "<a is=a-link image=$fromStats>Felnum Bar</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Maelstrom Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Felnum_Bar",
   "Images": [

@@ -7,6 +7,250 @@
   ],
   "Rarity": "Orange",
   "Sell": 900,
+  "Source": "<a is=a-link image=$fromStats>Black Bile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a><div class=divider></div><a is=a-link image=$fromStats>Amoebeye</a><div class=divider></div><a is=a-link image=$fromStats>Mitoworm</a><div class=divider></div><a is=a-link image=$fromStats>Torn Ghoul</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.5,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.5,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.5,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
+      "Rate": 1.0,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mitoworm</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Torn Ghoul</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Torn Ghoul</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Torn Ghoul</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Black Bile</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Torch</a> (33)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (33)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Arrow</a> (150)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (150)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Bullet</a> (150)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Bullet\">Empty Bullet</a> (150)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Dart</a> (100)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ruby Reticle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ruby\">Ruby</a> (4)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Canister</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest</a>",
+            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Greaves</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Crown</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imbuing_Station\">Imbuing Station</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Flask of Alkahest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Alkahest</a> (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Innermost Manifest</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (15)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>",
+            "<a is=a-link image=$fromStats>Alkahest</a> (20)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Living Alkahest Block</a> (20)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Living_Fire_Block\">Living Fire Block</a> (20)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Respyrite</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Alkahest"
 }

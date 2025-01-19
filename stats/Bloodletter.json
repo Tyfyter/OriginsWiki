@@ -17,6 +17,23 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a>+<a is=a-link image=$fromStats imageOnly>Harpoon Gun</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bloodletter</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Harpoon Gun</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 46,
   "InternalName": "Bloodletter"
 }

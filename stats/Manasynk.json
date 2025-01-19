@@ -14,6 +14,37 @@
   "Velocity": 7.0,
   "Rarity": "Orange",
   "Sell": 3000,
+  "Source": "<a is=a-link image=$fromStats>Blotopus</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Manasynk</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Blotopus</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ocotoral Bud</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Manasynk</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Manasynk"
 }

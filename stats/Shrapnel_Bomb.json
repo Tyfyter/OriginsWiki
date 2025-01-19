@@ -18,6 +18,20 @@
   "Tooltip": "Explodes into shrapnel",
   "Rarity": "Blue",
   "Sell": 180,
+  "Source": "4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+<a is=a-link image=$fromStats imageOnly>Scrap</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>900</a-coins>After selling 125 peat moss to the Demolitionist, After defeating the Scrapper)",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shrapnel Bomb</a> (4)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> (4)",
+            "<a is=a-link image=$fromStats>Scrap</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Shrapnel_Bomb"
 }

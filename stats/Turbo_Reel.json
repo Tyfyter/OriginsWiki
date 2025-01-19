@@ -11,6 +11,29 @@
   "Rarity": "Green",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a <a is=a-link href=NPC_Quests.html>quest</a>",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Boomerang Magnet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Magnet\">Treasure Magnet</a>",
+            "<a is=a-link image=$fromStats>Turbo Reel</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Super Turbo Reel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magiluminescence\">Magiluminescence</a>",
+            "<a is=a-link image=$fromStats>Turbo Reel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Turbo_Reel"
 }

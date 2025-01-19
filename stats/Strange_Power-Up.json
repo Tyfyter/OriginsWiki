@@ -12,6 +12,135 @@
   "Tooltip": "The very first sprite.",
   "Rarity": "Cyan",
   "Sell": 200000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 0.02,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Strange_Power_Up",
   "Pet": {
