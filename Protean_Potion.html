@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,44 +10,23 @@
 		<article id="content">
 			<h1>Protean Potion</h1>
 			<div class="divider"></div>
-
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Protean_Potion></a-statblock>
+				<a-statblock src="Protean_Potion"></a-statblock>
 			</span>
-
 			<p>
 				The <b>Protean Potion</b> is a <a is="a-link" href="Buff_Potions.html">buff potion</a> that can be crafted using <a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>, a <a is="a-link">Tearracuda</a> and any <a is="a-link" href="Recipe_Groups.html">evil herb</a>.
 				When consumed, it provides the <b>Protean</b> <a is="a-link" href="Buffs.html">buff</a>, which increases the player's <a is="a-link">stat share</a> by 50%.
 				This effect will last for 4 minutes, but can be canceled anytime by right-clicking the icon.
 			</p>
-
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
 					<p><b>Recipes</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Alchemy_Table">Alchemy Table</a>',
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottle_(crafting_station)">Placed Bottle</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="$fromStats">Protean Potion</a>',
-					ingredients:[
-					'<a is="a-link" href="Recipe_Groups.html" image="Images/RecipeGroups/Deathweed">Any Evil Herb</a>',
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Water">Bottled Water</a>',
-					'<a is="a-link" image="$fromStats">Tearracuda</a>',
-					]
-					}
-					]
-					}
-					</a-recipes>
+					<a-recipes src="Protean_Potion"></a-recipes>
 				</details>
 			</div>
-
 			<details class="section" id="Tips" open>
 				<summary>Tips<span class="divider"></span></summary>
 				<p>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,38 +10,20 @@
 		<article id="content">
 			<h1>Broken Record</h1>
 			<div class="divider"></div>
-
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Broken_Record></a-statblock>
+				<a-statblock src="Broken_Record"></a-statblock>
 			</span>
-
 			<p>
 				The <b>Broken Record</b> is a boss-summoning <a is="a-link" href="Consumables.html">consumable</a> item crafted using <a is="a-link" href="Urn_of_Ashes.html">Urns of Ashes</a> and <a is="a-link">Biocomponent 10</a>.
 				It does not function like other boss-summoning items since its respective boss, the <a is="a-link">Scrapper</a>, is currently not implemented.
 				Instead it acts like a grab bag upon its use, dropping one of the following items:
 			</p>
-
 			<details class="section" id="Crafting" open>
 				<summary>Crafting<span class="divider"></span></summary>
 				<p><b>Recipes</b></p>
 				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Altars">Any Altar</a>'
-				],
-				items:[
-				{
-				result:'<a is="a-link" image="$fromStats">Broken Record</a>',
-				ingredients:[
-				'<a is="a-link" image="§ModImage§/Items/Materials/Biocomponent10">Biocomponent 10</a>(15)',
-				'<a is="a-link" image="§ModImage§/Items/Materials/Ash_Urn">Urn of Ashes</a>(30)'
-				]
-				}
-				]
-				}
-				</a-recipes>
+				<a-recipes src="Broken_Record"></a-recipes>
 			</details>
 		</article>
 	</body>

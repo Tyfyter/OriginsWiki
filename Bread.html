@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,39 +10,23 @@
 		<article id="content">
 			<h1>Bread</h1>
 			<div class="divider"></div>
-
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Bread></a-statblock>
+				<a-statblock src="Bread"></a-statblock>
 			</span>
-
 			<p>
 				<b>Bread</b> is a <a is="a-link">food</a> item that has a 1/5 (20%) chance to drop from any variant of <a is="a-link" href="https://terraria.wiki.gg/wiki/Skeleton">Skeleton</a> in the game, besides the <a is="a-link" href="https://terraria.wiki.gg/wiki/Skeleton_Merchant">Skeleton Merchant</a>.
 				When consumed, it provides the <b><a is="a-link" href="https://terraria.wiki.gg/wiki/Well_Fed">Well Fed</a></b> <a is="a-link" href="Buffs.html">buff</a>, which lasts for 8 minutes.
 			</p>
-
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
+					<p><b>Recipes</b></p>
+					<div class="divider"></div>
+					<a-recipes src="Bread"></a-recipes>
 					<p><b>Used In</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cauldron</a>',
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Cooking_Pots">Cooking Pot</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Items/Other/Consumables/Food/Honey_Bread">Honey Wheat Bread</a>',
-					ingredients:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Bottled_Honey">Bottled Honey</a>',
-					'<a is="a-link" image="$fromStats">Bread</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
+					<a-recipes src="Bread" usedIn></a-recipes>
 				</details>
 			</div>
 		</article>

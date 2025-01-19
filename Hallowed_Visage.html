@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,80 +10,26 @@
 		<article id="content">
 			<h1>Hallowed Visage</h1>
 			<div class="divider"></div>
-			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Hallowed_Visage></a-statblock>
+				<a-statblock src="Hallowed_Visage"></a-statblock>
 			</span>
 			<span id="error-log"></span>
-
 			<p>
 				The <b>Hallowed Visage</b> is a helmet <a is="a-link">armor</a> piece to serve as the <a is="a-link" href="Demolitionist_Weapons.html">Demolitionist</a>-equivalent for <a is="a-link" href="https://terraria.wiki.gg/wiki/Hallowed_armor">Hallowed armor</a>.
 				Equipping this as part of a full set does not change the set bonus provided and only offers basic combat stats.
 			</p>
-
-			<p>
-				The Hallowed Visage provides the following benefits:<br>
-			</p>
-
-			<p>
-				 - +3 <a is="a-link" href="https://terraria.wiki.gg/wiki/Defense">defense</a><br>
-				 - +15% explosive <a is="a-link" href="https://terraria.wiki.gg/wiki/Velocity">velocity</a><br>
-				 - +8% explosive <a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">critical strike</a> chance
-			</p>
-
+			<p>The Hallowed Visage provides the following benefits:<br></p>
+			<p> - +3 <a is="a-link" href="https://terraria.wiki.gg/wiki/Defense">defense</a><br> - +15% explosive <a is="a-link" href="https://terraria.wiki.gg/wiki/Velocity">velocity</a><br> - +8% explosive <a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">critical strike</a> chance</p>
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
 					<p><b>Recipes</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Hardmode_Anvils">Any Hardmode Anvil</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Items/Armor/Other/Hallowed_Visage">Hallowed Visage</a>',
-					ingredients:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Hallowed_Bar">Hallowed Bar</a>(12)'
-					]
-					}
-					]
-					},
-
-					{
-					stations:[
-					'<a is="a-link" href="Shimmer.html">Shimmer Transmutation</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Items/Armor/Other/Hallowed_Visage">Hallowed Visage</a>',
-					ingredients:[
-					'<a is="a-link" image="§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage">Ancient Hallowed Visage</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
-
+					<a-recipes src="Explosive_Hallowed_Armor"></a-recipes>
 					<p><b>Used In</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link" href="Shimmer.html">Shimmer Transmutation</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Items/Armor/Other/Ancient_Hallowed_Visage">Ancient Hallowed Visage</a>',
-					ingredients:[
-					'<a is="a-link" image="§ModImage§/Items/Armor/Other/Hallowed_Visage">Hallowed Visage</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
+					<a-recipes src="Explosive_Hallowed_Armor" usedIn></a-recipes>
 				</details>
 			</div>
 		</article>

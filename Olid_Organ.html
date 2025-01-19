@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,59 +10,25 @@
 		<article id="content">
 			<h1>Olid Organ</h1>
 			<div class="divider"></div>
-			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Olid_Organ></a-statblock>
+				<a-statblock src="Olid_Organ"></a-statblock>
 			</span>
 			<span id="error-log"></span>
-
 			<p>
 				The <b>Olid Organ</b> is a <a is="a-link" href="https://terraria.wiki.gg/wiki/Hardmode">Hardmode</a> <a is="a-link" href="Accessories.html">accessory</a> combining a <a is="a-link" href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a> with a <a is="a-link">Decaying Scale</a>.
 				While equipped, the player has 5% increased damage and <a is="a-link" href="https://terraria.wiki.gg/wiki/Critical_hit">critical strike</a> chances and have decreased <a is="a-link">aggro</a> from enemies.
 				Additionally, all attacks from the player inflict <a is="a-link">Toxic Shock</a>.
 			</p>
-
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
 					<p><b>Recipes</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="$fromStats">Olid Organ</a>',
-					ingredients:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Putrid_Scent">Putrid Scent</a>',
-					'<a is="a-link" image="$fromStats">Decaying Scale</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
-
+					<a-recipes src="Olid_Organ"></a-recipes>
 					<p><b>Used In</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="$fromStats">Unsought Organ</a>',
-					ingredients:[
-					'<a is="a-link" image="$fromStats">Olid Organ</a>',
-					'<a is="a-link" image="$fromStats">Razorwire</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
+					<a-recipes src="Olid_Organ" usedIn></a-recipes>
 				</details>
 			</div>
 		</article>

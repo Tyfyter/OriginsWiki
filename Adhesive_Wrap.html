@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,85 +10,19 @@
 		<article id="content">
 			<h1>Adhesive Wrap</h1>
 			<div class="divider"></div>
-
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Adhesive_Wrap></a-statblock>
+				<a-statblock src="Adhesive_Wrap"></a-statblock>
 			</span>
-
-			<p>
-				<b>Adhesive Wrap</b> is a <a is="a-link" href="Materials.html">material</a> that is crafted using <a is="a-link" href="Silicon_Bar.html">Silicon Bars</a> and <a is="a-link">Tree Sap</a>.
-			</p>
-
+			<p><b>Adhesive Wrap</b> is a <a is="a-link" href="Materials.html">material</a> that is crafted using <a is="a-link" href="Silicon_Bar.html">Silicon Bars</a> and <a is="a-link">Tree Sap</a>.</p>
 			<details class="section" id="Crafting" open>
 				<summary>Crafting<span class="divider"></span></summary>
 				<p><b>Recipes</b></p>
 				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				`<a is=a-link href=Work_Benches>Work Bench</a>`
-				],
-				items:[
-				{
-				result:`<a is="a-link" image="$fromStats">Adhesive Wrap</a>(9)`,
-				ingredients:[
-				`<a is="a-link" image="§ModImage§/Items/Materials/Silicon_Bar">Silicon Bar</a>`,
-				`<a is="a-link" image="$fromStats">Tree Sap</a>(9)`
-				]
-				}
-				]
-				}
-				</a-recipes>
-
+				<a-recipes src="Adhesive_Wrap"></a-recipes>
 				<p><b>Used In</b></p>
 				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				`<a is=a-link href=Work_Benches>Work Bench</a>`
-				],
-				items:[
-				{
-				result:`<a is="a-link" href="https://terraria.wiki.gg/wiki/Adhesive_Bandage">Adhesive Bandage</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Glowing_Mushroom">Glowing Mushroom</a>(3)`,
-				`<a is="a-link" image="$fromStats">Adhesive Wrap</a>`
-				]
-				}
-				]
-				},
-
-				{
-				stations:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
-				],
-				items:[
-				{
-				result:`<a is="a-link" image="§ModImage§/Items/Weapons/Ranged/2_In_1_Shotty" href="2_in_1_Shotty.html">2-in-1 Shotty</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Boomstick">Boomstick</a>(2)`,
-				`<a is="a-link" image="$fromStats">Adhesive Wrap</a>(6)`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Items/Weapons/Ranged/3_In_1_Shotty" href="3_in_1_Shotty.html">3-in-1 Shotty</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Boomstick">Boomstick</a>(3)`,
-				`<a is="a-link" image="$fromStats">Adhesive Wrap</a>(9)`
-				]
-				},
-				{
-				result:`<a is="a-link" image="§ModImage§/Items/Weapons/Ranged/3_In_1_Shotty" href="3_in_1_Shotty.html">3-in-1 Shotty</a>`,
-				ingredients:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Boomstick">Boomstick</a>`,
-				`<a is="a-link" image="$fromStats" href="2_in_1_Shotty.html">2-in-1 Shotty</a>`,
-				`<a is="a-link" image="$fromStats">Adhesive Wrap</a>(3)`
-				]
-				}
-				]
-				}
-				</a-recipes>
+				<a-recipes src="Adhesive_Wrap" usedIn></a-recipes>
 			</details>
 		</article>
 	</body>
