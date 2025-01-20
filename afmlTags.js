@@ -520,21 +520,23 @@ class AFMLRecipes extends HTMLElement {
 		}
 	}
 	attributeChangedCallback(name, oldValue, newValue) {
-		getStats(newValue.replace(' ', '_')).then((value) => {
-			let sections = this.hasAttribute('usedIn') ? value.UsedIn : value.Recipes;
-			this.textContent = '';
-			let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
-			let head = table.createChild('thead');
-			let row = head.createChild('tr');
-			row.createChild('th', 'Result');
-			row.createChild('th', 'Ingredients', ['class', 'middle']);
-			row.createChild('th').createChild('a', 'Crafting Station', ['href', 'https://terraria.wiki.gg/wiki/Crafting_stations']);
-			
-			let body = table.createChild('tbody');
-			for (let i = 0; i < sections.length; i++) {
-				this.processRecipeBlock(sections[i], body);
-			}
-		});
+		if (name === 'src') {
+			getStats(newValue.replace(' ', '_')).then((value) => {
+				let sections = this.hasAttribute('usedIn') ? value.UsedIn : value.Recipes;
+				this.textContent = '';
+				let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
+				let head = table.createChild('thead');
+				let row = head.createChild('tr');
+				row.createChild('th', 'Result');
+				row.createChild('th', 'Ingredients', ['class', 'middle']);
+				row.createChild('th').createChild('a', 'Crafting Station', ['href', 'https://terraria.wiki.gg/wiki/Crafting_stations']);
+				
+				let body = table.createChild('tbody');
+				for (let i = 0; i < sections.length; i++) {
+					this.processRecipeBlock(sections[i], body);
+				}
+			});
+		}
 	}
 	processRecipeBlock(data, body){
 		let stations = '<a href="https://terraria.wiki.gg/wiki/By_Hand">By Hand</a>';
