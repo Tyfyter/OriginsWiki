@@ -16,6 +16,21 @@
   "Rarity": "Blue",
   "Sell": 9999,
   "Source": "(9) <a is=a-link image=$fromStats>Sanguinite Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nineball</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Nineball"
 }

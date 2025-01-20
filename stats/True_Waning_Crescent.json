@@ -15,6 +15,41 @@
   "Rarity": "Yellow",
   "Sell": 5000,
   "Source": "(20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Fright>Soul of Fright</a> + (20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Might>Soul of Might</a> + (20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Sight>Soul of Sight</a> + <a is=a-link image=$fromStats>Waning Crescent</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>True Waning Crescent</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Fright\">Soul of Fright</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Sight\">Soul of Sight</a> (20)",
+            "<a is=a-link image=$fromStats>Waning Crescent</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Terrarang</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Broken_Hero_Sword\">Broken Hero Sword</a>",
+            "<a is=a-link image=$fromStats>True Light Disc</a>",
+            "<a is=a-link image=$fromStats>True Waning Crescent</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "True_Waning_Crescent"
 }

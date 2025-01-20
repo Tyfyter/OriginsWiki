@@ -12,6 +12,82 @@
   "Rarity": "LightRed",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Wall_of_Flesh>Wall of Flesh</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Wall_of_Flesh)\">Treasure Bag (Wall of Flesh)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wall_of_Flesh\">Wall of Flesh</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Exploder Emblem</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Summoner_Emblem\">Summoner Emblem</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Avenger_Emblem\">Avenger Emblem</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Fright\">Soul of Fright</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Sight\">Soul of Sight</a> (5)",
+            "<a is=a-link image=$fromStats>Exploder Emblem</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Warrior_Emblem\">Warrior Emblem</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Exploder Emblem</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Exploder_Emblem"
 }

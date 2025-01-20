@@ -18,6 +18,24 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+7<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>+15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hibernal Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (7)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Hibernal_Incantation"
 }

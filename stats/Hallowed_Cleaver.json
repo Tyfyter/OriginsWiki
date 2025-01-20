@@ -15,6 +15,39 @@
   "Tooltip": "'Crude and dangerous'",
   "Rarity": "Pink",
   "Sell": 40000,
+  "Source": "13<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Bar\">Hallowed Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hallowed Cleaver</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Bar\">Hallowed Bar</a> (13)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Boomphracken</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a> (2)",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (8)",
+            "<a is=a-link image=$fromStats>Hallowed Cleaver</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 92,
   "InternalName": "Hallowed_Cleaver"
 }

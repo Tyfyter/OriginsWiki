@@ -11,6 +11,45 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Undead_Miner>Undead Miner</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Undead_Miner\">Undead Miner</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Danger Barrel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a>",
+            "<a is=a-link image=$fromStats>I-WTPA Standard</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "IWTPA_Standard"
 }

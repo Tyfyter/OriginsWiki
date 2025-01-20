@@ -11,6 +11,22 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "6<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Door</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 18,
   "InternalName": "Endowood_Door_Item",
   "Images": [

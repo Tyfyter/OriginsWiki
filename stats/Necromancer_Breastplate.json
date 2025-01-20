@@ -14,6 +14,24 @@
   ],
   "Rarity": "Yellow",
   "Sell": 50000,
+  "Source": "24<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>+7<a is=a-link image=$fromStats imageOnly>Black Bile</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Necromancer Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
+            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Necromancer_Breastplate"
 }

@@ -15,6 +15,83 @@
   "Rarity": "Blue",
   "Sell": 4000,
   "Source": "(9) <a is=a-link image=$fromStats>Defiled Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Krakram</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Waning Crescent</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/DarkSpiral\" href=Recipe_Groups>Any Evil Boomerang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flamarang\">Flamarang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorn_Chakram\">Thorn Chakram</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Trimarang\">Trimarang</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Krakram"
 }

@@ -12,6 +12,51 @@
   ],
   "Rarity": "Orange",
   "Sell": 2000,
+  "Source": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.05263158,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.05263158,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.05263158,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Krunch_Mix"
 }

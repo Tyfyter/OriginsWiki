@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Harmony_Brick_Wall_Item",
   "Name": "Harmony Brick Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

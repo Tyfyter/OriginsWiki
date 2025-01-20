@@ -6,6 +6,68 @@
   ],
   "Rarity": "White",
   "Sell": 18,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Silicon Bar</a>+9<a is=a-link image=$fromStats imageOnly>Tree Sap</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Adhesive Wrap</a> (9)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silicon Bar</a>",
+            "<a is=a-link image=$fromStats>Tree Sap</a> (9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adhesive_Bandage\">Adhesive Bandage</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glowing_Mushroom\">Glowing Mushroom</a> (3)",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>2-in-1 Shotty</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a> (2)",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>3-in-1 Shotty</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a> (3)",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>3-in-1 Shotty</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a>",
+            "<a is=a-link image=$fromStats>2-in-1 Shotty</a>",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Adhesive_Wrap"
 }

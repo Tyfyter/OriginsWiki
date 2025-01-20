@@ -11,6 +11,122 @@
   "Rarity": "Blue",
   "Sell": 15000,
   "Source": "<a is=a-link image=$fromStats>Defiled Fissure</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dim Starlight</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+            "<a is=a-link image=$fromStats>Wilting Rose</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dim Starlight</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Celestial Starlight</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Magnet\">Celestial Magnet</a>",
+            "<a is=a-link image=$fromStats>Dim Starlight</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Swiftness_Potion\">Swiftness Potion</a>",
+            "<a is=a-link image=$fromStats>Dim Starlight</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Powerflower</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Flower\">Mana Flower</a>",
+            "<a is=a-link image=$fromStats>Dim Starlight</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dim Starlight</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Dim_Starlight"
 }

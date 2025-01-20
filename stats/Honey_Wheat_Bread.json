@@ -12,6 +12,23 @@
   ],
   "Rarity": "Blue",
   "Sell": 1000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Honey\">Bottled Honey</a>+<a is=a-link image=$fromStats imageOnly>Bread</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Honey Wheat Bread</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Honey\">Bottled Honey</a>",
+            "<a is=a-link image=$fromStats>Bread</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Honey_Wheat_Bread"
 }

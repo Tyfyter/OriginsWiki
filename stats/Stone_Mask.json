@@ -16,6 +16,22 @@
   "Rarity": "Blue",
   "Sell": 100000,
   "Source": "Found anywhere on the <a is=a-link href=https://terraria.wiki.gg/wiki/Layers#Surface>Surface</a> of the world",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Celestial Stone Mask</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Stone\">Celestial Stone</a>",
+            "<a is=a-link image=$fromStats>Stone Mask</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Stone_Mask",
   "Images": [

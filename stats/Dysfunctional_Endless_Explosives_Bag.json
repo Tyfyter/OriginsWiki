@@ -11,6 +11,36 @@
   "Rarity": "Gray",
   "Sell": 30000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Skeleton_Merchant>Skeleton Merchant</a> (dropped)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dysfunctional Endless Explosives Bag</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Quiver\">Magic Quiver</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Quiver\">Magic Quiver</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dysfunctional Endless Explosives Bag</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Dysfunctional_Endless_Explosives_Bag"
 }

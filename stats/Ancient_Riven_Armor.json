@@ -14,7 +14,7 @@
     "ArmorSets/Ancient_Riven_Armor_Female"
   ],
   "Defense": 19,
-  "SetBonus": "",
+  "SetBonus": "+10% applied torn severity",
   "Rarity": "Blue",
   "Sell": 24000
 }

@@ -11,6 +11,24 @@
   "Tooltip": "-34% self-damage",
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Source": "12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a>+3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+36<a is=a-link image=$fromStats imageOnly>Carburite</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amber Exploder Resin</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (36)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Amber_Breastplate"
 }

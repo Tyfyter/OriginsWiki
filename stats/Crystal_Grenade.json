@@ -18,6 +18,23 @@
   "Tooltip": "Explodes into several crystal shards",
   "Rarity": "LightRed",
   "Sell": 210,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>+8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Crystal Grenade</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Crystal_Grenade"
 }

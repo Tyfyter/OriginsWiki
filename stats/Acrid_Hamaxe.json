@@ -15,6 +15,22 @@
   "Tooltip": "Increased mining speed when submerged",
   "Rarity": "LightRed",
   "Sell": 40000,
+  "Source": "20<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Acrid Hamaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 48,
   "InternalName": "Acrid_Hamaxe"
 }

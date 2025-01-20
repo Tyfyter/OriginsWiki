@@ -14,6 +14,21 @@
   "Rarity": "Blue",
   "Sell": 4000,
   "Source": "(10) <a is=a-link image=$fromStats>Defiled Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Spiker Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 52,
   "InternalName": "Spiker_Sword"
 }

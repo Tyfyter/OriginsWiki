@@ -15,7 +15,32 @@
   ],
   "Rarity": "Orange",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Brain_of_Cthulhu>Brain of Cthulhu</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Brain_of_Cthulhu>Brain of Cthulhu</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master_Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Control Locus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+            "<a is=a-link image=$fromStats>Weakpoint Analyzer</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 42,
   "InternalName": "Weakpoint_Analyzer"
 }

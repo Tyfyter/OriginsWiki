@@ -10,6 +10,7 @@
   ],
   "Rarity": "Green",
   "Sell": 10000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Merchant\">Merchant</a> (<a-coins>50000</a-coins>After completing \"The Greatest Sin of All, Gambling\")",
   "SpriteWidth": 22,
   "InternalName": "Lottery_Ticket"
 }

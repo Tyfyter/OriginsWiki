@@ -13,6 +13,59 @@
   "Tooltip": "Reduces explosive self-damage by 20%",
   "Rarity": "LightRed",
   "Sell": 10000,
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a>+20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Plate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Power Core</a> (2)",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Guards</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Helmet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Blast_Resistant_Plate"
 }

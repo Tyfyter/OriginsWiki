@@ -13,7 +13,81 @@
   ],
   "Rarity": "Green",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats>Asylum Whistle</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest#Dungeon>Locked Gold Chest</a> | <a is=a-link href=https://terraria.wiki.gg/wiki/Obsidian_Lock_Box>Obsidian Lock Box</a>",
+  "Source": "<a is=a-link image=$fromStats>Asylum Whistle</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest#Dungeon>Locked Gold Chest</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
+      "Rate": 0.09090909,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bomb Handling Device</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Asylum Whistle</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Destructive Claws</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feral_Claws\">Feral Claws</a>",
+            "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Pneumatic Bomb Thrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Air Tank</a>",
+            "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Asylum Whistle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Bomb_Handling_Device"
 }

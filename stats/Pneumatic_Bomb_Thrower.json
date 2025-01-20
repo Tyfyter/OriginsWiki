@@ -14,6 +14,23 @@
   ],
   "Rarity": "LightRed",
   "Sell": 30000,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Air Tank</a>+<a is=a-link image=$fromStats imageOnly>Bomb Handling Device</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Pneumatic Bomb Thrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Air Tank</a>",
+            "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Pneumatic_Bomb_Thrower"
 }

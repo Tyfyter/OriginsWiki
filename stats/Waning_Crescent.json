@@ -14,6 +14,42 @@
   "Rarity": "Orange",
   "Sell": 5000,
   "Source": "<a is=a-link href=Recipes.html>Any Evil Boomerang</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Flamarang>Flamarang</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Thorn_Chakram>Thorn Chakram</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Trimarang>Trimarang</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Altars>Any Altar</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Waning Crescent</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/DarkSpiral\" href=Recipe_Groups>Any Evil Boomerang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flamarang\">Flamarang</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorn_Chakram\">Thorn Chakram</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Trimarang\">Trimarang</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>True Waning Crescent</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Fright\">Soul of Fright</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Sight\">Soul of Sight</a> (20)",
+            "<a is=a-link image=$fromStats>Waning Crescent</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Waning_Crescent"
 }

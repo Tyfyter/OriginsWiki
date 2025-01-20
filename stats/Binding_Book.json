@@ -19,6 +19,38 @@
   "Rarity": "LightPurple",
   "Sell": 52000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Cuffs>Celestial Cuffs</a> + <a is=a-link image=$fromStats>Refactoring Pieces</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Binding Book</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Cuffs\">Celestial Cuffs</a>",
+            "<a is=a-link image=$fromStats>Refactoring Pieces</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Abyssal Anchor</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Binding Book</a>",
+            "<a is=a-link image=$fromStats>Celestial Stone Mask</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 38,
   "InternalName": "Binding_Book"
 }

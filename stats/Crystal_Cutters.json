@@ -15,6 +15,23 @@
   "Rarity": "LightRed",
   "Sell": 2000,
   "Source": "(14) <a is=a-link href=https://terraria.wiki.gg/wiki/Crystal_Shard>Crystal Shard</a> + (5) <a is=a-link image=$fromStats>Magic Hair Spray</a> + (4) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Crystal Cutters</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (14)",
+            "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+            "<a is=a-link image=$fromStats>Rubber</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Crystal_Cutters"
 }

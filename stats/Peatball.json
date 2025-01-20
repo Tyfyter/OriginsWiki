@@ -15,6 +15,47 @@
   "Velocity": 7.0,
   "Rarity": "Blue",
   "Sell": 75,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Peat Moss</a><div class=divider></div>4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coal\">Coal</a>(@<a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>375</a-coins>After selling 15 peat moss to the Demolitionist)",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Peatball</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Peat Moss</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Peatball</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coal\">Coal</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coal\">Coal</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Peatball</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Peatball"
 }

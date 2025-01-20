@@ -11,6 +11,46 @@
   "Rarity": "Orange",
   "Sell": 20000,
   "Source": "<a is=a-link image=$fromStats>World Cracker</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Handy Helper</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Vial</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Power_Glove\">Power Glove</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>",
+        "on April Fools' day"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Handy Helper</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Power_Glove\">Power Glove</a> (2)",
+            "<a is=a-link image=$fromStats>Amebic Vial</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Amebic_Vial"
 }

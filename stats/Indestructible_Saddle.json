@@ -16,6 +16,7 @@
   "Tooltip": "Saddle up for one wild ride",
   "Rarity": "Pink",
   "Sell": 200000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000000</a-coins>After selling 250 peat moss to the Demolitionist, After defeating any mechanical boss)",
   "SpriteWidth": 46,
   "InternalName": "Indestructible_Saddle"
 }

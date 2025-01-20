@@ -11,6 +11,29 @@
   "Rarity": "LightRed",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Angler_Fish>Angler Fish</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angler_Fish\">Angler Fish</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angler_Fish\">Angler Fish</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angler_Fish\">Angler Fish</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Rebreather"
 }

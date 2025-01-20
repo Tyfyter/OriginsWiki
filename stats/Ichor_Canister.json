@@ -13,6 +13,23 @@
   "Tooltip": "Inflicts ichor to anything nearby upon impact",
   "Rarity": "LightRed",
   "Sell": 302,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ichor\">Ichor</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ichor Canister</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ichor\">Ichor</a>",
+            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Ichor_Canister"
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,64 +10,25 @@
 		<article id="content">
 			<h1>Chambersite Gemspark</h1>
 			<div class="divider"></div>
-			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Chambersite_Gemspark></a-statblock>
+				<a-statblock src="Chambersite_Gemspark"></a-statblock>
 			</span>
 			<span id="error-log"></span>
-
 			<p>
 				The <b>Chambersite Gemspark</b> is a type of <a is="a-link" href="https://terraria.wiki.gg/wiki/Gemspark_Blocks">gemspark</a> <a is="a-link" href="Blocks.html">block</a> crafted from <a is="a-link" href="https://terraria.wiki.gg/wiki/Glass">Glass</a> and <a is="a-link">Chambersite</a>.
 				Like the others, it glows in the dark, which is additionally toggleable using <a is="a-link" href="https://terraria.wiki.gg/wiki/Wire">wires</a>.
 				If a <a is="a-link" href="https://terraria.wiki.gg/wiki/Liquidfalls">waterfall</a> passes through a Chambersite Gemspark, it will color it and cause it to glow while it is active.
 			</p>
-
 			<div>
 				<details class="section" id="Crafting" open>
 					<summary>Crafting<span class="divider"></span></summary>
 					<p><b>Recipes</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link">Work Benches</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Gemspark_Item">Chambersite Gemspark</a>(20)',
-					ingredients:[
-					'<a is="a-link" href="https://terraria.wiki.gg/wiki/Glass">Glass</a>(20)',
-					'<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Item">Chambersite</a>'
-					]
-					},
-					{
-					result:'<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Gemspark_Item">Chambersite Gemspark</a>',
-					ingredients:[
-					'<a is="a-link" image="§ModImage§/Walls/Chambersite_Gemspark_Wall_Item">Chambersite Gemspark Wall</a>(4)'
-					]
-					}
-					]
-					}
-					</a-recipes>
-
+					<a-recipes src="Chambersite_Gemspark"></a-recipes>
 					<p><b>Used In</b></p>
 					<div class="divider"></div>
-					<a-recipes>
-					{
-					stations:[
-					'<a is="a-link">Work Benches</a>'
-					],
-					items:[
-					{
-					result:'<a is="a-link" image="§ModImage§/Walls/Chambersite_Gemspark_Wall_Item">Chambersite Gemspark Wall</a>(4)',
-					ingredients:[
-					'<a is="a-link" image="§ModImage§/Tiles/Other/Chambersite_Gemspark_Item">Chambersite Gemspark</a>'
-					]
-					}
-					]
-					}
-					</a-recipes>
+					<a-recipes src="Chambersite_Gemspark" usedIn></a-recipes>
 				</details>
 			</div>
 		</article>

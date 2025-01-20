@@ -2,6 +2,7 @@
   "Name": "Sanguinite Bar",
   "Types": [
     "Item",
+    "Bar",
     "Tile"
   ],
   "PlacementSize": [
@@ -11,6 +12,97 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "3<a is=a-link image=$fromStats imageOnly>Sanguinite Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (20)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (15)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>C6 Jackhammer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (5)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Miter Saw</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Piledriver</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (6)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nineball</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Orbital Saw</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Outreach</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (5)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Switchblade</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Sanguinite_Bar",
   "Images": [

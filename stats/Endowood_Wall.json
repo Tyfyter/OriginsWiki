@@ -2,10 +2,66 @@
   "Image": "§ModImage§/Walls/Endowood_Wall_Item",
   "Name": "Endowood Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (7)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Endowood_Wall_Item"
 }

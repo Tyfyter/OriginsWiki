@@ -11,6 +11,16 @@
   "Tooltip": "Summons a Juvenile Amalgamation to watch over your nasal cavity",
   "Rarity": "Master",
   "Sell": 50000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Blockus_Tube",
   "Pet": {

@@ -18,6 +18,23 @@
   "Tooltip": "Explodes into brine droplets",
   "Rarity": "LightRed",
   "Sell": 100,
+  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>+<a is=a-link image=$fromStats imageOnly>Bottled Brine</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>500</a-coins>After selling 200 peat moss to the Demolitionist, In hardmode)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Grenade</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (8)",
+            "<a is=a-link image=$fromStats>Bottled Brine</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Alkaline_Grenade"
 }

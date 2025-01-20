@@ -11,6 +11,56 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
+  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a>+<a is=a-link image=$fromStats imageOnly>Chambersite</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Offline Chambersite Gemspark Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Chambersite Gemspark Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite Gemspark</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a> (20)",
+            "<a is=a-link image=$fromStats>Chambersite</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite Gemspark</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Offline Chambersite Gemspark Wall</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite Gemspark</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chambersite Gemspark Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Offline Chambersite Gemspark Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chambersite Gemspark</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite Gemspark Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chambersite Gemspark</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Chambersite_Gemspark_Item",
   "Images": [

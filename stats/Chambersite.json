@@ -13,6 +13,51 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 1300,
+  "Source": "16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>(@<a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (16)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chambersite Gemspark</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a> (20)",
+            "<a is=a-link image=$fromStats>Chambersite</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (16)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chambersite</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 18,
   "InternalName": "Chambersite_Item",
   "Images": [

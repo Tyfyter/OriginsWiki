@@ -9,6 +9,36 @@
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
   "Sell": 400,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Jelly Schnapps</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>",
+            "<a is=a-link image=$fromStats>Pawpaw</a>",
+            "<a is=a-link image=$fromStats>Periven</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ambrosia\">Ambrosia</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Pawpaw</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Pawpaw"
 }

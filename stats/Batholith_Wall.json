@@ -2,10 +2,55 @@
   "Image": "§ModImage§/Walls/Batholith_Wall_Item",
   "Name": "Batholith Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Batholith</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Batholith Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Batholith</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith Wall</a> (4)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Batholith Firewall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Batholith_Wall_Safe_Item"
 }

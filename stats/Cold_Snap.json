@@ -20,6 +20,23 @@
   ],
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Cold Snap</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (30)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 50,
   "InternalName": "Cold_Snap"
 }

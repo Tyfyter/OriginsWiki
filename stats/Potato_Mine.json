@@ -21,6 +21,20 @@
   ],
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Potato Mine</a> (150)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> (15)",
+            "<a is=a-link image=$fromStats>Potato</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Potato_Mine",
   "Images": [

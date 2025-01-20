@@ -22,6 +22,37 @@
   ],
   "Rarity": "Yellow",
   "Sell": 200000,
+  "Source": "<a is=a-link image=$fromStats>Missing File</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Breach</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Missing File</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Missing File</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Breach</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Breach"
 }

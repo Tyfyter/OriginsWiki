@@ -10,6 +10,23 @@
   "Tooltip": "+6% critical strike chance",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+28<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tendon Shirt</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (28)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Tendon_Shirt"
 }

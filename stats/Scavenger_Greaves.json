@@ -10,6 +10,23 @@
   "Tooltip": "+15% explosive velocity",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "22<a is=a-link image=$fromStats imageOnly>Biocomponent 10</a>+14<a is=a-link image=$fromStats imageOnly>Sanguinite Ore</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (22)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (14)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Scavenger_Greaves"
 }

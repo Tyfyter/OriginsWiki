@@ -3,15 +3,71 @@
   "Types": [
     "Item",
     "Ore",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
   "PlacementSize": [
     1,
     1
   ],
   "UseTime": 10,
-  "Rarity": "White",
+  "Rarity": "Blue",
   "Sell": 44,
+  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div>3<a is=a-link image=$fromStats imageOnly>Defiled Sand</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div>3<a is=a-link image=$fromStats imageOnly>Silica</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Sand</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silica</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silicon Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 4,
   "SpriteWidth": 16,
   "InternalName": "Silicon_Ore_Item",

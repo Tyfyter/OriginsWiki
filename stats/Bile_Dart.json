@@ -14,6 +14,19 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 6,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Black Bile</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bile Dart</a> (100)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Black Bile</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Bile_Dart"
 }

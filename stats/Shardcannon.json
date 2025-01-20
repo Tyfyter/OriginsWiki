@@ -13,6 +13,7 @@
   "Velocity": 6.5,
   "Rarity": "Green",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Arms_Dealer\">Arms Dealer</a> (<a-coins>100000</a-coins>After completing \"Live Fire\")",
   "SpriteWidth": 46,
   "InternalName": "Shardcannon"
 }

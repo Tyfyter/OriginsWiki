@@ -16,6 +16,30 @@
   "Tooltip": "Fires an arcing star-shot that explodes on impact",
   "Rarity": "LightRed",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wyvern\">Wyvern</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wyvern\">Wyvern</a>",
+      "Rate": 0.083333336,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wyvern\">Wyvern</a>",
+      "Rate": 0.083333336,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wyvern\">Wyvern</a>",
+      "Rate": 0.083333336,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Startillery"
 }

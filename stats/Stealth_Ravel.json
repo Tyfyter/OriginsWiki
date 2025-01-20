@@ -7,6 +7,7 @@
     "Accessory",
     "Hardmode"
   ],
+  "UseTime": 20,
   "Tooltip": [
     "Double tap down to transform into a small, rolling ball",
     "Enemies are much less likely to target you when raveled"
@@ -14,6 +15,38 @@
   "Rarity": "Pink",
   "Sell": 60000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Putrid_Scent>Putrid Scent</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Stealth Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Putrid_Scent\">Putrid Scent</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ninja Ravel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Spider Ravel</a>",
+            "<a is=a-link image=$fromStats>Stealth Ravel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Stealth_Ravel"
 }

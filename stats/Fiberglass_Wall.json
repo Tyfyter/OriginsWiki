@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Walls/Fiberglass_Wall_Item",
   "Name": "Fiberglass Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",

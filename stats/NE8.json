@@ -6,6 +6,117 @@
   ],
   "Rarity": "Blue",
   "Sell": 150,
+  "Source": "<a is=a-link image=$fromStats>Riven Carapace</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>NE8</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Carapace</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (20)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (15)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ashen Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>C6 Jackhammer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (5)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Piledriver</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (6)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>Scrap</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Flare Launcher</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flare_Gun\">Flare Gun</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Outreach</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (5)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Void Lock</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (7)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "NE8"
 }

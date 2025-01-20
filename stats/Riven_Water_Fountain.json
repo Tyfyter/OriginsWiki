@@ -12,6 +12,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 8000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Witch_Doctor\">Witch Doctor</a> (<a-coins>40000</a-coins>)",
   "SpriteWidth": 22,
   "InternalName": "Riven_Fountain_Item",
   "Images": [

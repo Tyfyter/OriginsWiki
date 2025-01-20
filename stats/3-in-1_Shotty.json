@@ -13,6 +13,31 @@
   "Velocity": 5.35,
   "Rarity": "Green",
   "Sell": 60000,
+  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a>+9<a is=a-link image=$fromStats imageOnly>Adhesive Wrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a>+<a is=a-link image=$fromStats imageOnly>2-in-1 Shotty</a>+3<a is=a-link image=$fromStats imageOnly>Adhesive Wrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>3-in-1 Shotty</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a> (3)",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>3-in-1 Shotty</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a>",
+            "<a is=a-link image=$fromStats>2-in-1 Shotty</a>",
+            "<a is=a-link image=$fromStats>Adhesive Wrap</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 52,
   "InternalName": "Shotty_x3"
 }

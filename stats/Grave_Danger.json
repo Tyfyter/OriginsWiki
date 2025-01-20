@@ -12,6 +12,29 @@
   "Rarity": "LightRed",
   "Sell": 20000,
   "Source": "2.5% chance of being dropped by enemies spawned in the <a is=a-link href=https://terraria.wiki.gg/wiki/Graveyard>Graveyard</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Grave_Danger"
 }

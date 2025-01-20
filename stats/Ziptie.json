@@ -15,6 +15,30 @@
   "Tooltip": "Striking three or more enemies at the same time briefly inflicts rasterized and increases attack speed",
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 44,
   "InternalName": "Ziptie"
 }

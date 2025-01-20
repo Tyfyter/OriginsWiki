@@ -7,10 +7,73 @@
     "Accessory",
     "Hardmode"
   ],
+  "UseTime": 20,
   "Tooltip": "Double tap down to transform into a small, rolling ball",
   "Rarity": "Pink",
   "Sell": 50000,
   "Source": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mimic</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dash Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tabi\">Tabi</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Depth Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Arctic_Diving_Gear\">Arctic Diving Gear</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Spider Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobweb\">Cobweb</a> (270)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spider_Fang\">Spider Fang</a> (50)",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stealth Ravel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Putrid_Scent\">Putrid Scent</a>",
+            "<a is=a-link image=$fromStats>Ravel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Ravel"
 }

@@ -12,6 +12,23 @@
   ],
   "Rarity": "Green",
   "Sell": 1000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl_of_Soup\">Bowl of Soup</a>+10<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soul Spaghetti</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl_of_Soup\">Bowl of Soup</a>",
+            "<a is=a-link image=$fromStats>Strange String</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Soul_Spaghetti"
 }

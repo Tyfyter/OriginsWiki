@@ -20,6 +20,33 @@
   ],
   "Rarity": "Lime",
   "Sell": 70000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Tortoise\">Giant Tortoise</a> Found after defeating Plantera",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Tortoise\">Giant Tortoise</a>",
+      "Rate": 0.05882353,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal",
+      "Notes": "Found after defeating Plantera"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Tortoise\">Giant Tortoise</a>",
+      "Rate": 0.05882353,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": "Found after defeating Plantera"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Tortoise\">Giant Tortoise</a>",
+      "Rate": 0.05882353,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": "Found after defeating Plantera"
+    }
+  ],
   "SpriteWidth": 74,
   "InternalName": "Rocodile"
 }

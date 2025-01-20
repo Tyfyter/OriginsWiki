@@ -12,6 +12,23 @@
   "Tooltip": "Releases napalm after landing",
   "Rarity": "Orange",
   "Sell": 302,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Napalm Canister</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a>",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Napalm_Canister"
 }

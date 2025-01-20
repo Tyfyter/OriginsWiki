@@ -3,7 +3,8 @@
   "Types": [
     "Item",
     "Ore",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
   "PlacementSize": [
     1,
@@ -11,7 +12,141 @@
   ],
   "UseTime": 10,
   "Rarity": "Blue",
-  "Sell": 1300,
+  "Sell": 1500,
+  "Source": "<a is=a-link image=$fromStats>Lost Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Riven Hive<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Riven Hive<div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Expert",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Master",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": ", Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Normal"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Coat</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (28)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (16)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a> (22)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (14)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Ore</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 5,
   "PickReq": 55,
   "SpriteWidth": 16,

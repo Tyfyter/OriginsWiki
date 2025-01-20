@@ -15,6 +15,22 @@
   "Rarity": "Green",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Treasure_Magnet>Treasure Magnet</a> + <a is=a-link image=$fromStats>Turbo Reel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Boomerang Magnet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Magnet\">Treasure Magnet</a>",
+            "<a is=a-link image=$fromStats>Turbo Reel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Boomerang_Magnet"
 }

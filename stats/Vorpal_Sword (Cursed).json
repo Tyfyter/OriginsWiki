@@ -20,6 +20,52 @@
   ],
   "Rarity": "Cursed",
   "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Vorpal Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Vorpal Sword</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 58,
   "InternalName": "Vorpal_Sword_Cursed"
 }

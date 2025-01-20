@@ -11,6 +11,23 @@
   "Tooltip": "15% increased movement speed",
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Pants\">Obsidian Pants</a>+3<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bleeding Obsidian Chaps</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Pants\">Obsidian Pants</a>",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Bleeding_Obsidian_Greaves"
 }

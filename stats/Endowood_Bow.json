@@ -13,6 +13,27 @@
   "Rarity": "White",
   "Sell": 20,
   "Source": "(10) <a is=a-link image=$fromStats>Endowood</a> @ <a is=a-link>Work Benches</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Endowood_Bow"
 }

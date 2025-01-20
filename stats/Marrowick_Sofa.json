@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "5<a is=a-link image=$fromStats imageOnly>Marrowick</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Sofa</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Marrowick_Sofa_Item",
   "Images": [

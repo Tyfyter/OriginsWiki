@@ -10,9 +10,39 @@
   "Knockback": 3.0,
   "UseTime": 15,
   "Velocity": 9.0,
-  "Tooltip": "Spreads the Riven to some blocks",
+  "Tooltip": "Spreads the Riven Hive to some blocks",
   "Rarity": "Orange",
   "Sell": 20,
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+<a is=a-link image=$fromStats imageOnly>Riven Seeds</a>+<a is=a-link image=$fromStats imageOnly>Silica</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Gooey Water</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Seeds</a>",
+            "<a is=a-link image=$fromStats>Silica</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amoeba Fluid</a> (10)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gooey Water</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Gooey_Water"
 }

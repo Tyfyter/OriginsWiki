@@ -44,6 +44,10 @@
     "name":"tile",
     "items":"Types<Tile"
   },
+  "wall":{
+    "name":"wall",
+    "items":"Types<Wall"
+  },
   "accessories":{
     "name":"accessories",
     "items":"Types<Accessory"
@@ -210,6 +214,10 @@
   "expendabletool":{
     "name":"Expendable tools",
     "items":"Types<ExpendableTool"
+  },
+  "tools":{
+    "name":"Tools",
+    "items":"Types<Tool"
   },
   "permaboost":{
     "name":"Permanent Boosters",

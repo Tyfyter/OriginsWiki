@@ -16,6 +16,45 @@
   "Rarity": "LightPurple",
   "Sell": 40000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Star_Veil>Star Veil</a> + <a is=a-link image=$fromStats>Locket Necklace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Last Descendant</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Star_Veil\">Star Veil</a>",
+            "<a is=a-link image=$fromStats>Locket Necklace</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>CORE Generator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Last Descendant</a>",
+            "<a is=a-link image=$fromStats>Missile Armcannon</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Dryad's Inheritance</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Sac\">Spore Sac</a>",
+            "<a is=a-link image=$fromStats>Last Descendant</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Last_Descendant"
 }

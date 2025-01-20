@@ -17,6 +17,25 @@
   "Tooltip": "Somewhat unaffected by gravity",
   "Rarity": "Green",
   "Sell": 360,
+  "Source": "35<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+35<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Floaty Bomb</a> (35)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> (35)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (35)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Floaty_Bomb"
 }

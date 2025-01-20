@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "6<a is=a-link image=$fromStats imageOnly>Endowood</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Water_Bucket\">Water Bucket</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Sink</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Water_Bucket\">Water Bucket</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Endowood_Sink_Item",
   "Images": [

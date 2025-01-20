@@ -20,6 +20,46 @@
   ],
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "5<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+15<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.027027028,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.027027028,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
+      "Rate": 0.027027028,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Avulsion</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (5)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 44,
   "InternalName": "Avulsion"
 }

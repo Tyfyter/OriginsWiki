@@ -18,6 +18,23 @@
   "Tooltip": "Explodes into several crystal shards",
   "Rarity": "LightRed",
   "Sell": 500,
+  "Source": "4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Crystal Bomb</a> (4)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Crystal_Bomb"
 }

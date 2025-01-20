@@ -16,6 +16,20 @@
   "Tooltip": "Tenderizes the target",
   "Rarity": "Orange",
   "Sell": 7,
+  "Source": "150<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Bullet\">Empty Bullet</a>+<a is=a-link image=$fromStats imageOnly>Alkahest</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Bullet</a> (150)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Bullet\">Empty Bullet</a> (150)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 8,
   "InternalName": "Alkahest_Bullet"
 }

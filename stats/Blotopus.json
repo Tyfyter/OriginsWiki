@@ -18,6 +18,36 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Fishing>Fishing</a> in the <a is=a-link href=https://terraria.wiki.gg/wiki/The_Crimson>Crimson</a> <a is=a-link href=https://terraria.wiki.gg/wiki/Ocean>Ocean</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Blotopus</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Purple_Clubberfish\">Purple Clubberfish</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Manasynk</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Blotopus</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 64,
   "InternalName": "Blotopus"
 }

@@ -1,0 +1,16 @@
+{
+    "categories": [
+      "tools"
+    ],
+    "headers": [
+      "Name",
+      {"name":"Axe power", "expr":"item.AxePower ? item.AxePower + '%' : '-'", "noAbbr": true},
+      {"name":"Hammer power", "expr":"item.HammerPower ? item.HammerPower + '%' : '-'", "noAbbr": true},
+      "Damage",
+      {"name": "Bonus", "expr": "item.ReachBonus ? `${Intl.NumberFormat('en-US', {signDisplay:'always'}).format(item.ReachBonus)}` + ' range' : '-'", "noAbbr": true},
+      {"name": "Use Time", "expr":"item.UseTime", "noAbbr": true},
+      "Knockback",
+      { "name":"Obtainable pre-Hardmode", "expr":"item.Types.includes('Hardmode') ? '<abbr class=\\'stat-table-indicator\\' title=\\'not available pre-hardmode\\'>❌</abbr>' : '<abbr class=\\'stat-table-indicator\\' title=\\'available pre-hardmode\\'>✔️</abbr>'", "noAbbr": true},
+      "Rarity"
+    ]
+}

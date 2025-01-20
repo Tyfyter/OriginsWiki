@@ -15,6 +15,46 @@
   "Tooltip": "Uses scrap as ammo",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "10<a is=a-link image=$fromStats imageOnly>NE8</a>+15<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Broken Record</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>Scrap</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 54,
   "InternalName": "Ace_Shrapnel"
 }

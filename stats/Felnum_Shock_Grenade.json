@@ -18,6 +18,23 @@
   "Tooltip": "'Quite shocking'",
   "Rarity": "Green",
   "Sell": 70,
+  "Source": "6<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>+<a is=a-link image=$fromStats imageOnly>Felnum Ore</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Felnum Shock Grenade</a> (6)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (6)",
+            "<a is=a-link image=$fromStats>Felnum Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 12,
   "InternalName": "Felnum_Shock_Grenade"
 }

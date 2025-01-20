@@ -10,6 +10,115 @@
   "Rarity": "Blue",
   "Sell": 15000,
   "Source": "<a is=a-link image=$fromStats>Gel Blister</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Festering Crate</a>",
+      "Rate": 0.16666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Primordial Soup</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorns_Potion\">Thorns Potion</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Primordial Soup</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bug Trapper</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a>",
+            "<a is=a-link image=$fromStats>Primordial Soup</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Crystal\">Mana Crystal</a>",
+            "<a is=a-link image=$fromStats>Primordial Soup</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Primordial Soup</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Primordial_Soup"
 }

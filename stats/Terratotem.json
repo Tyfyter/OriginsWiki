@@ -17,6 +17,28 @@
   "Tooltip": "Summons a reformed soul to fight for you",
   "Rarity": "Yellow",
   "Sell": 200000,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Broken Terratotem</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Finch_Staff\">Finch Staff</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imp_Staff\">Imp Staff</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sanguine_Staff\">Sanguine Staff</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blade_Staff\">Blade Staff</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Optic_Staff\">Optic Staff</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tempest_Staff\">Tempest Staff</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Terratotem</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Broken Terratotem</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Finch_Staff\">Finch Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imp_Staff\">Imp Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sanguine_Staff\">Sanguine Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blade_Staff\">Blade Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Optic_Staff\">Optic Staff</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tempest_Staff\">Tempest Staff</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Terratotem"
 }

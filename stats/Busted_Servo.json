@@ -7,6 +7,257 @@
   ],
   "Rarity": "Pink",
   "Sell": 200,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Retinazer\">Retinazer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spazmatism\">Spazmatism</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron_Prime\">Skeletron Prime</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Destroyer\">The Destroyer</a>",
+      "Rate": 1.0,
+      "Max": 37,
+      "Min": 8,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Headphones</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (8)",
+            "<a is=a-link image=$fromStats>Fiberglass Block</a> (6)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rubber</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Plate</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Power Core</a> (2)",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Guards</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Blast Helmet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Mine Flayer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (30)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rotor</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nuclear Arm</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> (10)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (20)",
+            "<a is=a-link image=$fromStats>Power Core</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Omni-directional Claymore</a> (250)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> (7)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (13)",
+            "<a is=a-link image=$fromStats>Rotor</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Self-Destruct</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (15)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (28)",
+            "<a is=a-link image=$fromStats>Power Core</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Gun</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (15)",
+            "<a is=a-link image=$fromStats>Fiberglass Block</a> (18)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Pike of Deepneus</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/HellstoneBar\" href=Recipe_Groups>Any Underworld Bar</a> (16)",
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a> (16)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (14)",
+            "<a is=a-link image=$fromStats>Power Core</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Personal Laser Blade</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (13)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rotor</a> (2)",
+            "<a is=a-link image=$fromStats>Rubber</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Base Console</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (5)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Console</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (5)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Busted_Servo"
 }

@@ -10,6 +10,23 @@
   "Tooltip": "+10% ranged damage",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tendon Helmet</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (16)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Tendon_Helmet"
 }

@@ -10,6 +10,37 @@
   "Tooltip": "'This doesn't seem very protective'",
   "Rarity": "White",
   "Sell": 4500,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a><div class=divider></div><a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.6666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.6666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.6666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+      "Rate": 0.33333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Fiberglass_Helmet"
 }

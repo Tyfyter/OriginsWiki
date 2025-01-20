@@ -11,6 +11,55 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>500</a-coins>In a Graveyard biome, In hardmode and Not In worlds with Riven Hive)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>500</a-coins>During a Blood Moon and In worlds with Riven Hive)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Riven Hive<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Riven Hive",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": "Drops in worlds with Riven Hive"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal",
+      "Notes": ", Drops in worlds with Riven Hive"
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Gooey Water</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Seeds</a>",
+            "<a is=a-link image=$fromStats>Silica</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Riven_Grass_Seeds",
   "Images": [

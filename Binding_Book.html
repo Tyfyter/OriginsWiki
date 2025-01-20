@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 	<head>
-        <script src="afmlTags.js" defer></script>
+		<script src="afmlTags.js" defer></script>
 		<script src="automarkdown.js" defer></script>
 		<link rel="stylesheet" href="styling.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,67 +10,30 @@
 		<article id="content">
 			<h1>Binding Book</h1>
 			<div class="divider"></div>
-			
 			<span id="toc-and-stats">
 				<div id="table-of-contents"></div>
-				<a-statblock src=Binding_Book></a-statblock>
+				<a-statblock src="Binding_Book"></a-statblock>
 			</span>
 			<span id="error-log"></span>
-
 			<p>
 				The <b>Binding Book</b> is a <a is="a-link" href="https://terraria.wiki.gg/wiki/Pre-Hardmode">pre-Hardmode</a> <a is="a-link" href="Accessories.html">accessory</a> that is crafted with <a is="a-link" href="https://terraria.wiki.gg/wiki/Celestial_Cuffs">Celestial Cuffs</a> and <a is="a-link">Refactoring Pieces</a>.
 				While this is equipped, the player will have 10% increased <a is="a-link">mana shielding</a>, an increased <a is="a-link" href="https://terraria.wiki.gg/wiki/Items#Pickup">pickup range</a> for <a is="a-link" href="https://terraria.wiki.gg/wiki/Star">Stars</a> and an increased mana capacity by 20.
 				Additionally, if <a is="a-link">Lost armor</a> is not equipped, the player will also receive a 5% increase in <a is="a-link">damage reduction</a>.
 			</p>
-
-			<details open>
+			<details class="section" id="Crafting" open>
+				<summary>Crafting<span class="divider"></span></summary>
 				<p><b>Recipes</b></p>
 				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
-				],
-				items:[
-				{
-				result:'<a is="a-link" image="$fromStats">Binding Book</a>',
-				ingredients:[
-				'<a is="a-link" href="https://terraria.wiki.gg/wiki/Celestial_Cuffs">Celestial Cuffs</a>',
-				'<a is="a-link" image="Refactoring_Pieces">Refactoring Pieces</a>'
-				]
-				}
-				]
-				}
-				</a-recipes>
-
+				<a-recipes src="Binding_Book"></a-recipes>
 				<p><b>Used In</b></p>
 				<div class="divider"></div>
-				<a-recipes>
-				{
-				stations:[
-				`<a is="a-link" href="https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop">Tinkerer's Workshop</a>`
-				],
-				items:[
-				{
-				result:'<a is="a-link" image="$fromStats">Abyssal Anchor</a>',
-				ingredients:[
-				'<a is="a-link" image="$fromStats">Binding Book</a>',
-				'<a is="a-link" image="$fromStats">Celestial Stone Mask</a>'
-				]
-				}
-				]
-				}
-				</a-recipes>
+				<a-recipes src="Binding_Book" usedIn></a-recipes>
 			</details>
-
 			<details class="section" id="Notes" open>
 				<summary>Notes<span class="divider"></span></summary>
 				<p>
-					 - Binding Book's effect is stackable with other mana shielding boosts (see <a is="a-link" href="Item_Synergies#Mana_Shielding.html">item synergies</a>).<br>
-					 - Mana shielding takes into account the damage the player would have received with 0 defense and 0% damage reduction.<br>
-					This results in the proper amount of damage reduced from the attack, but an inefficiency in the mana consumed from it.
-					 - Whenever the player benefits from mana shielding, <a is="a-link">Mana Buffer</a> will be applied preventing any mana regeneration for 3.2 seconds.<br>
-					 - The Binding Book does not stack with <a is="a-link" href="https://terraria.wiki.gg/wiki/Magic_Cuffs">Magic Cuffs</a> or any of its variants for decreased mana consumption.
+					 - Binding Book's effect is stackable with other mana shielding boosts (see <a is="a-link" href="Item_Synergies#Mana_Shielding.html">item synergies</a>).<br> - Mana shielding takes into account the damage the player would have received with 0 defense and 0% damage reduction.<br>This results in the proper amount of damage reduced from the attack, but an inefficiency in the mana consumed from it.
+					 - Whenever the player benefits from mana shielding, <a is="a-link">Mana Buffer</a> will be applied preventing any mana regeneration for 3.2 seconds.<br> - The Binding Book does not stack with <a is="a-link" href="https://terraria.wiki.gg/wiki/Magic_Cuffs">Magic Cuffs</a> or any of its variants for decreased mana consumption.
 				</p>
 			</details>
 		</article>

@@ -2,6 +2,7 @@
   "Name": "Silicon Bar",
   "Types": [
     "Item",
+    "Bar",
     "Tile"
   ],
   "PlacementSize": [
@@ -11,6 +12,128 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 132,
+  "Source": "3<a is=a-link image=$fromStats imageOnly>Silicon Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silicon Ore</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Solar Panel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sun_Stone\">Sun Stone</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Adhesive Wrap</a> (9)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silicon Bar</a>",
+            "<a is=a-link image=$fromStats>Tree Sap</a> (9)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (15)",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Inner_Tube\">Inner Tube</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (20)",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rotor</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Bar\">Hallowed Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Silicon Bar</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Base Console</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (5)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Tag Console</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (5)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bleeding Obsidian Kunai</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (3)",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Silicon_Bar",
   "Images": [

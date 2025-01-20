@@ -14,6 +14,45 @@
   "Rarity": "Orange",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Panic_Necklace>Panic Necklace</a> + <a is=a-link image=$fromStats>Comb</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Locket Necklace</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a>",
+            "<a is=a-link image=$fromStats>Comb</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Last Descendant</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Star_Veil\">Star Veil</a>",
+            "<a is=a-link image=$fromStats>Locket Necklace</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lover's Leap</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spectre_Boots\">Spectre Boots</a>",
+            "<a is=a-link image=$fromStats>Locket Necklace</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Locket_Necklace"
 }

@@ -10,6 +10,51 @@
   "Tooltip": "6% increased weapon speed",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "15<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+10<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Riven Mask</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (15)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ancient Riven Mask</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Riven Mask</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Mask</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Riven_Mask"
 }

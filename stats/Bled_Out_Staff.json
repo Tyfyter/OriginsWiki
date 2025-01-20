@@ -15,6 +15,23 @@
   "Velocity": 9.0,
   "Rarity": "Pink",
   "Sell": 8000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Staff\">Amber Staff</a>+6<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bled Out Staff</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AmberStaff\" href=Recipe_Groups>Any Gem Staff</a>",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (6)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 44,
   "InternalName": "Bled_Out_Staff"
 }

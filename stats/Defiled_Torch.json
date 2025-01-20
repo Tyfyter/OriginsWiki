@@ -13,6 +13,60 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
+  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Gray Ice</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Defiled Stone</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Gray Ice</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Defiled Stone</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Torch</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Aether_Torch\">Aether Torch</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Torch</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "LightIntensity": "70%",
   "LightColor": [
     0.7,

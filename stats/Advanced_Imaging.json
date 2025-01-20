@@ -15,6 +15,22 @@
   "Rarity": "Yellow",
   "Sell": 50000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Cyborg>Cyborg</a> (<a-coins>250000</a-coins>)",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sonar Visor</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ultrabright_Helmet\">Ultrabright Helmet</a>",
+            "<a is=a-link image=$fromStats>Advanced Imaging</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Advanced_Imaging"
 }

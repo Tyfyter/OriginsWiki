@@ -2,10 +2,55 @@
   "Image": "§ModImage§/Walls/Amebic_Gel_Wall_Item",
   "Name": "Amebic Gel Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Amoeba Fluid</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amebic Gel Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amoeba Fluid</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amoeba Fluid</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Gel Wall</a> (4)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Moist Amebic Gel Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Gel Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Amebic_Gel_Wall_Safe_Item"
 }

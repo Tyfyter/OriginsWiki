@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
+  "Source": "8<a is=a-link image=$fromStats imageOnly>Marrowick</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Chest</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Marrowick_Chest_Item",
   "Images": [

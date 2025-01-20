@@ -13,6 +13,29 @@
   "Rarity": "Blue",
   "Sell": 6000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Fishing>Fishing</a> in the <a is=a-link href=https://terraria.wiki.gg/wiki/Jungle>Jungle</a>",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Haggard Artery</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Explosive Artery</a>",
+            "<a is=a-link image=$fromStats>Messy Leech</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Messy Magma Leech</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a>",
+            "<a is=a-link image=$fromStats>Messy Leech</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Messy_Leech"
 }

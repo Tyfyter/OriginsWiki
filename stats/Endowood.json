@@ -10,6 +10,256 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "4<a is=a-link image=$fromStats imageOnly>Endowood Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>2<a is=a-link image=$fromStats imageOnly>Endowood Platform</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Wall</a> (4)"
+          ]
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood Platform</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (30)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Hammer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Sword</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sunflower Seed Shooter</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sunflower\">Sunflower</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Candelabra</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Candle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Chair</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Chest</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Door</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Lamp</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>",
+            "<a is=a-link image=$fromStats>Endowood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Lantern</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Sink</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Water_Bucket\">Water Bucket</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Table</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Platform</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Work Bench</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Torch</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bathtub</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bed</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (15)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Bookcase</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Dresser</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (16)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Clock</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a> (6)",
+            "<a is=a-link image=$fromStats>Endowood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Piano</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Sofa</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Toilet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (6)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Chandelier</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Endowood_Item",
   "Images": [

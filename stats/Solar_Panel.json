@@ -13,7 +13,24 @@
   ],
   "Rarity": "Lime",
   "Sell": 60000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Band_of_Starpower>Band of Starpower</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Sun_Stone>Sun Stone</a> + (8) <a is=a-link image=$fromStats>Silicon Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Band_of_Starpower>Band of Starpower</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Sun_Stone>Sun Stone</a> + (8) <a is=a-link image=$fromStats>Silicon</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Solar Panel</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sun_Stone\">Sun Stone</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Solar_Panel"
 }

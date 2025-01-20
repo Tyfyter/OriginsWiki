@@ -10,6 +10,20 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a>+5<a is=a-link image=$fromStats imageOnly>Defiled Torch</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Torch</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Defiled_Campfire_Item",
   "Images": [

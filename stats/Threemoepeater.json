@@ -15,6 +15,22 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "(12) <a is=a-link image=$fromStats>Encrusted Bar</a> + (5) <a is=a-link image=$fromStats>Riven Carapace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Threemoepeater</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 50,
   "InternalName": "Threemoepeater"
 }

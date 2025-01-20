@@ -10,6 +10,22 @@
   "Velocity": 12.0,
   "Rarity": "Blue",
   "Sell": 43600,
+  "Source": "8<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Snatcher</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 48,
   "InternalName": "Snatcher"
 }

@@ -17,6 +17,58 @@
   "Rarity": "Green",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a <a is=a-link href=NPC_Quests.html>quest</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Gun Glove</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feral_Claws\">Feral Claws</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Glove</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Cloak\">Mana Cloak</a>",
+            "<a is=a-link image=$fromStats>Gun Glove</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Missile Armcannon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Titan_Glove\">Titan Glove</a>",
+            "<a is=a-link image=$fromStats>Destructive Claws</a>",
+            "<a is=a-link image=$fromStats>Gun Glove</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feral_Claws\">Feral Claws</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Glove</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Gun_Glove"
 }

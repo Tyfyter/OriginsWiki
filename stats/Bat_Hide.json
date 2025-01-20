@@ -5,6 +5,150 @@
     "Item"
   ],
   "Rarity": "White",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cave_Bat\">Cave Bat</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Bat\">Jungle Bat</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Bat\">Giant Bat</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Illuminant_Bat\">Illuminant Bat</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Bat\">Ice Bat</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Vampire\">Vampire</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cave_Bat\">Cave Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cave_Bat\">Cave Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cave_Bat\">Cave Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Bat\">Jungle Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Bat\">Jungle Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Bat\">Jungle Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Bat\">Giant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Bat\">Giant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Giant_Bat\">Giant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illuminant_Bat\">Illuminant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illuminant_Bat\">Illuminant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illuminant_Bat\">Illuminant Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Bat\">Ice Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Bat\">Ice Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Bat\">Ice Bat</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vampire\">Vampire</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vampire\">Vampire</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vampire\">Vampire</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Leather\">Leather</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bat Hide</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Bat_Hide"
 }

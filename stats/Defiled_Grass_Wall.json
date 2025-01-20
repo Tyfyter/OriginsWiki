@@ -2,10 +2,26 @@
   "Image": "§ModImage§/Walls/Defiled_Grass_Wall_Item",
   "Name": "Defiled Grass Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Infested Defiled Grass Wall Placed</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Grass Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Defiled_Grass_Wall_Safe_Item"
 }

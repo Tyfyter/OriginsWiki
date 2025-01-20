@@ -2,10 +2,27 @@
   "Image": "§ModImage§/Walls/Riven_Grass_Wall_Item",
   "Name": "Infested Riven Grass Wall",
   "Types": [
-    "Item"
+    "Item",
+    "Wall"
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats>Riven Grass Wall</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Infested Riven Grass Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Riven Grass Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Riven_Grass_Wall_Placed_Unsafe_Item"
 }

@@ -17,6 +17,19 @@
   ],
   "Rarity": "Orange",
   "Sell": 6,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Alkahest</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Dart</a> (100)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 14,
   "InternalName": "Alkahest_Dart"
 }

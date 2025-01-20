@@ -11,6 +11,23 @@
   "Tooltip": "-25% self-damage",
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Longcoat\">Obsidian Longcoat</a>+4<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bleeding Obsidian Trenchcoat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Longcoat\">Obsidian Longcoat</a>",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Bleeding_Obsidian_Breastplate"
 }

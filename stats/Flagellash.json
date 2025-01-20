@@ -18,6 +18,45 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "15<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Flagellant</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
+      "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Flagellash</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 34,
   "InternalName": "Flagellash"
 }

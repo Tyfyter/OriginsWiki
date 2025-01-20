@@ -11,8 +11,38 @@
     1
   ],
   "UseTime": 10,
+  "Tooltip": "Can be placed in water",
   "Rarity": "White",
   "Sell": 10,
+  "Source": "33<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Alkahest</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkahest Torch</a> (33)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (33)",
+            "<a is=a-link image=$fromStats>Alkahest</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Aether_Torch\">Aether Torch</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkahest Torch</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "LightIntensity": "130%",
   "LightColor": [
     0.923077,

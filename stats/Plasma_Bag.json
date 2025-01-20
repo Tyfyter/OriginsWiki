@@ -14,6 +14,22 @@
   "Rarity": "Blue",
   "Sell": 6000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Purple_Slime>Purple Slime</a>",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Donor Wristband</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Charm_of_Myths\">Charm of Myths</a>",
+            "<a is=a-link image=$fromStats>Plasma Bag</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Plasma_Bag"
 }

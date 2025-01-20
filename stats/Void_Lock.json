@@ -8,6 +8,25 @@
   "UseTime": 10,
   "Tooltip": "Can be used to lock some chests only unlockable by you",
   "Rarity": "Orange",
+  "Source": "7<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>+3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a>+10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Void Lock</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (7)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Void_Lock"
 }

@@ -8,6 +8,22 @@
   "Defense": 1,
   "ArmorSlot": "Helmet",
   "Rarity": "White",
+  "Source": "20<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Cove</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Marrowick_Helmet"
 }

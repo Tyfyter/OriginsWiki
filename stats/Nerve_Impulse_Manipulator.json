@@ -7,6 +7,23 @@
   "UseTime": 45,
   "Tooltip": "Summons the Defiled Amalgamation",
   "Rarity": "Blue",
+  "Source": "30<a is=a-link image=$fromStats imageOnly>Dreadful Powder</a>+15<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Impulse Manipulator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dreadful Powder</a> (30)",
+            "<a is=a-link image=$fromStats>Strange String</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Nerve_Impulse_Manipulator"
 }

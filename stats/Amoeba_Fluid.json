@@ -11,6 +11,50 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Gooey Water</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Amebic Gel Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amoeba Fluid</a> (10)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gooey Water</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amoeba Fluid</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Gel Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amebic Gel Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amoeba Fluid</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Amoeba_Fluid_Item",
   "Images": [

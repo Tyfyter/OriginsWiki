@@ -16,6 +16,22 @@
   "Rarity": "Yellow",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Daedalus_Stormbow>Daedalus Stormbow</a> + (14) <a is=a-link image=$fromStats>Valkyrum Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Astoxo</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daedalus_Stormbow\">Daedalus Stormbow</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (14)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Astoxo"
 }

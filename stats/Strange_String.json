@@ -6,6 +6,291 @@
   ],
   "Rarity": "White",
   "Sell": 2,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Digger</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Ekko</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Squid</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Tripod</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Strange String</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Cloak</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (20)",
+            "<a is=a-link image=$fromStats>Strange String</a> (28)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Monocle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (8)",
+            "<a is=a-link image=$fromStats>Strange String</a> (16)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (14)",
+            "<a is=a-link image=$fromStats>Strange String</a> (22)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Unholy_Arrow\">Unholy Arrow</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (5)",
+            "<a is=a-link image=$fromStats>Strange String</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soul Spaghetti</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl_of_Soup\">Bowl of Soup</a>",
+            "<a is=a-link image=$fromStats>Strange String</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Impulse Manipulator</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Dreadful Powder</a> (30)",
+            "<a is=a-link image=$fromStats>Strange String</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bud Barnacle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Strange_String"
 }

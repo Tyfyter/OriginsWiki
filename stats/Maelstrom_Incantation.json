@@ -20,6 +20,23 @@
   ],
   "Rarity": "Green",
   "Sell": 6000,
+  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+10<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Maelstrom Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Maelstrom_Incantation"
 }

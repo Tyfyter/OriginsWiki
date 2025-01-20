@@ -11,6 +11,23 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "4<a is=a-link image=$fromStats imageOnly>Endowood</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Candle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Endowood</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Endowood_Candle_Item",
   "Images": [

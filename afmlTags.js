@@ -265,7 +265,12 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 				getSiteMap().then(this.matchCapitalsToPage.bind(this));
 			}
 			target = targetPage;
-		} else if (target) target = target.replaceAll('.html', '');
+		} else if (target) {
+			target = target.replaceAll('.html', '');
+			if (aliases[target]) {
+				target = aliases[target];
+			}
+		}
 		if (new URL(target, document.baseURI).href == document.location) {//self link
 			this.classList.add('selflink');
 			this.removeAttribute('href');
@@ -344,6 +349,10 @@ class AFMLLink extends HTMLAnchorElement { // can be created with document.creat
 		} else {
 			this.image.src = processImagePath(path);
 			this.image.style.display = '';
+		}
+		this.classList.remove('hideText');
+		if (this.hasAttribute('imageOnly') && this.image.src) {
+			this.classList.add('hideText');
 		}
 	}
 	matchCapitalsToPage(result) {
@@ -486,25 +495,47 @@ class AFMLToolStats extends HTMLElement {
 customElements.define("a-tool", AFMLToolStats);
 
 class AFMLRecipes extends HTMLElement {
+	static observedAttributes = ["src"];
 	constructor() {
 		// Always call super first in constructor
 		super();
 	}
 	connectedCallback(){
-		let contents = this.innerHTML.trim();
-		if (!contents.startsWith('{') && !contents.startsWith('[')) return;
-		let sections = eval('['+contents+']');
-		this.textContent = '';
-		let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
-		let head = table.createChild('thead');
-		let row = head.createChild('tr');
-		row.createChild('th', 'Result');
-		row.createChild('th', 'Ingredients', ['class', 'middle']);
-		row.createChild('th').createChild('a', 'Crafting Station', ['href', 'https://terraria.wiki.gg/wiki/Crafting_stations']);
-
-		let body = table.createChild('tbody');
-		for(let j = 0; j < sections.length; j++){
-			this.processRecipeBlock(sections[j], body);
+		if (!this.hasAttribute('src')) {
+			let contents = this.innerHTML.trim();
+			if (!contents.startsWith('{') && !contents.startsWith('[')) return;
+			let sections = eval('['+contents+']');
+			this.textContent = '';
+			let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
+			let head = table.createChild('thead');
+			let row = head.createChild('tr');
+			row.createChild('th', 'Result');
+			row.createChild('th', 'Ingredients', ['class', 'middle']);
+			row.createChild('th').createChild('a', 'Crafting Station', ['href', 'https://terraria.wiki.gg/wiki/Crafting_stations']);
+			
+			let body = table.createChild('tbody');
+			for(let j = 0; j < sections.length; j++){
+				this.processRecipeBlock(sections[j], body);
+			}
+		}
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+		if (name === 'src') {
+			getStats(newValue.replace(' ', '_')).then((value) => {
+				let sections = this.hasAttribute('usedIn') ? value.UsedIn : value.Recipes;
+				this.textContent = '';
+				let table = this.createChild('table', '', ['class', 'recipetable'], ['cellspacing', '0']);
+				let head = table.createChild('thead');
+				let row = head.createChild('tr');
+				row.createChild('th', 'Result');
+				row.createChild('th', 'Ingredients', ['class', 'middle']);
+				row.createChild('th').createChild('a', 'Crafting Station', ['href', 'https://terraria.wiki.gg/wiki/Crafting_stations']);
+				
+				let body = table.createChild('tbody');
+				for (let i = 0; i < sections.length; i++) {
+					this.processRecipeBlock(sections[i], body);
+				}
+			});
 		}
 	}
 	processRecipeBlock(data, body){
@@ -1251,3 +1282,70 @@ class AFMLRarity extends HTMLElement {
 	}
 }
 customElements.define("a-rarity", AFMLRarity);
+
+class AFMLSourceBlock extends HTMLElement {
+	static observedAttributes = ["src"];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	connectedCallback(){
+		this.setup();
+	}
+	setup(){
+		if (this.child) return;
+		if (this.hasAttribute('src')) {
+			this.classList.add('ontab0');
+			let header = this.createChild('div', 'Obtained from', ['class', 'obtainedFromHeader']);
+			let tabs = this.createChild('div', '', ['class', 'tabnames']);
+			tabs.createChild('span', 'Normal', ['class', 'tabname']).onclick = this.setTab(0);
+			tabs.createChild('span', 'Expert', ['class', 'tabname expert']).onclick = this.setTab(1);
+			tabs.createChild('span', 'Master', ['class', 'tabname master']).onclick = this.setTab(2);
+			let table = this.createChild('table');
+			let tseg = table.createChild('thead');
+			let row = tseg.createChild('tr');
+			row.createChild('th', 'Entity').onclick = (event) => clickSortableList(event, 0);
+			row.createChild('th', 'Quantity', ['class', 'notleft']).onclick = (event) => clickSortableList(event, 1);
+			row.createChild('th', 'Rate', ['class', 'notleft']).onclick = (event) => clickSortableList(event, 2);
+			tseg = table.createChild('tbody');
+			getStats(this.getAttribute('src')).then((stats) => {
+				if (!stats.DropSources) return;
+				for (let i = 0; i < stats.DropSources.length; i++) {
+					let tab = "";
+					switch (stats.DropSources[i].Difficulty) {
+						case "Normal":
+						tab = 'onlytab0';
+						break;
+						case "Expert":
+						tab = 'onlytab1';
+						break;
+						case "Master":
+						tab = 'onlytab2';
+						break;
+					}
+					row = tseg.createChild('tr', '', ['class', tab]);
+					console.log(row);
+					row.createChild('td', stats.DropSources[i].Name);
+					row.createChild('td', (stats.DropSources[i].Min == stats.DropSources[i].Max) ? stats.DropSources[i].Min : `${stats.DropSources[i].Min}-${stats.DropSources[i].Max}`, ['class', 'notleft']);
+					row.createChild('td', (stats.DropSources[i].Rate * 100) + '%', ['class', 'notleft']);
+				}
+			});
+		} else {
+			this.textContent = "missing src attribute";
+		}
+	}
+	setTab(tab){
+		return () => {
+			this.selectTab(tab);
+		}
+	}
+	selectTab(tabNumber){
+		for(var i = this.classList.length; i --> 0;){
+			if(this.classList[i].startsWith('ontab')){
+				this.classList.remove(this.classList[i]);
+			}
+		}
+		this.classList.add('ontab'+tabNumber);
+	}
+}
+customElements.define("a-source", AFMLSourceBlock);

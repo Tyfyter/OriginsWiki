@@ -11,6 +11,24 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>+6<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a>+10<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Endowood Clock</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a> (6)",
+            "<a is=a-link image=$fromStats>Endowood</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Endowood_Grandfather_Clock_Item",
   "Images": [

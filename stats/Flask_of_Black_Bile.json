@@ -8,6 +8,23 @@
   "Tooltip": "Melee and Whip attacks stun enemies",
   "Rarity": "LightRed",
   "Sell": 500,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+2<a is=a-link image=$fromStats imageOnly>Black Bile</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imbuing_Station\">Imbuing Station</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imbuing_Station\">Imbuing Station</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Flask of Black Bile</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Black Bile</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Bile_Flask"
 }

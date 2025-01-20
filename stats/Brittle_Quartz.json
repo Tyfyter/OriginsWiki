@@ -10,6 +10,86 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstone_Block\">Sandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsandstone_Block\">Ebonsandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsandstone_Block\">Crimsandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Brittle Quartz Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brittle Quartz</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstone_Block\">Sandstone Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Brittle Quartz</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsandstone_Block\">Ebonsandstone Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Brittle Quartz</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsandstone_Block\">Crimsandstone Block</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brittle Quartz</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brittle Quartz Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Brittle Quartz</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brittle Quartz Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brittle Quartz</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silica</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brittle Quartz</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Brittle_Quartz_Item",
   "Images": [

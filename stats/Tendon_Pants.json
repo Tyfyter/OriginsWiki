@@ -10,6 +10,23 @@
   "Tooltip": "+20% ammo conservation",
   "Rarity": "Blue",
   "Sell": 3000,
+  "Source": "14<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+22<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tendon Pants</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (14)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (22)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Tendon_Pants"
 }

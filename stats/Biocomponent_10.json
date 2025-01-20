@@ -6,6 +6,93 @@
   ],
   "Rarity": "White",
   "Sell": 2,
+  "Source": "<a is=a-link image=$fromStats>Bud Barnacle</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Biocomponent 10</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bud Barnacle</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Body Armor</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (28)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (22)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Scavenger Goggles</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (16)",
+            "<a is=a-link image=$fromStats>Sanguinite Ore</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Unholy_Arrow\">Unholy Arrow</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (5)",
+            "<a is=a-link image=$fromStats>Biocomponent 10</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Abrasion Blaster</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (35)",
+            "<a is=a-link image=$fromStats>Scrap</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Broken Record</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Urn of Ashes</a> (30)",
+            "<a is=a-link image=$fromStats>Biocomponent 10</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rotten_Chunk\">Rotten Chunk</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Biocomponent 10</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Biocomponent10"
 }

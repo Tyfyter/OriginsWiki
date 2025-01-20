@@ -3,19 +3,175 @@
   "Types": [
     "Item",
     "Ore",
-    "Tile"
+    "Tile",
+    "Ore"
   ],
   "PlacementSize": [
     1,
     1
   ],
   "UseTime": 10,
-  "Tooltip": "A strange metal warped to the curiosity of the Defiled",
+  "Tooltip": "A strange metal warped to the curiosity of the Defiled Wastelands",
   "Rarity": "Blue",
-  "Sell": 1000,
+  "Sell": 1400,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Defiled Amalgamation</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Swarmer</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": "Drops in worlds with Defiled Wastelands"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Expert",
+      "Notes": "Drops in worlds with Defiled Wastelands"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Master",
+      "Notes": "Drops in worlds with Defiled Wastelands"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a>",
+      "Rate": 1.0,
+      "Max": 90,
+      "Min": 30,
+      "Difficulty": "Normal",
+      "Notes": ", Drops in worlds with Defiled Wastelands"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+      "Rate": 1.0,
+      "Max": 330,
+      "Min": 140,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Swarmer</a>",
+      "Rate": 0.5,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Swarmer</a>",
+      "Rate": 0.5,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Swarmer</a>",
+      "Rate": 0.5,
+      "Max": 4,
+      "Min": 2,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Ore</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Cloak</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (20)",
+            "<a is=a-link image=$fromStats>Strange String</a> (28)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Monocle</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (8)",
+            "<a is=a-link image=$fromStats>Strange String</a> (16)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Pants</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (14)",
+            "<a is=a-link image=$fromStats>Strange String</a> (22)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Ore</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "Tier": 5,
   "PickReq": 55,
-  "SpriteWidth": 16,
+  "SpriteWidth": 14,
   "InternalName": "Lost_Ore_Item",
   "Images": [
     "§ModImage§/Tiles/Defiled/Lost_Ore_Item",

@@ -12,6 +12,61 @@
   "Rarity": "Blue",
   "Sell": 10000,
   "Source": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>",
+        "This kills the Guide"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Fleshy Figurine</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Guide_Voodoo_Doll\">Guide Voodoo Doll</a>",
+            "<a is=a-link image=$fromStats>Symbiote Skull</a>",
+            "<a is=a-link image=$fromStats>Tainted Flesh</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Keepsake Remains</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace\">Shark Tooth Necklace</a>",
+            "<a is=a-link image=$fromStats>Symbiote Skull</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Symbiote_Skull"
 }

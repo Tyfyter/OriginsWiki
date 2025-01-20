@@ -15,6 +15,38 @@
   "Tooltip": "'Be careful, it's hot'",
   "Rarity": "Orange",
   "Sell": 3000,
+  "Source": "14<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hot Potato</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (14)",
+            "<a is=a-link image=$fromStats>Potato</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hot Potato</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (8)",
+            "<a is=a-link image=$fromStats>Potato</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Hot_Potato"
 }

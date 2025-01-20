@@ -15,6 +15,23 @@
   "Tooltip": "Able to mine Hellstone",
   "Rarity": "Green",
   "Sell": 4000,
+  "Source": "12<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+6<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Strainer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (6)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 50,
   "InternalName": "Strainer"
 }

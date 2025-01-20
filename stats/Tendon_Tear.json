@@ -15,6 +15,24 @@
   "Tooltip": "'Snap. Crackle. Pop'",
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>+8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a>+4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tissue_Sample\">Tissue Sample</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tendon Tear</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tissue_Sample\">Tissue Sample</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 86,
   "InternalName": "Tendon_Tear"
 }

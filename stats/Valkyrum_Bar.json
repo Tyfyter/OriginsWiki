@@ -3,10 +3,73 @@
   "Name": "Valkyrum Bar",
   "Types": [
     "Item",
+    "Bar",
     "Hardmode"
   ],
   "Rarity": "Yellow",
   "Sell": 10000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ectoplasm\">Ectoplasm</a>+<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Valkyrum Bar</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ectoplasm\">Ectoplasm</a>",
+            "<a is=a-link image=$fromStats>Felnum Bar</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amber of Embers</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (8)",
+            "<a is=a-link image=$fromStats>Carburite</a> (18)",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Hævateinn</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky_Fracture\">Sky Fracture</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Telephone Pole</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> (50)",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (7)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Astoxo</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daedalus_Stormbow\">Daedalus Stormbow</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Tolruk</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Uzi\">Uzi</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 30,
   "InternalName": "Valkyrum_Bar"
 }

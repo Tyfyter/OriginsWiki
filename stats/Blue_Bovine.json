@@ -8,6 +8,7 @@
   "Tooltip": "'Blue Bovine allows flight and slow fall!'",
   "Rarity": "Blue",
   "Sell": 2000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Merchant\">Merchant</a> (<a-coins>10000</a-coins>After completing \"To the Skies!\")",
   "SpriteWidth": 14,
   "InternalName": "Blue_Bovine"
 }

@@ -11,6 +11,56 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats>Brittle Quartz</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Quartz</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silica</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brittle Quartz</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Gooey Water</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Seeds</a>",
+            "<a is=a-link image=$fromStats>Silica</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link image=$fromStats>Silica</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Silica</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Silica_Item",
   "Images": [

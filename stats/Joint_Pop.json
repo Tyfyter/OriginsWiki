@@ -19,6 +19,30 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.06666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.06666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.06666667,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "Joint_Pop"
 }

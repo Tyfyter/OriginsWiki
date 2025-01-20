@@ -13,6 +13,24 @@
   ],
   "Rarity": "White",
   "Sell": 700,
+  "Source": "30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Cryosten Greaves</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (30)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Cryosten_Greaves"
 }

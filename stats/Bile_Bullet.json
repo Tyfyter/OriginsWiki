@@ -15,6 +15,20 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 8,
+  "Source": "150<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Bullet\">Empty Bullet</a>+<a is=a-link image=$fromStats imageOnly>Black Bile</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bile Bullet</a> (150)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Empty_Bullet\">Empty Bullet</a> (150)",
+            "<a is=a-link image=$fromStats>Black Bile</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "Debuffs": [
     {
       "src": "Rasterized",

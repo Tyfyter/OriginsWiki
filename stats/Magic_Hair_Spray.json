@@ -6,6 +6,57 @@
   ],
   "Rarity": "Quest",
   "Sell": 40,
+  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+<a is=a-link image=$fromStats imageOnly>Silicon Bar</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=$fromStats>Silicon Bar</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stylish_Scissors\">Stylish Scissors</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Bar\">Silver Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+            "<a is=a-link image=$fromStats>Rubber</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stylish_Scissors\">Stylish Scissors</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Bar\">Tungsten Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+            "<a is=a-link image=$fromStats>Rubber</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Crystal Cutters</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (14)",
+            "<a is=a-link image=$fromStats>Magic Hair Spray</a> (5)",
+            "<a is=a-link image=$fromStats>Rubber</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Magic_Hair_Spray"
 }

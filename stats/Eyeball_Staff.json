@@ -13,6 +13,30 @@
   "Tooltip": "Summons a demon eye to fight for you",
   "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Eye\">Demon Eye</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Eye\">Demon Eye</a>",
+      "Rate": 0.015873017,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Eye\">Demon Eye</a>",
+      "Rate": 0.015873017,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Eye\">Demon Eye</a>",
+      "Rate": 0.015873017,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 54,
   "InternalName": "Eyeball_Staff"
 }

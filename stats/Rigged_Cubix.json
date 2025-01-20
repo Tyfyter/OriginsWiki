@@ -17,6 +17,23 @@
   "Tooltip": "'Infinite ammo, infinite wisdom'",
   "Rarity": "Butterscotch",
   "Sell": 200000,
+  "Source": "16<a is=a-link image=$fromStats imageOnly>Batholith</a>+25<a is=a-link image=$fromStats imageOnly>Formium Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rigged Cubix</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith</a> (16)",
+            "<a is=a-link image=$fromStats>Formium Bar</a> (25)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 92,
   "InternalName": "Rigged_Cubix"
 }

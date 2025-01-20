@@ -13,6 +13,53 @@
   ],
   "Rarity": "Cursed",
   "Sell": 20000,
+  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>+30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+20<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
+            "<a is=a-link image=$fromStats>Scrap</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Scrap Barrier</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Scrap_Barrier"
 }

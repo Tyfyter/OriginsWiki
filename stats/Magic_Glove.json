@@ -22,6 +22,22 @@
   "Rarity": "Pink",
   "Sell": 20000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Mana_Cloak>Mana Cloak</a> + <a is=a-link image=$fromStats>Gun Glove</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Magic Glove</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Cloak\">Mana Cloak</a>",
+            "<a is=a-link image=$fromStats>Gun Glove</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Magic_Glove"
 }

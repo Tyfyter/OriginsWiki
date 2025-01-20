@@ -11,6 +11,24 @@
   "Tooltip": "Increased movement speed",
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a>+3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a>+24<a is=a-link image=$fromStats imageOnly>Carburite</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sapphire Mediator Tights</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> (3)",
+            "<a is=a-link image=$fromStats>Carburite</a> (24)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 22,
   "InternalName": "Sapphire_Tights"
 }

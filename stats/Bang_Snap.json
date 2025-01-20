@@ -16,6 +16,48 @@
   "Tooltip": "The Party Girl loves these",
   "Rarity": "White",
   "Sell": 1,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link image=$fromStats imageOnly>Defiled Sand</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link image=$fromStats imageOnly>Silica</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link image=$fromStats>Defiled Sand</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>",
+            "<a is=a-link image=$fromStats>Silica</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Bang_Snap"
 }

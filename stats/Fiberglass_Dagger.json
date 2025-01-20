@@ -11,6 +11,15 @@
   "Rarity": "Blue",
   "Sell": 20000,
   "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 20,
   "InternalName": "Fiberglass_Dagger"
 }

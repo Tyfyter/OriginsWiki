@@ -6,6 +6,21 @@
   ],
   "UseTime": 10,
   "Rarity": "Gray",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber</a> (3)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tire</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Tire"
 }

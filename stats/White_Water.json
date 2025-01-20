@@ -13,6 +13,21 @@
   "Tooltip": "Spreads the Defiled Wastelands to some blocks",
   "Rarity": "Orange",
   "Sell": 20,
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+<a is=a-link image=$fromStats imageOnly>Defiled Sand</a>+<a is=a-link image=$fromStats imageOnly>Defiled Seeds</a>",
+  "Recipes": [
+    {
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>White Water</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Sand</a>",
+            "<a is=a-link image=$fromStats>Defiled Seeds</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 26,
   "InternalName": "White_Water"
 }

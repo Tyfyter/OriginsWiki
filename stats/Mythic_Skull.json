@@ -13,6 +13,24 @@
   ],
   "Rarity": "Green",
   "Sell": 9000,
+  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a>+10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mythic Skull</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Mythic_Skull"
 }

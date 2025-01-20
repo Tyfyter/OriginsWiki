@@ -11,6 +11,22 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
+  "Source": "4<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Chair</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Marrowick_Chair_Item",
   "Images": [

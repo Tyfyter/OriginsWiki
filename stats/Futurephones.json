@@ -14,6 +14,22 @@
   "Rarity": "Pink",
   "Sell": 80000,
   "Source": "<a is=a-link image=$fromStats>Headphones</a> + <a is=a-link image=$fromStats>Sniper's Mark</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Futurephones</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Headphones</a>",
+            "<a is=a-link image=$fromStats>Sniper's Mark</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 54,
   "InternalName": "Futurephones"
 }

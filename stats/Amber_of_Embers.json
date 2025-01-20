@@ -15,6 +15,24 @@
   "Velocity": 8.0,
   "Rarity": "Pink",
   "Sell": 20000,
+  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a>+18<a is=a-link image=$fromStats imageOnly>Carburite</a>+10<a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amber of Embers</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> (8)",
+            "<a is=a-link image=$fromStats>Carburite</a> (18)",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 48,
   "InternalName": "Amber_Of_Embers"
 }

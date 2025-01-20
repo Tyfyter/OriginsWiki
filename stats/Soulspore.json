@@ -5,6 +5,50 @@
     "Item"
   ],
   "Rarity": "White",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vicious_Mushroom\">Vicious Mushroom</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soulspore</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vicious_Mushroom\">Vicious Mushroom</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dreadful Powder</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Soulspore</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Acetabularia</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Soulspore</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Soulspore_Item"
 }

@@ -10,6 +10,51 @@
   "Tooltip": "Summons a Defiled blight to light your way",
   "Rarity": "Blue",
   "Sell": 75000,
+  "Source": "<a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 18,
   "InternalName": "Suspicious_Looking_Pebble",
   "Pet": {

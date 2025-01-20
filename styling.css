@@ -422,6 +422,15 @@ a-stat > .statimagecontainer {
 .ontab2 {
 	--tabvis-2:block;
 }
+a-source.ontab0 {
+	--tabvis-0: table-row;
+}
+a-source.ontab1 {
+	--tabvis-1: table-row;
+}
+a-source.ontab2 {
+	--tabvis-2: table-row;
+}
 .onlytab0 {
 	display: var(--tabvis-0);
 }
@@ -528,22 +537,22 @@ div.or {
 	border-radius: 5px;
 	--link-image-max-height: 3rem;
 }
-.sortablelist > thead > tr > th {
+.sortablelist > thead > tr > th, a-source > table > thead > tr > th {
 	padding: 2px;
 	background-color: var(--subcontents-bg-color);
 	border-bottom: 1px solid var(--box-border-color);
 }
 
-.sortablelist > thead > tr > th.notleft {
+.sortablelist > thead > tr > th.notleft, a-source > table > thead > tr > th.notleft {
 	border-left: 1px solid var(--box-border-color);
 }
 
-.sortablelist > tbody > tr > td {
+.sortablelist > tbody > tr > td, a-source > table > tbody > tr > td {
 	padding: 10px;
 	border-bottom: 1px solid var(--box-border-color);
 }
 
-.sortablelist > tbody > tr > td.notleft {
+.sortablelist > tbody > tr > td.notleft, a-source > table > tbody > tr > td.notleft {
 	border-left: 1px solid var(--box-border-color);
 }
 
@@ -780,6 +789,38 @@ snippet[hidden], a-snippet[hidden] {
 snippet[open] > .snippetContent, a-snippet[open] > .snippetContent {
 	display: flow-root;
 }
+.hideText {
+	font-size: 0;
+	vertical-align: middle;
+}
+a-source {
+	float: right;
+	clear: right;
+	width: 21rem;
+	right: 0px;
+	position: relative;
+	margin: .5em 0 .5em 1em;
+	background-color: var(--box-bg-color);
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+	--link-image-max-height: 3rem;
+	--tabvis-0:none;
+	--tabvis-1:none;
+	--tabvis-2:none;
+}
+a-source > table {
+	width: 100%;
+}
+a-source > table > thead > tr > th {
+	text-align: left;
+}
+.obtainedFromHeader {
+	margin: .2rem .2rem .2rem .2rem;
+	background-color: var(--subcontents-bg-color);
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+}
+
 a-drop {
 	display: block;
 	margin-top: 3px;
@@ -807,6 +848,21 @@ a-drop > a-drop::before {
 	display: grid;
 	grid-auto-flow: row;
 	grid-template-columns: auto auto auto auto auto;
+}
+
+#toolbox > div > * {
+	display: block;
+}
+.background > #toolbox > div {
+	width: 95%;
+	background-color: var(--box-bg-color);
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+	padding-top: 2.5px;
+	padding-bottom: 7.5px;
+	padding-left: 0.5em;
+	margin-left: -0.5em;
+	height: fit-content;
 }
 
 .coins ::after {
@@ -844,6 +900,10 @@ a-drop > a-drop::before {
 /* mobile version, make sure to set back to max-aspect-ratio: 1/1*/
 @media (max-aspect-ratio: 1/1){
 	.statblock, a-statblock {
+		float: none;
+		display: table-header-group;
+	}
+	a-source {
 		float: none;
 		display: table-header-group;
 	}

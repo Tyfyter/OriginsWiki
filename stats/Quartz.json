@@ -10,6 +10,50 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "4<a is=a-link image=$fromStats imageOnly>Quartz Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Quartz</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Quartz Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Quartz Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Quartz</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Silica</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Quartz</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Quartz_Item",
   "Images": [
