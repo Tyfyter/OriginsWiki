@@ -76,6 +76,69 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellforge\">Hellforge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Outlaw_Hat\">Obsidian Outlaw Hat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> (20)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Longcoat\">Obsidian Longcoat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> (20)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Pants\">Obsidian Pants</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> (20)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Void_Bag\">Void Bag</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (30)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (30)",
+            "<a is=a-link image=\"RecipeGroups/JungleSpores\" href=Recipe_Groups>Any Tropical Component</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Void_Vault\">Void Vault</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (15)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (15)",
+            "<a is=a-link image=\"RecipeGroups/JungleSpores\" href=Recipe_Groups>Any Tropical Component</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Void Lock</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (7)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
       ],
       "items": [
@@ -150,22 +213,6 @@
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>",
             "<a is=a-link image=$fromStats>Defiled Bar</a> (6)",
             "<a is=a-link image=$fromStats>Undead Chunk</a> (3)"
-          ]
-        }
-      ]
-    },
-    {
-      "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
-      ],
-      "items": [
-        {
-          "result": "<a is=a-link image=$fromStats>Void Lock</a> (3)",
-          "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> (7)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chest_Lock\">Chest Lock</a> (3)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Spores\">Jungle Spores</a> (5)",
-            "<a is=a-link image=\"RecipeGroups/ShadowScale\" href=Recipe_Groups>Any Evil Boss Drop</a> (10)"
           ]
         }
       ]

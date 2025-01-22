@@ -67,6 +67,21 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Deer_Thing\">Deer Thing</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flinx_Fur\">Flinx Fur</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a>",
+            "<a is=a-link image=\"RecipeGroups/DemoniteOre\" href=Recipe_Groups>Any Evil Ore</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
       ],
       "items": [

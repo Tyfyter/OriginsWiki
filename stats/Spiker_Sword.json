@@ -29,6 +29,24 @@
       ]
     }
   ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Night's_Edge\">Night's Edge</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Muramasa\">Muramasa</a>",
+            "<a is=a-link image=\"RecipeGroups/Light'sBane\" href=Recipe_Groups>Any Evil Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/BladeofGrass\" href=Recipe_Groups>Any Tropical Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/Volcano\" href=Recipe_Groups>Any Underworld Sword</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 52,
   "InternalName": "Spiker_Sword"
 }

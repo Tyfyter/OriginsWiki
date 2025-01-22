@@ -39,10 +39,224 @@
   ],
   "UsedIn": [
     {
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gel\">Gel</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Torch\">Pink Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Campfire\">Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Campfire\">Frozen Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Torch\">Ice Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Campfire\">Demon Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Torch\">Demon Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Campfire\">Cursed Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Torch\">Cursed Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ichor_Campfire\">Ichor Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ichor_Torch\">Ichor Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Campfire\">Rainbow Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Torch\">Rainbow Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ultrabright_Campfire\">Ultrabright Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ultrabright_Torch\">Ultrabright Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone_Campfire\">Bone Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone_Torch\">Bone Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Desert_Campfire\">Desert Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Desert_Torch\">Desert Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coral_Campfire\">Coral Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coral_Torch\">Coral Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Corrupt_Campfire\">Corrupt Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Corrupt_Torch\">Corrupt Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimson_Campfire\">Crimson Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimson_Torch\">Crimson Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Campfire\">Hallowed Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Torch\">Hallowed Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Campfire\">Jungle Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Jungle_Torch\">Jungle Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Aether_Campfire\">Aether Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Aether_Torch\">Aether Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Marshmallow_on_a_Stick\">Marshmallow on a Stick</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Marshmallow\">Marshmallow</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Defiled Torch</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Platform</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Work Bench</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Riven Campfire</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Torch</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
       "stations": [
         "<a is=a-link href=Work_Benches>Work Bench</a>"
       ],
       "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (25)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stone_Block\">Stone Block</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tiki_Torch\">Tiki Torch</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Trap_Door\">Trap Door</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sign\">Sign</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Yoyo\">Wooden Yoyo</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobweb\">Cobweb</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireplace\">Fireplace</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gray_Brick\">Gray Brick</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stone_Block\">Stone Block</a> (20)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)"
+          ]
+        },
         {
           "result": "<a is=a-link image=$fromStats>Marrowick Coat</a>",
           "ingredients": [
@@ -155,31 +369,247 @@
       ]
     },
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>"
+      ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tall_Gate\">Tall Gate</a>",
           "ingredients": [
-            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
-            "<a is=a-link image=$fromStats>Defiled Torch</a> (5)"
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (4)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>",
+        "<a href=https://terraria.wiki.gg/wiki/Ecto_Mist>Ecto Mist</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tattered_Wood_Sign\">Tattered Wood Sign</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (6)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Minecart_Track\">Minecart Track</a> (50)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Marrowick Platform</a> (2)",
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Pickaxe\">Copper Pickaxe</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Marrowick</a>"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Marrowick Work Bench</a>",
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Axe\">Copper Axe</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Marrowick</a> (10)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (6)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Riven Campfire</a>",
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Hammer\">Copper Hammer</a>",
           "ingredients": [
-            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
-            "<a is=a-link image=$fromStats>Riven Torch</a> (5)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Pickaxe\">Tin Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Bar\">Tin Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Axe\">Tin Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Bar\">Tin Bar</a> (6)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Hammer\">Tin Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tin_Bar\">Tin Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Pickaxe\">Iron Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Axe\">Iron Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Hammer\">Iron Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Pickaxe\">Lead Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Bar\">Lead Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Axe\">Lead Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Bar\">Lead Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Hammer\">Lead Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lead_Bar\">Lead Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Pickaxe\">Silver Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Bar\">Silver Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Axe\">Silver Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Bar\">Silver Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Hammer\">Silver Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Bar\">Silver Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Pickaxe\">Tungsten Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Bar\">Tungsten Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Axe\">Tungsten Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Bar\">Tungsten Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Hammer\">Tungsten Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tungsten_Bar\">Tungsten Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Pickaxe\">Gold Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Bar\">Gold Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Axe\">Gold Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Bar\">Gold Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Hammer\">Gold Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gold_Bar\">Gold Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Pickaxe\">Platinum Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Bar\">Platinum Bar</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Axe\">Platinum Axe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Bar\">Platinum Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Hammer\">Platinum Hammer</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Platinum_Bar\">Platinum Bar</a> (8)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fossil_Pickaxe\">Fossil Pickaxe</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sturdy_Fossil\">Sturdy Fossil</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Minecart\">Minecart</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (15)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Marrowick Chandelier</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Marrowick</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (4)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>"
           ]
         }
       ]
@@ -189,6 +619,147 @@
         "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>"
       ],
       "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Planked_Wall\">Planked Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stone_Block\">Stone Block</a>",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Beam\">Wooden Beam</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Target_Dummy\">Target Dummy</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hay\">Hay</a> (50)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mannequin\">Mannequin</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Womannequin\">Womannequin</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hat_Rack\">Hat Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (16)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Weapon_Rack\">Weapon Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Item_Frame\">Item Frame</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Barrel\">Barrel</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (9)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Keg\">Keg</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (14)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Loom\">Loom</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blacksmith_Rack\">Blacksmith Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Carpentry_Rack\">Carpentry Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Helmet_Rack\">Helmet Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spear_Rack\">Spear Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sword_Rack\">Sword Rack</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bar_Stool\">Bar Stool</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (4)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Banquet_Table\">Banquet Table</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bar\">Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bench\">Bench</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (8)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Picnic_Table\">Picnic Table</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fancy_Picnic_Table\">Fancy Picnic Table</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (3)"
+          ]
+        },
         {
           "result": "<a is=a-link image=$fromStats>Marrowick Bathtub</a>",
           "ingredients": [
@@ -247,15 +818,37 @@
     },
     {
       "stations": [
-        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Loom\">Loom</a>"
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Marrowick Chandelier</a>",
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Battle_Standard\">Goblin Battle Standard</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Marrowick</a> (4)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (4)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tattered_Cloth\">Tattered Cloth</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>",
+        "<a href=https://terraria.wiki.gg/wiki/Ecto_Mist>Ecto Mist</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gravedigger's_Shovel\">Gravedigger's Shovel</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (12)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coffin_Minecart\">Coffin Minecart</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a> (10)"
           ]
         }
       ]
