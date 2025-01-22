@@ -38,9 +38,9 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
+          "result": "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
             "<a is=a-link image=$fromStats>Shield of Retribution</a>"
           ]
         },

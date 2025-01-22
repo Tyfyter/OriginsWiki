@@ -60,7 +60,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Vorpal Sword</a>",
           "ingredients": [
-            "<a is=a-link  image=$fromStats >Vorpal Sword (Cursed)</a>"
+            "<a is=a-link image=$fromStats>Vorpal Sword (Cursed)</a>"
           ]
         }
       ]

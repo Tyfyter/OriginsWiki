@@ -39,7 +39,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> (2)",
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",

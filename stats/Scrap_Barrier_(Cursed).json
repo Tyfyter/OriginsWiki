@@ -1,0 +1,65 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Scrap_Barrier",
+  "Name": "Scrap Barrier (Cursed)",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "50% damage reduction while above 90% of maximum life",
+    "All life regeneration has a 3-second buffer period before it is applied after getting hit while above half life"
+  ],
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>+30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+20<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
+            "<a is=a-link image=$fromStats>Scrap</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Scrap_Barrier"
+}

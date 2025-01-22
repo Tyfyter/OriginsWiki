@@ -1,0 +1,54 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Slag_Bucket",
+  "Name": "Slag Bucket (Cursed)",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "40% damage reduction while above 80% of maximum life",
+    "All life regeneration has a 4-second buffer period before it is applied after getting hit while above half life",
+    "Grants immunity to knockback, fire blocks, and impeding shrapnel",
+    "67% of damage received is redirected to 3 enemies",
+    "You regenerate life while on fire"
+  ],
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats imageOnly>Scrap Barrier (Cursed)</a>+<a is=a-link image=$fromStats imageOnly>Shield of Retribution</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Slag_Bucket"
+}
