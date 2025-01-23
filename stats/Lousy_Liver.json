@@ -11,7 +11,6 @@
   "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "Source": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
   "UsedIn": [
     {
       "stations": [

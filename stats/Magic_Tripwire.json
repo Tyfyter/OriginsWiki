@@ -13,7 +13,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Dead_Man%27s_Chest>Dead Man's Chest</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>100000</a-coins>After selling 135 peat moss to the Demolitionist)<div class=divider></div><a is=a-link image=$fromStats>Trap Charm</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [

@@ -18,7 +18,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 40000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Spectre_Boots>Spectre Boots</a> + <a is=a-link image=$fromStats>Locket Necklace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spectre_Boots\">Spectre Boots</a>+<a is=a-link image=$fromStats imageOnly>Locket Necklace</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

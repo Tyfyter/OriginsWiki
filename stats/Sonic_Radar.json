@@ -13,7 +13,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 20000,
-  "Source": "(5) <a is=a-link href=https://terraria.wiki.gg/wiki/Dangersense_Potion>Dangersense Potion</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Metal_Detector>Metal Detector</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Radar>Radar</a> + (5) <a is=a-link href=https://terraria.wiki.gg/wiki/Spelunker_Potion>Spelunker Potion</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dangersense_Potion\">Dangersense Potion</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Metal_Detector\">Metal Detector</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Radar\">Radar</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spelunker_Potion\">Spelunker Potion</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -14,7 +14,7 @@
   "Velocity": 7.0,
   "Rarity": "LightRed",
   "Sell": 2000,
-  "Source": "(14) <a is=a-link href=https://terraria.wiki.gg/wiki/Crystal_Shard>Crystal Shard</a> + (5) <a is=a-link image=$fromStats>Magic Hair Spray</a> + (4) <a is=a-link image=$fromStats>Rubber</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "14<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>+5<a is=a-link image=$fromStats imageOnly>Magic Hair Spray</a>+4<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

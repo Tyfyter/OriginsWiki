@@ -15,7 +15,7 @@
   "Tooltip": "You are Silenced, but the mouth will attack for you",
   "Rarity": "Cursed",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Eater_of_Worlds>Eater of Worlds</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a>",

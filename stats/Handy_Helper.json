@@ -17,7 +17,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 80000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Power_Glove>Power Glove</a> + <a is=a-link image=$fromStats>Amebic Vial</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Amebic Vial</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Power_Glove\">Power Glove</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>, )<div class=divider></div>2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Power_Glove\">Power Glove</a>+<a is=a-link image=$fromStats imageOnly>Amebic Vial</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>, on April Fools' day)",
   "Recipes": [
     {
       "stations": [

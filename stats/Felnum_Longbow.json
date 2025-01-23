@@ -13,7 +13,7 @@
   "Tooltip": "Receives 50% higher damage bonuses",
   "Rarity": "Green",
   "Sell": 5000,
-  "Source": "(12) <a is=a-link image=$fromStats>Felnum Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "12<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

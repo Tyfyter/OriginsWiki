@@ -15,7 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 80000,
-  "Source": "<a is=a-link image=$fromStats>Riven Mimic</a>",
+  "Source": "<a is=a-link image=$fromStats>Plasma Cutter</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [

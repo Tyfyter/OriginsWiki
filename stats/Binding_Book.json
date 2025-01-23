@@ -18,7 +18,7 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 52000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Celestial_Cuffs>Celestial Cuffs</a> + <a is=a-link image=$fromStats>Refactoring Pieces</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Cuffs\">Celestial Cuffs</a>+<a is=a-link image=$fromStats imageOnly>Refactoring Pieces</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

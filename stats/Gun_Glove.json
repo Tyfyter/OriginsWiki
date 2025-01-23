@@ -16,7 +16,7 @@
   ],
   "Rarity": "Green",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Goblin_Tinkerer>Goblin Tinkerer</a> after completing a <a is=a-link href=NPC_Quests.html>quest</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Tinkerer\">Goblin Tinkerer</a> (<a-coins>100000</a-coins>After completing \"Lend a Hand?\")<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Feral_Claws\">Feral Claws</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [

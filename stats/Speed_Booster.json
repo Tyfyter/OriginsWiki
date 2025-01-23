@@ -22,7 +22,7 @@
   ],
   "Rarity": "Yellow",
   "Sell": 140000,
-  "Source": "<a is=a-link image=$fromStats>Automated Returns Handler</a> + <a is=a-link image=$fromStats>Lover's Leap</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link image=$fromStats imageOnly>Automated Returns Handler</a>+<a is=a-link image=$fromStats imageOnly>Lover's Leap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

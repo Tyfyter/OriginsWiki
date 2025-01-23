@@ -10,7 +10,7 @@
   "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
   "Rarity": "Gray",
   "Sell": 30000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Skeleton_Merchant>Skeleton Merchant</a> (dropped)",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Quiver\">Magic Quiver</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [

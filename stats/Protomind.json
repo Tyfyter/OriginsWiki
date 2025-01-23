@@ -15,7 +15,7 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 30000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Brain_of_Confusion>Brain of Confusion</a> + <a is=a-link image=$fromStats>Potato Battery</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Confusion\">Brain of Confusion</a>+<a is=a-link image=$fromStats imageOnly>Potato Battery</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

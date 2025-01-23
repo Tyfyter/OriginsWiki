@@ -9,7 +9,7 @@
   "Tooltip": "Increased life regeneration and defense based on the torn severity you're affected by",
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Shackle>Shackle</a> + <a is=a-link image=$fromStats>Primordial Soup</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a>+<a is=a-link image=$fromStats imageOnly>Primordial Soup</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

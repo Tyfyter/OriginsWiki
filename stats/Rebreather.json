@@ -10,7 +10,7 @@
   "Tooltip": "Gain more breath as you move in water",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Angler_Fish>Angler Fish</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angler_Fish\">Angler Fish</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Angler_Fish\">Angler Fish</a>",

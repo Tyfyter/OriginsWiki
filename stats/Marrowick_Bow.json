@@ -12,7 +12,7 @@
   "Velocity": 6.6,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "(10) <a is=a-link image=$fromStats>Marrowick</a> @ <a is=a-link>Work Benches</a>",
+  "Source": "7<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>10<a is=a-link image=$fromStats imageOnly>Endowood Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

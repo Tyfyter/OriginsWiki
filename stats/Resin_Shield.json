@@ -18,7 +18,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 40000,
-  "Source": "(6) <a is=a-link href=https://terraria.wiki.gg/wiki/Amber>Amber</a> + <a is=a-link href=https://terraria.wiki.gg/wiki/Obsidian_Shield>Obsidian Shield</a> + (12) <a is=a-link image=$fromStats>Carburite</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "6<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Shield\">Obsidian Shield</a>+12<a is=a-link image=$fromStats imageOnly>Carburite</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

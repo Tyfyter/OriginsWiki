@@ -10,7 +10,7 @@
   "Tooltip": "Critical strike chance is increased by 15% of weapon damage",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "Source": "(5) <a is=a-link href=https://terraria.wiki.gg/wiki/Cursed_Flame>Cursed Flame</a> + (16) <a is=a-link href=https://terraria.wiki.gg/wiki/Ruby>Ruby</a> + (24) <a is=a-link image=$fromStats>Carburite</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Source": "4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ruby\">Ruby</a>+24<a is=a-link image=$fromStats imageOnly>Carburite</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

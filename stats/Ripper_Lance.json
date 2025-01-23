@@ -14,7 +14,7 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "(9) <a is=a-link image=$fromStats>Defiled Bar</a> + (5) <a is=a-link image=$fromStats>Undead Chunk</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "9<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>+5<a is=a-link image=$fromStats imageOnly>Undead Chunk</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
