@@ -15,6 +15,7 @@
   "Tooltip": "Summons a lost soul to fight for you",
   "Rarity": "Blue",
   "Sell": 15000,
+  "Source": "Any <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a> not in a <a is=a-link href=https://terraria.wiki.gg/wiki/Pyramid>Pyramid</a> and in the <a is=a-link href=https://terraria.wiki.gg/wiki/Cavern>Cavern</a> layer",
   "UsedIn": [
     {
       "stations": [

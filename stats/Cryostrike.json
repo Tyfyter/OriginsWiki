@@ -15,6 +15,7 @@
   "Tooltip": "Shoots a piercing icicle",
   "Rarity": "Blue",
   "Sell": 4800,
+  "Source": "Any <a is=a-link href=https://terraria.wiki.gg/wiki/Ice_Chest>Ice Chest</a>",
   "SpriteWidth": 48,
   "InternalName": "Cryostrike"
 }

@@ -13,6 +13,7 @@
   "Tooltip": "Summons a woodsprite to fight for you",
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "Any <a is=a-link href=https://terraria.wiki.gg/wiki/Living_Wood_Chest>Living Wood Chest</a>",
   "SpriteWidth": 50,
   "InternalName": "Woodsprite_Staff"
 }
