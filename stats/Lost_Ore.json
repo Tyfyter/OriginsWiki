@@ -14,7 +14,7 @@
   "Tooltip": "A strange metal warped to the curiosity of the Defiled Wastelands",
   "Rarity": "Blue",
   "Sell": 1400,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Defiled Amalgamation</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Swarmer</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (Defiled Amalgamation)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> Drops in worlds with Defiled Wastelands<div class=divider></div><a is=a-link image=$fromStats>Defiled Amalgamation</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Swarmer</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
@@ -67,7 +67,7 @@
       "Max": 90,
       "Min": 30,
       "Difficulty": "Normal",
-      "Notes": ", Drops in worlds with Defiled Wastelands"
+      "Notes": "Drops in worlds with Defiled Wastelands"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",

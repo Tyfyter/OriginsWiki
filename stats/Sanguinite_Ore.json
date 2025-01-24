@@ -14,7 +14,7 @@
   "Tooltip": "A rare mineral that grows more powerful with heat",
   "Rarity": "Blue",
   "Sell": 1600,
-  "Source": "<a is=a-link image=$fromStats>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Ashen Factory<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Ashen Factory",
+  "Source": "<a is=a-link image=$fromStats>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Ashen Factory<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> Drops in worlds with Ashen Factory",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
@@ -46,7 +46,7 @@
       "Max": 90,
       "Min": 30,
       "Difficulty": "Normal",
-      "Notes": ", Drops in worlds with Ashen Factory"
+      "Notes": "Drops in worlds with Ashen Factory"
     }
   ],
   "Recipes": [

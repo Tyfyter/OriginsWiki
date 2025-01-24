@@ -7,7 +7,7 @@
     "Master"
   ],
   "Rarity": "Green",
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Skeletron>Skeletron</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron\">Skeletron</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeletron\">Skeletron</a>",

@@ -12,7 +12,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 60000,
-  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
+  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
