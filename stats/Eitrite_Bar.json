@@ -13,7 +13,7 @@
   "UseTime": 10,
   "Rarity": "Orange",
   "Sell": 8100,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Eitrite Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a>+2<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian Shard</a>+<a is=a-link image=$fromStats imageOnly>Bottled Brine</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Bar\">Hallowed Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Eitrite Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Forge\">Adamantite Forge</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a> + (2) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian Shard</a> +  <a is=a-link image=$fromStats imageOnly>Bottled Brine</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Hallowed_Bar\">Hallowed Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [
@@ -45,6 +45,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -189,6 +190,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

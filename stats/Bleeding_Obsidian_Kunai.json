@@ -21,7 +21,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 10000,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>+5<a is=a-link image=$fromStats imageOnly>Silicon Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Dagger\">Magic Dagger</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> + (5) <a is=a-link image=$fromStats imageOnly>Silicon Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Dagger\">Magic Dagger</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [
@@ -39,6 +39,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -54,6 +55,7 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

@@ -8,7 +8,7 @@
   "Tooltip": "Grants immunity to 'Toxic Shock' and 'Torn'",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Bottled Brine</a>+<a is=a-link image=$fromStats imageOnly>Brineglow</a>+<a is=a-link image=$fromStats imageOnly>Peat Moss</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Bottled Brine</a> +  <a is=a-link image=$fromStats imageOnly>Brineglow</a> +  <a is=a-link image=$fromStats imageOnly>Peat Moss</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
   "Recipes": [
     {
       "stations": [

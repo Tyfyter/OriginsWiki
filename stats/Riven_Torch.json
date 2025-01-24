@@ -13,9 +13,12 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
-  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Spug Flesh</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Brittle Quartz</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Primordial Permafrost</a>",
+  "Source": "(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Spug Flesh</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Brittle Quartz</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Primordial Permafrost</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
@@ -43,6 +46,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Riven Campfire</a>",
@@ -55,6 +61,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

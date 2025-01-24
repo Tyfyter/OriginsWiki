@@ -14,9 +14,12 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 6,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Black Bile</a>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Black Bile</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bile Dart</a> (100)",

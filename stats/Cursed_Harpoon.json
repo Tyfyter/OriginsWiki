@@ -12,7 +12,7 @@
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Orange",
   "Sell": 1000,
-  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div>5<a is=a-link image=$fromStats imageOnly>Harpoon</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div>(5) <a is=a-link image=$fromStats imageOnly>Harpoon</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

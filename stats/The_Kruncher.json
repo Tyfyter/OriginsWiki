@@ -16,7 +16,7 @@
   "Tooltip": "'Very pointy'",
   "Rarity": "Blue",
   "Sell": 5000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>+6<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>+3<a is=a-link image=$fromStats imageOnly>Undead Chunk</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a> + (6) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (3) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",

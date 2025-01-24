@@ -16,7 +16,7 @@
   "Tooltip": "Splits into brine droplets on impact",
   "Rarity": "LightRed",
   "Sell": 5000,
-  "Source": "20<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

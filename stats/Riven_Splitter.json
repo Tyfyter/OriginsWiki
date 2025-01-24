@@ -17,7 +17,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "9<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+3<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
+  "Source": "(9) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> + (3) <a is=a-link image=$fromStats imageOnly>Riven Carapace</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",

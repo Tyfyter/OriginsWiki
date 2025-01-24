@@ -10,7 +10,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "4<a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [
@@ -28,6 +28,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Defiled Torch</a> (3)",

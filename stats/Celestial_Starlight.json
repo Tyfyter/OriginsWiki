@@ -14,7 +14,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 33000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Magnet\">Celestial Magnet</a>+<a is=a-link image=$fromStats imageOnly>Dim Starlight</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Magnet\">Celestial Magnet</a> +  <a is=a-link image=$fromStats imageOnly>Dim Starlight</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

@@ -8,7 +8,7 @@
   "Tooltip": "Significantly increases visibility",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Night_Owl_Potion\">Night Owl Potion</a>+<a is=a-link image=$fromStats imageOnly>Duskarp</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Night_Owl_Potion\">Night Owl Potion</a> +  <a is=a-link image=$fromStats imageOnly>Duskarp</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
   "Recipes": [
     {
       "stations": [

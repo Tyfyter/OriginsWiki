@@ -12,7 +12,7 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Encrusted Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Encrusted Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
   "Recipes": [
     {
       "stations": [

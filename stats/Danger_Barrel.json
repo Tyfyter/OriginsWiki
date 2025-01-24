@@ -10,7 +10,7 @@
   "Tooltip": "All explosives inflict 'On Fire!' and have a reduced fuse time",
   "Rarity": "Orange",
   "Sell": 22000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a>+<a is=a-link image=$fromStats imageOnly>I-WTPA Standard</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a> +  <a is=a-link image=$fromStats imageOnly>I-WTPA Standard</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

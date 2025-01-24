@@ -13,7 +13,7 @@
   "Tooltip": "Right Click to retract",
   "Rarity": "Blue",
   "Sell": 2700,
-  "Source": "10<a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

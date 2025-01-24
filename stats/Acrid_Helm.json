@@ -18,7 +18,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 30000,
-  "Source": "13<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>+10<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(13) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> + (10) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

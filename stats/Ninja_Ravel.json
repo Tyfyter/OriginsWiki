@@ -15,7 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 120000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Spider Ravel</a>+<a is=a-link image=$fromStats imageOnly>Stealth Ravel</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Spider Ravel</a> +  <a is=a-link image=$fromStats imageOnly>Stealth Ravel</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

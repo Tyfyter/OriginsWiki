@@ -9,7 +9,7 @@
   "Tooltip": "Allows you to participate in Laser Tag events",
   "Rarity": "LightPurple",
   "Sell": 40000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Power Core</a>+6<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Power Core</a> + (6) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

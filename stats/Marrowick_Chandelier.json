@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "4<a is=a-link image=$fromStats imageOnly>Marrowick</a>+4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Marrowick</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chain\">Chain</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

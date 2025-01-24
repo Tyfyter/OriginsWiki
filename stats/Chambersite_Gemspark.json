@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a>+<a is=a-link image=$fromStats imageOnly>Chambersite</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Offline Chambersite Gemspark Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Chambersite Gemspark Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass\">Glass</a> +  <a is=a-link image=$fromStats imageOnly>Chambersite</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Offline Chambersite Gemspark Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Chambersite Gemspark Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

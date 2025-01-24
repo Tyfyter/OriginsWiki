@@ -11,9 +11,12 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Endowood</a>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Endowood</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Endowood Platform</a> (2)",
@@ -26,6 +29,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Endowood</a>",

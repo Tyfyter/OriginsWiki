@@ -10,7 +10,7 @@
   "Tooltip": "15% increased magic damage",
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "20<a is=a-link image=$fromStats imageOnly>Lost Ore</a>+28<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>Lost Ore</a> + (28) <a is=a-link image=$fromStats imageOnly>Strange String</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -13,7 +13,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 80000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Headphones</a>+<a is=a-link image=$fromStats imageOnly>Sniper's Mark</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Headphones</a> +  <a is=a-link image=$fromStats imageOnly>Sniper's Mark</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "Source": "8<a is=a-link image=$fromStats imageOnly>Endowood</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(8) <a is=a-link image=$fromStats imageOnly>Endowood</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

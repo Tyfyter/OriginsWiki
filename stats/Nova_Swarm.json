@@ -19,7 +19,7 @@
   ],
   "Rarity": "Red",
   "Sell": 200000,
-  "Source": "18<a is=a-link image=$fromStats imageOnly>Nova Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": "(18) <a is=a-link image=$fromStats imageOnly>Nova Fragment</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
   "Recipes": [
     {
       "stations": [

@@ -14,7 +14,7 @@
   ],
   "Rarity": "Lime",
   "Sell": 80000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Sac\">Spore Sac</a>+<a is=a-link image=$fromStats imageOnly>Last Descendant</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Sac\">Spore Sac</a> +  <a is=a-link image=$fromStats imageOnly>Last Descendant</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

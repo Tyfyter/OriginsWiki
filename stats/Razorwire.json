@@ -9,7 +9,7 @@
   "Tooltip": "67% of damage received is split across 3 enemies",
   "Rarity": "Green",
   "Sell": 10000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a>+<a is=a-link image=$fromStats imageOnly>Return To Sender</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a> +  <a is=a-link image=$fromStats imageOnly>Return To Sender</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

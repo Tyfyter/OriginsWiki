@@ -12,7 +12,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 132,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Silicon Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Silicon Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
   "Recipes": [
     {
       "stations": [

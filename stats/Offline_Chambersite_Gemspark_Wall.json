@@ -7,7 +7,7 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
-  "Source": "<a is=a-link image=$fromStats imageOnly>Chambersite Gemspark</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Chambersite Gemspark</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

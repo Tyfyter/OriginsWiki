@@ -18,7 +18,7 @@
     "'Be careful, it's hot'"
   ],
   "Rarity": "Pink",
-  "Source": "13<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>+2<a is=a-link image=$fromStats imageOnly>Rotor</a>+8<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(13) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> + (2) <a is=a-link image=$fromStats imageOnly>Rotor</a> + (8) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

@@ -13,7 +13,7 @@
   ],
   "Rarity": "Green",
   "Sell": 8000,
-  "Source": "25<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(25) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

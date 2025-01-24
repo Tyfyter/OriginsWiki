@@ -14,9 +14,12 @@
   "Tooltip": "Can be placed in water",
   "Rarity": "White",
   "Sell": 10,
-  "Source": "33<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Alkahest</a>",
+  "Source": "(33) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Alkahest</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Alkahest Torch</a> (33)",
@@ -31,6 +34,7 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

@@ -10,7 +10,7 @@
   "Tooltip": "Spreads the Riven Hive",
   "Rarity": "White",
   "Sell": 20,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Acetabularia</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>100</a-coins>Not in a Remix world, During a Blood Moon and In worlds with Riven Hive)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Acetabularia</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>100</a-coins>Not in a Remix world, During a Blood Moon and In worlds with Riven Hive)",
   "Recipes": [
     {
       "stations": [
@@ -28,6 +28,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Gelled Knife</a> (50)",
@@ -54,6 +57,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

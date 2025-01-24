@@ -14,7 +14,7 @@
   ],
   "Rarity": "Yellow",
   "Sell": 75000,
-  "Source": "12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a>+<a is=a-link image=$fromStats imageOnly>Blast-Resistant Plate</a>+2<a is=a-link image=$fromStats imageOnly>Busted Servo</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(12) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> +  <a is=a-link image=$fromStats imageOnly>Blast-Resistant Plate</a> + (2) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

@@ -18,7 +18,7 @@
   "Tooltip": "Only explodes when another explosive detonates nearby or when its fuse runs out",
   "Rarity": "Green",
   "Sell": 35,
-  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>+<a is=a-link image=$fromStats imageOnly>Peat Moss</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>175</a-coins>After selling 85 peat moss to the Demolitionist, In worlds with Ashen Factory)",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> +  <a is=a-link image=$fromStats imageOnly>Peat Moss</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>175</a-coins>After selling 85 peat moss to the Demolitionist, In worlds with Ashen Factory)",
   "Recipes": [
     {
       "stations": [

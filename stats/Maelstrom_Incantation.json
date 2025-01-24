@@ -20,7 +20,7 @@
   ],
   "Rarity": "Green",
   "Sell": 6000,
-  "Source": "5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+10<a is=a-link image=$fromStats imageOnly>Felnum Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Source": "(5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> + (10) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
   "Recipes": [
     {
       "stations": [

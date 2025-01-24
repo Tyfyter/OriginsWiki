@@ -10,7 +10,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Living_Fire_Block\">Living Fire Block</a>+<a is=a-link image=$fromStats imageOnly>Black Bile</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Living_Fire_Block\">Living Fire Block</a> +  <a is=a-link image=$fromStats imageOnly>Black Bile</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>)",
   "Recipes": [
     {
       "stations": [

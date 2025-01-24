@@ -12,7 +12,7 @@
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "Blue",
   "Sell": 400,
-  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a>+8<a is=a-link image=$fromStats imageOnly>Harpoon</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a> + (8) <a is=a-link image=$fromStats imageOnly>Harpoon</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

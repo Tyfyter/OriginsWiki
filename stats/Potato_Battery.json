@@ -15,7 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 10000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> +  <a is=a-link image=$fromStats imageOnly>Potato</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

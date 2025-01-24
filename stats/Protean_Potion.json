@@ -8,7 +8,7 @@
   "Tooltip": "Half of any weapon boosts are shared across all classes",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+<a is=a-link image=$fromStats imageOnly>Tearracuda</a>+<a is=a-link image=$fromStats imageOnly>Wrycoral</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> +  <a is=a-link image=$fromStats imageOnly>Tearracuda</a> +  <a is=a-link image=$fromStats imageOnly>Wrycoral</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
   "Recipes": [
     {
       "stations": [

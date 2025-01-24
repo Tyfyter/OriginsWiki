@@ -16,7 +16,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "10<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>+5<a is=a-link image=$fromStats imageOnly>Riven Carapace</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> + (5) <a is=a-link image=$fromStats imageOnly>Riven Carapace</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a><div class=divider></div><a is=a-link image=$fromStats>World Cracker</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",

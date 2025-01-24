@@ -10,7 +10,7 @@
   "Tooltip": "+6% critical strike chance",
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+28<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> + (28) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

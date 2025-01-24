@@ -14,7 +14,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 60000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ranger_Emblem\">Ranger Emblem</a>+<a is=a-link image=$fromStats imageOnly>Ruby Reticle</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ranger_Emblem\">Ranger Emblem</a> +  <a is=a-link image=$fromStats imageOnly>Ruby Reticle</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

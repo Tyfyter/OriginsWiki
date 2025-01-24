@@ -13,7 +13,7 @@
   "Velocity": 16.0,
   "Rarity": "Blue",
   "Sell": 5000,
-  "Source": "12<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(12) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -10,7 +10,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstone_Block\">Sandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsandstone_Block\">Ebonsandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsandstone_Block\">Crimsandstone Block</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Brittle Quartz Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstone_Block\">Sandstone Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsandstone_Block\">Ebonsandstone Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsandstone_Block\">Crimsandstone Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Extractinator\">Chlorophyte Extractinator</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Brittle Quartz Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [
@@ -53,6 +53,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
@@ -78,6 +81,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

@@ -12,7 +12,7 @@
   ],
   "Rarity": "Green",
   "Sell": 10000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Paper_Airplane\">Paper Airplane</a>+<a is=a-link image=$fromStats imageOnly>Asylum Whistle</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Paper_Airplane\">Paper Airplane</a> +  <a is=a-link image=$fromStats imageOnly>Asylum Whistle</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

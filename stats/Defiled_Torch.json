@@ -13,9 +13,12 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 10,
-  "Source": "3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Gray Ice</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Defiled Stone</a><div class=divider></div>3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>+<a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand</a>",
+  "Source": "(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Gray Ice</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Defiled Stone</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> +  <a is=a-link image=$fromStats imageOnly>Hardened Defiled Sand</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Defiled Torch</a> (3)",
@@ -43,6 +46,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Defiled Campfire</a>",
@@ -55,6 +61,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

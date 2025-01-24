@@ -7,7 +7,7 @@
   ],
   "Rarity": "Cyan",
   "Sell": 2000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
   "Recipes": [
     {
       "stations": [
@@ -28,6 +28,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Celestial_Sigil\">Celestial Sigil</a>",

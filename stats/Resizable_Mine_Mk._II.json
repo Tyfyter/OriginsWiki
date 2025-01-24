@@ -13,7 +13,7 @@
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Green",
   "Sell": 465,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

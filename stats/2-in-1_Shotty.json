@@ -13,7 +13,7 @@
   "Velocity": 5.35,
   "Rarity": "Green",
   "Sell": 40000,
-  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a>+6<a is=a-link image=$fromStats imageOnly>Adhesive Wrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Boomstick\">Boomstick</a> + (6) <a is=a-link image=$fromStats imageOnly>Adhesive Wrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

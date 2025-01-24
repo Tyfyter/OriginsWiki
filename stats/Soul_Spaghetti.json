@@ -12,7 +12,7 @@
   ],
   "Rarity": "Green",
   "Sell": 1000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl_of_Soup\">Bowl of Soup</a>+10<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl_of_Soup\">Bowl of Soup</a> + (10) <a is=a-link image=$fromStats imageOnly>Strange String</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
   "Recipes": [
     {
       "stations": [

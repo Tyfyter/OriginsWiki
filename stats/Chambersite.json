@@ -13,10 +13,11 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 1300,
-  "Source": "16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a>(@<a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
+  "Source": "(16) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -46,6 +47,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

@@ -10,7 +10,7 @@
   "Tooltip": "Increased life regeneration",
   "Rarity": "White",
   "Sell": 700,
-  "Source": "45<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>+4<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(45) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

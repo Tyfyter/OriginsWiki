@@ -15,9 +15,12 @@
   "Tooltip": "Stuns the target",
   "Rarity": "Orange",
   "Sell": 8,
-  "Source": "150<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a>+<a is=a-link image=$fromStats imageOnly>Black Bile</a>",
+  "Source": "(150) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> +  <a is=a-link image=$fromStats imageOnly>Black Bile</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bile Arrow</a> (150)",

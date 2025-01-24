@@ -6,7 +6,7 @@
   ],
   "Rarity": "White",
   "Sell": 6,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Bark</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div><a is=a-link image=$fromStats imageOnly>Tree Sap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div><a is=a-link image=$fromStats imageOnly>Tire</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Bark</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Tree Sap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Tire</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

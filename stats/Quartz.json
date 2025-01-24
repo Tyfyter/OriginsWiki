@@ -10,7 +10,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "4<a is=a-link image=$fromStats imageOnly>Quartz Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Quartz Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [
@@ -42,6 +42,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

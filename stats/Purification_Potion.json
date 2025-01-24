@@ -8,7 +8,7 @@
   "Tooltip": "Grants immunity to being assimilated by world evils",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ectoplasm\">Ectoplasm</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>+<a is=a-link image=$fromStats imageOnly>Mojo Flask</a>(@<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ectoplasm\">Ectoplasm</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a> +  <a is=a-link image=$fromStats imageOnly>Mojo Flask</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
   "Recipes": [
     {
       "stations": [

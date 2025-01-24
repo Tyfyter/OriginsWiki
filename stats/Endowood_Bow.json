@@ -12,7 +12,7 @@
   "Velocity": 6.6,
   "Rarity": "White",
   "Sell": 20,
-  "Source": "10<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>10<a is=a-link image=$fromStats imageOnly>Endowood Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Endowood</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(10) <a is=a-link image=$fromStats imageOnly>Endowood Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

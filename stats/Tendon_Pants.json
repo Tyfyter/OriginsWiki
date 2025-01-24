@@ -10,7 +10,7 @@
   "Tooltip": "+20% ammo conservation",
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "14<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+22<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(14) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> + (22) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -16,7 +16,7 @@
   "Tooltip": "Receives 50% higher damage bonuses",
   "Rarity": "Lime",
   "Sell": 20000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky_Fracture\">Sky Fracture</a>+15<a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky_Fracture\">Sky Fracture</a> + (15) <a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

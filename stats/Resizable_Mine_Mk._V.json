@@ -14,7 +14,7 @@
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",
   "Rarity": "Cyan",
   "Sell": 2600,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite\">Luminite</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite\">Luminite</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
   "Recipes": [
     {
       "stations": [

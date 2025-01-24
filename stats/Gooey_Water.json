@@ -13,9 +13,12 @@
   "Tooltip": "Spreads the Riven Hive to some blocks",
   "Rarity": "Orange",
   "Sell": 20,
-  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+<a is=a-link image=$fromStats imageOnly>Riven Seeds</a>+<a is=a-link image=$fromStats imageOnly>Silica</a>",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> +  <a is=a-link image=$fromStats imageOnly>Riven Seeds</a> +  <a is=a-link image=$fromStats imageOnly>Silica</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Gooey Water</a> (10)",

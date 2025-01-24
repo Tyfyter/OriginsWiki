@@ -12,7 +12,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 1000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Honey\">Bottled Honey</a>+<a is=a-link image=$fromStats imageOnly>Bread</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Honey\">Bottled Honey</a> +  <a is=a-link image=$fromStats imageOnly>Bread</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
   "Recipes": [
     {
       "stations": [

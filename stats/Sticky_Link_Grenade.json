@@ -21,7 +21,7 @@
   ],
   "Rarity": "Green",
   "Sell": 35,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gel\">Gel</a>+5<a is=a-link image=$fromStats imageOnly>Link Grenade</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Gel\">Gel</a> + (5) <a is=a-link image=$fromStats imageOnly>Link Grenade</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

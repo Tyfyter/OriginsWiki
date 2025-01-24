@@ -11,7 +11,7 @@
   "Tooltip": "Increased movement speed",
   "Rarity": "Pink",
   "Sell": 20000,
-  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a>+3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a>+24<a is=a-link image=$fromStats imageOnly>Carburite</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sapphire\">Sapphire</a> + (3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> + (24) <a is=a-link image=$fromStats imageOnly>Carburite</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -15,7 +15,7 @@
   "Tooltip": "'We already have Cellphones'",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "Source": "50<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a>+7<a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(50) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> + (7) <a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

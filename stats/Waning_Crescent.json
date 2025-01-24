@@ -13,7 +13,7 @@
   "Velocity": 11.75,
   "Rarity": "Orange",
   "Sell": 5000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Dark Spiral</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flamarang\">Flamarang</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorn_Chakram\">Thorn Chakram</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Trimarang\">Trimarang</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Dark Spiral</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Flamarang\">Flamarang</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorn_Chakram\">Thorn Chakram</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Trimarang\">Trimarang</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
       "stations": [

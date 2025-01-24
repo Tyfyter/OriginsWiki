@@ -13,7 +13,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 10000,
-  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a>+12<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a> + (12) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

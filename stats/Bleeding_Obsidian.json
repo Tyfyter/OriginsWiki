@@ -15,9 +15,12 @@
   "UseTime": 10,
   "Tooltip": "'Weakens those who touch it'",
   "Rarity": "Orange",
-  "Source": "8<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian Shard</a><div class=divider></div>6<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": "(8) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian Shard</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(6) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bleeding Obsidian</a>",
@@ -72,6 +75,9 @@
       ]
     },
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bleeding Obsidian Shard</a> (8)",

@@ -10,7 +10,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "4<a is=a-link image=$fromStats imageOnly>Endowood Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>2<a is=a-link image=$fromStats imageOnly>Endowood Platform</a>",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Endowood Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(2) <a is=a-link image=$fromStats imageOnly>Endowood Platform</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
       "stations": [
@@ -26,6 +26,9 @@
       ]
     },
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Endowood</a>",
@@ -38,6 +41,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",

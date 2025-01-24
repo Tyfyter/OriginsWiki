@@ -16,7 +16,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Slag Bucket (Cursed)</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)<div class=divider></div><a is=a-link image=$fromStats imageOnly>Scrap Barrier</a>+<a is=a-link image=$fromStats imageOnly>Shield of Retribution</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Slag Bucket (Cursed)</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Scrap Barrier</a> +  <a is=a-link image=$fromStats imageOnly>Shield of Retribution</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

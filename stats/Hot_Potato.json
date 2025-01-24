@@ -15,7 +15,7 @@
   "Tooltip": "'Be careful, it's hot'",
   "Rarity": "Orange",
   "Sell": 3000,
-  "Source": "14<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+<a is=a-link image=$fromStats imageOnly>Potato</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(14) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> +  <a is=a-link image=$fromStats imageOnly>Potato</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> +  <a is=a-link image=$fromStats imageOnly>Potato</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -17,9 +17,12 @@
   "Tooltip": "Explodes into a lingering fire",
   "Rarity": "Orange",
   "Sell": 540,
-  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone\">Hellstone</a>",
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone\">Hellstone</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Hellfire Bomb</a> (15)",

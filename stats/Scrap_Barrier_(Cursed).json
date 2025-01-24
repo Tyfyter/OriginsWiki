@@ -13,7 +13,7 @@
   ],
   "Rarity": "Cursed",
   "Sell": 20000,
-  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>+30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+20<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> + (30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> + (20) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
       "stations": [

@@ -9,7 +9,7 @@
   "Tooltip": "Minor improvements to all stats",
   "Rarity": "Blue",
   "Sell": 400,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>+<a is=a-link image=$fromStats imageOnly>Bileberry</a>+<a is=a-link image=$fromStats imageOnly>Prickly Pear</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a> +  <a is=a-link image=$fromStats imageOnly>Bileberry</a> +  <a is=a-link image=$fromStats imageOnly>Prickly Pear</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>)",
   "Recipes": [
     {
       "stations": [

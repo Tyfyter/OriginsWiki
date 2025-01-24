@@ -14,7 +14,7 @@
   "Tooltip": "Beckons distant enemies toward you",
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "10<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a>",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",

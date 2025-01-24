@@ -10,7 +10,7 @@
   "Tooltip": "Chance for mana stars to fall from critical hits",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>+<a is=a-link image=$fromStats imageOnly>Wilting Rose</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a> +  <a is=a-link image=$fromStats imageOnly>Wilting Rose</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
@@ -72,6 +72,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -115,6 +116,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

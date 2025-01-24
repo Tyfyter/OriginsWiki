@@ -11,9 +11,12 @@
   "UseTime": 10,
   "Tooltip": "Feels waxy to the touch.",
   "Rarity": "White",
-  "Source": "2<a is=a-link image=$fromStats imageOnly>Marrowick Platform</a><div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Marrowick Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(2) <a is=a-link image=$fromStats imageOnly>Marrowick Platform</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Marrowick Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Marrowick</a>",
@@ -39,6 +42,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",

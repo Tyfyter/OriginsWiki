@@ -15,7 +15,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Comb</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Worm_Scarf\">Worm Scarf</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Comb</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Worm_Scarf\">Worm Scarf</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

@@ -15,7 +15,7 @@
   "Tooltip": "Inflicts frostburn to anything nearby upon impact",
   "Rarity": "Pink",
   "Sell": 880,
-  "Source": "100<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frost_Core\">Frost Core</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(100) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Frost_Core\">Frost Core</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

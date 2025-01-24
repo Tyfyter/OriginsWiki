@@ -12,7 +12,7 @@
   "UseTime": 20,
   "Rarity": "White",
   "Sell": 10,
-  "Source": "8<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(8) <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

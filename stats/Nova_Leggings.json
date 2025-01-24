@@ -14,7 +14,7 @@
   ],
   "Rarity": "Red",
   "Sell": 105000,
-  "Source": "12<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a>+15<a is=a-link image=$fromStats imageOnly>Nova Fragment</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": "(12) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite_Bar\">Luminite Bar</a> + (15) <a is=a-link image=$fromStats imageOnly>Nova Fragment</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
   "Recipes": [
     {
       "stations": [
