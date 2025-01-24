@@ -1,0 +1,10 @@
+{
+    "categories": [
+      "items"
+    ],
+    "headers": [
+    "Name",
+    "Source",
+    { "name":"Internal Name", "expr":"item.InternalName", "noAbbr": true}
+    ]
+  }
