@@ -15,7 +15,6 @@
   "Tooltip": "Inflicts toxic shock",
   "Rarity": "LightRed",
   "Sell": 8000,
-  "Source": "<a is=a-link image=$fromStats>Sea Dragon</a>",
   "SpriteWidth": 32,
   "InternalName": "Nematoclaw"
 }

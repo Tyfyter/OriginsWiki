@@ -10,6 +10,7 @@
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -25,23 +26,147 @@
   "UsedIn": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
-      ],
-      "items": [
-        {
-          "result": "<a is=a-link image=$fromStats>Dim Starlight</a>",
-          "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
-            "<a is=a-link image=$fromStats>Wilting Rose</a>"
-          ]
-        }
-      ]
-    },
-    {
-      "stations": [
         "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
       ],
       "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gender_Change_Potion\">Gender Change Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daybloom\">Daybloom</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Waterleaf\">Waterleaf</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gender_Change_Potion\">Gender Change Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daybloom\">Daybloom</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Waterleaf\">Waterleaf</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Power_Potion\">Magic Power Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Power_Potion\">Magic Power Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Battle_Potion\">Battle Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Battle_Potion\">Battle Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorns_Potion\">Thorns Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cactus\">Cactus</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gravitation_Potion\">Gravitation Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Gravitation_Potion\">Gravitation Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Titan_Potion\">Titan Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Titan_Potion\">Titan Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rage_Potion\">Rage Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hemopiranha\">Hemopiranha</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wrath_Potion\">Wrath Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonkoi\">Ebonkoi</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stink_Potion\">Stink Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stinkfish\">Stinkfish</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stink_Potion\">Stink Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stinkfish\">Stinkfish</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
         {
           "result": "<a is=a-link image=$fromStats>Ambition Potion</a>",
           "ingredients": [
@@ -70,6 +195,66 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Garland\">Garland</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daybloom\">Daybloom</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Waterleaf\">Waterleaf</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Garland\">Garland</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daybloom\">Daybloom</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blinkroot\">Blinkroot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Waterleaf\">Waterleaf</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>",
+            "<a is=a-link image=\"RecipeGroups/Fireblossom\" href=Recipe_Groups>Any Underworld Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hanging_Corrupt_Deathweed\">Hanging Corrupt Deathweed</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hanging_Pot\">Hanging Pot</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hanging_Crimson_Deathweed\">Hanging Crimson Deathweed</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hanging_Pot\">Hanging Pot</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dim Starlight</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Band_of_Starpower\">Band of Starpower</a>",
+            "<a is=a-link image=$fromStats>Wilting Rose</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

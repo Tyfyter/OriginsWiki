@@ -11,7 +11,7 @@
   "Tooltip": "Temporarily increases defense by 25% after death",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "Source": "2.5% chance of being dropped by enemies spawned in the <a is=a-link href=https://terraria.wiki.gg/wiki/Graveyard>Graveyard</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",

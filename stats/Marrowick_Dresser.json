@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "16<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
+  "Source": "(16) <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sawmill\">Sawmill</a>)",
   "Recipes": [
     {
       "stations": [

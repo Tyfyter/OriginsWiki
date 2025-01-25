@@ -19,7 +19,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 30000,
-  "Source": "16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a>+16<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a>+14<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(16) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> + (16) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a> + (14) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

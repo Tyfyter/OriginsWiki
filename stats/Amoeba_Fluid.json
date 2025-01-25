@@ -11,7 +11,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "<a is=a-link image=$fromStats imageOnly>Gooey Water</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)<div class=divider></div>4<a is=a-link image=$fromStats imageOnly>Amebic Gel Wall</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Gooey Water</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Amebic Gel Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

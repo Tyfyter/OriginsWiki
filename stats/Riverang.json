@@ -14,7 +14,7 @@
   "Tooltip": "'Very hydrodynamic'",
   "Rarity": "Blue",
   "Sell": 5000,
-  "Source": "(9) <a is=a-link image=$fromStats>Encrusted Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "(9) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",

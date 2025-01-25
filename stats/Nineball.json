@@ -15,7 +15,7 @@
   "Tooltip": "'Target verified, commencing hostilities!'",
   "Rarity": "Blue",
   "Sell": 9999,
-  "Source": "(9) <a is=a-link image=$fromStats>Sanguinite Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "(9) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

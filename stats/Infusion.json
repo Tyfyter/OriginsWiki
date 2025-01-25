@@ -16,7 +16,7 @@
   "Tooltip": "Rapidly fires spikes that will detonate when the target is implanted with enough",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+8<a is=a-link image=$fromStats imageOnly>Defiled Bar</a>+6<a is=a-link image=$fromStats imageOnly>Undead Chunk</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (8) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (6) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",

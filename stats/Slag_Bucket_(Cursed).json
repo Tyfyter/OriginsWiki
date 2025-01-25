@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Slag_Bucket",
-  "Name": "Slag Bucket",
+  "Name": "Slag Bucket (Cursed)",
   "Types": [
     "Item",
     "Combat",
@@ -17,7 +17,7 @@
   ],
   "Rarity": "Cursed",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Scrap Barrier</a>+<a is=a-link image=$fromStats imageOnly>Shield of Retribution</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Scrap Barrier (Cursed)</a> +  <a is=a-link image=$fromStats imageOnly>Shield of Retribution</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [
@@ -25,9 +25,9 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
+          "result": "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
             "<a is=a-link image=$fromStats>Shield of Retribution</a>"
           ]
         }
@@ -43,7 +43,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Slag Bucket</a>"
+            "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>"
           ]
         }
       ]

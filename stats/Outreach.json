@@ -13,7 +13,7 @@
   "Velocity": 3.75,
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "(9) <a is=a-link image=$fromStats>Sanguinite Bar</a> + (5) <a is=a-link image=�ModImage�/Items/Materials/NE8>NE-8</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "(5) <a is=a-link image=$fromStats imageOnly>NE8</a> + (9) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

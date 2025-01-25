@@ -19,7 +19,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 60000,
-  "Source": "<a is=a-link image=$fromStats>World Cracker</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Treasure Bag (World Cracker)</a>",

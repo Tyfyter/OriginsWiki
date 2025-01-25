@@ -21,7 +21,6 @@
   ],
   "Rarity": "LightPurple",
   "Sell": 30000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Feral_Claws>Feral Claws</a> + <a is=a-link image=$fromStats>Magic Glove</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
   "SpriteWidth": 24,
   "InternalName": "Magic_Pain_Glove"
 }

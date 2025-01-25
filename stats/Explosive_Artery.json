@@ -16,7 +16,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 10000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Blood_Crawler>Blood Crawler</a> or <a is=a-link href=https://terraria.wiki.gg/wiki/Face_Monster>Face Monster</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Face_Monster\">Face Monster</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Crawler\">Blood Crawler</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Face_Monster\">Face Monster</a>",

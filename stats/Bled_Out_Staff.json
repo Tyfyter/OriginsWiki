@@ -15,7 +15,7 @@
   "Velocity": 9.0,
   "Rarity": "Pink",
   "Sell": 8000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Staff\">Amber Staff</a>+6<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Staff\">Amber Staff</a> + (6) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

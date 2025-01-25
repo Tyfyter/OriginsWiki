@@ -12,7 +12,7 @@
   "Defiled Tripods become friendly"
   "Rarity": "LightRed",
   "Sell": 10000,
-  "Source": "<a is=a-link image=$fromStats>Tripod Nip</a>",
+  "Source": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",

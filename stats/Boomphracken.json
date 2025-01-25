@@ -20,7 +20,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 200000,
-  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a>+8<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>+<a is=a-link image=$fromStats imageOnly>Hallowed Cleaver</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Illegal_Gun_Parts\">Illegal Gun Parts</a> + (8) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> +  <a is=a-link image=$fromStats imageOnly>Hallowed Cleaver</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

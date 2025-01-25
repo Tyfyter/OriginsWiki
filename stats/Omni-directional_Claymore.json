@@ -20,7 +20,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 17500,
-  "Source": "7<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+13<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+25<a is=a-link image=$fromStats imageOnly>Rotor</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(7) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (13) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> + (25) <a is=a-link image=$fromStats imageOnly>Rotor</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

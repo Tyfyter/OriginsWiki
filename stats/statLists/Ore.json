@@ -5,7 +5,7 @@
   "headers": [
     "Tier",
     {"name": "Appearance", "expr":"'<a-stat>' + item.WikiName + '.Images</a-stat>'", "noAbbr": true},
-    {"name": "Name", "expr":"`<a is=a-link>${item.WikiName}</a-link>`", "noAbbr": true},
+    {"name": "Name", "expr":"`<a is=a-link>${item.Name}</a-link>`", "noAbbr": true},
     {"name":"Minimum to mine", "expr":"item.PickReq", "noAbbr": true},
     "Crafting",
     "Source",

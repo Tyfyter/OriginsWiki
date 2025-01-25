@@ -12,7 +12,7 @@
   "UseTime": 19,
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Chests#Surface_Loot>Surface Chests</a>",
+  "Source": "Any <a is=a-link href=https://terraria.wiki.gg/wiki/Wooden_Chest>Wooden Chest</a>",
   "SpriteWidth": 46,
   "InternalName": "Cyah_Nara"
 }

@@ -14,7 +14,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 10000,
-  "Source": "<a is=a-link image=$fromStats>Bomb Handling Device</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>) | <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest#Dungeon>Locked Gold Chest</a>",
+  "Source": "<a is=a-link image=$fromStats>Bomb Handling Device</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a><div class=divider></div>Any <a is=a-link href=https://terraria.wiki.gg/wiki/Locked_Gold_Chest>Locked Gold Chest</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Golden_Lock_Box\">Golden Lock Box</a>",
@@ -41,6 +41,7 @@
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -71,6 +72,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

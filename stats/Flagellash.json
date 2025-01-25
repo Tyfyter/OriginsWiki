@@ -18,7 +18,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "15<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Flagellant</a>",
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Flagellant</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Flagellant</a>",

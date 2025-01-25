@@ -13,7 +13,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>+13<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a> + (13) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

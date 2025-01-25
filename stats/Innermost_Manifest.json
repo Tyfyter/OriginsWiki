@@ -18,7 +18,7 @@
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Orange",
   "Sell": 3000,
-  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>+20<a is=a-link image=$fromStats imageOnly>Alkahest</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a> + (20) <a is=a-link image=$fromStats imageOnly>Alkahest</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
   "Recipes": [
     {
       "stations": [

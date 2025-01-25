@@ -13,7 +13,7 @@
   "Tooltip": "Inflicts raster to anything nearby upon impact",
   "Rarity": "LightRed",
   "Sell": 302,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Black Bile</a>+5<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Black Bile</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -15,7 +15,7 @@
   "Tooltip": "The mouth will spit at nearby enemies",
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Forbidden Voice</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Forbidden Voice</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)",
   "Recipes": [
     {
       "stations": [

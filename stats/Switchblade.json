@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Melee/Switchblade_Shortsword",
+  "Image": "§ModImage§/Items/Weapons/Melee/Switchblade_Broadsword",
   "Name": "Switchblade",
   "Types": [
     "Item",
@@ -9,11 +9,44 @@
   "Damage": 23,
   "DamageClass": "Melee",
   "Knockback": 5.0,
-  "UseTime": 9,
-  "Velocity": 2.0,
-  "Tooltip": "Right Click to extend",
+  "UseTime": 19,
+  "Tooltip": "Right Click to retract",
   "Rarity": "Blue",
   "Sell": 2700,
-  "SpriteWidth": 46,
-  "InternalName": "Switchblade_Shortsword"
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Switchblade</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Night's_Edge\">Night's Edge</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Muramasa\">Muramasa</a>",
+            "<a is=a-link image=\"RecipeGroups/Light'sBane\" href=Recipe_Groups>Any Evil Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/BladeofGrass\" href=Recipe_Groups>Any Tropical Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/Volcano\" href=Recipe_Groups>Any Underworld Sword</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 64,
+  "InternalName": "Switchblade_Broadsword"
 }

@@ -10,7 +10,7 @@
   "Tooltip": "Greatly increased jump speed",
   "Rarity": "Green",
   "Sell": 6000,
-  "Source": "25<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a>+15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a>+10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(25) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bone\">Bone</a> + (15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cloud\">Cloud</a> + (10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Feather\">Feather</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -14,7 +14,7 @@
   "Velocity": 11.75,
   "Rarity": "Yellow",
   "Sell": 5000,
-  "Source": "(20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Fright>Soul of Fright</a> + (20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Might>Soul of Might</a> + (20) <a is=a-link href=https://terraria.wiki.gg/wiki/Soul_of_Sight>Soul of Sight</a> + <a is=a-link image=$fromStats>Waning Crescent</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvils>Any Hardmode Anvil</a>",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Fright\">Soul of Fright</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Sight\">Soul of Sight</a> +  <a is=a-link image=$fromStats imageOnly>Waning Crescent</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

@@ -11,7 +11,7 @@
   "Tooltip": "Five of the nearest enemies will be afflicted with Bleeding, On Fire, and Rasterized",
   "Rarity": "LightRed",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats>Lousy Liver</a> + <a is=a-link image=$fromStats>Messy Magma Leech</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Lousy Liver</a> +  <a is=a-link image=$fromStats imageOnly>Messy Magma Leech</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

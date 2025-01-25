@@ -7,7 +7,7 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
-  "Source": "<a is=a-link image=$fromStats imageOnly>Amoeba Fluid</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Amoeba Fluid</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [
@@ -39,6 +39,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

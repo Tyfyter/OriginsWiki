@@ -10,9 +10,12 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a>+5<a is=a-link image=$fromStats imageOnly>Riven Torch</a>",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a> + (5) <a is=a-link image=$fromStats imageOnly>Riven Torch</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Riven Campfire</a>",

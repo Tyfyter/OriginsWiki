@@ -15,7 +15,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 50000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Guide_Voodoo_Doll>Guide Voodoo Doll</a> + <a is=a-link image=$fromStats>Symbiote Skull</a> + <a is=a-link image=$fromStats>Tainted Flesh</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Guide_Voodoo_Doll\">Guide Voodoo Doll</a> +  <a is=a-link image=$fromStats imageOnly>Symbiote Skull</a> +  <a is=a-link image=$fromStats imageOnly>Tainted Flesh</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>, This kills the Guide)",
   "Recipes": [
     {
       "stations": [

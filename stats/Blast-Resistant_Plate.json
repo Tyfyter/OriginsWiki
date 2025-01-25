@@ -13,7 +13,7 @@
   "Tooltip": "Reduces explosive self-damage by 20%",
   "Rarity": "LightRed",
   "Sell": 10000,
-  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a>+20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian\">Obsidian</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

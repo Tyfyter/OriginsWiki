@@ -17,7 +17,7 @@
   "Tooltip": "'Infinite ammo, infinite wisdom'",
   "Rarity": "Butterscotch",
   "Sell": 200000,
-  "Source": "16<a is=a-link image=$fromStats imageOnly>Batholith</a>+25<a is=a-link image=$fromStats imageOnly>Formium Bar</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": "(16) <a is=a-link image=$fromStats imageOnly>Batholith</a> + (25) <a is=a-link image=$fromStats imageOnly>Formium Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
   "Recipes": [
     {
       "stations": [

@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "5<a is=a-link image=$fromStats imageOnly>Endowood</a>+3<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(5) <a is=a-link image=$fromStats imageOnly>Endowood</a> + (3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

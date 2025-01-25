@@ -12,7 +12,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 30000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Magma_Stone>Magma Stone</a> + <a is=a-link image=$fromStats>Messy Leech</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a> +  <a is=a-link image=$fromStats imageOnly>Messy Leech</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

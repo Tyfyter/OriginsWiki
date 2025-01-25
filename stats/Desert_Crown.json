@@ -14,6 +14,7 @@
   "Tooltip": "Summons a sand elemental to fight for you",
   "Rarity": "Blue",
   "Sell": 5000,
+  "Source": "Any <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Chest>Gold Chest</a> in a <a is=a-link href=https://terraria.wiki.gg/wiki/Pyramid>Pyramid</a>",
   "SpriteWidth": 22,
   "InternalName": "Desert_Crown"
 }

@@ -8,7 +8,7 @@
   "Tooltip": "Melee and Whip attacks tenderize targets",
   "Rarity": "LightRed",
   "Sell": 500,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>+2<a is=a-link image=$fromStats imageOnly>Alkahest</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Imbuing_Station\">Imbuing Station</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> + (2) <a is=a-link image=$fromStats imageOnly>Alkahest</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Imbuing_Station\">Imbuing Station</a>)",
   "Recipes": [
     {
       "stations": [

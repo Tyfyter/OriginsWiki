@@ -13,7 +13,7 @@
   "UseTime": 10,
   "Rarity": "Green",
   "Sell": 4000,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Felnum Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellforge\">Hellforge</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Felnum Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellforge\">Hellforge</a>)",
   "Recipes": [
     {
       "stations": [

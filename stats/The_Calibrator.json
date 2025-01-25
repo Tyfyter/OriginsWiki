@@ -16,10 +16,11 @@
   "Tooltip": "Fires trackers that prompt a laser to fire upon colliding",
   "Rarity": "Yellow",
   "Sell": 200000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Gun\">Rainbow Gun</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rainbow_Gun\">Rainbow Gun</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div>Any <a is=a-link href=https://terraria.wiki.gg/wiki/Locked_Hallowed_Chest>Locked Hallow Chest</a>",
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -35,6 +36,7 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

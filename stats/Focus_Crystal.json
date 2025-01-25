@@ -14,7 +14,7 @@
   ],
   "Rarity": "Yellow",
   "Sell": 20000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Shiny_Stone>Shiny Stone</a> + <a is=a-link image=$fromStats>Ruby Reticle</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiny_Stone\">Shiny Stone</a> +  <a is=a-link image=$fromStats imageOnly>Ruby Reticle</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

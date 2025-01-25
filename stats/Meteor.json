@@ -16,7 +16,7 @@
   "Tooltip": "Launches meteorites in a high arc",
   "Rarity": "Orange",
   "Sell": 5000,
-  "Source": "20<a is=a-link href=\"https://terraria.wiki.gg/wiki/Meteorite_Bar\">Meteorite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Meteorite_Bar\">Meteorite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

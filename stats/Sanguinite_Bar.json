@@ -12,7 +12,7 @@
   "UseTime": 10,
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "3<a is=a-link image=$fromStats imageOnly>Sanguinite Ore</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
+  "Source": "(3) <a is=a-link image=$fromStats imageOnly>Sanguinite Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)",
   "Recipes": [
     {
       "stations": [
@@ -31,9 +31,31 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>",
+        "<a href=https://terraria.wiki.gg/wiki/Ecto_Mist>Ecto Mist</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Candle\">Shadow Candle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a>",
+            "<a is=a-link image=\"RecipeGroups/DemoniteBar\" href=Recipe_Groups>Any Evil Bar</a> (3)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
       ],
       "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magiluminescence\">Magiluminescence</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Topaz\">Topaz</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/DemoniteBar\" href=Recipe_Groups>Any Evil Bar</a> (12)"
+          ]
+        },
         {
           "result": "<a is=a-link image=$fromStats>Ashen Breastplate</a>",
           "ingredients": [

@@ -12,7 +12,7 @@
   "UseTime": 16,
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "Green",
-  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a><div class=divider></div><a is=a-link image=$fromStats>Fiberglass Weaver</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",

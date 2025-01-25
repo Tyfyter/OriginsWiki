@@ -1,6 +1,6 @@
 {
   "Image": "§ModImage§/Items/Accessories/Scrap_Barrier",
-  "Name": "Scrap Barrier",
+  "Name": "Scrap Barrier (Cursed)",
   "Types": [
     "Item",
     "Combat",
@@ -13,7 +13,7 @@
   ],
   "Rarity": "Cursed",
   "Sell": 20000,
-  "Source": "2<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>+30<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a>+20<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> + (30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> + (20) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
       "stations": [
@@ -21,7 +21,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+          "result": "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> (2)",
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
@@ -40,7 +40,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Scrap Barrier</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Scrap Barrier</a>"
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>"
           ]
         }
       ]
@@ -51,9 +51,9 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Slag Bucket</a>",
+          "result": "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Scrap Barrier</a>",
+            "<a is=a-link image=$fromStats>Scrap Barrier (Cursed)</a>",
             "<a is=a-link image=$fromStats>Shield of Retribution</a>"
           ]
         }

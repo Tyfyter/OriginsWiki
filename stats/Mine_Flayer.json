@@ -21,7 +21,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 50000,
-  "Source": "30<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>+8<a is=a-link image=$fromStats imageOnly>Rotor</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(30) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> + (8) <a is=a-link image=$fromStats imageOnly>Rotor</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

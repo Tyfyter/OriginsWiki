@@ -14,7 +14,7 @@
   ],
   "Rarity": "Pink",
   "Sell": 60000,
-  "Source": "(270) <a is=a-link href=https://terraria.wiki.gg/wiki/Cobweb>Cobweb</a> + (50) <a is=a-link href=https://terraria.wiki.gg/wiki/Spider_Fang>Spider Fang</a> + <a is=a-link image=$fromStats>Ravel</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": "(270) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobweb\">Cobweb</a> + (50) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Spider_Fang\">Spider Fang</a> +  <a is=a-link image=$fromStats imageOnly>Ravel</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

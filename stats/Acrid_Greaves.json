@@ -11,7 +11,7 @@
   "Tooltip": "Grants the ability to swim",
   "Rarity": "LightRed",
   "Sell": 18000,
-  "Source": "20<a is=a-link image=$fromStats imageOnly>Eitrite Bar</a>+20<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> + (20) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

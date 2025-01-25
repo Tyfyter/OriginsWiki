@@ -15,7 +15,7 @@
   "Tooltip": "Deal impressive damage for a massive area",
   "Rarity": "Yellow",
   "Sell": 30000,
-  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a>+28<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+2<a is=a-link image=$fromStats imageOnly>Power Core</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> + (28) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> + (2) <a is=a-link image=$fromStats imageOnly>Power Core</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

@@ -8,7 +8,7 @@
   "Defense": 1,
   "ArmorSlot": "Helmet",
   "Rarity": "White",
-  "Source": "20<a is=a-link image=$fromStats imageOnly>Endowood</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>Endowood</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

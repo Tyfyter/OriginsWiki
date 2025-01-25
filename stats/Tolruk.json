@@ -20,7 +20,7 @@
   ],
   "Rarity": "Lime",
   "Sell": 20000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Uzi\">Uzi</a>+15<a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Uzi\">Uzi</a> + (15) <a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

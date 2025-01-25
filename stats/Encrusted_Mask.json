@@ -10,7 +10,7 @@
   "Tooltip": "Increases minion damage by 10%",
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "16<a is=a-link image=$fromStats imageOnly>Bud Barnacle</a>+8<a is=a-link image=$fromStats imageOnly>Encrusted Ore</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(16) <a is=a-link image=$fromStats imageOnly>Bud Barnacle</a> + (8) <a is=a-link image=$fromStats imageOnly>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

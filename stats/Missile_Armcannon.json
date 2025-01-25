@@ -23,7 +23,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 50000,
-  "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Titan_Glove>Titan Glove</a> + <a is=a-link image=$fromStats>Destructive Claws</a> + <a is=a-link image=$fromStats>Gun Glove</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Tinkerer%27s_Workshop>Tinkerer's Workshop</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Titan_Glove\">Titan Glove</a> +  <a is=a-link image=$fromStats imageOnly>Destructive Claws</a> +  <a is=a-link image=$fromStats imageOnly>Gun Glove</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

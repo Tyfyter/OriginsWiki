@@ -11,7 +11,7 @@
   "Tooltip": "20% increased explosive velocity",
   "Rarity": "Pink",
   "Sell": 20000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Outlaw_Hat\">Obsidian Outlaw Hat</a>+2<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Outlaw_Hat\">Obsidian Outlaw Hat</a> + (2) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [

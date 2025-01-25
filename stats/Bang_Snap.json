@@ -16,9 +16,12 @@
   "Tooltip": "The Party Girl loves these",
   "Rarity": "White",
   "Sell": 1,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link image=$fromStats imageOnly>Defiled Sand</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a>+<a is=a-link image=$fromStats imageOnly>Silica</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sand_Block\">Sand Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ebonsand_Block\">Ebonsand Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimsand_Block\">Crimsand Block</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a> +  <a is=a-link image=$fromStats imageOnly>Defiled Sand</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Ore\">Silver Ore</a> +  <a is=a-link image=$fromStats imageOnly>Silica</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div>Any <a is=a-link href=https://terraria.wiki.gg/wiki/Wooden_Chest>Wooden Chest</a>",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bang Snap</a> (60)",

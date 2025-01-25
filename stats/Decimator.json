@@ -13,7 +13,7 @@
   "Velocity": 3.75,
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": "(9) <a is=a-link image=$fromStats>Encrusted Bar</a> + (5) <a is=a-link image=$fromStats>Riven Carapace</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a>",
+  "Source": "(9) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> + (5) <a is=a-link image=$fromStats imageOnly>Riven Carapace</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

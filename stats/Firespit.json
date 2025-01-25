@@ -14,7 +14,7 @@
   "Tooltip": "Uses fireblossoms as ammo",
   "Rarity": "Orange",
   "Sell": 20000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a><div class=divider></div>Any <a is=a-link href=https://terraria.wiki.gg/wiki/Locked_Shadow_Chest>Locked Shadow Chest</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a>",

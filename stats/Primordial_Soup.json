@@ -9,7 +9,7 @@
   "Tooltip": "Increased life regeneration based on the torn severity you're affected by",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "<a is=a-link image=$fromStats>Gel Blister</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Thorns_Potion\">Thorns Potion</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",
@@ -71,6 +71,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -107,6 +108,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

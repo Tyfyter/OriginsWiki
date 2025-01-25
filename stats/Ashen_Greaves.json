@@ -10,7 +10,7 @@
   "Tooltip": "+8% increased critical strike chance",
   "Rarity": "Blue",
   "Sell": 6000,
-  "Source": "15<a is=a-link image=$fromStats imageOnly>NE8</a>+20<a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>NE8</a> + (20) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

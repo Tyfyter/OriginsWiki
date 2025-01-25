@@ -5,9 +5,12 @@
     "Item"
   ],
   "Rarity": "LightRed",
-  "Source": "<a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
   "Recipes": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bleeding Obsidian Shard</a> (8)",
@@ -20,6 +23,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Bleeding Obsidian</a>",

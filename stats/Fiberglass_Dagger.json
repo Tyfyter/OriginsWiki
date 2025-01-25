@@ -10,7 +10,7 @@
   "Tooltip": "Increases weapon damage by 8, but reduces defense by 8",
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",

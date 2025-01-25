@@ -1,0 +1,10 @@
+{
+  "categories": [
+    "grabbag"
+  ],
+  "headers": [
+    "Name",
+    {"name": "Contents", "expr":"item.Drops ? '<details class=\"section\" id=\"GrabBag\" closed>' + AFMLStat.formatStat('Drops', item.Drops, item) + '</details>' : 'None'", "noAbbr": true},
+    "Source"
+  ]
+}

@@ -17,7 +17,7 @@
   "Tooltip": "'Like nuclear arms? Well now you can have nuclear arms on your... arms'",
   "Rarity": "Pink",
   "Sell": 50000,
-  "Source": "10<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>+20<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (20) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

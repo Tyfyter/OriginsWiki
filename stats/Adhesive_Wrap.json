@@ -6,7 +6,7 @@
   ],
   "Rarity": "White",
   "Sell": 18,
-  "Source": "<a is=a-link image=$fromStats imageOnly>Silicon Bar</a>+9<a is=a-link image=$fromStats imageOnly>Tree Sap</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Silicon Bar</a> + (9) <a is=a-link image=$fromStats imageOnly>Tree Sap</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

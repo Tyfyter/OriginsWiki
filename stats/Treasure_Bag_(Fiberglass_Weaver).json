@@ -58,7 +58,7 @@
       "Chance": "3.125%"
     }
   ],
-  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> Drop on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",

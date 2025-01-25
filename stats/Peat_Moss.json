@@ -75,6 +75,9 @@
   ],
   "UsedIn": [
     {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
       "items": [
         {
           "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coal\">Coal</a>",

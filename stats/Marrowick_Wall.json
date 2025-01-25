@@ -8,7 +8,7 @@
   "UseTime": 7,
   "Tooltip": "Feels waxy to the touch.",
   "Rarity": "White",
-  "Source": "<a is=a-link image=$fromStats imageOnly>Marrowick</a>(@<a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [

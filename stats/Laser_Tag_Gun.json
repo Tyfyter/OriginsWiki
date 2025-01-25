@@ -17,7 +17,7 @@
   "Tooltip": "‘Defective to some, glory to others’",
   "Rarity": "Lime",
   "Sell": 50000,
-  "Source": "15<a is=a-link image=$fromStats imageOnly>Busted Servo</a>+18<a is=a-link image=$fromStats imageOnly>Fiberglass Block</a>+<a is=a-link image=$fromStats imageOnly>Power Core</a>+12<a is=a-link image=$fromStats imageOnly>Rubber</a>(@<a is=a-link image=$fromStats>Fabricator</a>)",
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> + (18) <a is=a-link image=$fromStats imageOnly>Fiberglass Block</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> + (12) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
   "Recipes": [
     {
       "stations": [

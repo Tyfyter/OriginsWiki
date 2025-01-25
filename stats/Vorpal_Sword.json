@@ -13,7 +13,7 @@
   "Velocity": 12.0,
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "(10) <a is=a-link image=$fromStats>Encrusted Bar</a> @ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvil>Any Anvil</a> OR (Cursed) Vorpal Sword @ <a is=a-link href=https://terraria.wiki.gg/wiki/Bewitching_Table>Bewitching Table</a> and <a is=a-link image=$fromStats>World Cracker</a>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Vorpal Sword (Cursed)</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)<div class=divider></div>(10) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -23,7 +23,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Vorpal Sword</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Vorpal Sword</a>"
+            "<a is=a-link image=$fromStats>Vorpal Sword (Cursed)</a>"
           ]
         }
       ]
@@ -37,6 +37,24 @@
           "result": "<a is=a-link image=$fromStats>Vorpal Sword</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Night's_Edge\">Night's Edge</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Muramasa\">Muramasa</a>",
+            "<a is=a-link image=\"RecipeGroups/Light'sBane\" href=Recipe_Groups>Any Evil Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/BladeofGrass\" href=Recipe_Groups>Any Tropical Sword</a>",
+            "<a is=a-link image=\"RecipeGroups/Volcano\" href=Recipe_Groups>Any Underworld Sword</a>"
           ]
         }
       ]

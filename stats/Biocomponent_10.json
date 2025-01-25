@@ -10,6 +10,7 @@
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -23,6 +24,65 @@
     }
   ],
   "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Monster_Lasagna\">Monster Lasagna</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Battle_Potion\">Battle Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a>",
+            "<a is=a-link image=\"RecipeGroups/Deathweed\" href=Recipe_Groups>Any Evil Herb</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>",
+        "<a href=https://terraria.wiki.gg/wiki/Ecto_Mist>Ecto Mist</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Coffin_Minecart\">Coffin Minecart</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (5)",
+            "<a is=a-link image=\"RecipeGroups/Wood\" href=Recipe_Groups>Any Wood</a> (10)",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mechanical_Worm\">Mechanical Worm</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (6)",
+            "<a is=a-link image=\"RecipeGroups/RottenChunk\" href=Recipe_Groups>Any Evil Carcass</a> (6)"
+          ]
+        }
+      ]
+    },
     {
       "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
@@ -81,6 +141,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

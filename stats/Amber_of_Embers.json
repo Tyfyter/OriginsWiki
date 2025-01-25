@@ -15,7 +15,7 @@
   "Velocity": 8.0,
   "Rarity": "Pink",
   "Sell": 20000,
-  "Source": "8<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a>+18<a is=a-link image=$fromStats imageOnly>Carburite</a>+10<a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber\">Amber</a> + (18) <a is=a-link image=$fromStats imageOnly>Carburite</a> + (10) <a is=a-link image=$fromStats imageOnly>Valkyrum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [

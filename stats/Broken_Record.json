@@ -40,7 +40,7 @@
       "Chance": "20%"
     }
   ],
-  "Source": "30<a is=a-link image=$fromStats imageOnly>Urn of Ashes</a>+15<a is=a-link image=$fromStats imageOnly>Biocomponent 10</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": "(30) <a is=a-link image=$fromStats imageOnly>Urn of Ashes</a> + (15) <a is=a-link image=$fromStats imageOnly>Biocomponent 10</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
       "stations": [

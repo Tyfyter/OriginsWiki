@@ -17,7 +17,7 @@
   "Tooltip": "Struck enemies contract a contagious effect",
   "Rarity": "Blue",
   "Sell": 120,
-  "Source": "15<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Ore\">Demonite Ore</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>600</a-coins>After selling 110 peat moss to the Demolitionist, After defeating Eater of Worlds)",
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Ore\">Demonite Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>600</a-coins>After selling 110 peat moss to the Demolitionist, After defeating Eater of Worlds)",
   "Recipes": [
     {
       "stations": [

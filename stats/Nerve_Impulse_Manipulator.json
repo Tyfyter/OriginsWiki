@@ -7,7 +7,7 @@
   "UseTime": 45,
   "Tooltip": "Summons the Defiled Amalgamation",
   "Rarity": "Blue",
-  "Source": "30<a is=a-link image=$fromStats imageOnly>Dreadful Powder</a>+15<a is=a-link image=$fromStats imageOnly>Strange String</a>(@<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
+  "Source": "(30) <a is=a-link image=$fromStats imageOnly>Dreadful Powder</a> + (15) <a is=a-link image=$fromStats imageOnly>Strange String</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
   "Recipes": [
     {
       "stations": [

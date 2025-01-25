@@ -19,7 +19,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": "35<a is=a-link image=$fromStats imageOnly>Biocomponent 10</a>+10<a is=a-link image=$fromStats imageOnly>Scrap</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(35) <a is=a-link image=$fromStats imageOnly>Biocomponent 10</a> + (10) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [

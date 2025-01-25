@@ -14,7 +14,7 @@
   "Tooltip": "Casts amoeba bubbles that split on contact",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a>+<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>+8<a is=a-link image=$fromStats imageOnly>Encrusted Bar</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (8) <a is=a-link image=$fromStats imageOnly>Encrusted Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Crusty Crate</a><div class=divider></div><a is=a-link image=$fromStats>Festering Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Crusty Crate</a>",

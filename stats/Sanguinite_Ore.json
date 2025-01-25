@@ -14,7 +14,7 @@
   "Tooltip": "A rare mineral that grows more powerful with heat",
   "Rarity": "Blue",
   "Sell": 1600,
-  "Source": "<a is=a-link image=$fromStats>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Ashen Factory<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> , Drops in worlds with Ashen Factory",
+  "Source": "<a is=a-link image=$fromStats>Encrusted Ore</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a> Drops in worlds with Ashen Factory<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eye_of_Cthulhu\">Eye of Cthulhu</a> Drops in worlds with Ashen Factory",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Eye_of_Cthulhu)\">Treasure Bag (Eye of Cthulhu)</a>",
@@ -46,12 +46,13 @@
       "Max": 90,
       "Min": 30,
       "Difficulty": "Normal",
-      "Notes": ", Drops in worlds with Ashen Factory"
+      "Notes": "Drops in worlds with Ashen Factory"
     }
   ],
   "Recipes": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -65,6 +66,21 @@
     }
   ],
   "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Deer_Thing\">Deer Thing</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flinx_Fur\">Flinx Fur</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a>",
+            "<a is=a-link image=\"RecipeGroups/DemoniteOre\" href=Recipe_Groups>Any Evil Ore</a> (5)"
+          ]
+        }
+      ]
+    },
     {
       "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
@@ -108,6 +124,7 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

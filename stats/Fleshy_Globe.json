@@ -11,7 +11,7 @@
   "Tooltip": "Summons a Self Contained Universe to light your way",
   "Rarity": "Master",
   "Sell": 50000,
-  "Source": "<a is=a-link image=$fromStats>World Cracker</a>",
+  "Source": "<a is=a-link image=$fromStats>World Cracker</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>World Cracker</a>",

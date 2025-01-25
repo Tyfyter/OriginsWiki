@@ -20,7 +20,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 50,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a>+25<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a>(@<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>250</a-coins>After selling 81 peat moss to the Demolitionist, After defeating Brain of Cthulhu)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Ore\">Crimtane Ore</a> + (25) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>250</a-coins>After selling 81 peat moss to the Demolitionist, After defeating Brain of Cthulhu)",
   "Recipes": [
     {
       "stations": [
