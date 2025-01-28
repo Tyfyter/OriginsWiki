@@ -6,7 +6,7 @@
     "Weapon",
     "Spear"
   ],
-  "Damage": 18,
+  "Damage": 30,
   "DamageClass": "Melee",
   "Knockback": 6.0,
   "UseTime": 24,
@@ -30,6 +30,6 @@
       ]
     }
   ],
-  "SpriteWidth": 48,
+  "SpriteWidth": 60,
   "InternalName": "Felnum_Boar_Spear"
 }

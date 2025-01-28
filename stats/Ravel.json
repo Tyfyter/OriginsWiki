@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Ravel",
+  "Image": "§ModImage§/Items/Mounts/Ravel",
   "Name": "Ravel",
   "Types": [
     "Item",
@@ -8,7 +8,7 @@
     "Hardmode"
   ],
   "UseTime": 20,
-  "Tooltip": "Double tap down to transform into a small, rolling ball",
+  "Tooltip": "Use the mount key to transform into a small, rolling ball",
   "Rarity": "Pink",
   "Sell": 50000,
   "Source": "<a is=a-link image=$fromStats>Defiled Mimic</a>",

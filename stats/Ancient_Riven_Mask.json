@@ -10,7 +10,7 @@
   "Tooltip": "6% increased weapon speed",
   "Rarity": "Blue",
   "Sell": 10000,
-  "Source": "<a is=a-link image=$fromStats>Riven Mask</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Flagellant</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Single-Cellular Nautilus</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Trijaw Shark</a>",
+  "Source": "<a is=a-link image=$fromStats>Riven Mask</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Flagellant</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Single-Cellular Nautilus</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Trijaw Shark</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Barnacleback</a>",
@@ -155,6 +155,27 @@
     {
       "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
       "Rate": 0.04,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0019047619,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

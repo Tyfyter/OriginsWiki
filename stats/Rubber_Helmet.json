@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Armor/Rubber/Rubber_Helmet",
+  "Name": "Rubber Helmet",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 2,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "5% increased critical strike chance",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 24,
+  "InternalName": "Rubber_Helmet"
+}

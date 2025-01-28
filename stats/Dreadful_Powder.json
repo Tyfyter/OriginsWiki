@@ -33,7 +33,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Poisoned_Knife\">Poisoned Knife</a> (50)",
+          "result": "<a is=a-link image=$fromStats>Chipper Knife</a> (50)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> (50)",
             "<a is=a-link image=$fromStats>Dreadful Powder</a>"

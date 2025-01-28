@@ -16,7 +16,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 302,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Alkahest</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Alkahest</a> + (10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -24,10 +24,10 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Alkahest Canister</a> (5)",
+          "result": "<a is=a-link image=$fromStats>Alkahest Canister</a> (10)",
           "ingredients": [
             "<a is=a-link image=$fromStats>Alkahest</a>",
-            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (5)"
+            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (10)"
           ]
         }
       ]

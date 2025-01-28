@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Rubber_Dynamite",
+  "Name": "Rubber Dynamite",
+  "Types": [
+    "Item",
+    "ThrownExplosive",
+    "IsDynamite",
+    "ExpendableWeapon",
+    "Weapon"
+  ],
+  "Damage": 40,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 40,
+  "Velocity": 7.0,
+  "Tooltip": "'Dynamite for babies.'",
+  "Rarity": "Blue",
+  "Sell": 500,
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> +  <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Dynamite</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> (8)",
+            "<a is=a-link image=$fromStats>Rubber</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 10,
+  "InternalName": "Rubber_Dynamite"
+}

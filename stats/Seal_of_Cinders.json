@@ -6,7 +6,7 @@
     "Combat",
     "Accessory"
   ],
-  "Damage": 24,
+  "Damage": 16,
   "ArmorPenetration": 6,
   "DamageClass": "",
   "Knockback": 6.0,
@@ -47,8 +47,8 @@
         {
           "result": "<a is=a-link image=$fromStats>A.S.H. Attack Relay</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Seal of Cinders</a>",
-            "<a is=a-link image=$fromStats>Comb</a>"
+            "<a is=a-link image=$fromStats>Comb</a>",
+            "<a is=a-link image=$fromStats>Seal of Cinders</a>"
           ]
         }
       ]

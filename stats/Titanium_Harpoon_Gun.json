@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Titanium_Harpoon_Gun",
+  "Name": "Titanium Harpoon Gun",
+  "Types": [
+    "Item",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 59,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "UseTime": 3,
+  "Velocity": 13.75,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "83.3% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 28000,
+  "Source": "(13) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Titanium_Bar\">Titanium Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Titanium Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Titanium_Bar\">Titanium Bar</a> (13)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 70,
+  "InternalName": "Titanium_Harpoon_Gun"
+}

@@ -6,7 +6,7 @@
   ],
   "Rarity": "White",
   "Sell": 2,
-  "Source": "<a is=a-link image=$fromStats>Strange String</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Amoebeye</a><div class=divider></div><a is=a-link image=$fromStats>Barnacle Mound</a><div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Pustule Jellyfish</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a>",
+  "Source": "<a is=a-link image=$fromStats>Strange String</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Amoebeye</a><div class=divider></div><a is=a-link image=$fromStats>Barnacle Mound</a><div class=divider></div><a is=a-link image=$fromStats>Barnacleback</a><div class=divider></div><a is=a-link image=$fromStats>Pustule Jellyfish</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Spider Amoeba</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Amoebeye</a>",
@@ -150,6 +150,27 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Spider Amoeba</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
       "Rate": 1.0,
       "Max": 3,
       "Min": 1,

@@ -1,0 +1,40 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Eternanite",
+  "Name": "Eternanite",
+  "Types": [
+    "Item",
+    "UsesBookcase",
+    "SpellBook",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 17,
+  "Damage": 48,
+  "DamageClass": "Magic",
+  "Knockback": 8.0,
+  "UseTime": 20,
+  "Velocity": 14.0,
+  "Tooltip": "Casts a forceful cloud of gaseous black bile",
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> + (9) <a is=a-link image=$fromStats imageOnly>Black Bile</a> +  <a is=a-link image=$fromStats imageOnly>Eternabrite</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eternanite</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (15)",
+            "<a is=a-link image=$fromStats>Black Bile</a> (9)",
+            "<a is=a-link image=$fromStats>Eternabrite</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Eternanite"
+}

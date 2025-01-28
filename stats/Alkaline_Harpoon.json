@@ -12,7 +12,7 @@
   "Tooltip": "Used as ammo for harpoon guns",
   "Rarity": "LightRed",
   "Sell": 500,
-  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> +  <a is=a-link image=$fromStats imageOnly>Bottled Brine</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div>(8) <a is=a-link image=$fromStats imageOnly>Harpoon</a> +  <a is=a-link image=$fromStats imageOnly>Bottled Brine</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> +  <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div>(2) <a is=a-link image=$fromStats imageOnly>Harpoon</a> +  <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -20,17 +20,17 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (8)",
+          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (2)",
           "ingredients": [
-            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (8)",
-            "<a is=a-link image=$fromStats>Bottled Brine</a>"
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (8)",
+          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (2)",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Harpoon</a> (8)",
-            "<a is=a-link image=$fromStats>Bottled Brine</a>"
+            "<a is=a-link image=$fromStats>Harpoon</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
           ]
         }
       ]

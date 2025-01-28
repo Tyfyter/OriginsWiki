@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Venom_Fang",
+  "Name": "Venom Fang",
+  "Types": [
+    "Item",
+    "Combat",
+    "ToxicSource",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Attacks inflict Toxic Shock",
+    "Effects are stronger while Acrid Armor is equipped"
+  ],
+  "Rarity": "Pink",
+  "Sell": 10000,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Olid Organ</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Putrid_Scent\">Putrid Scent</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 18,
+  "InternalName": "Venom_Fang"
+}

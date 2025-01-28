@@ -1,0 +1,20 @@
+{
+  "Name": "Defiled Relay Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 36,
+  "InternalName": "Defiled_Relay_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Relay",
+    "Tiles/Defiled_Relay_Item"
+  ]
+}

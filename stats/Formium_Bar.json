@@ -1,0 +1,69 @@
+{
+  "Name": "Formium Bar",
+  "Types": [
+    "Item",
+    "Bar",
+    "Hardmode",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "Butterscotch",
+  "Sell": 6800,
+  "Source": "(6) <a is=a-link image=$fromStats imageOnly>Formium Scrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Formium Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Formium Scrap</a> (6)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Material-36 Bundle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link image=$fromStats>Fibron Plating</a> (4)",
+            "<a is=a-link image=$fromStats>Formium Bar</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rigged Cubix</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith</a> (16)",
+            "<a is=a-link image=$fromStats>Formium Bar</a> (25)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Formium_Bar",
+  "Images": [
+    "§ModImage§/Items/Materials/Formium_Bar",
+    "Tiles/Formium_Bar"
+  ]
+}

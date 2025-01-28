@@ -12,7 +12,7 @@
   "UseTime": 19,
   "Rarity": "White",
   "Sell": 30,
-  "Source": "(7) <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(7) <a is=a-link image=$fromStats imageOnly>Endowood Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(7) <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div>(7) <a is=a-link image=$fromStats imageOnly>Marrowick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
   "Recipes": [
     {
       "stations": [
@@ -28,7 +28,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Marrowick Sword</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Endowood Wall</a> (7)"
+            "<a is=a-link image=$fromStats>Marrowick</a> (7)"
           ]
         }
       ]

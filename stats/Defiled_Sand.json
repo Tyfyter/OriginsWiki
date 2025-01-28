@@ -11,7 +11,7 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "<a is=a-link image=$fromStats>Defiled Sandstone</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Source": "<a is=a-link image=$fromStats>Defiled Sandstone</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Hardened Defiled Sand</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [
@@ -87,20 +87,6 @@
           "result": "<a is=a-link image=$fromStats>Silicon Ore</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Defiled Sand</a> (3)"
-          ]
-        }
-      ]
-    },
-    {
-      "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
-        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
-      ],
-      "items": [
-        {
-          "result": "<a is=a-link image=$fromStats>Defiled Sandstone</a>",
-          "ingredients": [
-            "<a is=a-link image=$fromStats>Defiled Sand</a>"
           ]
         }
       ]

@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "Orange",
   "Sell": 1700,
-  "SpriteWidth": 26,
+  "SpriteWidth": 24,
   "InternalName": "Brineglow_Debug_Item",
   "Images": [
     "§ModImage§/Tiles/Brine/Brineglow_Item",

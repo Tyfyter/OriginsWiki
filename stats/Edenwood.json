@@ -1,0 +1,65 @@
+{
+  "Name": "Edenwood",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Too sacred to chop'",
+  "Rarity": "White",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Eden Wood Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Edenwood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eden Wood Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eden Wood Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Edenwood</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wood\">Wood</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Edenwood</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 24,
+  "InternalName": "Eden_Wood_Item",
+  "Images": [
+    "§ModImage§/Tiles/Dawn/Eden_Wood_Item",
+    "Tiles/Edenwood"
+  ]
+}

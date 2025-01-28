@@ -1,0 +1,17 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Felnum Shock Glasses",
+  "WikiName": "Felnum_Shock_Glasses",
+  "DisplayName": "WikiGenerator.Stats.Origins.Felnum_Shock_Glasses.DisplayName",
+  "Images": [
+    "ArmorSets/Felnum_Shock_Glasses"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Orange",
+  "Sell": 0
+}

@@ -1,0 +1,18 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Chromtain Armor",
+  "WikiName": "Chromtain_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Chromtain_Armor.DisplayName",
+  "Images": [
+    "ArmorSets/Chromtain_Armor",
+    "ArmorSets/Chromtain_Armor_Female"
+  ],
+  "Defense": 81,
+  "SetBonus": "Enemies are more likely to target you\nYour armor is unbreakable",
+  "Rarity": "Crimson",
+  "Sell": 600000
+}

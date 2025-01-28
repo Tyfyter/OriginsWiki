@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Shock_Collar",
+  "Name": "Shock Collar",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Increases armor penetration by 5",
+    "All attacks inflict Static Shock",
+    "Increases the shock chain range when using items that already inflict it"
+  ],
+  "Rarity": "Orange",
+  "Sell": 20000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace\">Shark Tooth Necklace</a> +  <a is=a-link image=$fromStats imageOnly>Lightning Ring</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shock Collar</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shark_Tooth_Necklace\">Shark Tooth Necklace</a>",
+            "<a is=a-link image=$fromStats>Lightning Ring</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 26,
+  "InternalName": "Shock_Collar"
+}

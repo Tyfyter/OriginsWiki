@@ -93,7 +93,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Resizable Mine Mk. III</a> (8)",
+          "result": "<a is=a-link image=$fromStats>Resizable Mine V</a> (8)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
             "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (2)"

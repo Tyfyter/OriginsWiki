@@ -10,8 +10,9 @@
     "Hardmode"
   ],
   "Tooltip": [
-    "Half of damage received is split across 3 enemies, inflicting 'Toxic Shock'",
+    "All damage received is reflected to 3 nearby enemies, inflicting 'Toxic Shock'",
     "5% increased damage and critical strike chance",
+    "All attacks inflict Toxic Shock",
     "Enemies are less likely to target you"
   ],
   "Rarity": "LightPurple",

@@ -12,7 +12,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 60000,
-  "Source": "<a is=a-link image=$fromStats>Defiled Amalgamation</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Defiled Wastelands)<div class=divider></div><a is=a-link image=$fromStats>Defiled Amalgamation</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
@@ -20,6 +20,23 @@
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Defiled Wastelands"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mysterious Spray</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
     }
   ],
   "UsedIn": [
@@ -39,6 +56,20 @@
           "result": "<a is=a-link image=$fromStats>Makeover Choker</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cross_Necklace\">Cross Necklace</a>",
+            "<a is=a-link image=$fromStats>Mysterious Spray</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+          "ingredients": [
             "<a is=a-link image=$fromStats>Mysterious Spray</a>"
           ]
         }

@@ -8,8 +8,8 @@
     "Weapon",
     "CanisterLauncher"
   ],
-  "Damage": 14,
-  "ArmorPenetration": 4,
+  "Damage": 24,
+  "ArmorPenetration": 2,
   "DamageClass": "Explosive Ranged",
   "Knockback": 2.0,
   "UseTime": 32,

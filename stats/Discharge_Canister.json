@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Discharge_Canister",
+  "Name": "Discharge Canister",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 26,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Tooltip": "Inflicts Static Shock to enemies in its blast",
+  "Rarity": "Orange",
+  "Sell": 302,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (3) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Discharge Canister</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 16,
+  "InternalName": "Discharge_Canister"
+}

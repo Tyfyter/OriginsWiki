@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Armor/Rubber/Rubber_Greaves",
+  "Name": "Rubber Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 2,
+  "ArmorSlot": "Pants",
+  "Tooltip": "5% increased damage",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Rubber_Greaves"
+}

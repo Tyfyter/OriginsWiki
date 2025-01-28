@@ -11,7 +11,7 @@
   "Tooltip": "Knocks you back from your explosions instead of taking damage",
   "Rarity": "Pink",
   "Sell": 200000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000000</a-coins>After selling 150 peat moss to the Demolitionist)",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000000</a-coins>After selling 160 peat moss to the Demolitionist)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a> (<a-coins>1000000</a-coins>During a full moon)",
   "SpriteWidth": 26,
   "InternalName": "Trash_Lid"
 }

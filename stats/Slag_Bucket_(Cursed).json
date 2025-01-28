@@ -12,7 +12,7 @@
     "40% damage reduction while above 80% of maximum life",
     "All life regeneration has a 4-second buffer period before it is applied after getting hit while above half life",
     "Grants immunity to knockback, fire blocks, and impeding shrapnel",
-    "67% of damage received is redirected to 3 enemies",
+    "All damage received is reflected to 3 nearby enemies",
     "You regenerate life while on fire"
   ],
   "Rarity": "Cursed",

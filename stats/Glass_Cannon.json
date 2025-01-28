@@ -7,12 +7,13 @@
     "CanisterLauncher"
   ],
   "Damage": 2,
+  "ArmorPenetration": 1,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.0,
   "UseTime": 28,
   "Velocity": 11.0,
   "Tooltip": "Fires a cluster of canisters",
-  "Rarity": "Blue",
+  "Rarity": "Green",
   "Sell": 2000,
   "Source": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a><div class=divider></div><a is=a-link image=$fromStats>Fiberglass Weaver</a>",
   "DropSources": [

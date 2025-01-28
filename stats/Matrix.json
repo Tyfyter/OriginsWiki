@@ -7,7 +7,7 @@
     "Weapon",
     "CanisterLauncher"
   ],
-  "Damage": 14,
+  "Damage": 18,
   "ArmorPenetration": 1,
   "DamageClass": "Explosive Ranged",
   "UseTime": 50,

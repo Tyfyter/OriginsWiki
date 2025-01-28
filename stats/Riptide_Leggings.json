@@ -13,7 +13,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a> + (13) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (13) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -23,7 +23,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Riptide Leggings</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Flipper\">Flipper</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (20)",
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (13)"
           ]
         }

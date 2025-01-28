@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Palladium_Harpoon_Gun",
+  "Name": "Palladium Harpoon Gun",
+  "Types": [
+    "Item",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 50,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "UseTime": 3,
+  "Velocity": 11.75,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "85.7% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 16000,
+  "Source": "(12) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Palladium_Bar\">Palladium Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Palladium Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Palladium_Bar\">Palladium Bar</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 60,
+  "InternalName": "Palladium_Harpoon_Gun"
+}

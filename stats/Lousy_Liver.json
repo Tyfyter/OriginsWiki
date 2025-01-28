@@ -8,7 +8,7 @@
     "Accessory",
     "Hardmode"
   ],
-  "Tooltip": "The four nearest enemies will be afflicted with Rasterized",
+  "Tooltip": "Four of the nearest enemies will be afflicted with Rasterized",
   "Rarity": "LightRed",
   "Sell": 10000,
   "UsedIn": [

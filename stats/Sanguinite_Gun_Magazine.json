@@ -1,0 +1,48 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Sanguinite_Gun_Magazine",
+  "Name": "Sanguinite Gun Magazine",
+  "Types": [
+    "Item",
+    "Combat",
+    "RangedBoostAcc",
+    "Accessory"
+  ],
+  "Tooltip": "+10% gun attack speed",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Gun Magazine</a> + (3) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Molten Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/CrimtaneGunMagazine\" href=Recipe_Groups>Any Evil Gun Magazine</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 18,
+  "InternalName": "Sanguinite_Gun_Magazine"
+}

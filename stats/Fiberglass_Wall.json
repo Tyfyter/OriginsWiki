@@ -7,6 +7,37 @@
   ],
   "UseTime": 7,
   "Rarity": "White",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Fiberglass Block</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Fiberglass Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fiberglass Block</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Fiberglass Block</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fiberglass Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Fiberglass_Wall_Item"
 }

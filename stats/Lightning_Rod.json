@@ -6,7 +6,8 @@
     "Tool"
   ],
   "FishPower": 37,
-  "Damage": 0,
+  "Damage": 20,
+  "DamageClass": "",
   "UseTime": 8,
   "Velocity": 13.7,
   "Rarity": "Green",
@@ -27,6 +28,6 @@
       ]
     }
   ],
-  "SpriteWidth": 48,
+  "SpriteWidth": 76,
   "InternalName": "Lightning_Rod"
 }

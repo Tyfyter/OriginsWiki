@@ -7,7 +7,10 @@
     "GenericBoostAcc",
     "Accessory"
   ],
-  "Tooltip": "Increases damage and movement speed after taking damage",
+  "Tooltip": [
+    "5% increased damage",
+    "Increases damage and movement speed after taking damage"
+  ],
   "Rarity": "Orange",
   "Sell": 20000,
   "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Panic_Necklace\">Panic Necklace</a> +  <a is=a-link image=$fromStats imageOnly>Comb</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",

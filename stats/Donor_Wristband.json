@@ -4,13 +4,14 @@
   "Types": [
     "Item",
     "Vitality",
-    "Accessory"
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increased life regeneration",
     "Debuff durations reduced by 48%"
   ],
-  "Rarity": "Blue",
+  "Rarity": "LightPurple",
   "Sell": 6000,
   "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Charm_of_Myths\">Charm of Myths</a> +  <a is=a-link image=$fromStats imageOnly>Plasma Bag</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [

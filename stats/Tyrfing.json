@@ -10,7 +10,7 @@
   "Damage": 88,
   "DamageClass": "Melee",
   "Knockback": 9.0,
-  "UseTime": 48,
+  "UseTime": 88,
   "Tooltip": [
     "Receives 50% higher damage bonuses",
     "Hold right click to stab",
@@ -19,6 +19,6 @@
   "Rarity": "Lime",
   "Sell": 20000,
   "Source": "<b>Unobtainable</b>",
-  "SpriteWidth": 240,
+  "SpriteWidth": 350,
   "InternalName": "Tyrfing"
 }

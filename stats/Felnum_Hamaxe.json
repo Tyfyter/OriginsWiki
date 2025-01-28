@@ -3,15 +3,22 @@
   "Name": "Felnum Hamaxe",
   "Types": [
     "Item",
-    "Tool"
+    "ToolWeapon",
+    "Tool",
+    "Weapon",
+    "OtherMelee"
   ],
   "AxePower": 110,
   "HammerPower": 65,
-  "Damage": 18,
+  "Damage": 27,
   "DamageClass": "Melee",
   "Knockback": 4.0,
   "UseTime": 13,
-  "Tooltip": "'Its strikes sound like thunder'",
+  "Velocity": 9.0,
+  "Tooltip": [
+    "Right Click to throw",
+    "'Its strikes sound like thunder'"
+  ],
   "Rarity": "Green",
   "Sell": 4000,
   "Source": "(16) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
@@ -30,6 +37,6 @@
       ]
     }
   ],
-  "SpriteWidth": 42,
+  "SpriteWidth": 54,
   "InternalName": "Felnum_Hamaxe"
 }

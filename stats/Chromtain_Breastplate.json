@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Breastplate",
+  "Name": "Chromtain Breastplate",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 40,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "+20 max life",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "Source": "(25) <a is=a-link image=$fromStats imageOnly>Chromtain Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chromtain Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chromtain Bar</a> (25)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Chromtain_Breastplate"
+}

@@ -8,7 +8,7 @@
   ],
   "ManaCost": 3,
   "Damage": 4,
-  "ArmorPenetration": 8,
+  "ArmorPenetration": 14,
   "DamageClass": "Explosive Magic",
   "Knockback": 5.0,
   "UseTime": 9,
@@ -16,46 +16,25 @@
   "Tooltip": "Rapidly fires spikes that will detonate when the target is implanted with enough",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (8) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (6) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (8) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (6) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a>",
   "DropSources": [
     {
-      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.02631579,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.02631579,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Master"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Normal"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Expert"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.02631579,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

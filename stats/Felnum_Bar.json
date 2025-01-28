@@ -32,6 +32,31 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Felnum Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Felnum Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (20)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Felnum Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
       ],
       "items": [
@@ -72,6 +97,13 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Discharge Canister</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (3)"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Felnum Golf Ball</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Felnum Bar</a>"
@@ -88,6 +120,12 @@
           "result": "<a is=a-link image=$fromStats>Felnum Boar Spear</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Felnum Bar</a> (13)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Thunderbolt</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (12)"
           ]
         },
         {

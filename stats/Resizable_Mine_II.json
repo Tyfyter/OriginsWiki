@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Iron",
+  "Name": "Resizable Mine II",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 22,
+  "ArmorPenetration": 6,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 3.0,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Blue",
+  "Sell": 465,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Iron_Bar\">Iron Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine II</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Iron"
+}

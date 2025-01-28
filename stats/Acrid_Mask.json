@@ -13,7 +13,7 @@
   "ArmorSlot": "Helmet",
   "Tooltip": [
     "10% increased summoning damage",
-    "+1 minion slot",
+    "+2 minion slots",
     "Effects stronger when submerged",
     "Emit a small aura of light"
   ],
@@ -36,6 +36,6 @@
       ]
     }
   ],
-  "SpriteWidth": 24,
+  "SpriteWidth": 20,
   "InternalName": "Acrid_Mask"
 }

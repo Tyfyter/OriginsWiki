@@ -7,9 +7,9 @@
     "GenericBoostAcc",
     "Accessory"
   ],
-  "Tooltip": "3% increased damage",
-  "Rarity": "Green",
-  "Sell": 3000,
+  "Tooltip": "5% increased damage",
+  "Rarity": "Blue",
+  "Sell": 2000,
   "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shackle\">Shackle</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Groom\">The Groom</a>",
   "DropSources": [
     {
@@ -59,8 +59,8 @@
         {
           "result": "<a is=a-link image=$fromStats>A.S.H. Attack Relay</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Seal of Cinders</a>",
-            "<a is=a-link image=$fromStats>Comb</a>"
+            "<a is=a-link image=$fromStats>Comb</a>",
+            "<a is=a-link image=$fromStats>Seal of Cinders</a>"
           ]
         },
         {

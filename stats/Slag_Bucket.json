@@ -9,9 +9,9 @@
   ],
   "Defense": 6,
   "Tooltip": [
-    "5% damage reduction and slightly increased life regeneration",
+    "15% damage reduction and increased life regeneration",
     "Grants immunity to knockback, fire blocks, and impeding shrapnel",
-    "67% of damage received is redirected to 3 enemies",
+    "All damage received is reflected to 3 nearby enemies",
     "You regenerate life while on fire"
   ],
   "Rarity": "LightRed",

@@ -11,6 +11,22 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Spug Flesh Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Spug Flesh</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Spug Flesh Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "UsedIn": [
     {
       "stations": [
@@ -21,6 +37,19 @@
           "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Spug Flesh</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Spug Flesh Wall</a> (4)",
+          "ingredients": [
             "<a is=a-link image=$fromStats>Spug Flesh</a>"
           ]
         }

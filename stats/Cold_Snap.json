@@ -20,7 +20,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 5000,
-  "Source": "(30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (40) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -30,8 +30,8 @@
         {
           "result": "<a is=a-link image=$fromStats>Cold Snap</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (30)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (5)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> (15)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (40)"
           ]
         }
       ]

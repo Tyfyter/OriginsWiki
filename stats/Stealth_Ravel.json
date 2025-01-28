@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Stealth_Ravel",
+  "Image": "§ModImage§/Items/Mounts/Stealth_Ravel",
   "Name": "Stealth Ravel",
   "Types": [
     "Item",
@@ -9,7 +9,7 @@
   ],
   "UseTime": 20,
   "Tooltip": [
-    "Double tap down to transform into a small, rolling ball",
+    "Use the mount key to transform into a small, rolling ball",
     "Enemies are much less likely to target you when raveled"
   ],
   "Rarity": "Pink",

@@ -4,10 +4,12 @@
   "Types": [
     "Item",
     "Weapon",
+    "OtherExplosive",
     "Hardmode"
   ],
+  "ManaCost": 10,
   "Damage": 54,
-  "DamageClass": "Symphonic",
+  "DamageClass": "Explosive",
   "Knockback": 1.0,
   "UseTime": 16,
   "Velocity": 18.0,

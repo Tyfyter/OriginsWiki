@@ -64,6 +64,31 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Rubber Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (15)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Dynamite</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> (8)",
+            "<a is=a-link image=$fromStats>Rubber</a>"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Crystal Cutters</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Shard\">Crystal Shard</a> (14)",
@@ -155,6 +180,15 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Power Core</a>",
             "<a is=a-link image=$fromStats>Rubber</a> (6)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Impactaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (18)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rotor</a> (4)",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
           ]
         },
         {

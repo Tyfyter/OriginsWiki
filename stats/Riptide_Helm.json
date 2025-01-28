@@ -13,7 +13,7 @@
   ],
   "Rarity": "Blue",
   "Sell": 3000,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Diving_Helmet\">Diving Helmet</a> + (9) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(11) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (9) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -23,13 +23,13 @@
         {
           "result": "<a is=a-link image=$fromStats>Riptide Helm</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Diving_Helmet\">Diving Helmet</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (11)",
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shell_Pile\">Shell Pile</a> (9)"
           ]
         }
       ]
     }
   ],
-  "SpriteWidth": 20,
+  "SpriteWidth": 22,
   "InternalName": "Riptide_Helmet"
 }

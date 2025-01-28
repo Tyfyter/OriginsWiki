@@ -8,7 +8,7 @@
     "Hardmode"
   ],
   "Tooltip": [
-    "Attackers receive 50% of incoming damage and debuffs regardless of immunity",
+    "Attackers receive all incoming damage and debuffs regardless of immunity",
     "Immune to most debuffs"
   ],
   "Rarity": "LightPurple",

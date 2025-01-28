@@ -6,7 +6,7 @@
     "Combat",
     "Accessory"
   ],
-  "Tooltip": "5% damage reduction and slightly increased life regeneration",
+  "Tooltip": "15% damage reduction and increased life regeneration",
   "Rarity": "Blue",
   "Sell": 20000,
   "Source": " <a is=a-link image=$fromStats imageOnly>Scrap Barrier (Cursed)</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bewitching_Table\">Bewitching Table</a>)",

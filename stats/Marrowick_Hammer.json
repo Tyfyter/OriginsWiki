@@ -5,7 +5,7 @@
     "Item",
     "Tool"
   ],
-  "HammerPower": 45,
+  "HammerPower": 43,
   "Damage": 7,
   "DamageClass": "Melee",
   "Knockback": 5.5,

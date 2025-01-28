@@ -5,12 +5,15 @@
     "Item",
     "Armor"
   ],
-  "Defense": 3,
+  "Defense": 4,
   "ArmorSlot": "Shirt",
-  "Tooltip": "12% increased maximum life",
+  "Tooltip": [
+    "+20% explosive blast radius",
+    "8% increased maximum life"
+  ],
   "Rarity": "White",
-  "Sell": 700,
-  "Source": "(60) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> + (6) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Sell": 1005000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Coat\">Snow Coat</a> + (40) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -20,9 +23,9 @@
         {
           "result": "<a is=a-link image=$fromStats>Cryosten Breastplate</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (60)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (6)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Coat\">Snow Coat</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (40)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>"
           ]
         }
       ]
