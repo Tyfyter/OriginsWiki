@@ -5,7 +5,7 @@
         "Hardmode"
       ],
     "Client": "ArmsDealer",
-    "UnlockCondition": "Deafeated any <a is=a-link href=https://terraria.wiki.gg/wiki/Mechanical_Bosses>Mechanical Boss</a> and the \"Living Fire\" quest has been completed",
+    "UnlockCondition": "Deafeated any <a is=a-link href=https://terraria.wiki.gg/wiki/Mechanical_Bosses>Mechanical Boss</a> and the \"Live Fire\" quest has been completed",
     "Inquire": "I'll be honest, [player], I've been pretty successful since I started selling the Shardcannon. Thanks to you, I've had time to go on vacation. But, vacation is over and I have a new prototype I need yah to test out. This one'll be fun.",
     "Objective": "Slay 50 Enemies with the <a is=a-link image=$fromStats href=Harpoon_Burst_Rifle>Imperfect Harpoon Burst Rifle</a>",
     "Reward": "<a is=a-link image=$fromStats>Harpoon Burst Rifle</a>",
