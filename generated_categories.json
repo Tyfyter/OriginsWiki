@@ -1527,6 +1527,7 @@
       "Blockus_Tube",
       "Bloodletter",
       "Bloombomb",
+      "Bloombomb_Quest",
       "Blotopus",
       "Blue_Bovine",
       "Boiler",
@@ -1593,6 +1594,7 @@
       "Cicada_3301",
       "Cicada_3301_NPC",
       "Cleansing_Station",
+      "Cleansing_Station_Quest",
       "Cleaver",
       "Cleaver_Banner",
       "Cold_Snap",
@@ -2229,6 +2231,7 @@
       "Acrid_Visor",
       "Adamantite_Harpoon_Gun",
       "Advanced_Imaging",
+      "Advanced_Imaging_Quest",
       "Air_Tank",
       "Alkahest",
       "Alkahest_Canister",
@@ -3161,6 +3164,7 @@
       "Adamantite_Harpoon_Gun",
       "Adhesive_Wrap",
       "Advanced_Imaging",
+      "Advanced_Imaging_Quest",
       "Air_Tank",
       "Alkahest",
       "Alkahest_Arrow",
@@ -3282,6 +3286,7 @@
       "Blockus_Tube",
       "Bloodletter",
       "Bloombomb",
+      "Bloombomb_Quest",
       "Blotopus",
       "Blue_Bovine",
       "Boiler",
@@ -3366,6 +3371,7 @@
       "Cicada_3301_NPC",
       "Cirrhosis'_Abhorrence",
       "Cleansing_Station",
+      "Cleansing_Station_Quest",
       "Cleaver",
       "Cleaver_Banner",
       "Cobalt_Harpoon_Gun",
@@ -4644,6 +4650,9 @@
   "quest": {
     "name": "Quest",
     "items": [
+      "Advanced_Imaging_Quest",
+      "Bloombomb_Quest",
+      "Cleansing_Station_Quest",
       "Harpoon_Burst_Rifle_Quest",
       "Shardcannon_Quest"
     ]
@@ -4653,6 +4662,19 @@
     "items": [
       "Harpoon_Burst_Rifle_Quest",
       "Shardcannon_Quest"
+    ]
+  },
+  "cyborgquest": {
+    "name": "Cyborg Quest",
+    "items": [
+      "Advanced_Imaging_Quest"
+    ]
+  },
+  "dryadquest": {
+    "name": "Dryad Quest",
+    "items": [
+      "Bloombomb_Quest",
+      "Cleansing_Station_Quest"
     ]
   }
 }

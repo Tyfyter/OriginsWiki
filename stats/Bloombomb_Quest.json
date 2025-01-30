@@ -1,0 +1,12 @@
+{
+    "Name": "Clearing the Way",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "Dryad",
+    "UnlockCondition": "After \"I’ll Give You a Deal\" has been completed",
+    "Inquire": "Hello again, [player]. Ready for some more cleansing today? I have another task for you to cleanse a decent amount of the [evilworld] for me. I've got some <a is=a-link image=$fromStats href=Bloombomb>Bloombombs</a> for cheap if you could help!",
+    "Objective": "Cleanse 200 blocks",
+    "Reward": "Dryad begins selling <a is=a-link image=$fromStats>Bloombomb</a>",
+    "InternalName": "Bloombomb_Quest"
+}

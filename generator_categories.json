@@ -298,5 +298,13 @@
   "armsdealerquest":{
     "name":"Arms Dealer Quest",
     "items":"Client=ArmsDealer"
+  },
+  "cyborgquest":{
+    "name":"Cyborg Quest",
+    "items":"Client=Cyborg"
+  },
+  "dryadquest":{
+    "name":"Dryad Quest",
+    "items":"Client=Dryad"
   }
 }
