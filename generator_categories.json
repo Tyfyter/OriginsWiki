@@ -290,5 +290,13 @@
   "master":{
     "name":"Master Mode Exclusive",
     "items":"Types<Master"
+  },
+  "quest":{
+    "name":"Quest",
+    "items":"Types<Quest"
+  },
+  "armsdealerquest":{
+    "name":"Arms Dealer Quest",
+    "items":"Client=ArmsDealer"
   }
 }

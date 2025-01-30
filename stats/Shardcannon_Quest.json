@@ -1,0 +1,11 @@
+{
+    "Name": "Living Fire",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "ArmsDealer",
+    "Inquire": "Hey buddy, I’ve been workin’ on a little something that needs someone who knows how to handle a gun. Now, that makes two of us, but I'm sure my neighbors wouldn't like holes in their wall. Care to fit it out for me?",
+    "Objective": "Slay 50 Enemies with the <a is=a-link image=$fromStats href=Shardcannon>Imperfect Shardcannon</a>",
+    "Reward": "<a is=a-link image=$fromStats>Shardcannon</a>",
+    "InternalName": "Shardcannon_Quest"
+}

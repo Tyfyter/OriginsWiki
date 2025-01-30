@@ -2082,6 +2082,7 @@
       "Shadefire",
       "Shaped_Glass",
       "Shardcannon",
+      "Shardcannon_Quest",
       "Shattered_Ghoul",
       "Shattered_Goldfish",
       "Shattered_Mummy",
@@ -2317,6 +2318,7 @@
       "Hallowed_Cleaver",
       "Handy_Helper",
       "Harpoon_Burst_Rifle",
+      "Harpoon_Burst_Rifle_Quest",
       "Haunted_Vase",
       "Headphones",
       "Helium_Tank",
@@ -3628,6 +3630,7 @@
       "Harmony_Brick_Wall",
       "Harpoon",
       "Harpoon_Burst_Rifle",
+      "Harpoon_Burst_Rifle_Quest",
       "Harpoon_Gun",
       "Haunted_Vase",
       "Hazard_Charm",
@@ -3975,6 +3978,7 @@
       "Shadefire",
       "Shaped_Glass",
       "Shardcannon",
+      "Shardcannon_Quest",
       "Shattered_Ghoul",
       "Shattered_Goldfish",
       "Shattered_Mummy",
@@ -4635,6 +4639,20 @@
       "Third_Eye",
       "Weakpoint_Analyzer",
       "World_Cracker_Relic"
+    ]
+  },
+  "quest": {
+    "name": "Quest",
+    "items": [
+      "Harpoon_Burst_Rifle_Quest",
+      "Shardcannon_Quest"
+    ]
+  },
+  "armsdealerquest": {
+    "name": "Arms Dealer Quest",
+    "items": [
+      "Harpoon_Burst_Rifle_Quest",
+      "Shardcannon_Quest"
     ]
   }
 }
