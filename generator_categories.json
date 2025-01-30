@@ -306,5 +306,13 @@
   "dryadquest":{
     "name":"Dryad Quest",
     "items":"Client=Dryad"
+  },
+  "goblintinkererquest":{
+    "name":"Goblin Tinkerer Quest",
+    "items":"Client=GoblinTinkerer"
+  },
+  "merchantquest":{
+    "name":"Merchant Quest",
+    "items":"Client=Merchant"
   }
 }

@@ -1530,6 +1530,7 @@
       "Bloombomb_Quest",
       "Blotopus",
       "Blue_Bovine",
+      "Blue_Bovine_Quest",
       "Boiler",
       "Bolt_Gun",
       "Bombardment",
@@ -1807,6 +1808,7 @@
       "Gray_Solution",
       "Guarded",
       "Gun_Glove",
+      "Gun_Glove_Quest",
       "Gun_Magazine",
       "Haggard_Artery",
       "Hallowed_Visage",
@@ -1872,6 +1874,7 @@
       "Lost_Ore",
       "Lost_Pants",
       "Lottery_Ticket",
+      "Lottery_Ticket_Quest",
       "Low_Signal",
       "Maelstrom_Incantation",
       "Magic_Acrid_Armor",
@@ -2179,6 +2182,7 @@
       "Trijaw_Shark_Banner",
       "Triple_Threat",
       "Turbo_Reel",
+      "Turbo_Reel_Quest",
       "Twilith",
       "Undead_Chunk",
       "Unmisfire",
@@ -3289,6 +3293,7 @@
       "Bloombomb_Quest",
       "Blotopus",
       "Blue_Bovine",
+      "Blue_Bovine_Quest",
       "Boiler",
       "Bolt_Gun",
       "Bombardment",
@@ -3623,6 +3628,7 @@
       "Gray_Solution",
       "Guarded",
       "Gun_Glove",
+      "Gun_Glove_Quest",
       "Gun_Magazine",
       "H%C3%A6vateinn",
       "Haggard_Artery",
@@ -3706,6 +3712,7 @@
       "Lost_Ore",
       "Lost_Pants",
       "Lottery_Ticket",
+      "Lottery_Ticket_Quest",
       "Lousy_Liver",
       "Lover's_Leap",
       "Low_Signal",
@@ -4109,6 +4116,7 @@
       "True_Light_Disc",
       "True_Waning_Crescent",
       "Turbo_Reel",
+      "Turbo_Reel_Quest",
       "Twilith",
       "Tyrfing",
       "Undead_Chunk",
@@ -4652,9 +4660,13 @@
     "items": [
       "Advanced_Imaging_Quest",
       "Bloombomb_Quest",
+      "Blue_Bovine_Quest",
       "Cleansing_Station_Quest",
+      "Gun_Glove_Quest",
       "Harpoon_Burst_Rifle_Quest",
-      "Shardcannon_Quest"
+      "Lottery_Ticket_Quest",
+      "Shardcannon_Quest",
+      "Turbo_Reel_Quest"
     ]
   },
   "armsdealerquest": {
@@ -4675,6 +4687,20 @@
     "items": [
       "Bloombomb_Quest",
       "Cleansing_Station_Quest"
+    ]
+  },
+  "goblintinkererquest": {
+    "name": "Goblin Tinkerer Quest",
+    "items": [
+      "Gun_Glove_Quest",
+      "Turbo_Reel_Quest"
+    ]
+  },
+  "merchantquest": {
+    "name": "Merchant Quest",
+    "items": [
+      "Blue_Bovine_Quest",
+      "Lottery_Ticket_Quest"
     ]
   }
 }
