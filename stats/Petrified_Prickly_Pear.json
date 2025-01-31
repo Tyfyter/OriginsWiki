@@ -10,6 +10,7 @@
   "Tooltip": "Minor improvements to all stats and 25% increased mana shielding",
   "Rarity": "Blue",
   "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Petrified Tree</a>",
   "SpriteWidth": 28,
   "InternalName": "Petrified_Prickly_Pear"
 }

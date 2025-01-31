@@ -4,7 +4,7 @@
         "Quest"
       ],
     "Client": "Dryad",
-    "Inquire": "Hey [player], look. I know you’ve probably been busy lately, but can I take some time off you to cleanse some of the [evilworld]? If you follow through, I’ll reward you with access to something I've been hiding for a while now.",
+    "Inquire": "Hey [player], look. I know you’ve probably been busy lately, but can I take some time off you to cleanse some of the [world evil]? If you follow through, I’ll reward you with access to something I've been hiding for a while now.",
     "Objective": "Cleanse 50 blocks",
     "Reward": "Dryad begins selling the <a is=a-link image=$fromStats>Cleansing Station</a>",
     "InternalName": "Cleansing_Station_Quest"
