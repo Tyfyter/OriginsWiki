@@ -6,7 +6,7 @@
     "Gun",
     "Weapon"
   ],
-  "Damage": 6,
+  "Damage": 4,
   "ArmorPenetration": 6,
   "DamageClass": "Ranged",
   "Knockback": 5.0,
@@ -20,42 +20,42 @@
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
@@ -78,6 +78,6 @@
       ]
     }
   ],
-  "SpriteWidth": 52,
+  "SpriteWidth": 50,
   "InternalName": "Kruncher"
 }

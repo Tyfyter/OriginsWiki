@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Partybringer",
+  "Name": "Partybringer",
+  "Types": [
+    "Item",
+    "Launcher",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
+  ],
+  "Damage": 40,
+  "ArmorPenetration": 5,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 40,
+  "Velocity": 8.0,
+  "Tooltip": "Fires presents that bring pleasant surprises",
+  "Rarity": "Yellow",
+  "Sell": 14000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Party_Girl\">Party Girl</a> (<a-coins>70000</a-coins>After completing \"Livin' Up the Party\")",
+  "SpriteWidth": 50,
+  "InternalName": "Partybringer"
+}

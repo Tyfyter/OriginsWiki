@@ -1,0 +1,152 @@
+{
+  "Image": "§ModImage§/Items/Materials/Alkaliphiliac_Tissue",
+  "Name": "Alkaliphiliac Tissue",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Orange",
+  "Sell": 40,
+  "Source": "<a is=a-link image=$fromStats>Carpalfish</a><div class=divider></div><a is=a-link image=$fromStats>King Crab</a><div class=divider></div><a is=a-link image=$fromStats>Sea Dragon</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
+      "Rate": 1.0,
+      "Max": 4,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 1.0,
+      "Max": 6,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eitrite Bar</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a>",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian Shard</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Bomb</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a>",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Grenade</a> (2)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Splashid</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (38)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (12)",
+            "<a is=a-link image=$fromStats>Baryte</a> (25)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Antisolve Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (8)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/IronBar\" href=Recipe_Groups>Any Iron Bar</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Alkaline Harpoon</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Harpoon</a> (2)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Alkaliphiliac_Tissue"
+}

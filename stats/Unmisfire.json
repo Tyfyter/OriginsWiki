@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Unmisfire",
+  "Name": "Unmisfire",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Bow"
+  ],
+  "Damage": 12,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "UseTime": 20,
+  "Velocity": 8.0,
+  "Tooltip": "Still hits near-misses",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": "(12) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (5) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Unmisfire</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (12)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 26,
+  "InternalName": "Unmisfire"
+}

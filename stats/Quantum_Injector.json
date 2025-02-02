@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Quantum_Injector",
+  "Name": "Quantum Injector",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 30,
+  "Tooltip": "Permanently increases maximum mana by 40",
+  "Rarity": "Butterscotch",
+  "Sell": 10000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Crystal\">Mana Crystal</a> + (50) <a is=a-link image=$fromStats imageOnly>Qube</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Quantum Injector</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mana_Crystal\">Mana Crystal</a>",
+            "<a is=a-link image=$fromStats>Qube</a> (50)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 12,
+  "InternalName": "Quantum_Injector"
+}

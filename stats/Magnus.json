@@ -6,12 +6,12 @@
     "Wand",
     "Weapon"
   ],
-  "ManaCost": 13,
+  "ManaCost": 14,
   "Damage": 34,
   "DamageClass": "Magic",
   "Knockback": 3.0,
-  "UseTime": 33,
-  "Velocity": 32.0,
+  "UseTime": 40,
+  "Velocity": 8.0,
   "Tooltip": "Receives 50% higher damage bonuses",
   "Rarity": "Green",
   "Sell": 6000,
@@ -32,6 +32,6 @@
       ]
     }
   ],
-  "SpriteWidth": 46,
+  "SpriteWidth": 52,
   "InternalName": "Magnus"
 }

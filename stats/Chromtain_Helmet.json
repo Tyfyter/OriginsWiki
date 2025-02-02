@@ -1,0 +1,32 @@
+{
+  "Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Helmet",
+  "Name": "Chromtain Helmet",
+  "Types": [
+    "Item",
+    "PostMLArmorSet",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 16,
+  "ArmorSlot": "Helmet",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>Chromtain Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chromtain Helmet</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chromtain Bar</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Chromtain_Helmet"
+}

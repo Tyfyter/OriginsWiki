@@ -25,7 +25,7 @@
     "-25% movement speed",
     "-40% jump speed"
   ],
-  "Rarity": "LightPurple",
+  "Rarity": "Yellow",
   "Sell": 120000,
   "Source": " <a is=a-link image=$fromStats imageOnly>Binding Book</a> +  <a is=a-link image=$fromStats imageOnly>Celestial Stone Mask</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [

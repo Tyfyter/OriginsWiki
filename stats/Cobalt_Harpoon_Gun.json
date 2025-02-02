@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Cobalt_Harpoon_Gun",
+  "Name": "Cobalt Harpoon Gun",
+  "Types": [
+    "Item",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 47,
+  "DamageClass": "Ranged",
+  "Knockback": 4.0,
+  "UseTime": 3,
+  "Velocity": 10.75,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "87.5% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 12000,
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Cobalt Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 66,
+  "InternalName": "Cobalt_Harpoon_Gun"
+}

@@ -6,7 +6,7 @@
     "Tool"
   ],
   "PickPower": 75,
-  "Damage": 13,
+  "Damage": 21,
   "DamageClass": "Melee",
   "Knockback": 4.0,
   "UseTime": 13,
@@ -32,6 +32,6 @@
       ]
     }
   ],
-  "SpriteWidth": 36,
+  "SpriteWidth": 34,
   "InternalName": "Felnum_Pickaxe"
 }

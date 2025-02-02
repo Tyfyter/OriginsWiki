@@ -11,6 +11,22 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Baryte Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Baryte</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Baryte Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
   "UsedIn": [
     {
       "stations": [
@@ -20,15 +36,28 @@
         {
           "result": "<a is=a-link image=$fromStats>Splashid</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Baryte</a> (10)",
-            "<a is=a-link image=$fromStats>Brineglow</a> (8)",
-            "<a is=a-link image=$fromStats>Eitrite Bar</a> (15)"
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (38)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (12)",
+            "<a is=a-link image=$fromStats>Baryte</a> (25)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Baryte Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Baryte</a>"
           ]
         }
       ]
     }
   ],
-  "SpriteWidth": 16,
+  "SpriteWidth": 22,
   "InternalName": "Baryte_Item",
   "Images": [
     "§ModImage§/Tiles/Brine/Baryte_Item",

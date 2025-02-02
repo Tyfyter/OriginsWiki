@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Armor/Cryosten/Pink_Cryosten_Greaves",
+  "Name": "Pink Cryosten Greaves",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 4,
+  "ArmorSlot": "Pants",
+  "Tooltip": [
+    "10% increased movement speed",
+    "Increased movement speed on ice"
+  ],
+  "Rarity": "White",
+  "Sell": 1005000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Snow_Pants\">Pink Snow Pants</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Pink Cryosten Greaves</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Snow_Pants\">Pink Snow Pants</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Pink_Cryosten_Greaves"
+}

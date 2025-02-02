@@ -1,0 +1,40 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Eyenade",
+  "Name": "Eyenade",
+  "Types": [
+    "Item",
+    "ThrownExplosive",
+    "IsBomb",
+    "ExpendableWeapon",
+    "ToxicSource",
+    "Weapon",
+    "Ammo"
+  ],
+  "Damage": 39,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 8.0,
+  "UseTime": 45,
+  "Velocity": 6.05,
+  "Tooltip": "Flies towards nearby enemies",
+  "Rarity": "Blue",
+  "Sell": 20,
+  "Source": "(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eyenade</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 14,
+  "InternalName": "Eyenade"
+}

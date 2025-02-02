@@ -53,6 +53,20 @@
           ]
         }
       ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Sand</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 16,

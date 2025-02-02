@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Bleeding_Obsidian",
+  "Name": "Resizable Mine V",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 40,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 4.0,
+  "Velocity": 0.4,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Pink",
+  "Sell": 930,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (2) <a is=a-link image=$fromStats imageOnly>Bleeding Obsidian</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine V</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Bleeding_Obsidian"
+}

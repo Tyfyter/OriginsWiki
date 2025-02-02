@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Info",
-    "Accessory",
-    "Hardmode"
+    "Accessory"
   ],
   "Tooltip": [
     "Allows the detection of traps, enemies, and valuables",

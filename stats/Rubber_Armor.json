@@ -1,0 +1,18 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Rubber Armor",
+  "WikiName": "Rubber_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Rubber_Armor.DisplayName",
+  "Images": [
+    "ArmorSets/Rubber_Armor",
+    "ArmorSets/Rubber_Armor_Female"
+  ],
+  "Defense": 7,
+  "SetBonus": "Immunity to Static Shock and Electrified\nReduces damage taken by 5%",
+  "Rarity": "Blue",
+  "Sell": 9000
+}

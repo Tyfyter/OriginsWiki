@@ -1,0 +1,24 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Harpoon_Burst_Rifle",
+  "Name": "Harpoon Burst Rifle",
+  "Types": [
+    "Item",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 47,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "UseTime": 5,
+  "Velocity": 13.75,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "83.3% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 28000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Arms_Dealer\">Arms Dealer</a> (<a-coins>140000</a-coins>After completing \"Three Times the Charm\")",
+  "SpriteWidth": 78,
+  "InternalName": "Harpoon_Burst_Rifle"
+}

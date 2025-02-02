@@ -8,7 +8,7 @@
   "Tooltip": "Grants immunity to 'Toxic Shock' and 'Torn'",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Bottled Brine</a> +  <a is=a-link image=$fromStats imageOnly>Brineglow</a> +  <a is=a-link image=$fromStats imageOnly>Peat Moss</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> + (8) <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> + (10) <a is=a-link image=$fromStats imageOnly>Brineglow</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
   "Recipes": [
     {
       "stations": [
@@ -18,9 +18,9 @@
         {
           "result": "<a is=a-link image=$fromStats>Antisolve Potion</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Bottled Brine</a>",
-            "<a is=a-link image=$fromStats>Brineglow</a>",
-            "<a is=a-link image=$fromStats>Peat Moss</a>"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (8)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (10)"
           ]
         }
       ]

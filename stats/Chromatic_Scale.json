@@ -9,7 +9,7 @@
   "Damage": 0,
   "UseTime": 20,
   "Tooltip": "Summons a rainbow pangolin",
-  "Rarity": "Cyan",
+  "Rarity": "AltCyan",
   "Sell": 200000,
   "SpriteWidth": 22,
   "InternalName": "Chromatic_Scale",

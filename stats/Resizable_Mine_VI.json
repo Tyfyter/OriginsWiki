@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Chlorophyte",
+  "Name": "Resizable Mine VI",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 48,
+  "ArmorPenetration": 2,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 4.4,
+  "Velocity": 0.6,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Yellow",
+  "Sell": 1300,
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Ore\">Chlorophyte Ore</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine VI</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Ore\">Chlorophyte Ore</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Chlorophyte"
+}

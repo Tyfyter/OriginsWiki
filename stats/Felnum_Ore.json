@@ -12,7 +12,93 @@
   ],
   "UseTime": 10,
   "Rarity": "Green",
-  "Source": "(50) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Ore\">Copper Ore</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>)",
+  "Source": "(50) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Ore\">Copper Ore</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crystal_Ball\">Crystal Ball</a>)<div class=divider></div><a is=a-link image=$fromStats>Cloud Elemental</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Einheri</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Guardian</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Slime</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 1.0,
+      "Max": 14,
+      "Min": 7,
+      "Difficulty": "Master"
+    }
+  ],
   "Recipes": [
     {
       "stations": [

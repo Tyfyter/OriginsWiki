@@ -6,16 +6,19 @@
     "Accessory",
     "Hardmode"
   ],
-  "ManaCost": 20,
-  "Damage": 50,
-  "DamageClass": "",
+  "ManaCost": 140,
+  "Damage": 76,
+  "DamageClass": "Melee",
   "Knockback": 7.0,
-  "UseTime": 48,
+  "UseTime": 900,
   "Velocity": 4.0,
-  "Tooltip": "You are Silenced, but the mouth will attack for you",
+  "Tooltip": [
+    "You are Silenced, press <key> to silence everyone else too",
+    "Gain up to 10% damage resistance over time by not speaking"
+  ],
   "Rarity": "Cursed",
-  "Sell": 20000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Sell": 50000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Corruption)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a>",
@@ -39,6 +42,23 @@
       "Difficulty": "Master"
     }
   ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Corruption"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Forbidden Voice</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "UsedIn": [
     {
       "stations": [
@@ -47,6 +67,20 @@
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Forbidden Voice</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Forbidden Voice</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Forbidden Voice</a>"
           ]

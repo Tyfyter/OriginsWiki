@@ -10,10 +10,7 @@
   "Damage": 10,
   "DamageClass": "Summon",
   "UseTime": 36,
-  "Tooltip": [
-    "Summons a mini crimbrain to fight for you",
-    "Uses 2 minion slots"
-  ],
+  "Tooltip": "Summons a mini crimbrain to fight for you",
   "Rarity": "Blue",
   "Sell": 15000,
   "Source": "<a is=a-link image=$fromStats>Crimbrain</a>",
@@ -40,6 +37,6 @@
       "Difficulty": "Master"
     }
   ],
-  "SpriteWidth": 80,
+  "SpriteWidth": 44,
   "InternalName": "Brainy_Staff"
 }

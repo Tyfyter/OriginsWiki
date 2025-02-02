@@ -8,11 +8,11 @@
     "Accessory",
     "Hardmode"
   ],
-  "Damage": 30,
+  "Damage": 50,
   "DamageClass": "",
-  "Knockback": 2.0,
+  "Knockback": 6.0,
   "Tooltip": [
-    "+5% damage",
+    "5% increased damage",
     "The wearer can run super fast and even faster after taking damage",
     "Allows the player to dash into the enemy",
     "Double tap a direction"

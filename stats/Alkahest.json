@@ -159,10 +159,10 @@
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Alkahest Canister</a> (5)",
+          "result": "<a is=a-link image=$fromStats>Alkahest Canister</a> (10)",
           "ingredients": [
             "<a is=a-link image=$fromStats>Alkahest</a>",
-            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (5)"
+            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (10)"
           ]
         }
       ]

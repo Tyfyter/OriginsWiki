@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/Items/Materials/Element36_Bundle",
+  "Name": "Material-36 Bundle",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Purple",
+  "Sell": 10000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> + (4) <a is=a-link image=$fromStats imageOnly>Fibron Plating</a> +  <a is=a-link image=$fromStats imageOnly>Formium Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Material-36 Bundle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link image=$fromStats>Fibron Plating</a> (4)",
+            "<a is=a-link image=$fromStats>Formium Bar</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 26,
+  "InternalName": "Element36_Bundle"
+}

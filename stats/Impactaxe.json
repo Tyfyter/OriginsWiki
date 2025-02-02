@@ -8,7 +8,7 @@
     "Weapon",
     "OtherExplosive"
   ],
-  "Damage": 32,
+  "Damage": 54,
   "DamageClass": "Explosive Melee",
   "Knockback": 12.0,
   "UseTime": 24,
@@ -17,8 +17,27 @@
     "Explodes when struck, destroying tiles nearby",
     "'Self-damage resistance not included!'"
   ],
-  "Rarity": "Green",
+  "Rarity": "Pink",
   "Sell": 80000,
-  "SpriteWidth": 50,
+  "Source": "(18) <a is=a-link image=$fromStats imageOnly>Busted Servo</a> +  <a is=a-link image=$fromStats imageOnly>Power Core</a> + (4) <a is=a-link image=$fromStats imageOnly>Rotor</a> + (12) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link image=$fromStats>Fabricator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link image=$fromStats>Fabricator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Impactaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (18)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rotor</a> (4)",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 56,
   "InternalName": "Impactaxe"
 }

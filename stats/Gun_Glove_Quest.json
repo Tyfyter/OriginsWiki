@@ -1,0 +1,12 @@
+{
+    "Name": "Lend a Hand?",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "GoblinTinkerer",
+    "UnlockCondition": "After completing the \"Reel In the Goods\" quest.",
+    "Inquire": "So, same deal as last time but different materials. Could you get me two leather, a flintlock pistol from the Arms Dealer and a zombie arm. What? I just need it, it's important!",
+    "Objective": "Collect 2 <a is=a-link href=https://terraria.wiki.gg/wiki/Leather>Leather</a>, 1 <a is=a-link href=https://terraria.wiki.gg/wiki/Flintlock_Pistol>Flintlock Pistol</a>, 1 <a is=a-link href=https://terraria.wiki.gg/wiki/Zombie_Arm>Zombie Arm</a>",
+    "Reward": "Goblin Tinkerer begins selling <a is=a-link image=$fromStats>Gun Glove</a>",
+    "InternalName": "Gun_Glove_Quest"
+}

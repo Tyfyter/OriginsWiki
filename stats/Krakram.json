@@ -18,42 +18,42 @@
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.2,
+      "Rate": 0.25,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

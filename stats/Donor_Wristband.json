@@ -4,7 +4,8 @@
   "Types": [
     "Item",
     "Vitality",
-    "Accessory"
+    "Accessory",
+    "Hardmode"
   ],
   "Tooltip": [
     "Increased life regeneration",

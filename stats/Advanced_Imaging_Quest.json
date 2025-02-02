@@ -1,0 +1,12 @@
+{
+    "Name": "Sensor Upgrade",
+    "Types": [
+        "Quest",
+        "Hardmode"
+      ],
+    "Client": "Cyborg",
+    "Inquire": "Terrarian, my sensors indicate there is an electronic presence in the skies of [world]. The signal is coming from the ocean. Investigate, this information could improve my systems.",
+    "Objective": "Encounter a <a is=a-link href=https://terraria.wiki.gg/wiki/Martian_Probe>Martian Probe</a>.",
+    "Reward": "Cyborg begins selling <a is=a-link image=$fromStats>Advanced Imaging</a>",
+    "InternalName": "Advanced_Imaging_Quest"
+}

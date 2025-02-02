@@ -12,7 +12,7 @@
     "ArmorSets/Nova_Armor_Female"
   ],
   "Defense": 48,
-  "SetBonus": "Massively increased explosive blast radius\nExplosive projectiles have a chance to be duplicated\nExplosives home towards nearby enemies",
+  "SetBonus": "60% increased explosive blast radius\nExplosive projectiles have a chance to be duplicated\nExplosives home towards nearby enemies",
   "Rarity": "Red",
   "Sell": 315000
 }

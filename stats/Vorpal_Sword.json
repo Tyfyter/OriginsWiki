@@ -6,9 +6,10 @@
     "Sword",
     "Weapon"
   ],
-  "Damage": 17,
+  "Damage": 28,
   "ArmorPenetration": 150,
   "DamageClass": "Melee",
+  "Knockback": 1E-45,
   "UseTime": 17,
   "Velocity": 12.0,
   "Rarity": "Blue",

@@ -10,14 +10,14 @@
     "Accessory",
     "Hardmode"
   ],
-  "Damage": 42,
+  "Damage": 48,
   "DamageClass": "",
   "Knockback": 3.0,
   "Tooltip": [
     "The wearer can run super fast and even faster after taking damage",
     "Allows the user to climb walls and dash into enemies",
     "Greatly increased movement speed and return speed for grapple hooks and harpoon guns",
-    "+5% damage",
+    "5% increased damage",
     "Gives a 10% chance to dodge attacks",
     "Running fast for extended periods of time generates a charge for a powerful dash"
   ],

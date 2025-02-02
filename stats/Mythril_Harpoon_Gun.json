@@ -1,0 +1,53 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Mythril_Harpoon_Gun",
+  "Name": "Mythril Harpoon Gun",
+  "Types": [
+    "Item",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 53,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "UseTime": 3,
+  "Velocity": 12.75,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "87.5% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 18000,
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Bar\">Mythril Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div>(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Anvil\">Mythril Anvil</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>, on April Fools' day)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mythril Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Bar\">Mythril Bar</a> (10)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>",
+        "on April Fools' day"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mythril Harpoon Gun</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Anvil\">Mythril Anvil</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 54,
+  "InternalName": "Mythril_Harpoon_Gun"
+}

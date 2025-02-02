@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Felnum_Sword",
+  "Name": "Thunderbolt",
+  "Types": [
+    "Item",
+    "Sword",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 30,
+  "DamageClass": "Melee",
+  "Knockback": 9.0,
+  "UseTime": 18,
+  "Velocity": 12.0,
+  "Tooltip": [
+    "Inflicts Static Shock",
+    "Right Click to stab"
+  ],
+  "Rarity": "Lime",
+  "Sell": 10000,
+  "Source": "(12) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Thunderbolt</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Felnum_Sword"
+}

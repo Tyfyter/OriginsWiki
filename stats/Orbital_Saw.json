@@ -6,7 +6,8 @@
     "Boomerang",
     "Weapon"
   ],
-  "Damage": 14,
+  "Damage": 16,
+  "ArmorPenetration": 3,
   "DamageClass": "Melee",
   "Knockback": 2.0,
   "UseTime": 13,

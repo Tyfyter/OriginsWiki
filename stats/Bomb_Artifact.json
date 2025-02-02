@@ -5,16 +5,16 @@
     "Item",
     "Artifact",
     "Minion",
-    "Weapon",
-    "Hardmode"
+    "Weapon"
   ],
-  "ManaCost": 40,
-  "Damage": 80,
+  "ManaCost": 36,
+  "Damage": 65,
   "DamageClass": "Explosive Summon",
   "UseTime": 36,
   "Tooltip": "Summons a friendly bomb to fight for you",
-  "Rarity": "Pink",
+  "Rarity": "Green",
   "Sell": 15000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>75000</a-coins>After selling 145 peat moss to the Demolitionist)",
   "SpriteWidth": 24,
   "InternalName": "Bomb_Artifact"
 }

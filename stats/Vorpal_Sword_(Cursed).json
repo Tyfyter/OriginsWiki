@@ -12,6 +12,7 @@
   "Damage": 32,
   "ArmorPenetration": 9999,
   "DamageClass": "Melee",
+  "Knockback": 1E-45,
   "UseTime": 17,
   "Velocity": 12.0,
   "Tooltip": [

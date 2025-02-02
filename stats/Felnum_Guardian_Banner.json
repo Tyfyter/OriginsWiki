@@ -1,0 +1,20 @@
+{
+  "Name": "Felnum Guardian Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Felnum Guardian",
+  "Rarity": "Blue",
+  "SpriteWidth": 12,
+  "InternalName": "Felnum_Guardian_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Felnum_Guardian_Banner_Item",
+    "Tiles/Felnum_Guardian_Banner"
+  ]
+}

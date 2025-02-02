@@ -1,0 +1,60 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Gun_Magazine",
+  "Name": "Gun Magazine",
+  "Types": [
+    "Item",
+    "Combat",
+    "RangedBoostAcc",
+    "Accessory"
+  ],
+  "Tooltip": "+5% gun attack speed",
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Arms_Dealer\">Arms Dealer</a> (<a-coins>50000</a-coins>)",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Crimtane Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Demonite Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (3)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sanguinite Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 18,
+  "InternalName": "Gun_Magazine"
+}

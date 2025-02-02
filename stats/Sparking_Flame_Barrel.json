@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Sparking_Flame_Barrel",
+  "Name": "Sparking Flame Barrel",
+  "Types": [
+    "Item",
+    "Combat",
+    "ExplosiveBoostAcc",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "All explosives inflict 'On Fire!' and have a reduced fuse time",
+    "All attacks inflict Static Shock",
+    "Increases the shock chain range when using items that already inflict it"
+  ],
+  "Rarity": "Orange",
+  "Sell": 30000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Danger Barrel</a> +  <a is=a-link image=$fromStats imageOnly>Lightning Ring</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sparking Flame Barrel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Danger Barrel</a>",
+            "<a is=a-link image=$fromStats>Lightning Ring</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 18,
+  "InternalName": "Sparking_Flame_Barrel"
+}

@@ -32,8 +32,29 @@
 				</p>
 			</details>
 
-			<details class="section" id="Explosive Modifiers" open>
-				<summary><h3>Summoner modifiers</h3><span class="divider"></span></summary>
+			<details class="section" id="Accessory modifiers" open>
+				<summary><h3>Accessory modifiers</h3><span class="divider"></span></summary>
+				<a-sortablelist>
+				{
+				headers:[
+				'Effect',
+				'Modifier',
+				{'name':'Stat change', 'expr':'item.Stat', 'noAbbr':true},
+				'Tier',
+				'Value'
+				],
+				items:[
+				{Effect:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed#Upward_movement">Jump speed</a>', Modifier:'Bouncy', Stat:'+2%', Tier:'+1', Value:'+10.25%'},
+				{Effect:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed#Upward_movement">Jump speed</a>', Modifier:'Sprightly', Stat:'+4%', Tier:'+1', Value:'+21%'},
+				{Effect:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed#Upward_movement">Jump speed</a>', Modifier:'Exuberant', Stat:'+6%', Tier:'+1', Value:'+32.25%'},
+				{Effect:'<a is="a-link" href="https://terraria.wiki.gg/wiki/Movement_speed#Upward_movement">Jump speed</a>', Modifier:'Springy', Stat:'+8%', Tier:'+2', Value:'+44%'}
+				]
+				}
+				</a-sortablelist>
+			</details>
+
+			<details class="section" id="Summon modifiers" open>
+				<summary><h3>Summon modifiers</h3><span class="divider"></span></summary>
 				<p>
 					Due to the addition of <a is="a-link" href="Artifacts.html">artifacts</a> and <a is="a-link" href="Incantations.html">incantations</a> new summoner-dedicated modifiers were implemented in order to add a larger diversity of playstyles.
 					See the chart below for each modifier and how they affect weapon attributes.

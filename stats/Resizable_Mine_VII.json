@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Resizable_Mine_Luminite",
+  "Name": "Resizable Mine VII",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 60,
+  "ArmorPenetration": 1,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 4.9,
+  "Velocity": 1.0,
+  "Tooltip": "'Compatible with your garden-variety mine launchers!'",
+  "Rarity": "Cyan",
+  "Sell": 2600,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite\">Luminite</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine VII</a> (16)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Luminite\">Luminite</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Resizable_Mine_Luminite"
+}

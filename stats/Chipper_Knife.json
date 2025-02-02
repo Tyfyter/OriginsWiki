@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Chipper_Knife",
+  "Name": "Chipper Knife",
+  "Types": [
+    "Item",
+    "Weapon",
+    "OtherRanged"
+  ],
+  "Damage": 12,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "UseTime": 15,
+  "Velocity": 10.0,
+  "Tooltip": "Briefly rasters enemies",
+  "Rarity": "White",
+  "Sell": 12,
+  "Source": "(50) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> +  <a is=a-link image=$fromStats imageOnly>Dreadful Powder</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chipper Knife</a> (50)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Throwing_Knife\">Throwing Knife</a> (50)",
+            "<a is=a-link image=$fromStats>Dreadful Powder</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 10,
+  "InternalName": "Chipper_Knife"
+}

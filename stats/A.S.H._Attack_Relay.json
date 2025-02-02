@@ -6,18 +6,18 @@
     "Combat",
     "Accessory"
   ],
-  "Damage": 24,
+  "Damage": 17,
   "ArmorPenetration": 6,
   "DamageClass": "",
   "Knockback": 6.0,
   "UseTime": 12,
   "Tooltip": [
-  "+5% damage",
-  "Releases explosive ashes that home towards your aggressors upon taking damage"
+    "+5% damage",
+    "Releases explosive ashes that home towards your aggressors upon taking damage"
   ],
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Seal of Cinders</a> +  <a is=a-link image=$fromStats imageOnly>Comb</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Comb</a> +  <a is=a-link image=$fromStats imageOnly>Seal of Cinders</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
       "stations": [
@@ -27,8 +27,8 @@
         {
           "result": "<a is=a-link image=$fromStats>A.S.H. Attack Relay</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Seal of Cinders</a>",
-            "<a is=a-link image=$fromStats>Comb</a>"
+            "<a is=a-link image=$fromStats>Comb</a>",
+            "<a is=a-link image=$fromStats>Seal of Cinders</a>"
           ]
         }
       ]

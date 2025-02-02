@@ -1,0 +1,43 @@
+{
+  "Image": "§ModImage§/Items/Materials/Fibron_Plating",
+  "Name": "Fibron Plating",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Butterscotch",
+  "Sell": 6800,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Material-36 Bundle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a>",
+            "<a is=a-link image=$fromStats>Fibron Plating</a> (4)",
+            "<a is=a-link image=$fromStats>Formium Bar</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Flakjack</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fibron Plating</a> (24)",
+            "<a is=a-link image=$fromStats>Qube</a> (48)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 26,
+  "InternalName": "Fibron_Plating"
+}

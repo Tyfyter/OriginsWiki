@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Armor/Chromtain/Chromtain_Greaves",
+  "Name": "Chromtain Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 25,
+  "ArmorSlot": "Pants",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>Chromtain Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Defender's_Forge\">Defender's Forge</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Chromtain Greaves</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Chromtain Bar</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Chromtain_Greaves"
+}

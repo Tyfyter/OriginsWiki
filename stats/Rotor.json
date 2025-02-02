@@ -163,7 +163,7 @@
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (24)",
             "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
-            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (6)",
             "<a is=a-link image=$fromStats>Power Core</a> (2)",
             "<a is=a-link image=$fromStats>Rotor</a> (2)"
           ]
@@ -173,8 +173,17 @@
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (18)",
             "<a is=a-link image=$fromStats>Blast-Resistant Plate</a>",
-            "<a is=a-link image=$fromStats>Busted Servo</a> (2)",
+            "<a is=a-link image=$fromStats>Busted Servo</a> (4)",
             "<a is=a-link image=$fromStats>Rotor</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Impactaxe</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Busted Servo</a> (18)",
+            "<a is=a-link image=$fromStats>Power Core</a>",
+            "<a is=a-link image=$fromStats>Rotor</a> (4)",
+            "<a is=a-link image=$fromStats>Rubber</a> (12)"
           ]
         },
         {

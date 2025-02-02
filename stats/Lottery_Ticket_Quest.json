@@ -1,0 +1,11 @@
+{
+    "Name": "The Greatest Sin of All, Gambling",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "Merchant",
+    "Inquire": "Do you know why I'm not allowed to sell lottery tickets? Neither do I. Maybe you can convince the gods of fortune to shine a brighter light on us by killing some rare enemies, eh?",
+    "Objective": "Kill 10 <a is=a-link href=https://terraria.wiki.gg/wiki/Rare_enemies>Rare enemies</a>",
+    "Reward": "Merchant begins selling <a is=a-link image=$fromStats>Lottery Ticket</a>",
+    "InternalName": "Lottery_Ticket_Quest"
+}

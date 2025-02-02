@@ -16,30 +16,26 @@
   "Drops": [
     {
       "Name": "The Kruncher",
-      "Chance": "20%"
+      "Chance": "25%"
     },
     {
       "Name": "Musket Ball",
-      "Chance": "20%",
+      "Chance": "25%",
       "Amount": 100,
       "LinkOverride": "https://terraria.wiki.gg/wiki/Musket_Ball",
       "ImageOverride": ""
     },
     {
       "Name": "Dim Starlight",
-      "Chance": "20%"
-    },
-    {
-      "Name": "Infusion",
-      "Chance": "20%"
+      "Chance": "25%"
     },
     {
       "Name": "Krakram",
-      "Chance": "20%"
+      "Chance": "25%"
     },
     {
       "Name": "Suspicious Looking Pebble",
-      "Chance": "20%"
+      "Chance": "25%"
     },
     {
       "Name": "Gold Coin",

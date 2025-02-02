@@ -1,0 +1,40 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Fairy_Lotus",
+  "Name": "Fairy Lotus",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": "Attracts helpful fairies and makes them glow brighter",
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Fae Nymph</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Fae Nymph</a>",
+      "Rate": 0.5,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Fae Nymph</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Fae Nymph</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Fairy_Lotus"
+}

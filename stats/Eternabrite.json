@@ -34,6 +34,23 @@
       ]
     }
   ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eternanite</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (15)",
+            "<a is=a-link image=$fromStats>Black Bile</a> (9)",
+            "<a is=a-link image=$fromStats>Eternabrite</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Eternabrite"
 }

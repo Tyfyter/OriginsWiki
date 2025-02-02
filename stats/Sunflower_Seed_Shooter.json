@@ -6,7 +6,7 @@
     "Gun",
     "Weapon"
   ],
-  "Damage": 10,
+  "Damage": 12,
   "DamageClass": "Ranged",
   "Knockback": 1.0,
   "Crit": 7,
@@ -14,7 +14,7 @@
   "Velocity": 9.0,
   "Tooltip": [
     "Uses sunflowers as ammo",
-    "25% chance not to consume ammo"
+    "80% chance not to consume ammo"
   ],
   "Rarity": "Blue",
   "Sell": 4000,

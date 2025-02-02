@@ -15,6 +15,30 @@
   "Tooltip": "Inflicts toxic shock",
   "Rarity": "LightRed",
   "Sell": 8000,
+  "Source": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Nematoclaw"
 }

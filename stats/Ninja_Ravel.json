@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Ninja_Ravel",
+  "Image": "§ModImage§/Items/Mounts/Ninja_Ravel",
   "Name": "Ninja Ravel",
   "Types": [
     "Item",
@@ -9,7 +9,7 @@
   ],
   "UseTime": 20,
   "Tooltip": [
-    "Double tap down to transform into a small, rolling ball",
+    "Use the mount key to transform into a small, rolling ball",
     "You may cling to walls and ceilings when raveled",
     "Enemies are less likely to target you while raveled"
   ],

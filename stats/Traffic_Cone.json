@@ -9,6 +9,7 @@
     2
   ],
   "UseTime": 10,
+  "Tooltip": "Slows enemies when placed",
   "Rarity": "White",
   "Source": "(6) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Heavy_Work_Bench\">Heavy Work Bench</a>)<div class=divider></div><a is=a-link image=$fromStats>Conehead Zombie</a>",
   "DropSources": [

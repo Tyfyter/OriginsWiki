@@ -5,12 +5,15 @@
     "Item",
     "Armor"
   ],
-  "Defense": 2,
+  "Defense": 4,
   "ArmorSlot": "Helmet",
-  "Tooltip": "Increased life regeneration",
+  "Tooltip": [
+    "+20% explosive blast radius",
+    "Increased life regeneration"
+  ],
   "Rarity": "White",
-  "Sell": 700,
-  "Source": "(45) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Sell": 1005000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Hood\">Snow Hood</a> + (30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -20,14 +23,14 @@
         {
           "result": "<a is=a-link image=$fromStats>Cryosten Helmet</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (45)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (4)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Hood\">Snow Hood</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (30)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>"
           ]
         }
       ]
     }
   ],
-  "SpriteWidth": 26,
+  "SpriteWidth": 24,
   "InternalName": "Cryosten_Helmet"
 }

@@ -13,8 +13,8 @@
   "UseTime": 10,
   "Tooltip": "Used to craft high-tech items from mech components",
   "Rarity": "LightPurple",
-  "Sell": 200000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mechanic\">Mechanic</a> (<a-coins>1000000</a-coins>After defeating all mechanical bosses)",
+  "Sell": 400000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mechanic\">Mechanic</a> (<a-coins>2000000</a-coins>After defeating any mechanical boss)",
   "SpriteWidth": 22,
   "InternalName": "Fabricator_Item",
   "Images": [

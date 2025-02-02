@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Dash_Ravel",
+  "Image": "§ModImage§/Items/Mounts/Dash_Ravel",
   "Name": "Dash Ravel",
   "Types": [
     "Item",
@@ -9,7 +9,7 @@
   ],
   "UseTime": 20,
   "Tooltip": [
-    "Double tap down to transform into a small, rolling ball that damages enemies as it moves",
+    "Use the mount key to transform into a small, rolling ball that damages enemies as it moves",
     "Double tap a direction to dash and instantly morph"
   ],
   "Rarity": "Pink",

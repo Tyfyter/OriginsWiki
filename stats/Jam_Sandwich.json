@@ -12,7 +12,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 1000,
-  "Source": "<a is=a-link image=$fromStats>Flagellant</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Trijaw Shark</a>",
+  "Source": "<a is=a-link image=$fromStats>Flagellant</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Trijaw Shark</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Flagellant</a>",
@@ -72,6 +72,27 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
+      "Rate": 0.0625,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0625,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.0625,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
       "Rate": 0.0625,
       "Max": 1,
       "Min": 1,

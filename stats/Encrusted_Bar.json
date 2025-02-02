@@ -105,10 +105,16 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Resizable Mine III</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (2)"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Avulsion</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>Encrusted Bar</a> (5)",
-            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (8)"
           ]
         },
         {
@@ -176,6 +182,20 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
             "<a is=a-link image=$fromStats>Riven Carapace</a> (5)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (3)"
           ]
         }
       ]

@@ -5,15 +5,15 @@
     "Item",
     "Armor"
   ],
-  "Defense": 2,
+  "Defense": 4,
   "ArmorSlot": "Pants",
   "Tooltip": [
-    "5% increased movement speed",
+    "10% increased movement speed",
     "Increased movement speed on ice"
   ],
   "Rarity": "White",
-  "Sell": 700,
-  "Source": "(30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Sell": 1005000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Pants\">Snow Pants</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -23,9 +23,9 @@
         {
           "result": "<a is=a-link image=$fromStats>Cryosten Greaves</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (30)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shiverthorn\">Shiverthorn</a> (2)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Snow_Pants\">Snow Pants</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Block\">Ice Block</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>"
           ]
         }
       ]

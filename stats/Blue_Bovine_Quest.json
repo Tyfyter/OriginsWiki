@@ -1,0 +1,11 @@
+{
+    "Name": "To the Skies!",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "Merchant",
+    "Inquire": "Hey boy/girl, I've had a bit of a vendetta against those harpies. Go and get twelve of 'em for me eh? I'll give you a nice reward if you do!",
+    "Objective": "Kill 12 <a is=a-link href=https://terraria.wiki.gg/wiki/Harpy>Harpies</a>",
+    "Reward": "Merchant begins selling <a is=a-link image=$fromStats>Blue Bovine</a>",
+    "InternalName": "Blue_Bovine_Quest"
+}

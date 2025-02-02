@@ -1,0 +1,19 @@
+{
+  "Image": "Sour_Broth",
+  "Name": "Sour Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "Increases minion critical strike chance by 10%",
+    "Artifact minions gain an additional 15% critical strike chance"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Brine Fiend</a> (<a-coins>2000</a-coins>)",
+  "SpriteWidth": 30,
+  "InternalName": "Sour_Broth"
+}

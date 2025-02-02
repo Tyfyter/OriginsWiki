@@ -1,5 +1,5 @@
 {
-  "Image": "§ModImage§/Items/Accessories/Depth_Ravel",
+  "Image": "§ModImage§/Items/Mounts/Depth_Ravel",
   "Name": "Depth Ravel",
   "Types": [
     "Item",
@@ -9,7 +9,7 @@
   ],
   "UseTime": 20,
   "Tooltip": [
-    "Double tap down to transform into a small, rolling ball",
+    "Use the mount key to transform into a small, rolling ball",
     "Grants extreme underwater capabilities"
   ],
   "Rarity": "Pink",

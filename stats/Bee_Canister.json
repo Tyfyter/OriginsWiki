@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ammo/Canisters/Bee_Canister",
+  "Name": "Bee Canister",
+  "Types": [
+    "Item",
+    "Canistah",
+    "Ammo"
+  ],
+  "Damage": 15,
+  "ArmorPenetration": 3,
+  "DamageClass": "Explosive Ranged",
+  "Tooltip": "Releases bees in its wake",
+  "Rarity": "Orange",
+  "Sell": 302,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bee_Wax\">Bee Wax</a> + (10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silver_Bar\">Silver Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bee Canister</a> (10)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bee_Wax\">Bee Wax</a>",
+            "<a is=a-link image=\"RecipeGroups/SilverBar\" href=Recipe_Groups>Any Silver Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 16,
+  "InternalName": "Bee_Canister"
+}

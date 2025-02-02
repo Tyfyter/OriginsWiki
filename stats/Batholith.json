@@ -1,0 +1,66 @@
+{
+  "Name": "Batholith",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 235,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Patiently awaiting its unearthing...'",
+  "Rarity": "White",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Batholith Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Batholith</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rigged Cubix</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith</a> (16)",
+            "<a is=a-link image=$fromStats>Formium Bar</a> (25)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Batholith Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Batholith</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 16,
+  "InternalName": "Batholith_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Batholith_Item",
+    "Tiles/Batholith"
+  ]
+}

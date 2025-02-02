@@ -45,7 +45,7 @@
           "ingredients": [
             "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a>",
             "<a is=a-link image=$fromStats>Bleeding Obsidian Shard</a> (2)",
-            "<a is=a-link image=$fromStats>Bottled Brine</a>"
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (3)"
           ]
         }
       ]

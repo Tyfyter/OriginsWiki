@@ -39,6 +39,13 @@
             "<a is=a-link image=$fromStats>ACME Crate</a>",
             "<a is=a-link image=$fromStats>Danger Barrel</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sparking Flame Barrel</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Danger Barrel</a>",
+            "<a is=a-link image=$fromStats>Lightning Ring</a>"
+          ]
         }
       ]
     }

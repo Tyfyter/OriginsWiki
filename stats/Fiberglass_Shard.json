@@ -15,6 +15,7 @@
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "White",
   "Sell": 20,
+  "Source": "<a is=a-link>Enchanted Fiberglass Bow</a>, <a is=a-link>Enchanted Fiberglass Cannon</a>, <a is=a-link>Enchanted Fiberglass Pistol</a>, <a is=a-link>Enchanted Fiberglass Slime</a> and <a is=a-link>Enchanted Fiberglass Sword</a>",
   "SpriteWidth": 12,
   "InternalName": "Fiberglass_Shard"
 }

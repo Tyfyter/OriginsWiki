@@ -6,10 +6,7 @@
     "Combat",
     "Accessory"
   ],
-  "Tooltip": [
-    "All attacks inflict Bleeding",
-    "Prevents Defiled enemies from regenerating"
-  ],
+  "Tooltip": "All attacks inflict Bleeding",
   "Rarity": "Blue",
   "Sell": 6000,
   "UsedIn": [

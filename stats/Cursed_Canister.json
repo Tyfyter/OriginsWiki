@@ -13,7 +13,7 @@
   "Tooltip": "Releases a lingering cursed inferno in its wake",
   "Rarity": "LightRed",
   "Sell": 302,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a> + (10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Cobalt_Bar\">Cobalt Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -21,10 +21,10 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Cursed Canister</a> (5)",
+          "result": "<a is=a-link image=$fromStats>Cursed Canister</a> (10)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cursed_Flame\">Cursed Flame</a>",
-            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (5)"
+            "<a is=a-link image=\"RecipeGroups/CobaltBar\" href=Recipe_Groups>Any Cobalt Bar</a> (10)"
           ]
         }
       ]

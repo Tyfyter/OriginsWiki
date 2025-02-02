@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Armor/Rubber/Rubber_Breastplate",
+  "Name": "Rubber Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Shirt",
+  "Tooltip": "Reduces damage taken from projectiles by 10%",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(25) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rubber Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rubber</a> (25)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 34,
+  "InternalName": "Rubber_Breastplate"
+}

@@ -13,7 +13,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 100,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Nymph\">Nymph</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Goblin_Peon\">Goblin Peon</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Doctor_Bones\">Doctor Bones</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Groom\">The Groom</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Nymph\">Nymph</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Raincoat_Zombie\">Raincoat Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eyezor\">Eyezor</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Zombie\">Blood Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Bride\">The Bride</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
@@ -79,6 +79,174 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Doctor_Bones\">Doctor Bones</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Doctor_Bones\">Doctor Bones</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Doctor_Bones\">Doctor Bones</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Groom\">The Groom</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Groom\">The Groom</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Groom\">The Groom</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nymph\">Nymph</a>",
       "Rate": 1.0,
       "Max": 1,
@@ -95,6 +263,468 @@
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nymph\">Nymph</a>",
       "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Raincoat_Zombie\">Raincoat Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Raincoat_Zombie\">Raincoat Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Raincoat_Zombie\">Raincoat Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eyezor\">Eyezor</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eyezor\">Eyezor</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eyezor\">Eyezor</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spore_Zombie\">Spore Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Frozen_Zombie\">Frozen Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Zombie\">Blood Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Zombie\">Blood Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Zombie\">Blood Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Bride\">The Bride</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Bride\">The Bride</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Bride\">The Bride</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Zombie\">Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.07692308,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Maggot_Zombie\">Maggot Zombie</a>",
+      "Rate": 0.07692308,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

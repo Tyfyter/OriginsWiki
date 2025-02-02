@@ -1,0 +1,120 @@
+{
+  "Image": "§ModImage§/Items/Armor/Felnum/Ancient_Felnum_Breastplate",
+  "Name": "Ancient Felnum Breastplate",
+  "Types": [
+    "Item",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Shirt",
+  "Tooltip": [
+    "2% increased damage",
+    "5% increased movement speed"
+  ],
+  "Rarity": "Green",
+  "Sell": 8000,
+  "Source": "(25) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)<div class=divider></div><a is=a-link image=$fromStats>Cloud Elemental</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Einheri</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Guardian</a><div class=divider></div><a is=a-link image=$fromStats>Felnum Slime</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cloud Elemental</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Slime</a>",
+      "Rate": 0.015151516,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ancient Felnum Breastplate</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Felnum Bar</a> (25)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Ancient_Felnum_Breastplate"
+}

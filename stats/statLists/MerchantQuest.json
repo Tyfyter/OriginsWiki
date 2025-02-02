@@ -1,0 +1,12 @@
+{
+    "categories": [
+      "merchantquest"
+    ],
+    "headers": [
+      {"name":"Quest Name", "expr":"item.Name", "noAbbr":true},
+      {"name": "Unlock Condition", "expr":"item.UnlockCondition ? item.UnlockCondition : 'Always Available'", "noAbbr":true},
+      "Inquire",
+      "Objective",
+      "Reward"
+    ]
+}

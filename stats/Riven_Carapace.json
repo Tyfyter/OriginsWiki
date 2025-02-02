@@ -173,13 +173,6 @@
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Avulsion</a>",
-          "ingredients": [
-            "<a is=a-link image=$fromStats>Encrusted Bar</a> (5)",
-            "<a is=a-link image=$fromStats>Riven Carapace</a> (15)"
-          ]
-        },
-        {
           "result": "<a is=a-link image=$fromStats>Decimator</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",

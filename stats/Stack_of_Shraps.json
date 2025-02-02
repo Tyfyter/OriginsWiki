@@ -1,0 +1,127 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Stack_of_Shraps",
+  "Name": "Stack of Shraps",
+  "Types": [
+    "Item",
+    "Combat",
+    "ExplosiveBoostAcc",
+    "Accessory",
+    "Master"
+  ],
+  "Tooltip": "Double the gunpowder, double the fun.",
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Forbidden Voice</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Weakpoint Analyzer</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Mysterious Spray</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Amebic Vial</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Forbidden Voice</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Weakpoint Analyzer</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mysterious Spray</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Amebic Vial</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Control Locus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>",
+            "<a is=a-link image=$fromStats>Weakpoint Analyzer</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Corruption"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Forbidden Voice</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Crimson"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Weakpoint Analyzer</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Defiled Wastelands"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mysterious Spray</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
+        "In worlds with Riven Hive"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Amebic Vial</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Stack of Shraps</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 10,
+  "InternalName": "Stack_of_Shraps"
+}

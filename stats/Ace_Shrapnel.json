@@ -7,8 +7,8 @@
     "Weapon",
     "OtherExplosive"
   ],
-  "Damage": 18,
-  "ArmorPenetration": 2,
+  "Damage": 12,
+  "ArmorPenetration": 5,
   "DamageClass": "Explosive Ranged",
   "UseTime": 1,
   "Velocity": 2.0,

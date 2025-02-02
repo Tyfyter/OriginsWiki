@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Duskarp",
+  "Name": "Duskarp",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Orange",
+  "Sell": 2000,
+  "UsedIn": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Voidsight Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fireblossom\">Fireblossom</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Night_Owl_Potion\">Night Owl Potion</a>",
+            "<a is=a-link image=$fromStats>Duskarp</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Duskarp"
+}

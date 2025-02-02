@@ -1,0 +1,48 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Molten_Gun_Magazine",
+  "Name": "Molten Gun Magazine",
+  "Types": [
+    "Item",
+    "Combat",
+    "RangedBoostAcc",
+    "Accessory"
+  ],
+  "Tooltip": "+15% gun attack speed",
+  "Rarity": "Orange",
+  "Sell": 10000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Crimtane Gun Magazine</a> + (3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Molten Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/CrimtaneGunMagazine\" href=Recipe_Groups>Any Evil Gun Magazine</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Eitrite Gun Magazine</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Molten Gun Magazine</a>",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (3)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 18,
+  "InternalName": "Molten_Gun_Magazine"
+}

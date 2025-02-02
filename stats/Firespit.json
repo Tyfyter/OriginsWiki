@@ -7,7 +7,7 @@
     "Weapon"
   ],
   "Damage": 36,
-  "DamageClass": "",
+  "DamageClass": "Ranged",
   "Crit": 5,
   "UseTime": 2,
   "Velocity": 8.75,
@@ -18,21 +18,21 @@
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a>",
-      "Rate": 0.11111111,
+      "Rate": 0.125,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a>",
-      "Rate": 0.11111111,
+      "Rate": 0.125,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a>",
-      "Rate": 0.11111111,
+      "Rate": 0.125,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

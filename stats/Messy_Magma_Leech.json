@@ -6,10 +6,7 @@
     "Combat",
     "Accessory"
   ],
-  "Tooltip": [
-    "All attacks inflict Bleeding and set enemies ablaze",
-    "Prevents Defiled enemies from regenerating"
-  ],
+  "Tooltip": "All attacks inflict Bleeding and set enemies ablaze",
   "Rarity": "Orange",
   "Sell": 30000,
   "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Magma_Stone\">Magma Stone</a> +  <a is=a-link image=$fromStats imageOnly>Messy Leech</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",

@@ -10,11 +10,10 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Sell": 100,
   "SpriteWidth": 108,
   "InternalName": "Riven_Pot_Item",
   "Images": [
-    "§ModImage§/Tiles/Defiled/Defiled_Pot",
+    "§ModImage§/Tiles/Riven/Riven_Pot",
     "Tiles/Riven_Pot_(Debugging_Item)"
   ]
 }

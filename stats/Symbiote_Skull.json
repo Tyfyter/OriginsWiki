@@ -11,8 +11,29 @@
   "Tooltip": "Attacks tenderize targets",
   "Rarity": "Blue",
   "Sell": 10000,
-  "Source": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+  "Source": "<a is=a-link image=$fromStats>Riven Protoform</a><div class=divider></div><a is=a-link image=$fromStats>Riven Protoform</a>",
   "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
     {
       "Name": "<a is=a-link image=$fromStats>Riven Protoform</a>",
       "Rate": 0.025,

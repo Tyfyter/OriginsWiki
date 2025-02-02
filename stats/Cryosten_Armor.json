@@ -11,8 +11,8 @@
     "ArmorSets/Cryosten_Armor",
     "ArmorSets/Cryosten_Armor_Female"
   ],
-  "Defense": 7,
-  "SetBonus": "Life restoration from hearts increased\nCannot be frozen or chilled",
+  "Defense": 12,
+  "SetBonus": "Attacks cause frostburn\n+10% explosive velocity\nImmunity to Frozen and Chilled",
   "Rarity": "White",
-  "Sell": 2100
+  "Sell": 3015000
 }

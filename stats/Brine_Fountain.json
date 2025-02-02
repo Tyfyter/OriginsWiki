@@ -1,0 +1,22 @@
+{
+  "Name": "Brine Fountain",
+  "Types": [
+    "Item",
+    "WaterFountain",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    3
+  ],
+  "UseTime": 10,
+  "Rarity": "Blue",
+  "Sell": 8000,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Witch_Doctor\">Witch Doctor</a> (<a-coins>40000</a-coins>)",
+  "SpriteWidth": 22,
+  "InternalName": "Brine_Fountain_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Brine_Fountain_Item",
+    "Tiles/Brine_Fountain"
+  ]
+}

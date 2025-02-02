@@ -1,0 +1,43 @@
+{
+  "Image": "§ModImage§/Walls/Baryte_Wall_Item",
+  "Name": "Baryte Wall",
+  "Types": [
+    "Item",
+    "Wall"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Baryte</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Baryte Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Baryte</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Baryte</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Baryte Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Baryte_Wall_Item"
+}
