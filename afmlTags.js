@@ -218,7 +218,7 @@ class AFMLImg extends HTMLElement {
 		this.classList.add('picturebox');
 		this.child ??= document.createElement('img');
 		this.child.setAttribute('style', 'width: inherit; display: block;');
-		this.insertBefore(this.child, this.lastChild) 
+		this.insertBefore(this.child, this.firstChild) 
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {

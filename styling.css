@@ -143,27 +143,65 @@
 	--wiki-logo-mobile: url(Images/themes/terminal-logo.png);
 }
 
-html.background {
-	display: table;
-	margin: auto;
-}
-html.nobackground {
+html {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
 }
-body.background {
+body {
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
-	width: 90vw;/* change to 95 with toolbox release */
+}
+
+/*disable background support on mobile, already cramped*/
+@media not (max-aspect-ratio: 1/1){
+	html.background {
+		display: table;
+		margin: auto;
+	}
+	body.background {
+		background-color: var(--article-bg-color);
+		color: var(--article-text-color);
+		width: 95vw;/* change to 95 with toolbox release */
+		display: grid;
+	}
+	.background > article {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.background > article {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.background > #toolbox {
+		grid-column: 1;
+		grid-row: 1;
+		width: 12rem;
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-rows: 0.3fr 0.3fr 0.3fr;
+		grid-template-columns: revert;
+		margin-top: 20rem;
+	}
+	.background > #toolbox > div {
+		width: 95%;
+		background-color: var(--box-bg-color);
+		border: 1px solid var(--box-border-color);
+		border-radius: 5px;
+		padding-top: 2.5px;
+		padding-bottom: 7.5px;
+		padding-left: 0.5em;
+		margin-left: -0.5em;
+		height: fit-content;
+	}
+}
+#toolbox {
 	display: grid;
+	grid-auto-flow: row;
+	grid-template-columns: auto auto auto auto auto;
 }
-body.nobackground {
-	background-color: var(--article-bg-color);
-	color: var(--article-text-color);
-}
-.background > article {
-	grid-column: 2;
-	grid-row: 1;
+
+#toolbox > div > * {
+	display: block;
 }
 
 .redlink {
@@ -628,6 +666,7 @@ div.or {
 .picturebox {
 	float: right;
 	clear: right;
+	display: block;
 	width: 15em;
 	margin: 2px;
 	padding: 4px;
@@ -835,35 +874,6 @@ a-drop > a-drop::before {
 	background: var(--article-text-color);  vertical-align: middle;
 	margin-right: 5px;
 }
-.background > #toolbox {
-	grid-column: 1;
-	grid-row: 1;
-	width: 12rem;
-	display: grid;
-	grid-auto-flow: column;
-	grid-template-rows: 0.3fr 0.3fr 0.3fr;
-	margin-top: 20rem;
-}
-.nobackground > #toolbox {
-	display: grid;
-	grid-auto-flow: row;
-	grid-template-columns: auto auto auto auto auto;
-}
-
-#toolbox > div > * {
-	display: block;
-}
-.background > #toolbox > div {
-	width: 95%;
-	background-color: var(--box-bg-color);
-	border: 1px solid var(--box-border-color);
-	border-radius: 5px;
-	padding-top: 2.5px;
-	padding-bottom: 7.5px;
-	padding-left: 0.5em;
-	margin-left: -0.5em;
-	height: fit-content;
-}
 
 .coins ::after {
 	content: '';
@@ -899,6 +909,10 @@ a-drop > a-drop::before {
 
 /* mobile version, make sure to set back to max-aspect-ratio: 1/1*/
 @media (max-aspect-ratio: 1/1){
+	/*disable background support on mobile, already cramped*/
+	#bgtoggle {
+		display: none;
+	}
 	.statblock, a-statblock {
 		float: none;
 		display: table-header-group;
