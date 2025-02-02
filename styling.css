@@ -674,6 +674,41 @@ div.or {
 	border-radius: 5px;
 	background-color: var(--box-bg-color);
 }
+#imageViewer {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	align-content: center;
+	justify-content: center;
+	margin: auto;
+	text-align: center;
+	z-index: 10;
+
+}
+#imageViewer_image {
+	width: 100%;
+	max-width: 75%;
+	max-height: 75%;
+	object-fit: contain;
+}
+#imageViewer_closeButton {
+	right: 0;
+	top: 0;
+	display: block;
+	position: fixed;
+	font-size: 200%;
+	text-decoration: none;
+	color: var(--box-border-color);
+}
+a-img > img {
+	width: inherit;
+	display: block;
+	cursor: pointer;
+}
 
 #toolbar {
 	position: fixed;

@@ -217,8 +217,13 @@ class AFMLImg extends HTMLElement {
 		if (this.child) return;
 		this.classList.add('picturebox');
 		this.child ??= document.createElement('img');
-		this.child.setAttribute('style', 'width: inherit; display: block;');
-		this.insertBefore(this.child, this.firstChild) 
+		this.child.onclick = this.onClickImage.bind(this);
+		this.insertBefore(this.child, this.firstChild);
+	}
+	onClickImage() {
+		document.getElementById('imageViewer').style.display = '';
+		document.getElementById('imageViewer_image').src = this.getAttribute('src');
+		document.getElementById('imageViewer_caption').textContent = this.textContent;
 	}
 
 	attributeChangedCallback(name, oldValue, newValue) {
