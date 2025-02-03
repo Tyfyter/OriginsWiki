@@ -1,0 +1,12 @@
+{
+    "Name": "Not Au-some…",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "Zoologist",
+    "UnlockCondition": "Completed the \"Save the Critters!\" quest.",
+    "Inquire": "This is gettin' out of hand! I’ve been hearin’ that gold squirrels sell big and are even bein’ a part of people’s meals 'round here! Put an end to this and retrieve me one!",
+    "Objective": "Collect 1 <a is=a-link href=https://terraria.wiki.gg/wiki/Gold_Squirrel>Gold Squirrel</a>.",
+    "Reward": "Additional 3% discount in the Zoologist shop.",
+    "InternalName": "Discount_2_Quest"
+}

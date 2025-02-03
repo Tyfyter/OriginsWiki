@@ -1,0 +1,11 @@
+{
+    "Name": "Save the Critters!",
+    "Types": [
+        "Quest"
+      ],
+    "Client": "Zoologist",
+    "Inquire": "Heya! Can you do me a favor? Could yah get any ten critters and bring 'em back to me? Yah? Thank yah, hun! Oh and I’ll give you some discounts for being nice!",
+    "Objective": "Collect 10 <a is=a-link href=https://terraria.wiki.gg/wiki/Critters>critters</a>.",
+    "Reward": "3% discount in the Zoologist shop.",
+    "InternalName": "Discount_1_Quest"
+}

@@ -1678,6 +1678,8 @@
       "Destructive_Claws",
       "Dim_Starlight",
       "Discharge_Canister",
+      "Discount_1_Quest",
+      "Discount_2_Quest",
       "Dismantler",
       "Dissector",
       "Dragon's_Breath",
@@ -1685,6 +1687,7 @@
       "Duskarp",
       "Dysfunctional_Endless_Explosives_Bag",
       "Eccentric_Stone",
+      "Eccentric_Stone_Quest",
       "Edenwood",
       "Eden_Wood_Wall",
       "Emergency_Bee_Canister",
@@ -3475,6 +3478,8 @@
       "Dew_Justice",
       "Dim_Starlight",
       "Discharge_Canister",
+      "Discount_1_Quest",
+      "Discount_2_Quest",
       "Dismantler",
       "Dismay",
       "Dissector",
@@ -3488,6 +3493,7 @@
       "Dysfunctional_Endless_Explosives_Bag",
       "Eaterboros",
       "Eccentric_Stone",
+      "Eccentric_Stone_Quest",
       "Edenwood",
       "Eden_Wood_Wall",
       "Eitrite_Bar",
@@ -4664,6 +4670,9 @@
       "Blue_Bovine_Quest",
       "Cleansing_Station_Quest",
       "Comb_Quest",
+      "Discount_1_Quest",
+      "Discount_2_Quest",
+      "Eccentric_Stone_Quest",
       "Gun_Glove_Quest",
       "Harpoon_Burst_Rifle_Quest",
       "Lottery_Ticket_Quest",
@@ -4725,6 +4734,14 @@
     "name": "Tax Collector Quest",
     "items": [
       "Tax_Collector_Ghosts_Quest"
+    ]
+  },
+  "zoologistquest": {
+    "name": "Zoologist Quest",
+    "items": [
+      "Discount_1_Quest",
+      "Discount_2_Quest",
+      "Eccentric_Stone_Quest"
     ]
   }
 }

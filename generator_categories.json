@@ -326,5 +326,9 @@
   "taxcollectorquest":{
     "name":"Tax Collector Quest",
     "items":"Client=TaxCollector"
+  },
+  "zoologistquest":{
+    "name":"Zoologist Quest",
+    "items":"Client=Zoologist"
   }
 }
