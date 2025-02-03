@@ -314,5 +314,17 @@
   "merchantquest":{
     "name":"Merchant Quest",
     "items":"Client=Merchant"
+  },
+  "partygirlquest":{
+    "name":"Party Girl Quest",
+    "items":"Client=PartyGirl"
+  },
+  "stylistquest":{
+    "name":"Stylist Quest",
+    "items":"Client=Stylist"
+  },
+  "taxcollectorquest":{
+    "name":"Tax Collector Quest",
+    "items":"Client=TaxCollector"
   }
 }

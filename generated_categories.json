@@ -9,7 +9,6 @@
       "Absorption_Potion",
       "Abyssal_Anchor",
       "Acetabularia",
-      "Ace_in_the_Hole",
       "Ace_Shrapnel",
       "ACME_Crate",
       "Acrid_Armor",
@@ -278,7 +277,6 @@
       "Dismantler",
       "Dismay",
       "Dissector",
-      "Baryte",
       "Donor_Wristband",
       "Dragon's_Breath",
       "Dreadful_Powder",
@@ -1428,7 +1426,6 @@
       "Abrasion_Blaster",
       "Absorption_Potion",
       "Acetabularia",
-      "Ace_in_the_Hole",
       "Ace_Shrapnel",
       "Acid_Freak",
       "ACME_Crate",
@@ -1600,6 +1597,7 @@
       "Cleaver_Banner",
       "Cold_Snap",
       "Comb",
+      "Comb_Quest",
       "Conehead_Zombie",
       "Control_Locus",
       "Corrupt_Assimilation",
@@ -1682,8 +1680,6 @@
       "Discharge_Canister",
       "Dismantler",
       "Dissector",
-      "Baryte",
-      "Donor_Wristband",
       "Dragon's_Breath",
       "Dreadful_Powder",
       "Duskarp",
@@ -1881,6 +1877,7 @@
       "Magic_Acrid_Armor",
       "Magic_Brine_Dropper",
       "Magic_Hair_Spray",
+      "Magic_Hair_Spray_Quest",
       "Magic_Tripwire",
       "Magma_Grappler",
       "Magnetized",
@@ -2423,6 +2420,8 @@
       "Strange_Power-Up",
       "Superjump_Cape",
       "Tainted_Flesh",
+      "Tax_Collector_Ghosts_Quest",
+      "Tax_Collector_Hat_Quest",
       "Telephone_Pole",
       "Terrarang",
       "Terratotem",
@@ -2495,8 +2494,6 @@
       "Defiled_Stone",
       "Defiled_Torch",
       "Defiled_Water_Fountain",
-      "Baryte",
-      "Dusklight",
       "Edenwood",
       "Eitrite_Bar",
       "Eitrite_Ore",
@@ -2670,7 +2667,6 @@
       "Crimtane_Gun_Magazine",
       "Cursed_Crown",
       "Danger_Barrel",
-      "Dash_Ravel",
       "Defiled_Gun_Magazine",
       "Demonite_Gun_Magazine",
       "Depth_Ravel",
@@ -3149,7 +3145,6 @@
       "Absorption_Potion",
       "Abyssal_Anchor",
       "Acetabularia",
-      "Ace_in_the_Hole",
       "Ace_Shrapnel",
       "Acid_Freak",
       "ACME_Crate",
@@ -3384,6 +3379,7 @@
       "Cobalt_Harpoon_Gun",
       "Cold_Snap",
       "Comb",
+      "Comb_Quest",
       "Communion",
       "Conehead_Zombie",
       "Construction_Core",
@@ -3482,7 +3478,6 @@
       "Dismantler",
       "Dismay",
       "Dissector",
-      "Baryte",
       "Donor_Wristband",
       "Dragon's_Breath",
       "Dreadful_Powder",
@@ -3723,6 +3718,7 @@
       "Magic_Brine_Dropper",
       "Magic_Glove",
       "Magic_Hair_Spray",
+      "Magic_Hair_Spray_Quest",
       "Magic_Pain_Glove",
       "Magic_Tripwire",
       "Magma_Grappler",
@@ -4074,6 +4070,8 @@
       "Switchblade_Shortsword",
       "Symbiote_Skull",
       "Tainted_Flesh",
+      "Tax_Collector_Ghosts_Quest",
+      "Tax_Collector_Hat_Quest",
       "Teal_Solution",
       "Teardown",
       "Tearracuda",
@@ -4507,6 +4505,7 @@
   "mount": {
     "name": "Mounts",
     "items": [
+      "Dash_Ravel",
       "Impenetrable_Trashcan_Lid",
       "Indestructible_Saddle"
     ]
@@ -4664,10 +4663,14 @@
       "Bloombomb_Quest",
       "Blue_Bovine_Quest",
       "Cleansing_Station_Quest",
+      "Comb_Quest",
       "Gun_Glove_Quest",
       "Harpoon_Burst_Rifle_Quest",
       "Lottery_Ticket_Quest",
+      "Magic_Hair_Spray_Quest",
       "Shardcannon_Quest",
+      "Tax_Collector_Ghosts_Quest",
+      "Tax_Collector_Hat_Quest",
       "Turbo_Reel_Quest"
     ]
   },
@@ -4703,6 +4706,25 @@
     "items": [
       "Blue_Bovine_Quest",
       "Lottery_Ticket_Quest"
+    ]
+  },
+  "partygirlquest": {
+    "name": "Party Girl Quest",
+    "items": [
+      "Tax_Collector_Hat_Quest"
+    ]
+  },
+  "stylistquest": {
+    "name": "Stylist Quest",
+    "items": [
+      "Comb_Quest",
+      "Magic_Hair_Spray_Quest"
+    ]
+  },
+  "taxcollectorquest": {
+    "name": "Tax Collector Quest",
+    "items": [
+      "Tax_Collector_Ghosts_Quest"
     ]
   }
 }

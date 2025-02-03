@@ -1,0 +1,13 @@
+{
+    "Name": "Livin' Up the Party",
+    "Types": [
+        "Quest",
+        "Hardmode"
+      ],
+    "Client": "PartyGirl",
+    "UnlockCondition": "<a is=a-link href=https://terraria.wiki.gg/wiki/Plantera>Plantera</a> has been defeated and the <a is=a-link href=https://terraria.wiki.gg/wiki/Tax_Collector>Tax Collector</a> is in the world",
+    "Inquire": "The party is ready and everything is set in place! But, something is missing... it's that old miser again. Try and cheer him up with a party hat, maybe that'll make him happy.",
+    "Objective": "Get the Tax Collector to wear a Party hat",
+    "Reward": "The Party Girl begins selling the <a is=a-link image=$fromStats>Partybringer</a>",
+    "InternalName": "Tax_Collector_Hat_Quest"
+}
