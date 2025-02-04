@@ -5,7 +5,7 @@
       ],
     "Client": "Stylist",
     "Inquire": "Ever since I was captured by those spiders I’ve run out of my special hair stuff. Could you go get me some magic hair spray please? Pretty please?",
-    "Objective": "Collect 30 <a is=a-link image=$fromStats>Magic Hair Spray</a>",
+    "Objective": "Collect 30 <a is=a-link image=$fromStats>Magic Hair Spray</a>, Sell all required materials",
     "Reward": "Unlocks 4 new <a is=a-link href=https://terraria.wiki.gg/wiki/Hairstyles>Hairstyles</a>",
     "InternalName": "Magic_Hair_Spray_Quest"
 }

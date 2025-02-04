@@ -6,7 +6,7 @@
     "Client": "Zoologist",
     "UnlockCondition": "Completed the \"Not Au-some…\" quest.",
     "Inquire": "Heyyy! I've been rather peeved by that angler kid lately, but that’s a whole 'nother can 'o worms. Get it? Can 'o worms? Can you please give me ten <a is=a-link href=https://terraria.wiki.gg/wiki/Enchanted_Nightcrawler>Enchanted Nightcrawlers</a>? They make for great bait, but they living creatures too!",
-    "Objective": "Collect 10 <a is=a-link href=https://terraria.wiki.gg/wiki/Enchanted_Nightcrawler>Enchanted Nightcrawlers</a>.",
+    "Objective": "Collect 10 <a is=a-link href=https://terraria.wiki.gg/wiki/Enchanted_Nightcrawler>Enchanted Nightcrawlers</a>, Sell all required materials",
     "Reward": "<a is=a-link image=$fromStats>Eccentric Stone</a>",
     "InternalName": "Eccentric_Stone_Quest"
 }

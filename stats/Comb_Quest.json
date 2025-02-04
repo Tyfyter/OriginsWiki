@@ -6,7 +6,7 @@
     "Client": "Stylist",
     "UnlockCondition": "After \"Running Dry\" has been completed",
     "Inquire": "Hey [player]. I've been needing a comb so I can properly cut some hair since my other one broke. Yes, I pulled a lot of hair out last Blood Moon, but anyway, yeah could you do that for me?",
-    "Objective": "Collect 1 <a is=a-link image=$fromStats>Comb</a>",
+    "Objective": "Collect 1 <a is=a-link image=$fromStats>Comb</a>, Sell all required materials",
     "Reward": "Unlocks 2 new <a is=a-link href=https://terraria.wiki.gg/wiki/Hairstyles>Hairstyles</a>",
     "InternalName": "Comb_Quest"
 }

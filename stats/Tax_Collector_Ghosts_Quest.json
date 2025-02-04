@@ -7,7 +7,7 @@
     "Client": "TaxCollector",
     "UnlockCondition": "Started the \"Livin' Up the Party\" quest.",
     "Inquire": "Dreadful apparitions have been haunting me night after night, spouting humbug about \"the common welfare\" and \"reclamation\"; They haven't even the courtesy to all come at once and have it over swiftly; Rid me of them and I'll wear your frivolous hat.",
-    "Objective": "Defeat <a is=a-link>Jacob Marley</a>, <a is=a-link>Spirit Of Christmas Yet To Come</a>, <a is=a-link>Spirit Of Christmas Present</a>, and <a is=a-link>Spirit Of Christmas Yet To Come</a>",
+    "Objective": "Defeat <a is=a-link>Ominous Spirit</a>, <a is=a-link>Spirit of Christmas Past</a>, <a is=a-link>Spirit of Christmas Present</a>, and <a is=a-link>Spirit of Christmas Yet-to-come</a>",
     "Reward": "Tax Collector begins wearing his party hat",
     "InternalName": "Tax_Collector_Ghosts_Quest"
 }
