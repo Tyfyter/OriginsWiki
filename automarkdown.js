@@ -546,7 +546,7 @@ var parse = async ()=>{
 		withChildren(createElementWith('div', ['id', 'toolbar']),
 			withChildren(createElementWith('div', ['id', 'toolbar-container']),
 				withChildren(createElementWith('a', ['href', '.'], ['style', 'height: 0;']),
-					createElementWith('img', ['id', 'wikilogo'])
+					createElementWith('img', ['id', 'wikilogo'], ['alt', 'Wiki Icon'])
 				),
 				withChildren(createElementWith('svg', ["xmlns", "http://www.w3.org/2000/svg"], ["id", "bgtoggle"]),//, [viewBox="0 0 24 18"]
 					createElementWith('path', ['d', ''])
@@ -586,7 +586,7 @@ var parse = async ()=>{
 		var favicon = document.createElement('link');
 		favicon.rel = 'icon';
 		favicon.href = 'favicon.ico';
-		favicon.type = 'image/icon type';
+		favicon.type = 'image/icon';
 		favicon.id = 'favicon';
 		head[0].appendChild(favicon);
 	}
