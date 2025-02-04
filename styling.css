@@ -731,6 +731,7 @@ a-img > img {
 	border: none;
 	color:var(--article-text-color);
 	font-size: 100%;
+	flex-grow: 1;
 }
 .searchSymbol {
 	height: 1.25em;
@@ -973,7 +974,7 @@ a-drop > a-drop::before {
 		--toolbar-scale: 150%;
 	}
 	#toolbar-container {
-		--themes-offset: 1.25em;
+		--themes-offset: -0.375em;
 	}
 	#searchbar {
 		width: calc(100% - 1.25em - 1.25em - 1.25em - 1.25em);
