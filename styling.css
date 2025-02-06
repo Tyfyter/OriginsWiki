@@ -1,5 +1,6 @@
 :root {
-	--article-bg-color: rgb(255, 255, 255);
+	--article-bg-rgb: 255, 255, 255
+	--article-bg-color: rgb(var(--article-bg-rgb));
 	--article-text-color: rgb(0, 0, 0);
 	--article-link-color-base: rgb(167, 0, 204);
 	--visited-link-color-base: rgb(139, 26, 128);
@@ -23,7 +24,7 @@
 }
 
 .theme-dark {
-	--article-bg-color: rgb(10, 9, 10);
+	--article-bg-rgb: 10, 9, 10;
 	--article-text-color: rgb(218, 218, 218);
 	--article-link-color-base: #2bb9ff;
 	--visited-link-color-base: rgb(140, 125, 255);
@@ -35,7 +36,7 @@
 }
 
 .theme-ashen {
-	--article-bg-color: rgb(39, 28, 27);
+	--article-bg-rgb: 39, 28, 27;
 	--article-text-color: rgb(184, 96, 29);
 	--article-link-color-base: #cbf31a;
 	--visited-link-color-base: rgb(194, 158, 0);
@@ -51,7 +52,7 @@
   }
 
 .theme-brine {
-	--article-bg-color: rgb(20, 38, 39);
+	--article-bg-rgb: 20, 38, 39;
 	--article-text-color: rgb(45, 171, 74);
 	--article-link-color-base: #421af3;
 	--visited-link-color-base: rgb(30, 116, 107);
@@ -66,7 +67,7 @@
 }
 
 .theme-dawn {
-	--article-bg-color: rgb(238, 231, 183);
+	--article-bg-rgb: 238, 231, 183;
 	--article-text-color: rgb(134, 5, 53);
 	--article-link-color-base: #0649bc;
 	--visited-link-color-base: rgb(0, 33, 151);
@@ -80,7 +81,7 @@
 }
 
 .theme-dusk {
-	--article-bg-color: rgb(18, 3, 20);
+	--article-bg-rgb: 18, 3, 20;
 	--article-text-color: rgb(224, 150, 245);
 	--article-link-color-base: #dfe4af;
 	--visited-link-color-base: rgb(195, 179, 130);
@@ -94,7 +95,7 @@
 }
 
 .theme-riven {
-	--article-bg-color: rgb(26, 37, 57);
+	--article-bg-rgb: 26, 37, 57;
 	--article-text-color: rgb(41, 185, 204);
 	--article-link-color-base: #0ef2a6;
 	--visited-link-color-base: rgb(0, 129, 101);
@@ -109,7 +110,7 @@
 }
 
 .theme-nightsky {
-	--article-bg-color: #140a44;
+	--article-bg-rgb: 20, 10, 68;
 	--article-text-color: #8E8AC4;
 	--article-link-color-base: #43E7E0;
 	--visited-link-color-base: #B870F6;
@@ -130,7 +131,7 @@
   image-rendering: smooth;
 }
 .theme-terminal {
-	--article-bg-color: rgb(0, 0, 0);
+	--article-bg-rgb: 0, 0, 0;
 	--article-text-color: rgb(0, 255, 0);
 	--article-link-color-base: rgb(0, 0, 255);
 	--visited-link-color-base: rgb(255, 0, 255);
@@ -144,10 +145,12 @@
 }
 
 html {
+	--article-bg-color: rgb(var(--article-bg-rgb));
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
 }
 body {
+	margin-top: calc(2.5rem * 0.75);
 	background-color: var(--article-bg-color);
 	color: var(--article-text-color);
 }
@@ -163,10 +166,7 @@ body {
 		color: var(--article-text-color);
 		width: 95vw;/* change to 95 with toolbox release */
 		display: grid;
-	}
-	.background > article {
-		grid-column: 2;
-		grid-row: 1;
+		background-color: rgba(var(--article-bg-rgb), 0.8);
 	}
 	.background > article {
 		grid-column: 2;
@@ -215,7 +215,7 @@ a:link {
 }
 
 h1 {
-	margin-top: 2.5rem;
+	/*margin-top: 2.5rem;*/
 	margin-bottom: 0.2em;
 }
 
