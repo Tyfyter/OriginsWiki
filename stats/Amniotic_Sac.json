@@ -1,0 +1,27 @@
+{
+  "Image": "Amniotic_Sac",
+  "Name": "Amniotic Sac",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 75,
+  "KBResist": 0.99,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Ichor>Ichor</a>",
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 50,
+  "InternalName": "World_Cracker_Summon_Bubble"
+}

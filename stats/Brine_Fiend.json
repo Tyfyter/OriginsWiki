@@ -20,6 +20,9 @@
     "Coins": 0.0,
     "Drops": []
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
   "SpriteWidth": 40,
   "InternalName": "Brine_Fiend"
 }

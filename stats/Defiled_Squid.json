@@ -7,10 +7,6 @@
   "MaxLife": 165,
   "Defense": 22,
   "KBResist": 1.0,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
-  ],
   "Coins": 100.0,
   "Drops": [
     {
@@ -27,9 +23,11 @@
       "Amount": "1‒3"
     }
   ],
+  "DefiledAssimilation": 0.06,
   "Expert": {
     "MaxLife": 330,
-    "Coins": 625.0,
+    "Immunities": [],
+    "Coins": 250.0,
     "Drops": [
       {
         "Name": "Black Ink",
@@ -44,11 +42,13 @@
         "Name": "Black Bile",
         "Amount": "1‒3"
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.077999994
   },
   "Master": {
     "MaxLife": 495,
-    "Coins": 625.0,
+    "Immunities": [],
+    "Coins": 250.0,
     "Drops": [
       {
         "Name": "Black Ink",
@@ -63,8 +63,13 @@
         "Name": "Black Bile",
         "Amount": "1‒3"
       }
-    ]
+    ],
+    "DefiledAssimilation": 0.089999996
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
+    "<a is=a-link image=$fromStats>Defiled Wastelands Ocean</a>"
+  ],
   "SpriteWidth": 30,
   "InternalName": "Defiled_Squid"
 }

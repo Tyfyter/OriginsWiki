@@ -50,6 +50,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
   "SpriteWidth": 48,
   "InternalName": "Savage_Whip"
 }

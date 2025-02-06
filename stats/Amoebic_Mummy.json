@@ -138,6 +138,10 @@
     ],
     "RivenAssimilation": 0.105000004
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Desert</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Desert</a>"
+  ],
   "SpriteWidth": 40,
   "InternalName": "Riven_Mummy"
 }

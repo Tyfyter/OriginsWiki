@@ -99,6 +99,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Ice</a>"
+  ],
   "SpriteWidth": 90,
   "InternalName": "Riven_Pigron"
 }

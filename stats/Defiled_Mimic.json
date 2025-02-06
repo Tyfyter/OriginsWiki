@@ -127,6 +127,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 60,
   "InternalName": "Defiled_Mimic"
 }

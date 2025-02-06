@@ -1,0 +1,48 @@
+{
+  "Image": "King_Crab",
+  "Name": "King Crab",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 500,
+  "Defense": 26,
+  "KBResist": 0.55,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "1‒6"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 1000,
+    "KBResist": 0.595,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒6"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 1500,
+    "KBResist": 0.64,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒6"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "SpriteWidth": 62,
+  "InternalName": "King_Crab"
+}

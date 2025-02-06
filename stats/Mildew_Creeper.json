@@ -1,0 +1,32 @@
+{
+  "Image": "Mildew_Creeper",
+  "Name": "Mildew Creeper",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 500,
+  "Defense": 24,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 5000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 1000,
+    "KBResist": 0.100000024,
+    "Coins": 12500.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 1500,
+    "KBResist": 0.19999999,
+    "Coins": 12500.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Mildew_Creeper"
+}

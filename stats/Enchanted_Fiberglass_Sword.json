@@ -5,14 +5,8 @@
     "NPC"
   ],
   "MaxLife": 110,
-  "Defense": 28,
   "KBResist": 0.9,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
-  ],
-  "Coins": 400.0,
+  "Coins": 500.0,
   "Drops": [
     {
       "Name": "Broken Fiberglass Sword",
@@ -21,17 +15,14 @@
     {
       "Name": "Shaped Glass",
       "Chance": "4%"
-    },
-    {
-      "Name": "Silver Coin",
-      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-      "ImageOverride": ""
     }
   ],
   "Expert": {
     "MaxLife": 220,
-    "KBResist": 0.919,
-    "Coins": 2500.0,
+    "Defense": 0,
+    "KBResist": 0.91,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Broken Fiberglass Sword",
@@ -40,18 +31,15 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
-      },
-      {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-        "ImageOverride": ""
       }
     ]
   },
   "Master": {
     "MaxLife": 330,
-    "KBResist": 0.936,
-    "Coins": 2500.0,
+    "Defense": 0,
+    "KBResist": 0.92,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Broken Fiberglass Sword",
@@ -60,14 +48,12 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
-      },
-      {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-        "ImageOverride": ""
       }
     ]
   },
-  "SpriteWidth": 42,
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
+  "SpriteWidth": 44,
   "InternalName": "Enchanted_Fiberglass_Sword"
 }

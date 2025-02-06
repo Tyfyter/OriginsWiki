@@ -112,6 +112,11 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Eutrophic Sea</a>",
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstorm\">Sandstorm</a>"
+  ],
   "SpriteWidth": 96,
   "InternalName": "Trijaw_Shark"
 }

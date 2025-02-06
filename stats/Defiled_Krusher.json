@@ -33,7 +33,7 @@
   "DefiledAssimilation": 0.08,
   "Expert": {
     "MaxLife": 320,
-    "KBResist": 0.595,
+    "KBResist": 0.55,
     "Immunities": [],
     "Coins": 257.0,
     "Drops": [
@@ -62,7 +62,7 @@
   },
   "Master": {
     "MaxLife": 480,
-    "KBResist": 0.67999995,
+    "KBResist": 0.6,
     "Immunities": [],
     "Coins": 257.0,
     "Drops": [
@@ -89,6 +89,9 @@
     ],
     "DefiledAssimilation": 0.12
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 74,
   "InternalName": "Defiled_Brute"
 }

@@ -67,6 +67,10 @@
     ],
     "RivenAssimilation": 0.044999998
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
   "SpriteWidth": 38,
   "InternalName": "Single_Cellular_Nautilus"
 }

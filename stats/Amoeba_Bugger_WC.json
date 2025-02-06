@@ -1,0 +1,30 @@
+{
+  "Image": "Amoeba_Bugger",
+  "Name": "Amoeba Bugger",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 22,
+  "Defense": 8,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Drops": [],
+  "RivenAssimilation": 0.03,
+  "Expert": {
+    "MaxLife": 44,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.038999997
+  },
+  "Master": {
+    "MaxLife": 66,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.044999998
+  },
+  "SpriteWidth": 32,
+  "InternalName": "Amoeba_Bugger_WC"
+}

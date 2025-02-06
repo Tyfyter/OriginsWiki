@@ -128,6 +128,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
   "SpriteWidth": 60,
   "InternalName": "Riven_Mimic"
 }

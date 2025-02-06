@@ -43,6 +43,11 @@
     ],
     "RivenAssimilation": 0.12
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Eutrophic Sea</a>"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Pustule_Jelly"
 }

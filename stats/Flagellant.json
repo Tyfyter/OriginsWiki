@@ -91,6 +91,11 @@
     ],
     "RivenAssimilation": 0.16499999
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Eutrophic Sea</a>"
+  ],
   "SpriteWidth": 56,
   "InternalName": "Flagellant"
 }

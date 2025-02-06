@@ -330,5 +330,9 @@
   "zoologistquest":{
     "name":"Zoologist Quest",
     "items":"Client=Zoologist"
+  },
+  "npc":{
+    "name":"NPC",
+    "items":"Types<NPC"
   }
 }

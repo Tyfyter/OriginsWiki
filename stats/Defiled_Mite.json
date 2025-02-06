@@ -6,10 +6,6 @@
   ],
   "MaxLife": 44,
   "Defense": 12,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
-  ],
   "Coins": 20.0,
   "Drops": [
     {
@@ -28,6 +24,7 @@
   "Expert": {
     "MaxLife": 88,
     "KBResist": 0.100000024,
+    "Immunities": [],
     "Coins": 50.0,
     "Drops": [
       {
@@ -47,6 +44,7 @@
   "Master": {
     "MaxLife": 132,
     "KBResist": 0.19999999,
+    "Immunities": [],
     "Coins": 50.0,
     "Drops": [
       {
@@ -63,6 +61,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>",
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
+  ],
   "SpriteWidth": 34,
   "InternalName": "Defiled_Mite"
 }

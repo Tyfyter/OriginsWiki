@@ -24,7 +24,7 @@
     "MaxLife": 90,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 900.0,
     "Drops": [
       {
         "Name": "Diamond",
@@ -42,7 +42,7 @@
     "MaxLife": 135,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 900.0,
     "Drops": [
       {
         "Name": "Diamond",
@@ -56,6 +56,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nighttime\">Nighttime</a>"
+  ],
   "SpriteWidth": 34,
   "InternalName": "Conehead_Zombie"
 }

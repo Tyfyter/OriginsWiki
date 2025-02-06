@@ -17,7 +17,7 @@
   "DefiledAssimilation": 0.11,
   "Expert": {
     "MaxLife": 950,
-    "KBResist": 0.595,
+    "KBResist": 0.55,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
@@ -30,7 +30,7 @@
   },
   "Master": {
     "MaxLife": 1425,
-    "KBResist": 0.67999995,
+    "KBResist": 0.6,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
@@ -41,6 +41,9 @@
     ],
     "DefiledAssimilation": 0.16499999
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 92,
   "InternalName": "Defiled_Asphyxiator"
 }

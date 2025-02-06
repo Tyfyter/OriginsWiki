@@ -1,12 +1,31 @@
 {
-  "Image": "§ModImage§/Buffs/Exoskeleton_Buff",
+  "Image": "Flying_Exoskeleton",
   "Name": "Flying Exoskeleton",
   "Types": [
-    "Buff"
+    "NPC"
   ],
-  "Tooltip": [
-    "The Flying Exoskeleton will fight for you"
+  "MaxLife": 30,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
-  "SpriteWidth": 32,
-  "InternalName": "Teardown_Buff"
+  "Drops": [],
+  "RivenAssimilation": 0.03,
+  "Expert": {
+    "MaxLife": 60,
+    "Defense": 0,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.038999997
+  },
+  "Master": {
+    "MaxLife": 90,
+    "Defense": 0,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.044999998
+  },
+  "SpriteWidth": 50,
+  "InternalName": "World_Cracker_Exoskeleton"
 }

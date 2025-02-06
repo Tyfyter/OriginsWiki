@@ -16,10 +16,10 @@
       "ImageOverride": ""
     }
   ],
-  "CorruptionAssimilation": 0.03,
+  "CorruptAssimilation": 0.03,
   "Expert": {
     "MaxLife": 56,
-    "KBResist": 0.35200006,
+    "KBResist": 0.28000003,
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
@@ -30,11 +30,11 @@
         "ImageOverride": ""
       }
     ],
-    "CorruptionAssimilation": 0.038999997
+    "CorruptAssimilation": 0.038999997
   },
   "Master": {
     "MaxLife": 84,
-    "KBResist": 0.48799998,
+    "KBResist": 0.35999995,
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
@@ -45,8 +45,11 @@
         "ImageOverride": ""
       }
     ],
-    "CorruptionAssimilation": 0.044999998
+    "CorruptAssimilation": 0.044999998
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Corruption\">The Corruption</a>"
+  ],
   "SpriteWidth": 18,
   "InternalName": "Cranivore"
 }

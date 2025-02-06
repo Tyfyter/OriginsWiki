@@ -7,6 +7,9 @@
   "MaxLife": 81,
   "Defense": 10,
   "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>"
+  ],
   "Coins": 90.0,
   "Drops": [
     {
@@ -53,8 +56,7 @@
   ],
   "Expert": {
     "MaxLife": 162,
-    "KBResist": 0.595,
-    "Immunities": [],
+    "KBResist": 0.55,
     "Coins": 225.0,
     "Drops": [
       {
@@ -101,8 +103,7 @@
   },
   "Master": {
     "MaxLife": 243,
-    "KBResist": 0.67999995,
-    "Immunities": [],
+    "KBResist": 0.6,
     "Coins": 225.0,
     "Drops": [
       {
@@ -147,6 +148,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Dungeon\">The Dungeon</a>"
+  ],
   "SpriteWidth": 40,
   "InternalName": "Cellarkeep"
 }

@@ -7,12 +7,7 @@
   "MaxLife": 57,
   "Defense": 10,
   "KBResist": 0.6,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
-  ],
-  "Coins": 400.0,
+  "Coins": 500.0,
   "Drops": [
     {
       "Name": "Shaped Glass",
@@ -21,8 +16,9 @@
   ],
   "Expert": {
     "MaxLife": 114,
-    "KBResist": 0.676,
-    "Coins": 2500.0,
+    "KBResist": 0.64,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Shaped Glass",
@@ -32,8 +28,9 @@
   },
   "Master": {
     "MaxLife": 171,
-    "KBResist": 0.74399996,
-    "Coins": 2500.0,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Shaped Glass",
@@ -41,6 +38,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
   "SpriteWidth": 38,
   "InternalName": "Enchanted_Fiberglass_Pistol"
 }

@@ -60,6 +60,9 @@
     ],
     "RivenAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Amebic_Slime"
 }

@@ -6,9 +6,6 @@
   ],
   "MaxLife": 60,
   "Defense": 6,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>"
-  ],
   "Coins": 40.0,
   "Drops": [
     {
@@ -21,7 +18,8 @@
   "DefiledAssimilation": 0.05,
   "Expert": {
     "MaxLife": 120,
-    "KBResist": 0.19000006,
+    "KBResist": 0.100000024,
+    "Immunities": [],
     "Coins": 100.0,
     "Drops": [
       {
@@ -35,7 +33,8 @@
   },
   "Master": {
     "MaxLife": 180,
-    "KBResist": 0.35999995,
+    "KBResist": 0.19999999,
+    "Immunities": [],
     "Coins": 100.0,
     "Drops": [
       {
@@ -47,6 +46,10 @@
     ],
     "DefiledAssimilation": 0.075
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Chunky_Slime"
 }

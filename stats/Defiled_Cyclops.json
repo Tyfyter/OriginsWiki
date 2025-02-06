@@ -33,7 +33,7 @@
   "DefiledAssimilation": 0.08,
   "Expert": {
     "MaxLife": 220,
-    "KBResist": 0.595,
+    "KBResist": 0.55,
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
@@ -62,7 +62,7 @@
   },
   "Master": {
     "MaxLife": 330,
-    "KBResist": 0.67999995,
+    "KBResist": 0.6,
     "Immunities": [],
     "Coins": 225.0,
     "Drops": [
@@ -89,6 +89,10 @@
     ],
     "DefiledAssimilation": 0.12
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 52,
   "InternalName": "Defiled_Cyclops"
 }

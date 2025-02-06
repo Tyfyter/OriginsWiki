@@ -6,10 +6,6 @@
   ],
   "MaxLife": 20,
   "Defense": 8,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
-  ],
   "Drops": [
     {
       "Name": "Undead Chunk",
@@ -32,6 +28,7 @@
   "Expert": {
     "MaxLife": 40,
     "KBResist": 0.100000024,
+    "Immunities": [],
     "Coins": 0.0,
     "Drops": [
       {
@@ -56,6 +53,7 @@
   "Master": {
     "MaxLife": 60,
     "KBResist": 0.19999999,
+    "Immunities": [],
     "Coins": 0.0,
     "Drops": [
       {
@@ -77,6 +75,9 @@
     ],
     "DefiledAssimilation": 0.03
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 28,
   "InternalName": "Defiled_Swarmer"
 }

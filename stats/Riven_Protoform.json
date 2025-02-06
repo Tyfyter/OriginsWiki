@@ -102,6 +102,10 @@
     ],
     "RivenAssimilation": 0.135
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
   "SpriteWidth": 36,
   "InternalName": "Riven_Fighter"
 }

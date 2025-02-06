@@ -8,22 +8,19 @@
   "Defense": 20,
   "KBResist": 1.0,
   "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Torn</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
-  "Coins": 300.0,
   "Drops": [],
   "RivenAssimilation": 0.1,
   "Expert": {
-    "MaxLife": 800,
-    "Coins": 1875.0,
+    "MaxLife": 400,
+    "Coins": 0.0,
     "Drops": [],
     "RivenAssimilation": 0.13
   },
   "Master": {
-    "MaxLife": 1800,
-    "Coins": 1875.0,
+    "MaxLife": 600,
+    "Coins": 0.0,
     "Drops": [],
     "RivenAssimilation": 0.15
   },

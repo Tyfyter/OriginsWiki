@@ -7,12 +7,7 @@
   "MaxLife": 95,
   "Defense": 10,
   "KBResist": 0.6,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
-  ],
-  "Coins": 400.0,
+  "Coins": 500.0,
   "Drops": [
     {
       "Name": "Unstrung Fiberglass Bow",
@@ -21,17 +16,13 @@
     {
       "Name": "Shaped Glass",
       "Chance": "4%"
-    },
-    {
-      "Name": "Silver Coin",
-      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-      "ImageOverride": ""
     }
   ],
   "Expert": {
     "MaxLife": 190,
-    "KBResist": 0.676,
-    "Coins": 2500.0,
+    "KBResist": 0.64,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Unstrung Fiberglass Bow",
@@ -40,18 +31,14 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
-      },
-      {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-        "ImageOverride": ""
       }
     ]
   },
   "Master": {
     "MaxLife": 285,
-    "KBResist": 0.74399996,
-    "Coins": 2500.0,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Unstrung Fiberglass Bow",
@@ -60,14 +47,12 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
-      },
-      {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
-        "ImageOverride": ""
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
   "SpriteWidth": 18,
   "InternalName": "Enchanted_Fiberglass_Bow"
 }

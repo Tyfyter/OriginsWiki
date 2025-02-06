@@ -67,6 +67,9 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 76,
   "InternalName": "Enchanted_Trident"
 }

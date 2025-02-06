@@ -14,10 +14,10 @@
       "Amount": "1‒3"
     }
   ],
-  "DefiledAssimilation": 0.03,
+  "DefiledAssimilation": 0.05,
   "Expert": {
     "MaxLife": 320,
-    "KBResist": 0.595,
+    "KBResist": 0.55,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
@@ -26,11 +26,11 @@
         "Amount": "1‒3"
       }
     ],
-    "DefiledAssimilation": 0.038999997
+    "DefiledAssimilation": 0.065
   },
   "Master": {
     "MaxLife": 480,
-    "KBResist": 0.67999995,
+    "KBResist": 0.6,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
@@ -39,8 +39,11 @@
         "Amount": "1‒3"
       }
     ],
-    "DefiledAssimilation": 0.044999998
+    "DefiledAssimilation": 0.075
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
   "SpriteWidth": 74,
   "InternalName": "Defiled_Watcher"
 }

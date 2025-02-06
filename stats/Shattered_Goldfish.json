@@ -24,6 +24,9 @@
     "Coins": 1250.0,
     "Drops": []
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
+  ],
   "SpriteWidth": 38,
   "InternalName": "Shattered_Goldfish"
 }

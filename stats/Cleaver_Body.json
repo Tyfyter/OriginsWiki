@@ -1,0 +1,28 @@
+{
+  "Image": "Cleaver",
+  "Name": "Cleaver",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Drops": [],
+  "RivenAssimilation": 0.04,
+  "Expert": {
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.051999997
+  },
+  "Master": {
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.06
+  },
+  "SpriteWidth": 6,
+  "InternalName": "Cleaver_Body"
+}
