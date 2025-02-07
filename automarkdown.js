@@ -419,7 +419,21 @@ function applyScrollToLogo(){
     if (visualViewport.width > visualViewport.height) {
         logo.style.top = -getScrollTop() + 'px';
     }
+	backgroundParallax();
 }
+function backgroundParallax() {
+	let background = document.getElementById('background');
+	if (!background) return;
+	let paralaxData = window.getComputedStyle(background).getPropertyValue('--background-paralax').split(',');
+	if (!paralaxData) return;
+	let scroll = getScrollTop();
+	let x = ``;
+	for (let i = 0; i < paralaxData.length; i++) {
+		if (x.length > 0) x += ', ';
+		x += `50% ${scroll * paralaxData[i]}%`;
+	}
+	background.style.backgroundPosition = x;
+} 
 onscroll = applyScrollToLogo;
 onresize = () => {
     let logo = document.getElementById('wikilogo');
@@ -609,6 +623,7 @@ var parse = async ()=>{
 	imageViewer.createChild('a', '&#10754;', ['id', 'imageViewer_closeButton'], ['href', 'javascript:void(0);'], ['onclick', 'imageViewer_close()']);
 	imageViewer.createChild('div', '', ['id', 'imageViewer_caption']);
 	document.onkeydown = imageViewer_close;
+	document.body.createChild('div', '', ['id', 'background']);
 	typeof postParseCallback !== 'undefined' && postParseCallback();
 	if (getSiteSettings().autoCallDevScript) callDevScript();
 };

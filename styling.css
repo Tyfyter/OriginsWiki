@@ -125,6 +125,11 @@
 	--tool-power-filter: invert(50%) sepia(100%) saturate(200%) hue-rotate(180deg);
 	--wiki-logo: url(Images/themes/nightskylogo.png);
 	--wiki-logo-mobile: url(Images/themes/nightskylogo.png);
+	/*--background-paralax: 0.06, 0.1, 0.01;
+	--background-image: url("https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png"), url("Images/Rainbow.png"), url("Images/DSTNoise.png");
+	--background-repeat: repeat-y;
+	--background-size: cover;
+	--background-blend-mode: multiply;*/
 }
 
 .themeOption-terminal {
@@ -192,6 +197,26 @@ body {
 		padding-left: 0.5em;
 		margin-left: -0.5em;
 		height: fit-content;
+	}
+	#background {
+		display: block;
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		background-image: var(--background-image);
+		background-repeat: var(--background-repeat);
+		-webkit-background-size: var(--background-size);
+        -moz-background-size: var(--background-size);
+        -o-background-size: var(--background-size);
+        background-size: var(--background-size);
+		background-blend-mode: var(--background-blend-mode);
+		background-origin: 50% 0%;
+		background-position: 50% 0%;
+		z-index: -1;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
 	}
 }
 #toolbox {
