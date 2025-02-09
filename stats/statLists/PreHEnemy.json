@@ -4,6 +4,7 @@
   ],
   "headers": [
     "Name",
+    "InternalName",
     "MaxLife",
     "Damage",
     "Defense",
