@@ -117,5 +117,14 @@
     "Treasure_Bag_(Quantux)":"Treasure_Bags",
     "Treasure_Bag_(Scrapper)":"Treasure_Bags",
     "Treasure_Bag_(Severus)":"Treasure_Bags",
-    "Treasure_Bag_(World_Cracker)":"Treasure_Bags"
+    "Treasure_Bag_(World_Cracker)":"Treasure_Bags",
+    "Riven_Desert":"Riven_Hive",
+    "Underground_Riven_Desert":"Riven_Hive",
+    "Underground_Defiled_Wastelands":"Defiled_Caverns",
+    "Defiled_Ice":"Defiled_Wastelands",
+    "Riven_Ice":"Riven_Hive",
+    "Defiled_Wastelands_Ocean":"Defiled_Wastelands",
+    "Defiled_Desert":"Defiled_Wastelands",
+    "Underground_Defiled_Desert":"Defiled_Wastelands"
+
 }
