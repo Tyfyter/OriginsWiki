@@ -1,0 +1,11 @@
+{
+  "Image": "Terraria/Images/Wall_1",
+  "Name": "Replacement Wall Item",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "SpriteWidth": 468,
+  "InternalName": "Replacement_Wall_Item"
+}

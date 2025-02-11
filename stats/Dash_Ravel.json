@@ -4,7 +4,7 @@
   "Types": [
     "Item",
     "Movement",
-    "Mount",
+    "Accessory",
     "Hardmode"
   ],
   "UseTime": 20,

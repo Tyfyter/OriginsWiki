@@ -27,7 +27,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -40,7 +39,6 @@
       ]
     }
   ],
-  "Source": "<a is=a-link image=$fromStats>Petrified Tree</a>",
   "SpriteWidth": 28,
   "InternalName": "Prickly_Pear"
 }

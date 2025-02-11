@@ -10,7 +10,7 @@
   "Tooltip": "Amebic tentacles will protect you from projectiles",
   "Rarity": "Orange",
   "Sell": 20000,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Riven Hive)<div class=divider></div><a is=a-link image=$fromStats>World Cracker</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Riven Hive)<div class=divider></div><a is=a-link image=$fromStats>World Cracker</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>World Cracker</a>",
@@ -23,7 +23,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Riven Hive"
       ],
@@ -69,7 +68,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

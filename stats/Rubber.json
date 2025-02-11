@@ -235,7 +235,7 @@
     {
       "stations": [
         "<a is=a-link href=Work_Benches>Work Bench</a>",
-        "<a is=\"a-link\" image=\"Tiles/Riven_Water\">Riven Water</a>"
+        "<a is=\"a-link\" image=\"Tiles/Riven_Water\" href=\"Riven_Hive.html\">Riven Water</a>"
       ],
       "items": [
         {
