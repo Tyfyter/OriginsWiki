@@ -1,5 +1,5 @@
 :root {
-	--article-bg-rgb: 255, 255, 255
+	--article-bg-rgb: 255, 255, 255;
 	--article-bg-color: rgb(var(--article-bg-rgb));
 	--article-text-color: rgb(0, 0, 0);
 	--article-link-color-base: rgb(167, 0, 204);
@@ -715,7 +715,7 @@ div.or {
 
 }
 #imageViewer_image {
-	width: 100%;
+	/*width: 100%;*/
 	max-width: 75%;
 	max-height: 75%;
 	object-fit: contain;
@@ -729,6 +729,15 @@ div.or {
 	text-decoration: none;
 	color: var(--box-border-color);
 }
+#imageViewer_caption {
+	background: rgb(var(--article-bg-rgb));
+	width: fit-content;
+	margin: auto;
+	padding: 4px;
+	border: 1px solid var(--box-border-color);
+	border-radius: 5px;
+}  
+
 a-img > img {
 	width: inherit;
 	display: block;
