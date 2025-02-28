@@ -101,6 +101,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Ice</a>"
   ],
+  "BestiaryQuotation": "This elusive dragon-pig hybrid has excellent stealth capabilities despite its rotund figure. It is uncertain how they came to exist.",
   "SpriteWidth": 90,
   "InternalName": "Defiled_Pigron"
 }

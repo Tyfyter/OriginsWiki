@@ -39,6 +39,7 @@
     "<a is=a-link image=$fromStats>Riven Hive</a>",
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "Barnacle mounds act as a self-contained ecosystem of microbes, buggers, and the Riven of course.",
   "SpriteWidth": 34,
   "InternalName": "Barnacle_Mound"
 }

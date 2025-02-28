@@ -78,6 +78,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "Not commonly found in the Wastelands. They appear when a massive Defiled entity is in distress.",
   "SpriteWidth": 28,
   "InternalName": "Defiled_Swarmer"
 }

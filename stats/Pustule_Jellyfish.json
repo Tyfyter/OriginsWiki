@@ -48,6 +48,7 @@
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>",
     "<a is=a-link image=$fromStats>Eutrophic Sea</a>"
   ],
+  "BestiaryQuotation": "A jellyfish that has adapted to the Riven Hive. The pustule is delicate and explodes whenever it needs to defend itself.",
   "SpriteWidth": 32,
   "InternalName": "Pustule_Jelly"
 }

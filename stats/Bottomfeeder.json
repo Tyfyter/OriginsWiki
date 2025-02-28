@@ -28,6 +28,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
   ],
+  "BestiaryQuotation": "Goldfish naturally evolve into dangerous, insolveable carnivores in the Riven Hive which is only further catalyzed by the Blood Moon.",
   "SpriteWidth": 38,
   "InternalName": "Bottomfeeder"
 }

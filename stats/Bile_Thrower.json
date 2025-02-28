@@ -10,26 +10,25 @@
   "Drops": [],
   "DefiledAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 616,
-    "Defense": 8,
+    "MaxLife": 280,
     "KBResist": 0.19000006,
     "Immunities": [],
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": [],
     "DefiledAssimilation": 0.051999997
   },
   "Master": {
-    "MaxLife": 1386,
-    "Defense": 8,
+    "MaxLife": 630,
     "KBResist": 0.35999995,
     "Immunities": [],
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": [],
     "DefiledAssimilation": 0.06
   },
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
   ],
+  "BestiaryQuotation": "During a Blood Moon, the Defiled grows rampantly and is able to deviate from its pure forms warping more unique entities, like penguins, to its will.",
   "SpriteWidth": 28,
   "InternalName": "Bile_Thrower"
 }

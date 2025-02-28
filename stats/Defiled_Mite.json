@@ -65,6 +65,7 @@
     "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>",
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
   ],
+  "BestiaryQuotation": "Dweller of the Defiled Caverns. Hard to spot as it does not move until prey draws near.",
   "SpriteWidth": 34,
   "InternalName": "Defiled_Mite"
 }

@@ -78,6 +78,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
   ],
+  "BestiaryQuotation": "A sentinel manifested by the felnum itself. It indiscriminately attacks anything that gets too close to felnum deposits.",
   "SpriteWidth": 72,
   "InternalName": "Felnum_Guardian"
 }

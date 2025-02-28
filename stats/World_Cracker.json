@@ -15,38 +15,39 @@
   "Coins": 50000.0,
   "Drops": [
     {
-      "Name": "Encrusted Ore",
-      "Amount": "140‒330"
+      "Name": "Treasure Bag (World Cracker)"
     },
     {
-      "Name": "Riven Carapace",
-      "Amount": "1‒134"
+      "Name": "Fleshy Globe",
+      "Chance": "25%"
     },
     {
-      "Name": "Teardown",
-      "Chance": "50%"
+      "Name": "Amebic Vial",
+      "Chance": "25%"
     },
     {
-      "Name": "Vorpal Sword",
-      "Chance": "50%"
-    },
-    {
-      "Name": "World Cracker Trophy",
-      "Chance": "10%"
-    },
-    {
-      "Name": "World Cracker Mask",
-      "Chance": "10%"
+      "Name": "World Cracker Relic"
     }
   ],
   "RivenAssimilation": 0.08,
   "Expert": {
-    "MaxLife": 5780,
+    "MaxLife": 8250,
     "KBResist": 0.55,
     "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (World Cracker)"
+      },
+      {
+        "Name": "Fleshy Globe",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Amebic Vial",
+        "Chance": "25%"
+      },
+      {
+        "Name": "World Cracker Relic"
       }
     ],
     "RivenAssimilation": 0.103999995

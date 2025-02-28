@@ -95,6 +95,7 @@
     "<a is=a-link image=$fromStats>Riven Hive</a>",
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "Barnaclebacks are a keystone species to the Riven Hive, working hard to maintain it. Their presence is a sure sign that any progress cleansing the Hive is futile.",
   "SpriteWidth": 36,
   "InternalName": "Barnacleback"
 }

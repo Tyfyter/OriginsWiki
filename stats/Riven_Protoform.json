@@ -106,6 +106,7 @@
     "<a is=a-link image=$fromStats>Riven Hive</a>",
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "The first creature born in the abominable Riven Hive. It is a very agile protector of its home.",
   "SpriteWidth": 36,
   "InternalName": "Riven_Fighter"
 }

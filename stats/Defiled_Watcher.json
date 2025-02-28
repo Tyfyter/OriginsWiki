@@ -44,6 +44,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "The Watcher is a more direct way for the Defiled to look out for any foreign bodies that don't belong. Mainly, it's a way for the Defiled to prevent its heart from being destroyed by the Terrarian.",
   "SpriteWidth": 74,
   "InternalName": "Defiled_Watcher"
 }

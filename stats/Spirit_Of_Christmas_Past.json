@@ -27,18 +27,19 @@
   "Expert": {
     "Defense": 0,
     "KBResist": 0.55,
-    "Coins": 540.0,
+    "Coins": 225.0,
     "Drops": []
   },
   "Master": {
     "Defense": 0,
     "KBResist": 0.6,
-    "Coins": 540.0,
+    "Coins": 225.0,
     "Drops": []
   },
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Graveyard\">Graveyard</a>"
   ],
+  "BestiaryQuotation": "This one is unassuming, but is a grim reminder of one's past transgressions.",
   "SpriteWidth": 48,
   "InternalName": "Spirit_Of_Christmas_Past"
 }

@@ -27,6 +27,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
   ],
+  "BestiaryQuotation": "Goldfish warp to the Defiled Will when exposed to a Blood Moon, becoming another one of its antibodies.",
   "SpriteWidth": 38,
   "InternalName": "Shattered_Goldfish"
 }

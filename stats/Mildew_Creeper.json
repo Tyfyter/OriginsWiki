@@ -27,6 +27,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Brine Pool</a>"
   ],
+  "BestiaryQuotation": "Sifts through the harsh waters of the Brine Pool in search for any unsuspecting victims.",
   "SpriteWidth": 36,
   "InternalName": "Mildew_Creeper"
 }

@@ -80,6 +80,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Underground Defiled Desert</a>"
   ],
+  "BestiaryQuotation": "Ghouls warped to the Defiled Will excrete horrid black bile that break down one's mental faculties upon the touch.",
   "SpriteWidth": 36,
   "InternalName": "Shattered_Ghoul"
 }

@@ -10,8 +10,7 @@
   "Coins": 20000.0,
   "Drops": [
     {
-      "Name": "Fairy Lotus",
-      "Chance": "50%"
+      "Name": "Fairy Lotus"
     }
   ],
   "Expert": {
@@ -39,6 +38,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Caverns\">Caverns</a>"
   ],
+  "BestiaryQuotation": "Not your average nymph. I think she's just happy to see you... she seems to have quite the grip. Uh oh.",
   "SpriteWidth": 38,
   "InternalName": "Fae_Nymph"
 }

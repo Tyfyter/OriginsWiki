@@ -91,6 +91,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
   ],
+  "BestiaryQuotation": "A chill dude just vibing on his cloud. He doesn't mind your presence, he just doesn't know that lightning kills Terrarians.",
   "SpriteWidth": 70,
   "InternalName": "Cloud_Elemental"
 }

@@ -90,6 +90,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
   ],
+  "BestiaryQuotation": "The soul of a long lost warrior brought to the skies to continue serving the gods.",
   "SpriteWidth": 50,
   "InternalName": "Felnum_Einheri"
 }

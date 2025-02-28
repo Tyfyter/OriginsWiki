@@ -94,6 +94,7 @@
     "<a is=a-link image=$fromStats>Riven Hive</a>",
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "Spider Amoebae are responsible for the strands of amoeba fluid that branch off from the walls of the Riven Hive.",
   "SpriteWidth": 72,
   "InternalName": "Spider_Amoeba"
 }

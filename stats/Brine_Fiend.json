@@ -23,6 +23,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Brine Pool</a>"
   ],
+  "BestiaryQuotation": "Secluded from the Temple, she took her ventures to live near the Brine Pool and grew a likeness to its contents.",
   "SpriteWidth": 40,
   "InternalName": "Brine_Fiend"
 }

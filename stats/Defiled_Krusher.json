@@ -92,6 +92,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "A stumbling defender of the Wastelands. It will be summoned if other Defiled antibodies struggle.",
   "SpriteWidth": 74,
   "InternalName": "Defiled_Brute"
 }

@@ -59,6 +59,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Crimson\">The Crimson</a>"
   ],
+  "BestiaryQuotation": "These entities possess a higher standing within the Crimson heirarchy as they bear the knowledge of its secrets.",
   "SpriteWidth": 34,
   "InternalName": "Crimbrain"
 }

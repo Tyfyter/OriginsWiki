@@ -20,13 +20,13 @@
     },
     {
       "Name": "Megaphone",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
       "ImageOverride": ""
     },
     {
       "Name": "Blindfold",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
       "ImageOverride": ""
     },
@@ -142,6 +142,7 @@
     "<a is=a-link image=$fromStats>Riven Desert</a>",
     "<a is=a-link image=$fromStats>Underground Riven Desert</a>"
   ],
+  "BestiaryQuotation": "It was only a matter of time before the Riven got to the body. It now wanders aimlessly in the Rivenated deserts in search of new hosts.",
   "SpriteWidth": 40,
   "InternalName": "Riven_Mummy"
 }

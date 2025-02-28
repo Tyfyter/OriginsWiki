@@ -43,6 +43,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Brine Pool</a>"
   ],
+  "BestiaryQuotation": "The apex predator of the Brine Pool. Its hard, chitonous shell not only protects it from the toxic brine but also any creatures that dare test it.",
   "SpriteWidth": 62,
   "InternalName": "King_Crab"
 }

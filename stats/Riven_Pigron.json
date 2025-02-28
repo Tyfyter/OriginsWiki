@@ -102,6 +102,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Riven Ice</a>"
   ],
+  "BestiaryQuotation": "This elusive dragon-pig hybrid has excellent stealth capabilities despite its rotund figure. It is uncertain how they came to exist.",
   "SpriteWidth": 90,
   "InternalName": "Riven_Pigron"
 }

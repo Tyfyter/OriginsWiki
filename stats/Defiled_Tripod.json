@@ -11,7 +11,7 @@
   "Drops": [
     {
       "Name": "Vitamins",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Vitamins",
       "ImageOverride": ""
     },
@@ -87,6 +87,7 @@
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
     "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "Inspired by the Amalgamation's feral nature, the Defiled decided to start replicating the same effect in a new, more cunning anti-body by densely packing it with black bile. These are the last things any traveler would want to encounter.",
   "SpriteWidth": 98,
   "InternalName": "Defiled_Tripod"
 }

@@ -96,6 +96,7 @@
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>",
     "<a is=a-link image=$fromStats>Eutrophic Sea</a>"
   ],
+  "BestiaryQuotation": "A gentle swimmer in the amoeba-infested waters. It is flimsy and fragile, so travelers should be weary when approaching it.",
   "SpriteWidth": 56,
   "InternalName": "Flagellant"
 }
