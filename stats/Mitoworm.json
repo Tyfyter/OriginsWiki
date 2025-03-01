@@ -16,7 +16,7 @@
   "Drops": [
     {
       "Name": "Vitamins",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Vitamins",
       "ImageOverride": ""
     },
@@ -87,6 +87,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "A common spreading agent of the Riven parasite. The Mitoworm can reproduce very rapidly if a threat is being persistent.",
   "SpriteWidth": 354,
   "InternalName": "Rivenator_Head"
 }

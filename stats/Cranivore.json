@@ -50,6 +50,7 @@
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Corruption\">The Corruption</a>"
   ],
+  "BestiaryQuotation": "An uncommon lifeform known to be in the second stage of the Eater life cycle. This creature prefers to start its meals by the head.",
   "SpriteWidth": 18,
   "InternalName": "Cranivore"
 }

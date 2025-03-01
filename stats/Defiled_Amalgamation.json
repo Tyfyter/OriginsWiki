@@ -17,37 +17,38 @@
   "Coins": 50000.0,
   "Drops": [
     {
-      "Name": "Lost Ore",
-      "Amount": "140‒330"
+      "Name": "Treasure Bag (Defiled Amalgamation)"
     },
     {
-      "Name": "Undead Chunk",
-      "Amount": "40‒100"
+      "Name": "Mysterious Spray",
+      "Chance": "25%"
     },
     {
-      "Name": "Low Signal",
-      "Chance": "50%"
+      "Name": "Defiled Amalgamation Relic"
     },
     {
-      "Name": "Return To Sender",
-      "Chance": "50%"
-    },
-    {
-      "Name": "Defiled Amalgamation Trophy",
-      "Chance": "10%"
-    },
-    {
-      "Name": "Defiled Amalgamation Mask",
-      "Chance": "10%"
+      "Name": "Blockus Tube",
+      "Chance": "25%"
     }
   ],
   "DefiledAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 4960,
+    "MaxLife": 7936,
     "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Defiled Amalgamation)"
+      },
+      {
+        "Name": "Mysterious Spray",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Defiled Amalgamation Relic"
+      },
+      {
+        "Name": "Blockus Tube",
+        "Chance": "25%"
       }
     ],
     "DefiledAssimilation": 0.051999997
@@ -76,6 +77,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "A Defiled creature so old every part of it has changed tens of thousands of times. Rightfully so, it is disturbed and even hostile to other Defiled anti-bodies.",
   "SpriteWidth": 122,
   "InternalName": "Defiled_Amalgamation"
 }

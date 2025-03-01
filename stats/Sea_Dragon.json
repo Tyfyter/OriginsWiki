@@ -57,6 +57,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Brine Pool</a>"
   ],
+  "BestiaryQuotation": "Dangerous, slug-like creature of the Brine Pool. It prefers to eat plastic and has deadly nematocysts all over its body.",
   "SpriteWidth": 94,
   "InternalName": "Sea_Dragon"
 }

@@ -117,6 +117,7 @@
     "<a is=a-link image=$fromStats>Eutrophic Sea</a>",
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sandstorm\">Sandstorm</a>"
   ],
+  "BestiaryQuotation": "This menacing shark has adapted to the Hive's ecosystem quite well, taking on a triple-mandible design used for crushing and cracking nautili caught in its path.",
   "SpriteWidth": 96,
   "InternalName": "Trijaw_Shark"
 }

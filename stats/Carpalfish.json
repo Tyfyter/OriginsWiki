@@ -43,6 +43,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Brine Pool</a>"
   ],
+  "BestiaryQuotation": "A brutish fish that has evolved to work with as little of a brain as possible. Where it lacks smarts, it's got all the myomeres.",
   "SpriteWidth": 80,
   "InternalName": "Carpalfish"
 }

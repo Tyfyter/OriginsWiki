@@ -92,6 +92,7 @@
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
     "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "An older design of the Defiled Phantom before the Defiled improved upon it. The unique composition of Defiled Matter is apparent as it adopts a more leathery outer-layer.",
   "SpriteWidth": 136,
   "InternalName": "Ancient_Defiled_Flyer"
 }

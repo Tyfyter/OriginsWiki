@@ -104,6 +104,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "A great antibody for reaching airborne or hard-to-reach threats. This may have once been a flying creature like a bird.",
   "SpriteWidth": 104,
   "InternalName": "Defiled_Flyer"
 }

@@ -44,6 +44,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "The Asphyxiators are one of the Defiled's nastiest machinations, capable of wiping out anyone or anything not meant to be in its waters.",
   "SpriteWidth": 92,
   "InternalName": "Defiled_Asphyxiator"
 }

@@ -44,7 +44,7 @@
     "MaxLife": 110,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 900.0,
+    "Coins": 375.0,
     "Drops": [
       {
         "Name": "Gravestone",
@@ -82,7 +82,7 @@
     "MaxLife": 165,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 900.0,
+    "Coins": 375.0,
     "Drops": [
       {
         "Name": "Gravestone",
@@ -121,6 +121,7 @@
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nighttime\">Nighttime</a>",
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Surface\">Surface</a>"
   ],
+  "BestiaryQuotation": "Nobody asked him questions. The headstone was well within his deathright.",
   "SpriteWidth": 38,
   "InternalName": "Graveshield_Zombie"
 }

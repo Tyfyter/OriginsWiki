@@ -12,22 +12,21 @@
   "Coins": 500.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 660,
-    "Defense": 10,
+    "MaxLife": 300,
     "KBResist": 0.19000006,
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 1485,
-    "Defense": 10,
+    "MaxLife": 675,
     "KBResist": 0.35999995,
-    "Coins": 5000.0,
+    "Coins": 3125.0,
     "Drops": []
   },
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
   ],
+  "BestiaryQuotation": "During a Blood Moon, the Riven Hive is able to overcome its weakness of the cold and spread, forcing normally docile penguins to adapt.",
   "SpriteWidth": 28,
   "InternalName": "Riven_Penguin"
 }

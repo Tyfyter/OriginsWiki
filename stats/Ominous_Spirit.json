@@ -28,18 +28,19 @@
   "Expert": {
     "MaxLife": 400,
     "KBResist": 0.595,
-    "Coins": 1350.0,
+    "Coins": 562.0,
     "Drops": []
   },
   "Master": {
     "MaxLife": 600,
     "KBResist": 0.67999995,
-    "Coins": 1350.0,
+    "Coins": 562.0,
     "Drops": []
   },
   "Environment": [
     "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Dungeon\">The Dungeon</a>"
   ],
+  "BestiaryQuotation": "The Tax Collector's old business partner here to warn him to change his act before the ghosts do it.",
   "SpriteWidth": 40,
   "InternalName": "Jacob_Marley"
 }

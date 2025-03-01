@@ -23,6 +23,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "A creation by the Defiled in order to maintain its diplomacy with the Terrarian. Looks like a hand reaching towards the sky.",
   "SpriteWidth": 40,
   "InternalName": "Defiled_Effigy"
 }

@@ -24,7 +24,7 @@
     },
     {
       "Name": "Nazar",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
       "ImageOverride": ""
     }
@@ -70,6 +70,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
   ],
+  "BestiaryQuotation": "A weapon directly forged by the Defiled. This weapon is a machination of its curiosity.",
   "SpriteWidth": 76,
   "InternalName": "Enchanted_Trident"
 }

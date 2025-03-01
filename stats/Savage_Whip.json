@@ -19,7 +19,7 @@
   "Drops": [
     {
       "Name": "Nazar",
-      "Chance": "1%",
+      "Chance": "1.99%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
       "ImageOverride": ""
     }
@@ -53,6 +53,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
   ],
+  "BestiaryQuotation": "The Savage Whip cursed by the Primordial Amoeba, now serves to protect the caverns of the Hive from intruders.",
   "SpriteWidth": 48,
   "InternalName": "Savage_Whip"
 }
