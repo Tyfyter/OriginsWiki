@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Weapon_Imbue_Bile",
   "Name": "Weapon Imbue: Bile",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "Melee and whip attacks stun enemies"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Flask of Black Bile</a>"
+  ],
+  "Duration": [
+    "1200 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Weapon_Imbue_Bile"

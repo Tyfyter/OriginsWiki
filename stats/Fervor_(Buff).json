@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Fervor_Buff",
   "Name": "Fervor",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "10% increased attack speed"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Fervor Potion</a>"
+  ],
+  "Duration": [
+    "240 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Fervor_Buff"

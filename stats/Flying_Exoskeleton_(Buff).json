@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Exoskeleton_Buff",
+  "Name": "Flying Exoskeleton",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The Flying Exoskeleton will fight for you"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Teardown_Buff"
+}

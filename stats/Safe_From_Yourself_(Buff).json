@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Safe_Buff",
   "Name": "Safe From Yourself",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "Impervious to self-inflicted explosive damage"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Absorption Potion</a>"
+  ],
+  "Duration": [
+    "360 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Safe_Buff"

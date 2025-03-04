@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Shadefire_Debuff",
+  "Name": "Shadefire",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "The flame doesn't go out in the dark"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Shadefire_Debuff"
+}

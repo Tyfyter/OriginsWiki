@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Focus_Buff",
   "Name": "Mana Channeling",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "Your mana is being used to increase damage"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Focus Potion</a>"
+  ],
+  "Duration": [
+    "240 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Focus_Buff"

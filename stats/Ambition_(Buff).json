@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Ambition_Buff",
   "Name": "Ambition",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "Increased offensive stats and stat share"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Ambition Potion</a>"
+  ],
+  "Duration": [
+    "240 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Ambition_Buff"

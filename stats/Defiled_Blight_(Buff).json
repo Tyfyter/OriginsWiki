@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Defiled_Blight_Buff",
+  "Name": "Defiled Blight",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "The Defiled Blight will light your way"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Blight_Buff"
+}

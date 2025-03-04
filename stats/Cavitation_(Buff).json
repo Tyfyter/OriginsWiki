@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Cavitation_Debuff",
+  "Name": "Cavitation",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "You got the wind knocked out of you."
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Cavitation_Debuff"
+}

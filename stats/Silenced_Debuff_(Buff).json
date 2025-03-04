@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_35",
+  "Name": "Silenced Debuff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Silenced_Debuff.Description"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Silenced_Debuff"
+}

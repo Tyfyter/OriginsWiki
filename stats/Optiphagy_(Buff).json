@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Optiphage_Debuff",
+  "Name": "Optiphagy",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "It's on your eyeball!"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Optiphage_Debuff"
+}

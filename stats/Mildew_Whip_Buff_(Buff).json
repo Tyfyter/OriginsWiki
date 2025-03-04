@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Mildew Whip Buff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Mildew_Whip_Buff.Description"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mildew_Whip_Buff"
+}

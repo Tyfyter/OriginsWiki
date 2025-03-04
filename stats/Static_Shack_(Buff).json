@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Static_Shock_Debuff",
+  "Name": "Static Shack",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "Those don't tend to move"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mini_Static_Shock_Debuff"
+}

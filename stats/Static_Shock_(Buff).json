@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Buffs/Static_Shock_Debuff",
+  "Name": "Static Shock",
+  "Types": [
+    "Debuff"
+  ],
+  "Tooltip": [
+    "It hurts to be near conductors!"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Static_Shock_Debuff"
+}

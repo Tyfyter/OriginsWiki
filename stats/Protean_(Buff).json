@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Adaptability_Buff",
   "Name": "Protean",
   "Types": [
-    "Buff"
+    "Buff",
+    "Consumable"
   ],
   "Tooltip": [
     "Half of all weapon boosts are shared to all classes!"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Protean Potion</a>"
+  ],
+  "Duration": [
+    "240 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Adaptability_Buff"

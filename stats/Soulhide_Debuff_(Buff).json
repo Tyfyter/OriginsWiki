@@ -1,11 +1,11 @@
 {
   "Image": "Terraria/Images/Buff_160",
-  "Name": "Shadefire",
+  "Name": "Soulhide Debuff",
   "Types": [
     "Buff"
   ],
   "Tooltip": [
-    "The flame doesn't go out in the dark"
+    "Mods.Origins.Buffs.Soulhide_Debuff.Description"
   ],
   "SpriteWidth": 32,
   "InternalName": "Soulhide_Debuff"

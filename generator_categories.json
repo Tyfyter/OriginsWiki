@@ -334,5 +334,17 @@
   "npc":{
     "name":"NPC",
     "items":"Types<NPC"
+  },
+  "buff":{
+    "name":"Buff",
+    "items":"Types<Buff"
+  },
+  "debuff":{
+    "name":"Debuff",
+    "items":"Types<Debuff"
+  },
+  "consumablebuff":{
+    "name":"Consumable",
+    "items":"Types<Buff | Types<Debuff & Types<Consumable"
   }
 }
