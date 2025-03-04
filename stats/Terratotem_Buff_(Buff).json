@@ -7,6 +7,14 @@
   "Tooltip": [
     "The reformed soul will protect you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Broken Terratotem</a>",
+    "<a is=a-link image=$fromStats>Terratotem</a>"
+  ],
+  "Duration": [
+    "Infinite",
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Terratotem_Buff"
 }

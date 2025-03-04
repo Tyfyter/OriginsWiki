@@ -7,6 +7,12 @@
   "Tooltip": [
     "The sand elemental will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Desert Crown</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Desert_Crown_Buff"
 }

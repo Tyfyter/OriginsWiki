@@ -7,6 +7,12 @@
   "Tooltip": [
     "The woodsprite will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Woodsprite Staff</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Woodsprite_Buff"
 }

@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Indestructible_Saddle_Mount_Buff",
   "Name": "Rowdy Rocket",
   "Types": [
-    "Buff"
+    "Buff",
+    "Mount"
   ],
   "Tooltip": [
     "Ridin' 'til I dyin', baby"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Indestructible Saddle</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
   "InternalName": "Indestructible_Saddle_Mount_Buff"

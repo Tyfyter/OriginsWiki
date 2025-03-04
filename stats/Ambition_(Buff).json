@@ -3,6 +3,7 @@
   "Name": "Ambition",
   "Types": [
     "Buff",
+    "GenericBoostBuff",
     "Consumable"
   ],
   "Tooltip": [

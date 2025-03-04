@@ -7,6 +7,12 @@
   "Tooltip": [
     "It's rather dashing"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Chromatic Scale</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Chromatic_Pangolin_Buff"
 }

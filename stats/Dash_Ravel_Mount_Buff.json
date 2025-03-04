@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
   "Name": "Dash Ravel",
   "Types": [
-    "Buff"
+    "Buff",
+    "Mount"
   ],
   "Tooltip": [
     "10% chance to dodge. Double tap left or right to dash"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Dash Ravel</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
   "InternalName": "Dash_Ravel_Mount_Buff"

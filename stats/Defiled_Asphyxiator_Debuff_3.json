@@ -7,6 +7,12 @@
   "Tooltip": [
     "You're drowning out"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>"
+  ],
+  "Duration": [
+    "2.5 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Defiled_Asphyxiator_Debuff_3"
 }

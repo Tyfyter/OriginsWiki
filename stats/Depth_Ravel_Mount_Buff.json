@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
   "Name": "Depth Ravel",
   "Types": [
-    "Buff"
+    "Buff",
+    "Mount"
   ],
   "Tooltip": [
     "10% chance to dodge. Great underwater capabilities"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Depth Ravel</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
   "InternalName": "Depth_Ravel_Mount_Buff"

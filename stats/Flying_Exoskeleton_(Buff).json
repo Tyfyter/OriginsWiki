@@ -7,6 +7,12 @@
   "Tooltip": [
     "The Flying Exoskeleton will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Teardown</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Teardown_Buff"
 }

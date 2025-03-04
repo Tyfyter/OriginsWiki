@@ -7,6 +7,12 @@
   "Tooltip": [
     "The Eater of Worlds will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Rotting Worm Staff</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Wormy_Buff"
 }

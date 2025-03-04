@@ -7,6 +7,12 @@
   "Tooltip": [
     "It stomps along the ground."
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Strange Power-Up</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Platformer_Mech_Buff"
 }

@@ -7,6 +7,12 @@
   "Tooltip": [
     "The demon eye will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Eyeball Staff</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Mini_EOC_Buff"
 }

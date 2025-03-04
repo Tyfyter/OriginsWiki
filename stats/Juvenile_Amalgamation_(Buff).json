@@ -7,6 +7,12 @@
   "Tooltip": [
     "The Juvenile Amalgamation is protecting your holes!"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Blockus Tube</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Juvenile_Amalgamation_Buff"
 }

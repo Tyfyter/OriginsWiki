@@ -7,6 +7,12 @@
   "Tooltip": [
     "The bomb will fight for you"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Bomb Artifact</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Friendly_Bomb_Buff"
 }

@@ -7,6 +7,12 @@
   "Tooltip": [
     "Wut de dog doin'"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Fresh Meat Artifact</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Fresh_Meat_Buff"
 }
