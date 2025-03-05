@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_311",
   "Name": "Tied Up",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Mods.Origins.Buffs.Ziptie_Buff.Description"

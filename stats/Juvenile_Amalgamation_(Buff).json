@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Juvenile_Amalgamation_Buff",
   "Name": "Juvenile Amalgamation",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The Juvenile Amalgamation is protecting your holes!"

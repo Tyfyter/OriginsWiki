@@ -3,7 +3,7 @@
   "Name": "Spider Ravel",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Able to climb different surfaces"

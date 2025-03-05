@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Lazy_Cloak_Buff",
   "Name": "Lazy Cloak",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Your cloak will fight for you"

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Food/Petrified_Prickly_Pear_Buff",
   "Name": "Mmm... juicy!",
   "Types": [
-    "Buff"
+    "Buff",
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "+25% mana shielding"

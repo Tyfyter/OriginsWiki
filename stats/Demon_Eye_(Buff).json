@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Mini_EOC_Buff",
   "Name": "Demon Eye",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The demon eye will fight for you"

@@ -3,7 +3,7 @@
   "Name": "Hearty Broth",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Increases minion speed by 10%",

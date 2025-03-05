@@ -3,7 +3,7 @@
   "Name": "Ninja Ravel",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Able to climb different surfaces and less likely to be targeted"

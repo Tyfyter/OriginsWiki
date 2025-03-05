@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Weapons/Ranged/Neural_Network",
   "Name": "Neural Pathing",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Don't miss."

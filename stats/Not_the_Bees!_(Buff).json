@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_160",
   "Name": "Not the Bees!",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Not to be confused with the secret seed"

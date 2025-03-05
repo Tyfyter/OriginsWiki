@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Desert_Crown_Buff",
   "Name": "Mud Crown",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The sand elemental will fight for you"

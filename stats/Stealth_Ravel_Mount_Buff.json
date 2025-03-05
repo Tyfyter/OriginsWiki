@@ -3,7 +3,7 @@
   "Name": "Stealth Ravel",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Less likely to be targeted"

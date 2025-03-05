@@ -3,7 +3,8 @@
   "Name": "Screaming Teammate",
   "Types": [
     "Buff",
-    "GenericBoostBuff"
+    "GenericBoostBuff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "You got your target"

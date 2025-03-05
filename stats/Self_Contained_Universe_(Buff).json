@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Self_Contained_Universe_Buff",
   "Name": "Self Contained Universe",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The universe will light your way",

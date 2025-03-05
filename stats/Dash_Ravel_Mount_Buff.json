@@ -3,7 +3,7 @@
   "Name": "Dash Ravel",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Double tap left or right to dash"

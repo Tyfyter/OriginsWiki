@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Food/Irish_Cheddar_Buff",
   "Name": "Irish Cheddar",
   "Types": [
-    "Buff"
+    "Buff",
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Very good"

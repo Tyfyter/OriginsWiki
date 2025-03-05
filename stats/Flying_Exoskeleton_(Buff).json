@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Exoskeleton_Buff",
   "Name": "Flying Exoskeleton",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The Flying Exoskeleton will fight for you"

@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_160",
   "Name": "Liver Failure",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "It smells of copper wire..."

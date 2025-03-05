@@ -3,7 +3,7 @@
   "Name": "Weapon Imbue: Bile",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Melee and whip attacks stun enemies"

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Toxic_Shock_Strengthen_Debuff",
   "Name": "Toxic Shocker",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "How could it get worse?"

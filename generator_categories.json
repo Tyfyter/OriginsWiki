@@ -344,7 +344,31 @@
     "items":"Types<Debuff"
   },
   "consumablebuff":{
-    "name":"Consumable",
-    "items":"Types<Buff | Types<Debuff & Types<Consumable"
+    "name":"Consumable Buff",
+    "items":"Types<Buff & Types<ConsumableBuff"
+  },
+  "summonbuff":{
+    "name":"Summon Buff",
+    "items":"Types<Buff & Types<SummonBuff"
+  },
+  "mountbuff":{
+    "name":"Mount Buff",
+    "items":"Types<Buff & Types<MountBuff"
+  },
+  "equipmentbuff":{
+    "name":"Equipment Buff",
+    "items":"Types<Buff & Types<EquipmentBuff"
+  },
+  "environmentbuff":{
+    "name":"Environment Buff",
+    "items":"Types<Buff & Types<EnvironmentBuff"
+  },
+  "furniturebuff":{
+    "name":"Furniture Buff",
+    "items":"Types<Buff & Types<FurnitureBuff"
+  },
+  "otherbuff":{
+    "name":"Other Buff",
+    "items":"Types<Buff & -Types<ConsumableBuff & -Types<SummonBuff & -Types<MountBuff & -Types<EquipmentBuff & -Types<EnvironmentBuff & -Types<FurnitureBuff"
   }
 }

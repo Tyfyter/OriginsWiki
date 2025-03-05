@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Platformer_Mech_Buff",
   "Name": "Platformer Mech",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "It stomps along the ground."

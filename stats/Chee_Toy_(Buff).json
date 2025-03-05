@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Chee_Toy_Buff",
   "Name": "Chee Toy",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "Marketable plushie tiem"

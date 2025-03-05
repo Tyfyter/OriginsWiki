@@ -3,7 +3,7 @@
   "Name": "Mana Channeling",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Your mana is being used to increase damage"

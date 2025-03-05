@@ -3,7 +3,8 @@
   "Name": "Sapphire Aura",
   "Types": [
     "Buff",
-    "GenericBoostBuff"
+    "GenericBoostBuff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Increased attack speed and life regeneration"

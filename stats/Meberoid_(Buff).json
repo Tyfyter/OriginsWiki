@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Meberoid_Buff",
   "Name": "Meberoid",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The Meberoid will light up the way"

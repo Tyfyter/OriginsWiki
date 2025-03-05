@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Chromatic_Pangolin_Buff",
   "Name": "Chromatic Pangolin",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "It's rather dashing"

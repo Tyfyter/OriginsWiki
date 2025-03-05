@@ -3,7 +3,7 @@
   "Name": "Unsolvable",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Cannot be broken down by any chemicals"

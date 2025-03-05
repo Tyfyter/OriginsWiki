@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_160",
   "Name": "Joint Pop Buff",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Mods.Origins.Buffs.Joint_Pop_Buff.Description"

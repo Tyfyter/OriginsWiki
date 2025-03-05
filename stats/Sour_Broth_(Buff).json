@@ -3,7 +3,7 @@
   "Name": "Sour Broth",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Increases minion critical strike chance by 10%",

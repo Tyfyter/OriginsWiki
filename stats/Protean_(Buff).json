@@ -3,7 +3,7 @@
   "Name": "Protean",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Half of all weapon boosts are shared to all classes!"

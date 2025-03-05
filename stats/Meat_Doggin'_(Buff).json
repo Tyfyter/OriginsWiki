@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Fresh_Meat_Buff",
   "Name": "Meat Doggin'",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "Wut de dog doin'"

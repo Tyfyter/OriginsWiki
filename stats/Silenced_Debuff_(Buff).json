@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_35",
   "Name": "Silenced Debuff",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Mods.Origins.Buffs.Silenced_Debuff.Description"

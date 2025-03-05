@@ -3,7 +3,7 @@
   "Name": "Fervor",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "10% increased attack speed"

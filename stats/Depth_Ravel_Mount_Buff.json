@@ -3,7 +3,7 @@
   "Name": "Depth Ravel",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Great underwater capabilities"

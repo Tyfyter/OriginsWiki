@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Item_999",
   "Name": "Calcified",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "You're being preserved"

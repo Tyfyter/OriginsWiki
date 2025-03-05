@@ -3,7 +3,7 @@
   "Name": "Safe From Yourself",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Impervious to self-inflicted explosive damage"

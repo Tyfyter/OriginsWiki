@@ -4,8 +4,7 @@
   "Types": [
     "Buff",
     "FurnitureBuff",
-    "EnvironmentalBuff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "You are being healed of your assimilation"

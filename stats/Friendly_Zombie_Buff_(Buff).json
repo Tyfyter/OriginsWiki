@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Friendly_Zombie_Buff",
   "Name": "Friendly Zombie Buff",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The friendly zombie will fight for you"

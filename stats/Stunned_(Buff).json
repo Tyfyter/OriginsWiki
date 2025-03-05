@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_160",
   "Name": "Stunned",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "You cannot move"

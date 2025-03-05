@@ -5,7 +5,7 @@
     "Buff",
     "Torn",
     "TornSource",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Melee and whip attacks tenderize targets"

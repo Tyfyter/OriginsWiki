@@ -3,7 +3,7 @@
   "Name": "Impenetrable Trashcan Lid",
   "Types": [
     "Buff",
-    "Mount"
+    "MountBuff"
   ],
   "Tooltip": [
     "This trashcan lid is impenetrable"

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Indestructible_Saddle_Mount_Cooldown",
   "Name": "Rowdy Rocket Cooldown",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Can't use the Indestructible Saddle"

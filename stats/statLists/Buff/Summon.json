@@ -1,0 +1,8 @@
+{
+    "categories": [
+      "summonbuff"
+    ],
+    "extends": {
+      "name": "Buff/Buffs"
+    }
+}

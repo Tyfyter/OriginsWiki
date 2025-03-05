@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_160",
   "Name": "Impaled",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Mods.Origins.BuffDescription.Impaled_Debuff"

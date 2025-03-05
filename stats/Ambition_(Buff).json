@@ -4,7 +4,7 @@
   "Types": [
     "Buff",
     "GenericBoostBuff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Increased offensive stats and stat share"

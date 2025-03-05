@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Woodsprite_Buff",
   "Name": "Woodsprite",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The woodsprite will fight for you"

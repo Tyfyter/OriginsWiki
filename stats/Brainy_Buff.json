@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Brainy_Buff",
   "Name": "Crimbrain",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The crimbrain will fight for you"

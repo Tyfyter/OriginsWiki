@@ -3,7 +3,7 @@
   "Name": "Bovine Flight",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Blue Bovine allowed flight and slow fall"

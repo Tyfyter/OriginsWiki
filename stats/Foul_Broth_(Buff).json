@@ -3,7 +3,7 @@
   "Name": "Foul Broth",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Increases minion damage by 50%",

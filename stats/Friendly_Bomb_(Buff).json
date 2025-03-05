@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Friendly_Bomb_Buff",
   "Name": "Friendly Bomb",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The bomb will fight for you"

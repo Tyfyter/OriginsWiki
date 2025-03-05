@@ -3,7 +3,7 @@
   "Name": "Voidsight",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Visibility significantly increased"

@@ -3,7 +3,7 @@
   "Name": "Willed",
   "Types": [
     "Buff",
-    "Consumable"
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "The evils of the world cannot manipulate you"

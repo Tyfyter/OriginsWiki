@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Defiled_Blight_Buff",
   "Name": "Defiled Blight",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
     "The Defiled Blight will light your way"

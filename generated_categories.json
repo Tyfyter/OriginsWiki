@@ -1628,7 +1628,6 @@
       "Cursed_Harpoon",
       "Cyah_Nara",
       "Danger_Barrel",
-      "Dark_Flames",
       "Dark_Spiral",
       "Dash_Ravel_Mount_Buff",
       "Decimator",
@@ -1646,7 +1645,6 @@
       "Defiled_Asphyxiator_Debuff_3",
       "Defiled_Assimilation_(Buff)",
       "Defiled_Bar",
-      "Defiled_Blight",
       "Defiled_Blight_(Buff)",
       "Defiled_Breastplate",
       "Defiled_Campfire",
@@ -2034,7 +2032,6 @@
       "Quartz",
       "Quartz_Wall",
       "Ranged_Acrid_Armor",
-      "Rasterized",
       "Rasterized_(Buff)",
       "Rasterized_Dye",
       "Ravel_Mount_Buff",
@@ -3465,7 +3462,6 @@
       "Cursed_Harpoon",
       "Cyah_Nara",
       "Danger_Barrel",
-      "Dark_Flames",
       "Dark_Spiral",
       "Dart_Crossbow",
       "Dash_Ravel",
@@ -3487,7 +3483,6 @@
       "Defiled_Asphyxiator_Debuff_3",
       "Defiled_Assimilation_(Buff)",
       "Defiled_Bar",
-      "Defiled_Blight",
       "Defiled_Blight_(Buff)",
       "Defiled_Breastplate",
       "Defiled_Campfire",
@@ -3967,7 +3962,6 @@
       "Quartz",
       "Quartz_Wall",
       "Ranged_Acrid_Armor",
-      "Rasterized",
       "Rasterized_(Buff)",
       "Rasterized_Dye",
       "Ravel",
@@ -4601,16 +4595,8 @@
   "mount": {
     "name": "Mounts",
     "items": [
-      "Dash_Ravel_Mount_Buff",
-      "Depth_Ravel_Mount_Buff",
       "Impenetrable_Trashcan_Lid",
-      "Indestructible_Saddle",
-      "Ninja_Ravel_Mount_Buff",
-      "Ravel_Mount_Buff",
-      "Rowdy_Rocket_(Buff)",
-      "Spider_Ravel_Mount_Buff",
-      "Stealth_Ravel_Mount_Buff",
-      "Trash_Lid_Mount_Buff"
+      "Indestructible_Saddle"
     ]
   },
   "rastersource": {
@@ -4956,12 +4942,10 @@
       "Calcified_(Buff)",
       "Chee_Toy_(Buff)",
       "Chromatic_Pangolin_(Buff)",
-      "Dark_Flames",
       "Dash_Ravel_Mount_Buff",
       "Defiled_Asphyxiator_Debuff",
       "Defiled_Asphyxiator_Debuff_2",
       "Defiled_Asphyxiator_Debuff_3",
-      "Defiled_Blight",
       "Defiled_Blight_(Buff)",
       "Demon_Eye_(Buff)",
       "Depth_Ravel_Mount_Buff",
@@ -4996,7 +4980,6 @@
       "Platformer_Mech_(Buff)",
       "Protean_(Buff)",
       "Purifying_(Buff)",
-      "Rasterized",
       "Ravel_Mount_Buff",
       "Rowdy_Rocket_(Buff)",
       "Rowdy_Rocket_Cooldown_(Buff)",
@@ -5053,15 +5036,18 @@
     ]
   },
   "consumablebuff": {
-    "name": "Consumable",
+    "name": "Consumable Buff",
     "items": [
       "Ambition_(Buff)",
       "Bovine_Flight_(Buff)",
       "Fervor_(Buff)",
       "Foul_Broth_(Buff)",
       "Hearty_Broth_(Buff)",
+      "Irish_Cheddar_Buff",
       "Mana_Channeling_(Buff)",
+      "Mmm..._juicy!_(Buff)",
       "Protean_(Buff)",
+      "Purifying_(Buff)",
       "Safe_From_Yourself_(Buff)",
       "Sour_Broth_(Buff)",
       "Unsolvable_(Buff)",
@@ -5069,6 +5055,92 @@
       "Weapon_Imbue%3A_Alkahest_(Buff)",
       "Weapon_Imbue%3A_Bile_(Buff)",
       "Willed_(Buff)"
+    ]
+  },
+  "summonbuff": {
+    "name": "Summon Buff",
+    "items": [
+      "Brainy_Buff",
+      "Chee_Toy_(Buff)",
+      "Chromatic_Pangolin_(Buff)",
+      "Defiled_Blight_(Buff)",
+      "Demon_Eye_(Buff)",
+      "Eye_Summon_You!_(Buff)",
+      "Flying_Exoskeleton_(Buff)",
+      "Friendly_Bomb_(Buff)",
+      "Friendly_Zombie_Buff_(Buff)",
+      "Juvenile_Amalgamation_(Buff)",
+      "Meat_Doggin'_(Buff)",
+      "Meberoid_(Buff)",
+      "Mini_Eater_of_Worlds_(Buff)",
+      "Mud_Crown_(Buff)",
+      "Platformer_Mech_(Buff)",
+      "Self_Contained_Universe_(Buff)",
+      "Terratotem_Buff_(Buff)",
+      "Walking_Furnace_(Buff)",
+      "Woodsprite_(Buff)"
+    ]
+  },
+  "mountbuff": {
+    "name": "Mount Buff",
+    "items": [
+      "Dash_Ravel_Mount_Buff",
+      "Depth_Ravel_Mount_Buff",
+      "Ninja_Ravel_Mount_Buff",
+      "Ravel_Mount_Buff",
+      "Rowdy_Rocket_(Buff)",
+      "Spider_Ravel_Mount_Buff",
+      "Stealth_Ravel_Mount_Buff",
+      "Trash_Lid_Mount_Buff"
+    ]
+  },
+  "equipmentbuff": {
+    "name": "Equipment Buff",
+    "items": [
+      "Calcified_(Buff)",
+      "Guarded_(Buff)",
+      "Hibernal_Incantation_Buff_(Buff)",
+      "Impaled_(Buff)",
+      "Joint_Pop_Buff_(Buff)",
+      "Lazy_Cloak_Buff",
+      "Liver_Failure_(Buff)",
+      "Magnetized_(Buff)",
+      "Mildew_Whip_Buff_(Buff)",
+      "Neural_Pathing_(Buff)",
+      "Not_the_Bees!_(Buff)",
+      "Rowdy_Rocket_Cooldown_(Buff)",
+      "Sapphire_Aura_(Buff)",
+      "Screaming_Teammate_(Buff)",
+      "Silenced_Debuff_(Buff)",
+      "Slow_(Buff)",
+      "Spiker_Counter_Debuff_(Buff)",
+      "Stunned_(Buff)",
+      "Tied_Up_(Buff)",
+      "Toxic_Shocker_(Buff)"
+    ]
+  },
+  "environmentbuff": {
+    "name": "Environment Buff",
+    "items": []
+  },
+  "furniturebuff": {
+    "name": "Furniture Buff",
+    "items": [
+      "Purifying_(Buff)",
+      "Swarmed_(Buff)"
+    ]
+  },
+  "otherbuff": {
+    "name": "Other Buff",
+    "items": [
+      "Barnacled_(Buff)",
+      "Defiled_Asphyxiator_Debuff",
+      "Defiled_Asphyxiator_Debuff_2",
+      "Defiled_Asphyxiator_Debuff_3",
+      "Mana_Buffer_(Buff)",
+      "Mimic_Buff_(Buff)",
+      "Shipped_(Buff)",
+      "Soulhide_Debuff_(Buff)"
     ]
   }
 }
