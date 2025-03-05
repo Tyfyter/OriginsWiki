@@ -7,6 +7,12 @@
   "Tooltip": [
     "You're being preserved"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Amber Armor</a>"
+  ],
+  "Duration": [
+    "5 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Amber_Debuff"
 }

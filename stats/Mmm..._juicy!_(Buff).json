@@ -7,6 +7,12 @@
   "Tooltip": [
     "+25% mana shielding"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Petrified Prickly Pear</a>"
+  ],
+  "Duration": [
+    "300 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Petrified_Prickly_Pear_Buff"
 }

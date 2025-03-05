@@ -2,10 +2,27 @@
   "Image": "§ModImage§/Buffs/Guarded_Heart_Buff",
   "Name": "Guarded",
   "Types": [
-    "Buff"
+    "Buff",
+    "GenericBoostBuff"
   ],
   "Tooltip": [
     "Movement speed and damage increased"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>CORE Generator</a>",
+    "<a is=a-link image=$fromStats>Lover's Leap</a>",
+    "<a is=a-link image=$fromStats>Speed Booster</a>",
+    "<a is=a-link image=$fromStats>Last Descendant</a>",
+    "<a is=a-link image=$fromStats>Locket Necklace</a>",
+    "<a is=a-link image=$fromStats>Dryad's Inheritance</a>"
+  ],
+  "Duration": [
+    "8 seconds",
+    "8 seconds",
+    "8 seconds",
+    "8 seconds",
+    "8 seconds",
+    "8 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Guarded_Heart_Buff"

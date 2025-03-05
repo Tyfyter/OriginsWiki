@@ -7,6 +7,12 @@
   "Tooltip": [
     "You cannot regenerate mana naturally"
   ],
+  "Source": [
+    "<a is=a-link>Mana Shielding</a>"
+  ],
+  "Duration": [
+    "0.83 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Mana_Buffer_Debuff"
 }

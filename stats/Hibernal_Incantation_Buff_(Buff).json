@@ -7,6 +7,12 @@
   "Tooltip": [
     "Mods.Origins.Buffs.Hibernal_Incantation_Buff.Description"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Hibernal Incantation</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Hibernal_Incantation_Buff"
 }

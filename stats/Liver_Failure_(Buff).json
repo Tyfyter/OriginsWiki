@@ -7,6 +7,14 @@
   "Tooltip": [
     "It smells of copper wire..."
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Lousy Liver</a>",
+    "<a is=a-link image=$fromStats>Cirrhosis' Abhorrence</a>"
+  ],
+  "Duration": [
+    "0.17 seconds",
+    "0.15 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Lousy_Liver_Debuff"
 }

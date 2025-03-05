@@ -2,10 +2,23 @@
   "Image": "§ModImage§/Buffs/Purifying_Buff",
   "Name": "Purifying",
   "Types": [
-    "Buff"
+    "Buff",
+    "FurnitureBuff",
+    "EnvironmentalBuff",
+    "Consumable"
   ],
   "Tooltip": [
     "You are being healed of your assimilation"
+  ],
+  "Source": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a>",
+    "<a is=a-link image=$fromStats>Cleansing Station</a>",
+    "<a is=a-link image=$fromStats>Mojo Flask</a>"
+  ],
+  "Duration": [
+    "2 seconds",
+    "2 seconds",
+    "0.33 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Purifying_Buff"

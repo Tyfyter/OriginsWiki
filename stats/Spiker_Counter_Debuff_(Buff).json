@@ -7,6 +7,12 @@
   "Tooltip": [
     "Mods.Origins.Buffs.Spiker_Counter_Debuff.Description"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Spiker Sword</a>"
+  ],
+  "Duration": [
+    "2 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Spiker_Counter_Debuff"
 }

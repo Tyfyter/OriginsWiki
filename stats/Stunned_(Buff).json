@@ -7,6 +7,12 @@
   "Tooltip": [
     "You cannot move"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Tyrfing</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Stunned_Debuff"
 }
