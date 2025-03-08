@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Riven_Assimilation",
   "Name": "Riven Assimilation",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "You're being assimilated by the Riven Hive"

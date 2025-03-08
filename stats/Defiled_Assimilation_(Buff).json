@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Defiled_Assimilation",
   "Name": "Defiled Assimilation",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "You're being assimilated by The Defiled Wastelands"

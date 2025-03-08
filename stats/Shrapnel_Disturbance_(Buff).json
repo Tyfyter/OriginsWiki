@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Slag_Bucket_Debuff",
   "Name": "Shrapnel Disturbance",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "You cannot regenerate life"

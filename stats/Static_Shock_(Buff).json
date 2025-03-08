@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Buffs/Static_Shock_Debuff",
   "Name": "Static Shock",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "It hurts to be near conductors!"

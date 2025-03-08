@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Other/Consumables/Mojo_Flask_Cooldown",
   "Name": "Mojo Sickness",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "A little too refreshing..."

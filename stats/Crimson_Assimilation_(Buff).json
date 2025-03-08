@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Crimson_Assimilation",
   "Name": "Crimson Assimilation",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "You're being assimilated by the Crimson"

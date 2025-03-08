@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Corrupt_Assimilation",
   "Name": "Corrupt Assimilation",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "You're being assimilated by the Corruption"

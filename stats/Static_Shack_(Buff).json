@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Static_Shock_Debuff",
   "Name": "Static Shack",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "Those don't tend to move"

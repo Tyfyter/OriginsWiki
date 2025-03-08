@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Optiphage_Debuff",
   "Name": "Optiphagy",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "It's on your eyeball!"

@@ -2,7 +2,9 @@
   "Image": "§ModImage§/Buffs/Rasterized_Debuff",
   "Name": "Rasterized",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "There goes all your bandwidth..."

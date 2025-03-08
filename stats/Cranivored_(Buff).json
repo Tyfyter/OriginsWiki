@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Cranivore_Debuff",
   "Name": "Cranivored",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff"
   ],
   "Tooltip": [
     "It's on your face!"

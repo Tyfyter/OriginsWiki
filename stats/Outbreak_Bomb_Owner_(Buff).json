@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Projectile_513",
   "Name": "Outbreak Bomb Owner",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "Stop getting everyone sick"

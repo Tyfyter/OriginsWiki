@@ -2,7 +2,10 @@
   "Image": "§ModImage§/Buffs/Toxic_Shock_Debuff",
   "Name": "Toxic Shock",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff",
+    "EnvironmentBuff"
   ],
   "Tooltip": [
     "The agony is getting to you."

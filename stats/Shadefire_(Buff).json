@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Shadefire_Debuff",
   "Name": "Shadefire",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "The flame doesn't go out in the dark"

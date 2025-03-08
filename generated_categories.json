@@ -2169,6 +2169,7 @@
       "Stack_of_Shraps",
       "Static_Shack_(Buff)",
       "Static_Shock_(Buff)",
+      "Static_Shock_Damage_Debuff",
       "Stealth_Ravel_Mount_Buff",
       "Sticky_Link_Grenade",
       "Stone_Mask",
@@ -4131,6 +4132,7 @@
       "Startillery",
       "Static_Shack_(Buff)",
       "Static_Shock_(Buff)",
+      "Static_Shock_Damage_Debuff",
       "Stealth_Ravel",
       "Stealth_Ravel_Mount_Buff",
       "Sticky_Link_Grenade",
@@ -5029,6 +5031,7 @@
       "Shrapnel_Disturbance_(Buff)",
       "Static_Shack_(Buff)",
       "Static_Shock_(Buff)",
+      "Static_Shock_Damage_Debuff",
       "Torn_(Buff)",
       "Torn_Decay_Debuff",
       "Toxic_Shock_(Buff)",
@@ -5145,39 +5148,47 @@
   },
   "enemydebuff": {
     "name": "Enemy Debuff",
-    "items": []
-  },
-  "itemdebuff": {
-    "name": "Item Debuff",
-    "items": []
-  },
-  "environmentdebuff": {
-    "name": "Environment Debuff",
-    "items": []
-  },
-  "otherdebuff": {
-    "name": "Other Debuff",
     "items": [
-      "Blind_Debuff_(Buff)",
-      "Cavitation_(Buff)",
       "Corrupt_Assimilation_(Buff)",
       "Cranivored_(Buff)",
       "Crimson_Assimilation_(Buff)",
       "Defiled_Assimilation_(Buff)",
-      "Impeding_Shrapnel_(Buff)",
-      "Mojo_Sickness_(Buff)",
       "Optiphagy_(Buff)",
-      "Outbreak_Bomb_Owner_(Buff)",
       "Rasterized_(Buff)",
       "Riven_Assimilation_(Buff)",
+      "Static_Shock_(Buff)",
+      "Torn_(Buff)",
+      "Torn_Decay_Debuff",
+      "Toxic_Shock_(Buff)"
+    ]
+  },
+  "itemdebuff": {
+    "name": "Item Debuff",
+    "items": [
+      "Blind_Debuff_(Buff)",
+      "Cavitation_(Buff)",
+      "Impeding_Shrapnel_(Buff)",
+      "Mojo_Sickness_(Buff)",
+      "Outbreak_Bomb_Owner_(Buff)",
+      "Rasterized_(Buff)",
       "Shadefire_(Buff)",
       "Shrapnel_Disturbance_(Buff)",
       "Static_Shack_(Buff)",
       "Static_Shock_(Buff)",
-      "Torn_(Buff)",
-      "Torn_Decay_Debuff",
       "Toxic_Shock_(Buff)",
       "Weakened_(Buff)"
+    ]
+  },
+  "environmentdebuff": {
+    "name": "Environment Debuff",
+    "items": [
+      "Toxic_Shock_(Buff)"
+    ]
+  },
+  "otherdebuff": {
+    "name": "Other Debuff",
+    "items": [
+      "Static_Shock_Damage_Debuff"
     ]
   }
 }

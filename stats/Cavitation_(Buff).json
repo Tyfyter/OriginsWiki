@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Buffs/Cavitation_Debuff",
   "Name": "Cavitation",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "You got the wind knocked out of you."

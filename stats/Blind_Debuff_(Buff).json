@@ -2,7 +2,8 @@
   "Image": "Terraria/Images/Buff_22",
   "Name": "Blind Debuff",
   "Types": [
-    "Debuff"
+    "Debuff",
+    "ItemBuff"
   ],
   "Tooltip": [
     "Mods.Origins.Buffs.Blind_Debuff.Description"
