@@ -7,6 +7,12 @@
   "Tooltip": [
     "You're being assimilated by the Corruption"
   ],
+  "Source": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Corruption\">The Corruption</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Corrupt_Assimilation"
 }

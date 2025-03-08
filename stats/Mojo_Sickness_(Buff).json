@@ -7,6 +7,12 @@
   "Tooltip": [
     "A little too refreshing..."
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Mojo Flask</a>"
+  ],
+  "Duration": [
+    "5 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Mojo_Flask_Cooldown"
 }

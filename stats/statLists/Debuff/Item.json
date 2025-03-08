@@ -1,6 +1,6 @@
 {
     "categories": [
-      "consumablebuff"
+      "itemdebuff"
     ],
     "extends": {
       "name": "Buff/Buffs"

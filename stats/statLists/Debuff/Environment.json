@@ -1,6 +1,6 @@
 {
     "categories": [
-      "consumablebuff"
+      "environmentdebuff"
     ],
     "extends": {
       "name": "Buff/Buffs"

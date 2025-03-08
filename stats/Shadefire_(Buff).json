@@ -7,6 +7,12 @@
   "Tooltip": [
     "The flame doesn't go out in the dark"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Soulhide Armor</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Shadefire_Debuff"
 }

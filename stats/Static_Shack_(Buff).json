@@ -7,6 +7,14 @@
   "Tooltip": [
     "Those don't tend to move"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Shock Collar</a>",
+    "<a is=a-link image=$fromStats>Lightning Ring</a>"
+  ],
+  "Duration": [
+    "3 seconds",
+    "3 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Mini_Static_Shock_Debuff"
 }

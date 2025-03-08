@@ -370,5 +370,21 @@
   "otherbuff":{
     "name":"Other Buff",
     "items":"Types<Buff & -Types<ConsumableBuff & -Types<SummonBuff & -Types<MountBuff & -Types<EquipmentBuff & -Types<EnvironmentBuff & -Types<FurnitureBuff"
+  },
+  "enemydebuff":{
+    "name":"Enemy Debuff",
+    "items":"Types<Debuff & Types<EnemyBuff"
+  },
+  "itemdebuff":{
+    "name":"Item Debuff",
+    "items":"Types<Debuff & Types<ItemBuff"
+  },
+  "environmentdebuff":{
+    "name":"Environment Debuff",
+    "items":"Types<Debuff & Types<EnvironmentBuff"
+  },
+  "otherdebuff":{
+    "name":"Other Debuff",
+    "items":"Types<Debuff & -Types<EnemyBuff & -Types<ItemBuff & -Types<EnvironmentBuff"
   }
 }

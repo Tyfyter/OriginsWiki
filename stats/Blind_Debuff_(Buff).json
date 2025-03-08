@@ -7,6 +7,14 @@
   "Tooltip": [
     "Mods.Origins.Buffs.Blind_Debuff.Description"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Flashbang</a>",
+    "<a is=a-link image=$fromStats>Partybringer</a>"
+  ],
+  "Duration": [
+    "2 seconds",
+    "1.67 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Blind_Debuff"
 }

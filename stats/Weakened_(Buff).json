@@ -7,6 +7,12 @@
   "Tooltip": [
     "Damage reduced by 15%"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Soulhide Armor</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Soulhide_Weakened_Debuff"
 }

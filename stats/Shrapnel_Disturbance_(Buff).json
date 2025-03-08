@@ -7,6 +7,12 @@
   "Tooltip": [
     "You cannot regenerate life"
   ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
   "SpriteWidth": 32,
   "InternalName": "Slag_Bucket_Debuff"
 }

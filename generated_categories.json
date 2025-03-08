@@ -2060,7 +2060,6 @@
       "Rivenator",
       "Riven_Altar_(Debugging_Item)",
       "Riven_Armor",
-      "Riven_Assimilation",
       "Riven_Assimilation_(Buff)",
       "Riven_Campfire",
       "Riven_Carapace",
@@ -2209,6 +2208,7 @@
       "Tire",
       "Tones_of_Agony",
       "Torn_(Buff)",
+      "Torn_Decay_Debuff",
       "Torn_Ghoul",
       "Toxic_Shocker_(Buff)",
       "Toxic_Shock_(Buff)",
@@ -3995,7 +3995,6 @@
       "Rivenator",
       "Riven_Altar_(Debugging_Item)",
       "Riven_Armor",
-      "Riven_Assimilation",
       "Riven_Assimilation_(Buff)",
       "Riven_Campfire",
       "Riven_Carapace",
@@ -4187,6 +4186,7 @@
       "Tolruk",
       "Tones_of_Agony",
       "Torn_(Buff)",
+      "Torn_Decay_Debuff",
       "Torn_Ghoul",
       "Toxic_Shocker_(Buff)",
       "Toxic_Shock_(Buff)",
@@ -5024,13 +5024,13 @@
       "Optiphagy_(Buff)",
       "Outbreak_Bomb_Owner_(Buff)",
       "Rasterized_(Buff)",
-      "Riven_Assimilation",
       "Riven_Assimilation_(Buff)",
       "Shadefire_(Buff)",
       "Shrapnel_Disturbance_(Buff)",
       "Static_Shack_(Buff)",
       "Static_Shock_(Buff)",
       "Torn_(Buff)",
+      "Torn_Decay_Debuff",
       "Toxic_Shock_(Buff)",
       "Weakened_(Buff)"
     ]
@@ -5141,6 +5141,43 @@
       "Mimic_Buff_(Buff)",
       "Shipped_(Buff)",
       "Soulhide_Debuff_(Buff)"
+    ]
+  },
+  "enemydebuff": {
+    "name": "Enemy Debuff",
+    "items": []
+  },
+  "itemdebuff": {
+    "name": "Item Debuff",
+    "items": []
+  },
+  "environmentdebuff": {
+    "name": "Environment Debuff",
+    "items": []
+  },
+  "otherdebuff": {
+    "name": "Other Debuff",
+    "items": [
+      "Blind_Debuff_(Buff)",
+      "Cavitation_(Buff)",
+      "Corrupt_Assimilation_(Buff)",
+      "Cranivored_(Buff)",
+      "Crimson_Assimilation_(Buff)",
+      "Defiled_Assimilation_(Buff)",
+      "Impeding_Shrapnel_(Buff)",
+      "Mojo_Sickness_(Buff)",
+      "Optiphagy_(Buff)",
+      "Outbreak_Bomb_Owner_(Buff)",
+      "Rasterized_(Buff)",
+      "Riven_Assimilation_(Buff)",
+      "Shadefire_(Buff)",
+      "Shrapnel_Disturbance_(Buff)",
+      "Static_Shack_(Buff)",
+      "Static_Shock_(Buff)",
+      "Torn_(Buff)",
+      "Torn_Decay_Debuff",
+      "Toxic_Shock_(Buff)",
+      "Weakened_(Buff)"
     ]
   }
 }
