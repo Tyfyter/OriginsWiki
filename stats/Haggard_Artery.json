@@ -3,6 +3,7 @@
   "Name": "Haggard Artery",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "Accessory"
   ],

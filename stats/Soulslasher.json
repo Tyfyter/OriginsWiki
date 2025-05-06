@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Soulslasher",
+  "Name": "Soulslasher",
+  "Types": [
+    "Item",
+    "Sword",
+    "Weapon"
+  ],
+  "Damage": 27,
+  "DamageClass": "Melee",
+  "Knockback": 6.0,
+  "UseTime": 27,
+  "Velocity": 10.0,
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> + (4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soulslasher</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 46,
+  "InternalName": "Soulslasher"
+}

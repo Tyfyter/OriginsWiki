@@ -3,6 +3,7 @@
   "Name": "Forbidden Voice",
   "Types": [
     "Item",
+    "Lore",
     "Accessory",
     "Hardmode"
   ],

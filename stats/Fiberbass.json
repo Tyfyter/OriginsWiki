@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Fiberbass",
+  "Name": "Fiberbass",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Quest",
+  "SpriteWidth": 40,
+  "InternalName": "Fiberbass"
+}

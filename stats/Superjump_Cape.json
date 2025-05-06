@@ -4,11 +4,10 @@
   "Types": [
     "Item",
     "Movement",
-    "Accessory",
-    "Hardmode"
+    "Accessory"
   ],
   "Tooltip": "Allows for a super high jump and negates fall damage",
-  "Rarity": "LightRed",
+  "Rarity": "Orange",
   "Sell": 10000,
   "Source": "<a is=a-link href=https://terraria.wiki.gg/wiki/Zombie#Variants>Superman Zombie</a>",
   "DropSources": [
@@ -32,6 +31,22 @@
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Feather Cape</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Feathery Crest</a>",
+            "<a is=a-link image=$fromStats>Superjump Cape</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 24,

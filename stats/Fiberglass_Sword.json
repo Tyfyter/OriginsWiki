@@ -10,6 +10,7 @@
   "DamageClass": "Melee",
   "Knockback": 2.0,
   "UseTime": 16,
+  "Velocity": 11.0,
   "Tooltip": "'Be careful, it's sharp'",
   "Rarity": "Green",
   "Source": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a><div class=divider></div><a is=a-link image=$fromStats>Fiberglass Weaver</a>",

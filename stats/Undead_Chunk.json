@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Undead_Chunk",
   "Name": "Undead Chunk",
   "Types": [
-    "Item"
+    "Item",
+    "Lore"
   ],
   "Rarity": "Blue",
   "Sell": 150,
@@ -201,6 +202,14 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Nerve Flan</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a> (100)",
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (8)"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Ripper Lance</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Defiled Bar</a> (9)",
@@ -220,6 +229,14 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Defiled Bar</a> (12)",
             "<a is=a-link image=$fromStats>Undead Chunk</a> (5)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Inject Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (6)"
           ]
         }
       ]

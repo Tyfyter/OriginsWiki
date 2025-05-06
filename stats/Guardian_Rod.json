@@ -1,0 +1,44 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Guardian_Rod",
+  "Name": "Guardian Rod",
+  "Types": [
+    "Item",
+    "Minion",
+    "Weapon"
+  ],
+  "ManaCost": 18,
+  "Damage": 30,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "Summons a miniature Felnum Guardian to fight for you",
+  "Rarity": "Green",
+  "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 46,
+  "InternalName": "Guardian_Rod"
+}

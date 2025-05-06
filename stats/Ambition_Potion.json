@@ -6,8 +6,9 @@
   ],
   "UseTime": 17,
   "Tooltip": [
-    "2.5% increased damage, crit chance, weapon speed",
-    "12.5% stat share "
+    "12.5% stat share",
+    "+10% generic weapon velocity",
+    "+10% melee weapon size"
   ],
   "Rarity": "Blue",
   "Sell": 200,

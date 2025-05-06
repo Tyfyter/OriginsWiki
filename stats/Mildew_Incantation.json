@@ -1,0 +1,45 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Mildew_Incantation",
+  "Name": "Mildew Incantation",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Incantation",
+    "Hardmode"
+  ],
+  "ManaCost": 14,
+  "Damage": 50,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 26,
+  "Velocity": 10.0,
+  "Tooltip": "Cast mildew spores that summon miniature creepers on tiles",
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.04347826,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.04347826,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.04347826,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Mildew_Incantation"
+}

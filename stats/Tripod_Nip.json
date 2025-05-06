@@ -3,6 +3,7 @@
   "Name": "Tripod Nip",
   "Types": [
     "Item",
+    "Lore",
     "Misc",
     "LoreItem",
     "Accessory",

@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Riven_Carapace",
   "Name": "Riven Carapace",
   "Types": [
-    "Item"
+    "Item",
+    "Lore"
   ],
   "Rarity": "Blue",
   "Sell": 150,
@@ -172,6 +173,13 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Impetus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (8)"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Decimator</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Encrusted Bar</a> (9)",
@@ -207,7 +215,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>NE8</a>",
+          "result": "<a is=a-link image=$fromStats>NE-8</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Riven Carapace</a>"
           ]

@@ -1,0 +1,26 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/The_Bird",
+  "Name": "The Bird",
+  "Types": [
+    "Item",
+    "Sword",
+    "DeveloperItem",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 99,
+  "DamageClass": "Melee",
+  "Knockback": 16.0,
+  "Crit": 25,
+  "UseTime": 20,
+  "Velocity": 1.0,
+  "Tooltip": [
+    "Perfectly time your swings to deal incredible damage",
+    "Developer item",
+    "'How's being 96000/r in the air going for yah? Thought so'"
+  ],
+  "Rarity": "Cyan",
+  "Sell": 20,
+  "SpriteWidth": 36,
+  "InternalName": "The_Bird"
+}

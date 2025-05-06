@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Charm_Of_Naivety",
+  "Name": "Charm of Naivety",
+  "Types": [
+    "Item",
+    "Vitality",
+    "ExplosiveBoostAcc",
+    "SelfDamageProtek",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Up to 65% of your max life is gradually converted into mildew health",
+    "Mildew health regenerates faster than regular health",
+    "Your death is delayed for as long as your max mildew health decays",
+    "-20% self-damage",
+    "Rapidly regenerate life after taking self-damage"
+  ],
+  "Rarity": "Green",
+  "Sell": 20000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Mildew Heart</a> +  <a is=a-link image=$fromStats imageOnly>Bomb Charm of Regeneration</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Charm of Naivety</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm of Regeneration</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Charm_Of_Naivety"
+}

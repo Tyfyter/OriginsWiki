@@ -3,13 +3,15 @@
   "Name": "Low Signal",
   "Types": [
     "Item",
+    "Lore",
     "Wand",
     "Weapon"
   ],
   "ManaCost": 9,
-  "Damage": 40,
+  "Damage": 48,
   "DamageClass": "Magic",
   "Knockback": 5.0,
+  "Crit": 9,
   "UseTime": 46,
   "Velocity": 16.0,
   "Rarity": "Blue",

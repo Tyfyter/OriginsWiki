@@ -10,14 +10,14 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 81,
+  "Damage": 65,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 25,
-  "Velocity": 5.0,
+  "Velocity": 7.5,
   "Tooltip": "Explodes into brine droplets",
   "Rarity": "LightRed",
   "Sell": 200,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000</a-coins>After selling 230 peat moss to the Demolitionist, In hardmode)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>1000</a-coins>After selling 230 peat moss to the Demolitionist, After defeating the Lost Diver)",
   "Recipes": [
     {
       "stations": [

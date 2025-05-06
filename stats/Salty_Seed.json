@@ -3,6 +3,7 @@
   "Name": "Salty Seed",
   "Types": [
     "Item",
+    "Lore",
     "Tool",
     "Accessory",
     "Hardmode"

@@ -9,7 +9,7 @@
   ],
   "Tooltip": [
     "Extends underwater breathing",
-    "Immunity to ‘Suffocation’"
+    "Immunity to 'Suffocation'"
   ],
   "Rarity": "LightRed",
   "Sell": 10000,
@@ -48,6 +48,13 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Air Tank</a>",
             "<a is=a-link image=$fromStats>Bomb Handling Device</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Rebreather Gear</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rebreather</a>",
+            "<a is=a-link image=$fromStats>Air Tank</a>"
           ]
         }
       ]

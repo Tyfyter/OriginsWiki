@@ -16,6 +16,20 @@
       ],
       "items": [
         {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fruit_Juice\">Fruit Juice</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Apple\" href=Recipe_Groups>Any Fruit</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fruit_Salad\">Fruit Salad</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Apple\" href=Recipe_Groups>Any Fruit</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl\">Bowl</a>"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Jelly Schnapps</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>",
@@ -39,7 +53,6 @@
       ]
     }
   ],
-  "Source": "<a is=a-link image=$fromStats>Exoskeletal Tree</a>",
   "SpriteWidth": 26,
   "InternalName": "Periven"
 }

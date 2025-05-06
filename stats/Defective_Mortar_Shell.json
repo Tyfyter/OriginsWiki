@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Defective_Mortar_Shell",
+  "Name": "Defective Mortar Shell",
+  "Types": [
+    "Item",
+    "Torn",
+    "TornSource",
+    "Weapon",
+    "Sentry"
+  ],
+  "ManaCost": 12,
+  "Damage": 38,
+  "DamageClass": "Summon",
+  "Knockback": 6.0,
+  "UseTime": 36,
+  "Velocity": 1.0,
+  "Tooltip": "Summons a mortar turret to fight for you",
+  "Rarity": "Blue",
+  "Sell": 5000,
+  "Source": "(9) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (10) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defective Mortar Shell</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE-8</a> (9)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 40,
+  "InternalName": "Defective_Mortar_Shell"
+}

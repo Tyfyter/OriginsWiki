@@ -3,6 +3,7 @@
   "Name": "Stack of Shraps",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "ExplosiveBoostAcc",
     "Accessory",

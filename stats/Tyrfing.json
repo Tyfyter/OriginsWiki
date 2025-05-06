@@ -1,24 +1,39 @@
 {
-  "Image": "Tyrfing",
+  "Image": "§ModImage§/Items/Weapons/Melee/Tyrfing",
   "Name": "Tyrfing",
   "Types": [
     "Item",
-    "Sword",
     "Weapon",
+    "OtherMelee",
     "Hardmode"
   ],
-  "Damage": 88,
+  "Damage": 62,
   "DamageClass": "Melee",
-  "Knockback": 9.0,
-  "UseTime": 88,
+  "Knockback": 4.0,
+  "UseTime": 17,
   "Tooltip": [
     "Receives 50% higher damage bonuses",
-    "Hold right click to stab",
-    "'Behold'"
+    "Hold Right Click for an alternate attack"
   ],
   "Rarity": "Lime",
   "Sell": 20000,
   "Source": "<b>Unobtainable</b>",
-  "SpriteWidth": 350,
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tyrfing</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Excalibur\">Excalibur</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 68,
   "InternalName": "Tyrfing"
 }

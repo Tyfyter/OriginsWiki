@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Faith_Beads",
+  "Name": "Faith Beads",
+  "Types": [
+    "Item",
+    "Lore",
+    "Misc",
+    "Accessory",
+    "Hardmode",
+    "Master"
+  ],
+  "Damage": 46,
+  "DamageClass": "Explosive",
+  "Knockback": 4.0,
+  "Tooltip": [
+    "Immunity to Suffocation and reduces damage from loss of breath",
+    "Grants the ability to swim and easy movement through liquids",
+    "All of your attacks inflict Cavitation, Wet and have a chance to cause explosions underwater",
+    "+40% explosive blast radius",
+    "'Only through struggle do we find ourselves'"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 80000,
+  "Source": "<a is=a-link image=$fromStats>Mildew Carrion</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Faith_Beads"
+}

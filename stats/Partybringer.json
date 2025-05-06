@@ -8,7 +8,7 @@
     "CanisterLauncher",
     "Hardmode"
   ],
-  "Damage": 40,
+  "Damage": 64,
   "ArmorPenetration": 5,
   "DamageClass": "Explosive Ranged",
   "UseTime": 40,

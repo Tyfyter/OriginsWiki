@@ -11,6 +11,22 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
+  "Source": "<a is=a-link image=$fromStats>Defiled Key</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Defiled Chest</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Key</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Defiled_Dungeon_Chest_Item",
   "Images": [

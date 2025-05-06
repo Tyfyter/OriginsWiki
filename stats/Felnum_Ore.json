@@ -2,6 +2,7 @@
   "Name": "Felnum Ore",
   "Types": [
     "Item",
+    "Lore",
     "Ore",
     "Tile"
   ],

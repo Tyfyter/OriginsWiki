@@ -145,6 +145,13 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Encrusted Ore</a> (3)"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Spug Flesh</a> (5)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a>"
+          ]
         }
       ]
     },

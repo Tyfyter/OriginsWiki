@@ -15,6 +15,37 @@
   "Velocity": 8.0,
   "Rarity": "LightRed",
   "Sell": 15000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a><div class=divider></div><a is=a-link image=$fromStats>Mildew Carrion</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
   "SpriteWidth": 36,
   "InternalName": "Depth_Charge"
 }

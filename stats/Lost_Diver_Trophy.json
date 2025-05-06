@@ -1,0 +1,51 @@
+{
+  "Name": "Lost Diver Trophy",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    3
+  ],
+  "UseTime": 10,
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a><div class=divider></div><a is=a-link image=$fromStats>Mildew Carrion</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Lost_Diver_Trophy_Item",
+  "Images": [
+    "§ModImage§/Tiles/BossDrops/Lost_Diver_Trophy_Item",
+    "Tiles/Lost_Diver_Trophy"
+  ]
+}

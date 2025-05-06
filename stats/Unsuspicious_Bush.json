@@ -1,0 +1,51 @@
+{
+  "Name": "Unsuspicious Bush",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Does absolutely nothing'",
+  "Rarity": "Green",
+  "Source": "<a is=a-link image=$fromStats>Generic Weapon</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Unsuspicious Bush</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Generic Weapon</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Generic Weapon</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Unsuspicious Bush</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Unsuspicious_Bush_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Unsuspicious_Bush_Item",
+    "Tiles/Unsuspicious_Bush"
+  ]
+}

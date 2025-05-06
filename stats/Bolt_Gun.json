@@ -6,11 +6,11 @@
     "Gun",
     "Weapon"
   ],
-  "Damage": 26,
+  "Damage": 38,
   "DamageClass": "Ranged",
   "Knockback": 5.0,
   "Crit": 8,
-  "UseTime": 17,
+  "UseTime": 38,
   "Velocity": 8.0,
   "Tooltip": "'Get boned'",
   "Rarity": "Green",

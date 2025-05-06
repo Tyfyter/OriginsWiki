@@ -7,7 +7,7 @@
     "Ammo"
   ],
   "Damage": 15,
-  "ArmorPenetration": 3,
+  "ArmorPenetration": 15,
   "DamageClass": "Explosive Ranged",
   "Tooltip": "Releases bees in its wake",
   "Rarity": "Orange",

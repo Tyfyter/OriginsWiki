@@ -8,7 +8,7 @@
     "Hardmode"
   ],
   "ManaCost": 28,
-  "Damage": 27,
+  "Damage": 60,
   "DamageClass": "Magic",
   "Knockback": 6.0,
   "UseTime": 30,

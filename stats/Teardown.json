@@ -3,6 +3,7 @@
   "Name": "Teardown",
   "Types": [
     "Item",
+    "Lore",
     "Weapon",
     "Minion"
   ],

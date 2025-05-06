@@ -1,0 +1,12 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Crimson_Loot_Box",
+  "Name": "Crimson Loot Box",
+  "Types": [
+    "Item",
+    "Expert"
+  ],
+  "Tooltip": "Right Click to open",
+  "Rarity": "Yellow",
+  "SpriteWidth": 28,
+  "InternalName": "Crimson_Loot_Box"
+}

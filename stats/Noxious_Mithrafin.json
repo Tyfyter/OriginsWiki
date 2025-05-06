@@ -1,0 +1,53 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Noxious_Mithrafin",
+  "Name": "Noxious Mithrafin",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Extends any Poison, Acid Venom or Toxic Shock inflicted onto enemies",
+    "Reduces the duration of these effects when applied to you",
+    "Attacks inflict Toxic Shock",
+    "Effects are stronger while Acrid Armor is equipped"
+  ],
+  "Rarity": "Pink",
+  "Sell": 30000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Mithrafin</a> +  <a is=a-link image=$fromStats imageOnly>Venom Fang</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Noxious Mithrafin</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mithrafin</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ornamental Keepsake</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Keepsake Remains</a>",
+            "<a is=a-link image=$fromStats>Noxious Mithrafin</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 48,
+  "InternalName": "Noxious_Mithrafin"
+}

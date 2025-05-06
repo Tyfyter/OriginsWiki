@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/Soldering_Iron",
+  "Name": "Soldering Iron",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Spear"
+  ],
+  "Damage": 48,
+  "DamageClass": "Melee",
+  "Knockback": 5.0,
+  "UseTime": 40,
+  "Velocity": 1.0,
+  "Tooltip": "Release your input right as it strikes for a critical hit",
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(5) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (9) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soldering Iron</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE-8</a> (5)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 72,
+  "InternalName": "Soldering_Iron"
+}

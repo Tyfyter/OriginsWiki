@@ -11,31 +11,36 @@
     2
   ],
   "UseTime": 15,
+  "Tooltip": "Right Click to open",
   "Rarity": "LightRed",
   "Sell": 10000,
   "Drops": [
     {
       "Name": "The Kruncher",
-      "Chance": "25%"
+      "Chance": "20%"
     },
     {
       "Name": "Musket Ball",
-      "Chance": "25%",
+      "Chance": "20%",
       "Amount": 100,
       "LinkOverride": "https://terraria.wiki.gg/wiki/Musket_Ball",
       "ImageOverride": ""
     },
     {
       "Name": "Dim Starlight",
-      "Chance": "25%"
+      "Chance": "20%"
+    },
+    {
+      "Name": "Relay Rod",
+      "Chance": "20%"
     },
     {
       "Name": "Krakram",
-      "Chance": "25%"
+      "Chance": "20%"
     },
     {
       "Name": "Suspicious Looking Pebble",
-      "Chance": "25%"
+      "Chance": "20%"
     },
     {
       "Name": "Gold Coin",

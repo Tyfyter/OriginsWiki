@@ -9,16 +9,15 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 50,
-  "ArmorPenetration": 2,
+  "Damage": 30,
+  "ArmorPenetration": 4,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 13.0,
-  "UseTime": 28,
-  "Velocity": 4.75,
+  "UseTime": 25,
+  "Velocity": 5.75,
   "Tooltip": "Explodes into shrapnel",
   "Rarity": "Blue",
   "Sell": 180,
-  "Source": "(4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>900</a-coins>After selling 125 peat moss to the Demolitionist, After defeating the Scrapper)",
+  "Source": "(4) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bomb\">Bomb</a> +  <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>900</a-coins>After selling 125 peat moss to the Demolitionist, Mods.Origins.Conditions.DownedScrapper)",
   "Recipes": [
     {
       "stations": [

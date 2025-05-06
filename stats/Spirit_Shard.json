@@ -3,12 +3,16 @@
   "Name": "Spirit Shard",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
-    "LoreItem",
     "SummonBoostAcc",
     "Accessory"
   ],
-  "Tooltip": "Artifact minions turn into ghosts of their former selves upon death",
+  "Tooltip": [
+    "Artifact minions turn into ghosts of their former selves upon death",
+    "10% increased summon damage",
+    "+2 minion slots"
+  ],
   "Rarity": "Green",
   "Source": "When nearby a <a is=a-link href=https://terraria.wiki.gg/wiki/Dark_Lamia>Dark Lamia</a> while <a is=a-link image=$fromStats>Eccentric Stone</a> is in the player's inventory",
   "SpriteWidth": 16,

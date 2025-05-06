@@ -158,6 +158,13 @@
             "<a is=a-link image=$fromStats>Eitrite Bar</a> (13)",
             "<a is=a-link image=$fromStats>Rubber</a> (10)"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Hydrolantern</a> (8)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a>",
+            "<a is=a-link image=$fromStats>Rubber</a> (8)"
+          ]
         }
       ]
     },

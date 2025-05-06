@@ -108,7 +108,14 @@
           "result": "<a is=a-link image=$fromStats>Resizable Mine III</a> (8)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
-            "<a is=a-link image=$fromStats>Encrusted Bar</a> (2)"
+            "<a is=a-link image=\"RecipeGroups/DemoniteBar\" href=Recipe_Groups>Any Evil Bar</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Impetus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Riven Carapace</a> (8)"
           ]
         },
         {

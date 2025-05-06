@@ -29,6 +29,20 @@
   "UsedIn": [
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Desert_Torch\">Desert Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Quartz</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=Work_Benches>Work Bench</a>"
       ],
       "items": [

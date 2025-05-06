@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Akaliegis",
+  "Name": "Alkaliegis",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "15% damage reduction while an artifact minion is active",
+    "Artifact minions heal while at max life"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Brine Fiend</a> (<a-coins>50000</a-coins>After completing \"Basic Brewery\")",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tiki Buckler</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pygmy_Necklace\">Pygmy Necklace</a>",
+            "<a is=a-link image=$fromStats>Alkaliegis</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Akaliegis"
+}

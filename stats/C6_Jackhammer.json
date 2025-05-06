@@ -3,21 +3,22 @@
   "Name": "C6 Jackhammer",
   "Types": [
     "Item",
+    "Lore",
     "ToolWeapon",
     "Tool",
     "Weapon",
     "OtherMelee"
   ],
-  "HammerPower": 55,
-  "Damage": 18,
+  "HammerPower": 54,
+  "Damage": 24,
   "DamageClass": "Melee",
-  "Knockback": 9.0,
+  "Knockback": 6.0,
   "UseTime": 4,
   "Velocity": 4.0,
   "Tooltip": "Right Click to mine a larger area",
   "Rarity": "Blue",
-  "Sell": 4000,
-  "Source": "(5) <a is=a-link image=$fromStats imageOnly>NE8</a> + (10) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Sell": 4800,
+  "Source": "(6) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (12) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -27,8 +28,8 @@
         {
           "result": "<a is=a-link image=$fromStats>C6 Jackhammer</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (5)",
-            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+            "<a is=a-link image=$fromStats>NE-8</a> (6)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
           ]
         }
       ]

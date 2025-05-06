@@ -1,0 +1,39 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Fumethrower",
+  "Name": "Fumethrower",
+  "Types": [
+    "Item",
+    "Gun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 25,
+  "ArmorPenetration": 25,
+  "DamageClass": "Ranged",
+  "Knockback": 0.425,
+  "UseTime": 5,
+  "Velocity": 12.0,
+  "Tooltip": "Spits colorful flames",
+  "Rarity": "LightRed",
+  "Sell": 30000,
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> + (20) <a is=a-link image=$fromStats imageOnly>Baryte</a> + (8) <a is=a-link image=$fromStats imageOnly>Brineglow</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Fumethrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (10)",
+            "<a is=a-link image=$fromStats>Baryte</a> (20)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 60,
+  "InternalName": "Fumethrower"
+}

@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Partybringer_Turret_Pods",
+  "Name": "The Ultimate Death Firework Launcher Of Mega Destruction™ (Patent Pending)",
+  "Types": [
+    "Item",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
+  ],
+  "Damage": 80,
+  "ArmorPenetration": 15,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 10,
+  "Velocity": 12.0,
+  "Rarity": "Cyan",
+  "Sell": 2400,
+  "SpriteWidth": 42,
+  "InternalName": "The_Ultimate_Death_Firework_Launcher_Of_Mega_Destruction"
+}

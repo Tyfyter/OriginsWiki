@@ -7,9 +7,9 @@
   ],
   "Defense": 3,
   "ArmorSlot": "Shirt",
-  "Tooltip": "Reduces damage taken from projectiles by 10%",
+  "Tooltip": "+10% damage reduction",
   "Rarity": "Blue",
-  "Sell": 3000,
+  "Sell": 150,
   "Source": "(25) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {

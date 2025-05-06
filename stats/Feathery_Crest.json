@@ -1,0 +1,63 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Feathery_Crest",
+  "Name": "Feathery Crest",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Your gravity while jumping is reduced",
+    "Holding down increases your falling acceleration"
+  ],
+  "Rarity": "Blue",
+  "Sell": 8500,
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a>",
+      "Rate": 0.033333335,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a>",
+      "Rate": 0.033333335,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Harpy\">Harpy</a>",
+      "Rate": 0.033333335,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Feather Cape</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Feathery Crest</a>",
+            "<a is=a-link image=$fromStats>Superjump Cape</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Harpy Horseshoe Balloon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon\">Blue Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Feathery Crest</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Feathery_Crest"
+}

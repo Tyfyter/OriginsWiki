@@ -1,0 +1,19 @@
+{
+  "Name": "Peat Moss Debug Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Peat_Moss_Debug_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Peat_Moss_Item",
+    "Tiles/Peat_Moss_Debug_Item"
+  ]
+}

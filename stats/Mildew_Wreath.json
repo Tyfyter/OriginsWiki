@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Armor/Mildew/Mildew_Helmet",
+  "Name": "Mildew Wreath",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 6,
+  "ArmorSlot": "Helmet",
+  "Tooltip": [
+    "Incantations slightly home to targets",
+    "+10% summon damage and +10% additional artifact damage"
+  ],
+  "Rarity": "Pink",
+  "Source": "(13) <a is=a-link image=$fromStats imageOnly>Mildew Block</a> + (10) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mildew Wreath</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Block</a> (13)",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Mildew_Helmet"
+}

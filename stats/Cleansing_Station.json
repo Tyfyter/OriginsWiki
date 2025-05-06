@@ -9,10 +9,10 @@
     2
   ],
   "UseTime": 10,
-  "Tooltip": "Use to cleanse all assimilation",
+  "Tooltip": "Use to cleanse all assimilation while not in an evil biome",
   "Rarity": "Green",
   "Sell": 10000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>50000</a-coins>After completing \"I’ll Give You a Deal\")",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>50000</a-coins>After completing \"I'll Give You a Deal\")",
   "SpriteWidth": 26,
   "InternalName": "Cleansing_Station_Item",
   "Images": [

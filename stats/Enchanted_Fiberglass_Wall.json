@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/Walls/Fiberglass_Wall_Item",
+  "Name": "Enchanted Fiberglass Wall",
+  "Types": [
+    "Item",
+    "Wall"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Wall</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Enchanted Fiberglass Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fiberglass Wall</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Enchanted_Fiberglass_Wall_Item"
+}

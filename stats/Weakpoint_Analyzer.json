@@ -3,6 +3,7 @@
   "Name": "Weakpoint Analyzer",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "RangedBoostAcc",
     "Accessory",

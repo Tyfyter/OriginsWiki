@@ -3,6 +3,7 @@
   "Name": "Asylum Whistle",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "SummonBoostAcc",
     "LoreItem",

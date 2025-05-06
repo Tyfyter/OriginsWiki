@@ -3,6 +3,7 @@
   "Name": "Breach",
   "Types": [
     "Item",
+    "Lore",
     "OtherMagic",
     "Weapon",
     "Hardmode"

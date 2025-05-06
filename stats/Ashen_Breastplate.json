@@ -3,6 +3,7 @@
   "Name": "Ashen Breastplate",
   "Types": [
     "Item",
+    "Lore",
     "Armor"
   ],
   "Defense": 7,
@@ -10,7 +11,7 @@
   "Tooltip": "+8% weapon speed",
   "Rarity": "Blue",
   "Sell": 8000,
-  "Source": "(20) <a is=a-link image=$fromStats imageOnly>NE8</a> + (25) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(20) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (25) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -20,7 +21,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Ashen Breastplate</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (20)",
+            "<a is=a-link image=$fromStats>NE-8</a> (20)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (25)"
           ]
         }

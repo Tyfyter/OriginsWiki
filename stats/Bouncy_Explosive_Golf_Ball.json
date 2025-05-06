@@ -1,5 +1,5 @@
 {
-  "Image": "Terraria/Images/Item_4242",
+  "Image": "Terraria/Images/Item_4249",
   "Name": "Bouncy Explosive Golf Ball",
   "Types": [
     "Item",
@@ -13,6 +13,23 @@
   "Velocity": 12.0,
   "Rarity": "Green",
   "Sell": 2000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Explosive Golf Ball</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Bouncy Explosive Golf Ball</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Explosive Golf Ball</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pink_Gel\">Pink Gel</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Bouncy_Explosive_Golf_Ball"
 }

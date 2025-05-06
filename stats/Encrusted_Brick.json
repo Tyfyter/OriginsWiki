@@ -10,6 +10,51 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
+  "Source": "(5) <a is=a-link image=$fromStats imageOnly>Spug Flesh</a> +  <a is=a-link image=$fromStats imageOnly>Encrusted Ore</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>)<div class=divider></div>(4) <a is=a-link image=$fromStats imageOnly>Encrusted Brick Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Spug Flesh</a> (5)",
+            "<a is=a-link image=$fromStats>Encrusted Ore</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Brick Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Brick</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 16,
   "InternalName": "Encrusted_Brick_Item",
   "Images": [

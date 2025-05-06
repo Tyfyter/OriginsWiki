@@ -1,26 +1,45 @@
 {
-  "Image": "Explosive_Barrel",
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Explosive_Barrel",
   "Name": "Explosive Barrel",
   "Types": [
-    "NPC"
+    "Item",
+    "ThrownExplosive",
+    "ExpendableWeapon",
+    "Weapon"
   ],
-  "MaxLife": 40,
-  "KBResist": 1.0,
-  "Drops": [],
-  "Expert": {
-    "MaxLife": 80,
-    "Defense": 0,
-    "Immunities": [],
-    "Coins": 0.0,
-    "Drops": []
-  },
-  "Master": {
-    "MaxLife": 120,
-    "Defense": 0,
-    "Immunities": [],
-    "Coins": 0.0,
-    "Drops": []
-  },
-  "SpriteWidth": 26,
-  "InternalName": "Cellarkeep_Barrel"
+  "Damage": 40,
+  "ArmorPenetration": 12,
+  "DamageClass": "Explosive (thrown)",
+  "Knockback": 5.75,
+  "UseTime": 40,
+  "Velocity": 9.0,
+  "Rarity": "White",
+  "Sell": 100,
+  "Source": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.33333334,
+      "Max": 30,
+      "Min": 15,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.5,
+      "Max": 40,
+      "Min": 20,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
+      "Rate": 0.5,
+      "Max": 40,
+      "Min": 20,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Explosive_Barrel"
 }

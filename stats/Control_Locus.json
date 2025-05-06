@@ -13,10 +13,10 @@
     "Ranged projectiles are duplicated 5 times",
     "Explosive projectiles are duplicated twice",
     "All duplicated projectiles actually deal damage based on whether or not ammo was consumed",
-    "20% chance not to consume ammo"
+    "12% chance not to consume ammo"
   ],
   "Rarity": "Orange",
-  "Sell": 20000,
+  "Sell": 40000,
   "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> +  <a is=a-link image=$fromStats imageOnly>Weakpoint Analyzer</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {

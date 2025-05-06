@@ -8,10 +8,9 @@
     "ExpendableWeapon",
     "Weapon"
   ],
-  "Damage": 70,
+  "Damage": 100,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 16.0,
-  "UseTime": 30,
+  "UseTime": 40,
   "Velocity": 7.0,
   "Tooltip": "'Be careful, it's not a book'",
   "Rarity": "Green",

@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Ornamental_Keepsake",
+  "Name": "Ornamental Keepsake",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Extends any Poison, Acid Venom or Toxic Shock inflicted onto enemies",
+    "Reduces the duration of these effects when applied to you",
+    "Attacks inflict Toxic Shock",
+    "Effects are stronger while Acrid Armor is equipped",
+    "Increases armor penetration by 5 and attacks tenderize targets"
+  ],
+  "Rarity": "Pink",
+  "Sell": 50000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Keepsake Remains</a> +  <a is=a-link image=$fromStats imageOnly>Noxious Mithrafin</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Ornamental Keepsake</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Keepsake Remains</a>",
+            "<a is=a-link image=$fromStats>Noxious Mithrafin</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 24,
+  "InternalName": "Ornamental_Keepsake"
+}

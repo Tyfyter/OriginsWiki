@@ -1,24 +1,21 @@
 {
-  "Image": "§ModImage§/Items/Weapons/Dragons_Breath",
+  "Image": "§ModImage§/Items/Weapons/Ranged/Dragons_Breath",
   "Name": "Dragon's Breath",
   "Types": [
     "Item",
-    "ReworkExpected",
+    "Gun",
     "Weapon",
-    "OtherRanged"
+    "Hardmode"
   ],
-  "Damage": 40,
+  "Damage": 17,
+  "ArmorPenetration": 20,
   "DamageClass": "Ranged",
-  "Knockback": 2.5,
-  "Crit": 15,
-  "UseTime": 43,
-  "Velocity": 10.0,
-  "Tooltip": [
-    "Uses fireblossoms as ammo",
-    "Desperately needs rework"
-  ],
-  "Rarity": "Orange",
-  "Sell": 20000,
+  "Knockback": 0.425,
+  "UseTime": 5,
+  "Velocity": 12.0,
+  "Tooltip": "Uses fireblossoms as ammo",
+  "Rarity": "LightRed",
+  "Sell": 30000,
   "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Obsidian_Lock_Box\">Obsidian Lock Box</a><div class=divider></div>Any <a is=a-link href=https://terraria.wiki.gg/wiki/Locked_Shadow_Chest>Locked Shadow Chest</a>",
   "DropSources": [
     {
@@ -43,6 +40,6 @@
       "Difficulty": "Master"
     }
   ],
-  "SpriteWidth": 68,
+  "SpriteWidth": 46,
   "InternalName": "Dragons_Breath"
 }

@@ -3,6 +3,7 @@
   "Name": "Seam Beam",
   "Types": [
     "Item",
+    "Lore",
     "Torn",
     "TornSource",
     "MagicGun",

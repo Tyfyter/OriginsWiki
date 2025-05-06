@@ -38,6 +38,13 @@
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
             "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Desert_Torch\">Desert Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Hardened Defiled Sand</a>"
+          ]
         }
       ]
     },

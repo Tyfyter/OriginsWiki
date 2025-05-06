@@ -1,0 +1,18 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Extremophile Armor",
+  "WikiName": "Extremophile_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Extremophile_Armor.DisplayName",
+  "Images": [
+    "ArmorSets/Extremophile_Armor",
+    "ArmorSets/Extremophile_Armor_Female"
+  ],
+  "Defense": 35,
+  "SetBonus": "Receiving a debuff gradually builds up defense until hit again\nDamaging debuffs deal 33% less damage to you\nBeing hit repeatedly increases the likelihood of dodging the next attack\nThis likelihood is reset after a successful dodge",
+  "Rarity": "Pink",
+  "Sell": 0
+}

@@ -36,6 +36,19 @@
           ]
         }
       ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Enchanted Fiberglass Wall</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fiberglass Wall</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 32,

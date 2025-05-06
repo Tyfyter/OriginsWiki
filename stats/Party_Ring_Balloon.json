@@ -1,0 +1,37 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Party_Ring_Balloon",
+  "Name": "Party Ring Balloon",
+  "Types": [
+    "Item",
+    "Vitality",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Increased life regeneration",
+    "Debuff durations reduced by 30%",
+    "Releases bees and douses the user in honey when damaged",
+    "Increases jump height and negates fall damage"
+  ],
+  "Rarity": "Lime",
+  "Sell": 76000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Horseshoe_Balloon\">Amber Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Donor Wristband</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Party Ring Balloon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Horseshoe_Balloon\">Amber Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Donor Wristband</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Party_Ring_Balloon"
+}

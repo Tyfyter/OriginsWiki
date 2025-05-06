@@ -167,6 +167,13 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Lost Ore</a> (3)"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Brick</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Stone</a> (5)",
+            "<a is=a-link image=$fromStats>Lost Ore</a>"
+          ]
         }
       ]
     },

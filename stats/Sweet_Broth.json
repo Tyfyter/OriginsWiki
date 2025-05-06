@@ -1,0 +1,19 @@
+{
+  "Image": "Sweet_Broth",
+  "Name": "Sweet Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "15% increased minion attack speed",
+    "10% increased artifact minion damage"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Brine Fiend</a> (<a-coins>2000</a-coins>)",
+  "SpriteWidth": 30,
+  "InternalName": "Sweet_Broth"
+}

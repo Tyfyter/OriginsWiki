@@ -12,7 +12,7 @@
     "ArmorSets/Cryosten_Armor_Female"
   ],
   "Defense": 12,
-  "SetBonus": "Attacks inflict frostburn\n+10% explosive velocity\nImmunity to Frozen and Chilled",
-  "Rarity": "White",
-  "Sell": 3015000
+  "SetBonus": "All attacks inflict frostburn\n+10% explosive velocity\nImmunity to Frozen and Chilled",
+  "Rarity": "Blue",
+  "Sell": 15000
 }

@@ -3,6 +3,7 @@
   "Name": "Vorpal Sword (Cursed)",
   "Types": [
     "Item",
+    "Lore",
     "Torn",
     "TornSource",
     "Sword",

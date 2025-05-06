@@ -11,9 +11,9 @@
   "DamageClass": "Melee",
   "Knockback": 5.0,
   "UseTime": 18,
-  "Velocity": 11.75,
+  "Velocity": 15.0,
   "Rarity": "Yellow",
-  "Sell": 5000,
+  "Sell": 100000,
   "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Fright\">Soul of Fright</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Might\">Soul of Might</a> + (20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Sight\">Soul of Sight</a> +  <a is=a-link image=$fromStats imageOnly>Waning Crescent</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {

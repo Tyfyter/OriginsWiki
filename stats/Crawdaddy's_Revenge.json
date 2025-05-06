@@ -1,0 +1,46 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Crawdaddys_Revenge",
+  "Name": "Crawdaddy's Revenge",
+  "Types": [
+    "Item",
+    "Gun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 30,
+  "DamageClass": "Ranged",
+  "Knockback": 2.0,
+  "UseTime": 10,
+  "Velocity": 9.1,
+  "Tooltip": "Enemies repeatedly struck get clawed",
+  "Rarity": "LightRed",
+  "Sell": 25000,
+  "Source": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
+    }
+  ],
+  "SpriteWidth": 64,
+  "InternalName": "Crawdaddys_Revenge"
+}

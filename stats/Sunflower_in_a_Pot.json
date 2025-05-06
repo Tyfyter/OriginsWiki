@@ -1,0 +1,42 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Sunflower_In_A_Pot",
+  "Name": "Sunflower in a Pot",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Minion"
+  ],
+  "ManaCost": 14,
+  "Damage": 9,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": [
+    "Summons a sunny sunflower to fight for you",
+    "Heals you and slightly increases your speed during the day"
+  ],
+  "Rarity": "Blue",
+  "Sell": 150,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Clay_Pot\">Clay Pot</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dirt_Block\">Dirt Block</a> + (3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sunflower\">Sunflower</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sunflower in a Pot</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Clay_Pot\">Clay Pot</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dirt_Block\">Dirt Block</a> (5)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sunflower\">Sunflower</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Sunflower_In_A_Pot"
+}

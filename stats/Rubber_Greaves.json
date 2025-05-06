@@ -9,7 +9,7 @@
   "ArmorSlot": "Pants",
   "Tooltip": "5% increased damage",
   "Rarity": "Blue",
-  "Sell": 3000,
+  "Sell": 90,
   "Source": "(15) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {

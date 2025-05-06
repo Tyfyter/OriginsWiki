@@ -1,0 +1,10 @@
+{
+  "Image": "§ModImage§/Items/Other/Fish/Bobbit_Worm",
+  "Name": "Bobbit Worm",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Quest",
+  "SpriteWidth": 32,
+  "InternalName": "Bobbit_Worm"
+}

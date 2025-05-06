@@ -1,0 +1,19 @@
+{
+  "Image": "Sharp_Broth",
+  "Name": "Sharp Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "Artifact minions inflict Electrified",
+    "All minions inflict Static Shock"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Brine Fiend</a> (<a-coins>2000</a-coins>)",
+  "SpriteWidth": 30,
+  "InternalName": "Sharp_Broth"
+}

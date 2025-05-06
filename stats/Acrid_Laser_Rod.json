@@ -1,0 +1,33 @@
+{
+  "Image": "§ModImage§/Items/Tools/Acrid_Laser_Rod",
+  "Name": "Acrid Laser Rod",
+  "Types": [
+    "Item",
+    "Tool",
+    "Hardmode"
+  ],
+  "FishPower": 43,
+  "UseTime": 8,
+  "Velocity": 15.7,
+  "Tooltip": "The bobber will light up the area around it",
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": "(8) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Acrid Laser Rod</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 60,
+  "InternalName": "Acrid_Laser_Rod"
+}

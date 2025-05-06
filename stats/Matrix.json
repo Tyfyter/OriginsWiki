@@ -7,14 +7,30 @@
     "Weapon",
     "CanisterLauncher"
   ],
-  "Damage": 18,
-  "ArmorPenetration": 1,
+  "Damage": 32,
   "DamageClass": "Explosive Ranged",
   "UseTime": 50,
-  "Velocity": 8.0,
+  "Velocity": 6.0,
   "Tooltip": "Fires an array of explosive nodes that explode simultaneously when one of the links are broken",
   "Rarity": "Blue",
-  "Sell": 2400,
+  "Sell": 4500,
+  "Source": "(15) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (10) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Matrix</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE-8</a> (15)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 46,
   "InternalName": "Matrix"
 }

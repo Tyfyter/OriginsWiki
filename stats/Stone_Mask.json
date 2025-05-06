@@ -2,6 +2,7 @@
   "Name": "Stone Mask",
   "Types": [
     "Item",
+    "Lore",
     "Vitality",
     "LoreItem",
     "Accessory",
@@ -32,7 +33,7 @@
       ]
     }
   ],
-  "SpriteWidth": 14,
+  "SpriteWidth": 16,
   "InternalName": "Stone_Mask",
   "Images": [
     "§ModImage§/Items/Accessories/Stone_Mask",

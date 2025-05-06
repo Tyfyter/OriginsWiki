@@ -1,0 +1,25 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Melee/The_Foot",
+  "Name": "The Foot",
+  "Types": [
+    "Item",
+    "Sword",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 217,
+  "DamageClass": "Melee",
+  "Knockback": 12.0,
+  "UseTime": 40,
+  "Velocity": 12.0,
+  "Tooltip": [
+    "Inflicts Toxic Shock",
+    "Releases a akaline aura when striking the ground",
+    "Hold and right-click to use it like a flail",
+    "Right-click and release to use it as an anchor"
+  ],
+  "Rarity": "Yellow",
+  "Sell": 80000,
+  "SpriteWidth": 74,
+  "InternalName": "The_Foot"
+}

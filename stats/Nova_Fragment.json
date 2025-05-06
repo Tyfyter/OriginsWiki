@@ -7,7 +7,97 @@
   ],
   "Rarity": "Cyan",
   "Sell": 2000,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Fragment\">Solar Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Fragment\">Vortex Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Fragment\">Nebula Fragment</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Fragment\">Stardust Fragment</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Ancient_Manipulator\">Ancient Manipulator</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Pillar\">Vortex Pillar</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Pillar\">Stardust Pillar</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Pillar\">Nebula Pillar</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Pillar\">Solar Pillar</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Pillar\">Vortex Pillar</a>",
+      "Rate": 1.0,
+      "Max": 18,
+      "Min": 4,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Pillar\">Vortex Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vortex_Pillar\">Vortex Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Pillar\">Stardust Pillar</a>",
+      "Rate": 1.0,
+      "Max": 18,
+      "Min": 4,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Pillar\">Stardust Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Stardust_Pillar\">Stardust Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Pillar\">Nebula Pillar</a>",
+      "Rate": 1.0,
+      "Max": 18,
+      "Min": 4,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Pillar\">Nebula Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nebula_Pillar\">Nebula Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Pillar\">Solar Pillar</a>",
+      "Rate": 1.0,
+      "Max": 18,
+      "Min": 4,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Pillar\">Solar Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Solar_Pillar\">Solar Pillar</a>",
+      "Rate": 1.0,
+      "Max": 24,
+      "Min": 4,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    }
+  ],
   "Recipes": [
     {
       "stations": [

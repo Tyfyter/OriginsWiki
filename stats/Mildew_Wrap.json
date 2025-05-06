@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Armor/Mildew/Mildew_Breastplate",
+  "Name": "Mildew Wrap",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 12,
+  "ArmorSlot": "Shirt",
+  "Tooltip": [
+    "+10% generic velocity",
+    "+10% summon damage and +10% additional artifact damage"
+  ],
+  "Rarity": "Pink",
+  "Source": "(26) <a is=a-link image=$fromStats imageOnly>Mildew Block</a> + (20) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Mildew Wrap</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Block</a> (26)",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (20)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 34,
+  "InternalName": "Mildew_Breastplate"
+}

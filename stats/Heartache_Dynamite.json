@@ -1,0 +1,37 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Heartache_Dynamite",
+  "Name": "Heartache Dynamite",
+  "Types": [
+    "Item",
+    "ThrownExplosive",
+    "IsDynamite",
+    "ExpendableWeapon",
+    "Weapon"
+  ],
+  "Damage": 85,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 40,
+  "Velocity": 7.0,
+  "Tooltip": "Enemies slain are more likely to drop healing hearts",
+  "Rarity": "Blue",
+  "Sell": 500,
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Heartache Dynamite</a> (8)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Life_Crystal\">Life Crystal</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 14,
+  "InternalName": "Heartache_Dynamite"
+}

@@ -31,6 +31,22 @@
       ]
     }
   ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Charm of Naivety</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm of Regeneration</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Bomb_Charm_of_Regeneration"
 }

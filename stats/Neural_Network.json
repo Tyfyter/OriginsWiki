@@ -12,6 +12,7 @@
   "Crit": 0,
   "UseTime": 21,
   "Velocity": 9.0,
+  "Tooltip": "Repeatedly striking enemies increases its fire rate",
   "Rarity": "Blue",
   "Sell": 15000,
   "Source": "<a is=a-link image=$fromStats>Broken Record</a>",

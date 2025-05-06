@@ -32,7 +32,23 @@
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master",
-      "Notes": "This is a Master Mode drop rate"
+      "Notes": "This is an Expert Mode drop rate"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Golden Lotus</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Magnet\">Treasure Magnet</a>",
+            "<a is=a-link image=$fromStats>Fairy Lotus</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 36,

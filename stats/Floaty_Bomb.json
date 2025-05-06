@@ -9,11 +9,10 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 70,
-  "ArmorPenetration": 2,
+  "Damage": 55,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 25,
-  "Velocity": 7.0,
+  "Velocity": 5.0,
   "Tooltip": "Somewhat unaffected by gravity",
   "Rarity": "Green",
   "Sell": 360,

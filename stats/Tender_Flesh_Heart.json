@@ -1,0 +1,37 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Tender_Flesh_Heart",
+  "Name": "Tender Flesh Heart",
+  "Types": [
+    "Item",
+    "Vitality",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Up to 65% of your max life is gradually converted into mildew health",
+    "Mildew health regenerates faster than regular health",
+    "Your death is delayed for as long as your max mildew health decays",
+    "Increased life regeneration, defense and mildew health conversion based on the torn severity you're affected by"
+  ],
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Bug Trapper</a> +  <a is=a-link image=$fromStats imageOnly>Mildew Heart</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tender Flesh Heart</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bug Trapper</a>",
+            "<a is=a-link image=$fromStats>Mildew Heart</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Tender_Flesh_Heart"
+}

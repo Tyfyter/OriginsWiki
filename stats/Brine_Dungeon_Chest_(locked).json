@@ -1,0 +1,20 @@
+{
+  "Name": "Brine Dungeon Chest (locked)",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 32,
+  "InternalName": "Locked_Brine_Dungeon_Chest_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Brine_Dungeon_Chest_Item",
+    "Tiles/Brine_Dungeon_Chest_(locked)"
+  ]
+}

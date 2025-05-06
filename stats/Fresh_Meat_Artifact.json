@@ -10,40 +10,34 @@
   "ManaCost": 17,
   "Damage": 25,
   "DamageClass": "Summon",
+  "Knockback": 1.0,
   "UseTime": 24,
   "Velocity": 9.0,
   "Tooltip": "The Meat Dog will viciously protect its food",
   "Rarity": "Blue",
   "Sell": 15000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
+  "Source": "<a is=a-link image=$fromStats>Cannihound</a>",
   "DropSources": [
     {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 0.025,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 0.025,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 0.025,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
-    },
-    {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
-      "Rate": 0.5,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Normal"
     }
   ],
   "SpriteWidth": 24,

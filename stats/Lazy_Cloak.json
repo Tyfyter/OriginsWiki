@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Lazy_Cloak",
+  "Name": "Lazy Cloak",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Master"
+  ],
+  "Damage": 30,
+  "DamageClass": "Summon",
+  "UseTime": 36,
+  "Tooltip": [
+    "Chases after marked enemies",
+    "'It just doesn't want to do all the work'"
+  ],
+  "Rarity": "Master",
+  "Sell": 60000,
+  "SpriteWidth": 32,
+  "InternalName": "Lazy_Cloak"
+}

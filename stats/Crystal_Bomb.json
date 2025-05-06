@@ -9,10 +9,8 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 69,
-  "ArmorPenetration": 2,
+  "Damage": 65,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 5.0,
   "UseTime": 25,
   "Velocity": 7.5,
   "Tooltip": "Explodes into several crystal shards",

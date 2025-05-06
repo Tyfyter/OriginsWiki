@@ -1,0 +1,41 @@
+{
+  "Image": "§ModImage§/Tiles/Other/Ocotillo_Flower",
+  "Name": "Ocotillo Flower",
+  "Types": [
+    "Item"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lucky Hat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Leather\">Leather</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (3)",
+            "<a is=a-link image=$fromStats>Ocotillo Flower</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dye_Vat\">Dye Vat</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Red_Dye\">Red Dye</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Ocotillo Flower</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Ocotillo_Flower"
+}

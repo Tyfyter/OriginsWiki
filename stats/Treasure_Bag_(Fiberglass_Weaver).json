@@ -41,6 +41,10 @@
       "Chance": "20%"
     },
     {
+      "Name": "Fiberglass Weaver Trophy",
+      "Chance": "10%"
+    },
+    {
       "Name": "Entangled Energy"
     },
     {
@@ -73,7 +77,7 @@
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master",
-      "Notes": "This is a Master Mode drop rate"
+      "Notes": "This is an Expert Mode drop rate"
     }
   ],
   "SpriteWidth": 32,

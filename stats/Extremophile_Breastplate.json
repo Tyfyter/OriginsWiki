@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Armor/Extremophile/Extremophile_Breastplate",
+  "Name": "Extremophile Breastplate",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 13,
+  "ArmorSlot": "Shirt",
+  "Tooltip": [
+    "+15% generic damage",
+    "+10% generic attack speed"
+  ],
+  "Rarity": "Pink",
+  "SpriteWidth": 34,
+  "InternalName": "Extremophile_Breastplate"
+}

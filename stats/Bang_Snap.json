@@ -9,10 +9,10 @@
     "Ammo"
   ],
   "Damage": 10,
-  "ArmorPenetration": 3,
+  "ArmorPenetration": 12,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 19,
-  "Velocity": 12.0,
+  "Velocity": 11.0,
   "Tooltip": "The Party Girl loves these",
   "Rarity": "White",
   "Sell": 1,

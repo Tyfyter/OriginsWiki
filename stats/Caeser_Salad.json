@@ -1,0 +1,97 @@
+{
+  "Image": "Caeser_Salad",
+  "Name": "Caeser Salad",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Medium improvements to all stats",
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Basic Crate</a><div class=divider></div><a is=a-link image=$fromStats>Residual Crate</a><div class=divider></div><a is=a-link image=$fromStats>King Crab</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", , "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>King Crab</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", , "
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ambrosia\">Ambrosia</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Caeser Salad</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Caeser_Salad"
+}

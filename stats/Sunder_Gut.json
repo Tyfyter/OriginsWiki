@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Sunder_Gut",
+  "Name": "Sunder Gut",
+  "Types": [
+    "Item",
+    "Lore",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Up to 65% of your max life is gradually converted into mildew health",
+    "Mildew health regenerates faster than regular health",
+    "Your death is delayed for as long as your max mildew health decays",
+    "Three of the nearest enemies will be afflicted with Rasterized"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Mildew Heart</a> +  <a is=a-link image=$fromStats imageOnly>Lousy Liver</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sunder Gut</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Lousy Liver</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Sunder_Gut"
+}

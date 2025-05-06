@@ -11,7 +11,7 @@
   "UseTime": 10,
   "Rarity": "White",
   "Sell": 100,
-  "SpriteWidth": 108,
+  "SpriteWidth": 72,
   "InternalName": "Defiled_Heart_Item",
   "Images": [
     "§ModImage§/Tiles/Defiled/Defiled_Heart",

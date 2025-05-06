@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Eye_Of_Aether",
+  "Name": "Spyglass",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 20,
+  "Velocity": 4.0,
+  "Tooltip": "Locates the Aether",
+  "Rarity": "Blue",
+  "Source": "(2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> + (5) <a is=a-link image=$fromStats imageOnly>Carburite</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Spyglass</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Lens\">Lens</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
+            "<a is=a-link image=$fromStats>Carburite</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Eye_Of_Aether"
+}

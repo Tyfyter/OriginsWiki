@@ -13,7 +13,8 @@
   "UseTime": 36,
   "Tooltip": [
     "Summons a swarm of bees to your cursor",
-    "6 summon tag damage"
+    "6 summon tag damage",
+    "Your summons will focus struck enemies"
   ],
   "Rarity": "Orange",
   "Sell": 15000,

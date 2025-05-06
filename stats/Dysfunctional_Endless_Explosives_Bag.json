@@ -7,10 +7,36 @@
     "ExplosiveBoostAcc",
     "Accessory"
   ],
-  "Tooltip": "15% chance not to consume thrown explosives or explosive ammo",
+  "Tooltip": [
+    "15% chance not to consume thrown explosives or explosive ammo",
+    "'Where's a bomb when you need it?!'"
+  ],
   "Rarity": "Gray",
   "Sell": 30000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Quiver\">Magic Quiver</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Magic_Quiver\">Magic Quiver</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Skeleton_Merchant\">Skeleton Merchant</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "Recipes": [
     {
       "stations": [

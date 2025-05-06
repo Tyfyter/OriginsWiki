@@ -1,0 +1,18 @@
+{
+  "Image": "Super_Mojo_Flask",
+  "Name": "Super Mojo Flask",
+  "Types": [
+    "Item",
+    "Potion"
+  ],
+  "UseTime": 15,
+  "Tooltip": [
+    "{FlaskUseCount} uses",
+    "Reduces all assimilation by {FlaskCureAmount}% each",
+    "All uses are restored when you use a Cleansing Station"
+  ],
+  "Rarity": "Blue",
+  "Sell": 4000,
+  "SpriteWidth": 224,
+  "InternalName": "Super_Mojo_Flask"
+}

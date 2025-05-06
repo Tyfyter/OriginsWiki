@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Greater_Summoning_Potion",
+  "Name": "Greater Summoning Potion",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Increases your max number of minions by 2",
+  "Rarity": "Blue",
+  "Sell": 200,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> +  <a is=a-link image=$fromStats imageOnly>Toadfish</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Greater Summoning Potion</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
+            "<a is=a-link image=$fromStats>Toadfish</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Moonglow\">Moonglow</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Greater_Summoning_Potion"
+}

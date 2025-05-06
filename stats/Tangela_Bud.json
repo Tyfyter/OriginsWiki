@@ -1,0 +1,52 @@
+{
+  "Image": "§ModImage§/Items/Materials/Tangela_Bud",
+  "Name": "Tangela Bud",
+  "Types": [
+    "Item"
+  ],
+  "Tooltip": [
+    "Used to make Tangela Dye",
+    "'Ooooh, preeeetty'"
+  ],
+  "Rarity": "Blue",
+  "Sell": 18,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Tangela Bramble</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tangela Bud</a> (3)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dye_Vat\">Dye Vat</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Anti-Gray Dye</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tangela Bud</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Tangela Dye</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tangela Bud</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Tangela_Bud"
+}

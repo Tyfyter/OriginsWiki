@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Strange_Computer",
+  "Name": "Strange Computer",
+  "Types": [
+    "Item",
+    "Info",
+    "LoreItem",
+    "Hidden",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "This tooltip is a message... and part of a system of messages... pay attention to it!",
+    "Sending this message was important to us. We considered ourselves to be a powerful culture.",
+    "This item is not an item of honor... no highly esteemed functionality is commemorated here... nothing valued is here.",
+    "What is here was dangerous and repulsive to us. This message is a warning about danger.",
+    "The danger is in a particular item... it increases towards a center... the center of danger is here... of a particular size and shape, and below your cursor.",
+    "The danger is still present, in your time, as it was in ours.",
+    "The danger is to the game, and it can crash.",
+    "The form of the danger is an emanation of projectiles.",
+    "The danger is unleashed only if you substantially disturb this item physically. This item is best shunned and left unequipped.",
+    "Side effects include universal instability, eternalism, sticky fingers, hallucination, and premature ejaculation"
+  ],
+  "Rarity": "Cursed",
+  "Sell": 20000,
+  "SpriteWidth": 32,
+  "InternalName": "Strange_Computer"
+}

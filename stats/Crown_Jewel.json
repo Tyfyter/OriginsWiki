@@ -1,0 +1,42 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Crown_Jewel",
+  "Name": "Crown Jewel",
+  "Types": [
+    "Item",
+    "Lore",
+    "PermaBoost"
+  ],
+  "UseTime": 30,
+  "Tooltip": [
+    "Increases your damage, crit chance, and self-damage resistance by 1% for every Hardmode boss you've defeated",
+    "'Many heroes have died for this, and yet you are the one to wield its power'"
+  ],
+  "Rarity": "Lime",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 20,
+  "InternalName": "Crown_Jewel"
+}

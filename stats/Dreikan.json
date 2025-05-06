@@ -7,15 +7,33 @@
     "Weapon",
     "Hardmode"
   ],
-  "Damage": 66,
+  "Damage": 48,
   "DamageClass": "Explosive Ranged",
   "Knockback": 8.0,
-  "Crit": 30,
+  "Crit": 24,
   "UseTime": 11,
   "Velocity": 16.0,
   "Tooltip": "Pronounced exactly how it looks: auf Deutsch",
   "Rarity": "Yellow",
   "Sell": 50000,
-  "SpriteWidth": 100,
+  "Source": "(30) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> +  <a is=a-link image=$fromStats imageOnly>Hallowed Cleaver</a> + (15) <a is=a-link image=$fromStats imageOnly>Respyrite</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Dreikan</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
+            "<a is=a-link image=$fromStats>Hallowed Cleaver</a>",
+            "<a is=a-link image=$fromStats>Respyrite</a> (15)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 96,
   "InternalName": "Dreikan"
 }

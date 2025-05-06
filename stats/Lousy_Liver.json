@@ -3,14 +3,59 @@
   "Name": "Lousy Liver",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "RasterSource",
-    "Accessory",
-    "Hardmode"
+    "Accessory"
   ],
-  "Tooltip": "Four of the nearest enemies will be afflicted with Rasterized",
-  "Rarity": "LightRed",
+  "Tooltip": "Three of the nearest enemies will be afflicted with Rasterized",
+  "Rarity": "Blue",
   "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.011494253,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "UsedIn": [
     {
       "stations": [
@@ -22,6 +67,13 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Lousy Liver</a>",
             "<a is=a-link image=$fromStats>Messy Magma Leech</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sunder Gut</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Lousy Liver</a>"
           ]
         }
       ]

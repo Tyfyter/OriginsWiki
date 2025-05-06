@@ -1,0 +1,20 @@
+{
+  "Name": "Hydrothermal Vent Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "SpriteWidth": 108,
+  "InternalName": "Hydrothermal_Vent_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Hydrothermal_Vent",
+    "Tiles/Hydrothermal_Vent_Item"
+  ]
+}

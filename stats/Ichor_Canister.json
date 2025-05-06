@@ -7,8 +7,7 @@
     "Hardmode",
     "Ammo"
   ],
-  "Damage": 35,
-  "ArmorPenetration": 3,
+  "Damage": 22,
   "DamageClass": "Explosive Ranged",
   "Tooltip": "Inflicts ichor to anything nearby upon impact",
   "Rarity": "LightRed",

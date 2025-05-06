@@ -2,6 +2,7 @@
   "Name": "Felnum Bar",
   "Types": [
     "Item",
+    "Lore",
     "LoreItem",
     "Bar",
     "Tile"

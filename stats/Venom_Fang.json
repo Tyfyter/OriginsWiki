@@ -13,7 +13,7 @@
     "Effects are stronger while Acrid Armor is equipped"
   ],
   "Rarity": "Pink",
-  "Sell": 10000,
+  "Sell": 20000,
   "UsedIn": [
     {
       "stations": [
@@ -21,10 +21,39 @@
       ],
       "items": [
         {
+          "result": "<a is=a-link image=$fromStats>Noxious Mithrafin</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mithrafin</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Olid Organ</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Putrid_Scent\">Putrid Scent</a>",
             "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Venom Shield</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brine Haze</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Venom Fang</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (15)"
           ]
         }
       ]

@@ -14,7 +14,7 @@
       ],
       "items": [
         {
-          "result": "<a is=a-link image=$fromStats>Infested Defiled Grass Wall Placed</a>",
+          "result": "<a is=a-link image=$fromStats>Infested Defiled Grass Wall</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Defiled Grass Wall</a>"
           ]

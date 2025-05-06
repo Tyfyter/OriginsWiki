@@ -1,0 +1,57 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Boat_Rocker_Alt",
+  "Name": "Boat Rocker",
+  "Types": [
+    "Item",
+    "Lore",
+    "HarpoonGun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 98,
+  "DamageClass": "Ranged",
+  "Knockback": 4.5,
+  "UseTime": 30,
+  "Velocity": 14.0,
+  "Tooltip": [
+    "Uses harpoons as ammo",
+    "Right Click while a line is cast to use it as a whip",
+    "75% chance not to consume ammo"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Boat Rocker</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Boat Rocker</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Boat Rocker</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Boat Rocker</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Boat Rocker</a>",
+            "<a is=a-link image=$fromStats>Mildew Block</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 72,
+  "InternalName": "Boat_Rocker_Alt"
+}

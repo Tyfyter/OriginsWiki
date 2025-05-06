@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Fallacious_Vase",
+  "Name": "Fallacious Vase",
+  "Types": [
+    "Item",
+    "Movement",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Grants a quick dash",
+    "Increases dash speed by 20%"
+  ],
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "SpriteWidth": 30,
+  "InternalName": "Fallacious_Vase"
+}

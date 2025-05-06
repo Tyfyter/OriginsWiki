@@ -1,0 +1,41 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Inject_Incantation",
+  "Name": "Inject Incantation",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Incantation"
+  ],
+  "ManaCost": 14,
+  "Damage": 10,
+  "DamageClass": "Summon",
+  "Knockback": 1.0,
+  "UseTime": 26,
+  "Velocity": 10.0,
+  "Tooltip": [
+    "6 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "Source": "(5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> + (10) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (6) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Inject Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Book\">Book</a> (5)",
+            "<a is=a-link image=$fromStats>Defiled Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (6)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Inject_Incantation"
+}

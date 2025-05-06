@@ -1,0 +1,312 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Latchkey",
+  "Name": "Latchkey",
+  "Types": [
+    "Item"
+  ],
+  "ManaCost": 8,
+  "UseTime": 15,
+  "Velocity": 4.0,
+  "Tooltip": "Use to glitch through Defiled blocks",
+  "Rarity": "Green",
+  "Sell": 20,
+  "Source": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Bile Thrower</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Asphyxiator</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Broadcaster</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Digger</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Mite</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Squid</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Tripod</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Watcher</a><div class=divider></div><a is=a-link image=$fromStats>Shattered Ghoul</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Ancient Defiled Phantom</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.16666667,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.16666667,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.16666667,
+      "Max": 6,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Cyclops</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Mite</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Squid</a>",
+      "Rate": 0.125,
+      "Max": 5,
+      "Min": 2,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
+      "Rate": 0.2,
+      "Max": 7,
+      "Min": 3,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Latchkey"
+}

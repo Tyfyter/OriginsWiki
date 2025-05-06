@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Huff_Puffer_Bait",
+  "Name": "Huff Puffer Bait",
+  "Types": [
+    "Item",
+    "Tool",
+    "Hardmode"
+  ],
+  "BaitPower": 193,
+  "Damage": 47,
+  "DamageClass": "Summon",
+  "Knockback": 0.2,
+  "UseTime": 20,
+  "Velocity": 8.0,
+  "Rarity": "LightRed",
+  "SpriteWidth": 28,
+  "InternalName": "Huff_Puffer_Bait"
+}

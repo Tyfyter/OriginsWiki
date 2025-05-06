@@ -18,7 +18,7 @@
     "50% chance not to consume ammo"
   ],
   "Rarity": "Blue",
-  "Sell": 2000,
+  "Sell": 4500,
   "Source": "(10) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> + (15) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a>",
   "DropSources": [
     {

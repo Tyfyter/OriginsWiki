@@ -2,7 +2,8 @@
   "Image": "§ModImage§/Items/Materials/Biocomponent10",
   "Name": "Biocomponent 10",
   "Types": [
-    "Item"
+    "Item",
+    "Lore"
   ],
   "Rarity": "White",
   "Sell": 2,

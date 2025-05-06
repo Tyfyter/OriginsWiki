@@ -3,6 +3,7 @@
   "Name": "Blockus Tube",
   "Types": [
     "Item",
+    "Lore",
     "Pet",
     "Master"
   ],

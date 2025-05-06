@@ -1,0 +1,20 @@
+{
+  "Name": "Cannihound Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Cannihound",
+  "Rarity": "Blue",
+  "SpriteWidth": 12,
+  "InternalName": "Cannihound_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Cannihound_Banner_Item",
+    "Tiles/Cannihound_Banner"
+  ]
+}

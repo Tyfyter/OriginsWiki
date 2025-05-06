@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Sonar_Dynamite",
+  "Name": "Sonar Dynamite",
+  "Types": [
+    "Item",
+    "ThrownExplosive",
+    "IsDynamite",
+    "ExpendableWeapon",
+    "Weapon"
+  ],
+  "Damage": 175,
+  "DamageClass": "Explosive (thrown)",
+  "UseTime": 40,
+  "Velocity": 4.0,
+  "Tooltip": "Explodes when enemies are pinged by it",
+  "Rarity": "LightRed",
+  "Sell": 2500,
+  "Source": "(3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Copper_Bar\">Copper Bar</a> + (8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> + (5) <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>12500</a-coins>After selling 230 peat moss to the Demolitionist, After defeating the Lost Diver)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sonar Dynamite</a> (8)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/CopperBar\" href=Recipe_Groups>Any Copper Bar</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> (8)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 14,
+  "InternalName": "Sonar_Dynamite"
+}
