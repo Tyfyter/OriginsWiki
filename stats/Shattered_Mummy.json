@@ -17,13 +17,13 @@
     },
     {
       "Name": "Megaphone",
-      "Chance": "1.99%",
+      "Chance": "1%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
       "ImageOverride": ""
     },
     {
       "Name": "Blindfold",
-      "Chance": "1.99%",
+      "Chance": "1%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
       "ImageOverride": ""
     },
@@ -46,7 +46,7 @@
       "ImageOverride": ""
     }
   ],
-  "DefiledAssimilation": 0.07,
+  "DefiledAssimilation": 0.04,
   "Expert": {
     "MaxLife": 360,
     "KBResist": 0.55,
@@ -90,7 +90,7 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.091
+    "DefiledAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 540,
@@ -135,7 +135,7 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.105000004
+    "DefiledAssimilation": 0.06
   },
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Desert</a>",

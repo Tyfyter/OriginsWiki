@@ -20,13 +20,13 @@
     },
     {
       "Name": "Megaphone",
-      "Chance": "1.99%",
+      "Chance": "1%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Megaphone",
       "ImageOverride": ""
     },
     {
       "Name": "Blindfold",
-      "Chance": "1.99%",
+      "Chance": "1%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Blindfold",
       "ImageOverride": ""
     },

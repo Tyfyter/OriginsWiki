@@ -16,6 +16,21 @@
     {
       "Name": "Shaped Glass",
       "Chance": "4%"
+    },
+    {
+      "Name": "Fiberglass Block",
+      "Chance": "10%",
+      "Amount": "3‒8"
+    },
+    {
+      "Name": "Vine",
+      "Chance": "14.286%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fiberglass Shard",
+      "Amount": "1‒7"
     }
   ],
   "Expert": {
@@ -31,6 +46,21 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
+      },
+      {
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
@@ -47,12 +77,28 @@
       {
         "Name": "Shaped Glass",
         "Chance": "4%"
+      },
+      {
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
   "Environment": [
     "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
   ],
+  "BestiaryQuotation": "A bow made of fiberglass enchanted by the spirit of the Undergrowth to protect it from tampering.",
   "SpriteWidth": 18,
   "InternalName": "Enchanted_Fiberglass_Bow"
 }

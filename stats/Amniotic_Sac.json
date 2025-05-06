@@ -7,8 +7,6 @@
   "MaxLife": 75,
   "KBResist": 0.99,
   "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Ichor>Ichor</a>",
     "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Drops": [],

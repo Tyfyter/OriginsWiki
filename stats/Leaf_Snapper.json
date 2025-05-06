@@ -1,0 +1,43 @@
+{
+  "Image": "Leaf_Snapper",
+  "Name": "Leaf Snapper",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 140,
+  "Defense": 50,
+  "KBResist": 0.050000012,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 250.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "1‒2"
+    }
+  ],
+  "Expert": {
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒2"
+      }
+    ]
+  },
+  "Master": {
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒2"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "A peaceful turtle sub-species that has adapted to the Brine Pool's harsh conditions. It feeds off of the brineglow.",
+  "SpriteWidth": 46,
+  "InternalName": "Leaf_Snapper_Alt"
+}

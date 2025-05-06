@@ -12,6 +12,15 @@
     {
       "Name": "Black Bile",
       "Amount": "1‒3"
+    },
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "20%",
+      "Amount": "3‒7"
     }
   ],
   "DefiledAssimilation": 0.05,
@@ -24,6 +33,15 @@
       {
         "Name": "Black Bile",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
       }
     ],
     "DefiledAssimilation": 0.065
@@ -37,6 +55,15 @@
       {
         "Name": "Black Bile",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
       }
     ],
     "DefiledAssimilation": 0.075

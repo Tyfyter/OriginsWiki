@@ -7,22 +7,52 @@
   "MaxLife": 70,
   "Defense": 4,
   "Coins": 500.0,
-  "Drops": [],
+  "Drops": [
+    {
+      "Name": "Strange String",
+      "Amount": "1‒2"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "12.5%",
+      "Amount": "2‒5"
+    }
+  ],
   "DefiledAssimilation": 0.04,
   "Expert": {
-    "MaxLife": 280,
+    "MaxLife": 140,
     "KBResist": 0.19000006,
     "Immunities": [],
-    "Coins": 3125.0,
-    "Drops": [],
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒2"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
+      }
+    ],
     "DefiledAssimilation": 0.051999997
   },
   "Master": {
-    "MaxLife": 630,
+    "MaxLife": 210,
     "KBResist": 0.35999995,
     "Immunities": [],
-    "Coins": 3125.0,
-    "Drops": [],
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒2"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
+      }
+    ],
     "DefiledAssimilation": 0.06
   },
   "Environment": [

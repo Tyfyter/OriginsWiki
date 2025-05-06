@@ -1,0 +1,26 @@
+{
+  "Image": "Defiled_Chrysalis_Nearby_Spawn",
+  "Name": "Defiled Chrysalis Nearby Spawn",
+  "Types": [
+    "NPC"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Chrysalis_Nearby_Spawn"
+}

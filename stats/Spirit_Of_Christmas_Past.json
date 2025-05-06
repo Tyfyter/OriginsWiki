@@ -1,6 +1,6 @@
 {
-  "Image": "Spirit_Of_Christmas_Past",
-  "Name": "Spirit Of Christmas Past",
+  "Image": "Spirit_of_Christmas_Past",
+  "Name": "Spirit of Christmas Past",
   "Types": [
     "NPC"
   ],
@@ -20,24 +20,23 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Oiled>Oiled</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Frostbite>Frostbite</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>On Even More Fire</a>"
   ],
-  "Coins": 90.0,
   "Drops": [],
   "Expert": {
     "Defense": 0,
     "KBResist": 0.55,
-    "Coins": 225.0,
+    "Coins": 0.0,
     "Drops": []
   },
   "Master": {
     "Defense": 0,
     "KBResist": 0.6,
-    "Coins": 225.0,
+    "Coins": 0.0,
     "Drops": []
   },
   "Environment": [
-    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Graveyard\">Graveyard</a>"
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Hallow\">The Hallow</a>"
   ],
   "BestiaryQuotation": "This one is unassuming, but is a grim reminder of one's past transgressions.",
   "SpriteWidth": 48,

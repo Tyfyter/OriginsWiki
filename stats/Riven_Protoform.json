@@ -2,7 +2,8 @@
   "Image": "Riven_Protoform",
   "Name": "Riven Protoform",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 81,
   "Defense": 10,

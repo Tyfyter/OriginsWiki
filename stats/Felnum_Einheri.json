@@ -5,7 +5,7 @@
     "NPC"
   ],
   "MaxLife": 210,
-  "Defense": 26,
+  "Defense": 14,
   "Immunities": [
     "<a is=a-link image=$fromStats>Static Shack</a>",
     "<a is=a-link image=$fromStats>Static Shock</a>",

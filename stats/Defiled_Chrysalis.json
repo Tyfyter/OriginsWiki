@@ -1,0 +1,23 @@
+{
+  "Image": "Defiled_Chrysalis",
+  "Name": "Defiled Chrysalis",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 1000,
+  "Defense": 9999,
+  "KBResist": 1.0,
+  "Drops": [],
+  "Expert": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Chrysalis"
+}

@@ -15,7 +15,7 @@
       "ImageOverride": ""
     }
   ],
-  "DefiledAssimilation": 0.05,
+  "DefiledAssimilation": 0.01,
   "Expert": {
     "MaxLife": 120,
     "KBResist": 0.100000024,
@@ -29,7 +29,7 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.065
+    "DefiledAssimilation": 0.012999999
   },
   "Master": {
     "MaxLife": 180,
@@ -44,7 +44,7 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.075
+    "DefiledAssimilation": 0.015
   },
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>",

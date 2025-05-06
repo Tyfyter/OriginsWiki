@@ -14,6 +14,10 @@
       "Chance": "33.333%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
       "ImageOverride": ""
+    },
+    {
+      "Name": "Cranivore Beanie",
+      "Chance": "6.667%"
     }
   ],
   "CorruptAssimilation": 0.03,
@@ -28,6 +32,10 @@
         "Chance": "33.333%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Cranivore Beanie",
+        "Chance": "6.667%"
       }
     ],
     "CorruptAssimilation": 0.038999997
@@ -43,6 +51,10 @@
         "Chance": "33.333%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Cranivore Beanie",
+        "Chance": "6.667%"
       }
     ],
     "CorruptAssimilation": 0.044999998

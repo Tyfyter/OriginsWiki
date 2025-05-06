@@ -1,0 +1,92 @@
+{
+  "Image": "Enchanted_Fiberglass_Slime",
+  "Name": "Enchanted Fiberglass Slime",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 57,
+  "Defense": 10,
+  "KBResist": 0.6,
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Shaped Glass",
+      "Chance": "4%"
+    },
+    {
+      "Name": "Fiberglass Block",
+      "Chance": "10%",
+      "Amount": "3‒8"
+    },
+    {
+      "Name": "Vine",
+      "Chance": "14.286%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fiberglass Shard",
+      "Amount": "1‒7"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 114,
+    "KBResist": 0.64,
+    "Immunities": [],
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 171,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Shaped Glass",
+        "Chance": "4%"
+      },
+      {
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
+  "BestiaryQuotation": "A slime made of fiberglass enchanted by the spirit of the Undergrowth to protect it from tampering.",
+  "SpriteWidth": 32,
+  "InternalName": "Enchanted_Fiberglass_Slime"
+}

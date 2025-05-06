@@ -1,0 +1,72 @@
+{
+  "Image": "Nasty_Crawdad",
+  "Name": "Nasty Crawdad",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 140,
+  "Defense": 14,
+  "KBResist": 0.55,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>"
+  ],
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "1‒2"
+    },
+    {
+      "Name": "Crawdaddy's Revenge",
+      "Chance": "2.5%"
+    },
+    {
+      "Name": "Grenade Lawnchair",
+      "Chance": "0.833%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 280,
+    "KBResist": 0.595,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒2"
+      },
+      {
+        "Name": "Crawdaddy's Revenge",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Grenade Lawnchair",
+        "Chance": "0.833%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 420,
+    "KBResist": 0.64,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒2"
+      },
+      {
+        "Name": "Crawdaddy's Revenge",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Grenade Lawnchair",
+        "Chance": "0.833%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "The nasty cousin of the crawdads found in the caverns. These guys don't mess around when it comes to clawing up potential prey.",
+  "SpriteWidth": 78,
+  "InternalName": "Nasty_Crawdad"
+}

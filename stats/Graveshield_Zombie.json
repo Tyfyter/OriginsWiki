@@ -7,7 +7,7 @@
   "MaxLife": 55,
   "Defense": 14,
   "KBResist": 0.5,
-  "Coins": 60.0,
+  "Coins": 100.0,
   "Drops": [
     {
       "Name": "Gravestone",
@@ -44,7 +44,7 @@
     "MaxLife": 110,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 250.0,
     "Drops": [
       {
         "Name": "Gravestone",
@@ -82,7 +82,7 @@
     "MaxLife": 165,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 250.0,
     "Drops": [
       {
         "Name": "Gravestone",

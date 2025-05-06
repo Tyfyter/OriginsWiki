@@ -19,6 +19,11 @@
       "Amount": "1‒3"
     },
     {
+      "Name": "Latchkey",
+      "Chance": "12.5%",
+      "Amount": "2‒5"
+    },
+    {
       "Name": "Black Bile",
       "Amount": "1‒3"
     }
@@ -37,6 +42,11 @@
       {
         "Name": "Strange String",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
       },
       {
         "Name": "Black Bile",
@@ -58,6 +68,11 @@
       {
         "Name": "Strange String",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
       },
       {
         "Name": "Black Bile",

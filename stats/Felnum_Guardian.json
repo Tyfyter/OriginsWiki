@@ -5,7 +5,7 @@
     "NPC"
   ],
   "MaxLife": 120,
-  "Defense": 32,
+  "Defense": 14,
   "Immunities": [
     "<a is=a-link image=$fromStats>Static Shack</a>",
     "<a is=a-link image=$fromStats>Static Shock</a>",
@@ -15,6 +15,10 @@
     {
       "Name": "Felnum Ore",
       "Amount": "7‒14"
+    },
+    {
+      "Name": "Guardian Rod",
+      "Chance": "2.5%"
     },
     {
       "Name": "Ancient Felnum Helmet",
@@ -39,6 +43,10 @@
         "Amount": "7‒14"
       },
       {
+        "Name": "Guardian Rod",
+        "Chance": "2.5%"
+      },
+      {
         "Name": "Ancient Felnum Helmet",
         "Chance": "1.515%"
       },
@@ -60,6 +68,10 @@
       {
         "Name": "Felnum Ore",
         "Amount": "7‒14"
+      },
+      {
+        "Name": "Guardian Rod",
+        "Chance": "2.5%"
       },
       {
         "Name": "Ancient Felnum Helmet",

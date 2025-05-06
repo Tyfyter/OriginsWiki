@@ -8,23 +8,22 @@
   "Defense": 20,
   "KBResist": 1.0,
   "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>"
   ],
   "Coins": 300.0,
   "Drops": [],
-  "DefiledAssimilation": 0.03,
+  "DefiledAssimilation": 0.02,
   "Expert": {
     "MaxLife": 800,
     "Coins": 1875.0,
     "Drops": [],
-    "DefiledAssimilation": 0.038999997
+    "DefiledAssimilation": 0.025999999
   },
   "Master": {
     "MaxLife": 1800,
     "Coins": 1875.0,
     "Drops": [],
-    "DefiledAssimilation": 0.044999998
+    "DefiledAssimilation": 0.03
   },
   "SpriteWidth": 38,
   "InternalName": "Defiled_Digger_Body"

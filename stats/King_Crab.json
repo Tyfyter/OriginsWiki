@@ -16,6 +16,10 @@
     {
       "Name": "Alkaliphiliac Tissue",
       "Amount": "1‒6"
+    },
+    {
+      "Name": "Caeser Salad",
+      "Chance": "2.5%"
     }
   ],
   "Expert": {
@@ -26,6 +30,10 @@
       {
         "Name": "Alkaliphiliac Tissue",
         "Amount": "1‒6"
+      },
+      {
+        "Name": "Caeser Salad",
+        "Chance": "2.5%"
       }
     ]
   },
@@ -37,6 +45,10 @@
       {
         "Name": "Alkaliphiliac Tissue",
         "Amount": "1‒6"
+      },
+      {
+        "Name": "Caeser Salad",
+        "Chance": "2.5%"
       }
     ]
   },

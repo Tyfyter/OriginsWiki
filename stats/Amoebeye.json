@@ -2,7 +2,8 @@
   "Image": "Amoebeye",
   "Name": "Amoebeye",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 300,
   "Defense": 60,

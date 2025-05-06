@@ -2,7 +2,8 @@
   "Image": "Ancient_Defiled_Cyclops",
   "Name": "Ancient Defiled Cyclops",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 300,
   "Defense": 12,
@@ -12,6 +13,11 @@
     {
       "Name": "Strange String",
       "Amount": "1‒3"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "20%",
+      "Amount": "3‒7"
     },
     {
       "Name": "Ancient Kruncher"
@@ -40,6 +46,11 @@
         "Amount": "1‒3"
       },
       {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
+      },
+      {
         "Name": "Ancient Kruncher"
       },
       {
@@ -65,6 +76,11 @@
       {
         "Name": "Strange String",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
       },
       {
         "Name": "Ancient Kruncher"

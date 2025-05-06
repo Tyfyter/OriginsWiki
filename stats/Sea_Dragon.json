@@ -2,7 +2,8 @@
   "Image": "Sea_Dragon",
   "Name": "Sea Dragon",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 210,
   "Defense": 21,
@@ -22,6 +23,10 @@
     {
       "Name": "Nematoclaw",
       "Chance": "2.5%"
+    },
+    {
+      "Name": "Sour Apple",
+      "Chance": "2.5%"
     }
   ],
   "Expert": {
@@ -35,6 +40,10 @@
       },
       {
         "Name": "Nematoclaw",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Sour Apple",
         "Chance": "2.5%"
       }
     ]
@@ -50,6 +59,10 @@
       },
       {
         "Name": "Nematoclaw",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Sour Apple",
         "Chance": "2.5%"
       }
     ]

@@ -9,6 +9,11 @@
   "Coins": 20.0,
   "Drops": [
     {
+      "Name": "Latchkey",
+      "Chance": "12.5%",
+      "Amount": "2‒5"
+    },
+    {
       "Name": "Ancient Defiled Helmet",
       "Chance": "0.19%"
     },
@@ -27,6 +32,11 @@
     "Immunities": [],
     "Coins": 50.0,
     "Drops": [
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
+      },
       {
         "Name": "Ancient Defiled Helmet",
         "Chance": "0.19%"
@@ -47,6 +57,11 @@
     "Immunities": [],
     "Coins": 50.0,
     "Drops": [
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
+      },
       {
         "Name": "Ancient Defiled Helmet",
         "Chance": "0.19%"

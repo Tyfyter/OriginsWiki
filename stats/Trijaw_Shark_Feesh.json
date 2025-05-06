@@ -1,0 +1,27 @@
+{
+  "Image": "Trijaw_Shark_Feesh",
+  "Name": "Trijaw Shark Feesh",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 50,
+  "Defense": 11,
+  "KBResist": 0.19999999,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 100,
+    "KBResist": 0.28000003,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 150,
+    "KBResist": 0.35999995,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 24,
+  "InternalName": "Trijaw_Shark_Feesh"
+}

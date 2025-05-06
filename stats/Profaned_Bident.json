@@ -12,7 +12,7 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>On Even More Fire</a>"
   ],
   "Coins": 1000.0,
   "Drops": [
@@ -24,7 +24,7 @@
     },
     {
       "Name": "Nazar",
-      "Chance": "1.99%",
+      "Chance": "1%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Nazar",
       "ImageOverride": ""
     }

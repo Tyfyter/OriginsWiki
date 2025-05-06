@@ -35,10 +35,10 @@
     }
   ],
   "Expert": {
-    "MaxLife": 840,
-    "KBResist": 0.595,
+    "MaxLife": 420,
+    "KBResist": 0.55,
     "Immunities": [],
-    "Coins": 12500.0,
+    "Coins": 5000.0,
     "Drops": [
       {
         "Name": "Bacon",
@@ -67,10 +67,10 @@
     ]
   },
   "Master": {
-    "MaxLife": 1890,
-    "KBResist": 0.67999995,
+    "MaxLife": 630,
+    "KBResist": 0.6,
     "Immunities": [],
-    "Coins": 12500.0,
+    "Coins": 5000.0,
     "Drops": [
       {
         "Name": "Bacon",

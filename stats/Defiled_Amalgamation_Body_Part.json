@@ -1,0 +1,26 @@
+{
+  "Image": "Defiled_Amalgamation_Body_Part",
+  "Name": "Defiled Amalgamation Body Part",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 1000,
+  "Defense": 12,
+  "KBResist": 1.0,
+  "Drops": [],
+  "DefiledAssimilation": 0.03,
+  "Expert": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.038999997
+  },
+  "Master": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": [],
+    "DefiledAssimilation": 0.044999998
+  },
+  "SpriteWidth": 80,
+  "InternalName": "DA_Body_Part"
+}

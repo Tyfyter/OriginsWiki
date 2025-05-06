@@ -7,23 +7,17 @@
   "MaxLife": 250,
   "Defense": 15,
   "KBResist": 1.0,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
-  ],
   "Drops": [],
   "Expert": {
+    "Immunities": [],
     "Coins": 0.0,
     "Drops": []
   },
   "Master": {
+    "Immunities": [],
     "Coins": 0.0,
     "Drops": []
   },
-  "Environment": [
-    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
-  ],
-  "BestiaryQuotation": "A creation by the Defiled in order to maintain its diplomacy with the Terrarian. Looks like a hand reaching towards the sky.",
   "SpriteWidth": 40,
   "InternalName": "Defiled_Effigy"
 }

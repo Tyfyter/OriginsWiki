@@ -1,0 +1,89 @@
+{
+  "Image": "Defiled_Broadcaster",
+  "Name": "Defiled Broadcaster",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 48,
+  "Defense": 10,
+  "KBResist": 0.25,
+  "Coins": 76.0,
+  "Drops": [
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "16.667%",
+      "Amount": "3‒6"
+    },
+    {
+      "Name": "Krunch Mix",
+      "Chance": "5.263%"
+    },
+    {
+      "Name": "Nerve Flan",
+      "Chance": "2.273%"
+    }
+  ],
+  "DefiledAssimilation": 0.01,
+  "Expert": {
+    "MaxLife": 96,
+    "KBResist": 0.32500005,
+    "Immunities": [],
+    "Coins": 190.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "16.667%",
+        "Amount": "3‒6"
+      },
+      {
+        "Name": "Krunch Mix",
+        "Chance": "5.263%"
+      },
+      {
+        "Name": "Nerve Flan",
+        "Chance": "2.273%"
+      }
+    ],
+    "DefiledAssimilation": 0.012999999
+  },
+  "Master": {
+    "MaxLife": 144,
+    "KBResist": 0.39999998,
+    "Immunities": [],
+    "Coins": 190.0,
+    "Drops": [
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "16.667%",
+        "Amount": "3‒6"
+      },
+      {
+        "Name": "Krunch Mix",
+        "Chance": "5.263%"
+      },
+      {
+        "Name": "Nerve Flan",
+        "Chance": "2.273%"
+      }
+    ],
+    "DefiledAssimilation": 0.015
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
+  "BestiaryQuotation": "A very important Defiled Antibody for the Defiled Wastelands. Surveys and gives an eye in the sky, but can weave together tangela and transport other Defiled Antibodies to intruders. Multiple Broadcasters supporting the same Defiled Antibody is likely to cause problems between them, however.",
+  "SpriteWidth": 48,
+  "InternalName": "Defiled_Broadcaster"
+}

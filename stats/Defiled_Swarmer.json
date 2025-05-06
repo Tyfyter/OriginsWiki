@@ -4,7 +4,7 @@
   "Types": [
     "NPC"
   ],
-  "MaxLife": 20,
+  "MaxLife": 40,
   "Defense": 8,
   "Drops": [
     {
@@ -26,7 +26,7 @@
   ],
   "DefiledAssimilation": 0.02,
   "Expert": {
-    "MaxLife": 40,
+    "MaxLife": 80,
     "KBResist": 0.100000024,
     "Immunities": [],
     "Coins": 0.0,
@@ -51,7 +51,7 @@
     "DefiledAssimilation": 0.025999999
   },
   "Master": {
-    "MaxLife": 60,
+    "MaxLife": 120,
     "KBResist": 0.19999999,
     "Immunities": [],
     "Coins": 0.0,
@@ -78,7 +78,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
   ],
-  "BestiaryQuotation": "Not commonly found in the Wastelands. They appear when a massive Defiled entity is in distress.",
+  "BestiaryQuotation": "Not commonly found in the Defiled Wastelands. They appear when a massive Defiled entity is in distress.",
   "SpriteWidth": 28,
   "InternalName": "Defiled_Swarmer"
 }

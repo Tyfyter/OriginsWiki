@@ -1,0 +1,47 @@
+{
+  "Image": "Brine_Serpent",
+  "Name": "Brine Serpent",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 380,
+  "Defense": 27,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 450.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "5‒8"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 760,
+    "Coins": 1125.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "5‒8"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 1140,
+    "Coins": 1125.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "5‒8"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "The secondary predator alongside the Carpalfish, second only to King Crabs. It viciously attacks and ensares its prey in quick succession.",
+  "SpriteWidth": 38,
+  "InternalName": "Brine_Serpent_Head"
+}

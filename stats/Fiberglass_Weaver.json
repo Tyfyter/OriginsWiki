@@ -14,11 +14,16 @@
   "Coins": 50000.0,
   "Drops": [
     {
-      "Name": "Treasure Bag (Fiberglass Weaver)"
+      "Name": "Fiberglass Helmet",
+      "Chance": "33.333%"
     },
     {
-      "Name": "Fiberglass Dagger",
-      "Chance": "25%"
+      "Name": "Fiberglass Pauldrons",
+      "Chance": "33.333%"
+    },
+    {
+      "Name": "Fiberglass Boots",
+      "Chance": "33.333%"
     },
     {
       "Name": "Fiberglass Bow",
@@ -39,6 +44,14 @@
     {
       "Name": "Thread Rod",
       "Chance": "20%"
+    },
+    {
+      "Name": "Fiberglass Weaver Head",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Fiberglass Weaver Trophy",
+      "Chance": "10%"
     }
   ],
   "Expert": {
@@ -48,30 +61,6 @@
     "Drops": [
       {
         "Name": "Treasure Bag (Fiberglass Weaver)"
-      },
-      {
-        "Name": "Fiberglass Dagger",
-        "Chance": "25%"
-      },
-      {
-        "Name": "Fiberglass Bow",
-        "Chance": "20%"
-      },
-      {
-        "Name": "Fiberglass Sword",
-        "Chance": "20%"
-      },
-      {
-        "Name": "Fiberglass Pistol",
-        "Chance": "20%"
-      },
-      {
-        "Name": "Glass Cannon",
-        "Chance": "20%"
-      },
-      {
-        "Name": "Thread Rod",
-        "Chance": "20%"
       }
     ]
   },
@@ -85,6 +74,13 @@
       },
       {
         "Name": "Fiberglass Dagger",
+        "Chance": "25%"
+      },
+      {
+        "Name": "Fiberglass Weaver Relic"
+      },
+      {
+        "Name": "Terlet Paper",
         "Chance": "25%"
       },
       {
@@ -112,6 +108,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
   ],
+  "BestiaryQuotation": "A giant, spider-like entity responsible for carefully weaving the fiberglass undergrowth together.",
   "SpriteWidth": 68,
   "InternalName": "Fiberglass_Weaver"
 }

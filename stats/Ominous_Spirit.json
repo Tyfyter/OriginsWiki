@@ -21,20 +21,19 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Oiled>Oiled</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Frostbite>Frostbite</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>On Even More Fire</a>"
   ],
-  "Coins": 90.0,
   "Drops": [],
   "Expert": {
     "MaxLife": 400,
     "KBResist": 0.595,
-    "Coins": 562.0,
+    "Coins": 0.0,
     "Drops": []
   },
   "Master": {
     "MaxLife": 600,
     "KBResist": 0.67999995,
-    "Coins": 562.0,
+    "Coins": 0.0,
     "Drops": []
   },
   "Environment": [

@@ -12,15 +12,15 @@
   "Coins": 500.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 300,
+    "MaxLife": 150,
     "KBResist": 0.19000006,
-    "Coins": 3125.0,
+    "Coins": 1250.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 675,
+    "MaxLife": 225,
     "KBResist": 0.35999995,
-    "Coins": 3125.0,
+    "Coins": 1250.0,
     "Drops": []
   },
   "Environment": [

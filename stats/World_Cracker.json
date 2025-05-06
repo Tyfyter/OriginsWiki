@@ -15,39 +15,38 @@
   "Coins": 50000.0,
   "Drops": [
     {
-      "Name": "Treasure Bag (World Cracker)"
+      "Name": "Encrusted Ore",
+      "Amount": "140‒330"
     },
     {
-      "Name": "Fleshy Globe",
-      "Chance": "25%"
+      "Name": "Riven Carapace",
+      "Amount": "1‒134"
     },
     {
-      "Name": "Amebic Vial",
-      "Chance": "25%"
+      "Name": "Teardown",
+      "Chance": "50%"
     },
     {
-      "Name": "World Cracker Relic"
+      "Name": "Vorpal Sword",
+      "Chance": "50%"
+    },
+    {
+      "Name": "World Cracker Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "World Cracker Mask",
+      "Chance": "10%"
     }
   ],
   "RivenAssimilation": 0.08,
   "Expert": {
-    "MaxLife": 8250,
+    "MaxLife": 5780,
     "KBResist": 0.55,
     "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (World Cracker)"
-      },
-      {
-        "Name": "Fleshy Globe",
-        "Chance": "25%"
-      },
-      {
-        "Name": "Amebic Vial",
-        "Chance": "25%"
-      },
-      {
-        "Name": "World Cracker Relic"
       }
     ],
     "RivenAssimilation": 0.103999995
@@ -77,6 +76,7 @@
   "Environment": [
     "<a is=a-link image=$fromStats>Riven Hive</a>"
   ],
+  "BestiaryQuotation": "An eel-like creature born in the Eutrophic Sea. It spends its time dissolving the world and bringing back the nutrients to the Hive to catalyze the spread of the ecosystem.",
   "SpriteWidth": 449,
   "InternalName": "World_Cracker_Head"
 }

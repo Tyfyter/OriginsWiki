@@ -1,0 +1,67 @@
+{
+  "Image": "Brine_Latcher",
+  "Name": "Brine Latcher",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 40,
+  "Defense": 8,
+  "KBResist": 0.050000012,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Heart",
+      "Chance": "10%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Heart",
+      "ImageOverride": ""
+    }
+  ],
+  "Expert": {
+    "MaxLife": 80,
+    "KBResist": 0.14500004,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Chance": "10%"
+      },
+      {
+        "Name": "Heart",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Heart",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 120,
+    "KBResist": 0.24000001,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Chance": "10%"
+      },
+      {
+        "Name": "Heart",
+        "Chance": "10%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Heart",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "A parasite that latches onto giant creatures in the Brine Pool. It maintains its bioluminesence to attract mates by leeching energy off of its hosts.",
+  "SpriteWidth": 30,
+  "InternalName": "Brine_Latcher"
+}

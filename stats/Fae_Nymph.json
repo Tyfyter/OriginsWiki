@@ -10,14 +10,15 @@
   "Coins": 20000.0,
   "Drops": [
     {
-      "Name": "Fairy Lotus"
+      "Name": "Fairy Lotus",
+      "Chance": "50%"
     }
   ],
   "Expert": {
     "MaxLife": 600,
     "KBResist": 0.676,
     "Immunities": [],
-    "Coins": 125000.0,
+    "Coins": 50000.0,
     "Drops": [
       {
         "Name": "Fairy Lotus"
@@ -28,7 +29,7 @@
     "MaxLife": 900,
     "KBResist": 0.74399996,
     "Immunities": [],
-    "Coins": 125000.0,
+    "Coins": 50000.0,
     "Drops": [
       {
         "Name": "Fairy Lotus"

@@ -7,7 +7,7 @@
   "MaxLife": 45,
   "Defense": 14,
   "KBResist": 0.5,
-  "Coins": 60.0,
+  "Coins": 80.0,
   "Drops": [
     {
       "Name": "Diamond",
@@ -24,7 +24,7 @@
     "MaxLife": 90,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 200.0,
     "Drops": [
       {
         "Name": "Diamond",
@@ -42,7 +42,7 @@
     "MaxLife": 135,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 200.0,
     "Drops": [
       {
         "Name": "Diamond",
