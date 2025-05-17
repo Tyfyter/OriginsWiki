@@ -143,7 +143,9 @@ namespace LinkTracker {
 						}
 						if (!isComment) {
 							while (text[i] != '>') currentText.Append(text[i++]);
-							i++;
+							if (!IsVoidTag(tagName)) { // this fixes issues with <br> tags next to other tags
+								i++;
+							}
 						}
 						string attributes = currentText.ToString();
 						currentText.Clear();
