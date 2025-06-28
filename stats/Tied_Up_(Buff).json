@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_311",
+  "Name": "Tied Up",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Ziptie_Buff.Description"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Ziptie</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Ziptie_Buff"
+}

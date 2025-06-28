@@ -1,12 +1,19 @@
 {
-  "Image": "§ModImage§/Buffs/Trash_Lid_Buff",
-  "Name": "Impenetrable Trashcan Lid",
+  "Image": "§ModImage§/Buffs/Brainy_Buff",
+  "Name": "Crimbrain",
   "Types": [
-    "Buff"
+    "Buff",
+    "SummonBuff"
   ],
   "Tooltip": [
-    "This trashcan lid is impenetrable"
+    "The crimbrain will fight for you"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Brainy Staff</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
-  "InternalName": "Trash_Lid_Mount_Buff"
+  "InternalName": "Brainy_Buff"
 }

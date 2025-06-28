@@ -11,49 +11,52 @@
   "Knockback": 8.0,
   "UseTime": 18,
   "Velocity": 9.75,
-  "Tooltip": "'Very pointy'",
+  "Tooltip": [
+    "Double backs on enemies",
+    "'Very pointy'"
+  ],
   "Rarity": "Blue",
   "Sell": 4000,
   "Source": "(9) <a is=a-link image=$fromStats imageOnly>Defiled Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Bilious Crate</a><div class=divider></div><a is=a-link image=$fromStats>Chunky Crate</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

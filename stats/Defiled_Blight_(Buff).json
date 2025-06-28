@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Defiled_Blight_Buff",
+  "Name": "Defiled Blight",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The Defiled Blight will light your way"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Suspicious Looking Pebble</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Blight_Buff"
+}

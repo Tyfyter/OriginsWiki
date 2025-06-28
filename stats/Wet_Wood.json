@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Items/Pets/Wet_Wood",
+  "Name": "Wet Wood",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Master"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a Mildew Blob to blob around",
+  "Rarity": "LightRed",
+  "Sell": 50000,
+  "SpriteWidth": 24,
+  "InternalName": "Wet_Wood",
+  "Pet": {
+    "Name": "Mildew Blob",
+    "Image": "Wet_Wood_Pet",
+    "LightPet": false
+  }
+}

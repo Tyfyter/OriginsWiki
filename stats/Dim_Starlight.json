@@ -3,6 +3,7 @@
   "Name": "Dim Starlight",
   "Types": [
     "Item",
+    "Lore",
     "Vitality",
     "MagicBoostAcc",
     "Accessory"
@@ -14,42 +15,42 @@
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Bilious Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Chunky Crate</a>",
-      "Rate": 0.25,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
@@ -72,7 +73,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -116,7 +116,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

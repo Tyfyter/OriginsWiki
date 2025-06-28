@@ -6,9 +6,55 @@
   ],
   "Rarity": "Orange",
   "Sell": 40,
-  "Source": "<a is=a-link image=$fromStats>Carpalfish</a><div class=divider></div><a is=a-link image=$fromStats>King Crab</a><div class=divider></div><a is=a-link image=$fromStats>Sea Dragon</a>",
+  "Source": "<a is=a-link image=$fromStats>Brine Latcher</a><div class=divider></div><a is=a-link image=$fromStats>Brine Serpent</a><div class=divider></div><a is=a-link image=$fromStats>Carpalfish</a><div class=divider></div><a is=a-link image=$fromStats>King Crab</a><div class=divider></div><a is=a-link image=$fromStats>Leaf Snapper</a><div class=divider></div><a is=a-link image=$fromStats>Leaf Snapper</a><div class=divider></div><a is=a-link image=$fromStats>Nasty Crawdad</a><div class=divider></div><a is=a-link image=$fromStats>Sea Dragon</a><div class=divider></div><a is=a-link image=$fromStats>Shotgunfish</a>",
   "DropSources": [
     {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 5,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 5,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 1.0,
+      "Max": 8,
+      "Min": 5,
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
       "Rate": 1.0,
       "Max": 4,
@@ -20,14 +66,16 @@
       "Rate": 1.0,
       "Max": 4,
       "Min": 1,
-      "Difficulty": "Expert"
+      "Difficulty": "Expert",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
       "Rate": 1.0,
       "Max": 4,
       "Min": 1,
-      "Difficulty": "Master"
+      "Difficulty": "Master",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>King Crab</a>",
@@ -41,14 +89,85 @@
       "Rate": 1.0,
       "Max": 6,
       "Min": 1,
-      "Difficulty": "Expert"
+      "Difficulty": "Expert",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>King Crab</a>",
       "Rate": 1.0,
       "Max": 6,
       "Min": 1,
-      "Difficulty": "Master"
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
@@ -62,14 +181,39 @@
       "Rate": 1.0,
       "Max": 3,
       "Min": 1,
-      "Difficulty": "Expert"
+      "Difficulty": "Expert",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
       "Rate": 1.0,
       "Max": 3,
       "Min": 1,
-      "Difficulty": "Master"
+      "Difficulty": "Master",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
     }
   ],
   "UsedIn": [
@@ -107,20 +251,13 @@
             "<a is=a-link image=$fromStats>Brineglow</a> (12)",
             "<a is=a-link image=$fromStats>Baryte</a> (25)"
           ]
-        }
-      ]
-    },
-    {
-      "stations": [
-        "<span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a><div class=or>or</div><a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>"
-      ],
-      "items": [
+        },
         {
-          "result": "<a is=a-link image=$fromStats>Antisolve Potion</a>",
+          "result": "<a is=a-link image=$fromStats>Fumethrower</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
-            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (8)",
-            "<a is=a-link image=$fromStats>Brineglow</a> (10)"
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (10)",
+            "<a is=a-link image=$fromStats>Baryte</a> (20)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (8)"
           ]
         }
       ]
@@ -142,6 +279,14 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Harpoon</a> (2)",
             "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sonar Dynamite</a> (8)",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/CopperBar\" href=Recipe_Groups>Any Copper Bar</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dynamite\">Dynamite</a> (8)",
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (5)"
           ]
         }
       ]

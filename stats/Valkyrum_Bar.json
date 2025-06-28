@@ -54,6 +54,13 @@
           ]
         },
         {
+          "result": "<a is=a-link image=$fromStats>Tyrfing</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Excalibur\">Excalibur</a>",
+            "<a is=a-link image=$fromStats>Valkyrum Bar</a> (12)"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Astoxo</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Daedalus_Stormbow\">Daedalus Stormbow</a>",

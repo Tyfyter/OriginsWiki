@@ -3,6 +3,7 @@
   "Name": "Weakpoint Analyzer",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "RangedBoostAcc",
     "Accessory",
@@ -15,7 +16,7 @@
   ],
   "Rarity": "Orange",
   "Sell": 20000,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Crimson)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Crimson)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
@@ -28,7 +29,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Crimson"
       ],
@@ -59,7 +59,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

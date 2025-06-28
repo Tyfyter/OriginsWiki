@@ -1,0 +1,17 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Lost Diver Vanity",
+  "WikiName": "Lost_Diver_Vanity",
+  "DisplayName": "WikiGenerator.Stats.Origins.Lost_Diver_Vanity.DisplayName",
+  "Images": [
+    "ArmorSets/Lost_Diver_Vanity"
+  ],
+  "Defense": 0,
+  "SetBonus": "",
+  "Rarity": "Blue",
+  "Sell": 0
+}

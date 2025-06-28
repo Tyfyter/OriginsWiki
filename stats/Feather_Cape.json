@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Feather_Cape",
+  "Name": "Feather Cape",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Allows for a super high jump and negates fall damage",
+    "Your gravity while jumping is reduced",
+    "Holding down increases your falling acceleration"
+  ],
+  "Rarity": "Orange",
+  "Sell": 18500,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Feathery Crest</a> +  <a is=a-link image=$fromStats imageOnly>Superjump Cape</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Feather Cape</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Feathery Crest</a>",
+            "<a is=a-link image=$fromStats>Superjump Cape</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Feather_Cape"
+}

@@ -7,7 +7,7 @@
     "Ammo"
   ],
   "Damage": 35,
-  "ArmorPenetration": 4,
+  "ArmorPenetration": 3,
   "DamageClass": "Explosive Ranged",
   "Knockback": 3.6,
   "Velocity": 0.3,

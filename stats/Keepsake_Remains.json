@@ -36,6 +36,13 @@
       ],
       "items": [
         {
+          "result": "<a is=a-link image=$fromStats>Ornamental Keepsake</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Keepsake Remains</a>",
+            "<a is=a-link image=$fromStats>Noxious Mithrafin</a>"
+          ]
+        },
+        {
           "result": "<a is=a-link image=$fromStats>Scavenger Bag</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Papyrus_Scarab\">Papyrus Scarab</a>",

@@ -16,7 +16,7 @@
       "ImageOverride": ""
     }
   ],
-  "CorruptionAssimilation": 0.02,
+  "CorruptAssimilation": 0.02,
   "Expert": {
     "MaxLife": 28,
     "KBResist": 0.35200006,
@@ -30,7 +30,7 @@
         "ImageOverride": ""
       }
     ],
-    "CorruptionAssimilation": 0.025999999
+    "CorruptAssimilation": 0.025999999
   },
   "Master": {
     "MaxLife": 42,
@@ -45,8 +45,12 @@
         "ImageOverride": ""
       }
     ],
-    "CorruptionAssimilation": 0.03
+    "CorruptAssimilation": 0.03
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Corruption\">The Corruption</a>"
+  ],
+  "BestiaryQuotation": "This Eater is in its first stage of the Eater life cycle. It goes straight for the eyes of its victims in hopes that it can prompt its own eye to grow in.",
   "SpriteWidth": 16,
   "InternalName": "Optiphage"
 }

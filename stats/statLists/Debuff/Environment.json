@@ -1,0 +1,8 @@
+{
+    "categories": [
+      "environmentdebuff"
+    ],
+    "extends": {
+      "name": "Buff/Buffs"
+    }
+}

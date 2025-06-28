@@ -34,6 +34,22 @@
       "Difficulty": "Master"
     }
   ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rebreather Gear</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rebreather</a>",
+            "<a is=a-link image=$fromStats>Air Tank</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 24,
   "InternalName": "Rebreather"
 }

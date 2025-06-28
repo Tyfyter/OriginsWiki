@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Buffs/Impeding_Shrapnel_Debuff",
+  "Name": "Impeding Shrapnel",
+  "Types": [
+    "Debuff",
+    "ItemBuff"
+  ],
+  "Tooltip": [
+    "You're full of foreign metal"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
+    "<a is=a-link image=$fromStats>Scavenger Armor</a>",
+    "<a is=a-link image=$fromStats>Shrapnel Bomb</a>"
+  ],
+  "Duration": [
+    "5 seconds",
+    "5 seconds",
+    "5 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Impeding_Shrapnel_Debuff"
+}

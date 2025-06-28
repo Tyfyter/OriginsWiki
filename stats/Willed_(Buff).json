@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Purification_Buff",
+  "Name": "Willed",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "The evils of the world cannot manipulate you"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Purification Potion</a>"
+  ],
+  "Duration": [
+    "360 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Purification_Buff"
+}

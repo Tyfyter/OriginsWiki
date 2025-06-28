@@ -3,6 +3,7 @@
   "Name": "Tendon Tear",
   "Types": [
     "Item",
+    "Lore",
     "Gun",
     "Weapon"
   ],

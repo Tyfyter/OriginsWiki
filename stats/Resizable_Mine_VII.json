@@ -6,8 +6,7 @@
     "Canistah",
     "Ammo"
   ],
-  "Damage": 60,
-  "ArmorPenetration": 1,
+  "Damage": 75,
   "DamageClass": "Explosive Ranged",
   "Knockback": 4.9,
   "Velocity": 1.0,

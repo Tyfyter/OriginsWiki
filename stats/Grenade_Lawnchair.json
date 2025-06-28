@@ -1,0 +1,47 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Grenade_Lawnchair",
+  "Name": "Grenade Lawnchair",
+  "Types": [
+    "Item",
+    "Launcher",
+    "Weapon",
+    "OtherExplosive",
+    "Hardmode"
+  ],
+  "Damage": 10,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 5.75,
+  "UseTime": 40,
+  "Velocity": 5.35,
+  "Tooltip": "Releases grenades in your inventory as you swing",
+  "Rarity": "Pink",
+  "Sell": 50000,
+  "Source": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.008333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.008333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 0.008333334,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", "
+    }
+  ],
+  "SpriteWidth": 58,
+  "InternalName": "Grenade_Lawnchair"
+}

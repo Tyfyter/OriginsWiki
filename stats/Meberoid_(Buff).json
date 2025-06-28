@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Meberoid_Buff",
+  "Name": "Meberoid",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The Meberoid will light up the way"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Amoeba Toy</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Meberoid_Buff"
+}

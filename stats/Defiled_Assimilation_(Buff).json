@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Defiled_Assimilation",
+  "Name": "Defiled Assimilation",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "You're being assimilated by The Defiled Wastelands"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Assimilation"
+}

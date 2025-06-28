@@ -63,8 +63,31 @@
         {
           "result": "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>NE-8</a> (10)",
             "<a is=a-link image=$fromStats>Scrap</a> (15)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rocket Rifle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night_in_a_Bottle\">Soul of Night in a Bottle</a> (15)",
+            "<a is=a-link image=$fromStats>Respyrite</a> (25)",
+            "<a is=a-link image=$fromStats>Scrap</a> (50)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Fifth Spline</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Respyrite</a> (18)",
+            "<a is=a-link image=$fromStats>Scrap</a> (12)"
           ]
         }
       ]

@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Item_3270",
+  "Name": "Framing Tester",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Rarity": "Green",
+  "Sell": 5000,
+  "SpriteWidth": 32,
+  "InternalName": "Framing_Tester"
+}

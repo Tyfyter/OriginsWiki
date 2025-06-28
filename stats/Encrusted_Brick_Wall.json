@@ -1,0 +1,43 @@
+{
+  "Image": "§ModImage§/Walls/Encrusted_Brick_Wall_Item",
+  "Name": "Encrusted Brick Wall",
+  "Types": [
+    "Item",
+    "Wall"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Encrusted Brick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Brick</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Encrusted Brick</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Encrusted Brick Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Encrusted_Brick_Wall_Item"
+}

@@ -23,24 +23,25 @@
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
-      "Rate": 0.06666667,
+      "Rate": 0.1,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
-      "Rate": 0.06666667,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Cellarkeep</a>",
-      "Rate": 0.06666667,
+      "Rate": 0.2,
       "Max": 1,
       "Min": 1,
-      "Difficulty": "Master"
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
     }
   ],
   "SpriteWidth": 26,

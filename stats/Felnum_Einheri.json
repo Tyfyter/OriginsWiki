@@ -1,0 +1,96 @@
+{
+  "Image": "Felnum_Einheri",
+  "Name": "Felnum Einheri",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 210,
+  "Defense": 14,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Static Shack</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>"
+  ],
+  "Drops": [
+    {
+      "Name": "Felnum Ore",
+      "Amount": "7‒14"
+    },
+    {
+      "Name": "Lightning Ring",
+      "Chance": "5%"
+    },
+    {
+      "Name": "Ancient Felnum Helmet",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Breastplate",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Greaves",
+      "Chance": "1.515%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 420,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Lightning Ring",
+        "Chance": "5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 630,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Lightning Ring",
+        "Chance": "5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
+  ],
+  "BestiaryQuotation": "The soul of a long lost warrior brought to the skies to continue serving the gods.",
+  "SpriteWidth": 50,
+  "InternalName": "Felnum_Einheri"
+}

@@ -11,7 +11,7 @@
   "DamageClass": "Ranged",
   "Knockback": 5.0,
   "Crit": 10,
-  "UseTime": 3,
+  "UseTime": 30,
   "Velocity": 12.75,
   "Tooltip": [
     "Uses harpoons as ammo",
@@ -19,7 +19,7 @@
   ],
   "Rarity": "LightRed",
   "Sell": 22000,
-  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Anvil\">Mythril Anvil</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Orichalcum_Bar\">Orichalcum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -29,7 +29,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Orichalcum Harpoon Gun</a>",
           "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Mythril_Anvil\">Mythril Anvil</a> (10)"
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Orichalcum_Bar\">Orichalcum Bar</a> (10)"
           ]
         }
       ]

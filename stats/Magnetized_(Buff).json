@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Magnetized",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.BuffDescription.Mag_Debuff"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Tyrfing</a>"
+  ],
+  "Duration": [
+    "3 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mag_Debuff"
+}

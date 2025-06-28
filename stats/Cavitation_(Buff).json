@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Cavitation_Debuff",
+  "Name": "Cavitation",
+  "Types": [
+    "Debuff",
+    "ItemBuff"
+  ],
+  "Tooltip": [
+    "You got the wind knocked out of you."
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Depth Charge</a>"
+  ],
+  "Duration": [
+    "1.5 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Cavitation_Debuff"
+}

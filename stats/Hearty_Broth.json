@@ -3,6 +3,7 @@
   "Name": "Hearty Broth",
   "Types": [
     "Item",
+    "Lore",
     "Broth",
     "Food"
   ],

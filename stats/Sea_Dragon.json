@@ -1,0 +1,76 @@
+{
+  "Image": "Sea_Dragon",
+  "Name": "Sea Dragon",
+  "Types": [
+    "NPC",
+    "Lore"
+  ],
+  "MaxLife": 210,
+  "Defense": 21,
+  "KBResist": 0.35000002,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Acid_Venom>Acid Venom</a>",
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Nematoclaw",
+      "Chance": "2.5%"
+    },
+    {
+      "Name": "Sour Apple",
+      "Chance": "2.5%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 420,
+    "KBResist": 0.41500002,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Nematoclaw",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Sour Apple",
+        "Chance": "2.5%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 630,
+    "KBResist": 0.48000002,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Nematoclaw",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Sour Apple",
+        "Chance": "2.5%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "Dangerous, slug-like creature of the Brine Pool. It prefers to eat plastic and has deadly nematocysts all over its body.",
+  "SpriteWidth": 94,
+  "InternalName": "Sea_Dragon"
+}

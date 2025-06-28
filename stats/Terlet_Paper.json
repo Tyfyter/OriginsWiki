@@ -1,0 +1,30 @@
+{
+  "Image": "§ModImage§/Items/Pets/Terlet_Paper",
+  "Name": "Terlet Paper",
+  "Types": [
+    "Item",
+    "Master"
+  ],
+  "Damage": 0,
+  "UseTime": 20,
+  "Tooltip": "Summons a kawaii spooder",
+  "Rarity": "Master",
+  "Sell": 50000,
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+      "Rate": 0.25,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 22,
+  "InternalName": "Terlet_Paper",
+  "Pet": {
+    "Name": "Cute Spooder",
+    "Image": "Terlet_Paper_Pet",
+    "LightPet": false
+  }
+}

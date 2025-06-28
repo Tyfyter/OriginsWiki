@@ -6,7 +6,7 @@
   ],
   "MaxLife": 36,
   "Defense": 10,
-  "KBResist": 0.14999998,
+  "KBResist": -0.5,
   "Coins": 75.0,
   "Drops": [
     {
@@ -19,12 +19,12 @@
       "Chance": "5.882%"
     }
   ],
-  "CrimsonAssimilation": 0.07,
+  "CrimsonAssimilation": 0.04,
   "Expert": {
     "MaxLife": 72,
-    "KBResist": 0.23500001,
+    "KBResist": -0.3499999,
     "Immunities": [],
-    "Coins": 467.0,
+    "Coins": 187.0,
     "Drops": [
       {
         "Name": "Vertebra",
@@ -36,13 +36,13 @@
         "Chance": "5.882%"
       }
     ],
-    "CrimsonAssimilation": 0.091
+    "CrimsonAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 108,
-    "KBResist": 0.32,
+    "KBResist": -0.20000005,
     "Immunities": [],
-    "Coins": 467.0,
+    "Coins": 187.0,
     "Drops": [
       {
         "Name": "Vertebra",
@@ -54,8 +54,12 @@
         "Chance": "5.882%"
       }
     ],
-    "CrimsonAssimilation": 0.105000004
+    "CrimsonAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Crimson\">The Crimson</a>"
+  ],
+  "BestiaryQuotation": "These entities possess a higher standing within the Crimson heirarchy as they bear the knowledge of its secrets.",
   "SpriteWidth": 34,
   "InternalName": "Crimbrain"
 }

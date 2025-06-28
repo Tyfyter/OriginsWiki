@@ -1,0 +1,49 @@
+{
+  "Name": "Tangela Bramble",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tangela Bud</a> (3)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Flan</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a> (100)",
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Tangela_Bramble_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Tangela_Bramble_Item",
+    "Tiles/Tangela_Bramble"
+  ]
+}

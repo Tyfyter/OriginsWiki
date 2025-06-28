@@ -1,0 +1,45 @@
+{
+  "Image": "Fae_Nymph",
+  "Name": "Fae Nymph",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 16,
+  "KBResist": 0.6,
+  "Coins": 20000.0,
+  "Drops": [
+    {
+      "Name": "Fairy Lotus",
+      "Chance": "50%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 600,
+    "KBResist": 0.676,
+    "Immunities": [],
+    "Coins": 50000.0,
+    "Drops": [
+      {
+        "Name": "Fairy Lotus"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 900,
+    "KBResist": 0.74399996,
+    "Immunities": [],
+    "Coins": 50000.0,
+    "Drops": [
+      {
+        "Name": "Fairy Lotus"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Caverns\">Caverns</a>"
+  ],
+  "BestiaryQuotation": "Not your average nymph. I think she's just happy to see you... she seems to have quite the grip. Uh oh.",
+  "SpriteWidth": 38,
+  "InternalName": "Fae_Nymph"
+}

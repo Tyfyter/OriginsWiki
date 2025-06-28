@@ -1,0 +1,31 @@
+{
+  "Name": "Fiberglass Weaver Relic",
+  "Types": [
+    "Item",
+    "Tile",
+    "Master"
+  ],
+  "PlacementSize": [
+    3,
+    4
+  ],
+  "UseTime": 10,
+  "Rarity": "Master",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Fiberglass Weaver</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Fiberglass_Weaver_Relic_Item",
+  "Images": [
+    "§ModImage§/Tiles/BossDrops/Fiberglass_Weaver_Relic_Item",
+    "Tiles/Fiberglass_Weaver_Relic"
+  ]
+}

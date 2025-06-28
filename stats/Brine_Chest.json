@@ -1,0 +1,36 @@
+{
+  "Name": "Brine Chest",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    2
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 100,
+  "Source": "<a is=a-link image=$fromStats>Brine Key</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brine Chest</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Brine Key</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Brine_Dungeon_Chest_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Brine_Dungeon_Chest_Item",
+    "Tiles/Brine_Chest"
+  ]
+}

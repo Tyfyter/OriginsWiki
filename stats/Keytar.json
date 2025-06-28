@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/CrossMod/Thorium/Items/Weapons/Bard/Keytar",
+  "Name": "Keytar",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Hardmode"
+  ],
+  "ManaCost": 20,
+  "Damage": 52,
+  "DamageClass": "",
+  "Knockback": 1.0,
+  "UseTime": 16,
+  "Velocity": 18.0,
+  "Tooltip": "Right click to alternate between different instruments!",
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "SpriteWidth": 52,
+  "InternalName": "Keytar"
+}

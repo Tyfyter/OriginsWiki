@@ -1,0 +1,42 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Power_Lotus",
+  "Name": "Power Lotus",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Knockback": 8.0,
+  "Tooltip": [
+    "Power fairies will protect you from projectiles and enemies",
+    "Increases melee knockback",
+    "12% increased melee speed",
+    "Enables auto swing for melee weapons",
+    "Increases the size of melee weapons",
+    "Increases pickup range for items",
+    "Press <key> to enable/disable loot search",
+    "Press <key> over discovered loot to have a power fairy bring it to you"
+  ],
+  "Rarity": "LightPurple",
+  "Sell": 120000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Golden Lotus</a> +  <a is=a-link image=$fromStats imageOnly>Handy Helper</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Power Lotus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Golden Lotus</a>",
+            "<a is=a-link image=$fromStats>Handy Helper</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Power_Lotus"
+}

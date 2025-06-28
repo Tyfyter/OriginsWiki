@@ -8,14 +8,14 @@
     "OtherExplosive"
   ],
   "Damage": 12,
-  "ArmorPenetration": 5,
+  "ArmorPenetration": 6,
   "DamageClass": "Explosive Ranged",
   "UseTime": 1,
   "Velocity": 2.0,
   "Tooltip": "Uses scrap as ammo",
   "Rarity": "Blue",
   "Sell": 10000,
-  "Source": "(10) <a is=a-link image=$fromStats imageOnly>NE8</a> + (15) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Broken Record</a>",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (15) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Broken Record</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Broken Record</a>",
@@ -48,7 +48,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Ace Shrapnel</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>NE-8</a> (10)",
             "<a is=a-link image=$fromStats>Scrap</a> (15)"
           ]
         }

@@ -1,0 +1,28 @@
+{
+  "Image": "Mildew_Carrion_Mildew_Creeper",
+  "Name": "Mildew Carrion Mildew Creeper",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 260,
+  "Defense": 24,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 367,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 450,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Mildew_Carrion_Mildew_Creeper"
+}

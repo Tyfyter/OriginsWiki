@@ -1,0 +1,28 @@
+{
+  "Image": "Mildew_Carrion_Tendril",
+  "Name": "Mildew Carrion Tendril",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 150,
+  "Defense": 18,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 300,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 450,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 30,
+  "InternalName": "Mildew_Carrion_Tendril"
+}

@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Not the Bees!",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Not to be confused with the secret seed"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Bee Afraid Incantation</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Bee_Incantation_Buff"
+}

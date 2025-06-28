@@ -44,6 +44,14 @@
             "<a is=a-link image=$fromStats>Bleeding Obsidian</a> (8)",
             "<a is=a-link image=$fromStats>Hallowed Cleaver</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Dreikan</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night\">Soul of Night</a> (30)",
+            "<a is=a-link image=$fromStats>Hallowed Cleaver</a>",
+            "<a is=a-link image=$fromStats>Respyrite</a> (15)"
+          ]
         }
       ]
     }

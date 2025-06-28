@@ -3,6 +3,7 @@
   "Name": "Ashen Helmet",
   "Types": [
     "Item",
+    "Lore",
     "Armor"
   ],
   "Defense": 6,
@@ -10,7 +11,7 @@
   "Tooltip": "8% increased damage",
   "Rarity": "Blue",
   "Sell": 10000,
-  "Source": "(10) <a is=a-link image=$fromStats imageOnly>NE8</a> + (15) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (15) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -20,7 +21,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Ashen Helmet</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>NE-8</a> (10)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (15)"
           ]
         }

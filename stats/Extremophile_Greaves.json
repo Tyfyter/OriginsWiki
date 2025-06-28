@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Armor/Extremophile/Extremophile_Greaves",
+  "Name": "Extremophile Greaves",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 11,
+  "ArmorSlot": "Pants",
+  "Tooltip": [
+    "+25% movement speed",
+    "10% increased speed when submerged",
+    "Grants the ability to swim"
+  ],
+  "Rarity": "Pink",
+  "SpriteWidth": 22,
+  "InternalName": "Extremophile_Greaves"
+}

@@ -1,0 +1,23 @@
+{
+  "Image": "Lost_Diver_Spawn",
+  "Name": "Lost Diver Spawn",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 7800,
+  "Defense": 26,
+  "KBResist": 1.0,
+  "Drops": [],
+  "Expert": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 16,
+  "InternalName": "Lost_Diver_Spawn"
+}

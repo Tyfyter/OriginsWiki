@@ -1,0 +1,19 @@
+{
+  "Name": "Ocotillo Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    4,
+    5
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 432,
+  "InternalName": "Ocotillo_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Ocotillo",
+    "Tiles/Ocotillo_Item"
+  ]
+}

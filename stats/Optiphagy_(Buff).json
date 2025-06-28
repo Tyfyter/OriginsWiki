@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Optiphage_Debuff",
+  "Name": "Optiphagy",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "It's on your eyeball!"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Optiphage</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Optiphage_Debuff"
+}

@@ -7,7 +7,7 @@
   "MaxLife": 45,
   "Defense": 14,
   "KBResist": 0.5,
-  "Coins": 60.0,
+  "Coins": 80.0,
   "Drops": [
     {
       "Name": "Diamond",
@@ -24,7 +24,7 @@
     "MaxLife": 90,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 200.0,
     "Drops": [
       {
         "Name": "Diamond",
@@ -42,7 +42,7 @@
     "MaxLife": 135,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 375.0,
+    "Coins": 200.0,
     "Drops": [
       {
         "Name": "Diamond",
@@ -56,6 +56,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nighttime\">Nighttime</a>"
+  ],
+  "BestiaryQuotation": "Conehead Zombie shuffled mindlessly forward like every other zombie. But something made him stop, made him pick up a traffic cone and stick it on his head. Oh yeah. He likes to party.",
   "SpriteWidth": 34,
   "InternalName": "Conehead_Zombie"
 }

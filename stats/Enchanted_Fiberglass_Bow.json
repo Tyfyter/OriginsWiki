@@ -7,12 +7,7 @@
   "MaxLife": 95,
   "Defense": 10,
   "KBResist": 0.6,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
-  ],
-  "Coins": 400.0,
+  "Coins": 500.0,
   "Drops": [
     {
       "Name": "Unstrung Fiberglass Bow",
@@ -23,15 +18,26 @@
       "Chance": "4%"
     },
     {
-      "Name": "Silver Coin",
-      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+      "Name": "Fiberglass Block",
+      "Chance": "10%",
+      "Amount": "3‒8"
+    },
+    {
+      "Name": "Vine",
+      "Chance": "14.286%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
       "ImageOverride": ""
+    },
+    {
+      "Name": "Fiberglass Shard",
+      "Amount": "1‒7"
     }
   ],
   "Expert": {
     "MaxLife": 190,
-    "KBResist": 0.676,
-    "Coins": 2500.0,
+    "KBResist": 0.64,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Unstrung Fiberglass Bow",
@@ -42,16 +48,27 @@
         "Chance": "4%"
       },
       {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
   "Master": {
     "MaxLife": 285,
-    "KBResist": 0.74399996,
-    "Coins": 2500.0,
+    "KBResist": 0.67999995,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Unstrung Fiberglass Bow",
@@ -62,12 +79,26 @@
         "Chance": "4%"
       },
       {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
+  "BestiaryQuotation": "A bow made of fiberglass enchanted by the spirit of the Undergrowth to protect it from tampering.",
   "SpriteWidth": 18,
   "InternalName": "Enchanted_Fiberglass_Bow"
 }

@@ -10,7 +10,114 @@
   ],
   "UseTime": 10,
   "Rarity": "White",
-  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Fiberglass Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Source": "(4) <a is=a-link image=$fromStats imageOnly>Fiberglass Wall</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)<div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a><div class=divider></div><a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Bow</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Cannon</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Pistol</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
+      "Rate": 0.1,
+      "Max": 8,
+      "Min": 3,
+      "Difficulty": "Master"
+    }
+  ],
   "Recipes": [
     {
       "stations": [
@@ -48,6 +155,20 @@
             "<a is=a-link image=$fromStats>Fiberglass Block</a> (18)",
             "<a is=a-link image=$fromStats>Power Core</a>",
             "<a is=a-link image=$fromStats>Rubber</a> (12)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Glass_Kiln\">Glass Kiln</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Shaped Glass</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Fiberglass Block</a> (12)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vine\">Vine</a> (3)"
           ]
         }
       ]

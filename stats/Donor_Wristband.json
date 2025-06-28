@@ -9,10 +9,10 @@
   ],
   "Tooltip": [
     "Increased life regeneration",
-    "Debuff durations reduced by 48%"
+    "Debuff durations reduced by 30%"
   ],
   "Rarity": "LightPurple",
-  "Sell": 6000,
+  "Sell": 46000,
   "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Charm_of_Myths\">Charm of Myths</a> +  <a is=a-link image=$fromStats imageOnly>Plasma Bag</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
   "Recipes": [
     {
@@ -25,6 +25,22 @@
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Charm_of_Myths\">Charm of Myths</a>",
             "<a is=a-link image=$fromStats>Plasma Bag</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Party Ring Balloon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Amber_Horseshoe_Balloon\">Amber Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Donor Wristband</a>"
           ]
         }
       ]

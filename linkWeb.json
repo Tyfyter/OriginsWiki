@@ -1,10 +1,175 @@
 {
+  "Guns": [
+    "2-in-1_Shotty",
+    "3-in-1_Shotty",
+    "Alkahest_Bullet",
+    "Ammunition",
+    "Ancient_Kruncher",
+    "Bile_Bullet",
+    "Blotopus",
+    "Bullets",
+    "Crimtane_Gun_Magazine",
+    "Defiled_Gun_Magazine",
+    "Demonite_Gun_Magazine",
+    "Eitrite_Gun_Magazine",
+    "Encrusted_Gun_Magazine",
+    "Fiberglass_Pistol",
+    "Fifth_Spline",
+    "Gun_Magazine",
+    "Hallowed_Cleaver",
+    "HNO-3_Viper",
+    "Molten_Gun_Magazine",
+    "Neural_Network",
+    "Sanguinite_Gun_Magazine",
+    "Shardcannon",
+    "Sunflower_Seed_Shooter",
+    "Tendon_Tear",
+    "The_Kruncher"
+  ],
+  "Adhesive_Wrap": [
+    "2-in-1_Shotty",
+    "3-in-1_Shotty",
+    "RecipePage",
+    "Recipe_Changes",
+    "Tree_Sap"
+  ],
+  "Bullets": [
+    "2-in-1_Shotty",
+    "3-in-1_Shotty",
+    "Alkahest_Bullet",
+    "Ammunition",
+    "Bile_Bullet",
+    "Guns",
+    "Gun_Glove",
+    "HNO-3_Viper",
+    "Item_Synergies",
+    "Tendon_Tear"
+  ],
+  "Modifiers": [
+    "2-in-1_Shotty",
+    "3-in-1_Shotty",
+    "Abrasion_Blaster",
+    "Ace_Shrapnel",
+    "Acrid_Handcannon",
+    "Acrid_Impaler",
+    "Adamantite_Harpoon_Gun",
+    "Amebolize_Incantation",
+    "Amoebash",
+    "Ancient_Kruncher",
+    "Area_Denial",
+    "Avulsion",
+    "Bee_Afraid_Incantation",
+    "Bloodletter",
+    "Blotopus",
+    "Boiler",
+    "Bombardment",
+    "Bone_Latcher",
+    "Boomerangs",
+    "Bows",
+    "Brainy_Staff",
+    "Broken_Fiberglass_Sword",
+    "Cobalt_Harpoon_Gun",
+    "Cold_Snap",
+    "Communion",
+    "Cyah_Nara",
+    "Dark_Spiral",
+    "Dart_Crossbow",
+    "Dart_Launchers",
+    "Decimator",
+    "Desert_Crown",
+    "Dew_Justice",
+    "Dragon's_Breath",
+    "Endowood_Bow",
+    "Endowood_Sword",
+    "Eruption",
+    "Felnum_Boar_Spear",
+    "Fiberglass_Bow",
+    "Fiberglass_Pistol",
+    "Fiberglass_Sword",
+    "Fifth_Spline",
+    "Firespit",
+    "Flagellash",
+    "Generic_Weapon",
+    "Glass_Cannon",
+    "Guns",
+    "Hallowed_Cleaver",
+    "Handy_Helper",
+    "Harpoon_Burst_Rifle",
+    "Harpoon_Gun",
+    "Harpoon_Guns",
+    "Hemorang",
+    "HNO-3_Viper",
+    "Incantations",
+    "Incision",
+    "Infusion",
+    "Joint_Pop",
+    "Knee_Slapper",
+    "Krakram",
+    "Launchers",
+    "Longbone",
+    "Low_Signal",
+    "Magma_Grappler",
+    "Manasynk",
+    "Marrowick_Bow",
+    "Marrowick_Sword",
+    "Matrix",
+    "Meteor",
+    "Mine_Flayer",
+    "Missing_File",
+    "Mythril_Harpoon_Gun",
+    "Neural_Network",
+    "Nineball",
+    "Nova_Cascade",
+    "Ocotoral_Bud",
+    "Orbital_Saw",
+    "Orichalcum_Harpoon_Gun",
+    "Palladium_Harpoon_Gun",
+    "Plasma_Cutter",
+    "Potato_Launcher",
+    "Rarity",
+    "Repeaters",
+    "Ripper_Lance",
+    "Riven_Splitter",
+    "Riverang",
+    "Scabcoral_Lyre",
+    "Self-Destruct",
+    "Shardcannon",
+    "Sleetfire",
+    "Snapthrow",
+    "Spiker_Sword",
+    "Splitsplash",
+    "Sunflower_Seed_Shooter",
+    "Switchblade",
+    "Teardown",
+    "Telephone_Pole",
+    "Tendon_Tear",
+    "Terrarang",
+    "Thermite_Launcher",
+    "The_Bird",
+    "The_Kruncher",
+    "Thread_Rod",
+    "Threemoepeater",
+    "Titanium_Harpoon_Gun",
+    "Triple_Threat",
+    "True_Light_Disc",
+    "True_Waning_Crescent",
+    "Unmisfire",
+    "Unstrung_Fiberglass_Bow",
+    "Vorpal_Sword",
+    "Waning_Crescent"
+  ],
+  "2-in-1_Shotty": [
+    "3-in-1_Shotty",
+    "RecipePage"
+  ],
   "Accessories": [
     "A.S.H._Attack_Relay",
     "Abyssal_Anchor",
     "ACME_Crate",
+    "Acrid_Beam_Thrusters",
     "Advanced_Imaging",
     "Air_Tank",
+    "Alkaliegis",
     "Amebic_Vial",
     "Asylum_Whistle",
     "Automated_Returns_Handler",
@@ -21,17 +186,20 @@
     "Celestial_Starlight",
     "Celestial_Stone_Mask",
     "Changes",
+    "Charm_of_Naivety",
     "Cirrhosis'_Abhorrence",
     "Comb",
     "Construction_Core",
+    "Control_Locus",
     "Coologne",
     "CORE_Generator",
     "Counter_Offensive_Scarf",
     "Crates",
+    "Crimtane_Gun_Magazine",
     "Cursed_Crown",
     "Danger_Barrel",
-    "Dash_Ravel",
-    "Depth_Ravel",
+    "Defiled_Gun_Magazine",
+    "Demonite_Gun_Magazine",
     "Destructive_Claws",
     "Dim_Starlight",
     "Donor_Wristband",
@@ -39,19 +207,30 @@
     "Dyes",
     "Dysfunctional_Endless_Explosives_Bag",
     "Eccentric_Stone",
+    "Eitrite_Gun_Magazine",
     "Emergency_Bee_Canister",
+    "Encrusted_Gun_Magazine",
     "Entangled_Energy",
     "Exploder_Emblem",
     "Explosive_Artery",
+    "Fairy_Lotus",
+    "Faith_Beads",
+    "Fallacious_Vase",
+    "Feathery_Crest",
+    "Feather_Cape",
     "Fiberglass_Dagger",
     "Fleshy_Figurine",
     "Focus_Crystal",
     "Forbidden_Voice",
+    "Full_Send",
     "Futurephones",
+    "Golden_Lotus",
     "Grave_Danger",
     "Gun_Glove",
+    "Gun_Magazine",
     "Haggard_Artery",
     "Handy_Helper",
+    "Harpy_Horseshoe_Balloon",
     "Hazard_Charm",
     "Headphones",
     "Helium_Tank",
@@ -60,90 +239,97 @@
     "Keepsake_Remains",
     "Laser_Tag_Vest",
     "Last_Descendant",
+    "Lightning_Ring",
     "Locket_Necklace",
     "Lousy_Liver",
     "Lover's_Leap",
+    "Lucky_Hat",
     "Magic_Glove",
     "Magic_Pain_Glove",
     "Magic_Tripwire",
     "Makeover_Choker",
     "Messy_Leech",
     "Messy_Magma_Leech",
+    "Mildew_Heart",
     "Missile_Armcannon",
+    "Mithrafin",
     "Modifiers",
+    "Molten_Gun_Magazine",
     "Music_Boxes",
     "Mysterious_Spray",
-    "Ninja_Ravel",
     "Nitro_Crate",
+    "Noxious_Mithrafin",
     "No_U_Card",
     "Olid_Organ",
+    "Ornamental_Keepsake",
+    "Party_Ring_Balloon",
     "Plasma_Bag",
     "Playtime's_Over",
     "Pneumatic_Bomb_Thrower",
     "Potato_Battery",
     "Powerflower",
+    "Power_Lotus",
     "Primordial_Soup",
     "Priority_Mail",
     "Protomind",
     "Protozoa_Food",
-    "Ravel",
     "Razorwire",
     "Rebreather",
+    "Rebreather_Gear",
     "Refactoring_Pieces",
     "Resin_Shield",
+    "Retaliatory_Tendril",
     "Return_To_Sender",
+    "Rockstar_Choker",
     "Ruby_Reticle",
+    "Sanguinite_Gun_Magazine",
     "Scavenger_Bag",
     "Scrap_Barrier",
     "Scribe_of_the_Meat_God",
     "Seal_of_Cinders",
     "Shield_of_Retribution",
+    "Shock_Collar",
+    "Shotgun_Glove",
     "Slag_Bucket",
     "Sniper's_Mark",
     "Solar_Panel",
     "Sonar_Visor",
     "Sonic_Radar",
+    "Sparking_Flame_Barrel",
     "Speed_Booster",
-    "Spider_Ravel",
     "Spirit_Shard",
-    "Stealth_Ravel",
+    "Stack_of_Shraps",
     "Stone_Mask",
     "Strange_Tooth",
+    "Sunder_Gut",
     "Superjump_Cape",
     "Super_Turbo_Reel",
     "Symbiote_Skull",
     "Tainted_Flesh",
+    "Tender_Flesh_Heart",
     "Terrarian_Voodoo_Doll",
     "Third_Eye",
+    "Tiki_Buckler",
     "Trap_Charm",
     "Tripod_Nip",
     "Turbo_Reel",
     "Unsought_Organ",
     "Vanity",
+    "Venom_Shield",
     "Weakpoint_Analyzer",
     "Wings"
   ],
   "Comb": [
     "A.S.H._Attack_Relay",
-    "Comb",
     "Counter_Offensive_Scarf",
     "Locket_Necklace",
     "RecipePage",
-    "Seal_of_Cinders",
     "Shimmer"
   ],
   "Seal_of_Cinders": [
     "A.S.H._Attack_Relay",
-    "Comb",
     "Evil_Biomes",
-    "RecipePage",
-    "Seal_of_Cinders"
-  ],
-  "A.S.H._Attack_Relay": [
-    "A.S.H._Attack_Relay",
-    "Comb",
-    "RecipePage",
-    "Seal_of_Cinders"
+    "RecipePage"
   ],
   "Launchers": [
     "Abrasion_Blaster",
@@ -158,6 +344,7 @@
     "Coolant_Canister",
     "Cursed_Canister",
     "Eruption",
+    "Glass_Cannon",
     "Ichor_Canister",
     "Matrix",
     "Meteor",
@@ -168,30 +355,23 @@
     "Resizable_Mine_Mk._III",
     "Resizable_Mine_Mk._IV",
     "Resizable_Mine_Mk._V",
+    "Rocket_Rifle",
     "Thermite_Launcher"
   ],
   "Biocomponent_10": [
     "Abrasion_Blaster",
-    "Biocomponent_10",
     "Broken_Record",
-    "Bud_Barnacle",
     "Evil_Biomes",
     "RecipePage",
-    "Sanguinite_Ore",
-    "Scavenger_Armor",
-    "Scrap",
-    "Urn_of_Ashes"
+    "Scavenger_Armor"
   ],
   "Scrap": [
     "Abrasion_Blaster",
     "Ace_Shrapnel",
     "Ammunition",
-    "Biocomponent_10",
-    "Impeding_Shrapnel",
-    "NE-8",
+    "Fifth_Spline",
     "RecipePage",
     "Scavenger_Armor",
-    "Scrap",
     "Shrapnel_Bomb"
   ],
   "Self_Damage": [
@@ -205,88 +385,20 @@
     "Bleeding_Obsidian_Armor",
     "Bomb_Charm",
     "Bomb_Charm_of_Regeneration",
+    "Changes",
     "Demolitionist_Weapons",
+    "Glass_Cannon",
     "Hazard_Charm",
+    "Impactaxe",
+    "Impenetrable_Trashcan_Lid",
+    "Indestructible_Saddle",
     "Item_Synergies",
     "Mine_Flayer",
     "Nova_Armor",
     "Resin_Shield",
     "Scavenger_Armor",
-    "Self-Destruct"
-  ],
-  "Modifiers": [
-    "Abrasion_Blaster",
-    "Ace_Shrapnel",
-    "Acrid_Handcannon",
-    "Acrid_Impaler",
-    "Amebolize_Incantation",
-    "Amoebash",
-    "Area_Denial",
-    "Avulsion",
-    "Bee_Afraid_Incantation",
-    "Bloodletter",
-    "Blotopus",
-    "Bombardment",
-    "Bone_Latcher",
-    "Boomerangs",
-    "Bows",
-    "Brainy_Staff",
-    "Cold_Snap",
-    "Communion",
-    "Dart_Crossbow",
-    "Dart_Launchers",
-    "Decimator",
-    "Desert_Crown",
-    "Dew_Justice",
-    "Eruption",
-    "Flagellash",
-    "Guns",
-    "Handy_Helper",
-    "Harpoon_Gun",
-    "Harpoon_Guns",
-    "Incision",
-    "Infusion",
-    "Joint_Pop",
-    "Knee_Slapper",
-    "Krakram",
-    "Launchers",
-    "Low_Signal",
-    "Magma_Grappler",
-    "Manasynk",
-    "Matrix",
-    "Meteor",
-    "Mine_Flayer",
-    "Missing_File",
-    "Neural_Network",
-    "Nineball",
-    "Nova_Cascade",
-    "Ocotoral_Bud",
-    "Outreach",
-    "Plasma_Cutter",
-    "Potato_Launcher",
-    "Rarity",
-    "Repeaters",
-    "Ripper_Lance",
-    "Riven_Splitter",
-    "Riverang",
-    "Scabcoral_Lyre",
     "Self-Destruct",
-    "Snapthrow",
-    "Spiker_Sword",
-    "Splitsplash",
-    "Sunflower_Seed_Shooter",
-    "Switchblade",
-    "Teardown",
-    "Thermite_Launcher",
-    "The_Kruncher",
-    "Triple_Threat",
-    "Vorpal_Sword"
-  ],
-  "Abrasion_Blaster": [
-    "Abrasion_Blaster",
-    "Biocomponent_10",
-    "RecipePage",
-    "Scrap"
+    "Totally_Safe"
   ],
   "Buff_Potions": [
     "Absorption_Potion",
@@ -297,6 +409,9 @@
     "Protean_Potion",
     "Purification_Potion",
     "Voidsight_Potion"
+  ],
+  "Totally_Safe": [
+    "Absorption_Potion"
   ],
   "Buffs": [
     "Absorption_Potion",
@@ -324,12 +439,14 @@
     "Periven",
     "Petrified_Prickly_Pear",
     "Pets",
+    "Plague_Texan's_Gift",
     "Potato",
     "Prickly_Pear",
     "Protean_Potion",
     "Purification_Potion",
     "Shattered_Stout",
     "Soul_Spaghetti",
+    "Totally_Safe",
     "Vanilla_Shake",
     "Voidsight_Potion"
   ],
@@ -350,6 +467,7 @@
     "Blocks",
     "Bloombomb",
     "Bomb_Handling_Device",
+    "Bouncy_Explosive_Golf_Ball",
     "Brainade",
     "Brine_Pool",
     "C.F.H.E.S.",
@@ -357,18 +475,20 @@
     "Changes",
     "Chlorodynamite",
     "Chlorophyte_Visage",
+    "Control_Locus",
     "CORE_Generator",
+    "Cryosten_Armor",
     "Crystal_Bomb",
     "Crystal_Grenade",
     "Danger_Barrel",
-    "Defiled_Ekko",
-    "Defiled_Fissure",
+    "Defiled_Relay",
     "Defiled_Spirit",
     "Defiled_Stone",
     "Defiled_Wastelands",
     "Destructive_Claws",
     "Dysfunctional_Endless_Explosives_Bag",
     "Exploder_Emblem",
+    "Explosive_Golf_Ball",
     "Felnum_Shock_Grenade",
     "Flashbang",
     "Floaty_Bomb",
@@ -381,6 +501,7 @@
     "I-WTPA_Standard",
     "Impact_Bomb",
     "Impact_Dynamite",
+    "Impact_Golf_Ball",
     "Impact_Grenade",
     "index",
     "Internal_Combustionfish",
@@ -397,10 +518,10 @@
     "Nuclear_Arm",
     "Omni-Directional_Claymore",
     "Ores",
-    "Outbreak_Bomb",
     "Peatball",
     "Peat_Moss",
     "Pincushion",
+    "Pink_Cryosten_Armor",
     "Pneumatic_Bomb_Thrower",
     "Potato_Mine",
     "Protomind",
@@ -408,34 +529,27 @@
     "Self-Destruct",
     "Self_Damage",
     "Shrapnel_Bomb",
+    "Sparking_Flame_Barrel",
     "Spug_Flesh",
+    "Stack_of_Shraps",
     "Stat_Share",
     "Sticky_Link_Grenade",
     "Tools",
     "Walls"
   ],
-  "Absorption_Potion": [
-    "Absorption_Potion",
-    "RecipePage"
-  ],
   "Binding_Book": [
     "Abyssal_Anchor",
-    "Binding_Book",
-    "Celestial_Stone_Mask",
     "Item_Synergies",
-    "RecipePage",
-    "Refactoring_Pieces"
+    "RecipePage"
   ],
   "Celestial_Stone_Mask": [
     "Abyssal_Anchor",
-    "Binding_Book",
-    "Celestial_Stone_Mask",
-    "RecipePage",
-    "Stone_Mask"
+    "RecipePage"
   ],
   "generic_damage": [
     "Abyssal_Anchor",
     "Celestial_Stone_Mask",
+    "Configuration_Options",
     "CORE_Generator",
     "Fiberglass_Armor",
     "Futurephones",
@@ -449,37 +563,38 @@
     "Avulsion",
     "Biomes",
     "Bookcases",
+    "Brine_Haze",
     "Communion",
     "Dew_Justice",
+    "Eternabrite",
+    "Eternanite",
     "Item_Synergies",
+    "Keytar",
     "Lost_Armor",
     "Low_Signal",
     "Manasynk",
     "Missing_File",
+    "Nerve_Flan",
     "Plasma_Cutter",
     "Riptide_Armor",
     "Sapphire_Mediator_Armor",
-    "Splitsplash"
+    "Splitsplash",
+    "Watered-down_Keytar"
   ],
   "Mana_Shielding": [
     "Abyssal_Anchor",
     "Binding_Book",
     "Item_Synergies",
     "Lost_Armor",
+    "Mana_Buffer_(Buff)",
     "Petrified_Prickly_Pear"
-  ],
-  "Abyssal_Anchor": [
-    "Abyssal_Anchor",
-    "Binding_Book",
-    "Celestial_Stone_Mask",
-    "Item_Synergies",
-    "RecipePage"
   ],
   "Item_Synergies": [
     "Abyssal_Anchor",
     "Binding_Book",
     "Bone_Latcher",
     "Lost_Armor",
+    "Missing_File",
     "Petrified_Prickly_Pear",
     "Protean_Potion",
     "Refactoring_Pieces",
@@ -493,12 +608,56 @@
     "Petrified_Prickly_Pear",
     "Refactoring_Pieces"
   ],
+  "Abysswalker_Armor": [
+    "Abysswalker_Breastplate",
+    "Abysswalker_Greaves",
+    "Abysswalker_Helmet"
+  ],
+  "Speed_Booster": [
+    "Accessories",
+    "Changes",
+    "RecipePage"
+  ],
+  "Sonic_Radar": [
+    "Accessories",
+    "RecipePage"
+  ],
+  "Plasma_Bag": [
+    "Accessories",
+    "Donor_Wristband",
+    "RecipePage"
+  ],
+  "Focus_Crystal": [
+    "Accessories",
+    "RecipePage"
+  ],
+  "Fairy_Lotus": [
+    "Accessories"
+  ],
+  "Music_Boxes": [
+    "Accessories",
+    "Ancient_Music_Box_(Brine_Pool)",
+    "§example"
+  ],
+  "Protozoa_Food": [
+    "Accessories",
+    "Changes",
+    "Demolitionist_Weapons",
+    "Evil_Biomes"
+  ],
+  "Mysterious_Spray": [
+    "Accessories",
+    "Coologne",
+    "Evil_Biomes",
+    "Makeover_Choker",
+    "RecipePage",
+    "Stack_of_Shraps"
+  ],
   "Riven_Grass": [
     "Acetabularia",
     "Blocks",
     "Evil_Biomes",
     "Exoskeletal_Tree",
-    "Marrowick",
     "Riven_Hive",
     "Riven_Seeds"
   ],
@@ -510,15 +669,19 @@
   ],
   "Blocks": [
     "Acetabularia",
+    "Acrid_Drill",
+    "Acrid_Pickaxe",
     "Amoeba_Fluid",
     "Angelic_Cloud",
     "Assimilation",
     "Banners",
+    "Baryte",
     "Biomes",
     "Black_Hole_Bomb",
     "Bleeding_Obsidian",
     "Bleeding_Obsidian_Armor",
     "Bleeding_Obsidian_Shard",
+    "Bomb_Trap",
     "Brineglow",
     "Brittle_Quartz",
     "Candelabras",
@@ -529,33 +692,42 @@
     "Defiled_Cactus",
     "Defiled_Grass",
     "Defiled_Jungle_Grass",
+    "Defiled_Regolith",
     "Defiled_Sand",
     "Defiled_Sandstone",
     "Defiled_Stone",
     "Defiled_Wastelands",
-    "Dolomite",
+    "Dismantler",
     "Doors",
     "Eitrite_Ore",
     "Encrusted_Ore",
     "Endowood",
     "Exoskeletal_Tree",
     "Felnum_Ore",
+    "Felnum_Pickaxe",
     "Fiberglass_Block",
     "Fungarust",
     "Furniture",
     "Gray_Ice_Block",
     "Gray_Solution",
     "Hardened_Defiled_Sand",
+    "Impactaxe",
+    "Items",
+    "Latchkey",
     "Launchers",
     "Living_Fire_Blocks",
     "Lost_Ore",
+    "Lucky_Hat",
     "Marrowick",
     "Ores",
     "Peat_Moss",
     "Petrified_Tree",
+    "Pickaxes",
+    "Piledriver",
     "Platforms",
     "Primordial_Permafrost",
     "Quartz",
+    "Rivenator",
     "Riven_Cactus",
     "Riven_Grass",
     "Riven_Hive",
@@ -565,7 +737,9 @@
     "Silicon_Ore",
     "Soulspore",
     "Spug_Flesh",
+    "Strainer",
     "Surveysprout",
+    "Tangela_Bramble",
     "Teal_Solution",
     "Torches",
     "Twilith",
@@ -593,6 +767,7 @@
     "Bottomfeeder",
     "Brittle_Quartz",
     "Cleaver",
+    "Concept_Art",
     "Crusty_Crate",
     "Debuffs",
     "Defiled_Wastelands",
@@ -609,7 +784,9 @@
     "Protean_Potion",
     "Quartz",
     "Riven_Cactus",
+    "Riven_Desert",
     "Riven_Grass",
+    "Riven_Ice",
     "Riven_Jungle_Grass",
     "Riven_Key",
     "Riven_Penguin",
@@ -628,139 +805,31 @@
     "Tearracuda",
     "Torn",
     "Trijaw_Shark",
+    "Underground_Riven_Desert",
     "Underground_Riven_Hive",
+    "Unmisfire",
     "World_Cracker",
     "Wrycoral"
-  ],
-  "Shimmer": [
-    "Acetabularia",
-    "Alkahest",
-    "Ancient_Defiled_Armor",
-    "Ancient_Hallowed_Visage",
-    "Ancient_Riven_Armor",
-    "Asylum_Whistle",
-    "Bileberry",
-    "Bilemouth",
-    "Bilious_Crate",
-    "Biocomponent_10",
-    "Black_Bile",
-    "Bleeding_Obsidian_Kunai",
-    "Blotopus",
-    "Bomb_Charm",
-    "Bomb_Handling_Device",
-    "Brittle_Quartz",
-    "Bud_Barnacle",
-    "Chambersite",
-    "Comb",
-    "Crates",
-    "Crusty_Crate",
-    "Cursed_Crown",
-    "Defiled_Armor",
-    "Defiled_Sand",
-    "Defiled_Sandstone",
-    "Dreadful_Powder",
-    "Eitrite_Bar",
-    "Encrusted_Ore",
-    "Festering_Crate",
-    "Fungarust",
-    "Hallowed_Visage",
-    "Hardened_Defiled_Sand",
-    "Internal_Combustionfish",
-    "Lost_Ore",
-    "Mojo_Injection",
-    "NE-8",
-    "Pawpaw",
-    "Peatball",
-    "Periven",
-    "Petrified_Prickly_Pear",
-    "Plasma_Cutter",
-    "Polyeel",
-    "Prickly_Pear",
-    "Quartz",
-    "Recipe_Groups",
-    "Respyrite",
-    "Riven_Armor",
-    "Riven_Carapace",
-    "Sanguinite_Ore",
-    "Sentient_Powder",
-    "Shimmer",
-    "Silica",
-    "Soulspore",
-    "Strange_String",
-    "Surveysprout",
-    "Tearracuda",
-    "Undead_Chunk",
-    "Urn_of_Ashes",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Acetabularia": [
-    "Acetabularia",
-    "Blocks",
-    "Evil_Biomes",
-    "Fungarust",
-    "RecipePage",
-    "Riven_Hive",
-    "Sentient_Powder",
-    "Shimmer",
-    "Soulspore"
-  ],
-  "Soulspore": [
-    "Acetabularia",
-    "Blocks",
-    "Defiled_Wastelands",
-    "Dreadful_Powder",
-    "Evil_Biomes",
-    "RecipePage",
-    "Shimmer",
-    "Soulspore"
-  ],
-  "Sentient_Powder": [
-    "Acetabularia",
-    "Barnacle_Bunny",
-    "Bottomfeeder",
-    "Bud_Barnacle",
-    "Evil_Biomes",
-    "Gelled_Knife",
-    "RecipePage",
-    "Riven_Hive",
-    "Riven_Penguin",
-    "Sentient_Powder",
-    "Shimmer",
-    "Suspicious_Looking_Ice_Cream"
-  ],
-  "Fungarust": [
-    "Acetabularia",
-    "Blocks",
-    "Evil_Biomes",
-    "Fungarust",
-    "RecipePage",
-    "Shimmer",
-    "Urn_of_Ashes"
   ],
   "Broken_Record": [
     "Ace_Shrapnel",
     "Area_Denial",
-    "Biocomponent_10",
-    "Broken_Record",
     "Evil_Biomes",
     "Neural_Network",
     "RecipePage",
     "Seal_of_Cinders",
-    "Smith's_Hammer",
-    "Urn_of_Ashes"
+    "Smith's_Hammer"
   ],
   "NE-8": [
     "Ace_Shrapnel",
     "Ashen_Armor",
+    "C6_Jackhammer",
     "Evil_Biomes",
     "Matrix",
-    "NE-8",
+    "Miter_Saw",
     "Neural_Network",
-    "Recipe_Groups",
-    "Riven_Carapace",
-    "Sanguinite_Bar",
-    "Scrap"
+    "Piledriver",
+    "Recipe_Groups"
   ],
   "Impeding_Shrapnel": [
     "Ace_Shrapnel",
@@ -776,6 +845,7 @@
     "Alkaline_Harpoon",
     "Arrows",
     "Bile_Canister",
+    "Boiler",
     "Bombardment",
     "Boomerangs",
     "Bouncy_Harpoon",
@@ -790,8 +860,11 @@
     "Dart_Launchers",
     "Defiled_Spirit",
     "Demolitionist_Weapons",
+    "Dragon's_Breath",
+    "Eitrite_Gun_Magazine",
     "Eruption",
     "Explosive_Harpoon",
+    "Firespit",
     "Flammable_Harpoon",
     "Gray_Solution",
     "Guns",
@@ -818,53 +891,24 @@
     "Teal_Solution",
     "Thermite_Launcher"
   ],
-  "Ace_Shrapnel": [
-    "Ace_Shrapnel",
-    "Evil_Biomes",
-    "NE-8",
-    "RecipePage",
-    "Scrap"
-  ],
   "Magic_Tripwire": [
     "ACME_Crate",
     "Changes",
     "Item_Synergies",
-    "Magic_Tripwire",
-    "Nitro_Crate",
+    "Peat_Moss",
     "RecipePage"
   ],
   "Nitro_Crate": [
     "ACME_Crate",
-    "Magic_Tripwire",
     "Missile_Armcannon",
-    "Nitro_Crate",
-    "RecipePage"
-  ],
-  "ACME_Crate": [
-    "ACME_Crate",
-    "C.F.H.E.S.",
-    "Danger_Barrel",
-    "Magic_Tripwire",
-    "Nitro_Crate",
-    "RecipePage"
-  ],
-  "C.F.H.E.S.": [
-    "ACME_Crate",
-    "C.F.H.E.S.",
-    "Danger_Barrel",
-    "RecipePage"
-  ],
-  "Danger_Barrel": [
-    "ACME_Crate",
-    "C.F.H.E.S.",
-    "Danger_Barrel",
-    "I-WTPA_Standard",
+    "Peat_Moss",
     "RecipePage"
   ],
   "Armor": [
     "Acrid_Armor",
     "Amber_Armor",
     "Ancient_Defiled_Armor",
+    "Ancient_Felnum_Armor",
     "Ancient_Hallowed_Visage",
     "Ancient_Riven_Armor",
     "Ashen_Armor",
@@ -879,19 +923,25 @@
     "Dyes",
     "Encrusted_Armor",
     "Endowood_Armor",
+    "Extremophile_Armor",
     "Felnum_Armor",
     "Fiberglass_Armor",
     "Hallowed_Visage",
+    "Items",
     "Item_Synergies",
     "Lost_Armor",
+    "Lost_Diver_Vanity",
     "Marrowick_Armor",
+    "Mildew_Armor",
     "Mythic_Armor",
     "Necromancer_Armor",
     "Nova_Armor",
     "Ores",
+    "Pink_Cryosten_Armor",
     "Riptide_Armor",
     "Riven_Armor",
     "Riven_Hive",
+    "Rubber_Armor",
     "Sapphire_Mediator_Armor",
     "Scavenger_Armor",
     "Soulhide_Armor",
@@ -900,18 +950,18 @@
   ],
   "Eitrite_Bar": [
     "Acrid_Armor",
+    "Acrid_Drill",
+    "Acrid_Hamaxe",
     "Acrid_Handcannon",
     "Acrid_Impaler",
+    "Acrid_Laser_Rod",
+    "Acrid_Pickaxe",
+    "Acrid_Spout",
     "Bleeding_Obsidian_Shard",
-    "Bottled_Brine",
-    "Brineglow",
-    "Dolomite",
-    "Eitrite_Bar",
-    "Eitrite_Ore",
-    "Explosive_Acrid_Armor",
+    "Eitrite_Gun_Magazine",
     "Fabricator",
+    "HNO-3_Viper",
     "RecipePage",
-    "Rubber",
     "Shimmer"
   ],
   "Rubber": [
@@ -919,21 +969,13 @@
     "Air_Tank",
     "Ameballoon",
     "Bark",
-    "Busted_Servo",
     "Changes",
-    "Eitrite_Bar",
-    "Explosive_Acrid_Armor",
     "Fabricator",
-    "Fiberglass_Block",
-    "Headphones",
+    "Impactaxe",
     "Laser_Tag_Vest",
-    "Magic_Hair_Spray",
-    "Personal_Laser_Blade",
     "RecipePage",
     "Recipe_Changes",
-    "Rotor",
-    "Rubber",
-    "Silicon_Bar",
+    "Rubber_Armor",
     "Tire",
     "Traffic_Cone",
     "Tree_Sap"
@@ -944,18 +986,30 @@
     "Baseball_Bat",
     "Bone_Latcher",
     "Boomerangs",
+    "Cyah_Nara",
     "Decimator",
+    "Endowood_Sword",
+    "Felnum_Boar_Spear",
+    "Forbidden_Voice",
     "Item_Synergies",
     "Knee_Slapper",
+    "Marrowick_Sword",
     "Nematoclaw",
     "Nineball",
-    "Outreach",
     "Personal_Laser_Blade",
     "Ripper_Lance",
+    "Soldering_Iron",
     "Soulhide_Armor",
+    "Soulslasher",
+    "Soul_Snatcher",
     "Spiker_Sword",
     "Switchblade",
-    "Triple_Threat"
+    "Telephone_Pole",
+    "The_Bird",
+    "The_Foot",
+    "Thunderbolt",
+    "Triple_Threat",
+    "Tyrfing"
   ],
   "Summoner_Weapons": [
     "Acrid_Armor"
@@ -967,8 +1021,13 @@
     "Boomerangs",
     "Bows",
     "Changes",
+    "Chipper_Knife",
+    "Control_Locus",
+    "Crawdaddy's_Revenge",
     "Dart_Launchers",
+    "Dragon's_Breath",
     "Fiberglass_Shard",
+    "Fumethrower",
     "Gelled_Knife",
     "Guns",
     "Harpoon_Guns",
@@ -987,80 +1046,140 @@
     "Alkaline_Grenade",
     "Alkaline_Harpoon",
     "Antisolve_Potion",
+    "Biomes",
     "Brine_Pool",
     "Changes",
     "Demolitionist_Weapons",
+    "HNO-3_Viper",
     "Item_Synergies",
     "Nematoclaw",
     "Olid_Organ",
+    "Sea_Dragon",
     "Unsought_Organ"
   ],
   "Acrid_Armor": [
     "Acrid_Armor",
-    "Eitrite_Bar",
-    "Rubber"
+    "Acrid_Breastplate",
+    "Acrid_Dome",
+    "Acrid_Greaves",
+    "Acrid_Headgear",
+    "Acrid_Helm",
+    "Acrid_Helmet",
+    "Acrid_Mask",
+    "Concept_Art"
+  ],
+  "Drills": [
+    "Acrid_Drill",
+    "Chests",
+    "Living_Fire_Blocks",
+    "Pickaxes",
+    "Strainer",
+    "Torches"
+  ],
+  "Hamaxes": [
+    "Acrid_Hamaxe",
+    "Felnum_Hamaxe"
+  ],
+  "Walls": [
+    "Acrid_Hamaxe",
+    "Baryte_Wall",
+    "Biomes",
+    "Brick_Breaker",
+    "C6_Jackhammer",
+    "Endowood_Hammer",
+    "Felnum_Hamaxe",
+    "Gray_Solution",
+    "Hammers",
+    "Marrowick_Hammer",
+    "Miter_Saw",
+    "Paintings",
+    "Pickaxes",
+    "Stabsmash",
+    "Teal_Solution",
+    "Torches"
+  ],
+  "trees": [
+    "Acrid_Hamaxe",
+    "Dissector",
+    "Felnum_Hamaxe"
   ],
   "Handcannons": [
     "Acrid_Handcannon",
     "Nova_Cascade"
   ],
-  "Acrid_Handcannon": [
-    "Acrid_Handcannon",
-    "Eitrite_Bar",
-    "RecipePage"
-  ],
   "Harpoon_Guns": [
     "Acrid_Impaler",
+    "Adamantite_Harpoon_Gun",
     "Alkaline_Harpoon",
     "Ammunition",
     "Automated_Returns_Handler",
     "Bloodletter",
+    "Boat_Rocker",
     "Boomerang_Magnet",
     "Bouncy_Harpoon",
     "Changes",
+    "Cobalt_Harpoon_Gun",
     "Cursed_Harpoon",
     "Explosive_Harpoon",
     "Flammable_Harpoon",
     "Harpoon",
+    "Harpoon_Burst_Rifle",
     "Harpoon_Gun",
     "Harpoon_Variants",
     "Magma_Grappler",
+    "Mythril_Harpoon_Gun",
+    "Orichalcum_Harpoon_Gun",
+    "Palladium_Harpoon_Gun",
     "Riven_Splitter",
     "Speed_Booster",
     "Super_Turbo_Reel",
+    "Titanium_Harpoon_Gun",
     "Turbo_Reel",
     "Weakpoint_Analyzer"
   ],
   "Alkaline_Harpoon": [
     "Acrid_Impaler",
-    "Alkaline_Harpoon",
-    "Bottled_Brine",
-    "Harpoon",
-    "RecipePage"
-  ],
-  "Acrid_Impaler": [
-    "Acrid_Impaler",
-    "Ammunition",
-    "Eitrite_Bar",
     "RecipePage"
   ],
   "Harpoon": [
     "Acrid_Impaler",
-    "Alkaline_Harpoon",
-    "Bottled_Brine",
-    "Bouncy_Harpoon",
     "Changes",
-    "Cursed_Harpoon",
-    "Explosive_Harpoon",
-    "Flammable_Harpoon",
     "Gel_Blister",
-    "Harpoon",
     "RecipePage",
     "Riven_Splitter"
+  ],
+  "Fishing_Poles": [
+    "Acrid_Laser_Rod",
+    "Lightning_Rod",
+    "Parasitic_Manipulator",
+    "Snatcher"
+  ],
+  "Pickaxes": [
+    "Acrid_Pickaxe",
+    "Blocks",
+    "Chests",
+    "Dismantler",
+    "Felnum_Pickaxe",
+    "Furniture",
+    "Impactaxe",
+    "Living_Fire_Blocks",
+    "Piledriver",
+    "Rivenator",
+    "Tools",
+    "Torches"
+  ],
+  "Whips": [
+    "Acrid_Spout",
+    "Bone_Latcher",
+    "Flagellash",
+    "Joint_Pop",
+    "Mildew_Whip",
+    "Ocotillo_Finger"
   ],
   "Materials": [
     "Adhesive_Wrap",
     "Alkahest",
+    "Alkaliphiliac_Tissue",
     "Bark",
     "Bars",
     "Bat_Hide",
@@ -1070,7 +1189,6 @@
     "Bleeding_Obsidian",
     "Bleeding_Obsidian_Shard",
     "Blocks",
-    "Bottled_Brine",
     "Bud_Barnacle",
     "Busted_Servo",
     "Carburite",
@@ -1081,6 +1199,7 @@
     "Marrowick",
     "NE-8",
     "Nova_Fragment",
+    "Ocotillo_Flower",
     "Ores",
     "Respyrite",
     "Riven_Carapace",
@@ -1088,88 +1207,24 @@
     "Rubber",
     "Scrap",
     "Strange_String",
+    "Tangela_Bud",
     "Tire",
     "Tree_Sap",
     "Undead_Chunk"
   ],
   "Silicon_Bar": [
     "Adhesive_Wrap",
-    "Bleeding_Obsidian",
-    "Bleeding_Obsidian_Kunai",
-    "Busted_Servo",
     "Fabricator",
-    "Laser_Tag_Console",
     "Magic_Hair_Spray",
     "Recipe_Changes",
-    "Rotor",
-    "Rubber",
-    "Silicon_Bar",
     "Silicon_Ore",
-    "Solar_Panel",
-    "Tree_Sap"
+    "Solar_Panel"
   ],
   "Tree_Sap": [
     "Adhesive_Wrap",
     "Changes",
     "RecipePage",
-    "Rubber",
-    "Silicon_Bar",
-    "Tree_Sap"
-  ],
-  "Work_Benches": [
-    "Adhesive_Wrap",
-    "Ameballoon",
-    "Bang_Snap",
-    "Baseball_Bat",
-    "Bat_Hide",
-    "Brittle_Quartz",
-    "Candelabras",
-    "Candles",
-    "Chairs",
-    "Chambersite",
-    "Chambersite_Gemspark",
-    "Chests",
-    "Defiled_Sand",
-    "Defiled_Sandstone",
-    "Defiled_Stone",
-    "Doors",
-    "Endowood",
-    "Endowood_Armor",
-    "Fiberglass_Block",
-    "Hardened_Defiled_Sand",
-    "Lamps",
-    "Magic_Hair_Spray",
-    "Marrowick",
-    "Marrowick_Armor",
-    "Peatball",
-    "Quartz",
-    "Recipe_Changes",
-    "Resizable_Mine_Mk._I",
-    "Rubber",
-    "Scrap",
-    "Shaped_Glass",
-    "Silica",
-    "Silicon_Bar",
-    "Sinks",
-    "Spug_Flesh",
-    "Sunflower_Seed_Shooter",
-    "Tables",
-    "Toilets",
-    "Tree_Sap",
-    "Work_Benches"
-  ],
-  "Adhesive_Wrap": [
-    "Adhesive_Wrap",
-    "RecipePage",
-    "Recipe_Changes",
-    "Silicon_Bar",
-    "Tree_Sap"
-  ],
-  "2_in_1_Shotty": [
-    "Adhesive_Wrap"
-  ],
-  "3_in_1_Shotty": [
-    "Adhesive_Wrap"
+    "Rubber"
   ],
   "NPCs": [
     "Advanced_Imaging",
@@ -1187,7 +1242,6 @@
     "Chairs",
     "Cleansing_Station",
     "Defiled_Amalgamation",
-    "Defiled_Ekko",
     "Defiled_Heart",
     "Defiled_Seeds",
     "Defiled_Spirit",
@@ -1199,12 +1253,15 @@
     "Foul_Broth",
     "Furniture",
     "Gun_Glove",
+    "Gun_Magazine",
     "Hearty_Broth",
     "Holiday_Hair_Dye",
     "I-WTPA_Standard",
     "Impact_Bomb",
     "Impact_Dynamite",
     "Impact_Grenade",
+    "Impenetrable_Trashcan_Lid",
+    "Indestructible_Saddle",
     "index",
     "Link_Grenade",
     "Lottery_Ticket",
@@ -1214,10 +1271,10 @@
     "Modifiers",
     "Mojo_Flask",
     "Nitro_Crate",
-    "Outbreak_Bomb",
     "Peatball",
     "Pincushion",
     "Potato_Launcher",
+    "Quests",
     "Riven_Seeds",
     "Shrapnel_Bomb",
     "Sonic_Radar",
@@ -1236,66 +1293,106 @@
     "Advanced_Imaging",
     "Armor",
     "Blast_Armor",
+    "Changes",
     "Demolitionist_Weapons",
+    "Generic_Weapon",
     "Item_Synergies",
     "Lover's_Leap",
     "Potato_Launcher",
+    "Rubber_Armor",
     "Speed_Booster"
   ],
   "debuff": [
     "Advanced_Imaging"
   ],
-  "Sonar_Visor": [
-    "Advanced_Imaging",
-    "RecipePage",
-    "Sonar_Visor"
-  ],
-  "Advanced_Imaging": [
-    "Advanced_Imaging",
-    "RecipePage",
-    "Sonar_Visor"
-  ],
-  "enemies": [
+  "Enemies": [
     "Aggro",
+    "Alkaliphiliac_Tissue",
+    "Amoeba_Bugger",
+    "Amoebeye",
+    "Amoebic_Mummy",
+    "Amoebic_Slime",
+    "Ancient_Defiled_Cyclops",
+    "Ancient_Defiled_Phantom",
+    "Ancient_Felnum_Armor",
     "Armor",
     "Banners",
+    "Barnacleback",
+    "Barnacle_Bunny",
+    "Barnacle_Mound",
+    "Bile_Thrower",
     "Biomes",
+    "Black_Hole_Bomb",
+    "Bottomfeeder",
+    "Buckethead_Zombie",
     "Bullets",
+    "Carpalfish",
+    "Cellarkeep",
+    "Chunky_Slime",
+    "Cleaver",
+    "Cloud_Elemental",
+    "Conehead_Zombie",
+    "Cranivore",
+    "Crimbrain",
     "Debuffs",
+    "Defiled_Asphyxiator",
+    "Defiled_Caverns",
+    "Defiled_Cyclops",
+    "Defiled_Digger",
+    "Defiled_Krusher",
+    "Defiled_Mimic",
+    "Defiled_Mite",
+    "Defiled_Phantom",
+    "Defiled_Pigron",
+    "Defiled_Squid",
+    "Defiled_Swarmer",
+    "Defiled_Tripod",
     "Defiled_Wastelands",
+    "Defiled_Watcher",
+    "Defiled_Wisp",
+    "Enchanted_Fiberglass_Bow",
+    "Enchanted_Fiberglass_Cannon",
+    "Enchanted_Fiberglass_Pistol",
+    "Enchanted_Fiberglass_Sword",
+    "Etherealizer",
     "Evil_Biomes",
+    "Fae_Nymph",
+    "Felnum_Einheri",
+    "Felnum_Guardian",
+    "Felnum_Slime",
     "Fiberglass_Shard",
+    "Flagellant",
+    "Flying_Exoskeleton",
+    "Generic_Weapon",
+    "Graveshield_Zombie",
     "index",
+    "Launchers",
+    "Mitoworm",
+    "Optiphage",
+    "Profaned_Bident",
+    "Pustule_Jellyfish",
+    "Ripples",
     "Riven_Hive",
+    "Riven_Mimic",
+    "Riven_Penguin",
+    "Riven_Pigron",
+    "Riven_Protoform",
+    "Savage_Whip",
+    "Sea_Dragon",
     "Self_Damage",
+    "Shattered_Ghoul",
+    "Shattered_Goldfish",
+    "Shattered_Mummy",
+    "Single-Cellular_Nautilus",
+    "Slime_Worm",
+    "Spider_Amoeba",
+    "Statues",
+    "Tools",
+    "Torn_Ghoul",
     "Toxic_Shock",
-    "Traffic_Cone"
-  ],
-  "Air_Tank": [
-    "Air_Tank",
-    "Helium_Tank",
-    "Pneumatic_Bomb_Thrower",
-    "RecipePage",
-    "Rubber"
-  ],
-  "Helium_Tank": [
-    "Air_Tank",
-    "Helium_Tank",
-    "RecipePage"
-  ],
-  "Pneumatic_Bomb_Thrower": [
-    "Air_Tank",
-    "Pneumatic_Bomb_Thrower",
-    "RecipePage"
-  ],
-  "Bomb_Handling_Device": [
-    "Air_Tank",
-    "Asylum_Whistle",
-    "Bomb_Handling_Device",
-    "Destructive_Claws",
-    "Pneumatic_Bomb_Thrower",
-    "RecipePage",
-    "Shimmer"
+    "Traffic_Cone",
+    "Trijaw_Shark",
+    "Underground_Riven_Hive"
   ],
   "Mitoworm": [
     "Alkahest",
@@ -1312,183 +1409,70 @@
   "Recipe_Groups": [
     "Alkahest",
     "Ambition_Potion",
-    "Bilemouth",
     "Biocomponent_10",
     "Biomes",
     "Black_Bile",
-    "Bleeding_Obsidian",
     "Bud_Barnacle",
-    "Carburite",
+    "Crimtane_Gun_Magazine",
     "Defiled_Bar",
     "Encrusted_Bar",
     "Fervor_Potion",
+    "Molten_Gun_Magazine",
     "NE-8",
     "Necromancer_Armor",
-    "Polyeel",
     "Protean_Potion",
     "RecipePage",
     "Recipe_Changes",
     "Recipe_Groups",
     "Respyrite",
     "Riven_Carapace",
-    "Rubber",
     "Sanguinite_Bar",
+    "Sanguinite_Ore",
     "Shimmer",
     "Strange_String",
-    "Surveysprout",
-    "Tearracuda",
     "Undead_Chunk",
     "Void_Lock",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Alkahest": [
-    "Alkahest",
-    "Alkahest_Arrow",
-    "Alkahest_Bullet",
-    "Alkahest_Canister",
-    "Alkahest_Dart",
-    "Biomes",
-    "Black_Bile",
-    "Evil_Biomes",
-    "Flask_of_Alkahest",
-    "Harpoon",
-    "Living_Alkahest_Block",
-    "Living_Fire_Blocks",
-    "RecipePage",
-    "Recipe_Groups",
-    "Respyrite",
-    "Torches"
-  ],
-  "Black_Bile": [
-    "Alkahest",
-    "Bile_Arrow",
-    "Bile_Bullet",
-    "Bile_Canister",
-    "Bile_Dart",
-    "Biomes",
-    "Black_Bile",
-    "Evil_Biomes",
-    "Flask_of_Black_Bile",
-    "Harpoon",
-    "Living_Bile_Block",
-    "Living_Fire_Blocks",
-    "Makeover_Choker",
-    "RecipePage",
-    "Recipe_Groups",
-    "Torches"
-  ],
-  "Alkahest_Torch": [
-    "Alkahest",
-    "RecipePage"
-  ],
-  "Alkahest_Arrow": [
-    "Alkahest",
-    "Alkahest_Arrow",
-    "RecipePage"
-  ],
-  "Alkahest_Bullet": [
-    "Alkahest",
-    "Alkahest_Bullet",
-    "Item_Synergies",
-    "RecipePage"
-  ],
-  "Alkahest_Dart": [
-    "Alkahest",
-    "Alkahest_Dart",
-    "RecipePage"
-  ],
-  "Ruby_Reticle": [
-    "Alkahest",
-    "Black_Bile",
-    "Carburite",
-    "Focus_Crystal",
-    "RecipePage",
-    "Recipe_Groups",
-    "Respyrite",
-    "Ruby_Reticle",
-    "Sniper's_Mark"
-  ],
-  "Carburite": [
-    "Alkahest",
-    "Amber_Armor",
-    "Black_Bile",
-    "Blocks",
-    "Carburite",
-    "Chambersite",
-    "RecipePage",
-    "Recipe_Changes",
-    "Recipe_Groups",
-    "Resin_Shield",
-    "Respyrite",
-    "Ruby_Reticle",
-    "Sapphire_Mediator_Armor"
-  ],
-  "Alkahest_Canister": [
-    "Alkahest",
-    "Alkahest_Canister",
-    "RecipePage"
-  ],
-  "Necromancer_Breastplate": [
-    "Alkahest",
-    "Black_Bile",
-    "RecipePage",
-    "Respyrite"
-  ],
-  "Necromancer_Greaves": [
-    "Alkahest",
-    "Black_Bile",
-    "RecipePage",
-    "Respyrite"
-  ],
-  "Necromancer_Crown": [
-    "Alkahest",
-    "Black_Bile",
-    "RecipePage",
-    "Respyrite"
-  ],
-  "Flask_of_Alkahest": [
-    "Alkahest",
-    "Evil_Biomes",
-    "Flask_of_Alkahest",
-    "RecipePage"
-  ],
-  "Innermost_Manifest": [
-    "Alkahest",
-    "RecipePage"
-  ],
-  "Living_Alkahest_Block": [
-    "Alkahest",
-    "Blocks",
-    "Living_Alkahest_Block",
-    "Living_Fire_Blocks",
-    "RecipePage"
-  ],
-  "Respyrite": [
-    "Alkahest",
-    "Evil_Biomes",
-    "Recipe_Groups",
-    "Respyrite"
+    "Waning_Crescent"
   ],
   "Arrows": [
     "Alkahest_Arrow",
     "Ammunition",
     "Bile_Arrow",
     "Bows",
-    "Fiberglass_Shard",
-    "Repeaters"
+    "Longbone",
+    "Repeaters",
+    "Threemoepeater",
+    "Unmisfire"
   ],
   "Bows": [
     "Alkahest_Arrow",
     "Ammunition",
     "Bile_Arrow",
-    "Repeaters"
+    "Endowood_Bow",
+    "Fiberglass_Bow",
+    "Laser_Line_Bow",
+    "Longbone",
+    "Marrowick_Bow",
+    "Repeaters",
+    "Unmisfire",
+    "Unstrung_Fiberglass_Bow"
   ],
   "Repeaters": [
     "Alkahest_Arrow",
     "Ammunition",
     "Bile_Arrow",
     "Bows"
+  ],
+  "Alkahest": [
+    "Alkahest_Arrow",
+    "Alkahest_Bullet",
+    "Biomes",
+    "Evil_Biomes",
+    "Flask_of_Alkahest",
+    "Living_Fire_Blocks",
+    "RecipePage",
+    "Recipe_Groups",
+    "Torches"
   ],
   "Torn": [
     "Alkahest_Arrow",
@@ -1502,6 +1486,7 @@
     "Avulsion",
     "Bleeding_Obsidian_Kunai",
     "Bug_Trapper",
+    "Configuration_Options",
     "Demolitionist_Weapons",
     "Flask_of_Alkahest",
     "Fleshy_Figurine",
@@ -1519,33 +1504,16 @@
     "Tainted_Flesh",
     "Vorpal_Sword"
   ],
-  "Bullets": [
-    "Alkahest_Bullet",
-    "Ammunition",
-    "Bile_Bullet",
-    "Guns",
-    "Gun_Glove",
-    "Item_Synergies"
-  ],
-  "Guns": [
-    "Alkahest_Bullet",
-    "Ammunition",
-    "Ancient_Kruncher",
-    "Bile_Bullet",
-    "Blotopus",
-    "Bullets",
-    "Neural_Network",
-    "Sunflower_Seed_Shooter",
-    "The_Kruncher"
-  ],
   "Canisters": [
     "Alkahest_Canister",
     "Alkaline_Canister",
     "Ammunition",
+    "Bee_Canister",
     "Bile_Canister",
     "Coolant_Canister",
     "Cursed_Canister",
     "Demolitionist_Weapons",
+    "Discharge_Canister",
     "Ichor_Canister",
     "Launchers",
     "Napalm_Canister",
@@ -1557,7 +1525,7 @@
   ],
   "Brainade": [
     "Alkahest_Canister",
-    "Brainade",
+    "Peat_Moss",
     "RecipePage"
   ],
   "Darts": [
@@ -1572,16 +1540,39 @@
     "Bile_Dart",
     "Darts"
   ],
-  "Bottled_Brine": [
+  "Brine_Fiend": [
+    "Alkaliegis",
+    "Brine_Pool",
+    "Concept_Art",
+    "Foul_Broth",
+    "Hearty_Broth",
+    "Minty_Broth",
+    "Plain_Broth",
+    "Savory_Broth",
+    "Sharp_Broth",
+    "Sour_Broth",
+    "Spicy_Broth",
+    "Sweet_Broth",
+    "Umami_Broth"
+  ],
+  "Quests": [
+    "Alkaliegis",
+    "Assimilation",
+    "Bloombomb",
+    "Blue_Bovine",
+    "Cleansing_Station",
+    "Eccentric_Stone",
+    "Gun_Glove",
+    "Harpoon_Burst_Rifle",
+    "Journal",
+    "Lottery_Ticket",
+    "Magic_Hair_Spray",
+    "Shardcannon",
+    "Turbo_Reel"
+  ],
+  "Alkaliphiliac_Tissue": [
     "Alkaline_Bomb",
-    "Alkaline_Grenade",
-    "Alkaline_Harpoon",
-    "Antisolve_Potion",
-    "Bleeding_Obsidian_Shard",
-    "Bottled_Brine",
-    "Eitrite_Bar",
-    "Harpoon",
-    "RecipePage"
+    "Alkaline_Grenade"
   ],
   "Peat_Moss": [
     "Alkaline_Bomb",
@@ -1589,7 +1580,6 @@
     "Ameballoon",
     "Antisolve_Potion",
     "Blocks",
-    "Bottled_Brine",
     "Brainade",
     "Brine-Leafed_Clover",
     "Brineglow",
@@ -1600,43 +1590,15 @@
     "Impact_Bomb",
     "Impact_Dynamite",
     "Impact_Grenade",
+    "Impenetrable_Trashcan_Lid",
+    "Indestructible_Saddle",
     "Link_Grenade",
     "Magic_Tripwire",
     "Nitro_Crate",
-    "Outbreak_Bomb",
     "Peatball",
-    "Peat_Moss",
     "RecipePage",
     "Recipe_Changes",
     "Shrapnel_Bomb"
-  ],
-  "Alkaline_Bomb": [
-    "Alkaline_Bomb",
-    "Bottled_Brine",
-    "RecipePage"
-  ],
-  "Alkaline_Canister": [
-    "Alkaline_Canister",
-    "Brineglow",
-    "RecipePage"
-  ],
-  "Brineglow": [
-    "Alkaline_Canister",
-    "Antisolve_Potion",
-    "Blocks",
-    "Bottled_Brine",
-    "Brineglow",
-    "Brine_Pool",
-    "Dolomite",
-    "Eitrite_Bar",
-    "Focus_Potion",
-    "Peat_Moss",
-    "RecipePage"
-  ],
-  "Alkaline_Grenade": [
-    "Alkaline_Grenade",
-    "Bottled_Brine",
-    "RecipePage"
   ],
   "Harpoon_Variants": [
     "Alkaline_Harpoon",
@@ -1648,41 +1610,75 @@
     "Harpoon",
     "Harpoon_Guns"
   ],
+  "Brine_Pool": [
+    "Alkaliphiliac_Tissue",
+    "Baryte",
+    "Biomes",
+    "Brine-Leafed_Clover",
+    "Brineglow",
+    "Brine_Cheese",
+    "Brine_Pool_and_Lost_Diver",
+    "Carpalfish",
+    "Concept_Art",
+    "Eitrite_Ore",
+    "Fiberglass_Undergrowth",
+    "Magic_Brine_Dropper",
+    "Peat_Moss",
+    "Ripples",
+    "Sea_Dragon",
+    "Toadfish",
+    "Toxic_Shock"
+  ],
+  "Carburite": [
+    "Amber_Armor",
+    "Blocks",
+    "RecipePage",
+    "Recipe_Changes",
+    "Recipe_Groups",
+    "Resin_Shield",
+    "Ruby_Reticle",
+    "Sapphire_Mediator_Armor"
+  ],
   "Amber_Armor": [
-    "Amber_Armor"
+    "Amber_Armor",
+    "Amber_Breastplate",
+    "Amber_Greaves",
+    "Amber_Helmet"
   ],
   "Polyeel": [
     "Ambition_Potion",
     "Evil_Biomes",
-    "Polyeel",
     "RecipePage",
     "Recipe_Groups",
-    "Shimmer",
-    "Surveysprout",
-    "Tearracuda",
-    "Wilting_Rose",
-    "Wrycoral"
+    "Shimmer"
   ],
   "Stat_Share": [
     "Ambition_Potion",
+    "Configuration_Options",
     "Protean_Potion"
   ],
-  "Ambition_Potion": [
-    "Ambition_Potion",
-    "Evil_Biomes",
-    "Item_Synergies",
-    "Polyeel",
-    "RecipePage",
-    "Recipe_Groups",
-    "Surveysprout",
-    "Wilting_Rose",
-    "Wrycoral"
+  "Work_Benches": [
+    "Ameballoon",
+    "Candelabras",
+    "Candles",
+    "Chairs",
+    "Chests",
+    "Doors",
+    "Endowood_Armor",
+    "Lamps",
+    "Marrowick_Armor",
+    "Recipe_Changes",
+    "Sinks",
+    "Tables",
+    "Toilets",
+    "Work_Benches"
   ],
   "Amebic_Slime": [
     "Ameballoon"
   ],
   "Cleaver": [
     "Ameballoon",
+    "Mitoworm",
     "Riven_Hive",
     "Underground_Riven_Hive"
   ],
@@ -1692,7 +1688,9 @@
     "Encrusted_Ore",
     "Evil_Biomes",
     "Fleshy_Globe",
+    "Flying_Exoskeleton",
     "Gel_Blister",
+    "Peat_Moss",
     "Protozoa_Food",
     "Riven_Carapace",
     "Riven_Hive",
@@ -1702,37 +1700,11 @@
     "Vorpal_Sword",
     "World_Cracker_Mask"
   ],
-  "Riven_Water": [
-    "Ameballoon",
-    "Rubber"
-  ],
-  "Ameballoon": [
-    "Ameballoon",
-    "RecipePage",
-    "Rubber"
-  ],
-  "Handy_Helper": [
-    "Amebic_Vial",
-    "Handy_Helper",
-    "RecipePage"
-  ],
-  "Amebic_Vial": [
-    "Amebic_Vial",
-    "Evil_Biomes",
-    "Handy_Helper",
-    "RecipePage"
-  ],
-  "April_Fools": [
-    "Amebic_Vial",
-    "Baseball_Bat",
-    "Brine_Cheese",
-    "Defiled_Amalgamation",
-    "Handy_Helper",
-    "Knee_Slapper"
-  ],
   "Incantations": [
     "Amebolize_Incantation",
     "Bee_Afraid_Incantation",
+    "Inject_Incantation",
+    "Mildew_Incantation",
     "Modifiers"
   ],
   "Gel_Blister": [
@@ -1748,46 +1720,25 @@
     "Splitsplash",
     "World_Cracker"
   ],
-  "Amebolize_Incantation": [
-    "Amebolize_Incantation",
-    "Evil_Biomes",
-    "RecipePage"
-  ],
-  "Encrusted_Bar": [
-    "Amebolize_Incantation",
-    "Decimator",
-    "Encrusted_Bar",
-    "Encrusted_Ore",
-    "RecipePage",
-    "Riven_Armor",
-    "Riven_Carapace",
-    "Riven_Splitter",
-    "Riverang",
-    "Splitsplash",
-    "Triple_Threat",
-    "Vorpal_Sword"
-  ],
   "ranged_weapons": [
     "Ammunition",
     "Demolitionist_Weapons"
   ],
   "Bile_Dart": [
     "Ammunition",
-    "Bile_Dart",
-    "Black_Bile",
     "RecipePage"
   ],
   "Defiled_Spirit": [
-    "Ammunition"
+    "Ammunition",
+    "Peat_Moss",
+    "The_Defiled"
   ],
   "Metal_Slug": [
     "Ammunition",
-    "Metal_Slug",
     "RecipePage"
   ],
   "Peatball": [
     "Ammunition",
-    "Peatball",
     "Peat_Moss",
     "RecipePage",
     "Shimmer"
@@ -1799,6 +1750,8 @@
     "Defiled_Caverns",
     "Defiled_Heart",
     "Evil_Biomes",
+    "Fae_Nymph",
+    "Fiberglass_Undergrowth",
     "index",
     "Shimmer",
     "Underground_Riven_Hive"
@@ -1817,33 +1770,33 @@
     "Evil_Biomes",
     "Riven_Hive"
   ],
+  "Acrid_Impaler": [
+    "Ammunition",
+    "RecipePage"
+  ],
   "Adamantite_Harpoon_Gun": [
     "Ammunition"
   ],
   "Bloodletter": [
     "Ammunition",
-    "Bloodletter",
     "RecipePage"
   ],
   "Blotopus": [
     "Ammunition",
-    "Blotopus",
     "Evil_Biomes",
     "Fiberglass_Dagger",
     "Shimmer"
   ],
   "Boat_Rocker": [
     "Ammunition",
+    "Brine_Pool_and_Lost_Diver",
     "Explosive_Harpoon",
     "Weakpoint_Analyzer"
   ],
   "Bombardment": [
     "Ammunition",
-    "Bombardment",
-    "Defiled_Bar",
     "Matrix",
-    "RecipePage",
-    "Undead_Chunk"
+    "RecipePage"
   ],
   "Cobalt_Harpoon_Gun": [
     "Ammunition"
@@ -1853,7 +1806,6 @@
   ],
   "EAC_Thunder": [
     "Ammunition",
-    "Busted_Servo",
     "Fabricator"
   ],
   "Harpoon_Gun": [
@@ -1871,18 +1823,14 @@
   ],
   "Magma_Grappler": [
     "Ammunition",
-    "Magma_Grappler",
     "RecipePage"
   ],
   "Mine_Flayer": [
     "Ammunition",
-    "Busted_Servo",
     "Fabricator",
     "Item_Synergies",
-    "Mine_Flayer",
     "Missile_Armcannon",
-    "RecipePage",
-    "Rotor"
+    "RecipePage"
   ],
   "Mythril_Harpoon_Gun": [
     "Ammunition"
@@ -1895,12 +1843,9 @@
   ],
   "Riven_Splitter": [
     "Ammunition",
-    "Encrusted_Bar",
     "Evil_Biomes",
     "Gel_Blister",
-    "RecipePage",
-    "Riven_Carapace",
-    "Riven_Splitter"
+    "RecipePage"
   ],
   "Spray_'n_Pray": [
     "Ammunition"
@@ -1911,17 +1856,17 @@
   "Control_Locus": [
     "Ammunition",
     "Item_Synergies",
-    "RecipePage",
-    "Weakpoint_Analyzer"
+    "RecipePage"
   ],
   "Dysfunctional_Endless_Explosives_Bag": [
     "Ammunition"
   ],
   "Weakpoint_Analyzer": [
     "Ammunition",
+    "Control_Locus",
     "Evil_Biomes",
     "RecipePage",
-    "Weakpoint_Analyzer"
+    "Stack_of_Shraps"
   ],
   "Riven_Mimic": [
     "Amoebash",
@@ -1930,49 +1875,6 @@
     "Dew_Justice",
     "Evil_Biomes",
     "Tainted_Flesh",
-    "Underground_Riven_Hive"
-  ],
-  "Enemies": [
-    "Amoeba_Bugger",
-    "Amoebeye",
-    "Amoebic_Mummy",
-    "Amoebic_Slime",
-    "Ancient_Defiled_Cyclops",
-    "Ancient_Defiled_Phantom",
-    "Barnacleback",
-    "Barnacle_Bunny",
-    "Barnacle_Mound",
-    "Bile_Thrower",
-    "Black_Hole_Bomb",
-    "Bottomfeeder",
-    "Cellarkeep",
-    "Chunky_Slime",
-    "Cleaver",
-    "Defiled_Asphyxiator",
-    "Defiled_Caverns",
-    "Defiled_Cyclops",
-    "Defiled_Ekko",
-    "Defiled_Krusher",
-    "Defiled_Mite",
-    "Defiled_Phantom",
-    "Defiled_Squid",
-    "Defiled_Swarmer",
-    "Defiled_Tripod",
-    "Defiled_Watcher",
-    "Defiled_Wisp",
-    "Flagellant",
-    "Launchers",
-    "Pustule_Jellyfish",
-    "Riven_Penguin",
-    "Riven_Protoform",
-    "Savage_Whip",
-    "Shattered_Goldfish",
-    "Shattered_Mummy",
-    "Single-Cellular_Nautilus",
-    "Spider_Amoeba",
-    "Statues",
-    "Tools",
-    "Trijaw_Shark",
     "Underground_Riven_Hive"
   ],
   "Barnacle_Mound": [
@@ -2025,7 +1927,8 @@
   ],
   "Bait": [
     "Amoeba_Buggy",
-    "Cicada_3301"
+    "Cicada_3301",
+    "Huff_Puffer_Bait"
   ],
   "Cages": [
     "Amoeba_Buggy",
@@ -2035,22 +1938,10 @@
     "Amoeba_Buggy",
     "Barnacle_Mound"
   ],
-  "Amoeba_Fluid": [
-    "Amoeba_Fluid",
-    "Blocks",
-    "RecipePage"
-  ],
-  "Gooey_Water": [
-    "Amoeba_Fluid",
-    "Gooey_Water",
-    "RecipePage",
-    "Riven_Hive",
-    "Riven_Seeds",
-    "Silica"
-  ],
   "Hooks": [
     "Amoeba_Hook",
     "Chunky_Hook",
+    "Tangela_Tether",
     "Wings"
   ],
   "Pets": [
@@ -2059,18 +1950,54 @@
     "Chew_Toy",
     "Chromatic_Scale",
     "Strange_Power-Up",
-    "Suspicious_Looking_Pebble"
+    "Suspicious_Looking_Pebble",
+    "Terlet_Paper",
+    "Wet_Wood"
   ],
   "Assimilation": [
     "Amoebeye",
     "Changes",
     "Cleansing_Station",
+    "Configuration_Options",
+    "Cranivore",
+    "Crimbrain",
     "Defiled_Wastelands",
+    "Flying_Exoskeleton",
     "Mojo_Flask",
     "Mojo_Injection",
+    "Optiphage",
     "Purification_Potion",
     "Riven_Hive",
     "World_Cracker"
+  ],
+  "Journal": [
+    "Amoebeye",
+    "Ancient_Defiled_Cyclops",
+    "Black_Bile",
+    "Brine_Pool_and_Lost_Diver",
+    "Changes",
+    "Defiled_Amalgamation",
+    "Defiled_Bar",
+    "Defiled_Cyclops",
+    "Defiled_Krusher",
+    "Defiled_Spirit",
+    "Dim_Starlight",
+    "Eccentric_Stone",
+    "Infusion",
+    "Journal",
+    "Lore_Items",
+    "Lousy_Liver",
+    "Low_Signal",
+    "Missing_File",
+    "Quests",
+    "RecipePage",
+    "The_Defiled",
+    "Tripod_Nip",
+    "Undead_Chunk",
+    "Ziptie"
+  ],
+  "Riven_Hive_and_Primordial_Amoeba": [
+    "Amoebeye"
   ],
   "Debuffs": [
     "Amoebic_Slime",
@@ -2080,23 +2007,31 @@
     "Darts",
     "Defiled_Asphyxiator",
     "Donor_Wristband",
+    "Dragon's_Breath",
     "Dryad's_Inheritance",
     "Fiberglass_Weaver",
-    "Impeding_Shrapnel",
+    "HNO-3_Viper",
+    "Impeding_Shrapnel_(Buff)",
     "Item_Synergies",
+    "Mana_Buffer_(Buff)",
     "Protomind",
-    "Rasterized",
+    "Rasterized_(Buff)",
+    "Shadefire",
+    "Static_Shock_(Buff)",
     "Stun",
+    "Thread_Rod",
     "Torn",
     "Toxic_Shock"
   ],
   "Defiled_Armor": [
     "Ancient_Defiled_Armor",
+    "Concept_Art",
     "Defiled_Armor",
-    "Defiled_Bar",
+    "Defiled_Breastplate",
+    "Defiled_Greaves",
+    "Defiled_Helmet",
     "Evil_Biomes",
-    "Shimmer",
-    "Undead_Chunk"
+    "Shimmer"
   ],
   "Defiled_Wastelands": [
     "Ancient_Defiled_Armor",
@@ -2109,6 +2044,8 @@
     "Biomes",
     "Chunky_Slime",
     "Cicada_3301",
+    "Concept_Art",
+    "Configuration_Options",
     "Coologne",
     "Debuffs",
     "Defiled_Amalgamation",
@@ -2116,15 +2053,17 @@
     "Defiled_Cactus",
     "Defiled_Caverns",
     "Defiled_Cyclops",
-    "Defiled_Ekko",
-    "Defiled_Fissure",
+    "Defiled_Desert",
+    "Defiled_Digger",
     "Defiled_Grass",
     "Defiled_Heart",
+    "Defiled_Ice",
     "Defiled_Jungle_Grass",
     "Defiled_Key",
     "Defiled_Krusher",
     "Defiled_Mite",
     "Defiled_Phantom",
+    "Defiled_Relay",
     "Defiled_Resurgence",
     "Defiled_Sand",
     "Defiled_Sandstone",
@@ -2132,6 +2071,7 @@
     "Defiled_Squid",
     "Defiled_Stone",
     "Defiled_Tripod",
+    "Defiled_Wastelands_Ocean",
     "Defiled_Watcher",
     "Defiled_Wisp",
     "Dim_Starlight",
@@ -2140,9 +2080,10 @@
     "Gray_Ice_Block",
     "Gray_Solution",
     "Hardened_Defiled_Sand",
-    "Infusion",
     "Knee_Slapper",
+    "Krakram",
     "Krunch_Mix",
+    "Latchkey",
     "Lost_Ore",
     "Makeover_Choker",
     "Manasynk",
@@ -2153,20 +2094,47 @@
     "Nerve_Impulse_Manipulator",
     "Petrified_Tree",
     "Prikish",
-    "Rasterized",
+    "Rasterized_(Buff)",
+    "Ravel",
     "Riven_Hive",
     "Shattered_Goldfish",
     "Shattered_Mummy",
     "Shimmer",
     "Soulspore",
+    "Static_Shock_(Buff)",
+    "The_Defiled",
     "The_Kruncher",
+    "Underground_Defiled_Desert",
     "White_Water",
     "Wilting_Rose"
   ],
+  "Shimmer": [
+    "Ancient_Defiled_Armor",
+    "Ancient_Felnum_Armor",
+    "Ancient_Hallowed_Visage",
+    "Ancient_Riven_Armor",
+    "Assimilation",
+    "Crates",
+    "Crusty_Crate",
+    "Cursed_Crown",
+    "Defiled_Armor",
+    "Fae_Nymph",
+    "Festering_Crate",
+    "Hallowed_Visage",
+    "Mojo_Injection",
+    "Polyeel",
+    "Recipe_Groups",
+    "Riven_Armor",
+    "Shimmer"
+  ],
   "Ancient_Defiled_Armor": [
     "Ancient_Defiled_Armor",
+    "Ancient_Defiled_Breastplate",
     "Ancient_Defiled_Cyclops",
+    "Ancient_Defiled_Greaves",
+    "Ancient_Defiled_Helmet",
     "Ancient_Defiled_Phantom",
+    "Concept_Art",
     "Defiled_Armor",
     "Shimmer"
   ],
@@ -2176,7 +2144,8 @@
     "Defiled_Caverns",
     "Defiled_Cyclops",
     "Defiled_Wastelands",
-    "Strange_String"
+    "Strange_String",
+    "The_Defiled"
   ],
   "Defiled_Cyclops": [
     "Ancient_Defiled_Cyclops",
@@ -2184,14 +2153,46 @@
     "Defiled_Caverns",
     "Defiled_Krusher",
     "Defiled_Wastelands",
-    "Strange_String"
+    "Lousy_Liver",
+    "Strange_String",
+    "The_Defiled"
+  ],
+  "The_Defiled": [
+    "Ancient_Defiled_Cyclops",
+    "Black_Bile",
+    "Defiled_Amalgamation",
+    "Defiled_Bar",
+    "Defiled_Cyclops",
+    "Defiled_Krusher",
+    "Defiled_Spirit",
+    "Defiled_Wastelands",
+    "Dim_Starlight",
+    "Infusion",
+    "Lousy_Liver",
+    "Low_Signal",
+    "Missing_File",
+    "Tale_of_Arabel",
+    "Tripod_Nip",
+    "Undead_Chunk",
+    "Ziptie"
   ],
   "Defiled_Phantom": [
     "Ancient_Defiled_Phantom",
     "Defiled_Caverns",
     "Defiled_Wastelands",
+    "Infusion",
     "Krunch_Mix",
     "Strange_String"
+  ],
+  "Felnum_Armor": [
+    "Ancient_Felnum_Armor",
+    "Felnum_Armor",
+    "Felnum_Breastplate",
+    "Felnum_Greaves",
+    "Felnum_Helmet"
+  ],
+  "Ancient_Felnum_Armor": [
+    "Ancient_Felnum_Armor"
   ],
   "Hallowed_Visage": [
     "Ancient_Hallowed_Visage",
@@ -2209,23 +2210,25 @@
   ],
   "The_Kruncher": [
     "Ancient_Kruncher",
-    "Defiled_Bar",
-    "Defiled_Fissure",
+    "Defiled_Relay",
     "Evil_Biomes",
-    "RecipePage",
-    "The_Kruncher",
-    "Undead_Chunk"
+    "RecipePage"
   ],
   "Riven_Armor": [
     "Ancient_Riven_Armor",
-    "Encrusted_Bar",
     "Evil_Biomes",
     "Riven_Armor",
-    "Riven_Carapace",
+    "Riven_Breastplate",
+    "Riven_Greaves",
+    "Riven_Helmet",
     "Shimmer"
   ],
   "Ancient_Riven_Armor": [
     "Ancient_Riven_Armor",
+    "Ancient_Riven_Breastplate",
+    "Ancient_Riven_Greaves",
+    "Ancient_Riven_Helmet",
+    "Concept_Art",
     "Riven_Armor",
     "Riven_Hive",
     "Shimmer"
@@ -2234,32 +2237,30 @@
     "Angelic_Cloud",
     "Dawn_Key"
   ],
-  "Antisolve_Potion": [
-    "Antisolve_Potion",
-    "Assimilation",
-    "Bottled_Brine",
-    "Brineglow",
-    "Peat_Moss",
-    "RecipePage",
-    "Riven_Hive"
+  "Dyes": [
+    "Anti-Gray_Dye",
+    "Tangela_Dye"
   ],
-  "Alkaliphiliac_Tissue": [
-    "Antisolve_Potion",
-    "Brineglow",
-    "Peat_Moss"
+  "Tangela_Bud": [
+    "Anti-Gray_Dye"
   ],
-  "Shimmer_Rod": [
-    "Area_Denial",
-    "Item_Synergies"
+  "Bottled_Brine": [
+    "Antisolve_Potion",
+    "RecipePage"
+  ],
+  "Brineglow": [
+    "Antisolve_Potion",
+    "Blocks",
+    "Brine_Pool",
+    "Focus_Potion",
+    "RecipePage"
   ],
   "Chlorophyte_Crown": [
     "Armor",
-    "Chlorophyte_Crown",
     "RecipePage"
   ],
   "Chlorophyte_Visage": [
     "Armor",
-    "Chlorophyte_Visage",
     "RecipePage"
   ],
   "bow": [
@@ -2270,35 +2271,33 @@
   ],
   "Sanguinite_Bar": [
     "Ashen_Armor",
+    "C6_Jackhammer",
     "Matrix",
-    "NE-8",
+    "Miter_Saw",
     "Neural_Network",
     "Nineball",
-    "Outreach",
+    "Piledriver",
     "RecipePage",
-    "Sanguinite_Bar",
-    "Sanguinite_Ore",
+    "Sanguinite_Gun_Magazine",
     "Switchblade"
   ],
   "Sanguinite_Ore": [
     "Ashen_Armor",
-    "Biocomponent_10",
     "Blocks",
-    "Encrusted_Ore",
     "Evil_Biomes",
     "Link_Grenade",
     "RecipePage",
     "Sanguinite_Bar",
-    "Sanguinite_Ore",
     "Scavenger_Armor",
     "Shimmer"
   ],
   "Ashen_Armor": [
     "Ashen_Armor",
+    "Ashen_Breastplate",
+    "Ashen_Greaves",
     "Ashen_Helmet",
-    "Evil_Biomes",
-    "NE-8",
-    "Sanguinite_Bar"
+    "Concept_Art",
+    "Evil_Biomes"
   ],
   "Evil_Biomes": [
     "Assimilation",
@@ -2316,6 +2315,7 @@
     "Bile_Canister",
     "Bile_Dart",
     "Changes",
+    "Chipper_Knife",
     "Cirrhosis'_Abhorrence",
     "Communion",
     "Defiled_Amalgamation",
@@ -2327,10 +2327,11 @@
     "Modifiers",
     "Ziptie"
   ],
-  "Mojo_Injection": [
+  "Antisolve_Potion": [
     "Assimilation",
-    "Mojo_Injection",
-    "Shimmer"
+    "Brine_Pool",
+    "RecipePage",
+    "Riven_Hive"
   ],
   "Cleansing_Station": [
     "Assimilation",
@@ -2339,84 +2340,107 @@
   "Mojo_Flask": [
     "Assimilation",
     "Cleansing_Station",
-    "Mojo_Flask",
     "Purification_Potion",
     "RecipePage"
   ],
-  "Lore_Item": [
-    "Asylum_Whistle",
-    "Eccentric_Stone",
-    "Forbidden_Voice",
-    "Stone_Mask",
-    "Tripod_Nip"
+  "Mojo_Injections": [
+    "Assimilation"
   ],
-  "Asylum_Whistle": [
-    "Asylum_Whistle",
-    "Bomb_Handling_Device",
-    "Priority_Mail",
-    "RecipePage",
-    "Shimmer"
-  ],
-  "Priority_Mail": [
-    "Asylum_Whistle",
-    "Priority_Mail",
-    "RecipePage"
+  "Consumables": [
+    "Assimilation",
+    "Bleeding_Obsidian_Kunai",
+    "Broken_Record",
+    "Chipper_Knife",
+    "Crates",
+    "Crown_Jewel",
+    "Dawn_Key",
+    "Defiled_Key",
+    "Defiled_Spirit",
+    "Dreadful_Powder",
+    "Dusk_Key",
+    "Eyenade",
+    "Fiberglass_Shard",
+    "Gelled_Knife",
+    "Gooey_Water",
+    "Grab_Bags",
+    "Heartache_Dynamite",
+    "Hell_Key",
+    "Holiday_Hair_Dye",
+    "Item_Synergies",
+    "Lottery_Ticket",
+    "Mojo_Flask",
+    "Mojo_Injection",
+    "Mushroom_Key",
+    "Nerve_Impulse_Manipulator",
+    "Ocean_Key",
+    "Riven_Key",
+    "Rubber_Dynamite",
+    "Sentient_Powder",
+    "Shaped_Glass",
+    "Sonar_Dynamite",
+    "Spyglass",
+    "Suspicious_Looking_Ice_Cream",
+    "Urn_of_Ashes",
+    "Void_Lock",
+    "White_Water"
   ],
   "Super_Turbo_Reel": [
     "Automated_Returns_Handler",
-    "Ravel",
+    "Grapple_Ravel",
     "RecipePage",
     "Super_Turbo_Reel"
-  ],
-  "Automated_Returns_Handler": [
-    "Automated_Returns_Handler",
-    "Lover's_Leap",
-    "RecipePage",
-    "Speed_Booster",
-    "Super_Turbo_Reel"
-  ],
-  "Speed_Booster": [
-    "Automated_Returns_Handler",
-    "Changes",
-    "Lover's_Leap",
-    "RecipePage",
-    "Speed_Booster"
-  ],
-  "Lovers_Leap": [
-    "Automated_Returns_Handler",
-    "Lover's_Leap",
-    "Speed_Booster"
   ],
   "Barnacleback": [
     "Avulsion",
     "Bud_Barnacle",
     "Riven_Hive",
-    "Underground_Riven_Hive"
+    "Underground_Riven_Hive",
+    "World_Cracker"
   ],
-  "Bang_Snap": [
-    "Bang_Snap",
-    "Defiled_Sand",
-    "RecipePage",
-    "Silica"
+  "Tools": [
+    "Axes",
+    "Defiled_Wastelands",
+    "Hammers",
+    "Hydrolantern",
+    "Latchkey",
+    "Nova_Fragment",
+    "Ores",
+    "Pickaxes",
+    "Pincushion",
+    "Riven_Hive",
+    "Spyglass"
+  ],
+  "Trees": [
+    "Axes"
+  ],
+  "Cacti": [
+    "Axes"
   ],
   "Buckethead_Zombie": [
     "Banners"
   ],
   "Conehead_Zombie": [
     "Banners",
+    "Graveshield_Zombie",
     "Traffic_Cone"
   ],
-  "Bark": [
-    "Bark",
-    "Changes",
+  "Sentient_Powder": [
+    "Barnacle_Bunny",
+    "Bottomfeeder",
+    "Evil_Biomes",
+    "Gelled_Knife",
     "RecipePage",
-    "Rubber"
+    "Riven_Hive",
+    "Riven_Penguin",
+    "Shimmer",
+    "Suspicious_Looking_Ice_Cream"
   ],
   "Banners": [
     "Barnacle_Bunny"
   ],
   "Amoeba_Bugger": [
-    "Barnacle_Mound"
+    "Barnacle_Mound",
+    "World_Cracker"
   ],
   "Ores": [
     "Bars",
@@ -2428,6 +2452,7 @@
     "Encrusted_Ore",
     "Felnum_Ore",
     "Lost_Ore",
+    "Pickaxes",
     "Sanguinite_Ore",
     "Silicon_Ore"
   ],
@@ -2439,34 +2464,33 @@
     "Sinks",
     "Work_Benches"
   ],
-  "Baseball_Bat": [
-    "Baseball_Bat",
+  "Baryte": [
+    "Baryte_Wall",
+    "Brine_Pool",
+    "Brine_Pool_and_Lost_Diver",
     "RecipePage"
   ],
-  "Elderforge": [
+  "April_Fools": [
     "Baseball_Bat",
-    "Black_Hole_Bomb",
-    "Construction_Core",
-    "Rarity"
+    "Brine_Cheese",
+    "Defiled_Amalgamation",
+    "Defiled_Relay",
+    "Handy_Helper",
+    "Knee_Slapper"
   ],
-  "The_Bird": [
-    "Baseball_Bat"
-  ],
-  "Razorwire": [
-    "Baseball_Bat",
-    "Item_Synergies",
-    "Olid_Organ",
-    "Razorwire",
-    "RecipePage",
-    "Return_To_Sender",
-    "Self_Damage",
-    "Shield_of_Retribution",
-    "Unsought_Organ"
+  "Crates": [
+    "Basic_Crate",
+    "Bilious_Crate",
+    "Crusty_Crate",
+    "Festering_Crate",
+    "Infusion",
+    "Krakram",
+    "Residual_Crate",
+    "Shardcannon",
+    "The_Kruncher"
   ],
   "Bathtubs": [
-    "Bathtubs",
-    "Endowood",
-    "Marrowick"
+    "Bathtubs"
   ],
   "Nova_Brick": [
     "Bathtubs",
@@ -2483,7 +2507,6 @@
     "Grandfather_Clocks",
     "Lamps",
     "Lanterns",
-    "Nova_Fragment",
     "Pianos",
     "Platforms",
     "Sinks",
@@ -2501,7 +2524,6 @@
     "Chairs",
     "Chandeliers",
     "Chests",
-    "Defiled_Stone",
     "Doors",
     "Dressers",
     "Evil_Biomes",
@@ -2525,7 +2547,6 @@
     "Chairs",
     "Chandeliers",
     "Chests",
-    "Defiled_Stone",
     "Doors",
     "Dressers",
     "Evil_Biomes",
@@ -2558,7 +2579,6 @@
     "Pianos",
     "Sinks",
     "Sofas",
-    "Spug_Flesh",
     "Tables",
     "Toilets",
     "Work_Benches"
@@ -2583,7 +2603,6 @@
     "Platforms",
     "Sinks",
     "Sofas",
-    "Spug_Flesh",
     "Tables",
     "Toilets",
     "Work_Benches"
@@ -2624,8 +2643,10 @@
     "Chests",
     "Doors",
     "Dressers",
-    "Endowood",
     "Endowood_Armor",
+    "Endowood_Bow",
+    "Endowood_Hammer",
+    "Endowood_Sword",
     "Evil_Biomes",
     "Grandfather_Clocks",
     "Lamps",
@@ -2658,8 +2679,10 @@
     "Grandfather_Clocks",
     "Lamps",
     "Lanterns",
-    "Marrowick",
     "Marrowick_Armor",
+    "Marrowick_Bow",
+    "Marrowick_Hammer",
+    "Marrowick_Sword",
     "Pianos",
     "Platforms",
     "RecipePage",
@@ -2670,33 +2693,22 @@
     "Toilets",
     "Work_Benches"
   ],
-  "Bat_Hide": [
-    "Bat_Hide",
-    "Changes",
-    "RecipePage"
-  ],
   "Armor_Progression": [
     "Bat_Hide"
   ],
   "Chairs": [
     "Beds",
     "Chairs",
-    "Endowood",
-    "Marrowick",
     "Tables"
   ],
   "Sofas": [
     "Beds",
     "Chairs",
-    "Endowood",
-    "Marrowick",
     "Sofas"
   ],
   "Beds": [
     "Beds",
     "Chairs",
-    "Endowood",
-    "Marrowick",
     "Sofas"
   ],
   "food": [
@@ -2727,31 +2739,6 @@
     "Prickly_Pear",
     "Riven_Hive"
   ],
-  "Shattered_Stout": [
-    "Bileberry",
-    "Petrified_Prickly_Pear",
-    "Prickly_Pear",
-    "RecipePage",
-    "Shattered_Stout"
-  ],
-  "Bileberry": [
-    "Bileberry",
-    "Evil_Biomes",
-    "Petrified_Prickly_Pear",
-    "Petrified_Tree",
-    "Prickly_Pear",
-    "RecipePage",
-    "Shattered_Stout"
-  ],
-  "Prickly_Pear": [
-    "Bileberry",
-    "Evil_Biomes",
-    "Petrified_Prickly_Pear",
-    "Petrified_Tree",
-    "Prickly_Pear",
-    "RecipePage",
-    "Shattered_Stout"
-  ],
   "Fishing_Catches": [
     "Bilemouth",
     "Polyeel",
@@ -2760,157 +2747,52 @@
   "Fervor_Potion": [
     "Bilemouth",
     "Evil_Biomes",
-    "Fervor_Potion",
     "RecipePage",
-    "Recipe_Groups",
-    "Surveysprout",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Bilemouth": [
-    "Bilemouth",
-    "Evil_Biomes",
-    "Fervor_Potion",
-    "RecipePage",
-    "Recipe_Groups",
-    "Shimmer",
-    "Surveysprout",
-    "Tearracuda",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Tearracuda": [
-    "Bilemouth",
-    "Evil_Biomes",
-    "Polyeel",
-    "Protean_Potion",
-    "RecipePage",
-    "Recipe_Groups",
-    "Shimmer",
-    "Surveysprout",
-    "Tearracuda",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Bile_Arrow": [
-    "Bile_Arrow",
-    "Black_Bile",
-    "RecipePage"
+    "Recipe_Groups"
   ],
   "Stun": [
     "Bile_Bullet",
     "Changes",
-    "Rasterized",
+    "Rasterized_(Buff)",
     "Toxic_Shock"
-  ],
-  "Bile_Bullet": [
-    "Bile_Bullet",
-    "Black_Bile",
-    "RecipePage"
-  ],
-  "Bile_Canister": [
-    "Bile_Canister",
-    "Black_Bile",
-    "RecipePage"
   ],
   "Dreadful_Powder": [
     "Bile_Thrower",
+    "Chipper_Knife",
     "Defiled_Wastelands",
-    "Dreadful_Powder",
     "Evil_Biomes",
     "Nerve_Impulse_Manipulator",
     "RecipePage",
     "Shattered_Goldfish",
-    "Shimmer",
-    "Soulspore",
-    "Strange_String"
-  ],
-  "Crates": [
-    "Bilious_Crate",
-    "Crusty_Crate",
-    "Festering_Crate",
-    "Infusion",
-    "Krakram",
-    "The_Kruncher"
+    "Shimmer"
   ],
   "Defiled_Fissure": [
     "Bilious_Crate",
-    "Defiled_Amalgamation",
-    "Defiled_Wastelands",
     "Dim_Starlight",
     "Evil_Biomes",
-    "Infusion",
-    "Krakram",
-    "Protomind",
-    "The_Kruncher"
-  ],
-  "Bilious_Crate": [
-    "Bilious_Crate",
-    "Crates",
-    "Shimmer"
-  ],
-  "Pointy_Crate": [
-    "Bilious_Crate",
-    "Crates",
-    "Shimmer"
+    "Hammers",
+    "Protomind"
   ],
   "Refactoring_Pieces": [
     "Binding_Book",
     "Evil_Biomes",
     "Item_Synergies",
-    "RecipePage",
-    "Refactoring_Pieces"
+    "RecipePage"
   ],
   "Lost_Armor": [
     "Binding_Book",
     "Evil_Biomes",
     "Item_Synergies",
     "Lost_Armor",
-    "Lost_Ore",
+    "Lost_Breastplate",
+    "Lost_Greaves",
+    "Lost_Helmet",
     "Refactoring_Pieces"
   ],
   "damage_reduction": [
     "Binding_Book",
-    "Refactoring_Pieces"
-  ],
-  "Bud_Barnacle": [
-    "Biocomponent_10",
-    "Bud_Barnacle",
-    "Encrusted_Armor",
-    "Encrusted_Ore",
-    "Evil_Biomes",
-    "RecipePage",
-    "Sentient_Powder",
-    "Strange_String",
-    "Suspicious_Looking_Ice_Cream"
-  ],
-  "Scavenger_Body_Armor": [
-    "Biocomponent_10",
-    "RecipePage"
-  ],
-  "Scavenger_Greaves": [
-    "Biocomponent_10",
-    "RecipePage"
-  ],
-  "Scavenger_Goggles": [
-    "Biocomponent_10",
-    "RecipePage"
-  ],
-  "Urn_of_Ashes": [
-    "Biocomponent_10",
-    "Broken_Record",
-    "Evil_Biomes",
-    "Fungarust",
-    "RecipePage",
-    "Shimmer",
-    "Urn_of_Ashes"
-  ],
-  "Walls": [
-    "Biomes",
-    "Gray_Solution",
-    "Paintings",
-    "Teal_Solution",
-    "Torches"
+    "Refactoring_Pieces",
+    "Rubber_Armor"
   ],
   "Item_Index": [
     "Biomes"
@@ -2933,11 +2815,13 @@
   "Ashen_Factory": [
     "Biomes",
     "Chambersite",
+    "Concept_Art",
     "Defiled_Wastelands",
     "Evil_Biomes",
     "Fungarust",
-    "Impeding_Shrapnel",
+    "Impeding_Shrapnel_(Buff)",
     "Internal_Combustionfish",
+    "Peat_Moss",
     "Respyrite",
     "Riven_Hive",
     "Sanguinite_Ore",
@@ -2969,19 +2853,6 @@
   "The_Dawn": [
     "Biomes"
   ],
-  "Brine_Pool": [
-    "Biomes",
-    "Bottled_Brine",
-    "Brine-Leafed_Clover",
-    "Brineglow",
-    "Brine_Cheese",
-    "Dolomite",
-    "Eitrite_Ore",
-    "Magic_Brine_Dropper",
-    "Nematoclaw",
-    "Peat_Moss",
-    "Toxic_Shock"
-  ],
   "Eutrophic_Sea": [
     "Biomes",
     "Evil_Biomes",
@@ -2992,39 +2863,76 @@
   "Summon_Weapons": [
     "Biomes",
     "Brainy_Staff",
+    "Brine_Convergence_Incantation",
     "Changes",
     "Chlorophyte_Crown",
+    "Defective_Mortar_Shell",
     "Desert_Crown",
     "Encrusted_Armor",
+    "Incantations",
     "Minions",
     "Modifiers",
     "Necromancer_Armor",
     "Ocotoral_Bud",
     "Scabcoral_Lyre",
+    "Spirit_Shard",
     "Teardown",
+    "Thread_Rod",
     "Ziptie"
   ],
   "Defiled_Caverns": [
     "Biomes",
+    "Defiled_Mimic",
     "Defiled_Mite",
-    "Defiled_Wastelands"
+    "Defiled_Pigron",
+    "Defiled_Wastelands",
+    "Profaned_Bident",
+    "Shattered_Ghoul",
+    "Underground_Defiled_Wastelands"
+  ],
+  "Black_Bile": [
+    "Biomes",
+    "Evil_Biomes",
+    "Flask_of_Black_Bile",
+    "Living_Fire_Blocks",
+    "Makeover_Choker",
+    "RecipePage",
+    "Recipe_Groups",
+    "The_Defiled",
+    "Torches"
   ],
   "Fiberglass_Undergrowth": [
     "Biomes",
-    "Brine_Pool",
+    "Enchanted_Fiberglass_Bow",
+    "Enchanted_Fiberglass_Cannon",
+    "Enchanted_Fiberglass_Pistol",
+    "Enchanted_Fiberglass_Sword",
     "Fiberglass_Block",
+    "Fiberglass_Shard",
+    "Fiberglass_Weaver",
     "Shaped_Glass"
   ],
   "Fiberglass_Weaver": [
     "Biomes",
     "Entangled_Energy",
     "Fiberglass_Armor",
+    "Fiberglass_Bow",
     "Fiberglass_Dagger",
-    "Shaped_Glass"
+    "Fiberglass_Pistol",
+    "Fiberglass_Sword",
+    "Fiberglass_Undergrowth",
+    "Fiberglass_Weaver_Head",
+    "Glass_Cannon",
+    "Shaped_Glass",
+    "Thread_Rod"
   ],
   "Underground_Riven_Hive": [
     "Biomes",
+    "Mitoworm",
     "Riven_Hive",
+    "Riven_Mimic",
+    "Riven_Pigron",
+    "Torn_Ghoul",
     "World_Cracker"
   ],
   "The_Dusk": [
@@ -3038,6 +2946,7 @@
   ],
   "Cubekon_Temple": [
     "Biomes",
+    "Concept_Art",
     "Sonic_Radar"
   ],
   "Batholith": [
@@ -3056,28 +2965,10 @@
     "Black_Bile",
     "Defiled_Wastelands"
   ],
-  "Bile_Torch": [
-    "Black_Bile",
-    "RecipePage"
-  ],
-  "Flask_of_Black_Bile": [
-    "Black_Bile",
-    "Evil_Biomes",
-    "Flask_of_Black_Bile",
-    "RecipePage"
-  ],
-  "Dismay": [
-    "Black_Bile",
-    "Defiled_Ekko",
-    "Defiled_Watcher",
-    "RecipePage"
-  ],
-  "Living_Bile_Block": [
-    "Black_Bile",
-    "Blocks",
-    "Living_Bile_Block",
-    "Living_Fire_Blocks",
-    "RecipePage"
+  "Elderforge": [
+    "Black_Hole_Bomb",
+    "Construction_Core",
+    "Rarity"
   ],
   "Test_of_the_Ancients": [
     "Black_Hole_Bomb",
@@ -3088,107 +2979,45 @@
     "Rarity"
   ],
   "Alien_Conduit": [
-    "Black_Hole_Bomb",
-    "Construction_Core"
+    "Black_Hole_Bomb"
   ],
   "Endyean_Ceramic": [
-    "Black_Hole_Bomb",
-    "Construction_Core"
+    "Black_Hole_Bomb"
   ],
   "Weapon_Blueprint": [
     "Black_Hole_Bomb"
   ],
   "Blast_Armor": [
     "Blast-Resistant_Plate",
-    "Blast_Armor",
-    "Busted_Servo",
+    "Blast_Breastplate",
+    "Blast_Greaves",
+    "Blast_Helmet",
     "Fabricator",
-    "Item_Synergies",
-    "Rotor"
+    "Item_Synergies"
   ],
   "Blast-Resistant_Plate": [
-    "Blast-Resistant_Plate",
     "Blast_Armor",
     "Fabricator",
     "RecipePage"
   ],
-  "Fabricator": [
-    "Blast-Resistant_Plate",
-    "Blast_Armor",
-    "Busted_Servo",
-    "Chambersite",
-    "Eitrite_Bar",
-    "Fabricator",
-    "Fiberglass_Block",
-    "Headphones",
-    "Laser_Tag_Console",
-    "Laser_Tag_Vest",
-    "Mine_Flayer",
-    "Nuclear_Arm",
-    "Omni-Directional_Claymore",
-    "Personal_Laser_Blade",
-    "Potato",
-    "Potato_Battery",
-    "RecipePage",
-    "Rotor",
-    "Rubber",
-    "Self-Destruct",
-    "Silicon_Bar"
-  ],
   "Busted_Servo": [
-    "Blast-Resistant_Plate",
     "Blast_Armor",
-    "Busted_Servo",
-    "Chambersite",
     "Fabricator",
-    "Fiberglass_Block",
-    "Headphones",
-    "Laser_Tag_Console",
-    "Mine_Flayer",
-    "Nuclear_Arm",
-    "Omni-Directional_Claymore",
-    "Personal_Laser_Blade",
-    "RecipePage",
-    "Rotor",
-    "Rubber",
-    "Self-Destruct",
-    "Silicon_Bar"
-  ],
-  "Power_Core": [
-    "Blast-Resistant_Plate",
-    "Blast_Armor",
-    "Busted_Servo",
-    "Chambersite",
-    "Eitrite_Bar",
-    "Fabricator",
-    "Fiberglass_Block",
-    "Headphones",
-    "Laser_Tag_Console",
-    "Laser_Tag_Vest",
-    "Mine_Flayer",
-    "Nuclear_Arm",
-    "Personal_Laser_Blade",
-    "Potato",
-    "Potato_Battery",
-    "RecipePage",
-    "Rotor",
-    "Rubber",
-    "Self-Destruct",
-    "Silicon_Bar"
+    "Impactaxe",
+    "RecipePage"
   ],
   "Rotor": [
-    "Blast-Resistant_Plate",
     "Blast_Armor",
-    "Busted_Servo",
-    "Chambersite",
     "Fabricator",
-    "Mine_Flayer",
-    "Omni-Directional_Claymore",
-    "Personal_Laser_Blade",
-    "RecipePage",
-    "Rotor",
-    "Rubber",
-    "Silicon_Bar"
+    "Impactaxe",
+    "RecipePage"
+  ],
+  "Power_Core": [
+    "Blast_Armor",
+    "Fabricator",
+    "Impactaxe",
+    "Laser_Tag_Vest",
+    "RecipePage"
   ],
   "Fuse_Time": [
     "Blast_Armor",
@@ -3202,122 +3031,65 @@
     "Resizable_Mine_Mk._II",
     "Resizable_Mine_Mk._III",
     "Resizable_Mine_Mk._IV",
-    "Resizable_Mine_Mk._V"
+    "Resizable_Mine_Mk._V",
+    "Sparking_Flame_Barrel"
   ],
   "the_Dusk": [
     "Bleeding_Obsidian",
     "Dusk_Key",
+    "The_Defiled",
     "Twilith"
   ],
   "Bars": [
     "Bleeding_Obsidian",
     "Blocks",
-    "Carburite",
     "Crates",
     "Defiled_Bar",
     "Eitrite_Bar",
     "Encrusted_Bar",
     "Felnum_Bar",
     "Ores",
+    "Pickaxes",
     "Sanguinite_Bar",
     "Silicon_Bar"
   ],
   "Bleeding_Obsidian_Shard": [
     "Bleeding_Obsidian",
-    "Bleeding_Obsidian_Shard",
-    "Bottled_Brine",
-    "Eitrite_Bar",
     "RecipePage"
   ],
   "Bleeding_Obsidian": [
-    "Bleeding_Obsidian",
     "Bleeding_Obsidian_Armor",
-    "Bleeding_Obsidian_Kunai",
     "Bleeding_Obsidian_Shard",
     "Blocks",
     "RecipePage",
-    "Recipe_Groups",
-    "Resizable_Mine_Mk._III",
-    "Silicon_Bar"
-  ],
-  "Bleeding_Obsidian_Armor": [
-    "Bleeding_Obsidian",
-    "Bleeding_Obsidian_Armor",
-    "Item_Synergies"
-  ],
-  "Bled_Out_Staff": [
-    "Bleeding_Obsidian",
-    "RecipePage",
     "Recipe_Groups"
   ],
-  "Bleeding_Obsidian_Kunai": [
-    "Bleeding_Obsidian",
-    "Bleeding_Obsidian_Kunai",
-    "RecipePage",
-    "Shimmer",
-    "Silicon_Bar"
-  ],
-  "Boomphracken": [
-    "Bleeding_Obsidian",
-    "RecipePage"
-  ],
-  "Hallowed_Cleaver": [
-    "Bleeding_Obsidian",
-    "RecipePage"
-  ],
-  "Resizable_Mine_Mk_3": [
-    "Bleeding_Obsidian",
-    "Resizable_Mine_Mk._III"
+  "Bleeding_Obsidian_Armor": [
+    "Bleeding_Obsidian_Armor",
+    "Bleeding_Obsidian_Breastplate",
+    "Bleeding_Obsidian_Greaves",
+    "Bleeding_Obsidian_Helmet",
+    "Item_Synergies"
   ],
   "Stack_of_Shraps": [
     "Bleeding_Obsidian_Armor",
+    "Control_Locus",
     "Evil_Biomes",
-    "RecipePage",
-    "Weakpoint_Analyzer"
-  ],
-  "Consumables": [
-    "Bleeding_Obsidian_Kunai",
-    "Broken_Record",
-    "Crates",
-    "Dawn_Key",
-    "Defiled_Key",
-    "Defiled_Spirit",
-    "Dreadful_Powder",
-    "Dusk_Key",
-    "Fiberglass_Shard",
-    "Gelled_Knife",
-    "Gooey_Water",
-    "Grab_Bags",
-    "Hell_Key",
-    "Holiday_Hair_Dye",
-    "Item_Synergies",
-    "Lottery_Ticket",
-    "Mojo_Flask",
-    "Mojo_Injection",
-    "Mushroom_Key",
-    "Nerve_Impulse_Manipulator",
-    "Ocean_Key",
-    "Riven_Key",
-    "Sentient_Powder",
-    "Shaped_Glass",
-    "Suspicious_Looking_Ice_Cream",
-    "Urn_of_Ashes",
-    "Void_Lock",
-    "White_Water"
+    "RecipePage"
   ],
   "bosses": [
     "Blizzardwalker's_Jacket",
     "Chew_Toy",
     "Chromatic_Scale",
     "Ores",
+    "Plague_Texan's_Gift",
     "Relics",
+    "The_Bird",
     "Treasure_Bag",
-    "Trophies"
+    "Trophies",
+    "Tyfyter's_Set"
   ],
   "biome": [
-    "Blocks"
-  ],
-  "pickaxes": [
     "Blocks"
   ],
   "drills": [
@@ -3327,7 +3099,6 @@
     "Blocks",
     "Defiled_Seeds",
     "Defiled_Wastelands",
-    "Endowood",
     "Evil_Biomes",
     "Petrified_Tree",
     "Soulspore",
@@ -3352,31 +3123,21 @@
   "Compacted_Scrap": [
     "Blocks",
     "Evil_Biomes",
-    "Sanguinite_Ore",
-    "Scrap",
     "Surveysprout"
   ],
   "Defiled_Stone": [
     "Blocks",
-    "Chambersite",
     "Defiled_Asphyxiator",
     "Defiled_Caverns",
-    "Defiled_Stone",
     "Evil_Biomes",
-    "Lost_Ore",
     "RecipePage",
-    "Spug_Flesh",
     "Torches",
     "Wilting_Rose"
   ],
   "Spug_Flesh": [
     "Blocks",
-    "Chambersite",
-    "Defiled_Stone",
-    "Encrusted_Ore",
     "Evil_Biomes",
     "RecipePage",
-    "Spug_Flesh",
     "Torches",
     "Underground_Riven_Hive",
     "Wrycoral"
@@ -3387,71 +3148,56 @@
   "Defiled_Sand": [
     "Blocks",
     "Defiled_Cactus",
-    "Defiled_Sand",
-    "Defiled_Sandstone",
-    "Defiled_Seeds",
     "Defiled_Wastelands",
-    "Hardened_Defiled_Sand",
     "RecipePage",
     "Shimmer",
-    "Silica",
     "White_Water"
   ],
   "Silica": [
     "Blocks",
-    "Brittle_Quartz",
-    "Defiled_Sand",
     "Gooey_Water",
-    "Quartz",
     "RecipePage",
     "Riven_Cactus",
     "Riven_Hive",
-    "Riven_Seeds",
-    "Shimmer",
-    "Silica"
+    "Shimmer"
   ],
   "Brittle_Quartz": [
     "Blocks",
-    "Brittle_Quartz",
-    "Defiled_Sandstone",
     "RecipePage",
-    "Shimmer",
-    "Silica"
+    "Shimmer"
   ],
   "Defiled_Sandstone": [
     "Blocks",
-    "Brittle_Quartz",
-    "Defiled_Sand",
-    "Defiled_Sandstone",
     "RecipePage",
     "Shimmer"
   ],
   "Hardened_Defiled_Sand_Block": [
     "Blocks",
-    "Hardened_Defiled_Sand",
-    "Quartz",
     "Shimmer",
     "Torches"
   ],
   "Quartz": [
     "Blocks",
-    "Hardened_Defiled_Sand",
-    "Quartz",
     "RecipePage",
     "Shimmer",
-    "Silica",
     "Torches"
   ],
   "Primordial_Permafrost": [
     "Blocks",
-    "Gray_Ice_Block",
-    "Primordial_Permafrost",
     "RecipePage",
     "Riven_Hive",
     "Torches"
   ],
   "White_Ice_Block": [
     "Blocks"
+  ],
+  "Acetabularia": [
+    "Blocks",
+    "Evil_Biomes",
+    "RecipePage",
+    "Riven_Hive",
+    "Sentient_Powder",
+    "Shimmer"
   ],
   "Defiled_Cactus": [
     "Blocks"
@@ -3464,43 +3210,51 @@
     "Evil_Biomes",
     "Riven_Hive"
   ],
+  "Fungarust": [
+    "Blocks",
+    "Evil_Biomes",
+    "RecipePage",
+    "Shimmer",
+    "Urn_of_Ashes"
+  ],
   "Moonshine": [
     "Blocks"
   ],
   "Riven_Cactus": [
     "Blocks"
   ],
+  "Soulspore": [
+    "Blocks",
+    "Defiled_Wastelands",
+    "Dreadful_Powder",
+    "Evil_Biomes",
+    "RecipePage",
+    "Shimmer"
+  ],
   "Surveysprout": [
     "Blocks",
     "Evil_Biomes",
-    "Recipe_Groups",
-    "Surveysprout",
-    "Wrycoral"
+    "Recipe_Groups"
   ],
   "Wilting_Rose": [
     "Blocks",
     "Defiled_Wastelands",
-    "Dim_Starlight",
     "Evil_Biomes",
     "RecipePage",
     "Recipe_Groups",
-    "Wilting_Rose",
-    "Wrycoral"
+    "Wilting_Rose_Seeds"
   ],
   "Wrycoral": [
     "Blocks",
     "Evil_Biomes",
     "Recipe_Groups",
-    "Riven_Hive",
-    "Surveysprout",
-    "Wilting_Rose",
-    "Wrycoral"
+    "Riven_Hive"
   ],
   "Weapons": [
     "Blocks",
     "Defiled_Wastelands",
     "Gooey_Water",
-    "Harpoon_Gun",
+    "Items",
     "Item_Synergies",
     "Nova_Fragment",
     "Ores",
@@ -3512,29 +3266,22 @@
     "Blocks",
     "Brine_Pool",
     "Eitrite_Bar",
-    "Eitrite_Ore",
     "RecipePage"
   ],
   "Encrusted_Ore": [
     "Blocks",
-    "Bud_Barnacle",
     "Encrusted_Armor",
     "Encrusted_Bar",
-    "Encrusted_Ore",
     "Evil_Biomes",
-    "Lost_Ore",
     "RecipePage",
     "Riven_Armor",
-    "Sanguinite_Ore",
     "Shimmer",
-    "Spug_Flesh",
     "World_Cracker"
   ],
   "Felnum_Ore": [
     "Blocks",
     "Felnum_Armor",
     "Felnum_Bar",
-    "Felnum_Ore",
     "Felnum_Shock_Grenade",
     "Ores",
     "RecipePage"
@@ -3544,36 +3291,23 @@
     "Defiled_Amalgamation",
     "Defiled_Armor",
     "Defiled_Bar",
-    "Defiled_Stone",
-    "Encrusted_Ore",
     "Evil_Biomes",
     "Lost_Armor",
-    "Lost_Ore",
     "RecipePage",
-    "Shimmer",
-    "Strange_String"
+    "Shimmer"
   ],
   "Silicon_Ore": [
     "Blocks",
-    "Defiled_Sand",
     "RecipePage",
-    "Silica",
-    "Silicon_Bar",
-    "Silicon_Ore"
+    "Silicon_Bar"
   ],
   "Chambersite": [
     "Blocks",
-    "Busted_Servo",
-    "Carburite",
-    "Chambersite",
     "Chambersite_Gemspark",
     "Cursed_Crown",
-    "Defiled_Stone",
     "Fabricator",
     "RecipePage",
-    "Rotor",
     "Shimmer",
-    "Spug_Flesh",
     "Torches"
   ],
   "Bricks": [
@@ -3583,23 +3317,32 @@
     "Blocks",
     "Candelabras",
     "Candles",
-    "Endowood",
-    "Marrowick",
     "Platforms",
     "Torches"
   ],
   "Chambersite_Gemspark": [
     "Blocks",
-    "Chambersite",
-    "Chambersite_Gemspark",
     "RecipePage"
   ],
   "Harmony_Brick": [
     "Blocks"
   ],
-  "Nova_Fragment_Block": [
+  "Living_Alkahest_Block": [
     "Blocks",
-    "Nova_Fragment"
+    "Living_Fire_Blocks",
+    "RecipePage"
+  ],
+  "Living_Bile_Block": [
+    "Blocks",
+    "Living_Fire_Blocks",
+    "RecipePage"
+  ],
+  "Nova_Fragment_Block": [
+    "Blocks"
+  ],
+  "Amoeba_Fluid": [
+    "Blocks",
+    "RecipePage"
   ],
   "Angelic_Cloud": [
     "Blocks"
@@ -3609,17 +3352,12 @@
   ],
   "Fiberglass_Block": [
     "Blocks",
-    "Busted_Servo",
     "Fabricator",
-    "Fiberglass_Block",
-    "Headphones",
-    "RecipePage",
-    "Rubber",
-    "Shaped_Glass"
+    "Fiberglass_Undergrowth",
+    "RecipePage"
   ],
   "Geyser_Core": [
-    "Blocks",
-    "Brine_Pool"
+    "Blocks"
   ],
   "Mildew": [
     "Blocks",
@@ -3630,9 +3368,10 @@
   ],
   "Defiled_Amalgamation": [
     "Blockus_Tube",
+    "Concept_Art",
     "Defiled_Amalgamation_Mask",
     "Defiled_Caverns",
-    "Defiled_Fissure",
+    "Defiled_Relay",
     "Defiled_Spirit",
     "Defiled_Swarmer",
     "Defiled_Wastelands",
@@ -3643,228 +3382,255 @@
     "Messy_Leech",
     "Mysterious_Spray",
     "Nerve_Impulse_Manipulator",
+    "Peat_Moss",
     "Refactoring_Pieces",
     "Return_To_Sender",
+    "The_Defiled",
     "Undead_Chunk"
-  ],
-  "Quests": [
-    "Bloombomb",
-    "Blue_Bovine",
-    "Cleansing_Station",
-    "Eccentric_Stone",
-    "Gun_Glove",
-    "Lottery_Ticket",
-    "Magic_Hair_Spray",
-    "Turbo_Reel"
-  ],
-  "Bloombomb": [
-    "Bloombomb",
-    "RecipePage"
-  ],
-  "Mana_Synk": [
-    "Blotopus"
   ],
   "Wings": [
     "Blue_Bovine",
-    "Nova_Fragment"
+    "Nova_Fragment",
+    "Thrust_Ravel"
+  ],
+  "Ranged_Weapon": [
+    "Boiler",
+    "Firespit",
+    "Sleetfire",
+    "Threemoepeater"
   ],
   "Defiled_Bar": [
     "Bombardment",
     "Bone_Latcher",
+    "Brick_Breaker",
     "Defiled_Armor",
-    "Defiled_Bar",
-    "Infusion",
+    "Defiled_Gun_Magazine",
+    "Dismantler",
+    "Dissector",
     "Krakram",
-    "Lost_Ore",
+    "Orbital_Saw",
     "RecipePage",
     "Ripper_Lance",
     "Snapthrow",
+    "Snatcher",
     "Spiker_Sword",
-    "The_Kruncher",
-    "Undead_Chunk"
+    "The_Defiled",
+    "Unmisfire"
   ],
   "Undead_Chunk": [
     "Bombardment",
+    "Brick_Breaker",
     "Defiled_Amalgamation",
     "Defiled_Armor",
-    "Defiled_Bar",
     "Defiled_Swarmer",
+    "Dismantler",
     "Evil_Biomes",
-    "Infusion",
     "RecipePage",
     "Recipe_Groups",
     "Ripper_Lance",
-    "Riven_Carapace",
     "Shimmer",
-    "The_Kruncher",
-    "Undead_Chunk"
+    "The_Defiled",
+    "Unmisfire"
   ],
   "Defiled_Krusher": [
     "Bombardment",
     "Defiled_Caverns",
     "Defiled_Wastelands",
-    "Strange_String"
+    "Lousy_Liver",
+    "Strange_String",
+    "The_Defiled"
   ],
   "Bomb_Charm": [
-    "Bomb_Charm",
     "Bomb_Charm_of_Regeneration",
     "Hazard_Charm",
     "RecipePage",
-    "Shimmer",
-    "Trap_Charm"
-  ],
-  "Bomb_Charm_of_Regeneration": [
-    "Bomb_Charm",
-    "Bomb_Charm_of_Regeneration",
-    "RecipePage"
-  ],
-  "Hazard_Charm": [
-    "Bomb_Charm",
-    "Hazard_Charm",
-    "RecipePage",
-    "Trap_Charm"
-  ],
-  "Trap_Charm": [
-    "Bomb_Charm",
-    "Hazard_Charm",
-    "RecipePage",
-    "Trap_Charm"
-  ],
-  "Destructive_Claws": [
-    "Bomb_Handling_Device",
-    "Destructive_Claws",
-    "Gun_Glove",
-    "Missile_Armcannon",
-    "RecipePage"
+    "Shimmer"
   ],
   "Developers": [
     "Bomb_Handling_Device",
-    "Chew_Toy",
     "Chromatic_Scale",
     "Fiberglass_Weaver",
     "index",
     "Music_Boxes",
     "Mysterious_Spray",
     "Paintings",
+    "Plague_Texan's_Gift",
     "Riven_Hive",
-    "Strange_Power-Up"
-  ],
-  "Whips": [
-    "Bone_Latcher",
-    "Flagellash",
-    "Joint_Pop"
-  ],
-  "Bone_Latcher": [
-    "Bone_Latcher",
-    "Defiled_Bar",
-    "Defiled_Ekko",
-    "Evil_Biomes",
-    "Item_Synergies",
-    "RecipePage"
+    "Tyfyter's_Set"
   ],
   "Soulhide_Armor": [
     "Bone_Latcher",
     "Evil_Biomes",
     "Item_Synergies",
-    "Soulhide_Armor"
+    "Soulhide_Armor",
+    "Soulhide_Breastplate",
+    "Soulhide_Greaves",
+    "Soulhide_Helmet"
   ],
   "Bookcases": [
-    "Bookcases",
-    "Endowood",
-    "Marrowick"
+    "Bookcases"
+  ],
+  "Boomerangs": [
+    "Boomboom",
+    "Dark_Spiral",
+    "Hemorang",
+    "Krakram",
+    "Orbital_Saw",
+    "Riverang",
+    "Terrarang",
+    "True_Light_Disc",
+    "True_Waning_Crescent",
+    "Waning_Crescent"
   ],
   "Turbo_Reel": [
     "Boomerang_Magnet",
     "RecipePage",
-    "Super_Turbo_Reel",
-    "Turbo_Reel"
-  ],
-  "Boomerang_Magnet": [
-    "Boomerang_Magnet",
-    "RecipePage",
-    "Turbo_Reel"
-  ],
-  "Magic_Brine_Droppers": [
-    "Bottled_Brine"
-  ],
-  "Magic_Brine_Dropper": [
-    "Bottled_Brine",
-    "Magic_Brine_Dropper",
-    "RecipePage"
-  ],
-  "Amenonuhoko": [
-    "Bottled_Brine",
-    "Eitrite_Bar",
-    "RecipePage"
-  ],
-  "Bouncy_Harpoon": [
-    "Bouncy_Harpoon",
-    "Harpoon",
-    "RecipePage"
+    "Super_Turbo_Reel"
   ],
   "Crimbrain": [
     "Brainy_Staff"
   ],
-  "Honey_Wheat_Bread": [
-    "Bread",
-    "Honey_Wheat_Bread",
-    "RecipePage"
+  "Hammers": [
+    "Brick_Breaker",
+    "C6_Jackhammer",
+    "Defiled_Heart",
+    "Defiled_Relay",
+    "Endowood_Hammer",
+    "Gel_Blister",
+    "Marrowick_Hammer",
+    "Pickaxes",
+    "Stabsmash",
+    "Tools",
+    "Walls"
   ],
-  "Bread": [
-    "Bread",
-    "Honey_Wheat_Bread",
-    "RecipePage"
+  "Chests": [
+    "Brine_Chest",
+    "Chests",
+    "Defiled_Chest",
+    "Furniture",
+    "Riven_Chest",
+    "Void_Lock"
   ],
-  "Anti_Solve_Potion": [
-    "Brineglow"
+  "Brine_Key": [
+    "Brine_Chest"
   ],
-  "Splashid": [
-    "Brineglow",
-    "Dolomite",
-    "Eitrite_Bar",
-    "RecipePage"
+  "Brine_Dungeon_Chest_(locked)": [
+    "Brine_Key"
   ],
-  "Dolomite": [
-    "Brineglow",
-    "Brine_Pool",
-    "Dolomite",
-    "Eitrite_Bar",
-    "RecipePage"
-  ],
-  "Brine_Fiend": [
-    "Brine_Pool",
-    "Foul_Broth",
-    "Hearty_Broth",
-    "Sour_Broth"
-  ],
-  "Brine_Moccasin": [
+  "Hydrothermal_Vent": [
     "Brine_Pool"
+  ],
+  "Venus_Coral": [
+    "Brine_Pool"
+  ],
+  "Ripples": [
+    "Brine_Pool"
+  ],
+  "Airsnatcher": [
+    "Brine_Pool"
+  ],
+  "Brine_Latcher": [
+    "Brine_Pool",
+    "Sea_Dragon"
+  ],
+  "Brine_Serpent": [
+    "Brine_Pool",
+    "Carpalfish",
+    "Sea_Dragon"
   ],
   "Carpalfish": [
-    "Brine_Pool"
+    "Brine_Pool",
+    "Sea_Dragon"
+  ],
+  "Leaf_Snapper": [
+    "Brine_Pool",
+    "Carpalfish"
+  ],
+  "Nasty_Crawdad": [
+    "Brine_Pool",
+    "Crawdaddy's_Revenge",
+    "Grenade_Lawnchair"
+  ],
+  "King_Crab": [
+    "Brine_Pool",
+    "Carpalfish"
   ],
   "Mildew_Creeper": [
-    "Brine_Pool"
-  ],
-  "Lost_Diver": [
-    "Brine_Pool"
-  ],
-  "Peat_Lobber": [
-    "Brine_Pool"
+    "Brine_Pool",
+    "Carpalfish",
+    "Mildew_Heart",
+    "Mildew_Incantation",
+    "Sea_Dragon"
   ],
   "Sea_Dragon": [
     "Brine_Pool",
-    "Nematoclaw"
+    "Carpalfish"
   ],
-  "Brittle_Quartz_Wall": [
-    "Brittle_Quartz",
-    "RecipePage"
+  "Shotgunfish": [
+    "Brine_Pool"
+  ],
+  "Lost_Diver": [
+    "Brine_Pool",
+    "Brine_Pool_and_Lost_Diver",
+    "Lost_Picture_Frame",
+    "Retaliatory_Tendril"
+  ],
+  "Skimswim_Potion": [
+    "Brine_Pool",
+    "Ripples"
+  ],
+  "early_civilization": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Lost_Crone": [
+    "Brine_Pool_and_Lost_Diver",
+    "The_Defiled"
+  ],
+  "Crown_Jewel": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Old_Brine_Rock": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Torpedo_Tube": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Faith_Beads": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Lost_Picture_Frame": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Mildew_Heart": [
+    "Brine_Pool_and_Lost_Diver"
+  ],
+  "Mildew_Carrion": [
+    "Brine_Pool_and_Lost_Diver",
+    "Crown_Jewel",
+    "Faith_Beads",
+    "Mildew_Whip",
+    "Watered-down_Keytar"
+  ],
+  "Shortswords": [
+    "Broken_Fiberglass_Sword",
+    "Switchblade"
+  ],
+  "Enchanted_Fiberglass_Sword": [
+    "Broken_Fiberglass_Sword",
+    "Fiberglass_Undergrowth",
+    "Unstrung_Fiberglass_Bow"
+  ],
+  "Urn_of_Ashes": [
+    "Broken_Record",
+    "Evil_Biomes",
+    "RecipePage",
+    "Shimmer"
   ],
   "Scrapper": [
     "Broken_Record",
     "Evil_Biomes",
     "NE-8",
-    "Sanguinite_Ore",
+    "Peat_Moss",
     "Shrapnel_Bomb"
   ],
   "Pustule_Jelly": [
@@ -3872,10 +3638,12 @@
   ],
   "Riven_Protoform": [
     "Bud_Barnacle",
+    "Concept_Art",
     "Jam_Sandwich",
     "Riven_Hive",
     "Symbiote_Skull",
-    "Underground_Riven_Hive"
+    "Underground_Riven_Hive",
+    "World_Cracker"
   ],
   "Single_Cellular_Nautilus": [
     "Bud_Barnacle"
@@ -3885,175 +3653,64 @@
     "Riven_Hive",
     "Underground_Riven_Hive"
   ],
-  "Strange_String": [
-    "Bud_Barnacle",
-    "Dreadful_Powder",
-    "Evil_Biomes",
-    "Lost_Armor",
-    "Lost_Ore",
-    "Nerve_Impulse_Manipulator",
-    "RecipePage",
-    "Soul_Spaghetti",
-    "Strange_String"
-  ],
-  "Encrusted_Coat": [
-    "Bud_Barnacle",
-    "RecipePage"
-  ],
-  "Encrusted_Mask": [
-    "Bud_Barnacle",
-    "RecipePage"
-  ],
-  "Encrusted_Pants": [
-    "Bud_Barnacle",
-    "RecipePage"
-  ],
-  "Suspicious_Looking_Ice_Cream": [
-    "Bud_Barnacle",
-    "RecipePage",
-    "Sentient_Powder",
-    "Suspicious_Looking_Ice_Cream",
-    "World_Cracker"
-  ],
   "Minions": [
     "Buffs",
     "Changes",
     "Foul_Broth",
     "Futurephones",
     "Hearty_Broth",
+    "Salty_Seed",
     "Sour_Broth"
   ],
   "Mounts": [
-    "Buffs"
+    "Buffs",
+    "Dash_Ravel",
+    "Depth_Ravel",
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "Impenetrable_Trashcan_Lid",
+    "Indestructible_Saddle",
+    "Ninja_Ravel",
+    "Ravel",
+    "Spider_Ravel",
+    "Stealth_Ravel",
+    "Thrust_Ravel",
+    "True_Ravel"
   ],
   "Primordial_Soup": [
     "Bug_Trapper",
     "Evil_Biomes",
-    "Primordial_Soup",
     "RecipePage"
   ],
-  "Bug_Trapper": [
-    "Bug_Trapper",
-    "Fleshy_Figurine",
-    "Playtime's_Over",
-    "Primordial_Soup",
+  "Fabricator": [
+    "Busted_Servo",
+    "Concept_Art",
+    "Fabricator",
+    "Impactaxe",
     "RecipePage"
   ],
-  "Playtimes_Over": [
-    "Bug_Trapper",
-    "Fleshy_Figurine",
-    "Playtime's_Over"
-  ],
-  "Fleshy_Figurine": [
-    "Bug_Trapper",
-    "Fleshy_Figurine",
-    "Playtime's_Over",
-    "RecipePage",
-    "Symbiote_Skull",
-    "Tainted_Flesh"
-  ],
-  "Blast_Resistant_Plate": [
-    "Busted_Servo",
-    "Rotor"
-  ],
-  "Headphones": [
-    "Busted_Servo",
-    "Fabricator",
-    "Fiberglass_Block",
-    "Futurephones",
-    "Headphones",
-    "RecipePage",
-    "Rubber",
-    "Sniper's_Mark"
-  ],
-  "Sigil_of_the_Machine": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Strange_Computer": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Autohandcannon": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Fiber_Optic_Whips": [
-    "Busted_Servo",
-    "Chambersite",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Valkyrum_Bar": [
-    "Busted_Servo",
-    "Carburite",
-    "Fabricator",
+  "ACME_Crate": [
+    "C.F.H.E.S.",
     "RecipePage"
   ],
-  "Laser_Tag_Gun": [
-    "Busted_Servo",
-    "Celestial_Starlight",
-    "Fabricator",
-    "Fiberglass_Block",
-    "Laser_Tag_Vest",
+  "Danger_Barrel": [
+    "C.F.H.E.S.",
     "RecipePage",
-    "Rubber"
+    "Sparking_Flame_Barrel"
   ],
-  "Nuclear_Arm": [
-    "Busted_Servo",
-    "Fabricator",
-    "Nuclear_Arm",
-    "RecipePage"
-  ],
-  "Omni_Directional_Claymore": [
-    "Busted_Servo",
-    "Fabricator",
-    "Omni-Directional_Claymore",
-    "Rotor"
-  ],
-  "Personal_Laser_Blade": [
-    "Busted_Servo",
-    "Fabricator",
-    "Personal_Laser_Blade",
-    "RecipePage",
-    "Rotor",
-    "Rubber"
-  ],
-  "Pike_of_Deepneus": [
-    "Busted_Servo",
-    "Fabricator",
-    "RecipePage"
-  ],
-  "Pile_Bunker": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Self_Destruct": [
-    "Busted_Servo",
-    "Fabricator",
-    "Self-Destruct"
-  ],
-  "SMART_Wrench": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Technomancer_4000": [
-    "Busted_Servo",
-    "Fabricator",
-    "Rotor"
-  ],
-  "Laser_Tag_Console": [
-    "Busted_Servo",
-    "Fabricator",
-    "Laser_Tag_Console",
-    "Laser_Tag_Vest",
-    "RecipePage",
-    "Silicon_Bar"
+  "Food": [
+    "Caeser_Salad",
+    "Changes",
+    "Greasy_Broth",
+    "Light_Broth",
+    "Minty_Broth",
+    "Plain_Broth",
+    "Savory_Broth",
+    "Sharp_Broth",
+    "Sour_Apple",
+    "Spicy_Broth",
+    "Sweet_Broth",
+    "Umami_Broth"
   ],
   "Campfires": [
     "Campfires",
@@ -4063,107 +3720,45 @@
     "Campfires",
     "Candelabras",
     "Candles",
-    "Chambersite",
     "Chandeliers",
-    "Defiled_Stone",
-    "Endowood",
-    "Gray_Ice_Block",
-    "Hardened_Defiled_Sand",
     "Lamps",
     "Lanterns",
-    "Marrowick",
     "Peatball",
-    "Primordial_Permafrost",
-    "Quartz",
-    "Spug_Flesh",
     "Torches"
   ],
   "Candelabras": [
-    "Candelabras",
-    "Endowood",
-    "Marrowick"
+    "Candelabras"
   ],
   "Candles": [
-    "Candles",
-    "Endowood",
-    "Marrowick"
+    "Candles"
   ],
-  "Amber_Exploder_Armor": [
-    "Carburite"
-  ],
-  "Chambersite_Armor": [
-    "Carburite",
-    "Chambersite"
-  ],
-  "Ruby_Ranger_Armor": [
-    "Carburite"
-  ],
-  "Sapphire_Mediator_Armor": [
-    "Carburite",
-    "Sapphire_Mediator_Armor"
-  ],
-  "Resin_Shield": [
-    "Carburite",
-    "RecipePage",
-    "Resin_Shield"
-  ],
-  "Amber_of_Embers": [
-    "Carburite",
-    "RecipePage"
+  "Venom_Fang": [
+    "Carpalfish"
   ],
   "Dim_Starlight": [
     "Celestial_Starlight",
-    "Dim_Starlight",
     "Evil_Biomes",
     "Powerflower",
     "RecipePage",
-    "Wilting_Rose"
+    "The_Defiled"
   ],
-  "Celestial_Starlight": [
+  "Laser_Tag_Gun": [
     "Celestial_Starlight",
-    "Dim_Starlight",
+    "Fabricator",
+    "Laser_Tag_Vest",
     "RecipePage"
   ],
   "Stone_Mask": [
     "Celestial_Stone_Mask",
-    "RecipePage",
-    "Stone_Mask"
+    "RecipePage"
   ],
   "Tables": [
     "Chairs",
-    "Endowood",
-    "Marrowick",
     "Tables",
     "Toilets"
   ],
-  "Chambersite_Bunny": [
-    "Chambersite",
-    "Shimmer"
-  ],
-  "Chambersite_Squirrel": [
-    "Chambersite",
-    "Shimmer"
-  ],
-  "Large_Chambersite": [
-    "Chambersite"
-  ],
-  "Chambersite_Mine_Launcher": [
-    "Chambersite"
-  ],
-  "Chambersite_Gem_Lock": [
-    "Chambersite"
-  ],
-  "Chambersite_Gemstones": [
-    "Chambersite"
-  ],
-  "Chambersite_Gemspark_Wall": [
-    "Chambersite_Gemspark",
-    "RecipePage"
-  ],
   "Chandeliers": [
-    "Chandeliers",
-    "Endowood",
-    "Marrowick"
+    "Chandeliers"
   ],
   "Recipe_Changes": [
     "Changes"
@@ -4174,13 +3769,14 @@
   "Strange_Tooth": [
     "Changes"
   ],
-  "Protozoa_Food": [
+  "Bark": [
     "Changes",
-    "Demolitionist_Weapons",
-    "Evil_Biomes"
+    "RecipePage",
+    "Rubber"
   ],
-  "Food": [
-    "Changes"
+  "Bat_Hide": [
+    "Changes",
+    "RecipePage"
   ],
   "Bosses": [
     "Changes",
@@ -4189,32 +3785,22 @@
     "index",
     "World_Cracker"
   ],
-  "Pickaxes": [
-    "Chests",
-    "Furniture",
-    "Living_Fire_Blocks",
-    "Tools",
-    "Torches"
-  ],
-  "Drills": [
-    "Chests",
-    "Living_Fire_Blocks",
-    "Torches"
-  ],
-  "Chests": [
-    "Chests",
-    "Endowood",
-    "Furniture",
-    "Marrowick",
-    "Void_Lock"
+  "Developer_Items": [
+    "Chew_Toy",
+    "Plague_Texan's_Gift",
+    "Strange_Power-Up",
+    "The_Bird"
   ],
   "Treasure_Bag": [
     "Chew_Toy",
     "Chromatic_Scale",
     "Entangled_Energy",
     "Evil_Biomes",
+    "Plague_Texan's_Gift",
     "Protozoa_Food",
-    "Refactoring_Pieces"
+    "Refactoring_Pieces",
+    "The_Bird",
+    "Tyfyter's_Set"
   ],
   "Cubekon_Tinkerer": [
     "Chew_Toy",
@@ -4223,11 +3809,7 @@
   ],
   "Flashbang": [
     "Chlorodynamite",
-    "Flashbang",
-    "RecipePage"
-  ],
-  "Chlorodynamite": [
-    "Chlorodynamite",
+    "Peat_Moss",
     "RecipePage"
   ],
   "Artifacts": [
@@ -4239,6 +3821,12 @@
     "Sour_Broth",
     "Spirit_Shard"
   ],
+  "Chromtain_Armor": [
+    "Chromtain_Breastplate",
+    "Chromtain_Greaves",
+    "Chromtain_Helmet",
+    "Concept_Art"
+  ],
   "Defiled_Mimic": [
     "Chunky_Hook",
     "Communion",
@@ -4246,17 +3834,21 @@
     "Evil_Biomes",
     "Incision",
     "Ravel",
+    "Tangela_Tether",
     "Ziptie"
   ],
   "Defiled_Wisp": [
     "Chunky_Slime",
     "Defiled_Caverns",
     "Defiled_Cyclops",
+    "Defiled_Digger",
     "Defiled_Krusher",
     "Defiled_Mite",
     "Defiled_Phantom",
+    "Defiled_Pigron",
     "Defiled_Swarmer",
     "Defiled_Wastelands",
+    "Shattered_Ghoul",
     "Shattered_Goldfish",
     "Shattered_Mummy"
   ],
@@ -4269,95 +3861,119 @@
   "Lousy_Liver": [
     "Cirrhosis'_Abhorrence",
     "Evil_Biomes",
-    "Lousy_Liver",
-    "Messy_Magma_Leech",
-    "RecipePage"
+    "RecipePage",
+    "The_Defiled"
   ],
   "Messy_Magma_Leech": [
     "Cirrhosis'_Abhorrence",
-    "Lousy_Liver",
-    "Messy_Leech",
-    "Messy_Magma_Leech",
     "RecipePage"
   ],
-  "Cirrhosis'_Abhorrence": [
-    "Cirrhosis'_Abhorrence",
-    "Lousy_Liver",
-    "Messy_Magma_Leech",
+  "Static_Shock": [
+    "Cloud_Elemental",
+    "Debuffs",
+    "Felnum_Boar_Spear",
+    "Felnum_Einheri",
+    "Felnum_Guardian",
+    "Felnum_Hamaxe",
+    "Felnum_Pickaxe",
+    "Felnum_Shock_Grenade",
+    "Felnum_Slime",
+    "Fifth_Spline",
+    "Lightning_Ring",
+    "Lightning_Rod",
+    "Rubber_Armor",
+    "Shock_Collar",
+    "Sparking_Flame_Barrel"
+  ],
+  "Felnum_Shock_Glasses": [
+    "Cloud_Elemental"
+  ],
+  "Chromtain_Bar": [
+    "Concept_Art",
     "RecipePage"
   ],
-  "Cold_Snap": [
-    "Cold_Snap",
+  "Eyndum_Armor": [
+    "Concept_Art",
+    "Construction_Core",
+    "Eyndum_Breastplate",
+    "Eyndum_Greaves",
+    "Eyndum_Helmet",
+    "Rarity"
+  ],
+  "Nano_Armor": [
+    "Concept_Art"
+  ],
+  "Mythic_Armor": [
+    "Concept_Art",
+    "Mythic_Armor",
+    "Mythic_Breastplate",
+    "Mythic_Greaves",
+    "Mythic_Helmet"
+  ],
+  "Encrusted_Armor": [
+    "Concept_Art",
+    "Encrusted_Armor",
+    "Encrusted_Breastplate",
+    "Encrusted_Greaves",
+    "Encrusted_Helmet",
+    "Evil_Biomes"
+  ],
+  "Tendon_Armor": [
+    "Concept_Art",
+    "Evil_Biomes",
+    "Tendon_Armor",
+    "Tendon_Breastplate",
+    "Tendon_Greaves",
+    "Tendon_Helmet"
+  ],
+  "Eyndum_Scar": [
+    "Concept_Art"
+  ],
+  "Cuboid": [
+    "Concept_Art"
+  ],
+  "Mechamalgamation": [
+    "Concept_Art"
+  ],
+  "Rigged_Cubix": [
+    "Concept_Art",
     "RecipePage"
   ],
-  "Locket_Necklace": [
-    "Comb",
-    "Last_Descendant",
-    "Locket_Necklace",
-    "Lover's_Leap",
+  "Chromakama": [
+    "Concept_Art"
+  ],
+  "Traffic_Cone": [
+    "Conehead_Zombie",
     "RecipePage"
   ],
   "Events": [
     "Construction_Core",
     "index",
     "Laser_Tag_Console",
-    "Potato"
-  ],
-  "Eyndum_Armor": [
-    "Construction_Core",
-    "Rarity"
-  ],
-  "Construction_Core": [
-    "Construction_Core"
-  ],
-  "Core_Blueprint": [
-    "Construction_Core"
-  ],
-  "Coolant_Canister": [
-    "Coolant_Canister",
-    "RecipePage"
-  ],
-  "Mysterious_Spray": [
-    "Coologne",
-    "Defiled_Ekko",
-    "Evil_Biomes",
-    "Makeover_Choker",
-    "Mysterious_Spray",
-    "RecipePage"
-  ],
-  "Coologne": [
-    "Coologne",
-    "Mysterious_Spray",
-    "RecipePage"
+    "Potato",
+    "Slime_Worm"
   ],
   "Last_Descendant": [
     "CORE_Generator",
     "Dryad's_Inheritance",
-    "Last_Descendant",
-    "Locket_Necklace",
-    "Missile_Armcannon",
     "RecipePage"
   ],
   "Missile_Armcannon": [
     "CORE_Generator",
-    "Destructive_Claws",
-    "Gun_Glove",
     "Item_Synergies",
-    "Missile_Armcannon",
     "RecipePage"
   ],
   "Canister": [
     "CORE_Generator"
   ],
-  "CORE_Generator": [
-    "CORE_Generator",
-    "Item_Synergies",
-    "Missile_Armcannon",
-    "RecipePage"
+  "vanity_item": [
+    "Cranivore_Beanie",
+    "Felnum_Shock_Glasses",
+    "Newsboy_Cap",
+    "Sunflower_Sandals"
   ],
-  "Counter_Offensive_Scarf": [
-    "Counter_Offensive_Scarf",
-    "RecipePage"
+  "Cranivore": [
+    "Cranivore_Beanie"
   ],
   "Grab_Bags": [
     "Crates",
@@ -4375,6 +3991,53 @@
     "Festering_Crate",
     "Shimmer"
   ],
+  "Pointy_Crate": [
+    "Crates",
+    "Shimmer"
+  ],
+  "Bilious_Crate": [
+    "Crates",
+    "Relay_Rod",
+    "Shimmer"
+  ],
+  "Relics": [
+    "Crimson_King_Relic",
+    "Defiled_Amalgamation_Relic",
+    "Evil_Biomes",
+    "Fiberglass_Weaver_Relic",
+    "I.C.A.R.U.S._Relic",
+    "Logic_Brane_Relic",
+    "Lost_Diver_Relic",
+    "Miscreant_Relic",
+    "Quantux_Relic",
+    "Scrapper_Relic",
+    "Severus_Relic",
+    "World_Cracker_Relic"
+  ],
+  "Trophies": [
+    "Crimson_King_Trophy",
+    "Defiled_Amalgamation_Trophy",
+    "Evil_Biomes",
+    "Fiberglass_Weaver_Trophy",
+    "I.C.A.R.U.S._Trophy",
+    "Logic_Brane_Trophy",
+    "Lost_Diver_Trophy",
+    "Miscreant_Trophy",
+    "Quantux_Trophy",
+    "Scrapper_Trophy",
+    "Severus_Trophy",
+    "World_Cracker_Trophy"
+  ],
+  "Gun_Magazine": [
+    "Crimtane_Gun_Magazine",
+    "Defiled_Gun_Magazine",
+    "Demonite_Gun_Magazine",
+    "Encrusted_Gun_Magazine",
+    "Sanguinite_Gun_Magazine"
+  ],
+  "Permanent_Powerup": [
+    "Crown_Jewel"
+  ],
   "Riven_Lesion": [
     "Crusty_Crate",
     "Festering_Crate",
@@ -4383,44 +4046,23 @@
     "Riven_Splitter"
   ],
   "Cryosten_Armor": [
-    "Cryosten_Armor"
-  ],
-  "Crystal_Bomb": [
-    "Crystal_Bomb",
-    "RecipePage"
-  ],
-  "Crystal_Grenade": [
-    "Crystal_Grenade",
-    "RecipePage"
+    "Cryosten_Breastplate",
+    "Cryosten_Greaves",
+    "Cryosten_Helmet",
+    "Pink_Cryosten_Armor"
   ],
   "Hellfire_Grenade": [
     "Cursed_Canister",
-    "Hellfire_Grenade",
     "RecipePage"
   ],
   "Hellfire_Bomb": [
     "Cursed_Canister",
-    "Hellfire_Bomb",
     "RecipePage"
   ],
-  "Cursed_Canister": [
-    "Cursed_Canister",
+  "I-WTPA_Standard": [
+    "Danger_Barrel",
+    "Peat_Moss",
     "RecipePage"
-  ],
-  "Cursed_Flames": [
-    "Cursed_Canister"
-  ],
-  "Cursed_Crown": [
-    "Cursed_Crown",
-    "RecipePage"
-  ],
-  "Cursed_Harpoon": [
-    "Cursed_Harpoon",
-    "Harpoon",
-    "RecipePage"
-  ],
-  "IWTPA_Standard": [
-    "Danger_Barrel"
   ],
   "Dart_Guns": [
     "Dart_Crossbow",
@@ -4429,77 +4071,47 @@
   "Ravel": [
     "Dash_Ravel",
     "Depth_Ravel",
+    "Drill_Ravel",
     "Evil_Biomes",
-    "Ravel",
+    "Grapple_Ravel",
     "RecipePage",
     "Spider_Ravel",
     "Stealth_Ravel",
-    "Super_Turbo_Reel"
-  ],
-  "Dash_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "Ravel",
-    "RecipePage"
-  ],
-  "True_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel"
-  ],
-  "Depth_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "Ravel",
-    "RecipePage"
-  ],
-  "Drill_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "Ravel"
-  ],
-  "Grapple_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "Ravel",
-    "Super_Turbo_Reel"
-  ],
-  "Ninja_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "RecipePage",
-    "Spider_Ravel",
-    "Stealth_Ravel"
-  ],
-  "Thrust_Ravel": [
-    "Dash_Ravel",
-    "Depth_Ravel",
-    "Ninja_Ravel",
-    "Ravel"
+    "Super_Turbo_Reel",
+    "Thrust_Ravel",
+    "True_Ravel"
   ],
   "Dawn_Dungeon_Chest": [
     "Dawn_Key"
   ],
+  "Encrusted_Bar": [
+    "Decimator",
+    "Encrusted_Gun_Magazine",
+    "Parasitic_Manipulator",
+    "RecipePage",
+    "Rivenator",
+    "Riven_Armor",
+    "Riverang",
+    "Stabsmash",
+    "Strainer",
+    "Threemoepeater",
+    "Triple_Threat"
+  ],
   "Decimator": [
     "Decimator",
-    "Encrusted_Bar",
     "Evil_Biomes",
     "RecipePage"
   ],
-  "Defiled_Fissures": [
-    "Defiled_Amalgamation"
+  "Defiled_Relay": [
+    "Defiled_Amalgamation",
+    "Defiled_Wastelands",
+    "Krakram",
+    "The_Defiled",
+    "The_Kruncher"
   ],
   "Nerve_Impulse_Manipulator": [
     "Defiled_Amalgamation",
-    "Dreadful_Powder",
-    "Nerve_Impulse_Manipulator",
-    "RecipePage",
-    "Strange_String"
+    "RecipePage"
   ],
   "Defiled_Swarmer": [
     "Defiled_Amalgamation"
@@ -4509,58 +4121,6 @@
     "Fiberglass_Weaver",
     "Item_Synergies",
     "World_Cracker"
-  ],
-  "Brick_Breaker": [
-    "Defiled_Bar",
-    "RecipePage",
-    "Undead_Chunk"
-  ],
-  "Dismantler": [
-    "Defiled_Bar",
-    "RecipePage",
-    "Undead_Chunk"
-  ],
-  "Dissector": [
-    "Defiled_Bar",
-    "RecipePage"
-  ],
-  "Snatcher": [
-    "Defiled_Bar",
-    "RecipePage"
-  ],
-  "Infusion": [
-    "Defiled_Bar",
-    "Defiled_Ekko",
-    "Evil_Biomes",
-    "Infusion",
-    "RecipePage",
-    "Undead_Chunk"
-  ],
-  "Krakram": [
-    "Defiled_Bar",
-    "Evil_Biomes",
-    "Krakram",
-    "RecipePage",
-    "Riverang",
-    "Undead_Chunk"
-  ],
-  "Ripper_Lance": [
-    "Defiled_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Ripper_Lance"
-  ],
-  "Snapthrow": [
-    "Defiled_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Snapthrow"
-  ],
-  "Spiker_Sword": [
-    "Defiled_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Spiker_Sword"
   ],
   "Defiled_Ghoul": [
     "Defiled_Caverns"
@@ -4572,7 +4132,6 @@
   "Defiled_Ekko": [
     "Defiled_Caverns",
     "Defiled_Wastelands",
-    "Lousy_Liver",
     "Strange_String"
   ],
   "Profaned_Bident": [
@@ -4585,18 +4144,12 @@
     "Defiled_Caverns",
     "Defiled_Wastelands"
   ],
-  "Hammers": [
-    "Defiled_Fissure",
-    "Defiled_Heart",
-    "Gel_Blister",
-    "Tools",
-    "Walls"
+  "Defiled_Key": [
+    "Defiled_Chest"
   ],
   "Defiled_Seeds": [
     "Defiled_Grass",
     "Defiled_Jungle_Grass",
-    "Defiled_Sand",
-    "Defiled_Seeds",
     "Defiled_Wastelands",
     "Evil_Biomes",
     "RecipePage",
@@ -4612,11 +4165,13 @@
   "Defiled_Heart": [
     "Defiled_Grass",
     "Defiled_Jungle_Grass",
+    "Defiled_Regolith",
     "Defiled_Resurgence",
     "Defiled_Stone",
     "Defiled_Wastelands",
     "Gray_Ice_Block",
-    "Protomind"
+    "Protomind",
+    "The_Defiled"
   ],
   "Defiled_Protector": [
     "Defiled_Heart"
@@ -4630,21 +4185,8 @@
     "Missing_File"
   ],
   "Ancient_Defiled_Phantom": [
-    "Defiled_Phantom"
-  ],
-  "White_Water": [
-    "Defiled_Sand",
-    "Defiled_Seeds",
-    "Defiled_Wastelands",
-    "RecipePage",
-    "White_Water"
-  ],
-  "Hardended_Defiled_Sand": [
-    "Defiled_Sand"
-  ],
-  "Defiled_Sandstone_Wall": [
-    "Defiled_Sandstone",
-    "RecipePage"
+    "Defiled_Phantom",
+    "The_Defiled"
   ],
   "seeds": [
     "Defiled_Seeds",
@@ -4653,31 +4195,17 @@
   "Defiled_Wisps": [
     "Defiled_Spirit"
   ],
-  "Defiled_Stone_Wall": [
-    "Defiled_Stone"
-  ],
-  "Lost_Brick": [
-    "Defiled_Stone",
-    "Lost_Ore"
-  ],
-  "Chambersite_Gemstone_(Defiled)": [
-    "Defiled_Stone"
-  ],
   "Tripod_Nip": [
-    "Defiled_Tripod"
+    "Defiled_Tripod",
+    "The_Defiled"
   ],
   "List_of_Items": [
     "Defiled_Wastelands",
-    "index",
     "Riven_Hive",
     "Statues"
   ],
-  "Tools": [
-    "Defiled_Wastelands",
-    "Nova_Fragment",
-    "Ores",
-    "Pincushion",
-    "Riven_Hive"
+  "Defiled_Shooter": [
+    "Defiled_Wastelands"
   ],
   "Shattered_Mummy": [
     "Defiled_Wastelands"
@@ -4686,53 +4214,52 @@
     "Defiled_Wastelands",
     "RecipePage"
   ],
-  "Dusk": [
-    "Defiled_Wastelands"
+  "White_Water": [
+    "Defiled_Wastelands",
+    "RecipePage"
+  ],
+  "Dismay": [
+    "Defiled_Watcher",
+    "RecipePage",
+    "The_Defiled"
   ],
   "Explosive_Artery": [
     "Demolitionist_Weapons",
     "Evil_Biomes",
-    "Explosive_Artery",
     "Haggard_Artery",
-    "Messy_Leech",
     "RecipePage"
   ],
   "Haggard_Artery": [
     "Demolitionist_Weapons",
-    "Explosive_Artery",
-    "Haggard_Artery",
     "Item_Synergies",
-    "Messy_Leech",
     "RecipePage"
   ],
-  "Gun_Glove": [
+  "Bomb_Handling_Device": [
     "Destructive_Claws",
-    "Gun_Glove",
-    "Item_Synergies",
-    "Magic_Glove",
-    "Magic_Pain_Glove",
-    "Missile_Armcannon",
-    "RecipePage"
+    "Pneumatic_Bomb_Thrower",
+    "RecipePage",
+    "Shimmer"
   ],
-  "Powerflower": [
-    "Dim_Starlight",
-    "Powerflower",
-    "RecipePage"
-  ],
-  "Plasma_Bag": [
-    "Donor_Wristband",
-    "Plasma_Bag",
-    "RecipePage"
-  ],
-  "Donor_Wristband": [
-    "Donor_Wristband",
-    "Plasma_Bag",
-    "RecipePage"
+  "Axes": [
+    "Dissector",
+    "Exoskeletal_Tree",
+    "Hammers",
+    "Miter_Saw",
+    "Petrified_Tree",
+    "Pickaxes",
+    "Tools"
   ],
   "Doors": [
-    "Doors",
-    "Endowood",
-    "Marrowick"
+    "Doors"
+  ],
+  "flamethrowers": [
+    "Dragon's_Breath"
+  ],
+  "Boiler": [
+    "Dragon's_Breath"
+  ],
+  "Firespit": [
+    "Dragon's_Breath"
   ],
   "Shattered_Goldfish": [
     "Dreadful_Powder"
@@ -4743,193 +4270,144 @@
   "Defiled_Mite": [
     "Dreadful_Powder"
   ],
-  "Dressers": [
-    "Dressers",
-    "Endowood",
-    "Marrowick"
+  "Explosive_Weapons": [
+    "Dreikan",
+    "Eyenade",
+    "Heartache_Dynamite",
+    "Hemoptysis",
+    "Impetus",
+    "Regurgitator_of_Souls",
+    "Rocket_Rifle",
+    "Rubber_Dynamite",
+    "Sonar_Dynamite",
+    "Sonorous_Shredder"
   ],
-  "Dryads_Inheritance": [
-    "Dryad's_Inheritance",
-    "Last_Descendant"
+  "Dressers": [
+    "Dressers"
+  ],
+  "pickaxe": [
+    "Drill_Ravel",
+    "Ores",
+    "True_Ravel"
+  ],
+  "drill": [
+    "Drill_Ravel",
+    "Ores",
+    "True_Ravel"
+  ],
+  "Drill_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "True_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "Dash_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "RecipePage",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "Depth_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "RecipePage",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "Grapple_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "Super_Turbo_Reel",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "Ninja_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "RecipePage",
+    "Thrust_Ravel",
+    "True_Ravel"
+  ],
+  "Thrust_Ravel": [
+    "Drill_Ravel",
+    "Grapple_Ravel",
+    "Thrust_Ravel"
   ],
   "Dusk_Dungeon_Chest": [
     "Dusk_Key"
   ],
   "Vanity": [
-    "Dyes"
+    "Dyes",
+    "Lost_Diver_Vanity",
+    "Plague_Texan's_Gift",
+    "Tyfyter's_Set"
   ],
   "Spirit_Shard": [
     "Eccentric_Stone"
   ],
-  "Chemical_Laser": [
-    "Eitrite_Bar",
-    "RecipePage"
+  "Molten_Gun_Magazine": [
+    "Eitrite_Gun_Magazine",
+    "Recipe_Groups"
   ],
-  "HNO_3_Viper": [
-    "Eitrite_Bar"
+  "Unmisfire": [
+    "Enchanted_Fiberglass_Bow"
   ],
-  "Acrid_Drill": [
-    "Eitrite_Bar",
-    "RecipePage"
+  "Fibgerlass_Shard": [
+    "Enchanted_Fiberglass_Pistol"
   ],
-  "Acrid_Hamaxe": [
-    "Eitrite_Bar",
-    "RecipePage"
-  ],
-  "Acrid_Pickaxe": [
-    "Eitrite_Bar",
-    "RecipePage"
-  ],
-  "Encrusted_Armor": [
+  "Bud_Barnacle": [
     "Encrusted_Armor",
-    "Encrusted_Ore",
-    "Evil_Biomes"
-  ],
-  "Riven_Carapace": [
-    "Encrusted_Bar",
-    "Evil_Biomes",
-    "NE-8",
-    "RecipePage",
-    "Recipe_Groups",
-    "Riven_Armor",
-    "Riven_Carapace",
-    "Riven_Splitter",
-    "Riverang",
-    "Shimmer",
-    "Undead_Chunk",
-    "World_Cracker"
-  ],
-  "Parasitic_Manipulator": [
-    "Encrusted_Bar",
-    "RecipePage"
-  ],
-  "Rivenator": [
-    "Encrusted_Bar",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Stabsmash": [
-    "Encrusted_Bar",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Strainer": [
-    "Encrusted_Bar",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Avulsion": [
-    "Encrusted_Bar",
     "Evil_Biomes",
     "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Flagellash": [
-    "Encrusted_Bar",
-    "Evil_Biomes",
-    "RecipePage"
-  ],
-  "Riverang": [
-    "Encrusted_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Teardown": [
-    "Encrusted_Bar",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Threemoepeater": [
-    "Encrusted_Bar",
-    "RecipePage",
-    "Riven_Carapace"
-  ],
-  "Triple_Threat": [
-    "Encrusted_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Triple_Threat"
-  ],
-  "Vorpal_Sword": [
-    "Encrusted_Bar",
-    "Evil_Biomes",
-    "RecipePage",
-    "Vorpal_Sword"
-  ],
-  "Encrusted_Brick": [
-    "Encrusted_Ore",
-    "Spug_Flesh"
+    "Suspicious_Looking_Ice_Cream"
   ],
   "Petrified_Trees": [
     "Endowood"
   ],
-  "Endowood_Wall": [
-    "Endowood",
-    "RecipePage"
-  ],
-  "Grandfather_Clocks": [
-    "Endowood",
-    "Grandfather_Clocks",
-    "Marrowick"
-  ],
-  "Pianos": [
-    "Endowood",
-    "Marrowick",
-    "Pianos"
-  ],
-  "Toilets": [
-    "Endowood",
-    "Marrowick",
-    "Toilets"
-  ],
   "Endowood_Armor": [
-    "Endowood",
-    "Endowood_Armor"
-  ],
-  "Endowood_Hammer": [
-    "Endowood",
-    "RecipePage"
-  ],
-  "Endowood_Bow": [
-    "Endowood",
-    "RecipePage"
-  ],
-  "Endowood_Sword": [
-    "Endowood",
-    "RecipePage"
-  ],
-  "Lamps": [
-    "Endowood",
-    "Lamps",
-    "Marrowick"
-  ],
-  "Lanterns": [
-    "Endowood",
-    "Lanterns",
-    "Marrowick"
-  ],
-  "Sinks": [
-    "Endowood",
-    "Marrowick",
-    "Sinks"
-  ],
-  "Eruption": [
-    "Eruption",
-    "RecipePage"
+    "Endowood_Armor",
+    "Endowood_Breastplate",
+    "Endowood_Greaves",
+    "Endowood_Helmet"
   ],
   "Neural_Network": [
+    "Evil_Biomes"
+  ],
+  "Infusion": [
     "Evil_Biomes",
-    "NE-8",
-    "Neural_Network",
-    "Sanguinite_Bar"
+    "RecipePage",
+    "The_Defiled"
+  ],
+  "Amebolize_Incantation": [
+    "Evil_Biomes",
+    "RecipePage"
   ],
   "Splitsplash": [
-    "Evil_Biomes",
-    "Splitsplash"
+    "Evil_Biomes"
   ],
   "Area_Denial": [
     "Evil_Biomes"
+  ],
+  "Krakram": [
+    "Evil_Biomes",
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Riverang": [
+    "Evil_Biomes",
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Ace_Shrapnel": [
+    "Evil_Biomes",
+    "RecipePage"
   ],
   "Suspicious_Looking_Pebble": [
     "Evil_Biomes"
@@ -4940,29 +4418,63 @@
   "Smith's_Hammer": [
     "Evil_Biomes"
   ],
+  "Strange_String": [
+    "Evil_Biomes",
+    "Lost_Armor",
+    "Nerve_Impulse_Manipulator",
+    "RecipePage",
+    "Soul_Spaghetti"
+  ],
+  "Respyrite": [
+    "Evil_Biomes",
+    "Fifth_Spline",
+    "Recipe_Groups"
+  ],
   "Scrapleaf_Tree": [
     "Evil_Biomes"
+  ],
+  "Bileberry": [
+    "Evil_Biomes",
+    "Petrified_Tree",
+    "RecipePage",
+    "Shattered_Stout"
   ],
   "Petrified_Prickly_Pear": [
     "Evil_Biomes",
     "Item_Synergies",
     "Petrified_Tree"
   ],
+  "Prickly_Pear": [
+    "Evil_Biomes",
+    "Petrified_Tree",
+    "RecipePage",
+    "Shattered_Stout"
+  ],
   "Pawpaw": [
     "Evil_Biomes",
     "Exoskeletal_Tree",
     "Jelly_Schnapps",
-    "Pawpaw",
-    "Periven",
     "RecipePage"
   ],
   "Periven": [
     "Evil_Biomes",
     "Exoskeletal_Tree",
     "Jelly_Schnapps",
-    "Pawpaw",
-    "Periven",
     "RecipePage"
+  ],
+  "Bilemouth": [
+    "Evil_Biomes",
+    "Fervor_Potion",
+    "RecipePage",
+    "Recipe_Groups",
+    "Shimmer"
+  ],
+  "Tearracuda": [
+    "Evil_Biomes",
+    "Protean_Potion",
+    "RecipePage",
+    "Recipe_Groups",
+    "Shimmer"
   ],
   "Prikish": [
     "Evil_Biomes"
@@ -4976,12 +4488,10 @@
   ],
   "Ocotoral_Bud": [
     "Evil_Biomes",
-    "Internal_Combustionfish",
     "Shimmer"
   ],
   "Internal_Combustionfish": [
     "Evil_Biomes",
-    "Internal_Combustionfish",
     "Shimmer"
   ],
   "Knee_Slapper": [
@@ -4989,6 +4499,19 @@
   ],
   "Scabcoral_Lyre": [
     "Evil_Biomes"
+  ],
+  "Riven_Carapace": [
+    "Evil_Biomes",
+    "RecipePage",
+    "Recipe_Groups",
+    "Rivenator",
+    "Riven_Armor",
+    "Riverang",
+    "Shimmer",
+    "Stabsmash",
+    "Strainer",
+    "Threemoepeater",
+    "World_Cracker"
   ],
   "Defiled_Amalgamation_Mask": [
     "Evil_Biomes"
@@ -4999,13 +4522,7 @@
   "Scrapper_Mask": [
     "Evil_Biomes"
   ],
-  "Trophies": [
-    "Evil_Biomes"
-  ],
   "Scrap_Compactor": [
-    "Evil_Biomes"
-  ],
-  "Relics": [
     "Evil_Biomes"
   ],
   "Blockus_Tube": [
@@ -5016,7 +4533,14 @@
   ],
   "Forbidden_Voice": [
     "Evil_Biomes",
-    "RecipePage"
+    "RecipePage",
+    "Stack_of_Shraps"
+  ],
+  "Amebic_Vial": [
+    "Evil_Biomes",
+    "Handy_Helper",
+    "RecipePage",
+    "Stack_of_Shraps"
   ],
   "Incision": [
     "Evil_Biomes"
@@ -5028,7 +4552,8 @@
     "Evil_Biomes"
   ],
   "Ziptie": [
-    "Evil_Biomes"
+    "Evil_Biomes",
+    "The_Defiled"
   ],
   "Amoebash": [
     "Evil_Biomes"
@@ -5042,9 +4567,7 @@
   "Tainted_Flesh": [
     "Evil_Biomes",
     "Fleshy_Figurine",
-    "RecipePage",
-    "Symbiote_Skull",
-    "Tainted_Flesh"
+    "RecipePage"
   ],
   "Chunky_Hook": [
     "Evil_Biomes"
@@ -5052,10 +4575,21 @@
   "Amoeba_Hook": [
     "Evil_Biomes"
   ],
+  "Bone_Latcher": [
+    "Evil_Biomes",
+    "Item_Synergies",
+    "RecipePage"
+  ],
+  "Avulsion": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
+  "Flagellash": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
   "Olid_Organ": [
     "Evil_Biomes",
-    "Olid_Organ",
-    "Razorwire",
     "RecipePage",
     "Unsought_Organ"
   ],
@@ -5063,9 +4597,7 @@
     "Evil_Biomes",
     "Fleshy_Figurine",
     "Keepsake_Remains",
-    "RecipePage",
-    "Symbiote_Skull",
-    "Tainted_Flesh"
+    "RecipePage"
   ],
   "Krunch_Mix": [
     "Evil_Biomes"
@@ -5079,57 +4611,80 @@
     "RecipePage",
     "Riven_Grass",
     "Riven_Hive",
-    "Riven_Jungle_Grass",
-    "Riven_Seeds",
-    "Silica"
-  ],
-  "Tendon_Armor": [
-    "Evil_Biomes",
-    "Tendon_Armor"
+    "Riven_Jungle_Grass"
   ],
   "Scavenger_Armor": [
     "Evil_Biomes",
-    "Sanguinite_Ore",
-    "Scavenger_Armor"
+    "Scavenger_Armor",
+    "Scavenger_Breastplate",
+    "Scavenger_Greaves",
+    "Scavenger_Helmet"
+  ],
+  "Spiker_Sword": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
+  "Vorpal_Sword": [
+    "Evil_Biomes",
+    "RecipePage"
   ],
   "Switchblade": [
     "Evil_Biomes",
-    "RecipePage",
-    "Sanguinite_Bar",
-    "Switchblade"
+    "RecipePage"
   ],
   "Soul_Snatcher": [
     "Evil_Biomes"
   ],
+  "Ripper_Lance": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
   "Outreach": [
     "Evil_Biomes",
-    "Outreach",
-    "RecipePage",
-    "Sanguinite_Bar"
+    "RecipePage"
+  ],
+  "Snapthrow": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
+  "Triple_Threat": [
+    "Evil_Biomes",
+    "RecipePage"
   ],
   "Nineball": [
     "Evil_Biomes",
-    "Nineball",
-    "RecipePage",
-    "Sanguinite_Bar"
+    "RecipePage"
   ],
   "Protean_Potion": [
     "Evil_Biomes",
     "Item_Synergies",
-    "Protean_Potion",
     "RecipePage",
     "Recipe_Groups",
-    "Surveysprout",
-    "Tearracuda",
-    "Wilting_Rose",
-    "Wrycoral"
+    "Tearracuda"
+  ],
+  "Ambition_Potion": [
+    "Evil_Biomes",
+    "Item_Synergies",
+    "Polyeel",
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Flask_of_Black_Bile": [
+    "Evil_Biomes",
+    "RecipePage"
+  ],
+  "Flask_of_Alkahest": [
+    "Evil_Biomes",
+    "RecipePage"
   ],
   "Missing_File": [
-    "Evil_Biomes"
+    "Evil_Biomes",
+    "Item_Synergies",
+    "The_Defiled"
   ],
   "Plasma_Cutter": [
     "Evil_Biomes",
-    "Plasma_Cutter"
+    "Salty_Seed"
   ],
   "Riven_Dungeon_Chest": [
     "Evil_Biomes",
@@ -5139,141 +4694,139 @@
   "Ashen_Dungeon_Chest": [
     "Evil_Biomes"
   ],
-  "axes": [
-    "Exoskeletal_Tree",
-    "Petrified_Tree"
-  ],
   "chainsaws": [
     "Exoskeletal_Tree",
     "Petrified_Tree"
   ],
-  "Exploder_Emblem": [
-    "Exploder_Emblem",
-    "RecipePage"
-  ],
-  "Acrid_Dome": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Headgear": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Helm": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Mask": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Visor": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Breastplate": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Acrid_Greaves": [
-    "Explosive_Acrid_Armor",
-    "RecipePage"
-  ],
-  "Messy_Leech": [
-    "Explosive_Artery",
-    "Haggard_Artery",
-    "Item_Synergies",
-    "Messy_Leech",
-    "Messy_Magma_Leech",
-    "RecipePage"
-  ],
-  "Snapcube's_Shadow_the_Hedgehog_Fandub": [
-    "Explosive_Artery"
-  ],
-  "Explosive_Harpoon": [
-    "Explosive_Harpoon",
-    "Harpoon",
+  "Headphones": [
+    "Fabricator",
+    "Futurephones",
     "RecipePage"
   ],
   "Laser_Tag_Vest": [
     "Fabricator",
     "Laser_Tag_Console",
-    "Laser_Tag_Vest",
-    "RecipePage",
-    "Rubber"
+    "RecipePage"
   ],
   "Potato_Battery": [
     "Fabricator",
-    "Potato",
-    "Potato_Battery",
     "Potato_Launcher",
     "Protomind",
     "RecipePage"
   ],
   "Potato": [
     "Fabricator",
-    "Potato",
-    "Potato_Battery",
     "Potato_Launcher",
     "Potato_Mine",
     "RecipePage"
   ],
+  "Sigil_of_the_Machine": [
+    "Fabricator"
+  ],
+  "Strange_Computer": [
+    "Fabricator"
+  ],
+  "Autohandcannon": [
+    "Fabricator"
+  ],
+  "Fiber_Optic_Whips": [
+    "Fabricator"
+  ],
+  "Valkyrum_Bar": [
+    "Fabricator",
+    "RecipePage",
+    "Telephone_Pole"
+  ],
+  "Nuclear_Arm": [
+    "Fabricator",
+    "RecipePage"
+  ],
+  "Omni_Directional_Claymore": [
+    "Fabricator"
+  ],
+  "Personal_Laser_Blade": [
+    "Fabricator",
+    "Personal_Laser_Blade",
+    "RecipePage"
+  ],
+  "Pike_of_Deepneus": [
+    "Fabricator",
+    "RecipePage"
+  ],
+  "Pile_Bunker": [
+    "Fabricator"
+  ],
+  "Self_Destruct": [
+    "Fabricator"
+  ],
+  "SMART_Wrench": [
+    "Fabricator"
+  ],
+  "Technomancer_4000": [
+    "Fabricator"
+  ],
+  "Laser_Tag_Console": [
+    "Fabricator",
+    "Laser_Tag_Vest",
+    "RecipePage"
+  ],
+  "Fae_Nymph": [
+    "Fairy_Lotus"
+  ],
   "Felnum_Bar": [
     "Felnum_Armor",
-    "Felnum_Bar",
-    "Felnum_Ore",
-    "RecipePage"
-  ],
-  "Felnum_Armor": [
-    "Felnum_Armor",
-    "Felnum_Bar"
-  ],
-  "Felnum_Hamaxe": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Felnum_Pickaxe": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Lightning_Rod": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Felnum_Boar_Spear": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Felnum_Longbow": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Magnus": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Maelstrom_Incantation": [
-    "Felnum_Bar",
-    "RecipePage"
-  ],
-  "Felnum_Shock_Grenade": [
-    "Felnum_Shock_Grenade",
-    "RecipePage"
-  ],
-  "Shaped_Glass": [
-    "Fiberglass_Block",
-    "Fiberglass_Weaver",
+    "Felnum_Boar_Spear",
+    "Felnum_Hamaxe",
+    "Felnum_Pickaxe",
+    "Lightning_Rod",
     "RecipePage",
-    "Shaped_Glass"
+    "Static_Shock_(Buff)"
   ],
-  "Fiberglass_Caves": [
-    "Fiberglass_Shard"
+  "Felnum_Guardian": [
+    "Felnum_Einheri",
+    "Felnum_Slime",
+    "Guardian_Rod"
   ],
-  "Fiberglass_Caverns": [
-    "Fiberglass_Weaver"
+  "Felnum_Einheri": [
+    "Felnum_Guardian",
+    "Felnum_Slime",
+    "Lightning_Ring"
+  ],
+  "Cloud_Elemental": [
+    "Felnum_Shock_Glasses"
+  ],
+  "Quest_Fish": [
+    "Fiberbass"
   ],
   "Fiberglass_Armor": [
+    "Fiberglass_Breastplate",
+    "Fiberglass_Greaves",
+    "Fiberglass_Helmet",
     "Fiberglass_Weaver"
+  ],
+  "Broadswords": [
+    "Fiberglass_Sword",
+    "Personal_Laser_Blade"
+  ],
+  "Fiberglass_Wall": [
+    "Fiberglass_Undergrowth"
+  ],
+  "Enchanted_Fiberglass_Cannon": [
+    "Fiberglass_Undergrowth"
+  ],
+  "Enchanted_Fiberglass_Bow": [
+    "Fiberglass_Undergrowth",
+    "Unmisfire"
+  ],
+  "Enchanted_Fiberglass_Pistol": [
+    "Fiberglass_Undergrowth"
+  ],
+  "Enchanted_Fiberglass_Slime": [
+    "Fiberglass_Undergrowth"
+  ],
+  "Shaped_Glass": [
+    "Fiberglass_Weaver",
+    "RecipePage"
   ],
   "Summon_Weapon": [
     "Flagellash"
@@ -5282,11 +4835,6 @@
     "Flagellash",
     "Riven_Hive",
     "Underground_Riven_Hive"
-  ],
-  "Flammable_Harpoon": [
-    "Flammable_Harpoon",
-    "Harpoon",
-    "RecipePage"
   ],
   "Flasks": [
     "Flask_of_Alkahest",
@@ -5303,29 +4851,23 @@
     "Flask_of_Alkahest",
     "Flask_of_Black_Bile",
     "Handy_Helper",
+    "Incantations",
     "Magic_Pain_Glove"
   ],
   "yoyos": [
     "Flask_of_Alkahest",
     "Snapthrow"
   ],
-  "Floaty_Bomb": [
-    "Floaty_Bomb",
-    "RecipePage"
-  ],
-  "Focus_Crystal": [
+  "Ruby_Reticle": [
     "Focus_Crystal",
     "RecipePage",
-    "Ruby_Reticle"
+    "Recipe_Groups",
+    "Sniper's_Mark"
   ],
   "magic_weapons": [
     "Focus_Potion",
     "Potato_Battery",
     "Protomind"
-  ],
-  "Focus_Potion": [
-    "Focus_Potion",
-    "RecipePage"
   ],
   "Curses": [
     "Forbidden_Voice",
@@ -5342,85 +4884,68 @@
   "light_sources": [
     "Furniture"
   ],
-  "Snipers_Mark": [
+  "Sniper's_Mark": [
     "Futurephones",
-    "Ruby_Reticle",
-    "Sniper's_Mark"
-  ],
-  "Futurephones": [
-    "Futurephones",
-    "RecipePage",
-    "Sniper's_Mark"
-  ],
-  "Gelled_Knife": [
-    "Gelled_Knife",
-    "RecipePage",
-    "Sentient_Powder"
+    "RecipePage"
   ],
   "Grandfather Clocks": [
+    "Grandfather_Clocks"
+  ],
+  "Grandfather_Clocks": [
     "Grandfather_Clocks"
   ],
   "Candlelight": [
     "Grave_Danger"
   ],
-  "Gray_Ice_Block": [
-    "Gray_Ice_Block",
-    "Primordial_Permafrost",
-    "Torches"
+  "Potions": [
+    "Greater_Summoning_Potion"
   ],
-  "Magic_Glove": [
-    "Gun_Glove",
+  "Explosive_Weapon": [
+    "Grenade_Lawnchair",
+    "Torpedo_Tube"
+  ],
+  "Summoning_Weapons": [
+    "Guardian_Rod",
+    "Sunflower_in_a_Pot"
+  ],
+  "Messy_Leech": [
+    "Haggard_Artery",
     "Item_Synergies",
-    "Magic_Glove",
-    "Magic_Pain_Glove",
+    "Messy_Magma_Leech",
     "RecipePage"
   ],
-  "Hardened_Defiled_Sand_Wall": [
-    "Hardened_Defiled_Sand",
+  "Acrid_Hamaxe": [
+    "Hammers",
     "RecipePage"
-  ],
-  "Alkahest_Harpoon": [
-    "Harpoon"
-  ],
-  "Bile_Harpoon": [
-    "Harpoon"
-  ],
-  "Ichor_Harpoon": [
-    "Harpoon"
   ],
   "harpoons": [
     "Harpoon_Gun"
   ],
+  "Trap_Charm": [
+    "Hazard_Charm",
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Air_Tank": [
+    "Helium_Tank",
+    "Pneumatic_Bomb_Thrower",
+    "RecipePage"
+  ],
   "Hell_Dungeon_Chest": [
     "Hell_Key"
   ],
-  "I-WTPA_Standard": [
-    "I-WTPA_Standard",
+  "Cirrhosis'_Abhorrence": [
+    "HNO-3_Viper",
     "RecipePage"
   ],
-  "Ichor_Canister": [
-    "Ichor_Canister",
-    "RecipePage"
-  ],
-  "Ichor": [
-    "Ichor_Canister"
-  ],
-  "Impact_Bomb": [
-    "Impact_Bomb",
-    "Peat_Moss",
-    "RecipePage"
-  ],
-  "Impact_Dynamite": [
-    "Impact_Dynamite",
-    "Peat_Moss",
-    "RecipePage"
-  ],
-  "Impact_Grenade": [
-    "Impact_Grenade",
-    "Peat_Moss",
+  "Bread": [
+    "Honey_Wheat_Bread",
     "RecipePage"
   ],
   "where do we begin here?": [
+    "index"
+  ],
+  "Items": [
     "index"
   ],
   "Chronology": [
@@ -5435,10 +4960,45 @@
   "Nematoclaw": [
     "Item_Synergies"
   ],
+  "Gun_Glove": [
+    "Item_Synergies",
+    "Magic_Glove",
+    "Magic_Pain_Glove",
+    "Missile_Armcannon",
+    "RecipePage"
+  ],
+  "Magic_Glove": [
+    "Item_Synergies",
+    "Magic_Pain_Glove",
+    "RecipePage"
+  ],
   "Viper_Rifle": [
     "Item_Synergies"
   ],
+  "Alkahest_Bullet": [
+    "Item_Synergies",
+    "RecipePage"
+  ],
+  "Shimmer_Rod": [
+    "Item_Synergies"
+  ],
+  "Abyssal_Anchor": [
+    "Item_Synergies",
+    "RecipePage"
+  ],
   "Self-Destruct": [
+    "Item_Synergies",
+    "RecipePage",
+    "Totally_Safe"
+  ],
+  "Razorwire": [
+    "Item_Synergies",
+    "RecipePage",
+    "Self_Damage",
+    "Shield_of_Retribution",
+    "Unsought_Organ"
+  ],
+  "CORE_Generator": [
     "Item_Synergies",
     "RecipePage"
   ],
@@ -5455,47 +5015,23 @@
   "Nova_Armor": [
     "Item_Synergies",
     "Nova_Armor",
-    "Nova_Fragment"
+    "Nova_Breastplate",
+    "Nova_Fragment",
+    "Nova_Greaves",
+    "Nova_Helmet"
   ],
   "Nova_Swarm": [
     "Item_Synergies",
-    "Nova_Fragment",
-    "RecipePage"
-  ],
-  "Jelly_Schnapps": [
-    "Jelly_Schnapps",
-    "Pawpaw",
-    "Periven",
     "RecipePage"
   ],
   "Cellarkeep": [
     "Joint_Pop"
   ],
-  "quests": [
-    "Journal"
+  "Lamps": [
+    "Lamps"
   ],
-  "Lore_Items": [
-    "Journal"
-  ],
-  "Journal": [
-    "Journal",
-    "Lore_Items",
-    "RecipePage"
-  ],
-  "Keepsake_Remains": [
-    "Keepsake_Remains",
-    "RecipePage",
-    "Scavenger_Bag",
-    "Symbiote_Skull"
-  ],
-  "Scavenger_Bag": [
-    "Keepsake_Remains",
-    "RecipePage",
-    "Scavenger_Bag"
-  ],
-  "Boomerangs": [
-    "Krakram",
-    "Riverang"
+  "Lanterns": [
+    "Lanterns"
   ],
   "Laser_Tag": [
     "Laser_Tag_Console"
@@ -5503,18 +5039,13 @@
   "Laser_Tag_Event": [
     "Laser_Tag_Vest"
   ],
+  "Locket_Necklace": [
+    "Last_Descendant",
+    "Lover's_Leap",
+    "RecipePage"
+  ],
   "rockets": [
     "Launchers"
-  ],
-  "Link_Grenade": [
-    "Link_Grenade",
-    "RecipePage",
-    "Sticky_Link_Grenade"
-  ],
-  "Sticky_Link_Grenade": [
-    "Link_Grenade",
-    "RecipePage",
-    "Sticky_Link_Grenade"
   ],
   "mines": [
     "Link_Grenade"
@@ -5523,77 +5054,35 @@
     "Living_Alkahest_Block",
     "Living_Bile_Block"
   ],
-  "Lover's_Leap": [
-    "Locket_Necklace",
-    "RecipePage"
-  ],
   "Defiled_Swarmers": [
     "Lost_Ore",
     "Undead_Chunk"
   ],
-  "Magic_Pain_Glove": [
-    "Magic_Glove",
-    "Magic_Pain_Glove"
+  "Consumable": [
+    "Lost_Picture_Frame"
   ],
   "Crystal_Cutters": [
     "Magic_Hair_Spray",
-    "RecipePage",
-    "Rubber"
-  ],
-  "Magic_Hair_Spray": [
-    "Magic_Hair_Spray",
-    "RecipePage",
-    "Recipe_Changes",
-    "Rubber",
-    "Silicon_Bar"
-  ],
-  "Makeover_Choker": [
-    "Makeover_Choker",
-    "Mysterious_Spray",
     "RecipePage"
   ],
   "Exoskeletal_Trees": [
     "Marrowick"
   ],
-  "Marrowick_Wall": [
-    "Marrowick",
-    "RecipePage"
-  ],
   "Marrowick_Armor": [
-    "Marrowick",
-    "Marrowick_Armor"
-  ],
-  "Marrowick_Hammer": [
-    "Marrowick",
-    "RecipePage"
-  ],
-  "Marrowick_Bow": [
-    "Marrowick",
-    "RecipePage"
-  ],
-  "Marrowick_Sword": [
-    "Marrowick",
-    "RecipePage"
-  ],
-  "Matrix": [
-    "Matrix",
-    "NE-8",
-    "Sanguinite_Bar"
+    "Marrowick_Armor",
+    "Marrowick_Breastplate",
+    "Marrowick_Greaves",
+    "Marrowick_Helmet"
   ],
   "hand_cannons": [
     "Metal_Slug"
   ],
-  "Meteor": [
-    "Meteor",
+  "Destructive_Claws": [
+    "Missile_Armcannon",
     "RecipePage"
   ],
   "Mojo_Sickness": [
     "Mojo_Flask"
-  ],
-  "Purification_Potion": [
-    "Mojo_Flask",
-    "Purification_Potion",
-    "RecipePage"
   ],
   "Mushroom_Dungeon_Chest": [
     "Mushroom_Key"
@@ -5601,128 +5090,58 @@
   "music": [
     "Music_Boxes"
   ],
-  "Mythic_Armor": [
-    "Mythic_Armor"
-  ],
   "Thermite_Launcher": [
     "Napalm_Canister"
   ],
-  "Napalm_Canister": [
-    "Napalm_Canister",
-    "RecipePage"
-  ],
-  "Abysswalkers_Armor": [
-    "NE-8",
-    "Riven_Carapace",
-    "Surveysprout",
-    "Undead_Chunk",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "Void_Lock": [
-    "NE-8",
-    "RecipePage",
-    "Recipe_Groups",
-    "Riven_Carapace",
-    "Surveysprout",
-    "Undead_Chunk",
-    "Void_Lock",
-    "Wilting_Rose",
-    "Wrycoral"
-  ],
-  "C6_Jackhammer": [
-    "NE-8",
-    "RecipePage",
-    "Sanguinite_Bar"
-  ],
-  "Orbital_Saw": [
-    "NE-8",
-    "RecipePage",
-    "Sanguinite_Bar"
-  ],
-  "Piledriver": [
-    "NE-8",
-    "RecipePage",
-    "Sanguinite_Bar"
-  ],
   "Necromancer_Armor": [
     "Necromancer_Armor",
+    "Necromancer_Breastplate",
+    "Necromancer_Greaves",
+    "Necromancer_Helmet",
+    "Necromancer_Mask",
     "Recipe_Groups"
   ],
   "Spider_Ravel": [
     "Ninja_Ravel",
-    "Ravel",
     "RecipePage",
-    "Spider_Ravel",
-    "Stealth_Ravel"
+    "True_Ravel"
   ],
   "Stealth_Ravel": [
     "Ninja_Ravel",
-    "Ravel",
-    "RecipePage",
-    "Spider_Ravel",
-    "Stealth_Ravel"
+    "RecipePage"
   ],
   "Aggro": [
     "Ninja_Ravel",
     "Olid_Organ",
     "Stealth_Ravel",
     "Tripod_Nip",
+    "True_Ravel",
     "Unsought_Organ"
   ],
   "Nova_Fragment": [
     "Nova_Armor",
     "Nova_Cascade",
-    "Nova_Fragment",
     "RecipePage",
     "Recipe_Changes"
   ],
-  "Nova_Cascade": [
-    "Nova_Cascade",
-    "Nova_Fragment",
-    "RecipePage"
-  ],
   "Nova_Pillar": [
-    "Nova_Fragment"
-  ],
-  "Nova_Backblaster": [
-    "Nova_Fragment"
-  ],
-  "Nova_Bomb": [
-    "Nova_Fragment"
-  ],
-  "Nova_Monolith": [
-    "Nova_Fragment"
-  ],
-  "Supernova": [
-    "Nova_Fragment"
-  ],
-  "Nova_Dye": [
     "Nova_Fragment"
   ],
   "Return_To_Sender": [
     "No_U_Card",
     "Razorwire",
-    "RecipePage",
-    "Return_To_Sender"
-  ],
-  "No_U_Card": [
-    "No_U_Card",
-    "RecipePage",
-    "Return_To_Sender"
+    "RecipePage"
   ],
   "Ocean_Dungeon_Chest": [
     "Ocean_Key"
   ],
+  "Ocotillo": [
+    "Ocotillo_Finger",
+    "Ocotillo_Flower"
+  ],
   "Decaying_Scale": [
     "Olid_Organ",
     "RecipePage"
-  ],
-  "Unsought_Organ": [
-    "Olid_Organ",
-    "Razorwire",
-    "RecipePage",
-    "Unsought_Organ"
   ],
   "Mines": [
     "Omni-Directional_Claymore",
@@ -5733,16 +5152,6 @@
   ],
   "Potion": [
     "Ores"
-  ],
-  "pickaxe": [
-    "Ores"
-  ],
-  "drill": [
-    "Ores"
-  ],
-  "Outbreak_Bomb": [
-    "Outbreak_Bomb",
-    "RecipePage"
   ],
   "Riven_Tree": [
     "Pawpaw",
@@ -5755,11 +5164,62 @@
   "material": [
     "Peat_Moss"
   ],
-  "Broadswords": [
-    "Personal_Laser_Blade"
+  "Impact_Grenade": [
+    "Peat_Moss",
+    "RecipePage"
   ],
-  "Salty_Seed": [
-    "Plasma_Cutter"
+  "Ameballoon": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Impact_Bomb": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Link_Grenade": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Outbreak_Bomb": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Shrapnel_Bomb": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Bomb_Artifact": [
+    "Peat_Moss"
+  ],
+  "Impenetrable_Trashcan_Lid": [
+    "Peat_Moss"
+  ],
+  "Impact_Dynamite": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Alkaline_Grenade": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Alkaline_Bomb": [
+    "Peat_Moss",
+    "RecipePage"
+  ],
+  "Indestructible_Saddle": [
+    "Peat_Moss"
+  ],
+  "Caustica": [
+    "Peat_Moss"
+  ],
+  "Pianos": [
+    "Pianos"
+  ],
+  "Tree": [
+    "Pickaxes"
+  ],
+  "Tyfyter's_Set": [
+    "Plague_Texan's_Gift"
   ],
   "Cancer_Platform": [
     "Platforms"
@@ -5770,20 +5230,12 @@
   "Residue_Platform": [
     "Platforms"
   ],
-  "Potato_Mine": [
-    "Potato",
-    "Potato_Launcher",
-    "Potato_Mine",
+  "Bug_Trapper": [
+    "Playtime's_Over",
     "RecipePage"
   ],
-  "Hot_Potato": [
-    "Potato",
-    "Potato_Launcher",
-    "RecipePage"
-  ],
-  "Protomind": [
-    "Potato_Battery",
-    "Protomind",
+  "Fleshy_Figurine": [
+    "Playtime's_Over",
     "RecipePage"
   ],
   "Seam_Beam": [
@@ -5791,9 +5243,18 @@
     "Protomind",
     "World_Cracker"
   ],
-  "Quartz_Wall": [
-    "Quartz",
+  "Hot_Potato": [
+    "Potato_Launcher",
     "RecipePage"
+  ],
+  "Potato_Mine": [
+    "Potato_Launcher",
+    "RecipePage"
+  ],
+  "Asylum_Whistle": [
+    "Priority_Mail",
+    "RecipePage",
+    "Shimmer"
   ],
   "Category:Items_of_rarity_Cursed": [
     "Rarity"
@@ -5825,13 +5286,6 @@
   "Category:Items_of_rarity_RoyalBlue": [
     "Rarity"
   ],
-  "Shield_of_Retribution": [
-    "Razorwire",
-    "RecipePage",
-    "Scrap_Barrier",
-    "Shield_of_Retribution",
-    "Slag_Bucket"
-  ],
   "Defiled_Torch": [
     "RecipePage"
   ],
@@ -5841,10 +5295,33 @@
   "Riven_Torch": [
     "RecipePage"
   ],
-  "Shrapnel_Bomb": [
+  "Bile_Torch": [
+    "RecipePage"
+  ],
+  "Alkahest_Torch": [
+    "RecipePage"
+  ],
+  "Gelled_Knife": [
+    "RecipePage"
+  ],
+  "Gooey_Water": [
     "RecipePage",
-    "Scrap",
-    "Shrapnel_Bomb"
+    "Riven_Hive"
+  ],
+  "Alkahest_Arrow": [
+    "RecipePage"
+  ],
+  "Alkahest_Dart": [
+    "RecipePage"
+  ],
+  "Bile_Arrow": [
+    "RecipePage"
+  ],
+  "Bile_Bullet": [
+    "RecipePage"
+  ],
+  "Bang_Snap": [
+    "RecipePage"
   ],
   "Defiled_Campfire": [
     "RecipePage"
@@ -5864,33 +5341,103 @@
   "Riven_Campfire": [
     "RecipePage"
   ],
+  "A.S.H._Attack_Relay": [
+    "RecipePage"
+  ],
+  "Automated_Returns_Handler": [
+    "RecipePage",
+    "Speed_Booster",
+    "Super_Turbo_Reel"
+  ],
+  "Bomb_Charm_of_Regeneration": [
+    "RecipePage"
+  ],
+  "Boomerang_Magnet": [
+    "RecipePage"
+  ],
+  "Celestial_Starlight": [
+    "RecipePage"
+  ],
+  "C.F.H.E.S.": [
+    "RecipePage"
+  ],
+  "Coologne": [
+    "RecipePage"
+  ],
+  "Counter_Offensive_Scarf": [
+    "RecipePage"
+  ],
+  "Donor_Wristband": [
+    "RecipePage"
+  ],
   "Dryad's_Inheritance": [
     "RecipePage"
   ],
-  "Sniper's_Mark": [
+  "Futurephones": [
+    "RecipePage"
+  ],
+  "Handy_Helper": [
+    "RecipePage"
+  ],
+  "Hazard_Charm": [
+    "RecipePage"
+  ],
+  "Helium_Tank": [
+    "RecipePage"
+  ],
+  "Keepsake_Remains": [
+    "RecipePage",
+    "Scavenger_Bag"
+  ],
+  "Lover's_Leap": [
+    "RecipePage"
+  ],
+  "Makeover_Choker": [
+    "RecipePage"
+  ],
+  "No_U_Card": [
     "RecipePage"
   ],
   "Playtime's_Over": [
     "RecipePage"
   ],
-  "Slag_Bucket": [
+  "Pneumatic_Bomb_Thrower": [
+    "RecipePage"
+  ],
+  "Powerflower": [
+    "RecipePage"
+  ],
+  "Protomind": [
+    "RecipePage"
+  ],
+  "Scavenger_Bag": [
+    "RecipePage"
+  ],
+  "Shield_of_Retribution": [
     "RecipePage",
-    "Scrap_Barrier",
-    "Shield_of_Retribution",
     "Slag_Bucket"
+  ],
+  "Slag_Bucket": [
+    "RecipePage"
   ],
   "Scrap_Barrier": [
     "RecipePage",
-    "Scrap_Barrier",
-    "Shield_of_Retribution",
     "Slag_Bucket"
   ],
   "Solar_Panel": [
-    "RecipePage",
-    "Silicon_Bar",
-    "Solar_Panel"
+    "RecipePage"
   ],
   "Silicon__Bar": [
+    "RecipePage"
+  ],
+  "Sonar_Visor": [
+    "RecipePage"
+  ],
+  "Advanced_Imaging": [
+    "RecipePage",
+    "Sonar_Visor"
+  ],
+  "Unsought_Organ": [
     "RecipePage"
   ],
   "Bleeding_Obsidian_Trenchcoat": [
@@ -5902,10 +5449,34 @@
   "Bleeding_Obsidian_Hardee": [
     "RecipePage"
   ],
-  "2-in-1_Shotty": [
+  "3-in-1_Shotty": [
     "RecipePage"
   ],
-  "3-in-1_Shotty": [
+  "Exploder_Emblem": [
+    "RecipePage"
+  ],
+  "Resin_Shield": [
+    "RecipePage"
+  ],
+  "Acrid_Breastplate": [
+    "RecipePage"
+  ],
+  "Acrid_Dome": [
+    "RecipePage"
+  ],
+  "Acrid_Greaves": [
+    "RecipePage"
+  ],
+  "Acrid_Headgear": [
+    "RecipePage"
+  ],
+  "Acrid_Helm": [
+    "RecipePage"
+  ],
+  "Acrid_Mask": [
+    "RecipePage"
+  ],
+  "Acrid_Visor": [
     "RecipePage"
   ],
   "Amber_Exploder_Resin": [
@@ -5926,13 +5497,71 @@
   "Sapphire_Mediator_Vest": [
     "RecipePage"
   ],
+  "Acrid_Drill": [
+    "RecipePage"
+  ],
+  "Acrid_Pickaxe": [
+    "RecipePage"
+  ],
+  "Alkahest_Canister": [
+    "RecipePage"
+  ],
+  "Alkaline_Canister": [
+    "RecipePage"
+  ],
+  "Bile_Canister": [
+    "RecipePage"
+  ],
+  "Coolant_Canister": [
+    "RecipePage"
+  ],
+  "Cursed_Canister": [
+    "RecipePage"
+  ],
+  "Ichor_Canister": [
+    "RecipePage"
+  ],
   "Resizable_Mine_Mk._IV": [
     "RecipePage"
   ],
   "Resizable_Mine_Mk._III": [
     "RecipePage"
   ],
+  "Acrid_Handcannon": [
+    "RecipePage"
+  ],
+  "Boomphracken": [
+    "RecipePage"
+  ],
+  "Hallowed_Cleaver": [
+    "RecipePage"
+  ],
+  "Chlorodynamite": [
+    "RecipePage"
+  ],
+  "Crystal_Bomb": [
+    "RecipePage"
+  ],
+  "Crystal_Grenade": [
+    "RecipePage"
+  ],
+  "Amber_of_Embers": [
+    "RecipePage"
+  ],
+  "Bled_Out_Staff": [
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Chemical_Laser": [
+    "RecipePage"
+  ],
   "Hævateinn": [
+    "RecipePage"
+  ],
+  "Splashid": [
+    "RecipePage"
+  ],
+  "Amenonuhoko": [
     "RecipePage"
   ],
   "Telephone_Pole": [
@@ -5942,13 +5571,17 @@
     "RecipePage"
   ],
   "True_Light_Disc": [
-    "RecipePage"
+    "RecipePage",
+    "Terrarang"
   ],
   "True_Waning_Crescent": [
-    "RecipePage"
+    "RecipePage",
+    "Terrarang"
   ],
   "Waning_Crescent": [
-    "RecipePage"
+    "RecipePage",
+    "Recipe_Groups",
+    "True_Waning_Crescent"
   ],
   "Astoxo": [
     "RecipePage"
@@ -5965,6 +5598,9 @@
   "Broken_Terratotem": [
     "RecipePage"
   ],
+  "Cursed_Crown": [
+    "RecipePage"
+  ],
   "Blast_Plate": [
     "RecipePage"
   ],
@@ -5978,8 +5614,10 @@
     "RecipePage"
   ],
   "Laser_Tag_Base_Console": [
-    "RecipePage",
-    "Silicon_Bar"
+    "RecipePage"
+  ],
+  "Priority_Mail": [
+    "RecipePage"
   ],
   "Endowood_Breastplate": [
     "RecipePage"
@@ -5999,14 +5637,37 @@
   "Marrowick_Cove": [
     "RecipePage"
   ],
+  "Endowood_Hammer": [
+    "RecipePage"
+  ],
+  "Marrowick_Hammer": [
+    "RecipePage"
+  ],
   "Resizable_Mine_Mk._I": [
     "RecipePage"
   ],
+  "Baseball_Bat": [
+    "RecipePage"
+  ],
+  "Endowood_Sword": [
+    "RecipePage"
+  ],
+  "Marrowick_Sword": [
+    "RecipePage"
+  ],
+  "Endowood_Bow": [
+    "RecipePage"
+  ],
+  "Marrowick_Bow": [
+    "RecipePage"
+  ],
   "Sunflower_Seed_Shooter": [
-    "RecipePage",
-    "Sunflower_Seed_Shooter"
+    "RecipePage"
   ],
   "Eden_Wood_Wall": [
+    "RecipePage"
+  ],
+  "Endowood_Wall": [
     "RecipePage"
   ],
   "Endowood_Candelabra": [
@@ -6063,18 +5724,53 @@
   "Marrowick_Table": [
     "RecipePage"
   ],
+  "Marrowick_Wall": [
+    "RecipePage"
+  ],
   "Amebic_Gel_Wall": [
     "RecipePage"
   ],
   "Batholith_Wall": [
     "RecipePage"
   ],
+  "Brittle_Quartz_Wall": [
+    "RecipePage"
+  ],
   "Offline_Chambersite_Gemspark_Wall": [
     "RecipePage"
   ],
-  "Sonic_Radar": [
+  "Chambersite_Gemspark_Wall": [
+    "RecipePage"
+  ],
+  "Defiled_Sandstone_Wall": [
+    "RecipePage"
+  ],
+  "Hardened_Defiled_Sand_Wall": [
+    "RecipePage"
+  ],
+  "Quartz_Wall": [
+    "RecipePage"
+  ],
+  "Necromancer_Breastplate": [
+    "RecipePage"
+  ],
+  "Necromancer_Greaves": [
+    "RecipePage"
+  ],
+  "Necromancer_Crown": [
+    "RecipePage"
+  ],
+  "Suspicious_Looking_Ice_Cream": [
     "RecipePage",
-    "Sonic_Radar"
+    "World_Cracker"
+  ],
+  "Void_Lock": [
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Bleeding_Obsidian_Kunai": [
+    "RecipePage",
+    "Shimmer"
   ],
   "Ashen_Breastplate": [
     "RecipePage"
@@ -6106,6 +5802,15 @@
   "Defiled_Helmet": [
     "RecipePage"
   ],
+  "Encrusted_Coat": [
+    "RecipePage"
+  ],
+  "Encrusted_Mask": [
+    "RecipePage"
+  ],
+  "Encrusted_Pants": [
+    "RecipePage"
+  ],
   "Felnum_Breastplate": [
     "RecipePage"
   ],
@@ -6116,16 +5821,13 @@
     "RecipePage"
   ],
   "Lost_Cloak": [
-    "RecipePage",
-    "Strange_String"
+    "RecipePage"
   ],
   "Lost_Monocle": [
-    "RecipePage",
-    "Strange_String"
+    "RecipePage"
   ],
   "Lost_Pants": [
-    "RecipePage",
-    "Strange_String"
+    "RecipePage"
   ],
   "Mythic_Leggings": [
     "RecipePage"
@@ -6152,6 +5854,15 @@
     "RecipePage"
   ],
   "Riven_Pants": [
+    "RecipePage"
+  ],
+  "Scavenger_Body_Armor": [
+    "RecipePage"
+  ],
+  "Scavenger_Greaves": [
+    "RecipePage"
+  ],
+  "Scavenger_Goggles": [
     "RecipePage"
   ],
   "Soulhide_Coat": [
@@ -6181,24 +5892,121 @@
   "Formium_Bar": [
     "RecipePage"
   ],
+  "Brick_Breaker": [
+    "RecipePage"
+  ],
+  "C6_Jackhammer": [
+    "RecipePage"
+  ],
+  "Dismantler": [
+    "RecipePage"
+  ],
+  "Dissector": [
+    "RecipePage"
+  ],
+  "Felnum_Hamaxe": [
+    "RecipePage"
+  ],
+  "Felnum_Pickaxe": [
+    "RecipePage"
+  ],
+  "Lightning_Rod": [
+    "RecipePage"
+  ],
   "Miter_Saw": [
+    "RecipePage"
+  ],
+  "Parasitic_Manipulator": [
+    "RecipePage"
+  ],
+  "Piledriver": [
+    "RecipePage"
+  ],
+  "Rivenator": [
     "RecipePage",
-    "Sanguinite_Bar"
+    "Strainer"
+  ],
+  "Snatcher": [
+    "RecipePage"
+  ],
+  "Stabsmash": [
+    "RecipePage"
+  ],
+  "Strainer": [
+    "RecipePage"
+  ],
+  "Bouncy_Harpoon": [
+    "RecipePage"
+  ],
+  "Napalm_Canister": [
+    "RecipePage"
   ],
   "Resizable_Mine_Mk._II": [
+    "RecipePage"
+  ],
+  "Cursed_Harpoon": [
+    "RecipePage"
+  ],
+  "Explosive_Harpoon": [
+    "RecipePage"
+  ],
+  "Flammable_Harpoon": [
+    "RecipePage"
+  ],
+  "Abrasion_Blaster": [
+    "RecipePage"
+  ],
+  "Bloombomb": [
+    "RecipePage"
+  ],
+  "Cold_Snap": [
+    "RecipePage"
+  ],
+  "Eruption": [
+    "RecipePage"
+  ],
+  "Felnum_Shock_Grenade": [
     "RecipePage"
   ],
   "Flare_Launcher": [
     "RecipePage",
     "Recipe_Groups"
   ],
+  "Floaty_Bomb": [
+    "RecipePage"
+  ],
+  "Meteor": [
+    "RecipePage"
+  ],
+  "Sticky_Link_Grenade": [
+    "RecipePage"
+  ],
   "Felnum_Golf_Ball": [
     "RecipePage"
   ],
+  "Magnus": [
+    "RecipePage"
+  ],
+  "Magic_Hair_Spray": [
+    "RecipePage",
+    "Recipe_Changes"
+  ],
   "Dark_Spiral": [
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Felnum_Boar_Spear": [
     "RecipePage"
   ],
   "Hemorang": [
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Orbital_Saw": [
+    "RecipePage",
+    "Recipe_Groups"
+  ],
+  "Felnum_Longbow": [
     "RecipePage"
   ],
   "Sleetfire": [
@@ -6207,10 +6015,17 @@
   "Tendon_Tear": [
     "RecipePage"
   ],
+  "Threemoepeater": [
+    "RecipePage",
+    "Unmisfire"
+  ],
   "Bee_Afraid_Incantation": [
     "RecipePage"
   ],
   "Hibernal_Incantation": [
+    "RecipePage"
+  ],
+  "Teardown": [
     "RecipePage"
   ],
   "Endowood_Chandelier": [
@@ -6220,9 +6035,6 @@
     "RecipePage"
   ],
   "Chromtain_Breastplate": [
-    "RecipePage"
-  ],
-  "Chromtain_Bar": [
     "RecipePage"
   ],
   "Chromtain_Greaves": [
@@ -6249,39 +6061,58 @@
   "Resizable_Mine_Mk._V": [
     "RecipePage"
   ],
-  "Rigged_Cubix": [
+  "Nova_Cascade": [
     "RecipePage"
   ],
   "Newsboy_Cap": [
     "RecipePage"
   ],
-  "Voidsight_Potion": [
+  "Magic_Brine_Dropper": [
+    "RecipePage"
+  ],
+  "Absorption_Potion": [
     "RecipePage",
-    "Voidsight_Potion"
+    "Totally_Safe"
+  ],
+  "Focus_Potion": [
+    "RecipePage"
+  ],
+  "Purification_Potion": [
+    "RecipePage"
+  ],
+  "Voidsight_Potion": [
+    "RecipePage"
   ],
   "Duskarp": [
     "RecipePage",
     "Voidsight_Potion"
   ],
+  "Shattered_Stout": [
+    "RecipePage"
+  ],
+  "Honey_Wheat_Bread": [
+    "RecipePage"
+  ],
+  "Jelly_Schnapps": [
+    "RecipePage"
+  ],
   "Soul_Spaghetti": [
-    "RecipePage",
-    "Soul_Spaghetti",
-    "Strange_String"
+    "RecipePage"
   ],
   "Tire": [
     "RecipePage",
-    "Rubber",
-    "Tire"
-  ],
-  "Traffic_Cone": [
-    "RecipePage",
-    "Rubber",
-    "Traffic_Cone"
+    "Rubber"
   ],
   "Beginner's_Tome": [
     "RecipePage"
   ],
   "Eternabrite": [
+    "RecipePage"
+  ],
+  "Innermost_Manifest": [
+    "RecipePage"
+  ],
+  "Maelstrom_Incantation": [
     "RecipePage"
   ],
   "Endowood_Bathtub": [
@@ -6338,20 +6169,34 @@
   "Ornament_of_Metamorphosis": [
     "Recipe_Changes"
   ],
-  "Resizable_Mine_Mk_1": [
-    "Resizable_Mine_Mk._I"
+  "Demonite_Gun_Magazine": [
+    "Recipe_Groups"
   ],
-  "Resizable_Mine_Mk_2": [
-    "Resizable_Mine_Mk._II"
+  "Crimtane_Gun_Magazine": [
+    "Recipe_Groups"
   ],
-  "Resizable_Mine_Mk_4": [
-    "Resizable_Mine_Mk._IV"
+  "Defiled_Gun_Magazine": [
+    "Recipe_Groups"
   ],
-  "Resizable_Mine_Mk_5": [
-    "Resizable_Mine_Mk._V"
+  "Encrusted_Gun_Magazine": [
+    "Recipe_Groups"
+  ],
+  "Sanguinite_Gun_Magazine": [
+    "Recipe_Groups"
+  ],
+  "Sentries": [
+    "Relay_Rod"
+  ],
+  "Chunky_Crate": [
+    "Relay_Rod"
   ],
   "Riptide_Armor": [
-    "Riptide_Armor"
+    "Riptide_Breastplate",
+    "Riptide_Greaves",
+    "Riptide_Helmet"
+  ],
+  "Riven_Key": [
+    "Riven_Chest"
   ],
   "Single-Cellular_Nautilus": [
     "Riven_Hive",
@@ -6367,7 +6212,8 @@
   ],
   "Amoebic_Slime": [
     "Riven_Hive",
-    "Underground_Riven_Hive"
+    "Underground_Riven_Hive",
+    "World_Cracker"
   ],
   "Amoebeye": [
     "Riven_Hive",
@@ -6380,8 +6226,14 @@
     "Rotor",
     "Silica"
   ],
-  "Sanguinite_Brick": [
-    "Sanguinite_Ore"
+  "Utilities": [
+    "Salty_Seed"
+  ],
+  "Sapphire_Mediator_Armor": [
+    "Sapphire_Mediator_Armor",
+    "Sapphire_Mediator_Breastplate",
+    "Sapphire_Mediator_Greaves",
+    "Sapphire_Mediator_Helmet"
   ],
   "whip": [
     "Savage_Whip"
@@ -6398,20 +6250,44 @@
   "Riven_Penguin": [
     "Sentient_Powder"
   ],
+  "Ancient_Kruncher": [
+    "Shardcannon",
+    "The_Kruncher"
+  ],
+  "Chambersite_Bunny": [
+    "Shimmer"
+  ],
+  "Chambersite_Squirrel": [
+    "Shimmer"
+  ],
+  "Mojo_Injection": [
+    "Shimmer"
+  ],
+  "Lightning_Ring": [
+    "Shock_Collar",
+    "Sparking_Flame_Barrel"
+  ],
+  "Tale_of_Arabel": [
+    "Short_Stories",
+    "The_Defiled"
+  ],
   "Riven_Rain": [
     "Silica"
+  ],
+  "Sinks": [
+    "Sinks"
   ],
   "yoyo": [
     "Snapthrow"
   ],
+  "Lovers_Leap": [
+    "Speed_Booster"
+  ],
   "Eccentric_Stone": [
     "Spirit_Shard"
   ],
-  "Spug_Flesh_Wall": [
-    "Spug_Flesh"
-  ],
-  "Chambersite_Gemstone_(Riven)": [
-    "Spug_Flesh"
+  "Static_Shock_(Buff)": [
+    "Static_Shock"
   ],
   "Generic_Weapons": [
     "Stat_Share"
@@ -6430,25 +6306,66 @@
   "Seeds": [
     "Surveysprout",
     "Wilting_Rose",
+    "Wilting_Rose_Seeds",
     "Wrycoral"
-  ],
-  "Shortswords": [
-    "Switchblade"
   ],
   "Broadsword": [
     "Switchblade"
   ],
-  "Ancient_Kruncher": [
-    "The_Kruncher"
+  "nolinkyetlol": [
+    "The_Bird"
   ],
-  "Axes": [
-    "Tools"
+  "Low_Signal": [
+    "The_Defiled"
+  ],
+  "Breach": [
+    "The_Defiled"
+  ],
+  "Dryad_Clan": [
+    "The_Defiled"
+  ],
+  "Dark_Age": [
+    "The_Defiled"
+  ],
+  "the_Terrarian": [
+    "The_Defiled"
+  ],
+  "Mimic_Route": [
+    "The_Defiled"
+  ],
+  "Paintings": [
+    "The_Jungle's_Window"
+  ],
+  "Fish": [
+    "Toadfish"
+  ],
+  "Toilets": [
+    "Toilets"
   ],
   "Pincushion": [
     "Tools"
   ],
-  "Torn_synergies": [
-    "Torn"
+  "Gray_Ice_Block": [
+    "Torches"
+  ],
+  "Treasure_Bags": [
+    "Treasure_Bag_(Crimson_King)",
+    "Treasure_Bag_(Defiled_Amalgamation)",
+    "Treasure_Bag_(Fiberglass_Weaver)",
+    "Treasure_Bag_(I.C.A.R.U.S.)",
+    "Treasure_Bag_(Logic_Brane)",
+    "Treasure_Bag_(Lost_Diver)",
+    "Treasure_Bag_(Miscreant)",
+    "Treasure_Bag_(Quantux)",
+    "Treasure_Bag_(Scrapper)",
+    "Treasure_Bag_(Severus)",
+    "Treasure_Bag_(World_Cracker)"
+  ],
+  "developer_items": [
+    "Tyfyter's_Set"
+  ],
+  "Plague_Texan's_Gift": [
+    "Tyfyter's_Set"
   ],
   "Savage_Whip": [
     "Underground_Riven_Hive"
@@ -6458,6 +6375,9 @@
   ],
   "Vipershot": [
     "Weakpoint_Analyzer"
+  ],
+  "Flying_Exoskeleton": [
+    "World_Cracker"
   ],
   "Planter_Boxes": [
     "Wrycoral"
@@ -6469,9 +6389,6 @@
     "§example"
   ],
   "Blox": [
-    "§example"
-  ],
-  "Music_Boxes": [
     "§example"
   ]
 }

@@ -12,7 +12,7 @@
     "ArmorSets/Rubber_Armor_Female"
   ],
   "Defense": 7,
-  "SetBonus": "Immunity to Static Shock and Electrified\nReduces damage taken by 5%",
+  "SetBonus": "Immunity to Static Shock and Electrified\n+5% damage reduction",
   "Rarity": "Blue",
-  "Sell": 9000
+  "Sell": 300
 }

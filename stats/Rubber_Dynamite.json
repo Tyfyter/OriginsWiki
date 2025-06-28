@@ -8,9 +8,8 @@
     "ExpendableWeapon",
     "Weapon"
   ],
-  "Damage": 40,
+  "Damage": 65,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 8.0,
   "UseTime": 40,
   "Velocity": 7.0,
   "Tooltip": "'Dynamite for babies.'",

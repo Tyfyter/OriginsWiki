@@ -1,0 +1,42 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Retaliatory_Tendril",
+  "Name": "Retaliatory Tendril",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode",
+    "Expert"
+  ],
+  "Knockback": 0.02,
+  "UseTime": 1000,
+  "Tooltip": "Increases your attack speed as you take damage until you deal 500 damage",
+  "Rarity": "Pink",
+  "Sell": 30000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Retaliatory_Tendril"
+}

@@ -31,6 +31,22 @@
       ]
     }
   ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rockstar Choker</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Shock Collar</a>",
+            "<a is=a-link image=$fromStats>Makeover Choker</a>"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 32,
   "InternalName": "Makeover_Choker"
 }

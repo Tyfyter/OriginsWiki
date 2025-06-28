@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Strange_Tooth_Buff",
+  "Name": "Eye Summon You!",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The Servants will keep an eye on your enemies"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Strange Tooth</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Strange_Tooth_Buff"
+}

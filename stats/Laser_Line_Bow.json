@@ -1,0 +1,37 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Laser_Line_Bow",
+  "Name": "Laser Line Bow",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Bow",
+    "Hardmode"
+  ],
+  "Damage": 53,
+  "DamageClass": "Ranged",
+  "Knockback": 5.0,
+  "Crit": 10,
+  "UseTime": 29,
+  "Velocity": 12.75,
+  "Tooltip": "Fired arrows release brine rain in their wake",
+  "Rarity": "LightRed",
+  "Sell": 22000,
+  "Source": "(14) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Laser Line Bow</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (14)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 24,
+  "InternalName": "Laser_Line_Bow"
+}

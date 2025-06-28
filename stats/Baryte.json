@@ -2,6 +2,7 @@
   "Name": "Baryte",
   "Types": [
     "Item",
+    "Lore",
     "Tile"
   ],
   "PickReq": 195,
@@ -39,6 +40,14 @@
             "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (38)",
             "<a is=a-link image=$fromStats>Brineglow</a> (12)",
             "<a is=a-link image=$fromStats>Baryte</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Fumethrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (10)",
+            "<a is=a-link image=$fromStats>Baryte</a> (20)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (8)"
           ]
         }
       ]

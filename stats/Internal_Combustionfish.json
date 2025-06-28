@@ -3,24 +3,25 @@
   "Name": "Internal Combustionfish",
   "Types": [
     "Item",
+    "Lore",
     "ThrownExplosive",
     "ExpendableWeapon",
     "Weapon"
   ],
-  "Damage": 35,
+  "Damage": 49,
   "ArmorPenetration": 7,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 10.0,
-  "UseTime": 30,
-  "Velocity": 6.0,
+  "Knockback": 7.0,
+  "Crit": 7,
+  "UseTime": 14,
+  "Velocity": 7.0,
   "Tooltip": "Remains attached to the target until multiple enemies are nearby",
   "Rarity": "Blue",
-  "Sell": 3500,
+  "Sell": 4900,
   "Source": "<a is=a-link image=$fromStats>Ocotoral Bud</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -36,7 +37,6 @@
   "UsedIn": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

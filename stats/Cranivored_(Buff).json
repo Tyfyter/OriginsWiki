@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Cranivore_Debuff",
+  "Name": "Cranivored",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "It's on your face!"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Cranivore</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Cranivore_Debuff"
+}

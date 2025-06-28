@@ -12,17 +12,21 @@
   "Coins": 500.0,
   "Drops": [],
   "Expert": {
-    "MaxLife": 300,
+    "MaxLife": 150,
     "KBResist": 0.19000006,
-    "Coins": 3125.0,
+    "Coins": 1250.0,
     "Drops": []
   },
   "Master": {
-    "MaxLife": 675,
+    "MaxLife": 225,
     "KBResist": 0.35999995,
-    "Coins": 3125.0,
+    "Coins": 1250.0,
     "Drops": []
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
+  ],
+  "BestiaryQuotation": "Bunnies are pure beings that cannot normally adapt to the Riven Hive's ecosystem, but will be easily capable of under the effects of a Blood Moon.",
   "SpriteWidth": 48,
   "InternalName": "Barnacle_Bunny"
 }

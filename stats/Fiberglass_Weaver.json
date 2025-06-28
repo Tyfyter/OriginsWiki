@@ -1,5 +1,5 @@
 {
-  "Image": "Fiberglass_Weaver",
+  "Image": "§ModImage§/UI/Fiberglass_Weaver_Preview",
   "Name": "Fiberglass Weaver",
   "Types": [
     "NPC",
@@ -9,9 +9,7 @@
   "Defense": 26,
   "KBResist": 0.9,
   "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
+    "<a is=a-link image=$fromStats>Blind Debuff</a>"
   ],
   "Coins": 50000.0,
   "Drops": [
@@ -50,6 +48,10 @@
     {
       "Name": "Fiberglass Weaver Head",
       "Chance": "10%"
+    },
+    {
+      "Name": "Fiberglass Weaver Trophy",
+      "Chance": "10%"
     }
   ],
   "Expert": {
@@ -75,6 +77,13 @@
         "Chance": "25%"
       },
       {
+        "Name": "Fiberglass Weaver Relic"
+      },
+      {
+        "Name": "Terlet Paper",
+        "Chance": "25%"
+      },
+      {
         "Name": "Fiberglass Bow",
         "Chance": "20%"
       },
@@ -96,6 +105,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
+  "BestiaryQuotation": "A giant, spider-like entity responsible for carefully weaving the fiberglass undergrowth together.",
   "SpriteWidth": 68,
   "InternalName": "Fiberglass_Weaver"
 }

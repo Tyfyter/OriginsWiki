@@ -1,0 +1,108 @@
+{
+  "Image": "Riven_Pigron",
+  "Name": "Riven Pigron",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 210,
+  "Defense": 16,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Coins": 2000.0,
+  "Drops": [
+    {
+      "Name": "Bacon",
+      "Chance": "6.667%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Minecart",
+      "Chance": "1%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Pigron Kite",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Ham Bat",
+      "Chance": "4%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+      "ImageOverride": ""
+    }
+  ],
+  "Expert": {
+    "MaxLife": 420,
+    "KBResist": 0.55,
+    "Coins": 5000.0,
+    "Drops": [
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 630,
+    "KBResist": 0.6,
+    "Coins": 5000.0,
+    "Drops": [
+      {
+        "Name": "Bacon",
+        "Chance": "6.667%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Bacon",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Minecart",
+        "Chance": "1%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Minecart",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Pigron Kite",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Pigron_Kite",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Ham Bat",
+        "Chance": "4%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Ham_Bat",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Ice</a>"
+  ],
+  "BestiaryQuotation": "This elusive dragon-pig hybrid has excellent stealth capabilities despite its rotund figure. It is uncertain how they came to exist.",
+  "SpriteWidth": 90,
+  "InternalName": "Riven_Pigron"
+}

@@ -1,0 +1,23 @@
+{
+  "Name": "Defiled Monolith",
+  "Types": [
+    "Item",
+    "Monolith",
+    "Accessory",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Harness a fraction of the Defiled's ability to break the 4th wall'",
+  "Rarity": "Blue",
+  "Sell": 8000,
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Monolith_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Monolith_Item",
+    "Tiles/Defiled_Monolith"
+  ]
+}

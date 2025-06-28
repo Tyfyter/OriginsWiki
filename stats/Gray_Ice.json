@@ -22,6 +22,13 @@
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
             "<a is=a-link image=$fromStats>Gray Ice</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Torch\">Ice Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Gray Ice</a>"
+          ]
         }
       ]
     }

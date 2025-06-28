@@ -7,7 +7,7 @@
     "Ammo"
   ],
   "Damage": 22,
-  "ArmorPenetration": 6,
+  "ArmorPenetration": 4,
   "DamageClass": "Explosive Ranged",
   "Knockback": 3.0,
   "Tooltip": "'Compatible with your garden-variety mine launchers!'",

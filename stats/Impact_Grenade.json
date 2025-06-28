@@ -9,14 +9,13 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 30,
-  "ArmorPenetration": 6,
+  "Damage": 43,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 10.0,
-  "UseTime": 33,
+  "Knockback": 8.0,
+  "UseTime": 45,
   "Velocity": 9.625,
   "Tooltip": "'Be careful, it's not a book'",
-  "Rarity": "White",
+  "Rarity": "Green",
   "Sell": 35,
   "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Grenade\">Grenade</a> +  <a is=a-link image=$fromStats imageOnly>Peat Moss</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>175</a-coins>After selling 40 peat moss to the Demolitionist)",
   "Recipes": [

@@ -1,0 +1,40 @@
+{
+  "Image": "§ModImage§/Buffs/Static_Shock_Debuff",
+  "Name": "Static Shock",
+  "Types": [
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff"
+  ],
+  "Tooltip": [
+    "It hurts to be near conductors!"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Felnum Hamaxe</a>",
+    "<a is=a-link image=$fromStats>Felnum Pickaxe</a>",
+    "<a is=a-link image=$fromStats>Lightning Rod</a>",
+    "<a is=a-link image=$fromStats>Felnum Shock Grenade</a>",
+    "<a is=a-link image=$fromStats>Magnus</a>",
+    "<a is=a-link image=$fromStats>Felnum Boar Spear</a>",
+    "<a is=a-link image=$fromStats>Thunderbolt</a>",
+    "<a is=a-link image=$fromStats>Tolruk</a>",
+    "<a is=a-link image=$fromStats>Felnum Einheri</a>",
+    "<a is=a-link image=$fromStats>Felnum Guardian</a>",
+    "<a is=a-link image=$fromStats>Felnum Slime</a>"
+  ],
+  "Duration": [
+    "2 seconds - 3.5 seconds",
+    "2 seconds - 3.5 seconds",
+    "1.5 seconds - 4 seconds",
+    "2 seconds",
+    "2 seconds - 3.5 seconds",
+    "2 seconds",
+    "3 seconds - 4.02 seconds",
+    "3 seconds - 5 seconds",
+    "2 seconds - 6 seconds",
+    "1 seconds - 5 seconds",
+    "4 seconds - 5 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Static_Shock_Debuff"
+}

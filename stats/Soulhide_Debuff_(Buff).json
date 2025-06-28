@@ -1,0 +1,12 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Soulhide Debuff",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Soulhide_Debuff.Description"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Soulhide_Debuff"
+}

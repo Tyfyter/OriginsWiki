@@ -78,6 +78,10 @@
     ],
     "RivenAssimilation": 0.15
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Riven Desert</a>"
+  ],
+  "BestiaryQuotation": "Ghouls adapted to the Riven's conditions release amebic gel containing alkahest, allowing them to break down any compounds it comes in contact with.",
   "SpriteWidth": 36,
   "InternalName": "Torn_Ghoul"
 }

@@ -7,10 +7,9 @@
     "Weapon",
     "OtherExplosive"
   ],
-  "Damage": 2,
+  "Damage": 20,
   "DamageClass": "Explosive Ranged",
-  "Knockback": 1.6,
-  "UseTime": 40,
+  "UseTime": 50,
   "Velocity": 6.0,
   "Tooltip": "Uses bombs as ammo",
   "Rarity": "Green",

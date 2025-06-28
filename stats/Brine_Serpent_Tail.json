@@ -1,0 +1,28 @@
+{
+  "Image": "Brine_Serpent",
+  "Name": "Brine Serpent",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 400,
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 600,
+    "Defense": 0,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 38,
+  "InternalName": "Brine_Serpent_Tail"
+}

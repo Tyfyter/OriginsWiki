@@ -3,6 +3,7 @@
   "Name": "Ziptie",
   "Types": [
     "Item",
+    "Lore",
     "Weapon",
     "Whip",
     "Hardmode"

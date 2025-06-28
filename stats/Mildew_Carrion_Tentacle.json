@@ -1,0 +1,27 @@
+{
+  "Image": "Mildew_Carrion_Tentacle",
+  "Name": "Mildew Carrion Tentacle",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 18,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Rasterized</a>",
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>",
+    "<a is=a-link image=$fromStats>Liver Failure</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 36,
+  "InternalName": "Mildew_Carrion_Tentacle"
+}

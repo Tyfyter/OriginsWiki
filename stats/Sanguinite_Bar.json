@@ -59,29 +59,29 @@
         {
           "result": "<a is=a-link image=$fromStats>Ashen Breastplate</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (20)",
+            "<a is=a-link image=$fromStats>NE-8</a> (20)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (25)"
           ]
         },
         {
           "result": "<a is=a-link image=$fromStats>Ashen Greaves</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (15)",
+            "<a is=a-link image=$fromStats>NE-8</a> (15)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (20)"
           ]
         },
         {
           "result": "<a is=a-link image=$fromStats>Ashen Helmet</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (10)",
+            "<a is=a-link image=$fromStats>NE-8</a> (10)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (15)"
           ]
         },
         {
           "result": "<a is=a-link image=$fromStats>C6 Jackhammer</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (5)",
-            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+            "<a is=a-link image=$fromStats>NE-8</a> (6)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
           ]
         },
         {
@@ -93,7 +93,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Piledriver</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (6)",
+            "<a is=a-link image=$fromStats>NE-8</a> (6)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
           ]
         },
@@ -101,7 +101,14 @@
           "result": "<a is=a-link image=$fromStats>Resizable Mine III</a> (8)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Explosive_Powder\">Explosive Powder</a>",
-            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (2)"
+            "<a is=a-link image=\"RecipeGroups/DemoniteBar\" href=Recipe_Groups>Any Evil Bar</a> (2)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Matrix</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE-8</a> (15)",
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
           ]
         },
         {
@@ -117,15 +124,22 @@
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Outreach</a>",
+          "result": "<a is=a-link image=$fromStats>Soldering Iron</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (5)",
+            "<a is=a-link image=$fromStats>NE-8</a> (5)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (9)"
           ]
         },
         {
           "result": "<a is=a-link image=$fromStats>Switchblade</a>",
           "ingredients": [
+            "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Defective Mortar Shell</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>NE-8</a> (9)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (10)"
           ]
         }

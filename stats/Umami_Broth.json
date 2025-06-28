@@ -1,0 +1,19 @@
+{
+  "Image": "Umami_Broth",
+  "Name": "Umami Broth",
+  "Types": [
+    "Item",
+    "Broth",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": [
+    "All minions inflict Acid Venom",
+    "Artifact minions also inflict Toxic Shock"
+  ],
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Brine Fiend</a> (<a-coins>2000</a-coins>)",
+  "SpriteWidth": 30,
+  "InternalName": "Umami_Broth"
+}

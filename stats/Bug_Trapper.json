@@ -38,6 +38,13 @@
             "<a is=a-link image=$fromStats>Bug Trapper</a>",
             "<a is=a-link image=$fromStats>Fleshy Figurine</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Tender Flesh Heart</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bug Trapper</a>",
+            "<a is=a-link image=$fromStats>Mildew Heart</a>"
+          ]
         }
       ]
     }

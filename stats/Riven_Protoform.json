@@ -2,7 +2,8 @@
   "Image": "Riven_Protoform",
   "Name": "Riven Protoform",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 81,
   "Defense": 10,
@@ -102,6 +103,11 @@
     ],
     "RivenAssimilation": 0.135
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
+  "BestiaryQuotation": "The first creature born in the abominable Riven Hive. It is a very agile protector of its home.",
   "SpriteWidth": 36,
   "InternalName": "Riven_Fighter"
 }

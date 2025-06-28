@@ -1,0 +1,74 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Mildew_Heart",
+  "Name": "Mildew Heart",
+  "Types": [
+    "Item",
+    "Lore",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Up to 65% of your max life is gradually converted into mildew health",
+    "Mildew health regenerates faster than regular health",
+    "Your death is delayed for as long as your max mildew health decays"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Charm of Naivety</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Bomb Charm of Regeneration</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Sunder Gut</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mildew Heart</a>",
+            "<a is=a-link image=$fromStats>Lousy Liver</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Tender Flesh Heart</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Bug Trapper</a>",
+            "<a is=a-link image=$fromStats>Mildew Heart</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 26,
+  "InternalName": "Mildew_Heart"
+}

@@ -7,22 +7,121 @@
   "MaxLife": 55,
   "Defense": 14,
   "KBResist": 0.5,
-  "Coins": 60.0,
-  "Drops": [],
+  "Coins": 100.0,
+  "Drops": [
+    {
+      "Name": "Gravestone",
+      "Chance": "20%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gravestone",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Tombstone",
+      "Chance": "20%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Tombstone",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Headstone",
+      "Chance": "20%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Headstone",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Cross Grave Marker",
+      "Chance": "20%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Cross_Grave_Marker",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Obelisk",
+      "Chance": "20%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Obelisk",
+      "ImageOverride": ""
+    }
+  ],
   "Expert": {
     "MaxLife": 110,
     "KBResist": 0.595,
     "Immunities": [],
-    "Coins": 375.0,
-    "Drops": []
+    "Coins": 250.0,
+    "Drops": [
+      {
+        "Name": "Gravestone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Gravestone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Tombstone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Tombstone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Headstone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Headstone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Cross Grave Marker",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Cross_Grave_Marker",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Obelisk",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Obelisk",
+        "ImageOverride": ""
+      }
+    ]
   },
   "Master": {
     "MaxLife": 165,
     "KBResist": 0.67999995,
     "Immunities": [],
-    "Coins": 375.0,
-    "Drops": []
+    "Coins": 250.0,
+    "Drops": [
+      {
+        "Name": "Gravestone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Gravestone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Tombstone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Tombstone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Headstone",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Headstone",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Cross Grave Marker",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Cross_Grave_Marker",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Obelisk",
+        "Chance": "20%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Obelisk",
+        "ImageOverride": ""
+      }
+    ]
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Graveyard\">Graveyard</a>",
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Nighttime\">Nighttime</a>",
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Surface\">Surface</a>"
+  ],
+  "BestiaryQuotation": "Nobody asked him questions. The headstone was well within his deathright.",
   "SpriteWidth": 38,
   "InternalName": "Graveshield_Zombie"
 }

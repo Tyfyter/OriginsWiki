@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Broths/Sour_Broth_Buff",
+  "Name": "Sour Broth",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Increases minion critical strike chance by 10%",
+    "Artifact minions gain an additional 15% critical strike chance"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Sour Broth</a>"
+  ],
+  "Duration": [
+    "360 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Sour_Broth_Buff"
+}

@@ -15,7 +15,7 @@
   "Tooltip": "Right Click to mine a larger area",
   "Rarity": "Blue",
   "Sell": 4000,
-  "Source": "(6) <a is=a-link image=$fromStats imageOnly>NE8</a> + (12) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Source": "(6) <a is=a-link image=$fromStats imageOnly>NE-8</a> + (12) <a is=a-link image=$fromStats imageOnly>Sanguinite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {
       "stations": [
@@ -25,7 +25,7 @@
         {
           "result": "<a is=a-link image=$fromStats>Piledriver</a>",
           "ingredients": [
-            "<a is=a-link image=$fromStats>NE8</a> (6)",
+            "<a is=a-link image=$fromStats>NE-8</a> (6)",
             "<a is=a-link image=$fromStats>Sanguinite Bar</a> (12)"
           ]
         }

@@ -8,8 +8,7 @@
   "Defense": 31,
   "Immunities": [
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Torn</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 450.0,
   "Drops": [
@@ -67,6 +66,11 @@
     ],
     "RivenAssimilation": 0.044999998
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
+  "BestiaryQuotation": "This Riven-infested nautilus has grown accustomed to the amebic water's viscosity making it very agile on land. The sharpness of its shell is an added danger.",
   "SpriteWidth": 38,
   "InternalName": "Single_Cellular_Nautilus"
 }

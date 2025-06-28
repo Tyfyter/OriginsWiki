@@ -2,6 +2,7 @@
   "Name": "Primordial Permafrost",
   "Types": [
     "Item",
+    "Lore",
     "Tile"
   ],
   "PlacementSize": [
@@ -19,6 +20,13 @@
       "items": [
         {
           "result": "<a is=a-link image=$fromStats>Riven Torch</a> (3)",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
+            "<a is=a-link image=$fromStats>Primordial Permafrost</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ice_Torch\">Ice Torch</a> (3)",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Torch\">Torch</a> (3)",
             "<a is=a-link image=$fromStats>Primordial Permafrost</a>"

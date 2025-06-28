@@ -27,6 +27,12 @@
 				Because of these factors, proper protection against Toxic Shock and preparation for water travel is advised before navigating the Brine Pool.
 			</p>
 
+			<p>
+				The Brine Pool features dangers beyond the hostile life that naturally spawns such as the <a is="a-link" href="Hydrothermal_Vent.html">Hydrothermal Vents</a> and <a is="a-link">Venus Coral</a> found within.
+				There is also a sort of "stealth" mechanic added called "<a is="a-link">ripples</a>", which is how enemies found in the Brine Pool will detect you.
+				They are generated as you move through water and some enemies are more sensitive to your ripples than others.
+			</p>
+
 			<details class="section" id="Content" open>
 				<summary>Contents<span class="divider"></span></summary>
 				<a-biomecontents>
@@ -40,11 +46,11 @@
 				['Brine Latcher', '$fromStats'],
 				['Brine Serpent', '$fromStats'],
 				['Carpalfish', '$fromStats'],
-				['Leaf Snapper', '$fromStats'],
-				['Nasty Crawdad', '$fromStats'],
 				['King Crab', '$fromStats'],
+				['Leaf Snapper', '$fromStats'],
 				['Lost Diver', '$fromStats', '(boss)'],
 				['Mildew Creeper', '$fromStats'],
+				['Nasty Crawdad', '$fromStats'],
 				['Rock Bottom', '$fromStats', '(boss summon enemy)'],
 				['Sea Dragon', '$fromStats'],
 				['Shotgunfish', '$fromStats']
@@ -56,7 +62,21 @@
 				header:'Unique Drops',
 				items:[
 				{
-				header:'From <a is="a-link">Brine Moccasin</a>:',
+				header:'From <a is="a-link">Airsnatcher</a>, <a is="a-link">Brine Latcher</a>, <a is="a-link">Brine Serpent</a>, <a is="a-link">Carpalfish</a>, <a is="a-link">Leaf Snapper</a>, <a is="a-link">Nasty Crawdad</a>, <a is="a-link">King Crab</a>, <a is="a-link">Mildew Creeper</a>, <a is="a-link">Sea Dragon</a> and <a is="a-link">Shotgunfish</a>:',
+				class:'miniheader inlineblock',
+				items:[
+				['Lost Picture Frame', '$fromStats']
+				]
+				},
+				{
+				header:'From <a is="a-link">Brine Latcher</a>, <a is="a-link">Brine Serpent</a> and <a is="a-link">Sea Dragon</a>:',
+				class:'miniheader inlineblock',
+				items:[
+				['Sour Apple', '$fromStats']
+				]
+				},
+				{
+				header:'From <a is="a-link">Brine Serpent</a>:',
 				class:'miniheader inlineblock',
 				items:[
 				['Splashid', '$fromStats']
@@ -70,34 +90,27 @@
 				]
 				},
 				{
+				header:'From <a is="a-link">King Crab</a>:',
+				class:'miniheader inlineblock',
+				items:[
+				['Old Brine Rock', '$fromStats']
+				]
+				},
+				{
 				header:'From <a is="a-link">Mildew Creeper</a>:',
 				class:'miniheader inlineblock',
 				items:[
 				['Mildew', '§ModImage§/Tiles/Brine/Mildew_Item'],
+				['Mildew Heart', '$fromStats'],
 				['Mildew Whip', '$fromStats']
 				]
 				},
 				{
-				header:'From <a is="a-link">Lost Diver</a>:',
-				class:'miniheader',
-				items:[
-				['Boat Rocker', '$fromStats'],
-				['Cavitation Cannon', '$fromStats'],
-				['Depth Charge', '$fromStats'],
-				['Lost Diver Head', '$fromStats'],
-				['Lost Diver Trophy', '$fromStats'],
-				['Treasure Bag', '§ModImage§/Items/Other/LootBags/Lost_Diver_Bag', 'Treasure_Bag.html', 'in Expert Mode'],
-				['Retaliatory Tendril', '$fromStats', '', '(from treasure bag)'],
-				['Lost Diver Relic', '§ModImage§/Tiles/BossDrops/Lost_Diver_Relic_Item', 'in Master Mode'],
-				['Mildewy Diving Helmet', '$fromStats', '', 'in Master Mode'],
-				['Wet Wood', '$fromStats', '', 'in Master Mode']
-				]
-				},
-				{
-				header:'From <a is="a-link">Peat Lobber</a>:',
+				header:'From <a is="a-link">Nasty Crawdad</a>:',
 				class:'miniheader inlineblock',
 				items:[
-				['Peat Moss', '$fromStats']
+				['Crawdaddy\'s Revenge', '$fromStats'],
+				['Grenade Lawnchair', '$fromStats']
 				]
 				},
 				{
@@ -108,10 +121,38 @@
 				]
 				},
 				{
+				header:'From <a is="a-link">Shotgunfish</a>:',
+				class:'miniheader inlineblock',
+				items:[
+				['Peat Moss', '$fromStats']
+				]
+				},
+				{
+				header:'From <a is="a-link">Lost Diver</a>:',
+				class:'miniheader',
+				items:[
+				['Boat Rocker', '$fromStats'],
+				['Crown Jewel', '$fromStats'],
+				['Depth Charge', '$fromStats'],
+				['Mildew Whip', '$fromStats'],
+				['Torpedo Tube', '$fromStats'],
+				['Watered-down Keytar', '$fromStats'],
+				['Lost Diver Helmet', '$fromStats', 'Lost_Diver_Set.html'],
+				['Lost Diver Shirt', '$fromStats', 'Lost_Diver_Set.html'],
+				['Lost Diver Pants', '$fromStats', 'Lost_Diver_Set.html'],
+				['Lost Diver Trophy', '$fromStats'],
+				['Treasure Bag', '§ModImage§/Items/Other/LootBags/Lost_Diver_Bag', 'Treasure_Bag.html', 'in <a is="a-link" href="https://terraria.wiki.gg/wiki/Expert_Mode">Expert Mode</a>'],
+				['Retaliatory Tendril', '$fromStats', 'Treasure_Bag.html', '(from treasure bag)'],
+				['Lost Diver Relic', '§ModImage§/Tiles/BossDrops/Lost_Diver_Relic_Item', 'Relics.html', 'in <a is="a-link" href="https://terraria.wiki.gg/wiki/Master_Mode">Master Mode</a>'],
+				['Faith Beads', '$fromStats', '', 'in <a is="a-link" href="https://terraria.wiki.gg/wiki/Master_Mode">Master Mode</a>'],
+				['Wet Wood', '$fromStats', '', 'in <a is="a-link" href="https://terraria.wiki.gg/wiki/Master_Mode">Master Mode</a>']
+				]
+				},
+				{
 				header:'From <a is="a-link" href="https://terraria.wiki.gg/wiki/Plants">vegetation</a>:',
 				class:'miniheader',
 				items:[
-				['Brine-Leafed Clover', '§ModImage§/Items/Accessories/Brine_Leafed_Clover', 'Brine_Leafed_Clover'],
+				['Brine-Leafed Clover', '§ModImage§/Items/Accessories/Brine_Leafed_Clover'],
 				['Brineglow', '$fromStats']
 				]
 				},
@@ -129,15 +170,25 @@
 				class:'miniheader',
 				items:[
 				['<b>Hardmode:</b>', '', 'https://terraria.wiki.gg/wiki/Hardmode'],
-				['Residual Crate', '§ModImage§/Items/Other/Fish/Residual_Crate']
+				['Basic Crate', '$fromStats'],
+				['Toadfish', '$fromStats'],
+				]
+				},
+				{
+				header:'From <a is="a-link" href="https://terraria.wiki.gg/wiki/Angler#Quest_list">Angler Quests</a>:',
+				class:'miniheader',
+				items:[
+				['Bobbit Worm', '$fromStats']
 				]
 				}
 				]
 				},
+				
 				{
 				header:'Music',
 				items:[
-				['Music Box (Brine Pool)', '§ModImage§/Tiles/MusicBoxes/Music_Box_BP_Item', 'Music_Boxes.html']
+				['Music Box (Brine Pool Vol. 1)', '§ModImage§/Tiles/MusicBoxes/Music_Box_BP_Item', 'Music_Boxes.html'],
+				['Music Box (Brine Pool Vol. 2)', '§ModImage§/Tiles/MusicBoxes/Music_Box_BP2_Item', 'Music_Boxes.html']
 				]
 				}
 				</a-biomecontents>
@@ -156,7 +207,24 @@
 					Additionally, <a is="a-link">Brineglow</a> vines will generate from the ceiling of each cell and illuminate a small area around them.
 					Some veins of <a is="a-link">Mildew</a> will appear within Baryte as well, and spread along it serving as a miniature <a is="a-link" href="https://terraria.wiki.gg/wiki/Evil_biomes">world evil</a> for the Brine Pool.
 					It can be cleansed using <a is="a-link" href="https://terraria.wiki.gg/wiki/Thrown_Powder">Purification Powder</a>.
-					Lastly, <a is="a-link" href="Geyser_Core.html">Geyser Cores</a> will generate in Baryte extensions within some cells to emit hydrothermal waste.
+					Lastly, Hydrothermal Vents and Venus Coral will spawn in cells to add additional hazards for the player to avoid.
+				</p>
+			</details>
+
+			<details class="section" id="Notes" open>
+				<summary>Notes<span class="divider"></span></summary>
+				<a-img src="Images/Food_Chain.png" style="width:194px;">Brine Pool food chain</a-img>
+				<p>
+					 - Enemies in the Brine Pool (with the exception of <a is="a-link" href="Leaf_Snapper.html">Leaf Snappers</a>) are able to attack prey and predator alike as the Brine Pool has its very own food chain.
+					 Despite how tough Brine Pool enemies are, they often attack each other which could leave them weakened for the player to finish them off.
+				</p>
+			</details>
+
+			<details class="section" id="Tips" open>
+				<summary>Tips<span class="divider"></span></summary>
+				<p>
+					 - When swimming in the Brine Pool, it is recommended to use <a is="a-link" href="Antisolve_Potion.html">Antisolve Potions</a> and <a is="a-link" href="Skimswim_Potion.html">Skimswim Potions</a>.
+					 Antisolve Potions can prevent you from receiving Toxic Shock while Skimswim Potions prevent you from generating ripples.
 				</p>
 			</details>
 

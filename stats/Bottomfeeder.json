@@ -8,8 +8,7 @@
   "Defense": 7,
   "Immunities": [
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
-    "<a is=a-link image=$fromStats>Torn</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>Torn</a>"
   ],
   "Coins": 500.0,
   "Drops": [],
@@ -25,6 +24,10 @@
     "Coins": 1250.0,
     "Drops": []
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blood_Moon\">Blood Moon</a>"
+  ],
+  "BestiaryQuotation": "Goldfish naturally evolve into dangerous, insolveable carnivores in the Riven Hive which is only further catalyzed by the Blood Moon.",
   "SpriteWidth": 38,
   "InternalName": "Bottomfeeder"
 }

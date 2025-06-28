@@ -1,0 +1,20 @@
+{
+  "Name": "Boulder Mimic Banner",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    3
+  ],
+  "UseTime": 10,
+  "Tooltip": "Nearby players get a bonus against: Boulder Mimic",
+  "Rarity": "Blue",
+  "SpriteWidth": 12,
+  "InternalName": "Boulder_Mimic_Banner_Item",
+  "Images": [
+    "§ModImage§/Tiles/Banners/Boulder_Mimic_Banner_Item",
+    "Tiles/Boulder_Mimic_Banner"
+  ]
+}

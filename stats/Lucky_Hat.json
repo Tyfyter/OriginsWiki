@@ -1,0 +1,45 @@
+{
+  "Name": "Lucky Hat",
+  "Types": [
+    "Item",
+    "Armor",
+    "Tile"
+  ],
+  "PlacementSize": [
+    2,
+    1
+  ],
+  "Defense": 3,
+  "ArmorSlot": "Helmet",
+  "UseTime": 12,
+  "Tooltip": [
+    "+8% ranged and explosive critical strike chance",
+    "'The Western look goes well with anything you wear!'"
+  ],
+  "Rarity": "Blue",
+  "Sell": 50000,
+  "Source": "(8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Leather\">Leather</a> + (3) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> +  <a is=a-link image=$fromStats imageOnly>Ocotillo Flower</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lucky Hat</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Leather\">Leather</a> (8)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a> (3)",
+            "<a is=a-link image=$fromStats>Ocotillo Flower</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Lucky_Hat",
+  "Images": [
+    "§ModImage§/Items/Armor/Other/Lucky_Hat",
+    "Tiles/Lucky_Hat"
+  ]
+}

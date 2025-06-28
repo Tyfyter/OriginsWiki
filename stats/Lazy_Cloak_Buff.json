@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Lazy_Cloak_Buff",
   "Name": "Lazy Cloak",
   "Types": [
-    "Buff"
+    "Buff",
+    "EquipmentBuff"
   ],
   "Tooltip": [
     "Your cloak will fight for you"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Lazy Cloak</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Lazy_Cloak_Buff"

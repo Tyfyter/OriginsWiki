@@ -1,0 +1,55 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Full_Send",
+  "Name": "Full Send",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Allows the holder to perform a glitchy double jump",
+    "Increases jump height but doesn't negate fall damage",
+    "86% of fall damage is instead directed towards three nearby enemies"
+  ],
+  "Rarity": "Orange",
+  "Sell": 18500,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon\">Blue Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Return To Sender</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Yellow_Horseshoe_Balloon\">Yellow Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Return To Sender</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/White_Horseshoe_Balloon\">White Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Return To Sender</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)<div class=divider></div> <a is=a-link href=\"https://terraria.wiki.gg/wiki/Green_Horseshoe_Balloon\">Green Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Return To Sender</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Full Send</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon\">Blue Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Full Send</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Yellow_Horseshoe_Balloon\">Yellow Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Full Send</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/White_Horseshoe_Balloon\">White Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Full Send</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Green_Horseshoe_Balloon\">Green Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Return To Sender</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Full_Send"
+}

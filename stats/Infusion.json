@@ -3,6 +3,7 @@
   "Name": "Infusion",
   "Types": [
     "Item",
+    "Lore",
     "MagicGun",
     "Weapon"
   ],
@@ -20,21 +21,21 @@
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
-      "Rate": 0.02631579,
+      "Rate": 0.022727273,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
-      "Rate": 0.02631579,
+      "Rate": 0.022727273,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
-      "Rate": 0.02631579,
+      "Rate": 0.022727273,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"

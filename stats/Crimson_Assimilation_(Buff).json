@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Crimson_Assimilation",
+  "Name": "Crimson Assimilation",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "You're being assimilated by the Crimson"
+  ],
+  "Source": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Crimson\">The Crimson</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Crimson_Assimilation"
+}

@@ -1,0 +1,11 @@
+{
+  "Image": "Lunar_Token",
+  "Name": "Lunar Token",
+  "Types": [
+    "Item",
+    "Hardmode"
+  ],
+  "Rarity": "Cyan",
+  "SpriteWidth": 10,
+  "InternalName": "Lunar_Token"
+}

@@ -1,0 +1,65 @@
+{
+  "Image": "Cannihound",
+  "Name": "Cannihound",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 70,
+  "Defense": 6,
+  "KBResist": 0.7,
+  "Coins": 75.0,
+  "Drops": [
+    {
+      "Name": "Vertebra",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Vertebra",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Fresh Meat Artifact",
+      "Chance": "2.5%"
+    }
+  ],
+  "CrimsonAssimilation": 0.04,
+  "Expert": {
+    "MaxLife": 140,
+    "KBResist": 0.73,
+    "Immunities": [],
+    "Coins": 187.0,
+    "Drops": [
+      {
+        "Name": "Vertebra",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vertebra",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fresh Meat Artifact",
+        "Chance": "2.5%"
+      }
+    ],
+    "CrimsonAssimilation": 0.051999997
+  },
+  "Master": {
+    "MaxLife": 210,
+    "KBResist": 0.76,
+    "Immunities": [],
+    "Coins": 187.0,
+    "Drops": [
+      {
+        "Name": "Vertebra",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vertebra",
+        "ImageOverride": ""
+      },
+      {
+        "Name": "Fresh Meat Artifact",
+        "Chance": "2.5%"
+      }
+    ],
+    "CrimsonAssimilation": 0.06
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Crimson\">The Crimson</a>"
+  ],
+  "BestiaryQuotation": "Cannibalistic fiends that are desperate for any kind of meat. They may hunt in packs, but they are more than willing to turn around and make a quick meal out of their own kind. Such is the sad life of a Cannihound.",
+  "SpriteWidth": 82,
+  "InternalName": "Cannihound"
+}

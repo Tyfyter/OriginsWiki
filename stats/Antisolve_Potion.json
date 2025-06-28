@@ -8,7 +8,51 @@
   "Tooltip": "Grants immunity to 'Toxic Shock' and 'Torn'",
   "Rarity": "Blue",
   "Sell": 200,
-  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> + (8) <a is=a-link image=$fromStats imageOnly>Alkaliphiliac Tissue</a> + (10) <a is=a-link image=$fromStats imageOnly>Brineglow</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)",
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a> + (5) <a is=a-link image=$fromStats imageOnly>Brineglow</a> +  <a is=a-link image=$fromStats imageOnly>Toadfish</a> (@ <span style=\"text-align: center;\"><a href=https://terraria.wiki.gg/wiki/Placed_Bottle>Placed Bottle</a> / <a href=https://terraria.wiki.gg/wiki/Alchemy_Table>Alchemy Table</a></span>)<div class=divider></div><a is=a-link image=$fromStats>Basic Crate</a><div class=divider></div><a is=a-link image=$fromStats>Residual Crate</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.25,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
   "Recipes": [
     {
       "stations": [
@@ -19,8 +63,8 @@
           "result": "<a is=a-link image=$fromStats>Antisolve Potion</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
-            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (8)",
-            "<a is=a-link image=$fromStats>Brineglow</a> (10)"
+            "<a is=a-link image=$fromStats>Brineglow</a> (5)",
+            "<a is=a-link image=$fromStats>Toadfish</a>"
           ]
         }
       ]

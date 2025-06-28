@@ -60,6 +60,10 @@
     ],
     "RivenAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>"
+  ],
+  "BestiaryQuotation": "With its viscosity unchanged, it behaves like most slimes... the only difference is that it tends to easily digest whatever it absorbs.",
   "SpriteWidth": 32,
   "InternalName": "Amebic_Slime"
 }

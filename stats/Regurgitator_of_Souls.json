@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Regurgitator_Of_Souls",
+  "Name": "Regurgitator of Souls",
+  "Types": [
+    "Item",
+    "Launcher",
+    "Weapon",
+    "CanisterLauncher"
+  ],
+  "Damage": 26,
+  "DamageClass": "Explosive Ranged",
+  "Knockback": 5.75,
+  "UseTime": 42,
+  "Velocity": 14.0,
+  "Tooltip": "Inflicts Shadefire",
+  "Rarity": "Blue",
+  "Sell": 15000,
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Rotten_Chunk\">Rotten Chunk</a> + (6) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> + (8) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Regurgitator of Souls</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Rotten_Chunk\">Rotten Chunk</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> (6)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 60,
+  "InternalName": "Regurgitator_Of_Souls"
+}

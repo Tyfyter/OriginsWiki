@@ -3,8 +3,9 @@
   "Name": "Splashid",
   "Types": [
     "Item",
+    "Lore",
     "Weapon",
-    "OtherMagic",
+    "Wand",
     "Hardmode"
   ],
   "ManaCost": 18,

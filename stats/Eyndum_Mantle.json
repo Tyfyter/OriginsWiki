@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Eyndum/Eyndum_Breastplate",
+  "Name": "Eyndum Mantle",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 16,
+  "ArmorSlot": "Shirt",
+  "Rarity": "Crimson",
+  "Sell": 200000,
+  "SpriteWidth": 34,
+  "InternalName": "Eyndum_Breastplate"
+}

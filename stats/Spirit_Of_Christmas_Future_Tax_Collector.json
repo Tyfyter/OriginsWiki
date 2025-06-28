@@ -1,0 +1,24 @@
+{
+  "Image": "Spirit_of_Christmas_Future_Tax_Collector",
+  "Name": "Spirit of Christmas Future Tax Collector",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 250,
+  "Defense": 15,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 42,
+  "InternalName": "Spirit_Of_Christmas_Future_Tax_Collector"
+}

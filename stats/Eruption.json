@@ -8,14 +8,13 @@
     "Weapon",
     "CanisterLauncher"
   ],
-  "Damage": 27,
-  "ArmorPenetration": 3,
+  "Damage": 58,
   "DamageClass": "Explosive Ranged",
   "Knockback": 6.0,
   "UseTime": 32,
-  "Velocity": 16.0,
+  "Velocity": 14.5,
   "Rarity": "Orange",
-  "Sell": 5000,
+  "Sell": 10000,
   "Source": "(18) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Hellstone_Bar\">Hellstone Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {

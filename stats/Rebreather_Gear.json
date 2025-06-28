@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Rebreather_Gear",
+  "Name": "Rebreather Gear",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Gain more breath as you move in water",
+    "Extends underwater breathing",
+    "Immunity to 'Suffocation'"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Rebreather</a> +  <a is=a-link image=$fromStats imageOnly>Air Tank</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rebreather Gear</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Rebreather</a>",
+            "<a is=a-link image=$fromStats>Air Tank</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 30,
+  "InternalName": "Rebreather_Gear"
+}

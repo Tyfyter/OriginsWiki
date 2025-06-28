@@ -6,23 +6,26 @@
   ],
   "MaxLife": 300,
   "Defense": 17,
-  "KBResist": 0.5,
   "Coins": 1500.0,
   "Drops": [],
   "Expert": {
     "MaxLife": 600,
-    "KBResist": 0.595,
+    "KBResist": 0.100000024,
     "Immunities": [],
     "Coins": 3750.0,
     "Drops": []
   },
   "Master": {
     "MaxLife": 900,
-    "KBResist": 0.67999995,
+    "KBResist": 0.19999999,
     "Immunities": [],
     "Coins": 3750.0,
     "Drops": []
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Dungeon\">The Dungeon</a>"
+  ],
+  "BestiaryQuotation": "She doesn't look it, but she's actually a really bad joker. Her tagline: \"Somethings are best left ethrealized!\"",
   "SpriteWidth": 32,
   "InternalName": "Etherealizer"
 }

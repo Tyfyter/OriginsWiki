@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Broths/Hearty_Broth_Buff",
+  "Name": "Hearty Broth",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Increases minion speed by 10%",
+    "Increases artifact minion health by 20%"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Hearty Broth</a>"
+  ],
+  "Duration": [
+    "360 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Hearty_Broth_Buff"
+}

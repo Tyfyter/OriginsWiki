@@ -8,8 +8,8 @@
     "Expert"
   ],
   "Tooltip": [
-    "Increases mana shielding by 10%",
-    "Reduces damage taken by 5% if Lost Armor is not equipped"
+    "Increases mana shielding and damage reduction by 10%",
+    "Grants a dash that allows you to glitch through Defiled blocks"
   ],
   "Rarity": "Blue",
   "Sell": 20000,
@@ -53,6 +53,6 @@
       ]
     }
   ],
-  "SpriteWidth": 30,
+  "SpriteWidth": 46,
   "InternalName": "Refactoring_Pieces"
 }

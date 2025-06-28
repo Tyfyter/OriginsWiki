@@ -1,0 +1,21 @@
+{
+  "Image": "§ModImage§/Buffs/Weapon_Imbue_Salt",
+  "Name": "Weapon Imbue: Alkahest",
+  "Types": [
+    "Buff",
+    "Torn",
+    "TornSource",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Melee and whip attacks tenderize targets"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Flask of Alkahest</a>"
+  ],
+  "Duration": [
+    "1200 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Weapon_Imbue_Salt"
+}

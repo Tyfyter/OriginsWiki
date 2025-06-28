@@ -1,0 +1,24 @@
+{
+  "Image": "Slorm",
+  "Name": "Slorm",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "KBResist": 1.0,
+  "Drops": [],
+  "Expert": {
+    "Defense": 0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Defense": 0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 28,
+  "InternalName": "Slime_Worm_Tail"
+}

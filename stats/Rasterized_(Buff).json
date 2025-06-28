@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Buffs/Rasterized_Debuff",
+  "Name": "Rasterized",
+  "Types": [
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff"
+  ],
+  "Tooltip": [
+    "There goes all your bandwidth..."
+  ],
+  "Source": [
+    "<a is=a-link>Defiled Wastelands</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Rasterized_Debuff"
+}

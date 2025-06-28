@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
   "Name": "Spider Ravel",
   "Types": [
-    "Buff"
+    "Buff",
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge. Able to climb different surfaces"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Spider Ravel</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
   "InternalName": "Spider_Ravel_Mount_Buff"

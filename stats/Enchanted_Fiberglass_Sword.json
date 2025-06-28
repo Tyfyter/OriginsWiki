@@ -5,14 +5,8 @@
     "NPC"
   ],
   "MaxLife": 110,
-  "Defense": 28,
   "KBResist": 0.9,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/On_Fire!>On Fire!</a>",
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>"
-  ],
-  "Coins": 400.0,
+  "Coins": 500.0,
   "Drops": [
     {
       "Name": "Broken Fiberglass Sword",
@@ -23,15 +17,27 @@
       "Chance": "4%"
     },
     {
-      "Name": "Silver Coin",
-      "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+      "Name": "Fiberglass Block",
+      "Chance": "10%",
+      "Amount": "3‒8"
+    },
+    {
+      "Name": "Vine",
+      "Chance": "14.286%",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
       "ImageOverride": ""
+    },
+    {
+      "Name": "Fiberglass Shard",
+      "Amount": "1‒7"
     }
   ],
   "Expert": {
     "MaxLife": 220,
-    "KBResist": 0.919,
-    "Coins": 2500.0,
+    "Defense": 0,
+    "KBResist": 0.91,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Broken Fiberglass Sword",
@@ -42,16 +48,28 @@
         "Chance": "4%"
       },
       {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
   "Master": {
     "MaxLife": 330,
-    "KBResist": 0.936,
-    "Coins": 2500.0,
+    "Defense": 0,
+    "KBResist": 0.92,
+    "Immunities": [],
+    "Coins": 1250.0,
     "Drops": [
       {
         "Name": "Broken Fiberglass Sword",
@@ -62,12 +80,26 @@
         "Chance": "4%"
       },
       {
-        "Name": "Silver Coin",
-        "LinkOverride": "https://terraria.wiki.gg/wiki/Silver_Coin",
+        "Name": "Fiberglass Block",
+        "Chance": "10%",
+        "Amount": "3‒8"
+      },
+      {
+        "Name": "Vine",
+        "Chance": "14.286%",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Vine",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Fiberglass Shard",
+        "Amount": "1‒7"
       }
     ]
   },
-  "SpriteWidth": 42,
+  "Environment": [
+    "<a is=a-link image=$fromStats>Fiberglass Undergrowth</a>"
+  ],
+  "BestiaryQuotation": "A sword made of fiberglass enchanted by the spirit of the Undergrowth to protect it from tampering.",
+  "SpriteWidth": 44,
   "InternalName": "Enchanted_Fiberglass_Sword"
 }

@@ -3,11 +3,18 @@
   "Name": "Defiled Amalgamation",
   "Types": [
     "NPC",
-    "Boss"
+    "Boss",
+    "Lore"
   ],
-  "MaxLife": 3100,
-  "Defense": 12,
+  "MaxLife": 3250,
+  "Defense": 14,
   "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
+    "<a is=a-link image=$fromStats>Blind Debuff</a>",
+    "<a is=a-link image=$fromStats>Rasterized</a>",
+    "<a is=a-link image=$fromStats>Liver Failure</a>"
+  ],
   "Coins": 50000.0,
   "Drops": [
     {
@@ -35,23 +42,19 @@
       "Chance": "10%"
     }
   ],
-  "DefiledAssimilation": 0.04,
+  "DefiledAssimilation": 0.05,
   "Expert": {
-    "MaxLife": 4960,
-    "Defense": 13,
-    "Immunities": [],
+    "MaxLife": 5200,
     "Coins": 125000.0,
     "Drops": [
       {
         "Name": "Treasure Bag (Defiled Amalgamation)"
       }
     ],
-    "DefiledAssimilation": 0.051999997
+    "DefiledAssimilation": 0.065
   },
   "Master": {
-    "MaxLife": 7936,
-    "Defense": 15,
-    "Immunities": [],
+    "MaxLife": 8320,
     "Coins": 125000.0,
     "Drops": [
       {
@@ -69,8 +72,12 @@
         "Chance": "25%"
       }
     ],
-    "DefiledAssimilation": 0.06
+    "DefiledAssimilation": 0.075
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
+  "BestiaryQuotation": "A Defiled creature so old every part of it has changed tens of thousands of times. Rightfully so, it is disturbed and even hostile to other Defiled Antibodies.",
   "SpriteWidth": 122,
   "InternalName": "Defiled_Amalgamation"
 }

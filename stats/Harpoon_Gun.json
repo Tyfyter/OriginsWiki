@@ -9,7 +9,7 @@
   "Damage": 24,
   "DamageClass": "Ranged",
   "Knockback": 4.0,
-  "UseTime": 3,
+  "UseTime": 30,
   "Velocity": 14.75,
   "Tooltip": [
     "Uses harpoons as ammo",
@@ -129,7 +129,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -166,7 +165,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

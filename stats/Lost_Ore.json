@@ -101,7 +101,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -168,12 +167,18 @@
           "ingredients": [
             "<a is=a-link image=$fromStats>Lost Ore</a> (3)"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Brick</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Stone</a> (5)",
+            "<a is=a-link image=$fromStats>Lost Ore</a>"
+          ]
         }
       ]
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

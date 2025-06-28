@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Impaled",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.BuffDescription.Impaled_Debuff"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Tyrfing</a>"
+  ],
+  "Duration": [
+    "0.03 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Impaled_Debuff"
+}

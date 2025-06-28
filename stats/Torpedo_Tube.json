@@ -1,0 +1,55 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Torpedo_Tube_Alt",
+  "Name": "Torpedo Tube",
+  "Types": [
+    "Item",
+    "Lore",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
+  ],
+  "Damage": 54,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 44,
+  "Velocity": 8.0,
+  "Tooltip": [
+    "Inflicts Cavitation",
+    "Fires a torpedo that seeks enemies while submerged"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 50000,
+  "Source": "<a is=a-link image=$fromStats>Torpedo Tube</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Torpedo Tube</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Torpedo Tube</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Torpedo Tube</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Torpedo Tube</a>",
+            "<a is=a-link image=$fromStats>Mildew Block</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 56,
+  "InternalName": "Torpedo_Tube_Alt"
+}

@@ -1,0 +1,43 @@
+{
+  "Image": "§ModImage§/Walls/Lost_Brick_Wall_Item",
+  "Name": "Lost Brick Wall",
+  "Types": [
+    "Item",
+    "Wall"
+  ],
+  "UseTime": 7,
+  "Rarity": "White",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Lost Brick</a> (@ <a is=a-link href=Work_Benches>Work Bench</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Brick Wall</a> (4)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Brick</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Work_Benches>Work Bench</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Brick</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Lost Brick Wall</a> (4)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Lost_Brick_Wall_Item"
+}

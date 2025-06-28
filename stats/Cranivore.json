@@ -14,12 +14,16 @@
       "Chance": "33.333%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
       "ImageOverride": ""
+    },
+    {
+      "Name": "Cranivore Beanie",
+      "Chance": "6.667%"
     }
   ],
-  "CorruptionAssimilation": 0.03,
+  "CorruptAssimilation": 0.03,
   "Expert": {
     "MaxLife": 56,
-    "KBResist": 0.35200006,
+    "KBResist": 0.28000003,
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
@@ -28,13 +32,17 @@
         "Chance": "33.333%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Cranivore Beanie",
+        "Chance": "6.667%"
       }
     ],
-    "CorruptionAssimilation": 0.038999997
+    "CorruptAssimilation": 0.038999997
   },
   "Master": {
     "MaxLife": 84,
-    "KBResist": 0.48799998,
+    "KBResist": 0.35999995,
     "Immunities": [],
     "Coins": 140.0,
     "Drops": [
@@ -43,10 +51,18 @@
         "Chance": "33.333%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Rotten_Chunk",
         "ImageOverride": ""
+      },
+      {
+        "Name": "Cranivore Beanie",
+        "Chance": "6.667%"
       }
     ],
-    "CorruptionAssimilation": 0.044999998
+    "CorruptAssimilation": 0.044999998
   },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/The_Corruption\">The Corruption</a>"
+  ],
+  "BestiaryQuotation": "An uncommon lifeform known to be in the second stage of the Eater life cycle. This creature prefers to start its meals by the head.",
   "SpriteWidth": 18,
   "InternalName": "Cranivore"
 }

@@ -1,0 +1,29 @@
+{
+  "Image": "Airsnatcher",
+  "Name": "Airsnatcher",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 300,
+  "Defense": 50,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "These intriguing plants disguised as baryte trap extremophile bacteria on which they feed on by collecting the nutrients generated from hydrothermal vents and release excess air.",
+  "SpriteWidth": 38,
+  "InternalName": "Airsnatcher"
+}

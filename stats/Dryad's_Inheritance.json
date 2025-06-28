@@ -11,7 +11,8 @@
   "Tooltip": [
     "5% increased damage",
     "Increases damage, movement speed, and length of invincibility after taking damage",
-    "Emit a damaging aura that inflicts poison"
+    "Emit a damaging aura that inflicts poison",
+    "Summons spores over time that will damage enemies"
   ],
   "Rarity": "Lime",
   "Sell": 80000,

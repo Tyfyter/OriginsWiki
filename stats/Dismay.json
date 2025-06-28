@@ -3,6 +3,7 @@
   "Name": "Dismay",
   "Types": [
     "Item",
+    "Lore",
     "UsesBookcase",
     "SpellBook",
     "Weapon",

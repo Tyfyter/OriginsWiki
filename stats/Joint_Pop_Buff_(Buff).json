@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_160",
+  "Name": "Joint Pop Buff",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Joint_Pop_Buff.Description"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Joint Pop</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Joint_Pop_Buff"
+}

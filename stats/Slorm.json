@@ -1,0 +1,31 @@
+{
+  "Image": "§ModImage§/UI/Slime_Worm_Preview",
+  "Name": "Slorm",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 50,
+  "Defense": 7,
+  "KBResist": 1.0,
+  "Coins": 70.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 100,
+    "Immunities": [],
+    "Coins": 175.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 150,
+    "Immunities": [],
+    "Coins": 175.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Slime_Rain\">Slime Rain</a>",
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Underground\">Underground</a>"
+  ],
+  "BestiaryQuotation": "What's better than one slime? Multiple slimes stacked on top of each other! What's better than multiple slimes stacked on top of each other? A SLIME WORM!",
+  "SpriteWidth": 108,
+  "InternalName": "Slime_Worm_Head"
+}

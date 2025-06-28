@@ -1,0 +1,28 @@
+{
+  "Image": "Spirit_of_Christmas_Present",
+  "Name": "Spirit of Christmas Present",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 200,
+  "Defense": 15,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Christmas\">Christmas</a>"
+  ],
+  "BestiaryQuotation": "This one's presence often instills those to reflect upon how they are to their most present self.",
+  "SpriteWidth": 42,
+  "InternalName": "Spirit_Of_Christmas_Present"
+}

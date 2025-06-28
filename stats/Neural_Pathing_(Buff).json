@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Neural_Network",
+  "Name": "Neural Pathing",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Don't miss."
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Neural Network</a>"
+  ],
+  "Duration": [
+    "0.83 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Neural_Network_Buff"
+}

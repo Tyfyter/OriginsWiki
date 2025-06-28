@@ -8,6 +8,23 @@
   "ArmorSlot": "Pants",
   "Tooltip": "Quite fashionable",
   "Rarity": "Green",
+  "Source": "(20) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> + (2) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Sunflower\">Sunflower</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Loom\">Loom</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Loom\">Loom</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Sunflower Sandals</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Silk\">Silk</a> (20)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sunflower\">Sunflower</a> (2)"
+          ]
+        }
+      ]
+    }
+  ],
   "SpriteWidth": 28,
   "InternalName": "Sunflower_Sandal"
 }

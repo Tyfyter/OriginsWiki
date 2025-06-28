@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Indestructible_Saddle_Mount_Cooldown",
+  "Name": "Rowdy Rocket Cooldown",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Can't use the Indestructible Saddle"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Indestructible Saddle<note>(When Dismounting)</note></a>"
+  ],
+  "Duration": [
+    "1 seconds - 9 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Indestructible_Saddle_Mount_Cooldown"
+}

@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Torn_Debuff",
+  "Name": "Torn",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "Your max life has been reduced!"
+  ],
+  "Source": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Riven_Hive\">Riven Hive</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Torn_Decay_Debuff"
+}

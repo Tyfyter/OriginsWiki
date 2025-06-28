@@ -1,7 +1,8 @@
 {
     "Abysswalker_Helmet":"Abysswalker_Armor",
     "Abysswalker_Breastplate":"Abysswalker_Armor",
-    "Abysswalker_Greaves":"Abysswalker_Armor",
+  "Abysswalker_Greaves": "Abysswalker_Armor",
+    "Acrid_Visor":  "Acrid_Armor",
     "Acrid_Helmet":"Acrid_Armor",
     "Acrid_Headgear":"Acrid_Armor",
     "Acrid_Mask":"Acrid_Armor",
@@ -117,5 +118,18 @@
     "Treasure_Bag_(Quantux)":"Treasure_Bags",
     "Treasure_Bag_(Scrapper)":"Treasure_Bags",
     "Treasure_Bag_(Severus)":"Treasure_Bags",
-    "Treasure_Bag_(World_Cracker)":"Treasure_Bags"
+    "Treasure_Bag_(World_Cracker)":"Treasure_Bags",
+    "Riven_Desert":"Riven_Hive",
+    "Underground_Riven_Desert":"Riven_Hive",
+    "Underground_Defiled_Wastelands":"Defiled_Caverns",
+    "Defiled_Ice":"Defiled_Wastelands",
+    "Riven_Ice":"Riven_Hive",
+    "Defiled_Wastelands_Ocean":"Defiled_Wastelands",
+    "Defiled_Desert":"Defiled_Wastelands",
+    "Underground_Defiled_Desert":"Defiled_Wastelands",
+    "Static_Shock": "Static_Shock_(Buff)",
+    "Switchblade_Shortsword": "Switchblade",
+    "Vorpal_Sword_(Cursed)":  "Vorpal_Sword",
+    "Outreach": "Soldering_Iron",
+    "Mildew_Carrion": "Lost_Diver" 
 }

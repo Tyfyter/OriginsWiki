@@ -3,6 +3,7 @@
   "Name": "Fleshy Figurine",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "Torn",
     "TornSource",

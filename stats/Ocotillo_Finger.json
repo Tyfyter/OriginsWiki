@@ -1,0 +1,23 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Ocotillo_Finger",
+  "Name": "Ocotillo Finger",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Whip"
+  ],
+  "Damage": 16,
+  "DamageClass": "Summon",
+  "Knockback": 1.5,
+  "UseTime": 30,
+  "Velocity": 4.0,
+  "Tooltip": [
+    "Has a chance to inflict Bleeding",
+    "2 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "Blue",
+  "Sell": 20000,
+  "SpriteWidth": 26,
+  "InternalName": "Ocotillo_Finger"
+}

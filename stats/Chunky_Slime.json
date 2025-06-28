@@ -6,9 +6,6 @@
   ],
   "MaxLife": 60,
   "Defense": 6,
-  "Immunities": [
-    "<a is=a-link href=https://terraria.wiki.gg/wiki/Poisoned>Poisoned</a>"
-  ],
   "Coins": 40.0,
   "Drops": [
     {
@@ -18,10 +15,11 @@
       "ImageOverride": ""
     }
   ],
-  "DefiledAssimilation": 0.05,
+  "DefiledAssimilation": 0.01,
   "Expert": {
     "MaxLife": 120,
-    "KBResist": 0.19000006,
+    "KBResist": 0.100000024,
+    "Immunities": [],
     "Coins": 100.0,
     "Drops": [
       {
@@ -31,11 +29,12 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.065
+    "DefiledAssimilation": 0.012999999
   },
   "Master": {
     "MaxLife": 180,
-    "KBResist": 0.35999995,
+    "KBResist": 0.19999999,
+    "Immunities": [],
     "Coins": 100.0,
     "Drops": [
       {
@@ -45,8 +44,13 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.075
+    "DefiledAssimilation": 0.015
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>",
+    "<a is=a-link image=$fromStats>Underground Defiled Wastelands</a>"
+  ],
+  "BestiaryQuotation": "A slime desaturated of its color due to contact with black bile. It now spends the rest of its days to the Defiled will.",
   "SpriteWidth": 32,
   "InternalName": "Chunky_Slime"
 }

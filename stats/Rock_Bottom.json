@@ -1,0 +1,24 @@
+{
+  "Image": "Rock_Bottom",
+  "Name": "Rock Bottom",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 1800,
+  "Defense": 24,
+  "KBResist": 1.0,
+  "Immunities": [
+    "All <a is=a-link>debuffs</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 62,
+  "InternalName": "Rock_Bottom"
+}

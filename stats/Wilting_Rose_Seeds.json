@@ -1,0 +1,19 @@
+{
+  "Name": "Wilting Rose Seeds",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 22,
+  "InternalName": "Wilting_Rose_Seeds",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Wilting_Rose_Seeds",
+    "Tiles/Wilting_Rose_Seeds"
+  ]
+}

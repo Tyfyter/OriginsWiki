@@ -7,10 +7,10 @@
     "Gun",
     "Hardmode"
   ],
-  "Damage": 72,
+  "Damage": 58,
   "DamageClass": "Ranged",
   "Knockback": 7.75,
-  "Crit": 20,
+  "Crit": 15,
   "UseTime": 23,
   "Velocity": 8.0,
   "Tooltip": [
@@ -18,7 +18,7 @@
     "Deals critical damage on otherwise afflicted enemies"
   ],
   "Rarity": "LightRed",
-  "Sell": 5000,
+  "Sell": 50000,
   "Source": "(26) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
   "Recipes": [
     {

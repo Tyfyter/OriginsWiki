@@ -1,0 +1,52 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Golden_Lotus",
+  "Name": "Golden Lotus",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Increases pickup range for items",
+    "Press <key> to enable/disable loot search",
+    "Press <key> over discovered loot to have a golden fairy bring it to you"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 40000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Magnet\">Treasure Magnet</a> +  <a is=a-link image=$fromStats imageOnly>Fairy Lotus</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Golden Lotus</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Magnet\">Treasure Magnet</a>",
+            "<a is=a-link image=$fromStats>Fairy Lotus</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Power Lotus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Golden Lotus</a>",
+            "<a is=a-link image=$fromStats>Handy Helper</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Golden_Lotus"
+}

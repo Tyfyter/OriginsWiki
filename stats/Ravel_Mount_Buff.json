@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Ravel_Generic_Buff",
   "Name": "Ravel",
   "Types": [
-    "Buff"
+    "Buff",
+    "MountBuff"
   ],
   "Tooltip": [
     "10% chance to dodge"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Ravel</a>"
+  ],
+  "Duration": [
+    "Infinite"
   ],
   "SpriteWidth": 32,
   "InternalName": "Ravel_Mount_Buff"

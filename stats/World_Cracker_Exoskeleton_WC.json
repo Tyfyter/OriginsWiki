@@ -1,0 +1,31 @@
+{
+  "Image": "Flying_Exoskeleton",
+  "Name": "Flying Exoskeleton",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 15,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Torn</a>"
+  ],
+  "Drops": [],
+  "RivenAssimilation": 0.03,
+  "Expert": {
+    "MaxLife": 30,
+    "Defense": 0,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.038999997
+  },
+  "Master": {
+    "MaxLife": 45,
+    "Defense": 0,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [],
+    "RivenAssimilation": 0.044999998
+  },
+  "SpriteWidth": 50,
+  "InternalName": "World_Cracker_Exoskeleton_WC"
+}

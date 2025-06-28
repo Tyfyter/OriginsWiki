@@ -6,7 +6,7 @@
     "Accessory",
     "Master"
   ],
-  "Damage": 12,
+  "Damage": 9,
   "DamageClass": "Summon",
   "Knockback": 2.0,
   "UseTime": 45,

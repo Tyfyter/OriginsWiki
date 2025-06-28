@@ -9,7 +9,7 @@
   "ArmorSlot": "Helmet",
   "Tooltip": "5% increased critical strike chance",
   "Rarity": "Blue",
-  "Sell": 3000,
+  "Sell": 60,
   "Source": "(10) <a is=a-link image=$fromStats imageOnly>Rubber</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [
     {

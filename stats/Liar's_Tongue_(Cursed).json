@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Liars_Tongue",
+  "Name": "Liar's Tongue",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "ManaCost": 140,
+  "Damage": 76,
+  "DamageClass": "Melee",
+  "Knockback": 7.0,
+  "UseTime": 900,
+  "Velocity": 4.0,
+  "Rarity": "Cursed",
+  "Sell": 50000,
+  "SpriteWidth": 32,
+  "InternalName": "Liars_Tongue"
+}

@@ -1,0 +1,38 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Ranged/Sixth_Spline",
+  "Name": "Fifth Spline",
+  "Types": [
+    "Item",
+    "Lore",
+    "Gun",
+    "Weapon",
+    "Hardmode"
+  ],
+  "Damage": 60,
+  "DamageClass": "Ranged",
+  "Crit": 0,
+  "UseTime": 10,
+  "Velocity": 5.0,
+  "Tooltip": "Go nuts! This thing is really nutty firing all those nuts and bolts",
+  "Rarity": "LightRed",
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Adamantite_Bar\">Adamantite Bar</a> + (18) <a is=a-link image=$fromStats imageOnly>Respyrite</a> + (12) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Fifth Spline</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/AdamantiteBar\" href=Recipe_Groups>Any Adamantite Bar</a> (10)",
+            "<a is=a-link image=$fromStats>Respyrite</a> (18)",
+            "<a is=a-link image=$fromStats>Scrap</a> (12)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 52,
+  "InternalName": "Sixth_Spline"
+}

@@ -29,14 +29,16 @@
       "Rate": 0.025,
       "Max": 1,
       "Min": 1,
-      "Difficulty": "Expert"
+      "Difficulty": "Expert",
+      "Notes": ", "
     },
     {
       "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
       "Rate": 0.025,
       "Max": 1,
       "Min": 1,
-      "Difficulty": "Master"
+      "Difficulty": "Master",
+      "Notes": ", "
     }
   ],
   "SpriteWidth": 32,

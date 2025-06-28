@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Shotgun_Glove",
+  "Name": "Shotgun Glove",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory"
+  ],
+  "Damage": 10,
+  "DamageClass": "Ranged",
+  "UseTime": 10,
+  "Velocity": 5.0,
+  "Tooltip": "Shoots as you swing",
+  "Rarity": "Green",
+  "Sell": 20000,
+  "SpriteWidth": 24,
+  "InternalName": "Shotgun_Glove"
+}

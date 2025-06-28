@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Fresh_Meat_Buff",
+  "Name": "Meat Doggin'",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "Wut de dog doin'"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Fresh Meat Artifact</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Fresh_Meat_Buff"
+}

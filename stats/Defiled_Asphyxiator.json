@@ -12,35 +12,66 @@
     {
       "Name": "Black Bile",
       "Amount": "1‒3"
+    },
+    {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "12.5%",
+      "Amount": "2‒5"
     }
   ],
-  "DefiledAssimilation": 0.11,
+  "DefiledAssimilation": 0.04,
   "Expert": {
     "MaxLife": 950,
-    "KBResist": 0.595,
+    "KBResist": 0.55,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
       {
         "Name": "Black Bile",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
       }
     ],
-    "DefiledAssimilation": 0.14299999
+    "DefiledAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 1425,
-    "KBResist": 0.67999995,
+    "KBResist": 0.6,
     "Immunities": [],
     "Coins": 5750.0,
     "Drops": [
       {
         "Name": "Black Bile",
         "Amount": "1‒3"
+      },
+      {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "12.5%",
+        "Amount": "2‒5"
       }
     ],
-    "DefiledAssimilation": 0.16499999
+    "DefiledAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
+  "BestiaryQuotation": "The Asphyxiators are one of the Defiled's nastiest machinations, capable of wiping out anyone or anything not meant to be in its waters.",
   "SpriteWidth": 92,
   "InternalName": "Defiled_Asphyxiator"
 }

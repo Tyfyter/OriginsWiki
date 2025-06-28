@@ -1,0 +1,118 @@
+{
+  "Image": "Sour_Apple",
+  "Name": "Sour Apple",
+  "Types": [
+    "Item",
+    "Food"
+  ],
+  "UseTime": 17,
+  "Tooltip": "Medium improvements to all stats",
+  "Rarity": "Blue",
+  "Sell": 400,
+  "Source": "<a is=a-link image=$fromStats>Basic Crate</a><div class=divider></div><a is=a-link image=$fromStats>Residual Crate</a><div class=divider></div><a is=a-link image=$fromStats>Sea Dragon</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.125,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert",
+      "Notes": ", , "
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 0.025,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": ", , "
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Cooking_Pot\">Cooking Pot</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fruit_Juice\">Fruit Juice</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Apple\" href=Recipe_Groups>Any Fruit</a> (2)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottle\">Bottle</a>"
+          ]
+        },
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fruit_Salad\">Fruit Salad</a>",
+          "ingredients": [
+            "<a is=a-link image=\"RecipeGroups/Apple\" href=Recipe_Groups>Any Fruit</a> (3)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bowl\">Bowl</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Ambrosia\">Ambrosia</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Sour Apple</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 24,
+  "InternalName": "Sour_Apple"
+}

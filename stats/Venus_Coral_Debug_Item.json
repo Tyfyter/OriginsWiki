@@ -1,0 +1,19 @@
+{
+  "Name": "Venus Coral Debug Item",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 234,
+  "InternalName": "Venus_Coral_Debug_Item",
+  "Images": [
+    "§ModImage§/Tiles/Brine/Venus_Coral",
+    "Tiles/Venus_Coral_Debug_Item"
+  ]
+}

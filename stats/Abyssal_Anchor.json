@@ -10,20 +10,15 @@
     "Hardmode"
   ],
   "Tooltip": [
-    "+15% melee speed",
-    "+10% generic damage",
-    "+5% magic damage",
-    "+4% critical strike chance",
-    "+4 HP/s life regeneration",
-    "+20 mana",
-    "+8 defense",
-    "+5% damage reduction",
+    "Increase to damage, melee speed, mana,",
+    "critical strike chance, life regeneration,",
+    "defense, mining speed, damage reduction ",
+    "and minion knockback",
     "+25% mana shielding",
-    "+25% mining speed",
-    "+1 minion knockback",
     "Increased pick-up range for stars",
-    "-25% movement speed",
-    "-40% jump speed"
+    "-25% movement speed and -40% jump speed",
+    "Allows you to fall faster through liquids",
+    "Grants a dash that allows you to glitch through Defiled blocks"
   ],
   "Rarity": "Yellow",
   "Sell": 120000,

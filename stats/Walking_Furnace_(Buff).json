@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Walking_Furnace_Buff",
+  "Name": "Walking Furnace",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The walking furnace will light your way"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Smith's Hammer</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Walking_Furnace_Buff"
+}

@@ -1,0 +1,55 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Mildew_Whip",
+  "Name": "Mildew Whip",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Whip",
+    "Hardmode"
+  ],
+  "Damage": 46,
+  "DamageClass": "Summon",
+  "Knockback": 5.0,
+  "UseTime": 26,
+  "Velocity": 4.0,
+  "Tooltip": [
+    "Has a chance to inflict Toxic Shock",
+    "7 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "Pink",
+  "Sell": 20000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a><div class=divider></div><a is=a-link image=$fromStats>Mildew Carrion</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Lost Diver)</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 0.2,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Mildew_Whip"
+}

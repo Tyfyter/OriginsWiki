@@ -63,6 +63,20 @@
           ]
         }
       ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Power Lotus</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Golden Lotus</a>",
+            "<a is=a-link image=$fromStats>Handy Helper</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 26,

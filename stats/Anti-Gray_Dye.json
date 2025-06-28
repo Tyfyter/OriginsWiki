@@ -1,0 +1,28 @@
+{
+  "Image": "§ModImage§/Items/Other/Dyes/Anti_Gray_Dye",
+  "Name": "Anti-Gray Dye",
+  "Types": [
+    "Item",
+    "SpecialEffectDye"
+  ],
+  "Rarity": "Blue",
+  "Sell": 2000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Tangela Bud</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dye_Vat\">Dye Vat</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dye_Vat\">Dye Vat</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Anti-Gray Dye</a> (2)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Tangela Bud</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 16,
+  "InternalName": "Anti_Gray_Dye"
+}

@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Items/Other/Consumables/Broths/Foul_Broth_Buff",
+  "Name": "Foul Broth",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Increases minion damage by 50%",
+    "Reduces minion speed by 25%"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Foul Broth</a>"
+  ],
+  "Duration": [
+    "360 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Foul_Broth_Buff"
+}

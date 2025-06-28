@@ -1,0 +1,51 @@
+{
+  "Name": "Fiberglass Weaver Trophy",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    3
+  ],
+  "UseTime": 10,
+  "Rarity": "Blue",
+  "Sell": 10000,
+  "Source": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a><div class=divider></div><a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Treasure Bag (Fiberglass Weaver)</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Fiberglass Weaver</a>",
+      "Rate": 0.1,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Fiberglass_Weaver_Trophy_Item",
+  "Images": [
+    "§ModImage§/Tiles/BossDrops/Fiberglass_Weaver_Trophy_Item",
+    "Tiles/Fiberglass_Weaver_Trophy"
+  ]
+}

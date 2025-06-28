@@ -1,8 +1,9 @@
 {
-  "Image": "Savage_Whip",
+  "Image": "§ModImage§/UI/Savage_Whip_Preview",
   "Name": "Savage Whip",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 200,
   "Defense": 18,
@@ -13,7 +14,7 @@
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>",
     "<a is=a-link href=https://terraria.wiki.gg/wiki/Hellfire>Hellfire</a>",
     "<a is=a-link image=$fromStats>Torn</a>",
-    "<a is=a-link image=$fromStats>Stunned</a>"
+    "<a is=a-link image=$fromStats>On Even More Fire</a>"
   ],
   "Coins": 1000.0,
   "Drops": [
@@ -50,6 +51,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
+  "BestiaryQuotation": "The Savage Whip cursed by the Primordial Amoeba, now serves to protect the caverns of the Hive from intruders.",
   "SpriteWidth": 48,
   "InternalName": "Savage_Whip"
 }

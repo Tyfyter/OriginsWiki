@@ -11,7 +11,7 @@
   "Damage": 64,
   "DamageClass": "Melee",
   "Knockback": 4.0,
-  "UseTime": 28,
+  "UseTime": 22,
   "Velocity": 5.0,
   "Rarity": "LightRed",
   "Sell": 30000,

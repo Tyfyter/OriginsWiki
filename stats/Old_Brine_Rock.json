@@ -1,0 +1,22 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Old_Brine_Rock",
+  "Name": "Old Brine Rock",
+  "Types": [
+    "Item",
+    "Lore",
+    "Weapon",
+    "Minion",
+    "Hardmode"
+  ],
+  "ManaCost": 38,
+  "Damage": 40,
+  "DamageClass": "Summon",
+  "Knockback": 6.0,
+  "UseTime": 24,
+  "Velocity": 9.0,
+  "Tooltip": "Summons an armed leaf snapper to fight for you",
+  "Rarity": "LightRed",
+  "Sell": 15000,
+  "SpriteWidth": 22,
+  "InternalName": "Old_Brine_Rock"
+}

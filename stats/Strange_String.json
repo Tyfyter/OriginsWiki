@@ -4,9 +4,10 @@
   "Types": [
     "Item"
   ],
+  "Tooltip": "'Involuntary neurectomy'",
   "Rarity": "White",
   "Sell": 2,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Digger</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Ekko</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Squid</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Tripod</a>",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Vertebra\">Vertebra</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Shimmer>Shimmer</a>)<div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Ancient Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Bile Thrower</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Asphyxiator</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Broadcaster</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Krusher</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Cyclops</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Digger</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Phantom</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Squid</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Tripod</a><div class=divider></div><a is=a-link image=$fromStats>Defiled Watcher</a><div class=divider></div><a is=a-link image=$fromStats>Shattered Ghoul</a>",
   "DropSources": [
     {
       "Name": "<a is=a-link image=$fromStats>Ancient Defiled Cyclops</a>",
@@ -51,6 +52,69 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Bile Thrower</a>",
+      "Rate": 1.0,
+      "Max": 2,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
       "Rate": 1.0,
       "Max": 3,
@@ -114,27 +178,6 @@
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-      "Rate": 1.0,
-      "Max": 3,
-      "Min": 1,
-      "Difficulty": "Normal"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-      "Rate": 1.0,
-      "Max": 3,
-      "Min": 1,
-      "Difficulty": "Expert"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-      "Rate": 1.0,
-      "Max": 3,
-      "Min": 1,
-      "Difficulty": "Master"
-    },
-    {
       "Name": "<a is=a-link image=$fromStats>Defiled Phantom</a>",
       "Rate": 1.0,
       "Max": 3,
@@ -192,6 +235,48 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Tripod</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Watcher</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
+      "Rate": 1.0,
+      "Max": 3,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shattered Ghoul</a>",
       "Rate": 1.0,
       "Max": 3,
       "Min": 1,
@@ -201,7 +286,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -313,6 +397,14 @@
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Wooden_Arrow\">Wooden Arrow</a> (5)",
             "<a is=a-link image=$fromStats>Strange String</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Flan</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a> (100)",
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (8)"
+          ]
         }
       ]
     },
@@ -332,7 +424,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

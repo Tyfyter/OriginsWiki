@@ -50,6 +50,13 @@
             "<a is=a-link image=$fromStats>Scrap Barrier</a>",
             "<a is=a-link image=$fromStats>Shield of Retribution</a>"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Venom Shield</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
         }
       ]
     }

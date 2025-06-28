@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_13",
+  "Name": "Swarmed",
+  "Types": [
+    "Buff",
+    "FurnitureBuff"
+  ],
+  "Tooltip": [
+    "Enemy spawn rates increased"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Swarm Statue</a>"
+  ],
+  "Duration": [
+    "0.12 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Swarm_Statue_Buff"
+}

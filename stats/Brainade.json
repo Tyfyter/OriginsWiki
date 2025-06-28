@@ -9,9 +9,11 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 50,
+  "Damage": 32,
+  "ArmorPenetration": 5,
   "DamageClass": "Explosive (thrown)",
   "Knockback": 8.0,
+  "Crit": 8,
   "UseTime": 45,
   "Velocity": 5.5,
   "Tooltip": [

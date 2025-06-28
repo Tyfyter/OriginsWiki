@@ -1,0 +1,19 @@
+{
+  "Image": "Terraria/Images/Buff_35",
+  "Name": "Silenced Debuff",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Mods.Origins.Buffs.Silenced_Debuff.Description"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Forbidden Voice</a>"
+  ],
+  "Duration": [
+    "10 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Silenced_Debuff"
+}

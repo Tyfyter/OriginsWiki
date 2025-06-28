@@ -6,6 +6,51 @@
   ],
   "Rarity": "White",
   "Sell": 30,
+  "Source": "<a is=a-link image=$fromStats>Basic Crate</a><div class=divider></div><a is=a-link image=$fromStats>Residual Crate</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.5,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.5,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Residual Crate</a>",
+      "Rate": 0.5,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Master"
+    }
+  ],
   "UsedIn": [
     {
       "stations": [
@@ -16,8 +61,8 @@
           "result": "<a is=a-link image=$fromStats>Antisolve Potion</a>",
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
-            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (8)",
-            "<a is=a-link image=$fromStats>Brineglow</a> (10)"
+            "<a is=a-link image=$fromStats>Brineglow</a> (5)",
+            "<a is=a-link image=$fromStats>Toadfish</a>"
           ]
         },
         {
@@ -25,7 +70,8 @@
           "ingredients": [
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bottled_Water\">Bottled Water</a>",
             "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Fallen_Star\">Fallen Star</a>",
-            "<a is=a-link image=$fromStats>Brineglow</a>"
+            "<a is=a-link image=$fromStats>Brineglow</a>",
+            "<a is=a-link image=$fromStats>Toadfish</a>"
           ]
         }
       ]
@@ -48,6 +94,29 @@
             "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (38)",
             "<a is=a-link image=$fromStats>Brineglow</a> (12)",
             "<a is=a-link image=$fromStats>Baryte</a> (25)"
+          ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Fumethrower</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Alkaliphiliac Tissue</a> (10)",
+            "<a is=a-link image=$fromStats>Baryte</a> (20)",
+            "<a is=a-link image=$fromStats>Brineglow</a> (8)"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Bookcase\">Bookcase</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Brine Convergence Incantation</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Spell_Tome\">Spell Tome</a>",
+            "<a is=a-link image=$fromStats>Brineglow</a> (5)",
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (8)"
           ]
         }
       ]

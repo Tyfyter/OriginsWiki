@@ -3,6 +3,7 @@
   "Name": "Symbiote Skull",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "Torn",
     "TornSource",

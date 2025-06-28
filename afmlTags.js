@@ -1354,3 +1354,25 @@ class AFMLSourceBlock extends HTMLElement {
 	}
 }
 customElements.define("a-source", AFMLSourceBlock);
+
+class AFMLBestiaryQuote extends HTMLElement {
+	static observedAttributes = ["src"];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+		if (name === 'src') {
+			getStats(newValue.replace(' ', '_')).then((value) => {
+				let name = value["Name"];
+				let quote = value["BestiaryQuotation"];
+				if (quote) {
+					this.innerHTML = `- The <a is=\"a-link\" href=\"https://terraria.wiki.gg/wiki/Bestiary\">Bestiary</a> entry for the ${name}: \"${quote}\"`;
+				} else {
+					this.innerHTML = `- There is no <a is=\"a-link\" href=\"https://terraria.wiki.gg/wiki/Bestiary\">Bestiary</a> entry for the ${name}.`;
+				}
+			});
+		}
+	}
+}
+customElements.define("a-bestiarytrivia", AFMLBestiaryQuote);

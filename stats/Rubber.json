@@ -158,6 +158,13 @@
             "<a is=a-link image=$fromStats>Eitrite Bar</a> (13)",
             "<a is=a-link image=$fromStats>Rubber</a> (10)"
           ]
+        },
+        {
+          "result": "<a is=a-link image=$fromStats>Hydrolantern</a> (8)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a>",
+            "<a is=a-link image=$fromStats>Rubber</a> (8)"
+          ]
         }
       ]
     },
@@ -235,7 +242,7 @@
     {
       "stations": [
         "<a is=a-link href=Work_Benches>Work Bench</a>",
-        "<a is=\"a-link\" image=\"Tiles/Riven_Water\">Riven Water</a>"
+        "<a is=\"a-link\" image=\"Tiles/Riven_Water\" href=\"Riven_Hive.html\">Riven Water</a>"
       ],
       "items": [
         {

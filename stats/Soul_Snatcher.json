@@ -1,0 +1,40 @@
+{
+  "Image": "Soul_Snatcher",
+  "Name": "Soul Snatcher",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Spear"
+  ],
+  "Damage": 22,
+  "DamageClass": "Melee",
+  "Knockback": 4.0,
+  "UseTime": 28,
+  "Velocity": 3.75,
+  "Tooltip": [
+    "Hold Right Click to spin it around",
+    "Becomes empowered after striking enemies, inflicting Shadefire",
+    "Pressing Left Click while empowered and holding Right Click launches it"
+  ],
+  "Rarity": "Blue",
+  "Sell": 3000,
+  "Source": "(9) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> + (5) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Soul Snatcher</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demonite_Bar\">Demonite Bar</a> (9)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Shadow_Scale\">Shadow Scale</a> (5)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 70,
+  "InternalName": "Soul_Snatcher"
+}

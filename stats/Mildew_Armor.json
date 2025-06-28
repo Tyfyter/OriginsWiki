@@ -1,0 +1,18 @@
+{
+  "Types": [
+    "Item",
+    "Armor",
+    "ArmorSet"
+  ],
+  "Name": "Mildew Armor",
+  "WikiName": "Mildew_Armor",
+  "DisplayName": "WikiGenerator.Stats.Origins.Mildew_Armor.DisplayName",
+  "Images": [
+    "ArmorSets/Mildew_Armor",
+    "ArmorSets/Mildew_Armor_Female"
+  ],
+  "Defense": 26,
+  "SetBonus": "Grants immunity to Toxic Shock\nAll minions don mildew growths that inflict Acid Venom\nAll projectiles release mildew vines in their wake that also inflict Acid Venom",
+  "Rarity": "Pink",
+  "Sell": 0
+}

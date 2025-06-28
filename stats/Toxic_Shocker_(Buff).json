@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Toxic_Shock_Strengthen_Debuff",
+  "Name": "Toxic Shocker",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "How could it get worse?"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Acrid Armor</a>"
+  ],
+  "Duration": [
+    "0.03 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Toxic_Shock_Strengthen_Debuff"
+}

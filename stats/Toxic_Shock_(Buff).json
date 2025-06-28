@@ -1,0 +1,43 @@
+{
+  "Image": "§ModImage§/Buffs/Toxic_Shock_Debuff",
+  "Name": "Toxic Shock",
+  "Types": [
+    "Debuff",
+    "EnemyBuff",
+    "ItemBuff",
+    "EnvironmentBuff"
+  ],
+  "Tooltip": [
+    "The agony is getting to you."
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Alkaline Canister</a>",
+    "<a is=a-link image=$fromStats>Caustica</a>",
+    "<a is=a-link image=$fromStats>Amenonuhoko</a>",
+    "<a is=a-link image=$fromStats>Nematoclaw</a>",
+    "<a is=a-link image=$fromStats>Mildew Whip</a>",
+    "<a is=a-link image=$fromStats>Sea Dragon</a>",
+    "<a is=a-link image=$fromStats>Brine Pool</a>",
+    "<a is=a-link image=$fromStats>Chemical Laser</a>",
+    "<a is=a-link image=$fromStats>Acrid Armor</a>",
+    "<a is=a-link image=$fromStats>Venom Fang</a>",
+    "<a is=a-link image=$fromStats>HNO-3 \"Viper\"</a>",
+    "<a is=a-link image=$fromStats>Splashid</a>"
+  ],
+  "Duration": [
+    "5 seconds",
+    "8 seconds",
+    "1 seconds",
+    "3 seconds",
+    "2 seconds",
+    "2.98 seconds - 4.02 seconds",
+    "5 seconds",
+    "1.33 seconds",
+    "5 seconds",
+    "3 seconds",
+    "7.5 seconds",
+    "3 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Toxic_Shock_Debuff"
+}

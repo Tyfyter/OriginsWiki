@@ -1,0 +1,26 @@
+{
+  "Image": "Lost_Diver_Transformation",
+  "Name": "Lost Diver Transformation",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 17280,
+  "Defense": 24,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 19440,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 21600,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 84,
+  "InternalName": "Lost_Diver_Transformation"
+}

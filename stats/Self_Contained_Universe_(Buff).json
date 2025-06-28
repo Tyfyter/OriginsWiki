@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Buffs/Self_Contained_Universe_Buff",
+  "Name": "Self Contained Universe",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The universe will light your way",
+    "The little one, not the one you're in"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Fleshy Globe</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Self_Contained_Universe_Buff"
+}

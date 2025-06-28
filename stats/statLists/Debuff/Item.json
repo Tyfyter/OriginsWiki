@@ -1,0 +1,8 @@
+{
+    "categories": [
+      "itemdebuff"
+    ],
+    "extends": {
+      "name": "Buff/Buffs"
+    }
+}

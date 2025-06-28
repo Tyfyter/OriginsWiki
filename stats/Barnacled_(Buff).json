@@ -1,0 +1,18 @@
+{
+  "Image": "Terraria/Images/Buff_32",
+  "Name": "Barnacled",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "You shouldn't have this buff, if you do, something is horribly wrong"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Barnacleback</a>"
+  ],
+  "Duration": [
+    "0.08 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Barnacled_Buff"
+}

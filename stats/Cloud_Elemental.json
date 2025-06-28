@@ -1,0 +1,97 @@
+{
+  "Image": "Cloud_Elemental",
+  "Name": "Cloud Elemental",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 120,
+  "Defense": 32,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Static Shack</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>"
+  ],
+  "Drops": [
+    {
+      "Name": "Felnum Ore",
+      "Amount": "7‒14"
+    },
+    {
+      "Name": "Felnum Shock Glasses",
+      "Chance": "5%"
+    },
+    {
+      "Name": "Ancient Felnum Helmet",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Breastplate",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Greaves",
+      "Chance": "1.515%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 240,
+    "KBResist": 0.55,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Felnum Shock Glasses",
+        "Chance": "5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 360,
+    "KBResist": 0.6,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Felnum Shock Glasses",
+        "Chance": "5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
+  ],
+  "BestiaryQuotation": "A chill dude just vibing on his cloud. He doesn't mind your presence, he just doesn't know that lightning kills Terrarians.",
+  "SpriteWidth": 70,
+  "InternalName": "Cloud_Elemental"
+}

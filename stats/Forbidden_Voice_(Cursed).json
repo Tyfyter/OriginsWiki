@@ -3,6 +3,7 @@
   "Name": "Forbidden Voice",
   "Types": [
     "Item",
+    "Lore",
     "Accessory",
     "Hardmode"
   ],
@@ -18,7 +19,7 @@
   ],
   "Rarity": "Cursed",
   "Sell": 50000,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Corruption)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Stack of Shraps</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>, In worlds with Corruption)<div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a> Drops on <a is=a-link href=https://terraria.wiki.gg/wiki/Master_Mode>Master Mode<a/>",
   "DropSources": [
     {
       "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Eater_of_Worlds\">Eater of Worlds</a>",
@@ -45,7 +46,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Corruption"
       ],
@@ -75,7 +75,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

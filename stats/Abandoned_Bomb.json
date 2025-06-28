@@ -1,0 +1,31 @@
+{
+  "Image": "Abandoned_Bomb",
+  "Name": "Abandoned Bomb",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 120,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 240,
+    "Defense": 0,
+    "KBResist": 0.100000024,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 360,
+    "Defense": 0,
+    "KBResist": 0.19999999,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Underground\">Underground</a>"
+  ],
+  "BestiaryQuotation": "You left him behind when he clearly had attachment issues, now he's going to blow you to pieces because you have detachment issues.",
+  "SpriteWidth": 56,
+  "InternalName": "Abandoned_Bomb"
+}

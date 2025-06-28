@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Slag_Bucket_Debuff",
+  "Name": "Shrapnel Disturbance",
+  "Types": [
+    "Debuff",
+    "ItemBuff"
+  ],
+  "Tooltip": [
+    "You cannot regenerate life"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Slag Bucket (Cursed)</a>"
+  ],
+  "Duration": [
+    "4 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Slag_Bucket_Debuff"
+}

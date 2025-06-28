@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Harpy_Horseshoe_Balloon",
+  "Name": "Harpy Horseshoe Balloon",
+  "Types": [
+    "Item",
+    "Accessory"
+  ],
+  "Tooltip": [
+    "Allows the holder to double jump",
+    "Increases jump height and negates fall damage",
+    "Your gravity while jumping is reduced",
+    "Holding down increases your falling acceleration"
+  ],
+  "Rarity": "Orange",
+  "Sell": 18500,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon\">Blue Horseshoe Balloon</a> +  <a is=a-link image=$fromStats imageOnly>Feathery Crest</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Harpy Horseshoe Balloon</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Blue_Horseshoe_Balloon\">Blue Horseshoe Balloon</a>",
+            "<a is=a-link image=$fromStats>Feathery Crest</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 28,
+  "InternalName": "Harpy_Horseshoe_Balloon"
+}

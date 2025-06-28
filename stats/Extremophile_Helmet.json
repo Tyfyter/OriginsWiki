@@ -1,0 +1,15 @@
+{
+  "Image": "§ModImage§/Items/Armor/Extremophile/Extremophile_Helmet",
+  "Name": "Extremophile Helmet",
+  "Types": [
+    "Item",
+    "Hardmode",
+    "Armor"
+  ],
+  "Defense": 11,
+  "ArmorSlot": "Helmet",
+  "Tooltip": "+15% generic velocity",
+  "Rarity": "Pink",
+  "SpriteWidth": 24,
+  "InternalName": "Extremophile_Helmet"
+}

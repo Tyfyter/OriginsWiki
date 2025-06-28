@@ -1,0 +1,18 @@
+{
+  "Image": "§ModImage§/NPCs/Defiled/Defiled_Asphyxiator_P3",
+  "Name": "Asphyxiated",
+  "Types": [
+    "Buff"
+  ],
+  "Tooltip": [
+    "You're drowning out"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Defiled Asphyxiator</a>"
+  ],
+  "Duration": [
+    "2 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Defiled_Asphyxiator_Debuff_2"
+}

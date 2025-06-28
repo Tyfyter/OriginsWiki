@@ -3,6 +3,7 @@
   "Name": "Stack of Shraps",
   "Types": [
     "Item",
+    "Lore",
     "Combat",
     "ExplosiveBoostAcc",
     "Accessory",
@@ -11,11 +12,10 @@
   "Tooltip": "Double the gunpowder, double the fun.",
   "Rarity": "Blue",
   "Sell": 20000,
-  "Source": " <a is=a-link image=$fromStats imageOnly>Forbidden Voice</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Weakpoint Analyzer</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Mysterious Spray</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Amebic Vial</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>, <a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
+  "Source": " <a is=a-link image=$fromStats imageOnly>Forbidden Voice</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Weakpoint Analyzer</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Mysterious Spray</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>)<div class=divider></div> <a is=a-link image=$fromStats imageOnly>Amebic Vial</a> (@ <a is=a-link href=Shimmer>Shimmer Transmutation</a>)",
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -63,7 +63,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Corruption"
       ],
@@ -78,7 +77,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Crimson"
       ],
@@ -93,7 +91,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Defiled Wastelands"
       ],
@@ -108,7 +105,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>",
         "In worlds with Riven Hive"
       ],

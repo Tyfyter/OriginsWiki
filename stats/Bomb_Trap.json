@@ -1,0 +1,20 @@
+{
+  "Name": "Bomb Trap",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "Sell": 3500,
+  "SpriteWidth": 16,
+  "InternalName": "Bomb_Trap_Item",
+  "Images": [
+    "§ModImage§/Tiles/Other/Bomb_Trap_Item",
+    "Tiles/Bomb_Trap"
+  ]
+}

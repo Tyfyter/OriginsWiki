@@ -1,0 +1,35 @@
+{
+  "Image": "§ModImage§/Items/Materials/Geothermal_Sludge",
+  "Name": "Geothermal Sludge",
+  "Types": [
+    "Item"
+  ],
+  "UseTime": 10,
+  "Rarity": "Gray",
+  "Source": "<a is=a-link image=$fromStats>Basic Crate</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Basic Crate</a>",
+      "Rate": 0.33333334,
+      "Max": 16,
+      "Min": 5,
+      "Difficulty": "Master"
+    }
+  ],
+  "SpriteWidth": 16,
+  "InternalName": "Geothermal_Sludge"
+}

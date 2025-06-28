@@ -2,6 +2,7 @@
   "Name": "Brineglow Debug Item",
   "Types": [
     "Item",
+    "Lore",
     "Tile"
   ],
   "PlacementSize": [

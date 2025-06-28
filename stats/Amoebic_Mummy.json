@@ -138,6 +138,11 @@
     ],
     "RivenAssimilation": 0.105000004
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Desert</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Desert</a>"
+  ],
+  "BestiaryQuotation": "It was only a matter of time before the Riven got to the body. It now wanders aimlessly in the Rivenated deserts in search of new hosts.",
   "SpriteWidth": 40,
   "InternalName": "Riven_Mummy"
 }

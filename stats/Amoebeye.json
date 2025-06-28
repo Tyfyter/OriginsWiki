@@ -2,7 +2,8 @@
   "Image": "Amoebeye",
   "Name": "Amoebeye",
   "Types": [
-    "NPC"
+    "NPC",
+    "Lore"
   ],
   "MaxLife": 300,
   "Defense": 60,
@@ -56,6 +57,11 @@
     ],
     "RivenAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>",
+    "<a is=a-link image=$fromStats>Underground Riven Hive</a>"
+  ],
+  "BestiaryQuotation": "Amoebeyes are the next evolutionary step for Riven Protoforms ever since the Riven's expansion. They safeguard the hives to eliminate any threats to the ecosystem.",
   "SpriteWidth": 72,
   "InternalName": "Amoebeye"
 }

@@ -2,10 +2,17 @@
   "Image": "§ModImage§/Buffs/Food/Irish_Cheddar_Buff",
   "Name": "Irish Cheddar",
   "Types": [
-    "Buff"
+    "Buff",
+    "ConsumableBuff"
   ],
   "Tooltip": [
     "Very good"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Irish Cheddar</a>"
+  ],
+  "Duration": [
+    "720 seconds"
   ],
   "SpriteWidth": 32,
   "InternalName": "Irish_Cheddar_Buff"

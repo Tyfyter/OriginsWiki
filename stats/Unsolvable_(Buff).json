@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Antisolve_Buff",
+  "Name": "Unsolvable",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Cannot be broken down by any chemicals"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Antisolve Potion</a>"
+  ],
+  "Duration": [
+    "480 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Antisolve_Buff"
+}

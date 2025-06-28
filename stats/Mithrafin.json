@@ -1,0 +1,34 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Mithrafin",
+  "Name": "Mithrafin",
+  "Types": [
+    "Item",
+    "Misc",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Extends any Poison, Acid Venom or Toxic Shock inflicted onto enemies",
+    "Reduces the duration of these effects when applied to you"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Noxious Mithrafin</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Mithrafin</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 48,
+  "InternalName": "Mithrafin"
+}

@@ -617,10 +617,10 @@ var parse = async ()=>{
 		column.createChild('a', 'Wanted pages', ['href', `WantedPages${linkSuffix}`]);
 		column.createChild('a', 'Disconnected pages', ['href', `DisconnectedPages${linkSuffix}`]);
 	}
-	let imageViewer = document.body.createChild('div', '', ['id', 'imageViewer']);
+	let imageViewer = document.body.createChild('div', '', ['id', 'imageViewer'], ['onclick', 'imageViewer_close()']);
 	imageViewer.style.display = 'none';
-	imageViewer.createChild('img', '', ['id', 'imageViewer_image']);
-	imageViewer.createChild('a', '&#10754;', ['id', 'imageViewer_closeButton'], ['href', 'javascript:void(0);'], ['onclick', 'imageViewer_close()']);
+	imageViewer.createChild('img', '', ['id', 'imageViewer_image'], ['onclick', 'event.stopPropagation()']);
+	imageViewer.createChild('a', '&#10754;', ['id', 'imageViewer_closeButton'], ['href', 'javascript:void(0);']);
 	imageViewer.createChild('div', '', ['id', 'imageViewer_caption']);
 	document.onkeydown = imageViewer_close;
 	document.body.createChild('div', '', ['id', 'background']);

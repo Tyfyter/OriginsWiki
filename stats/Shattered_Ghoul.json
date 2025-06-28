@@ -20,13 +20,22 @@
       "Chance": "33.333%"
     },
     {
+      "Name": "Strange String",
+      "Amount": "1‒3"
+    },
+    {
+      "Name": "Latchkey",
+      "Chance": "20%",
+      "Amount": "3‒7"
+    },
+    {
       "Name": "Dark Shard",
       "Chance": "6.667%",
       "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
       "ImageOverride": ""
     }
   ],
-  "DefiledAssimilation": 0.1,
+  "DefiledAssimilation": 0.5,
   "Expert": {
     "MaxLife": 560,
     "KBResist": 0.55,
@@ -44,13 +53,22 @@
         "Chance": "33.333%"
       },
       {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
+      },
+      {
         "Name": "Dark Shard",
         "Chance": "6.667%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.13
+    "DefiledAssimilation": 0.65
   },
   "Master": {
     "MaxLife": 840,
@@ -69,14 +87,27 @@
         "Chance": "33.333%"
       },
       {
+        "Name": "Strange String",
+        "Amount": "1‒3"
+      },
+      {
+        "Name": "Latchkey",
+        "Chance": "20%",
+        "Amount": "3‒7"
+      },
+      {
         "Name": "Dark Shard",
         "Chance": "6.667%",
         "LinkOverride": "https://terraria.wiki.gg/wiki/Dark_Shard",
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.15
+    "DefiledAssimilation": 0.75
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Underground Defiled Desert</a>"
+  ],
+  "BestiaryQuotation": "Ghouls warped to the Defiled Will excrete horrid black bile that break down one's mental faculties upon the touch.",
   "SpriteWidth": 36,
   "InternalName": "Shattered_Ghoul"
 }

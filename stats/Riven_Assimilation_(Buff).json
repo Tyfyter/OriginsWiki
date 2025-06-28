@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Riven_Assimilation",
+  "Name": "Riven Assimilation",
+  "Types": [
+    "Debuff",
+    "EnemyBuff"
+  ],
+  "Tooltip": [
+    "You're being assimilated by the Riven Hive"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Riven Hive</a>"
+  ],
+  "Duration": [
+    "Varies"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Riven_Assimilation"
+}

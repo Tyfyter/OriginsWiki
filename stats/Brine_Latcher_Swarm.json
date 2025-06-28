@@ -1,0 +1,26 @@
+{
+  "Image": "Brine_Latcher_Swarm",
+  "Name": "Brine Latcher Swarm",
+  "Types": [
+    "NPC"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 0,
+    "Defense": 0,
+    "KBResist": 0.0,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "SpriteWidth": 30,
+  "InternalName": "Brine_Latcher_Swarm"
+}

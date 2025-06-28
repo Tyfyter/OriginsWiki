@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Trash_Lid_Buff",
+  "Name": "Impenetrable Trashcan Lid",
+  "Types": [
+    "Buff",
+    "MountBuff"
+  ],
+  "Tooltip": [
+    "This trashcan lid is impenetrable"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Impenetrable Trashcan Lid</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Trash_Lid_Mount_Buff"
+}

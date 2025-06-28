@@ -1,0 +1,33 @@
+{
+  "Image": "Whimsical_Girl",
+  "Name": "Whimsical Girl",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 250,
+  "Defense": 30,
+  "KBResist": 0.5,
+  "Immunities": [
+    "<a is=a-link href=https://terraria.wiki.gg/wiki/Confused>Confused</a>"
+  ],
+  "Coins": 20000.0,
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 500,
+    "KBResist": 0.595,
+    "Coins": 50000.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 750,
+    "KBResist": 0.67999995,
+    "Coins": 50000.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Caverns\">Caverns</a>"
+  ],
+  "BestiaryQuotation": "She's got her head in the clouds so bad she found herself deep underground. She seems to have fancied fairies for friends to keep her company.",
+  "SpriteWidth": 28,
+  "InternalName": "Whimsical_Girl"
+}

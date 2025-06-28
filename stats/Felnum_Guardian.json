@@ -1,0 +1,96 @@
+{
+  "Image": "Felnum_Guardian",
+  "Name": "Felnum Guardian",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 120,
+  "Defense": 14,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Static Shack</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>"
+  ],
+  "Drops": [
+    {
+      "Name": "Felnum Ore",
+      "Amount": "7‒14"
+    },
+    {
+      "Name": "Guardian Rod",
+      "Chance": "2.5%"
+    },
+    {
+      "Name": "Ancient Felnum Helmet",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Breastplate",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Greaves",
+      "Chance": "1.515%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 240,
+    "KBResist": 0.100000024,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Guardian Rod",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 360,
+    "KBResist": 0.19999999,
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Guardian Rod",
+        "Chance": "2.5%"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
+  ],
+  "BestiaryQuotation": "A sentinel manifested by the felnum itself. It indiscriminately attacks anything that gets too close to felnum deposits.",
+  "SpriteWidth": 72,
+  "InternalName": "Felnum_Guardian"
+}

@@ -7,19 +7,19 @@
     "Weapon",
     "Hardmode"
   ],
-  "ManaCost": 16,
+  "ManaCost": 24,
   "Damage": 270,
   "DamageClass": "Explosive Magic",
   "Knockback": 4.75,
-  "UseTime": 24,
+  "UseTime": 40,
   "Velocity": 9.0,
   "Tooltip": [
     "Releases a flurry of chaotic sparkles",
     "Developer item"
   ],
-  "Rarity": "Butterscotch",
+  "Rarity": "Lime",
   "Sell": 100000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>500000</a-coins>After selling 999 peat moss to the Demolitionist, In hardmode)",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demolitionist\">Demolitionist</a> (<a-coins>500000</a-coins>After selling 999 peat moss to the Demolitionist, After defeating Golem)",
   "SpriteWidth": 30,
   "InternalName": "Caustica"
 }

@@ -13,7 +13,7 @@
   "ArmorPenetration": 1,
   "DamageClass": "Explosive (thrown)",
   "UseTime": 25,
-  "Velocity": 5.0,
+  "Velocity": 6.25,
   "Tooltip": "Explodes into a lingering fire",
   "Rarity": "Orange",
   "Sell": 540,

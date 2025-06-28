@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Buffs/Sapphire_Aura_Buff",
+  "Name": "Sapphire Aura",
+  "Types": [
+    "Buff",
+    "GenericBoostBuff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "Increased attack speed and life regeneration"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Sapphire_Mediator_Armor</a>"
+  ],
+  "Duration": [
+    "Infinite while in aura"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Sapphire_Aura_Buff"
+}

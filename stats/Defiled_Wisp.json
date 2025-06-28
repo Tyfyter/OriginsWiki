@@ -56,6 +56,10 @@
       }
     ]
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Wastelands</a>"
+  ],
+  "BestiaryQuotation": "A rare entity that is released only once its former vessel has been dislodged from its bile interior.",
   "SpriteWidth": 22,
   "InternalName": "Defiled_Wisp"
 }

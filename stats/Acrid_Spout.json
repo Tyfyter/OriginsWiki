@@ -1,0 +1,40 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Summoner/Acrid_Spout",
+  "Name": "Acrid Spout",
+  "Types": [
+    "Item",
+    "Weapon",
+    "Whip",
+    "Hardmode"
+  ],
+  "Damage": 34,
+  "DamageClass": "Summon",
+  "Knockback": 5.0,
+  "UseTime": 28,
+  "Velocity": 4.0,
+  "Tooltip": [
+    "Spews droplets of brine",
+    "6 summon tag damage",
+    "Your summons will focus struck enemies"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 46000,
+  "Source": "(10) <a is=a-link image=$fromStats imageOnly>Eitrite Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Acrid Spout</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Eitrite Bar</a> (10)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Acrid_Spout"
+}

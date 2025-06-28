@@ -1,0 +1,85 @@
+{
+  "Image": "Felnum_Slime",
+  "Name": "Felnum Slime",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 45,
+  "Defense": 28,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Static Shack</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>",
+    "<a is=a-link image=$fromStats>Static Shock</a>"
+  ],
+  "Coins": 25.0,
+  "Drops": [
+    {
+      "Name": "Felnum Ore",
+      "Amount": "7‒14"
+    },
+    {
+      "Name": "Ancient Felnum Helmet",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Breastplate",
+      "Chance": "1.515%"
+    },
+    {
+      "Name": "Ancient Felnum Greaves",
+      "Chance": "1.515%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 90,
+    "KBResist": 0.100000024,
+    "Coins": 62.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 135,
+    "KBResist": 0.19999999,
+    "Coins": 62.0,
+    "Drops": [
+      {
+        "Name": "Felnum Ore",
+        "Amount": "7‒14"
+      },
+      {
+        "Name": "Ancient Felnum Helmet",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Breastplate",
+        "Chance": "1.515%"
+      },
+      {
+        "Name": "Ancient Felnum Greaves",
+        "Chance": "1.515%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Sky\">Sky</a>"
+  ],
+  "BestiaryQuotation": "Many claim felnum is the reason why lightning exists, but it's these slimes that are why lightning strikes the ground.",
+  "SpriteWidth": 32,
+  "InternalName": "Felnum_Ore_Slime"
+}

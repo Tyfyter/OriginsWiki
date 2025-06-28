@@ -1,0 +1,41 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Demolitionist/Rocket_Rifle",
+  "Name": "Rocket Rifle",
+  "Types": [
+    "Item",
+    "Launcher",
+    "Weapon",
+    "CanisterLauncher",
+    "Hardmode"
+  ],
+  "Damage": 50,
+  "DamageClass": "Explosive Ranged",
+  "UseTime": 53,
+  "Velocity": 8.0,
+  "Tooltip": [
+    "Uses canisters and rockets as ammo",
+    "Using canisters as ammo has limited fuel"
+  ],
+  "Rarity": "Pink",
+  "Sell": 70000,
+  "Source": "(15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night_in_a_Bottle\">Soul of Night in a Bottle</a> + (25) <a is=a-link image=$fromStats imageOnly>Respyrite</a> + (50) <a is=a-link image=$fromStats imageOnly>Scrap</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Hardmode_Anvil>Any Hardmode Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Rocket Rifle</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Soul_of_Night_in_a_Bottle\">Soul of Night in a Bottle</a> (15)",
+            "<a is=a-link image=$fromStats>Respyrite</a> (25)",
+            "<a is=a-link image=$fromStats>Scrap</a> (50)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 78,
+  "InternalName": "Rocket_Rifle"
+}

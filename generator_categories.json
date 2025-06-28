@@ -330,5 +330,61 @@
   "zoologistquest":{
     "name":"Zoologist Quest",
     "items":"Client=Zoologist"
+  },
+  "npc":{
+    "name":"NPC",
+    "items":"Types<NPC"
+  },
+  "buff":{
+    "name":"Buff",
+    "items":"Types<Buff"
+  },
+  "debuff":{
+    "name":"Debuff",
+    "items":"Types<Debuff"
+  },
+  "consumablebuff":{
+    "name":"Consumable Buff",
+    "items":"Types<Buff & Types<ConsumableBuff"
+  },
+  "summonbuff":{
+    "name":"Summon Buff",
+    "items":"Types<Buff & Types<SummonBuff"
+  },
+  "mountbuff":{
+    "name":"Mount Buff",
+    "items":"Types<Buff & Types<MountBuff"
+  },
+  "equipmentbuff":{
+    "name":"Equipment Buff",
+    "items":"Types<Buff & Types<EquipmentBuff"
+  },
+  "environmentbuff":{
+    "name":"Environment Buff",
+    "items":"Types<Buff & Types<EnvironmentBuff"
+  },
+  "furniturebuff":{
+    "name":"Furniture Buff",
+    "items":"Types<Buff & Types<FurnitureBuff"
+  },
+  "otherbuff":{
+    "name":"Other Buff",
+    "items":"Types<Buff & -Types<ConsumableBuff & -Types<SummonBuff & -Types<MountBuff & -Types<EquipmentBuff & -Types<EnvironmentBuff & -Types<FurnitureBuff"
+  },
+  "enemydebuff":{
+    "name":"Enemy Debuff",
+    "items":"Types<Debuff & Types<EnemyBuff"
+  },
+  "itemdebuff":{
+    "name":"Item Debuff",
+    "items":"Types<Debuff & Types<ItemBuff"
+  },
+  "environmentdebuff":{
+    "name":"Environment Debuff",
+    "items":"Types<Debuff & Types<EnvironmentBuff"
+  },
+  "otherdebuff":{
+    "name":"Other Debuff",
+    "items":"Types<Debuff & -Types<EnemyBuff & -Types<ItemBuff & -Types<EnvironmentBuff"
   }
 }

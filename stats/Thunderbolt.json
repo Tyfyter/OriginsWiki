@@ -4,8 +4,7 @@
   "Types": [
     "Item",
     "Sword",
-    "Weapon",
-    "Hardmode"
+    "Weapon"
   ],
   "Damage": 30,
   "DamageClass": "Melee",
@@ -16,7 +15,7 @@
     "Inflicts Static Shock",
     "Right Click to stab"
   ],
-  "Rarity": "Lime",
+  "Rarity": "Green",
   "Sell": 10000,
   "Source": "(12) <a is=a-link image=$fromStats imageOnly>Felnum Bar</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
   "Recipes": [

@@ -1,0 +1,8 @@
+{
+    "categories": [
+      "consumablebuff"
+    ],
+    "extends": {
+      "name": "Buff/Buffs"
+    }
+}

@@ -8,7 +8,7 @@
     "Hardmode"
   ],
   "ManaCost": 28,
-  "Damage": 27,
+  "Damage": 60,
   "DamageClass": "Magic",
   "Knockback": 6.0,
   "UseTime": 30,
@@ -23,7 +23,6 @@
   "Recipes": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [
@@ -39,7 +38,6 @@
   "UsedIn": [
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

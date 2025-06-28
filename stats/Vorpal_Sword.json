@@ -3,6 +3,7 @@
   "Name": "Vorpal Sword",
   "Types": [
     "Item",
+    "Lore",
     "Sword",
     "Weapon"
   ],

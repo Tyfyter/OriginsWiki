@@ -1,34 +1,18 @@
 {
-  "Image": "§ModImage§/Items/Armor/Necromancer/Necromancer_Helmet",
-  "Name": "Necromancer Crown",
   "Types": [
     "Item",
-    "Hardmode",
-    "Armor"
+    "Armor",
+    "ArmorSet"
   ],
-  "Defense": 7,
-  "ArmorSlot": "Helmet",
-  "Tooltip": "25% increased summoning damage",
+  "Name": "Necromancer Crown",
+  "WikiName": "Necromancer_Crown",
+  "DisplayName": "WikiGenerator.Stats.Origins.Necromancer_Crown.DisplayName",
+  "Images": [
+    "ArmorSets/Necromancer_Crown",
+    "ArmorSets/Necromancer_Crown_Female"
+  ],
+  "Defense": 31,
+  "SetBonus": "Summons an unsatisfied soul from slain enemies\nMana usage is halved when in a Graveyard\nEnemies spawn more frequently\nIncreases your max number of minions by 3",
   "Rarity": "Yellow",
-  "Sell": 50000,
-  "Source": "(12) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> +  <a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a> + (7) <a is=a-link image=$fromStats imageOnly>Black Bile</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>)",
-  "Recipes": [
-    {
-      "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Demon_Altar\">Demon Altar</a>"
-      ],
-      "items": [
-        {
-          "result": "<a is=a-link image=$fromStats>Necromancer Crown</a>",
-          "ingredients": [
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Chlorophyte_Bar\">Chlorophyte Bar</a> (12)",
-            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dark_Shard\">Dark Shard</a>",
-            "<a is=a-link image=\"RecipeGroups/CursedFlame\" href=Recipe_Groups>Any Evil Substance</a> (7)"
-          ]
-        }
-      ]
-    }
-  ],
-  "SpriteWidth": 22,
-  "InternalName": "Necromancer_Helmet"
+  "Sell": 150000
 }

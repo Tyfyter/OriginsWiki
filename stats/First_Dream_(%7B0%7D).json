@@ -1,0 +1,17 @@
+{
+  "Image": "§ModImage§/Items/Armor/Vanity/Dev/cher/First_Dream",
+  "Name": "First Dream ({0})",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Tooltip": [
+    "Right-click to change your appearance!",
+    "Makes you look like one of Origins' spriters!"
+  ],
+  "Rarity": "LightRed",
+  "Sell": 10000,
+  "SpriteWidth": 20,
+  "InternalName": "First_Dream"
+}

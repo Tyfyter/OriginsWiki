@@ -1,0 +1,35 @@
+{
+  "Image": "Terraria/Images/Buff_32",
+  "Name": "Slow",
+  "Types": [
+    "Buff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "This is the enemy version of the debuff, if you get this just tap the movement keys so you move slower or something, ¯\\_(ツ)_/¯"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Protozoa Food</a>",
+    "<a is=a-link image=$fromStats>Amber Armor</a>",
+    "<a is=a-link image=$fromStats>Hemoptysis</a>",
+    "<a is=a-link image=$fromStats>Dew Justice</a>",
+    "<a is=a-link image=$fromStats>Fifth Spline</a>",
+    "<a is=a-link image=$fromStats>Amebolize Incantation</a>",
+    "<a is=a-link image=$fromStats>Joint Pop</a>",
+    "<a is=a-link image=$fromStats>Thread Rod</a>",
+    "<a is=a-link image=$fromStats>Traffic Cone</a>"
+  ],
+  "Duration": [
+    "2 seconds - 3 seconds",
+    "0.08 seconds",
+    "1 seconds",
+    "1 seconds",
+    "1 seconds",
+    "1.5 seconds",
+    "3 seconds",
+    "0.5 seconds - 1 seconds",
+    "0.17 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Slow_Debuff"
+}

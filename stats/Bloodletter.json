@@ -9,7 +9,7 @@
   "Damage": 30,
   "DamageClass": "Ranged",
   "Knockback": 4.0,
-  "UseTime": 3,
+  "UseTime": 30,
   "Velocity": 15.25,
   "Tooltip": [
     "Uses harpoons as ammo",

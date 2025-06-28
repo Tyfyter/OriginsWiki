@@ -7,12 +7,13 @@
   ],
   "UseTime": 15,
   "Tooltip": [
-    "Reduces all assimilation by 20% each",
+    "{FlaskUseCount} uses",
+    "Reduces all assimilation by {FlaskCureAmount}% each",
     "All uses are restored when you use a Cleansing Station"
   ],
   "Rarity": "Blue",
   "Sell": 4000,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>20000</a-coins>After completing \"I’ll Give You a Deal\")",
+  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Dryad\">Dryad</a> (<a-coins>20000</a-coins>After completing \"I'll Give You a Deal\")",
   "UsedIn": [
     {
       "stations": [
@@ -30,6 +31,6 @@
       ]
     }
   ],
-  "SpriteWidth": 110,
+  "SpriteWidth": 132,
   "InternalName": "Mojo_Flask"
 }

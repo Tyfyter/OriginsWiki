@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Chee_Toy_Buff",
+  "Name": "Chee Toy",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "Marketable plushie tiem"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Chew Toy</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Chee_Toy_Buff"
+}

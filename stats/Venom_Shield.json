@@ -1,0 +1,42 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Venom_Shield",
+  "Name": "Venom Shield",
+  "Types": [
+    "Item",
+    "Combat",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Damage": 57,
+  "DamageClass": "Melee",
+  "Tooltip": [
+    "Attacks inflict Toxic Shock",
+    "Effects are stronger while Acrid Armor is equipped",
+    "Grants immunity to knockback and fire blocks",
+    "All damage received is reflected to 3 nearby enemies",
+    "Allows the player to dash into the enemy",
+    "Double tap a direction"
+  ],
+  "Rarity": "Pink",
+  "Sell": 30000,
+  "Source": " <a is=a-link image=$fromStats imageOnly>Shield of Retribution</a> +  <a is=a-link image=$fromStats imageOnly>Venom Fang</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Venom Shield</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Shield of Retribution</a>",
+            "<a is=a-link image=$fromStats>Venom Fang</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 36,
+  "InternalName": "Venom_Shield"
+}

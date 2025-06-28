@@ -44,6 +44,20 @@
     },
     {
       "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Furnace\">Furnace</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Lost Brick</a> (5)",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Defiled Stone</a> (5)",
+            "<a is=a-link image=$fromStats>Lost Ore</a>"
+          ]
+        }
+      ]
+    },
+    {
+      "stations": [
         "<a is=a-link href=Work_Benches>Work Bench</a>"
       ],
       "items": [

@@ -1,0 +1,36 @@
+{
+  "Image": "§ModImage§/Items/Accessories/Tiki_Buckler",
+  "Name": "Tiki Buckler",
+  "Types": [
+    "Item",
+    "Accessory",
+    "Hardmode"
+  ],
+  "Defense": 3,
+  "Tooltip": [
+    "15% damage reduction while an artifact minion is active",
+    "Artifact minions heal while at max life",
+    "Increases your max number of minions by 1"
+  ],
+  "Rarity": "Lime",
+  "Sell": 50000,
+  "Source": " <a is=a-link href=\"https://terraria.wiki.gg/wiki/Pygmy_Necklace\">Pygmy Necklace</a> +  <a is=a-link image=$fromStats imageOnly>Alkaliegis</a> (@ <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>)",
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tinkerer's_Workshop\">Tinkerer's Workshop</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Tiki Buckler</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Pygmy_Necklace\">Pygmy Necklace</a>",
+            "<a is=a-link image=$fromStats>Alkaliegis</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Tiki_Buckler"
+}

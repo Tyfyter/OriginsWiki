@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Blue_Bovine_Buff",
+  "Name": "Bovine Flight",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Blue Bovine allowed flight and slow fall"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Blue Bovine</a>"
+  ],
+  "Duration": [
+    "240 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Blue_Bovine_Buff"
+}

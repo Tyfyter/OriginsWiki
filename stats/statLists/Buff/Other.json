@@ -1,0 +1,8 @@
+{
+    "categories": [
+      "otherbuff"
+    ],
+    "extends": {
+      "name": "Buff/Buffs"
+    }
+}

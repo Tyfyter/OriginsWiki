@@ -1,0 +1,33 @@
+{
+  "Image": "Lost_Diver",
+  "Name": "Lost Diver",
+  "Types": [
+    "NPC",
+    "Boss"
+  ],
+  "MaxLife": 7800,
+  "Defense": 26,
+  "KBResist": 1.0,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Blind Debuff</a>",
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Drops": [],
+  "Expert": {
+    "MaxLife": 15600,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Master": {
+    "MaxLife": 23400,
+    "Coins": 0.0,
+    "Drops": []
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "Puppeteered and perserved corpse of a Terrarian hero much like you. Who ever it was is long gone, but their body is bent to the will of the mildew now.",
+  "SpriteWidth": 16,
+  "InternalName": "Lost_Diver"
+}

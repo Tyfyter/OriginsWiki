@@ -1,0 +1,20 @@
+{
+  "Name": "Defiled Regolith",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PickReq": 200,
+  "PlacementSize": [
+    1,
+    1
+  ],
+  "UseTime": 10,
+  "Rarity": "White",
+  "SpriteWidth": 16,
+  "InternalName": "Defiled_Regolith_Item",
+  "Images": [
+    "§ModImage§/Tiles/Defiled/Defiled_Stone_Item",
+    "Tiles/Defiled_Regolith"
+  ]
+}

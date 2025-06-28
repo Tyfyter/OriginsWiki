@@ -306,18 +306,6 @@
           ]
         },
         {
-          "result": "<a is=a-link image=$fromStats>Endowood Bow</a>",
-          "ingredients": [
-            "<a is=a-link image=$fromStats>Endowood</a> (10)"
-          ]
-        },
-        {
-          "result": "<a is=a-link image=$fromStats>Endowood Sword</a>",
-          "ingredients": [
-            "<a is=a-link image=$fromStats>Endowood</a> (7)"
-          ]
-        },
-        {
           "result": "<a is=a-link image=$fromStats>Endowood Candelabra</a>",
           "ingredients": [
             "<a is=a-link image=$fromStats>Endowood</a> (5)",
@@ -872,7 +860,6 @@
     },
     {
       "stations": [
-        "<a is=a-link href=\"https://terraria.wiki.gg/wiki/By_Hand\">By Hand</a>",
         "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
       ],
       "items": [

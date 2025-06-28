@@ -46,7 +46,7 @@
       "ImageOverride": ""
     }
   ],
-  "DefiledAssimilation": 0.07,
+  "DefiledAssimilation": 0.04,
   "Expert": {
     "MaxLife": 360,
     "KBResist": 0.55,
@@ -90,7 +90,7 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.091
+    "DefiledAssimilation": 0.051999997
   },
   "Master": {
     "MaxLife": 540,
@@ -135,8 +135,13 @@
         "ImageOverride": ""
       }
     ],
-    "DefiledAssimilation": 0.105000004
+    "DefiledAssimilation": 0.06
   },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Defiled Desert</a>",
+    "<a is=a-link image=$fromStats>Underground Defiled Desert</a>"
+  ],
+  "BestiaryQuotation": "The Defiled Wastelands did not struggle to rapidly break down this fiend. It clunks around the Defiled sands in search of any trespassers.",
   "SpriteWidth": 40,
   "InternalName": "Shattered_Mummy"
 }

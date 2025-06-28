@@ -14,36 +14,22 @@
   "Velocity": 8.0,
   "Tooltip": "Launch bloody phlegm that damages, slows and bleeds enemies",
   "Rarity": "Blue",
-  "Sell": 2400,
-  "Source": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a><div class=divider></div><a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
-  "DropSources": [
+  "Sell": 4500,
+  "Source": "(10) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> + (15) <a is=a-link href=\"https://terraria.wiki.gg/wiki/Tissue_Sample\">Tissue Sample</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)",
+  "Recipes": [
     {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Normal"
-    },
-    {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Expert"
-    },
-    {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Treasure_Bag_(Brain_of_Cthulhu)\">Treasure Bag (Brain of Cthulhu)</a>",
-      "Rate": 0.5,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Master"
-    },
-    {
-      "Name": "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Brain_of_Cthulhu\">Brain of Cthulhu</a>",
-      "Rate": 0.5,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Normal"
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Hemoptysis</a>",
+          "ingredients": [
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Crimtane_Bar\">Crimtane Bar</a> (10)",
+            "<a is=a-link href=\"https://terraria.wiki.gg/wiki/Tissue_Sample\">Tissue Sample</a> (15)"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 56,

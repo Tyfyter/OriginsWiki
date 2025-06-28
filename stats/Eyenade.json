@@ -10,11 +10,11 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 39,
+  "Damage": 48,
   "DamageClass": "Explosive (thrown)",
   "Knockback": 8.0,
   "UseTime": 45,
-  "Velocity": 6.05,
+  "Velocity": 6.875,
   "Tooltip": "Flies towards nearby enemies",
   "Rarity": "Blue",
   "Sell": 20,

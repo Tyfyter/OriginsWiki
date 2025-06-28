@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Friendly_Zombie_Buff",
+  "Name": "Friendly Zombie Buff",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The friendly zombie will fight for you"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Inanimate Zombie Hand</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Friendly_Zombie_Buff"
+}

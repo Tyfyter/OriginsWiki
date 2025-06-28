@@ -1,0 +1,13 @@
+{
+  "categories": [
+    "npc"
+  ],
+  "headers": [
+    "Name",
+    "InternalName",
+    "MaxLife",
+    "Damage",
+    "Defense",
+    "Environment"
+  ]
+}

@@ -7,7 +7,7 @@
     "Incantation"
   ],
   "ManaCost": 14,
-  "Damage": 15,
+  "Damage": 10,
   "DamageClass": "Summon",
   "Knockback": 1.0,
   "UseTime": 26,

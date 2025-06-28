@@ -14463,6 +14463,321 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Airsnatcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Airsnatcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Airsnatcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Spawn</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Spawn</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Spawn</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Transformation</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Transformation</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Lost Diver Transformation</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Mildew Creeper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Mildew Creeper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Mildew Creeper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tendril</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tendril</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tendril</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tentacle</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tentacle</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion Tentacle</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Rock Bottom</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Rock Bottom</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Rock Bottom</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher Swarm</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher Swarm</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Latcher Swarm</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Brine Serpent</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Carpalfish</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -14505,6 +14820,48 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Leaf Snapper</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Mildew Creeper</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -14526,6 +14883,27 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Nasty Crawdad</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -14541,6 +14919,27 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Sea Dragon</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shotgunfish</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -14673,6 +15072,27 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation Body Part</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation Body Part</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation Body Part</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Defiled Amalgamation</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -14757,6 +15177,27 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -14772,6 +15213,48 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Krusher</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis Nearby Spawn</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis Nearby Spawn</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Chrysalis Nearby Spawn</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -14856,27 +15339,6 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Defiled Digger</a>",
-      "Rate": 2E-05,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Master"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-      "Rate": 2E-05,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Normal"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
-      "Rate": 2E-05,
-      "Max": 1,
-      "Min": 1,
-      "Difficulty": "Expert"
-    },
-    {
-      "Name": "<a is=a-link image=$fromStats>Defiled Ekko</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -15366,6 +15828,27 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Slime</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Enchanted Fiberglass Sword</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -15408,6 +15891,48 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Abandoned Bomb</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Abandoned Bomb</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Abandoned Bomb</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Boulder Mimic</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Boulder Mimic</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Boulder Mimic</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Buckethead Zombie</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -15423,6 +15948,48 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Buckethead Zombie</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Cannihound</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Catacomb Clearer</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Catacomb Clearer</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Catacomb Clearer</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -15576,105 +16143,105 @@
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Yet To Come</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Yet-to-come</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Yet To Come</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Yet-to-come</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Yet To Come</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Yet-to-come</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Future Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Future Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Future Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Future Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Future Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Future Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Past</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Past</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Past</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Past</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Past</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Past</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Normal"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
       "Difficulty": "Expert"
     },
     {
-      "Name": "<a is=a-link image=$fromStats>Spirit Of Christmas Present Tax Collector</a>",
+      "Name": "<a is=a-link image=$fromStats>Spirit of Christmas Present Tax Collector</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -15843,6 +16410,27 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Amoebeye's Bubble</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Aqueoua</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Aqueoua</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Aqueoua</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -16248,6 +16836,27 @@
       "Difficulty": "Master"
     },
     {
+      "Name": "<a is=a-link image=$fromStats>Shelly Aqueoua</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shelly Aqueoua</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Shelly Aqueoua</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
       "Name": "<a is=a-link image=$fromStats>Single-Cellular Nautilus</a>",
       "Rate": 2E-05,
       "Max": 1,
@@ -16347,6 +16956,27 @@
     },
     {
       "Name": "<a is=a-link image=$fromStats>Trijaw Shark</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark Feesh</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark Feesh</a>",
+      "Rate": 2E-05,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Trijaw Shark Feesh</a>",
       "Rate": 2E-05,
       "Max": 1,
       "Min": 1,
@@ -16582,6 +17212,36 @@
       "Max": 1,
       "Min": 1,
       "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Generic Weapon</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Unsuspicious Bush</a>"
+          ]
+        }
+      ]
+    }
+  ],
+  "UsedIn": [
+    {
+      "stations": [
+        "<a is=a-link href=Shimmer>Shimmer Transmutation</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Unsuspicious Bush</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Generic Weapon</a>"
+          ]
+        }
+      ]
     }
   ],
   "SpriteWidth": 20,

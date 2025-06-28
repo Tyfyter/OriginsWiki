@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Voidsight_Buff",
+  "Name": "Voidsight",
+  "Types": [
+    "Buff",
+    "ConsumableBuff"
+  ],
+  "Tooltip": [
+    "Visibility significantly increased"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Voidsight Potion</a>"
+  ],
+  "Duration": [
+    "360 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Voidsight_Buff"
+}

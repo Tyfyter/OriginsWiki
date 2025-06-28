@@ -1,0 +1,20 @@
+{
+  "Image": "§ModImage§/Buffs/Headphones_Buff",
+  "Name": "Screaming Teammate",
+  "Types": [
+    "Buff",
+    "GenericBoostBuff",
+    "EquipmentBuff"
+  ],
+  "Tooltip": [
+    "You got your target"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Headphones</a>"
+  ],
+  "Duration": [
+    "5 seconds"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Headphones_Buff"
+}

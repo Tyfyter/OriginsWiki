@@ -1,0 +1,61 @@
+{
+  "Image": "King_Crab",
+  "Name": "King Crab",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 500,
+  "Defense": 26,
+  "KBResist": 0.55,
+  "Immunities": [
+    "<a is=a-link image=$fromStats>Toxic Shock</a>",
+    "<a is=a-link image=$fromStats>Toxic Shocker</a>"
+  ],
+  "Coins": 500.0,
+  "Drops": [
+    {
+      "Name": "Alkaliphiliac Tissue",
+      "Amount": "1‒6"
+    },
+    {
+      "Name": "Caeser Salad",
+      "Chance": "2.5%"
+    }
+  ],
+  "Expert": {
+    "MaxLife": 1000,
+    "KBResist": 0.595,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒6"
+      },
+      {
+        "Name": "Caeser Salad",
+        "Chance": "2.5%"
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 1500,
+    "KBResist": 0.64,
+    "Coins": 1250.0,
+    "Drops": [
+      {
+        "Name": "Alkaliphiliac Tissue",
+        "Amount": "1‒6"
+      },
+      {
+        "Name": "Caeser Salad",
+        "Chance": "2.5%"
+      }
+    ]
+  },
+  "Environment": [
+    "<a is=a-link image=$fromStats>Brine Pool</a>"
+  ],
+  "BestiaryQuotation": "The apex predator of the Brine Pool. Its hard, chitonous shell not only protects it from the toxic brine but also any creatures that dare test it.",
+  "SpriteWidth": 62,
+  "InternalName": "King_Crab"
+}

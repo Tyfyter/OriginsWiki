@@ -1,0 +1,63 @@
+{
+  "Image": "§ModImage§/Items/Weapons/Magic/Nerve_Flan",
+  "Name": "Nerve Flan",
+  "Types": [
+    "Item",
+    "Weapon",
+    "OtherMagic"
+  ],
+  "ManaCost": 16,
+  "Damage": 14,
+  "ArmorPenetration": 5,
+  "DamageClass": "Magic",
+  "Knockback": 3.0,
+  "Crit": 2,
+  "UseTime": 5,
+  "Velocity": 8.0,
+  "Tooltip": "'Putting the soul in fan-dancing'",
+  "Rarity": "Blue",
+  "Sell": 6000,
+  "Source": "(100) <a is=a-link image=$fromStats imageOnly>Strange String</a> +  <a is=a-link image=$fromStats imageOnly>Tangela Bramble</a> + (8) <a is=a-link image=$fromStats imageOnly>Undead Chunk</a> (@ <a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>)<div class=divider></div><a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.022727273,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Normal"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.022727273,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Defiled Broadcaster</a>",
+      "Rate": 0.022727273,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master"
+    }
+  ],
+  "Recipes": [
+    {
+      "stations": [
+        "<a is=a-link href=https://terraria.wiki.gg/wiki/Anvils>Any Anvil</a>"
+      ],
+      "items": [
+        {
+          "result": "<a is=a-link image=$fromStats>Nerve Flan</a>",
+          "ingredients": [
+            "<a is=a-link image=$fromStats>Strange String</a> (100)",
+            "<a is=a-link image=$fromStats>Tangela Bramble</a>",
+            "<a is=a-link image=$fromStats>Undead Chunk</a> (8)"
+          ]
+        }
+      ]
+    }
+  ],
+  "SpriteWidth": 38,
+  "InternalName": "Nerve_Flan"
+}

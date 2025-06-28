@@ -1,0 +1,21 @@
+{
+  "Name": "The Jungle's Window",
+  "Types": [
+    "Item",
+    "Tile"
+  ],
+  "PlacementSize": [
+    3,
+    2
+  ],
+  "UseTime": 10,
+  "Tooltip": "'Albert Kiln'",
+  "Rarity": "White",
+  "Sell": 20000,
+  "SpriteWidth": 38,
+  "InternalName": "The_Jungles_Window_Item",
+  "Images": [
+    "§ModImage§/Tiles/Decoration/The_Jungles_Window_Item",
+    "Tiles/The_Jungle's_Window"
+  ]
+}

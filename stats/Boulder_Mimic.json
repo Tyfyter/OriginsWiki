@@ -1,0 +1,48 @@
+{
+  "Image": "Boulder_Mimic",
+  "Name": "Boulder Mimic",
+  "Types": [
+    "NPC"
+  ],
+  "MaxLife": 120,
+  "Defense": 22,
+  "KBResist": 0.5,
+  "Drops": [
+    {
+      "Name": "Stone Block",
+      "Amount": "10‒20",
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Stone_Block",
+      "ImageOverride": ""
+    }
+  ],
+  "Expert": {
+    "MaxLife": 240,
+    "KBResist": 0.55,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Stone Block",
+        "Amount": "10‒20",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Stone_Block",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "Master": {
+    "MaxLife": 360,
+    "KBResist": 0.6,
+    "Immunities": [],
+    "Coins": 0.0,
+    "Drops": [
+      {
+        "Name": "Stone Block",
+        "Amount": "10‒20",
+        "LinkOverride": "https://terraria.wiki.gg/wiki/Stone_Block",
+        "ImageOverride": ""
+      }
+    ]
+  },
+  "SpriteWidth": 62,
+  "InternalName": "Boulder_Mimic"
+}

@@ -1,0 +1,19 @@
+{
+  "Image": "§ModImage§/Buffs/Woodsprite_Buff",
+  "Name": "Woodsprite",
+  "Types": [
+    "Buff",
+    "SummonBuff"
+  ],
+  "Tooltip": [
+    "The woodsprite will fight for you"
+  ],
+  "Source": [
+    "<a is=a-link image=$fromStats>Woodsprite Staff</a>"
+  ],
+  "Duration": [
+    "Infinite"
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Woodsprite_Buff"
+}

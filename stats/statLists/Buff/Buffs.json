@@ -1,0 +1,12 @@
+{
+    "categories": [
+      "buffs"
+    ],
+    "headers": [
+      "Name",
+      "InternalName",
+      "Source",
+      "Duration",
+      "Tooltip"
+    ]
+}

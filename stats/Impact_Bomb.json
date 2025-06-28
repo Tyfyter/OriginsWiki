@@ -9,11 +9,9 @@
     "Weapon",
     "Ammo"
   ],
-  "Damage": 45,
-  "ArmorPenetration": 3,
+  "Damage": 40,
   "DamageClass": "Explosive (thrown)",
-  "Knockback": 13.0,
-  "UseTime": 18,
+  "UseTime": 25,
   "Velocity": 8.75,
   "Tooltip": "'Be careful, it's not a book'",
   "Rarity": "Green",

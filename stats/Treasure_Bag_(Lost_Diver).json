@@ -1,0 +1,84 @@
+{
+  "Image": "§ModImage§/Items/Other/LootBags/Lost_Diver_Bag",
+  "Name": "Treasure Bag (Lost Diver)",
+  "Types": [
+    "Item",
+    "Expert"
+  ],
+  "Rarity": "Yellow",
+  "Drops": [
+    {
+      "Name": "Boat Rocker",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Depth Charge",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Torpedo Tube",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Mildew Whip",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Watered-down Keytar",
+      "Chance": "20%"
+    },
+    {
+      "Name": "Lost Diver Helmet",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Lost Diver Chest",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Lost Diver Greaves",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Lost Diver Trophy",
+      "Chance": "10%"
+    },
+    {
+      "Name": "Retaliatory Tendril"
+    },
+    {
+      "Name": "Gold Coin",
+      "Amount": 60,
+      "LinkOverride": "https://terraria.wiki.gg/wiki/Gold_Coin",
+      "ImageOverride": ""
+    },
+    {
+      "Name": "Plague Texan Set",
+      "Chance": "3.125%"
+    },
+    {
+      "Name": "Chee Set",
+      "Chance": "3.125%"
+    }
+  ],
+  "Source": "<a is=a-link image=$fromStats>Mildew Carrion</a> Drop on <a is=a-link href=https://terraria.wiki.gg/wiki/Expert_Mode>Expert Mode<a/>",
+  "DropSources": [
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Expert"
+    },
+    {
+      "Name": "<a is=a-link image=$fromStats>Mildew Carrion</a>",
+      "Rate": 1.0,
+      "Max": 1,
+      "Min": 1,
+      "Difficulty": "Master",
+      "Notes": "This is an Expert Mode drop rate"
+    }
+  ],
+  "SpriteWidth": 32,
+  "InternalName": "Lost_Diver_Bag"
+}
