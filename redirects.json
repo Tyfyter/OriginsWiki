@@ -1,7 +1,8 @@
 {
     "Abysswalker_Helmet":"Abysswalker_Armor",
     "Abysswalker_Breastplate":"Abysswalker_Armor",
-    "Abysswalker_Greaves":"Abysswalker_Armor",
+  "Abysswalker_Greaves": "Abysswalker_Armor",
+    "Acrid_Visor":  "Acrid_Armor",
     "Acrid_Helmet":"Acrid_Armor",
     "Acrid_Headgear":"Acrid_Armor",
     "Acrid_Mask":"Acrid_Armor",
@@ -128,5 +129,7 @@
     "Underground_Defiled_Desert":"Defiled_Wastelands",
     "Static_Shock": "Static_Shock_(Buff)",
     "Switchblade_Shortsword": "Switchblade",
-    "Vorpal_Sword_(Cursed)":  "Vorpal_Sword"
+    "Vorpal_Sword_(Cursed)":  "Vorpal_Sword",
+    "Outreach": "Soldering_Iron",
+    "Mildew_Carrion": "Lost_Diver" 
 }
