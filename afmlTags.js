@@ -1376,3 +1376,24 @@ class AFMLBestiaryQuote extends HTMLElement {
 	}
 }
 customElements.define("a-bestiarytrivia", AFMLBestiaryQuote);
+
+class AFMLWiggle extends HTMLElement {
+	static observedAttributes = [];
+	constructor() {
+		// Always call super first in constructor
+		super();
+	}
+	connectedCallback() {
+		let text = this.textContent;
+		this.textContent = "";
+		for (let i = 0; i < text.length; i++) {
+			let char = text[i];
+			if (char == ' ') char = '&#8200;';
+			this.createChild('span', char, ['style', `--index: ${i};`]);
+		}
+	}
+	attributeChangedCallback(name, oldValue, newValue) {
+
+	}
+}
+customElements.define("a-wiggle", AFMLWiggle);
